@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "aa37e9d1f047ac12ee1ed601ef0433bd49d482f9",
+    "commitTimestamp": "2025-11-16T08:41:05Z",
+    "commitMessage": "test(e2e): add dev client overlay coverage (#6587)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269/job/55513377448"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269/job/55513377450"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269/job/55513377451"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269/job/55513377452"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269/job/55513377453"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19403022269/job/55513377468"
+      }
+    ]
+  },
+  {
     "commitSha": "e61a070c0c194e844db71586deb868bbd3654cba",
     "commitTimestamp": "2025-11-16T08:20:58Z",
     "commitMessage": "docs: align config JSDoc defaults with docs (#6590)",
