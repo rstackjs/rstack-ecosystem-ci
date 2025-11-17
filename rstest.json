@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "fdb0bec4e3b93e6b4b8a5f04711869998cf297bf",
+    "commitTimestamp": "2025-11-17T09:56:24Z",
+    "commitMessage": "docs: use rspress new UI (#697)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19425504046",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19425504046/job/55571927767"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19425504046/job/55571927797"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19425504046/job/55571927805"
+      }
+    ]
+  },
+  {
     "commitSha": "fb194b1ad87aa7f6f5af335c30214653dd19ccff",
     "commitTimestamp": "2025-11-17T03:08:06Z",
     "commitMessage": "chore: update vscode extension build script (#696)",
