@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4e7217f6408328b56cacf55bc70696e0adc0dda1",
+    "commitTimestamp": "2025-11-17T03:56:29Z",
+    "commitMessage": "chore(deps): update dependency @microsoft/api-extractor to ^7.55.0 (#2767)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417879480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417879480/job/55549751744"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417879480/job/55549751745"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417879480/job/55549751761"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417879480/job/55549751762"
+      }
+    ]
+  },
+  {
     "commitSha": "0e331eb3a5cf4464ff0d852514ed2445704d857e",
     "commitTimestamp": "2025-11-17T03:27:05Z",
     "commitMessage": "chore(deps): update all patch dependencies (#2766)",
