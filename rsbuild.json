@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "13578efab56d01b5f0caa81146571c71c8e05aaf",
+    "commitTimestamp": "2025-11-17T05:48:35Z",
+    "commitMessage": "chore(deps): update dependency @types/node to ^24.10.1 (#6595)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669/job/55554796929"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669/job/55554796931"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669/job/55554796932"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669/job/55554796933"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669/job/55554796937"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419784669/job/55554796943"
+      }
+    ]
+  },
+  {
     "commitSha": "aa37e9d1f047ac12ee1ed601ef0433bd49d482f9",
     "commitTimestamp": "2025-11-16T08:41:05Z",
     "commitMessage": "test(e2e): add dev client overlay coverage (#6587)",
