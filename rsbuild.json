@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b36e72176c741c184c7a0fa79943b2a6c80b0928",
+    "commitTimestamp": "2025-11-17T06:09:20Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#6594)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560/job/55555826415"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560/job/55555826418"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560/job/55555826420"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560/job/55555826427"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560/job/55555826436"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19420151560/job/55555826449"
+      }
+    ]
+  },
+  {
     "commitSha": "be0f16973f54ec16e9887d38cea7d82023fffb0d",
     "commitTimestamp": "2025-11-17T05:50:14Z",
     "commitMessage": "test(e2e): add strict port coverage (#6592)",
