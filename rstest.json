@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "fb194b1ad87aa7f6f5af335c30214653dd19ccff",
+    "commitTimestamp": "2025-11-17T03:08:06Z",
+    "commitMessage": "chore: update vscode extension build script (#696)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417110244",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417110244/job/55547413101"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417110244/job/55547413112"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417110244/job/55547413115"
+      }
+    ]
+  },
+  {
     "commitSha": "7c0c11263d1113d8c2d3aad3015ff566bd4af209",
     "commitTimestamp": "2025-11-14T08:02:03Z",
     "commitMessage": "feat(vscode): communicate with worker using ipc instead of websocket (#691)",
