@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d366a749e37c695f953645fd458d86e16c18c956",
+    "commitTimestamp": "2025-11-17T03:57:16Z",
+    "commitMessage": "chore(deps): update dependency memfs to ^4.51.0 (#2769)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417892194",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417892194/job/55549788217"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417892194/job/55549788218"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417892194/job/55549788220"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417892194/job/55549788225"
+      }
+    ]
+  },
+  {
     "commitSha": "8ae1f376d8d0dc405dec00def5d66361c23d887a",
     "commitTimestamp": "2025-11-17T03:56:56Z",
     "commitMessage": "chore(deps): update dependency cspell to ^9.3.2 (#2768)",
