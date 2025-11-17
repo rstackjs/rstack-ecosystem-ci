@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be0f16973f54ec16e9887d38cea7d82023fffb0d",
+    "commitTimestamp": "2025-11-17T05:50:14Z",
+    "commitMessage": "test(e2e): add strict port coverage (#6592)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254/job/55554867529"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254/job/55554867535"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254/job/55554867537"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254/job/55554867538"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254/job/55554867543"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19419812254/job/55554867549"
+      }
+    ]
+  },
+  {
     "commitSha": "13578efab56d01b5f0caa81146571c71c8e05aaf",
     "commitTimestamp": "2025-11-17T05:48:35Z",
     "commitMessage": "chore(deps): update dependency @types/node to ^24.10.1 (#6595)",
