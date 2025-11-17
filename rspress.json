@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0e331eb3a5cf4464ff0d852514ed2445704d857e",
+    "commitTimestamp": "2025-11-17T03:27:05Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2766)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417416128",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417416128/job/55548283637"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417416128/job/55548283643"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417416128/job/55548283653"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417416128/job/55548283663"
+      }
+    ]
+  },
+  {
     "commitSha": "29aff8559e7e0d6a91eeb4936be01ed3e449934d",
     "commitTimestamp": "2025-11-14T08:42:22Z",
     "commitMessage": "chore(mdx): revert containerSynatx unknown types error (#2764)",
