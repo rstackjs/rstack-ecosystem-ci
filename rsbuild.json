@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "24972908973d8f51ad666794faf300cdc6aaf47b",
+    "commitTimestamp": "2025-11-17T06:54:44Z",
+    "commitMessage": "docs(website): fix edit page link config (#6596)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868/job/55558314357"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868/job/55558314358"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868/job/55558314359"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868/job/55558314360"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868/job/55558314364"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19421053868/job/55558314370"
+      }
+    ]
+  },
+  {
     "commitSha": "437dfb6846ac5da844e1731780fe86fc45b57365",
     "commitTimestamp": "2025-11-17T06:30:01Z",
     "commitMessage": "refactor: simplify build dependencies merging (#6593)",
