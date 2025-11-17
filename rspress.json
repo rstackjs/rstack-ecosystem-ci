@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1d9544a2b95483e0e368128b7700e8444459ecb4",
+    "commitTimestamp": "2025-11-17T09:19:30Z",
+    "commitMessage": "Release v2.0.0-rc.0 (#2756)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19424484316",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19424484316/job/55568685827"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19424484316/job/55568685837"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19424484316/job/55568685855"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19424484316/job/55568685869"
+      }
+    ]
+  },
+  {
     "commitSha": "dab4406dcfe02bce36fbd8b57687ee7a69394ee6",
     "commitTimestamp": "2025-11-17T04:09:56Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to v0.17.2 (#2760)",
