@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "dab4406dcfe02bce36fbd8b57687ee7a69394ee6",
+    "commitTimestamp": "2025-11-17T04:09:56Z",
+    "commitMessage": "chore(deps): update dependency @rslib/core to v0.17.2 (#2760)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19418104451",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19418104451/job/55550357569"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19418104451/job/55550357574"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19418104451/job/55550357575"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19418104451/job/55550357576"
+      }
+    ]
+  },
+  {
     "commitSha": "d366a749e37c695f953645fd458d86e16c18c956",
     "commitTimestamp": "2025-11-17T03:57:16Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.51.0 (#2769)",
