@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3ea0364be181d84ae7f94e80937b49bcc5126e92",
+    "commitTimestamp": "2025-11-17T03:26:23Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1338)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417404558",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417404558/job/55548250659"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417404558/job/55548250667"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417404558/job/55548250673"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417404558/job/55548250676"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19417404558/job/55548250680"
+      }
+    ]
+  },
+  {
     "commitSha": "056432d9071bbc46bf71823afe91e39b8111b3a1",
     "commitTimestamp": "2025-11-14T08:51:14Z",
     "commitMessage": "feat: enable buildCache by default (#1334)",
