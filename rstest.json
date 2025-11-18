@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "da29d6c912a04ac7a40462170b0c79a658f8aa29",
+    "commitTimestamp": "2025-11-18T06:26:19Z",
+    "commitMessage": "docs: update doc ui (#699)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456469705",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456469705/job/55671250045"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456469705/job/55671250063"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456469705/job/55671250195"
+      }
+    ]
+  },
+  {
     "commitSha": "fdb0bec4e3b93e6b4b8a5f04711869998cf297bf",
     "commitTimestamp": "2025-11-17T09:56:24Z",
     "commitMessage": "docs: use rspress new UI (#697)",
