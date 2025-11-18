@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "01daa7dbd635c1d2a867a6cb19fd314cf0dd59dc",
+    "commitTimestamp": "2025-11-18T09:28:09Z",
+    "commitMessage": "feat: support get runtime config via `rs.getConfig` API (#701)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460989404",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460989404/job/55684889972"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460989404/job/55684889973"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460989404/job/55684889974"
+      }
+    ]
+  },
+  {
     "commitSha": "da29d6c912a04ac7a40462170b0c79a658f8aa29",
     "commitTimestamp": "2025-11-18T06:26:19Z",
     "commitMessage": "docs: update doc ui (#699)",
