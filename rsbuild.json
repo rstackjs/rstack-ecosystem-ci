@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "111b2571f6d9962a4e04c0fb2fee6d817477a352",
+    "commitTimestamp": "2025-11-18T02:55:52Z",
+    "commitMessage": "chore(deps): update dependency @rslib/core to v0.18.0 (#6599)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773/job/55659574417"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773/job/55659574421"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773/job/55659574422"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773/job/55659574423"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773/job/55659574424"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19452390773/job/55659574426"
+      }
+    ]
+  },
+  {
     "commitSha": "56833de77792771141afadae82da2c44f48dd09c",
     "commitTimestamp": "2025-11-17T07:58:42Z",
     "commitMessage": "docs: update section headers (#6597)",
