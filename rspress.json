@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8fd1e587b9a0a220fe2d4264c755fd28dd930274",
+    "commitTimestamp": "2025-11-18T12:07:33Z",
+    "commitMessage": "fix(theme): scroll should work in afterNav  (#2779)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465600651",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465600651/job/55699754271"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465600651/job/55699754289"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465600651/job/55699754298"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465600651/job/55699754312"
+      }
+    ]
+  },
+  {
     "commitSha": "b5f73cd3579949d6552d10589843e4925736da34",
     "commitTimestamp": "2025-11-18T12:01:54Z",
     "commitMessage": "feat(theme): add transition isPending UI to Sidebar (#2778)",
