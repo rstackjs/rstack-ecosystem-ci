@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "15a5de6c7429cfc57911d8f159d4ac83207a83e1",
+    "commitTimestamp": "2025-11-18T04:58:49Z",
+    "commitMessage": "docs: remove HomeBackground and navTransparent hack (#6601)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825/job/55666314246"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825/job/55666314247"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825/job/55666314249"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825/job/55666314251"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825/job/55666314255"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19454701825/job/55666314256"
+      }
+    ]
+  },
+  {
     "commitSha": "111b2571f6d9962a4e04c0fb2fee6d817477a352",
     "commitTimestamp": "2025-11-18T02:55:52Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to v0.18.0 (#6599)",
