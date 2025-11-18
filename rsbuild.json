@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7747018b5f78d6b42ec1dfe3d1152994ae8afa36",
+    "commitTimestamp": "2025-11-18T12:01:56Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.4 (#6605)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579/job/55699296133"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579/job/55699296134"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579/job/55699296136"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579/job/55699296148"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579/job/55699296159"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19465461579/job/55699296190"
+      }
+    ]
+  },
+  {
     "commitSha": "adccef106a75a019e53afd22aa1aece532d488e7",
     "commitTimestamp": "2025-11-18T08:22:17Z",
     "commitMessage": "fix: update hmr import paths to include .js extension (#6603)",
