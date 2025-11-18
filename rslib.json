@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "f73127457d416c4f390ce218279764cd0ddbe44e",
+    "commitTimestamp": "2025-11-18T05:53:16Z",
+    "commitMessage": "fix(dts): gracefully shutdown when panic (#1343)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19455760822",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19455760822/job/55669211805"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19455760822/job/55669211809"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19455760822/job/55669211814"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19455760822/job/55669211817"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19455760822/job/55669211819"
+      }
+    ]
+  },
+  {
     "commitSha": "bc07f4d1c247b0a7b19225feb9feb0f459f06bb5",
     "commitTimestamp": "2025-11-18T04:59:09Z",
     "commitMessage": "docs: refactor section headers (#1342)",
