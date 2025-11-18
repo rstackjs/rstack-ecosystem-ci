@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "f0b9f45179f23036652e9e991e5048a57ac7d593",
+    "commitTimestamp": "2025-11-18T09:19:00Z",
+    "commitMessage": "test: fix flaky watching file cases (#1345)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460811192",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460811192/job/55684317041"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460811192/job/55684317047"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460811192/job/55684317048"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460811192/job/55684317054"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19460811192/job/55684317059"
+      }
+    ]
+  },
+  {
     "commitSha": "0ee84162a5131adcdd6afd9203902a051334121b",
     "commitTimestamp": "2025-11-18T06:22:10Z",
     "commitMessage": "docs: remove HomeBackground and navTransparent hack (#1344)",
