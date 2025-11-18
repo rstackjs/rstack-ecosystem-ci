@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "adccef106a75a019e53afd22aa1aece532d488e7",
+    "commitTimestamp": "2025-11-18T08:22:17Z",
+    "commitMessage": "fix: update hmr import paths to include .js extension (#6603)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304/job/55678940115"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304/job/55678940119"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304/job/55678940129"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304/job/55678940132"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304/job/55678940135"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19459106304/job/55678940162"
+      }
+    ]
+  },
+  {
     "commitSha": "3e60bc093e2f5524f491c001f82b890d6816023c",
     "commitTimestamp": "2025-11-18T07:17:04Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.51.0 (#6600)",
