@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f18dc531065bc569c294281bda9c0c4964a167eb",
+    "commitTimestamp": "2025-11-18T06:57:59Z",
+    "commitMessage": "fix(entry): allow empty entry when module federation is used (#6602)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035/job/55673213408"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035/job/55673213414"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035/job/55673213417"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035/job/55673213422"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035/job/55673213428"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19457159035/job/55673213437"
+      }
+    ]
+  },
+  {
     "commitSha": "15a5de6c7429cfc57911d8f159d4ac83207a83e1",
     "commitTimestamp": "2025-11-18T04:58:49Z",
     "commitMessage": "docs: remove HomeBackground and navTransparent hack (#6601)",
