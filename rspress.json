@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bfc8cf0c5a1ce8b0308a1642116bf59f9b3c9d68",
+    "commitTimestamp": "2025-11-18T13:08:40Z",
+    "commitMessage": "fix(theme): line-height of SourceCode component (#2783)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19467323557",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19467323557/job/55705324080"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19467323557/job/55705324085"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19467323557/job/55705324101"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19467323557/job/55705324108"
+      }
+    ]
+  },
+  {
     "commitSha": "2380b4ff8409df30db860613ab1947e4421b4b4a",
     "commitTimestamp": "2025-11-18T12:10:26Z",
     "commitMessage": "chore(theme): NavScreenItem should handle external link (#2780)",
