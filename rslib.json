@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0ee84162a5131adcdd6afd9203902a051334121b",
+    "commitTimestamp": "2025-11-18T06:22:10Z",
+    "commitMessage": "docs: remove HomeBackground and navTransparent hack (#1344)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456351052",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456351052/job/55670927353"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456351052/job/55670927362"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456351052/job/55670927370"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456351052/job/55670927381"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19456351052/job/55670927393"
+      }
+    ]
+  },
+  {
     "commitSha": "f73127457d416c4f390ce218279764cd0ddbe44e",
     "commitTimestamp": "2025-11-18T05:53:16Z",
     "commitMessage": "fix(dts): gracefully shutdown when panic (#1343)",
