@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "de208738dc9dbc8fd998aaa8b65d7cae19be4b28",
+    "commitTimestamp": "2025-11-19T03:56:18Z",
+    "commitMessage": "feat(plugin-twoslash): Make it possible to configure compilerOptions for TypeScript in twoslash (#2773)",
+    "author": {
+      "name": "Yuki Karibayashi",
+      "email": "y.karibayashi@gmail.com",
+      "login": "Karibash"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489290976",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489290976/job/55778224665"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489290976/job/55778224667"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489290976/job/55778224670"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489290976/job/55778224676"
+      }
+    ]
+  },
+  {
     "commitSha": "6093b8394030afa3b1057385c3a535e292cb2a62",
     "commitTimestamp": "2025-11-19T03:44:26Z",
     "commitMessage": "fix(theme): adjust line-height of sidebar and outline (#2784)",
