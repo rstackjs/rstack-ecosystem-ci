@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ee653c3226542a5a0099281d4c1208a714c82376",
+    "commitTimestamp": "2025-11-19T09:33:41Z",
+    "commitMessage": "fix: use native plugin to handle hashbang and react directives (#1331)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19496572089",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19496572089/job/55800089672"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19496572089/job/55800089684"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19496572089/job/55800089693"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19496572089/job/55800089694"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19496572089/job/55800089701"
+      }
+    ]
+  },
+  {
     "commitSha": "db59c22c6d8326153f9a7f8597c3dd07f55e7f61",
     "commitTimestamp": "2025-11-19T06:35:14Z",
     "commitMessage": "chore(deps): update glob to solve security vulnerabilities (#1348)",
