@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "28adb3c8597819bf74a653ed95c605adca398192",
+    "commitTimestamp": "2025-11-19T06:19:50Z",
+    "commitMessage": "fix(theme): h2 gap and twoslash codeblock style (#2786)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491898426",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491898426/job/55785580669"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491898426/job/55785580681"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491898426/job/55785580687"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491898426/job/55785580695"
+      }
+    ]
+  },
+  {
     "commitSha": "c169b59e6e6669fcb8ac80c97f70910b18f3a86c",
     "commitTimestamp": "2025-11-19T04:08:47Z",
     "commitMessage": "chore(deps): update glob and rollup to solve security vulnerabilities (#2785)",
