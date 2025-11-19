@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "e144d74e55f7b77e0bf9ae62abb84890cf49b4e2",
+    "commitTimestamp": "2025-11-19T06:06:44Z",
+    "commitMessage": "fix: should load json file correctly (#702)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491615811",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491615811/job/55784759741"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491615811/job/55784759745"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19491615811/job/55784759758"
+      }
+    ]
+  },
+  {
     "commitSha": "2e16e3c9d98cd1d9613a7afdcb7e704e5a6f3c1f",
     "commitTimestamp": "2025-11-19T04:22:17Z",
     "commitMessage": "docs!: rename filename from camel to kebab (#705)",
