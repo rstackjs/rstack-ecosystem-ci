@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6093b8394030afa3b1057385c3a535e292cb2a62",
+    "commitTimestamp": "2025-11-19T03:44:26Z",
+    "commitMessage": "fix(theme): adjust line-height of sidebar and outline (#2784)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489034661",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489034661/job/55777500422"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489034661/job/55777500425"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489034661/job/55777500428"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489034661/job/55777500437"
+      }
+    ]
+  },
+  {
     "commitSha": "bfc8cf0c5a1ce8b0308a1642116bf59f9b3c9d68",
     "commitTimestamp": "2025-11-18T13:08:40Z",
     "commitMessage": "fix(theme): line-height of SourceCode component (#2783)",
