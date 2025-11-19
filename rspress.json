@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c169b59e6e6669fcb8ac80c97f70910b18f3a86c",
+    "commitTimestamp": "2025-11-19T04:08:47Z",
+    "commitMessage": "chore(deps): update glob and rollup to solve security vulnerabilities (#2785)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489469437",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489469437/job/55778730045"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489469437/job/55778730048"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489469437/job/55778730054"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489469437/job/55778730066"
+      }
+    ]
+  },
+  {
     "commitSha": "dbc89d82eddcf65ee07973a2888f5552c197ac75",
     "commitTimestamp": "2025-11-19T03:56:59Z",
     "commitMessage": "fix(theme): unused code (#2781)",
