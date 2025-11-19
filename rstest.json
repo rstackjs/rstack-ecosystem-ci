@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "2e16e3c9d98cd1d9613a7afdcb7e704e5a6f3c1f",
+    "commitTimestamp": "2025-11-19T04:22:17Z",
+    "commitMessage": "docs!: rename filename from camel to kebab (#705)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489732913",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489732913/job/55779485119"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489732913/job/55779485124"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489732913/job/55779485131"
+      }
+    ]
+  },
+  {
     "commitSha": "799e8e00a155391ec88e9db54e20ee24199056e1",
     "commitTimestamp": "2025-11-19T03:04:48Z",
     "commitMessage": "fix(vscode): correct icon path (#703)",
