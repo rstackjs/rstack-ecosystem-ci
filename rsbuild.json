@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b37faa88c1c513ddbe3361f6e94bf27091d4c5ab",
+    "commitTimestamp": "2025-11-19T01:54:44Z",
+    "commitMessage": "feat: improve build time printing (#6607)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178/job/55771283558"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178/job/55771283559"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178/job/55771283566"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178/job/55771283568"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178/job/55771283569"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19486997178/job/55771283576"
+      }
+    ]
+  },
+  {
     "commitSha": "38744e4949e7948c33f13be875da991b6b710af6",
     "commitTimestamp": "2025-11-18T13:36:51Z",
     "commitMessage": "release: v1.6.7 (#6606)",
