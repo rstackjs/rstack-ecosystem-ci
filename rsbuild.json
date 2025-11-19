@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5e5fbc0492100a24c3f4c20a22f63572dccaeeb9",
+    "commitTimestamp": "2025-11-19T07:47:28Z",
+    "commitMessage": "feat(plugin-api): add build time to environment compile hook (#6584)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615/job/55791187371"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615/job/55791187377"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615/job/55791187379"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615/job/55791187381"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615/job/55791187384"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19493810615/job/55791187386"
+      }
+    ]
+  },
+  {
     "commitSha": "6f23494af1e259643129f591da363c8320b09e22",
     "commitTimestamp": "2025-11-19T02:33:10Z",
     "commitMessage": "feat: improve build time logs with error state (#6608)",
