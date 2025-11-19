@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "8e3349b54243523926d44e4534f78f48767d65a5",
+    "commitTimestamp": "2025-11-19T09:01:00Z",
+    "commitMessage": "fix: suppress ESModulesLinkingError for exports that might be implemented in mock (#704)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19495639948",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19495639948/job/55797068682"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19495639948/job/55797068683"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19495639948/job/55797068693"
+      }
+    ]
+  },
+  {
     "commitSha": "e144d74e55f7b77e0bf9ae62abb84890cf49b4e2",
     "commitTimestamp": "2025-11-19T06:06:44Z",
     "commitMessage": "fix: should load json file correctly (#702)",
