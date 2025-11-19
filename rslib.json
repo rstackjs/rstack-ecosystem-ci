@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0c00d140d4cf899ad65c05576e86f26ad0b2f282",
+    "commitTimestamp": "2025-11-19T03:57:08Z",
+    "commitMessage": "chore(deps): update actions/checkout digest to 93cb6ef (#1347)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489286355",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489286355/job/55778212656"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489286355/job/55778212660"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489286355/job/55778212664"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489286355/job/55778212673"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19489286355/job/55778212680"
+      }
+    ]
+  },
+  {
     "commitSha": "5d95e2f58b53638ef9aa33308aed6f832ccb8c22",
     "commitTimestamp": "2025-11-19T03:37:19Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1346)",
