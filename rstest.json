@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "799e8e00a155391ec88e9db54e20ee24199056e1",
+    "commitTimestamp": "2025-11-19T03:04:48Z",
+    "commitMessage": "fix(vscode): correct icon path (#703)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19488320730",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19488320730/job/55775202673"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19488320730/job/55775202682"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19488320730/job/55775202689"
+      }
+    ]
+  },
+  {
     "commitSha": "01daa7dbd635c1d2a867a6cb19fd314cf0dd59dc",
     "commitTimestamp": "2025-11-18T09:28:09Z",
     "commitMessage": "feat: support get runtime config via `rs.getConfig` API (#701)",
