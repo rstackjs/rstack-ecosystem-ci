@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6f23494af1e259643129f591da363c8320b09e22",
+    "commitTimestamp": "2025-11-19T02:33:10Z",
+    "commitMessage": "feat: improve build time logs with error state (#6608)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624/job/55773427614"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624/job/55773427615"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624/job/55773427618"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624/job/55773427624"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624/job/55773427628"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19487738624/job/55773427639"
+      }
+    ]
+  },
+  {
     "commitSha": "b37faa88c1c513ddbe3361f6e94bf27091d4c5ab",
     "commitTimestamp": "2025-11-19T01:54:44Z",
     "commitMessage": "feat: improve build time printing (#6607)",
