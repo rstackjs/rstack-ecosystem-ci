@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "db59c22c6d8326153f9a7f8597c3dd07f55e7f61",
+    "commitTimestamp": "2025-11-19T06:35:14Z",
+    "commitMessage": "chore(deps): update glob to solve security vulnerabilities (#1348)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492231086",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492231086/job/55786523185"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492231086/job/55786523186"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492231086/job/55786523192"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492231086/job/55786523193"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492231086/job/55786523198"
+      }
+    ]
+  },
+  {
     "commitSha": "0c00d140d4cf899ad65c05576e86f26ad0b2f282",
     "commitTimestamp": "2025-11-19T03:57:08Z",
     "commitMessage": "chore(deps): update actions/checkout digest to 93cb6ef (#1347)",
