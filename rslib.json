@@ -43,6 +43,49 @@
     ]
   },
   {
+    "commitSha": "8bb3abcc09591a00a1652d5dc12dbeb6e91ef3a6",
+    "commitTimestamp": "2025-11-19T06:34:51Z",
+    "commitMessage": "test: recover assets with public path tests (#1349)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492217404",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492217404/job/55786484795"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492217404/job/55786484800"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492217404/job/55786484803"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492217404/job/55786484809"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19492217404/job/55786484826"
+      }
+    ]
+  },
+  {
     "commitSha": "0c00d140d4cf899ad65c05576e86f26ad0b2f282",
     "commitTimestamp": "2025-11-19T03:57:08Z",
     "commitMessage": "chore(deps): update actions/checkout digest to 93cb6ef (#1347)",
