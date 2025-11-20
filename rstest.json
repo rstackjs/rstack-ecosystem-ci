@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "0e69d9095300399bfc4e70b40dca11083e47de9a",
+    "commitTimestamp": "2025-11-20T07:12:39Z",
+    "commitMessage": "chore: update dts distPath to `dist/` (#710)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19528754010",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19528754010/job/55906768651"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19528754010/job/55906768661"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19528754010/job/55906768672"
+      }
+    ]
+  },
+  {
     "commitSha": "db13db08de57484857dcbdc922991601db136467",
     "commitTimestamp": "2025-11-20T04:08:04Z",
     "commitMessage": "docs: update titles and section headers (#709)",
