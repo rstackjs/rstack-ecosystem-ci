@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "69c35161749e44176438ca0406efebfe46d2d6b5",
+    "commitTimestamp": "2025-11-20T03:33:57Z",
+    "commitMessage": "fix: `describe.each` type error (#707)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524777896",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524777896/job/55895373888"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524777896/job/55895373890"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524777896/job/55895373892"
+      }
+    ]
+  },
+  {
     "commitSha": "8cd2fe47c262bedaff19f4e3037864b861667c11",
     "commitTimestamp": "2025-11-20T03:27:03Z",
     "commitMessage": "feat: support displaying slow-running tests (#706)",
