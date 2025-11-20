@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "05293c14fb342484e6731e30e38244bfb9da7abb",
+    "commitTimestamp": "2025-11-20T03:57:12Z",
+    "commitMessage": "release: 0.6.6 (#708)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19525092324",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19525092324/job/55896303689"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19525092324/job/55896303700"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19525092324/job/55896303730"
+      }
+    ]
+  },
+  {
     "commitSha": "69c35161749e44176438ca0406efebfe46d2d6b5",
     "commitTimestamp": "2025-11-20T03:33:57Z",
     "commitMessage": "fix: `describe.each` type error (#707)",
