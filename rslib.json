@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a98ed001b7ef36d677e549b7b7e5136695c2f522",
+    "commitTimestamp": "2025-11-20T09:31:03Z",
+    "commitMessage": "fix(create-rslib): use current package manager in templates (#1354)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19532125889",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19532125889/job/55917336257"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19532125889/job/55917336264"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19532125889/job/55917336289"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19532125889/job/55917336314"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19532125889/job/55917336446"
+      }
+    ]
+  },
+  {
     "commitSha": "6909167be16f82f5acb377c51c040fbcc4a54558",
     "commitTimestamp": "2025-11-20T09:03:49Z",
     "commitMessage": "fix: should only make entry doppelganger in non-advanced ESM (#1352)",
