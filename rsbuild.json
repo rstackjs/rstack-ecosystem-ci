@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c2d0e4ae29e3e54b305d49cd11448b5deb361aaf",
+    "commitTimestamp": "2025-11-20T01:58:53Z",
+    "commitMessage": "chore(deps): update dependency core-js to ~3.47.0 (#6609)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276/job/55889431830"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276/job/55889431833"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276/job/55889431835"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276/job/55889431856"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276/job/55889431861"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19522795276/job/55889431870"
+      }
+    ]
+  },
+  {
     "commitSha": "5e5fbc0492100a24c3f4c20a22f63572dccaeeb9",
     "commitTimestamp": "2025-11-19T07:47:28Z",
     "commitMessage": "feat(plugin-api): add build time to environment compile hook (#6584)",
