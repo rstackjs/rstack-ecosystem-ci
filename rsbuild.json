@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "06cf931b407d2c74d4f2d5741ee615e5ee1e820a",
+    "commitTimestamp": "2025-11-20T05:38:16Z",
+    "commitMessage": "fix(create-rsbuild): use current package manager in templates (#6612)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838/job/55901366012"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838/job/55901366014"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838/job/55901366029"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838/job/55901366032"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838/job/55901366040"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19526872838/job/55901366045"
+      }
+    ]
+  },
+  {
     "commitSha": "e1430c3de7f670413309bfd3a751bbb2efdf7767",
     "commitTimestamp": "2025-11-20T02:11:52Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6611)",
