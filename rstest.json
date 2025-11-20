@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "8cd2fe47c262bedaff19f4e3037864b861667c11",
+    "commitTimestamp": "2025-11-20T03:27:03Z",
+    "commitMessage": "feat: support displaying slow-running tests (#706)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524599796",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524599796/job/55894867337"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524599796/job/55894867342"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19524599796/job/55894867347"
+      }
+    ]
+  },
+  {
     "commitSha": "8e3349b54243523926d44e4534f78f48767d65a5",
     "commitTimestamp": "2025-11-19T09:01:00Z",
     "commitMessage": "fix: suppress ESModulesLinkingError for exports that might be implemented in mock (#704)",
