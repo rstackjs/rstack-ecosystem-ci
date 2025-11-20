@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ed57aade2261d9d6919cee04f959615e6115bb12",
+    "commitTimestamp": "2025-11-20T11:44:23Z",
+    "commitMessage": "fix(create-rslib): merge AGENTS.md in different tools (#1356)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19535745904",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19535745904/job/55929288829"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19535745904/job/55929288832"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19535745904/job/55929288838"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19535745904/job/55929288854"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19535745904/job/55929288855"
+      }
+    ]
+  },
+  {
     "commitSha": "a98ed001b7ef36d677e549b7b7e5136695c2f522",
     "commitTimestamp": "2025-11-20T09:31:03Z",
     "commitMessage": "fix(create-rslib): use current package manager in templates (#1354)",
