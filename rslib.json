@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1b509ead44835b2ec049075801cfc869ba341022",
+    "commitTimestamp": "2025-11-21T10:34:20Z",
+    "commitMessage": "fix: emit correct warning message when no entry found in bundleless mode (#1359)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19567750312",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19567750312/job/56033760474"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19567750312/job/56033760478"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19567750312/job/56033760485"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19567750312/job/56033760488"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19567750312/job/56033760495"
+      }
+    ]
+  },
+  {
     "commitSha": "b416002fb88203b36c700b54c580cb1fd70ef3ee",
     "commitTimestamp": "2025-11-21T08:27:48Z",
     "commitMessage": "chore(deps): update mf packages and rm unused packages in trustPolicyExclude (#1358)",
