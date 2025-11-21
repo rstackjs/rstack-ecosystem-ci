@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be24c5dc6d286ecfa64b50c84da99c1f18e858b6",
+    "commitTimestamp": "2025-11-21T07:25:43Z",
+    "commitMessage": "chore(deps): update module-federation to 0.21.5 and remove unused packages (#6624)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187/job/56019571685"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187/job/56019571688"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187/job/56019571693"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187/job/56019571695"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187/job/56019571712"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563246187/job/56019571719"
+      }
+    ]
+  },
+  {
     "commitSha": "f489dad7a35804cd65544ef030489c83ff4762b7",
     "commitTimestamp": "2025-11-21T03:26:22Z",
     "commitMessage": "test(e2e): improve test cases for postcss plugins (#6623)",
