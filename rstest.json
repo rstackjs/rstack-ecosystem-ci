@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "2b4662bfd0b71e4e33e7d59e9002d5bbe9ca8e2c",
+    "commitTimestamp": "2025-11-21T06:27:50Z",
+    "commitMessage": "fix: wasm file not found error (#677)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19562100871",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19562100871/job/56016308329"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19562100871/job/56016308339"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19562100871/job/56016308349"
+      }
+    ]
+  },
+  {
     "commitSha": "0e69d9095300399bfc4e70b40dca11083e47de9a",
     "commitTimestamp": "2025-11-20T07:12:39Z",
     "commitMessage": "chore: update dts distPath to `dist/` (#710)",
