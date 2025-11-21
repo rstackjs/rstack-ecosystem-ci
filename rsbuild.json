@@ -1,8 +1,8 @@
 [
   {
-    "commitSha": "0399a8394b8faba6c3c67c8aa5ffa8c382f3a134",
-    "commitTimestamp": "2025-11-21T01:45:49Z",
-    "commitMessage": "chore(deps): update dependency nano-staged to ^0.9.0 (#6618)",
+    "commitSha": "e8db19d484e5c7ea4e4c35a183e9bdfc4c1e5f21",
+    "commitTimestamp": "2025-11-21T01:46:32Z",
+    "commitMessage": "chore(deps): update actions/checkout action to v6 (#6619)",
     "author": {
       "name": "renovate[bot]",
       "email": "29139614+renovate[bot]@users.noreply.github.com",
@@ -12,38 +12,38 @@
       "fullName": "web-infra-dev/rsbuild",
       "name": "rsbuild"
     },
-    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073",
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169",
     "overallStatus": "failure",
     "suites": [
       {
-        "name": "rstest",
+        "name": "rslib",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073/job/56001973651"
-      },
-      {
-        "name": "plugins",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073/job/56001973670"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169/job/56002006554"
       },
       {
         "name": "rspress",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073/job/56001973673"
-      },
-      {
-        "name": "modernjs",
-        "status": "failure",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073/job/56001973684"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073/job/56001973686"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169/job/56002006556"
       },
       {
         "name": "examples",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557196073/job/56001973709"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169/job/56002006561"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169/job/56002006565"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169/job/56002006567"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557208169/job/56002006568"
       }
     ]
   },
