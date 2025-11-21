@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f489dad7a35804cd65544ef030489c83ff4762b7",
+    "commitTimestamp": "2025-11-21T03:26:22Z",
+    "commitMessage": "test(e2e): improve test cases for postcss plugins (#6623)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191/job/56007326137"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191/job/56007326141"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191/job/56007326153"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191/job/56007326154"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191/job/56007326156"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19558955191/job/56007326163"
+      }
+    ]
+  },
+  {
     "commitSha": "71a94b72d10233e5142778ddc666df516b5d8aa6",
     "commitTimestamp": "2025-11-21T02:23:48Z",
     "commitMessage": "feat: add order option to control PostCSS plugin insertion position (#6622)",
