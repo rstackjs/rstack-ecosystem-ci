@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "733a61a4e5f2d5569cbdba69fa1e8bc9978b0e44",
+    "commitTimestamp": "2025-11-21T01:48:24Z",
+    "commitMessage": "fix: improve browserslist cache key (#6620)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454/job/56002146211"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454/job/56002146213"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454/job/56002146215"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454/job/56002146218"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454/job/56002146222"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557255454/job/56002146224"
+      }
+    ]
+  },
+  {
     "commitSha": "e8db19d484e5c7ea4e4c35a183e9bdfc4c1e5f21",
     "commitTimestamp": "2025-11-21T01:46:32Z",
     "commitMessage": "chore(deps): update actions/checkout action to v6 (#6619)",
