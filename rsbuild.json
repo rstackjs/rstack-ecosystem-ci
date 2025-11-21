@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "71a94b72d10233e5142778ddc666df516b5d8aa6",
+    "commitTimestamp": "2025-11-21T02:23:48Z",
+    "commitMessage": "feat: add order option to control PostCSS plugin insertion position (#6622)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892/job/56003869451"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892/job/56003869454"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892/job/56003869455"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892/job/56003869457"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892/job/56003869462"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19557864892/job/56003869473"
+      }
+    ]
+  },
+  {
     "commitSha": "733a61a4e5f2d5569cbdba69fa1e8bc9978b0e44",
     "commitTimestamp": "2025-11-21T01:48:24Z",
     "commitMessage": "fix: improve browserslist cache key (#6620)",
