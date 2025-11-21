@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b416002fb88203b36c700b54c580cb1fd70ef3ee",
+    "commitTimestamp": "2025-11-21T08:27:48Z",
+    "commitMessage": "chore(deps): update mf packages and rm unused packages in trustPolicyExclude (#1358)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564573561",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564573561/job/56023516604"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564573561/job/56023516607"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564573561/job/56023516632"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564573561/job/56023516636"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564573561/job/56023516642"
+      }
+    ]
+  },
+  {
     "commitSha": "fd4a7c4366f805ae3016703d68b9d89d5a120ff0",
     "commitTimestamp": "2025-11-21T08:05:49Z",
     "commitMessage": "chore(deps): update actions/checkout action to v6 (#1357)",
