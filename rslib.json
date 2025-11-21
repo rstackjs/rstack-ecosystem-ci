@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fd4a7c4366f805ae3016703d68b9d89d5a120ff0",
+    "commitTimestamp": "2025-11-21T08:05:49Z",
+    "commitMessage": "chore(deps): update actions/checkout action to v6 (#1357)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564064256",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564064256/job/56021964525"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564064256/job/56021964529"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564064256/job/56021964533"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564064256/job/56021964541"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19564064256/job/56021964548"
+      }
+    ]
+  },
+  {
     "commitSha": "ed57aade2261d9d6919cee04f959615e6115bb12",
     "commitTimestamp": "2025-11-20T11:44:23Z",
     "commitMessage": "fix(create-rslib): merge AGENTS.md in different tools (#1356)",
