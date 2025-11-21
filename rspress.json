@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e76258a3eae5115d9cf3de64e951cea05510dfc9",
+    "commitTimestamp": "2025-11-21T07:55:49Z",
+    "commitMessage": "chore(deps)!: update dependency react-router-dom to v7 (#1802)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563851253",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563851253/job/56021316001"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563851253/job/56021316004"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563851253/job/56021316007"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19563851253/job/56021316010"
+      }
+    ]
+  },
+  {
     "commitSha": "f351def6c84a8cb9274d199e5c25e2c4cc151c09",
     "commitTimestamp": "2025-11-21T04:07:49Z",
     "commitMessage": "chore(theme/doc): add border to inline text code (#2796)",
