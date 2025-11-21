@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f351def6c84a8cb9274d199e5c25e2c4cc151c09",
+    "commitTimestamp": "2025-11-21T04:07:49Z",
+    "commitMessage": "chore(theme/doc): add border to inline text code (#2796)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19559648589",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19559648589/job/56009366415"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19559648589/job/56009366419"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19559648589/job/56009366427"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19559648589/job/56009366438"
+      }
+    ]
+  },
+  {
     "commitSha": "16aec3d3448c5913c4a064748927118668fe5fba",
     "commitTimestamp": "2025-11-20T11:51:17Z",
     "commitMessage": "fix(theme): table should be scrollable and startTransition should not be a html attribute (#2792)",
