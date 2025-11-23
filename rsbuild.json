@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5a7e35ee0c91e6373329b4f3d263bc1231f67271",
+    "commitTimestamp": "2025-11-23T09:15:37Z",
+    "commitMessage": "chore: remove unused getStatsAssetsOptions function (#6633)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248/job/56152001673"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248/job/56152001675"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248/job/56152001676"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248/job/56152001679"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248/job/56152001684"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608991248/job/56152001685"
+      }
+    ]
+  },
+  {
     "commitSha": "9da4e892bc4a0fcdf2d51576a78bf58c833ecfbb",
     "commitTimestamp": "2025-11-23T08:44:16Z",
     "commitMessage": "docs: add detailed JSDoc to manifest data types (#6632)",
