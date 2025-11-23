@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7b0b0833c8238273913bf45bef19322ea828c04a",
+    "commitTimestamp": "2025-11-23T05:38:20Z",
+    "commitMessage": "fix: improve error handling when loading addons failed (#6631)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678/job/56146429227"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678/job/56146429228"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678/job/56146429230"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678/job/56146429237"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678/job/56146429238"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606647678/job/56146429241"
+      }
+    ]
+  },
+  {
     "commitSha": "f944375a3e83926ff825f0274cfc93b429c95ada",
     "commitTimestamp": "2025-11-23T05:12:16Z",
     "commitMessage": "chore(deps): update dependency webpack to ^5.103.0 (#6628)",
