@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f944375a3e83926ff825f0274cfc93b429c95ada",
+    "commitTimestamp": "2025-11-23T05:12:16Z",
+    "commitMessage": "chore(deps): update dependency webpack to ^5.103.0 (#6628)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488/job/56145797677"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488/job/56145797688"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488/job/56145797690"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488/job/56145797693"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488/job/56145797698"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606361488/job/56145797703"
+      }
+    ]
+  },
+  {
     "commitSha": "7650f7d5c7582d463892bfa6ef2715ad874285b2",
     "commitTimestamp": "2025-11-23T05:00:07Z",
     "commitMessage": "fix: open base url when no routes are available (#6630)",
