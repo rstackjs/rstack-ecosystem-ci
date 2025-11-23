@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "106a48cbf7a2bbb9be90fff396fbba37a194fae9",
+    "commitTimestamp": "2025-11-23T00:10:10Z",
+    "commitMessage": "chore(deps): update dependency nx to ^22.1.1 (#6627)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531841"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531844"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531848"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531852"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531854"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531855"
+      }
+    ]
+  },
+  {
     "commitSha": "be24c5dc6d286ecfa64b50c84da99c1f18e858b6",
     "commitTimestamp": "2025-11-21T07:25:43Z",
     "commitMessage": "chore(deps): update module-federation to 0.21.5 and remove unused packages (#6624)",
