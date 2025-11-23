@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9da4e892bc4a0fcdf2d51576a78bf58c833ecfbb",
+    "commitTimestamp": "2025-11-23T08:44:16Z",
+    "commitMessage": "docs: add detailed JSDoc to manifest data types (#6632)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441/job/56151139807"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441/job/56151139808"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441/job/56151139812"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441/job/56151139818"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441/job/56151139819"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19608628441/job/56151139821"
+      }
+    ]
+  },
+  {
     "commitSha": "7b0b0833c8238273913bf45bef19322ea828c04a",
     "commitTimestamp": "2025-11-23T05:38:20Z",
     "commitMessage": "fix: improve error handling when loading addons failed (#6631)",
