@@ -1,49 +1,49 @@
 [
   {
-    "commitSha": "106a48cbf7a2bbb9be90fff396fbba37a194fae9",
-    "commitTimestamp": "2025-11-23T00:10:10Z",
-    "commitMessage": "chore(deps): update dependency nx to ^22.1.1 (#6627)",
+    "commitSha": "3e0cad15a9a8f1cf815a2599fe96a344813e59f4",
+    "commitTimestamp": "2025-11-23T00:10:35Z",
+    "commitMessage": "refactor: simplify helper used by the Node addons plugin (#6626)",
     "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
     },
     "repository": {
       "fullName": "web-infra-dev/rsbuild",
       "name": "rsbuild"
     },
-    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738",
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615",
     "overallStatus": "success",
     "suites": [
       {
         "name": "rslib",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531841"
-      },
-      {
-        "name": "rstest",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531844"
-      },
-      {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531848"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615/job/56137544989"
       },
       {
         "name": "plugins",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531852"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615/job/56137544992"
       },
       {
-        "name": "modernjs",
+        "name": "rspress",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531854"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615/job/56137544993"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615/job/56137544995"
       },
       {
         "name": "examples",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603138738/job/56137531855"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615/job/56137544997"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19603143615/job/56137544999"
       }
     ]
   },
