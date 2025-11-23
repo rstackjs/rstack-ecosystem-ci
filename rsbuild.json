@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7650f7d5c7582d463892bfa6ef2715ad874285b2",
+    "commitTimestamp": "2025-11-23T05:00:07Z",
+    "commitMessage": "fix: open base url when no routes are available (#6630)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410/job/56145437633"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410/job/56145437638"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410/job/56145437640"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410/job/56145437641"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410/job/56145437644"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19606203410/job/56145437645"
+      }
+    ]
+  },
+  {
     "commitSha": "3e0cad15a9a8f1cf815a2599fe96a344813e59f4",
     "commitTimestamp": "2025-11-23T00:10:35Z",
     "commitMessage": "refactor: simplify helper used by the Node addons plugin (#6626)",
