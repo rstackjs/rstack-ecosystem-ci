@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ce6630161471e12e25cd310530fdb7f522f2f324",
+    "commitTimestamp": "2025-11-24T03:02:07Z",
+    "commitMessage": "docs: update package manager command from beta to rc (#2800)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19621975732",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19621975732/job/56183741604"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19621975732/job/56183741605"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19621975732/job/56183741610"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19621975732/job/56183741612"
+      }
+    ]
+  },
+  {
     "commitSha": "e76258a3eae5115d9cf3de64e951cea05510dfc9",
     "commitTimestamp": "2025-11-21T07:55:49Z",
     "commitMessage": "chore(deps)!: update dependency react-router-dom to v7 (#1802)",
