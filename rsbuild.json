@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5878f78a79c022b270809c0817b33426822c1756",
+    "commitTimestamp": "2025-11-24T00:07:38Z",
+    "commitMessage": "feat: add integrity field to manifest when sri is enabled (#6634)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336/job/56176902473"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336/job/56176902479"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336/job/56176902484"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336/job/56176902489"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336/job/56176902491"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19619392336/job/56176902493"
+      }
+    ]
+  },
+  {
     "commitSha": "5a7e35ee0c91e6373329b4f3d263bc1231f67271",
     "commitTimestamp": "2025-11-23T09:15:37Z",
     "commitMessage": "chore: remove unused getStatsAssetsOptions function (#6633)",
