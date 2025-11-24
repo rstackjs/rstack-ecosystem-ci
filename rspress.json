@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f1cf3fd84349f30121589ac290f67163a432229e",
+    "commitTimestamp": "2025-11-24T09:28:57Z",
+    "commitMessage": "fix(theme): plugin-preview should hide the toc (#2803)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629481603",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629481603/job/56205579317"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629481603/job/56205579323"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629481603/job/56205579326"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629481603/job/56205579362"
+      }
+    ]
+  },
+  {
     "commitSha": "e4a85b918e47eb6cf200d7ff9850568b99f39dd5",
     "commitTimestamp": "2025-11-24T09:28:31Z",
     "commitMessage": "chore(infra): use @rslib/core preserveModules (#2805)",
