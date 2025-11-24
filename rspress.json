@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "42ce2c4a8a3a51458bb8e1a8e99382288feb4abd",
+    "commitTimestamp": "2025-11-24T05:31:13Z",
+    "commitMessage": "chore(deps): update actions/checkout digest to 34e1148 (#2798)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19624400667",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19624400667/job/56190477631"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19624400667/job/56190477636"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19624400667/job/56190477637"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19624400667/job/56190477642"
+      }
+    ]
+  },
+  {
     "commitSha": "ce6630161471e12e25cd310530fdb7f522f2f324",
     "commitTimestamp": "2025-11-24T03:02:07Z",
     "commitMessage": "docs: update package manager command from beta to rc (#2800)",
