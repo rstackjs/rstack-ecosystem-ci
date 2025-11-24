@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0a1fd713e0057967fb93f6bfa18eeba76be0383c",
+    "commitTimestamp": "2025-11-24T12:30:05Z",
+    "commitMessage": "fix: clean declaration maps before the build starts (#1363)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19634359000",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19634359000/job/56221383762"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19634359000/job/56221383787"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19634359000/job/56221383793"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19634359000/job/56221383802"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19634359000/job/56221383818"
+      }
+    ]
+  },
+  {
     "commitSha": "403b7094c43b1fb7139cd903d35588ea171cfcdd",
     "commitTimestamp": "2025-11-24T08:24:04Z",
     "commitMessage": "Release v0.18.1 (#1362)",
