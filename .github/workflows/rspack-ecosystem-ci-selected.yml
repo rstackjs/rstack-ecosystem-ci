@@ -45,6 +45,7 @@ on:
           - examples
           - devserver
           - plugin
+          - lynx-stack
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -64,7 +65,6 @@ on:
 jobs:
   get-runner-labels:
     name: Get Runner Labels
-    needs: create-comment
     uses: ./.github/workflows/get-runner-labels.yml
 
   prepare-binding:
@@ -97,19 +97,6 @@ jobs:
           --stack rspack
           --suite-${{ inputs.suiteRefType }} ${{ inputs.suiteRef }}
           ${{ inputs.suite }}
-      - if: always()
-        run: pnpm tsx discord-webhook.ts
-        env:
-          WORKFLOW_NAME: ci-selected-one
-          REF_TYPE: ${{ inputs.refType }}
-          REF: ${{ inputs.ref }}
-          REPO: ${{ inputs.repo }}
-          SUITE: ${{ inputs.suite }}
-          SUITE_REF_TYPE: ${{ inputs.suiteRefType }}
-          SUITE_REF: ${{ inputs.suiteRef }}
-          STATUS: ${{ job.status }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   execute-all:
     needs: [get-runner-labels, prepare-binding]
@@ -139,6 +126,8 @@ jobs:
             os: ubuntu-22.04
           - suite: plugin
             os: ubuntu-22.04
+          - suite: lynx-stack
+            os: ubuntu-22.04
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
@@ -155,16 +144,3 @@ jobs:
           run-suites
           --stack rspack
           ${{ matrix.suite }}
-      - if: always()
-        run: pnpm tsx discord-webhook.ts
-        env:
-          WORKFLOW_NAME: ci-selected-all
-          REF_TYPE: ${{ inputs.refType }}
-          REF: ${{ inputs.ref }}
-          REPO: ${{ inputs.repo }}
-          SUITE: ${{ matrix.suite }}
-          SUITE_REF_TYPE: ${{ inputs.suiteRefType }}
-          SUITE_REF: ${{ inputs.suiteRef }}
-          STATUS: ${{ job.status }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

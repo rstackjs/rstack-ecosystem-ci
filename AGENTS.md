@@ -17,3 +17,4 @@ Commits follow short, imperative subjects (≤72 chars), elaborating in the body
 
 ## Environment & Tooling Notes
 The runner exports `ECOSYSTEM_CI`, `TURBO_FORCE`, and memory-safe `NODE_OPTIONS`; avoid overriding them unless a suite explicitly requires it. Keep `workspace/` untracked, and never commit runtime artifacts. Remember that network-dependent steps may need explicit approval in restricted environments.
+`verdaccio.yaml` lives at repo root for rspack flows that publish locally; it writes under `workspace/`.

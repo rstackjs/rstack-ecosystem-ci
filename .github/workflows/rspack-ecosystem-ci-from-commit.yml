@@ -24,15 +24,19 @@ on:
         type: choice
         options:
           - "-"
+          - _selftest
           - modernjs
           # - nx
           - rspress
           - rslib
           - rstest
           - rsbuild
+          - rsdoctor
           - examples
           - devserver
+          - nuxt
           - plugin
+          - lynx-stack
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -114,6 +118,8 @@ jobs:
           - suite: nuxt
             os: ubuntu-22.04
           - suite: plugin
+            os: ubuntu-22.04
+          - suite: lynx-stack
             os: ubuntu-22.04
       fail-fast: false
     runs-on: ${{ matrix.os }}
