@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b57ebdd47a3199ed6703f29e99ee95314a2b3550",
+    "commitTimestamp": "2025-11-24T07:53:34Z",
+    "commitMessage": "fix: avoid treating scoped paths as globs (#6642)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600/job/56198138899"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600/job/56198138903"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600/job/56198138914"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600/job/56198138923"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600/job/56198138924"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627143600/job/56198138930"
+      }
+    ]
+  },
+  {
     "commitSha": "2c03790af6bfd99833159ffcce02c1f3d9b35e54",
     "commitTimestamp": "2025-11-24T01:45:28Z",
     "commitMessage": "release: v1.6.8 (#6640)",
