@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "403b7094c43b1fb7139cd903d35588ea171cfcdd",
+    "commitTimestamp": "2025-11-24T08:24:04Z",
+    "commitMessage": "Release v0.18.1 (#1362)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627813518",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627813518/job/56200261441"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627813518/job/56200261447"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627813518/job/56200261448"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627813518/job/56200261450"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627813518/job/56200261470"
+      }
+    ]
+  },
+  {
     "commitSha": "19d9f50a1007dfec01365db21f4eeebf9fef49f2",
     "commitTimestamp": "2025-11-24T06:33:47Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1361)",
