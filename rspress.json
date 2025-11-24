@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e4a85b918e47eb6cf200d7ff9850568b99f39dd5",
+    "commitTimestamp": "2025-11-24T09:28:31Z",
+    "commitMessage": "chore(infra): use @rslib/core preserveModules (#2805)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629466939",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629466939/job/56205532800"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629466939/job/56205532805"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629466939/job/56205532825"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19629466939/job/56205532834"
+      }
+    ]
+  },
+  {
     "commitSha": "84e750d076c0663ff21d5d8c7d2ea3783dfd3cec",
     "commitTimestamp": "2025-11-24T08:11:44Z",
     "commitMessage": "fix(theme): th width should be same with td (#2804)",
