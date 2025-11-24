@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "84e750d076c0663ff21d5d8c7d2ea3783dfd3cec",
+    "commitTimestamp": "2025-11-24T08:11:44Z",
+    "commitMessage": "fix(theme): th width should be same with td (#2804)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627526781",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627526781/job/56199353696"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627526781/job/56199353699"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627526781/job/56199353714"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19627526781/job/56199353715"
+      }
+    ]
+  },
+  {
     "commitSha": "65bfe3df9ff1d67989c1c1871f051dc23c3da096",
     "commitTimestamp": "2025-11-24T06:46:20Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to v0.18.0 (#2801)",
