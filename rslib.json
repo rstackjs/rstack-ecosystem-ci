@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "19d9f50a1007dfec01365db21f4eeebf9fef49f2",
+    "commitTimestamp": "2025-11-24T06:33:47Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1361)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19625510748",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19625510748/job/56193503789"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19625510748/job/56193503796"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19625510748/job/56193503799"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19625510748/job/56193503800"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19625510748/job/56193503804"
+      }
+    ]
+  },
+  {
     "commitSha": "1b509ead44835b2ec049075801cfc869ba341022",
     "commitTimestamp": "2025-11-21T10:34:20Z",
     "commitMessage": "fix: emit correct warning message when no entry found in bundleless mode (#1359)",
