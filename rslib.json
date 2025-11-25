@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "402b07768c07bee0e091c4617e4f1c9bbc5ac7a7",
+    "commitTimestamp": "2025-11-25T11:32:45Z",
+    "commitMessage": "chore(deps): bump Rsbuild 1.6.9 (#1366)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19668221321",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19668221321/job/56330273760"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19668221321/job/56330273765"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19668221321/job/56330273766"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19668221321/job/56330273767"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19668221321/job/56330273800"
+      }
+    ]
+  },
+  {
     "commitSha": "c18a3be2c519011314580807bba8e9cf8e638530",
     "commitTimestamp": "2025-11-25T11:26:22Z",
     "commitMessage": "feat: default exclude `@types/react` from dts bundle (#1365)",
