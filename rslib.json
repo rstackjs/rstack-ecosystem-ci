@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "85d4b54ba22e68cd8cccd7a971798d5dee4b7528",
+    "commitTimestamp": "2025-11-25T08:24:02Z",
+    "commitMessage": "test: refactor dts tests to split into multiple test files (#1364)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19662974722",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19662974722/job/56313114473"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19662974722/job/56313114474"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19662974722/job/56313114507"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19662974722/job/56313114518"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19662974722/job/56313114519"
+      }
+    ]
+  },
+  {
     "commitSha": "0a1fd713e0057967fb93f6bfa18eeba76be0383c",
     "commitTimestamp": "2025-11-24T12:30:05Z",
     "commitMessage": "fix: clean declaration maps before the build starts (#1363)",
