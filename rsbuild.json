@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3c1a682cac548fd4ff9f03768e304cf317d77403",
+    "commitTimestamp": "2025-11-25T05:50:56Z",
+    "commitMessage": "test(e2e): reorganize manifest related cases (#6644)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728/job/56303549269"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728/job/56303549271"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728/job/56303549283"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728/job/56303549295"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728/job/56303549299"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19659734728/job/56303549300"
+      }
+    ]
+  },
+  {
     "commitSha": "b57ebdd47a3199ed6703f29e99ee95314a2b3550",
     "commitTimestamp": "2025-11-24T07:53:34Z",
     "commitMessage": "fix: avoid treating scoped paths as globs (#6642)",
