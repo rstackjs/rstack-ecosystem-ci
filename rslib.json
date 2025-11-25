@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c18a3be2c519011314580807bba8e9cf8e638530",
+    "commitTimestamp": "2025-11-25T11:26:22Z",
+    "commitMessage": "feat: default exclude `@types/react` from dts bundle (#1365)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19667958892",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19667958892/job/56329405832"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19667958892/job/56329405848"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19667958892/job/56329405866"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19667958892/job/56329405872"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19667958892/job/56329405930"
+      }
+    ]
+  },
+  {
     "commitSha": "85d4b54ba22e68cd8cccd7a971798d5dee4b7528",
     "commitTimestamp": "2025-11-25T08:24:02Z",
     "commitMessage": "test: refactor dts tests to split into multiple test files (#1364)",
