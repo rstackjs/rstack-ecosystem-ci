@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "224a26da7d4497111dba920848edf4899d8b3edb",
+    "commitTimestamp": "2025-11-26T08:29:08Z",
+    "commitMessage": "feat(vscode): support workspaces and monorepo (#688)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697316564",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697316564/job/56425032778"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697316564/job/56425032786"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697316564/job/56425032795"
+      }
+    ]
+  },
+  {
     "commitSha": "2b4662bfd0b71e4e33e7d59e9002d5bbe9ca8e2c",
     "commitTimestamp": "2025-11-21T06:27:50Z",
     "commitMessage": "fix: wasm file not found error (#677)",
