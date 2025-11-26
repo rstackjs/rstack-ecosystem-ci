@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fa8f3cf51c514a9871d508ee2b02c79378237f79",
+    "commitTimestamp": "2025-11-26T08:48:16Z",
+    "commitMessage": "fix(theme/Sidebar): pass down `onClick` prop (#2811)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697781120",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697781120/job/56426495707"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697781120/job/56426495708"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697781120/job/56426495709"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19697781120/job/56426495739"
+      }
+    ]
+  },
+  {
     "commitSha": "f1cf3fd84349f30121589ac290f67163a432229e",
     "commitTimestamp": "2025-11-24T09:28:57Z",
     "commitMessage": "fix(theme): plugin-preview should hide the toc (#2803)",
