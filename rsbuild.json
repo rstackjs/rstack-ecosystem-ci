@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0f2349c8d23c74754104c752c6de83e5b94d190a",
+    "commitTimestamp": "2025-11-26T15:40:26Z",
+    "commitMessage": "chore: add ua-parser-js to trustPolicyExclude list (#6616)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352/job/56465351989"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352/job/56465352018"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352/job/56465352020"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352/job/56465352038"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352/job/56465352058"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19709346352/job/56465352089"
+      }
+    ]
+  },
+  {
     "commitSha": "7d102dbf1c5f5fe3ace5a78fb251a437cb9f731f",
     "commitTimestamp": "2025-11-26T02:23:56Z",
     "commitMessage": "chore(deps): bump Rslib v0.18.2 to fix panic issue in watch mode (#6649)",
