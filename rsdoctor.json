@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "24834f059efe21e0cc1bad9dc0592bad47dc69a1",
+    "commitTimestamp": "2025-11-26T12:28:43Z",
+    "commitMessage": "fix: module reasons when the module has layer (#1418)",
+    "author": {
+      "name": "yifancong",
+      "email": "easy_cong@126.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19703738046",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19703738046/job/56446032796"
+      }
+    ]
+  },
+  {
     "commitSha": "08d67e7350b5471a4fc80c4c70b6e4c7ded205cb",
     "commitTimestamp": "2025-11-20T06:31:25Z",
     "commitMessage": "feat: supprot rspack's resolver analysis (#1397)",
