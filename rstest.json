@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "c62b1625aacaac4b7720f801442bc31bdae2c2ad",
+    "commitTimestamp": "2025-11-26T09:19:57Z",
+    "commitMessage": "chore: support `--bail` without value (#716)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19698666841",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19698666841/job/56429321660"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19698666841/job/56429321661"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19698666841/job/56429321688"
+      }
+    ]
+  },
+  {
     "commitSha": "224a26da7d4497111dba920848edf4899d8b3edb",
     "commitTimestamp": "2025-11-26T08:29:08Z",
     "commitMessage": "feat(vscode): support workspaces and monorepo (#688)",
