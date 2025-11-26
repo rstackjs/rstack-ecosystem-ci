@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e91e0fd4d7adefe6851c23dfa8b4297baee41337",
+    "commitTimestamp": "2025-11-26T10:51:32Z",
+    "commitMessage": "feat(plugin-preview)!: simplify the usage via `tsx preview=\"iframe-fixed\"` and support hmr (#2806)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19701201237",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19701201237/job/56437655600"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19701201237/job/56437655614"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19701201237/job/56437655636"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19701201237/job/56437655638"
+      }
+    ]
+  },
+  {
     "commitSha": "fa8f3cf51c514a9871d508ee2b02c79378237f79",
     "commitTimestamp": "2025-11-26T08:48:16Z",
     "commitMessage": "fix(theme/Sidebar): pass down `onClick` prop (#2811)",
