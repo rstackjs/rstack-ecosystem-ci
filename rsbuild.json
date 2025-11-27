@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9afdb2346aa59219ab9c0b0bf3d883f9ca42aabd",
+    "commitTimestamp": "2025-11-27T02:16:39Z",
+    "commitMessage": "chore(deps): update dependency svelte to ^5.45.2 (#6652)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405/job/56509153081"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405/job/56509153084"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405/job/56509153085"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405/job/56509153091"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405/job/56509153093"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723084405/job/56509153101"
+      }
+    ]
+  },
+  {
     "commitSha": "0f2349c8d23c74754104c752c6de83e5b94d190a",
     "commitTimestamp": "2025-11-26T15:40:26Z",
     "commitMessage": "chore: add ua-parser-js to trustPolicyExclude list (#6616)",
