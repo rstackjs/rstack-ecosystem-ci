@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ad4d5ba1e32e38b34b7662b485cf46fd94d771e3",
+    "commitTimestamp": "2025-11-27T11:37:42Z",
+    "commitMessage": "feat(plugin-preview): should support dark mode (#2816)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19735007320",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19735007320/job/56544695924"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19735007320/job/56544695925"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19735007320/job/56544695939"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19735007320/job/56544695941"
+      }
+    ]
+  },
+  {
     "commitSha": "e91e0fd4d7adefe6851c23dfa8b4297baee41337",
     "commitTimestamp": "2025-11-26T10:51:32Z",
     "commitMessage": "feat(plugin-preview)!: simplify the usage via `tsx preview=\"iframe-fixed\"` and support hmr (#2806)",
