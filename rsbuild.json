@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dcb3b552ac313e2b388cb22dabe8d4510f6e314e",
+    "commitTimestamp": "2025-11-27T02:16:54Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.57.0 (#6653)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479/job/56509164889"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479/job/56509164892"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479/job/56509164898"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479/job/56509164899"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479/job/56509164903"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723088479/job/56509164905"
+      }
+    ]
+  },
+  {
     "commitSha": "9afdb2346aa59219ab9c0b0bf3d883f9ca42aabd",
     "commitTimestamp": "2025-11-27T02:16:39Z",
     "commitMessage": "chore(deps): update dependency svelte to ^5.45.2 (#6652)",
