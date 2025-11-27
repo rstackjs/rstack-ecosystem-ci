@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "0d2ef078e42ee1093a179a01863bae3a1b0fd2e0",
+    "commitTimestamp": "2025-11-27T07:55:04Z",
+    "commitMessage": "release: 0.6.7 (#721)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19729094921",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19729094921/job/56526045959"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19729094921/job/56526045969"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19729094921/job/56526045971"
+      }
+    ]
+  },
+  {
     "commitSha": "32fc3ad30501ff7df494472b63c51f008ecb6ac6",
     "commitTimestamp": "2025-11-27T02:59:40Z",
     "commitMessage": "chore(deps-dev): bump valibot from 1.1.0 to 1.2.0 (#719)",
