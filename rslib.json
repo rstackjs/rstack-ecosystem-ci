@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a6d71ddc43ab03a03a021c14d84d7d2c138c7f36",
+    "commitTimestamp": "2025-11-27T09:42:36Z",
+    "commitMessage": "feat(create-rslib): bump Storybook to v10 (#1309)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19731929533",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19731929533/job/56534751239"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19731929533/job/56534751245"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19731929533/job/56534751246"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19731929533/job/56534751251"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19731929533/job/56534751282"
+      }
+    ]
+  },
+  {
     "commitSha": "1933c3e31e0bd1af85948908f7ceaf9a54ecd625",
     "commitTimestamp": "2025-11-25T11:47:58Z",
     "commitMessage": "Release v0.18.2 (#1367)",
