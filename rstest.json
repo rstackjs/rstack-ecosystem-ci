@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "32fc3ad30501ff7df494472b63c51f008ecb6ac6",
+    "commitTimestamp": "2025-11-27T02:59:40Z",
+    "commitMessage": "chore(deps-dev): bump valibot from 1.1.0 to 1.2.0 (#719)",
+    "author": {
+      "name": "dependabot[bot]",
+      "email": "49699333+dependabot[bot]@users.noreply.github.com",
+      "login": "dependabot[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723770405",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723770405/job/56511130937"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723770405/job/56511130942"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19723770405/job/56511130944"
+      }
+    ]
+  },
+  {
     "commitSha": "c62b1625aacaac4b7720f801442bc31bdae2c2ad",
     "commitTimestamp": "2025-11-26T09:19:57Z",
     "commitMessage": "chore: support `--bail` without value (#716)",
