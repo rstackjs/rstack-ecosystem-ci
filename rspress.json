@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "509dbe23369ac6871a1ff345d0c9d1f405774b26",
+    "commitTimestamp": "2025-11-28T09:35:11Z",
+    "commitMessage": "chore(build): enable `redirect.dts.extension` to fix type issue (#2814)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759822755",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759822755/job/56618898219"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759822755/job/56618898224"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759822755/job/56618898239"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759822755/job/56618898247"
+      }
+    ]
+  },
+  {
     "commitSha": "992b4dc0379af10629514bca453638399b549807",
     "commitTimestamp": "2025-11-28T03:27:25Z",
     "commitMessage": "fix(plugin-twoslash): Make twoslashOptions optional (#2819)",
