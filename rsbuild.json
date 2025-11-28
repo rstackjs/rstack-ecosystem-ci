@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2ea5b2c6cd980f088770e70668fef06563453102",
+    "commitTimestamp": "2025-11-28T09:02:57Z",
+    "commitMessage": "fix: use sequential config generation to ensure deterministic results (#6661)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192/job/56616443900"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192/job/56616443910"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192/job/56616443930"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192/job/56616443932"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192/job/56616443936"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19759021192/job/56616443953"
+      }
+    ]
+  },
+  {
     "commitSha": "35e877ab7d28d3962ec0d79a1de2d92cc07b3afc",
     "commitTimestamp": "2025-11-28T08:47:41Z",
     "commitMessage": "feat: improve error overlay readability by enabling line wrapping (#6660)",
