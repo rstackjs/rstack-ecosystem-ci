@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "09a0328688d182b3ac7c7cf1873f9a31420fa7de",
+    "commitTimestamp": "2025-11-28T02:45:26Z",
+    "commitMessage": "chore(deps): update dependency prettier to ^3.7.1 (#6657)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971/job/56598157113"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971/job/56598157117"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971/job/56598157120"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971/job/56598157126"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971/job/56598157128"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19752607971/job/56598157132"
+      }
+    ]
+  },
+  {
     "commitSha": "fc174b0ed2803a140776a48ae8c8c7c3d3e7c1ab",
     "commitTimestamp": "2025-11-27T13:57:55Z",
     "commitMessage": "fix: prevent HMR configs from overlapping across environments (#6656)",
