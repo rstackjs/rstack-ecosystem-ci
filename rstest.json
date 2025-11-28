@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "6e4e814f84738d3e7ec15622b2d73e6caeef3f59",
+    "commitTimestamp": "2025-11-28T10:48:05Z",
+    "commitMessage": "feat: support nested projects (#723)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19761581069",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19761581069/job/56624540264"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19761581069/job/56624540299"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19761581069/job/56624540301"
+      }
+    ]
+  },
+  {
     "commitSha": "28cd856c3f6a1fe76d79f1816fb56bd71afe60d4",
     "commitTimestamp": "2025-11-28T03:19:46Z",
     "commitMessage": "feat: show relevant running tests when worker unexpectedly exited (#722)",
