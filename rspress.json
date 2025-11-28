@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "992b4dc0379af10629514bca453638399b549807",
+    "commitTimestamp": "2025-11-28T03:27:25Z",
+    "commitMessage": "fix(plugin-twoslash): Make twoslashOptions optional (#2819)",
+    "author": {
+      "name": "Yuki Karibayashi",
+      "email": "y.karibayashi@gmail.com",
+      "login": "Karibash"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753232857",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753232857/job/56600073019"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753232857/job/56600073021"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753232857/job/56600073023"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753232857/job/56600073029"
+      }
+    ]
+  },
+  {
     "commitSha": "ad4d5ba1e32e38b34b7662b485cf46fd94d771e3",
     "commitTimestamp": "2025-11-27T11:37:42Z",
     "commitMessage": "feat(plugin-preview): should support dark mode (#2816)",
