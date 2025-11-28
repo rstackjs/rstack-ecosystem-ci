@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "28cd856c3f6a1fe76d79f1816fb56bd71afe60d4",
+    "commitTimestamp": "2025-11-28T03:19:46Z",
+    "commitMessage": "feat: show relevant running tests when worker unexpectedly exited (#722)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753111003",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753111003/job/56599699956"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753111003/job/56599699972"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19753111003/job/56599700006"
+      }
+    ]
+  },
+  {
     "commitSha": "0d2ef078e42ee1093a179a01863bae3a1b0fd2e0",
     "commitTimestamp": "2025-11-27T07:55:04Z",
     "commitMessage": "release: 0.6.7 (#721)",
