@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "f87674d19e06820c5911e03b0387bbb6f4773951",
+    "commitTimestamp": "2025-11-28T12:18:47Z",
+    "commitMessage": "release: 0.6.8 (#725)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19763625929",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19763625929/job/56631144869"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19763625929/job/56631144883"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19763625929/job/56631144888"
+      }
+    ]
+  },
+  {
     "commitSha": "6e4e814f84738d3e7ec15622b2d73e6caeef3f59",
     "commitTimestamp": "2025-11-28T10:48:05Z",
     "commitMessage": "feat: support nested projects (#723)",
