@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "35e877ab7d28d3962ec0d79a1de2d92cc07b3afc",
+    "commitTimestamp": "2025-11-28T08:47:41Z",
+    "commitMessage": "feat: improve error overlay readability by enabling line wrapping (#6660)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817/job/56615332666"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817/job/56615332667"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817/job/56615332672"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817/job/56615332677"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817/job/56615332680"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19758670817/job/56615332725"
+      }
+    ]
+  },
+  {
     "commitSha": "fa2dda5abe875ff13f58deef68e9c8af39d53f65",
     "commitTimestamp": "2025-11-28T06:45:27Z",
     "commitMessage": "fix: handle status message in gzip middleware (#6659)",
