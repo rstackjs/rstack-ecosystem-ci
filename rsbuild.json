@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bb8998b4cfea5ec842eebdaf2eecad16dea66b57",
+    "commitTimestamp": "2025-11-29T00:57:48Z",
+    "commitMessage": "fix(overlay): skip converting node internal paths in error messages (#6662)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062/job/56670414850"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062/job/56670414851"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062/job/56670414854"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062/job/56670414857"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062/job/56670414858"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19776712062/job/56670414887"
+      }
+    ]
+  },
+  {
     "commitSha": "2ea5b2c6cd980f088770e70668fef06563453102",
     "commitTimestamp": "2025-11-28T09:02:57Z",
     "commitMessage": "fix: use sequential config generation to ensure deterministic results (#6661)",
