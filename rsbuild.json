@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2213e6f1a86f2688ccf24c0479d087aa825df5f8",
+    "commitTimestamp": "2025-11-29T08:59:06Z",
+    "commitMessage": "fix(overlay): replace file URI scheme (#6664)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565/job/56682855281"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565/job/56682855289"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565/job/56682855292"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565/job/56682855293"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565/job/56682855294"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19781727565/job/56682855296"
+      }
+    ]
+  },
+  {
     "commitSha": "bb8998b4cfea5ec842eebdaf2eecad16dea66b57",
     "commitTimestamp": "2025-11-29T00:57:48Z",
     "commitMessage": "fix(overlay): skip converting node internal paths in error messages (#6662)",
