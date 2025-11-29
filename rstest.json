@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "cb6c951f134f4fb1407210bd2592342cd8279749",
+    "commitTimestamp": "2025-11-29T02:04:15Z",
+    "commitMessage": "docs: add `projects` guide (#724)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19777439261",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19777439261/job/56672213179"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19777439261/job/56672213185"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19777439261/job/56672213192"
+      }
+    ]
+  },
+  {
     "commitSha": "f87674d19e06820c5911e03b0387bbb6f4773951",
     "commitTimestamp": "2025-11-28T12:18:47Z",
     "commitMessage": "release: 0.6.8 (#725)",
