@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a58960eeb76936f92ab91c03397650b122dff4de",
+    "commitTimestamp": "2025-11-29T12:31:18Z",
+    "commitMessage": "fix: add workaround for virtual modules build log (#6665)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949/job/56687758291"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949/job/56687758293"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949/job/56687758295"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949/job/56687758298"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949/job/56687758302"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19783905949/job/56687758303"
+      }
+    ]
+  },
+  {
     "commitSha": "2213e6f1a86f2688ccf24c0479d087aa825df5f8",
     "commitTimestamp": "2025-11-29T08:59:06Z",
     "commitMessage": "fix(overlay): replace file URI scheme (#6664)",
