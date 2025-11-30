@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "36800002b46c85ae9e1b6455c1c20771af91bc6e",
+    "commitTimestamp": "2025-11-30T01:25:20Z",
+    "commitMessage": "perf: lazy loading webpack-merge dependency (#6668)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275/job/56706304518"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275/job/56706304521"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275/job/56706304525"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275/job/56706304526"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275/job/56706304528"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791959275/job/56706304530"
+      }
+    ]
+  },
+  {
     "commitSha": "c10a9d8f475b181ddb9026a5f7610253fccc7efc",
     "commitTimestamp": "2025-11-30T01:05:14Z",
     "commitMessage": "fix: preserve status message in gzip middleware (#6663)",
