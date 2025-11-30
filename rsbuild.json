@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "5ea184a3502d405d6480333cda90c902c748bef2",
+    "commitTimestamp": "2025-11-30T01:04:50Z",
+    "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^3.17.0 (#6666)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016/job/56705812050"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016/job/56705812051"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016/job/56705812052"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016/job/56705812059"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016/job/56705812064"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791750016/job/56705812073"
+      }
+    ]
+  },
+  {
     "commitSha": "a01f5dcfdcd1220c57235a40dc927360490ffe79",
     "commitTimestamp": "2025-11-29T12:49:44Z",
     "commitMessage": "release: v1.6.10 (#6669)",
