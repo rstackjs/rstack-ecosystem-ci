@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c10a9d8f475b181ddb9026a5f7610253fccc7efc",
+    "commitTimestamp": "2025-11-30T01:05:14Z",
+    "commitMessage": "fix: preserve status message in gzip middleware (#6663)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659/job/56705853590"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659/job/56705853593"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659/job/56705853594"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659/job/56705853595"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659/job/56705853597"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19791767659/job/56705853600"
+      }
+    ]
+  },
+  {
     "commitSha": "cc65d5795912eb33b5b1d1aff98ea7f7617b3516",
     "commitTimestamp": "2025-11-30T01:05:04Z",
     "commitMessage": "chore(deps): update pnpm to v10.24.0 (#6667)",
