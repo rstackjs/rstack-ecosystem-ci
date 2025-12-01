@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "72a85124c75389b384cd05bdfc2cf4a10e722754",
+    "commitTimestamp": "2025-12-01T05:51:21Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1370)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19812761253",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19812761253/job/56758146909"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19812761253/job/56758146910"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19812761253/job/56758146913"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19812761253/job/56758146914"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19812761253/job/56758146916"
+      }
+    ]
+  },
+  {
     "commitSha": "a6d71ddc43ab03a03a021c14d84d7d2c138c7f36",
     "commitTimestamp": "2025-11-27T09:42:36Z",
     "commitMessage": "feat(create-rslib): bump Storybook to v10 (#1309)",
