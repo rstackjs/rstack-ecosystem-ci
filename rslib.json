@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "638dae6c73ba6f2d5ade0050269f5a173a22be4f",
+    "commitTimestamp": "2025-12-01T12:00:32Z",
+    "commitMessage": "fix: preserve original extension when extension redirection is disabled (#1369)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19821911457",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19821911457/job/56785973937"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19821911457/job/56785973947"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19821911457/job/56785973953"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19821911457/job/56785973955"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19821911457/job/56785974012"
+      }
+    ]
+  },
+  {
     "commitSha": "72a85124c75389b384cd05bdfc2cf4a10e722754",
     "commitTimestamp": "2025-12-01T05:51:21Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1370)",
