@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "34988b5e5149b4a913fa0acafe4faed908dfeb4b",
+    "commitTimestamp": "2025-12-01T10:19:33Z",
+    "commitMessage": "chore(deps): update dependency prettier to v3.7.3 (#2825)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19819201241",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19819201241/job/56777388363"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19819201241/job/56777388365"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19819201241/job/56777388374"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19819201241/job/56777388522"
+      }
+    ]
+  },
+  {
     "commitSha": "509dbe23369ac6871a1ff345d0c9d1f405774b26",
     "commitTimestamp": "2025-11-28T09:35:11Z",
     "commitMessage": "chore(build): enable `redirect.dts.extension` to fix type issue (#2814)",
