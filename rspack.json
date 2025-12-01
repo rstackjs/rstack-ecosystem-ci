@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "7c3506a01b620639ce7e27123b04bbdf1cad52e5",
+    "commitTimestamp": "2025-12-01T13:54:03Z",
+    "commitMessage": "chore(CI): replace the rspack diff demos (#12337)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/19825054767",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640155"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640165"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640171"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640176"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640182"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640189"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640194"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640198"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640199"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640202"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19825054767/job/56796640227"
+      }
+    ]
+  },
+  {
     "commitSha": "41783c7e9b0a4f3a1f8d62823a1caac97779f95f",
     "commitTimestamp": "2025-12-01T13:25:35Z",
     "commitMessage": "ci(ecosystem): do not need to clone ecosystem ci repo to sub folder (#12339)",
