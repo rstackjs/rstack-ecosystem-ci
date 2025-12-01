@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5d42a9aced6852c15a6942c52248937df0b04b6a",
+    "commitTimestamp": "2025-12-01T07:32:11Z",
+    "commitMessage": "test(diagnostic): add test case for type warnings in console (#6676)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980/job/56763875575"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980/job/56763875577"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980/job/56763875578"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980/job/56763875583"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980/job/56763875584"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19814848980/job/56763875587"
+      }
+    ]
+  },
+  {
     "commitSha": "14c42985eb15a1ce3b9d8d999eb0f03685be3cf0",
     "commitTimestamp": "2025-12-01T05:08:49Z",
     "commitMessage": "release: v1.6.11 (#6675)",
