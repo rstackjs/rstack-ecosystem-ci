@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "61af8574595d0d90880b68488ebe9a4013ae044b",
+    "commitTimestamp": "2025-12-01T04:12:34Z",
+    "commitMessage": "fix: failed to resolve Rsbuild client modules (#6674)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574/job/56753499139"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574/job/56753499140"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574/job/56753499143"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574/job/56753499158"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574/job/56753499167"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19811009574/job/56753499179"
+      }
+    ]
+  },
+  {
     "commitSha": "1c170904cdfcd393f59ea8b33c1dc8c021584363",
     "commitTimestamp": "2025-12-01T03:29:15Z",
     "commitMessage": "fix(core): send asynchronous warnings to the socketServer (#6671)",
