@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0a04fbd9e169f207f563a2ffcc52f1d24747f309",
+    "commitTimestamp": "2025-12-01T10:56:13Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2824)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19820215468",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19820215468/job/56780624597"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19820215468/job/56780624615"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19820215468/job/56780624624"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19820215468/job/56780624637"
+      }
+    ]
+  },
+  {
     "commitSha": "34988b5e5149b4a913fa0acafe4faed908dfeb4b",
     "commitTimestamp": "2025-12-01T10:19:33Z",
     "commitMessage": "chore(deps): update dependency prettier to v3.7.3 (#2825)",
