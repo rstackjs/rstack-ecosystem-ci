@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1c170904cdfcd393f59ea8b33c1dc8c021584363",
+    "commitTimestamp": "2025-12-01T03:29:15Z",
+    "commitMessage": "fix(core): send asynchronous warnings to the socketServer (#6671)",
+    "author": {
+      "name": "Alexander",
+      "email": "zalishchuk.me@gmail.com",
+      "login": "zalishchuk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955/job/56751215472"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955/job/56751215478"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955/job/56751215482"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955/job/56751215490"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955/job/56751215494"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19810270955/job/56751215497"
+      }
+    ]
+  },
+  {
     "commitSha": "c3915136ea4767413a1aebfda0cceff1ab92e8a6",
     "commitTimestamp": "2025-12-01T02:30:57Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6672)",
