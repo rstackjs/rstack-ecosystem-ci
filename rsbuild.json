@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bd495798d4af63604c2f0508950316cd213305d1",
+    "commitTimestamp": "2025-12-02T11:03:44Z",
+    "commitMessage": "feat: add option to disable asset prefix in manifest (#6681)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336/job/56895237538"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336/job/56895237549"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336/job/56895237554"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336/job/56895237556"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336/job/56895237557"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19856375336/job/56895237594"
+      }
+    ]
+  },
+  {
     "commitSha": "9b4b6f54494741debae21b5f44545ba57cb86ac0",
     "commitTimestamp": "2025-12-02T08:46:46Z",
     "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.6 (#6680)",
