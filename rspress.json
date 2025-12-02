@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f6baab9b147bcdb362b0f14898cb8ecc7170194d",
+    "commitTimestamp": "2025-12-02T10:46:34Z",
+    "commitMessage": "chore(theme): export `FallbackHeading` for reusing (#2813)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855914267",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855914267/job/56893671473"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855914267/job/56893671507"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855914267/job/56893671510"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855914267/job/56893671513"
+      }
+    ]
+  },
+  {
     "commitSha": "87d4897a7dffed99dc68405a7357121dfafadf16",
     "commitTimestamp": "2025-12-02T10:45:52Z",
     "commitMessage": "fix(ssg): wrong html selector for crawlers regression due to react@19.2.0 `progressiveChunkSize` change (#2831)",
