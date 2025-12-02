@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "27fb5aaea206f7ace08bddc7fbd16fd40cc35019",
+    "commitTimestamp": "2025-12-02T10:47:11Z",
+    "commitMessage": "chore: bump pnpm 10.24.0 and remove trust policy config (#2829)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855926792",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855926792/job/56893716637"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855926792/job/56893716647"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855926792/job/56893716666"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855926792/job/56893716714"
+      }
+    ]
+  },
+  {
     "commitSha": "f6baab9b147bcdb362b0f14898cb8ecc7170194d",
     "commitTimestamp": "2025-12-02T10:46:34Z",
     "commitMessage": "chore(theme): export `FallbackHeading` for reusing (#2813)",
