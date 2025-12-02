@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "5c0e4f52acdc025da56fa2b2173c287a7907ba9b",
+    "commitTimestamp": "2025-12-02T06:54:35Z",
+    "commitMessage": "fix: avoid conflict for inlined const identifier (#12347)",
+    "author": {
+      "name": "Gengkun",
+      "email": "ahabhgk@gmail.com",
+      "login": "ahabhgk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/19849953606",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863009"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863013"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863016"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863023"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863028"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863031"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863044"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863064"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863065"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863066"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19849953606/job/56874863082"
+      }
+    ]
+  },
+  {
     "commitSha": "9723c1b79092f892573bb3bb4ca35371149fc79e",
     "commitTimestamp": "2025-12-02T05:33:05Z",
     "commitMessage": "fix(diagnostic): dim gutter style for better visual hierarchy (#12341)",
