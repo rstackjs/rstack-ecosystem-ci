@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1fea10de754d679a3baf2b1690a99d8011b63b8c",
+    "commitTimestamp": "2025-12-02T11:43:33Z",
+    "commitMessage": "fix(dts): check for existence of target path when redirect extension (#1374)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19857442476",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19857442476/job/56898748612"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19857442476/job/56898748623"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19857442476/job/56898748625"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19857442476/job/56898748633"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19857442476/job/56898748663"
+      }
+    ]
+  },
+  {
     "commitSha": "c2df99cf5d46083d846cb5d94aa5323d0322d56d",
     "commitTimestamp": "2025-12-02T06:56:08Z",
     "commitMessage": "chore: remove pnpm trust policy (#1373)",
