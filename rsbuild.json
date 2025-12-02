@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "326a672e7527de272b96b867656ccb6a20c3c084",
+    "commitTimestamp": "2025-12-02T13:57:14Z",
+    "commitMessage": "release: v1.6.12 (#6684)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078/job/56911189155"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078/job/56911189159"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078/job/56911189162"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078/job/56911189172"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078/job/56911189173"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19861112078/job/56911189183"
+      }
+    ]
+  },
+  {
     "commitSha": "25892985c96015ffe2132af32a36a60d25cd1b2d",
     "commitTimestamp": "2025-12-02T13:10:06Z",
     "commitMessage": "chore(deps): update dependency preact to ^10.28.0 (#6683)",
