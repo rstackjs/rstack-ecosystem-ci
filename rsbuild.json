@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "25892985c96015ffe2132af32a36a60d25cd1b2d",
+    "commitTimestamp": "2025-12-02T13:10:06Z",
+    "commitMessage": "chore(deps): update dependency preact to ^10.28.0 (#6683)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254/job/56906504899"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254/job/56906504900"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254/job/56906504916"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254/job/56906504938"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254/job/56906504946"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19859750254/job/56906504995"
+      }
+    ]
+  },
+  {
     "commitSha": "bd495798d4af63604c2f0508950316cd213305d1",
     "commitTimestamp": "2025-12-02T11:03:44Z",
     "commitMessage": "feat: add option to disable asset prefix in manifest (#6681)",
