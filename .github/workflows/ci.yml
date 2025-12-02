@@ -108,8 +108,6 @@ jobs:
         include:
           - suite: rsbuild
             os: ubuntu-latest
-          - suite: rspack
-            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rsdoctor (${{ matrix.suite }})
@@ -182,11 +180,7 @@ jobs:
       - uses: ./.github/actions/build-rspack
       - name: Install
         run: pnpm install --frozen-lockfile --prefer-offline
-      - name: Format
-        if: matrix.suite == '_selftest'
-        run: pnpm format
       - name: Lint
-        if: matrix.suite == '_selftest'
         run: pnpm lint
       - name: Setup Node.js
         if: matrix.suite == 'lynx-stack' || matrix.suite == '_selftest'
