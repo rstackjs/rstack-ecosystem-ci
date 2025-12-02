@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d899b13f547dad85b7ee185a150024abb78e4e14",
+    "commitTimestamp": "2025-12-02T02:18:08Z",
+    "commitMessage": "feat(diagnostic): improve error formatting for data-uri imports (#6677)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032/job/56859395077"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032/job/56859395080"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032/job/56859395081"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032/job/56859395092"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032/job/56859395093"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19844570032/job/56859395102"
+      }
+    ]
+  },
+  {
     "commitSha": "5d42a9aced6852c15a6942c52248937df0b04b6a",
     "commitTimestamp": "2025-12-01T07:32:11Z",
     "commitMessage": "test(diagnostic): add test case for type warnings in console (#6676)",
