@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "5dc9c8976bff1ab094af46e5d1ab7b2995b43fa0",
+    "commitTimestamp": "2025-12-02T14:28:54Z",
+    "commitMessage": "ci: remove legacy ecosystem CI yaml (#12352)",
+    "author": {
+      "name": "Wei",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/19862095875",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137183"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137186"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137196"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137203"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137210"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137216"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137217"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137219"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137226"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137243"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19862095875/job/56915137440"
+      }
+    ]
+  },
+  {
     "commitSha": "694c5a2ce0ae2ebe55fdb224361d238329a76c19",
     "commitTimestamp": "2025-12-02T10:12:43Z",
     "commitMessage": "refactor: rename module arguments to rspack specific (#12350)",
