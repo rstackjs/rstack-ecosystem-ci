@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9b4b6f54494741debae21b5f44545ba57cb86ac0",
+    "commitTimestamp": "2025-12-02T08:46:46Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.6 (#6680)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593/job/56882573743"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593/job/56882573760"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593/job/56882573770"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593/job/56882573778"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593/job/56882573781"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19852573593/job/56882573784"
+      }
+    ]
+  },
+  {
     "commitSha": "c0e5a89b1105b3f7cc6bba8ccef1be9fa11c4e93",
     "commitTimestamp": "2025-12-02T06:09:55Z",
     "commitMessage": "chore: remove pnpm trust policy config (#6679)",
