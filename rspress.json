@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e01049da0a7a9492ac7e9cd3fc5dd2ba5ed6b513",
+    "commitTimestamp": "2025-12-02T06:23:04Z",
+    "commitMessage": "feat(i18n): add Russian translation for built-in i18n text (#2827)",
+    "author": {
+      "name": "Bugo",
+      "email": "229402+dragomano@users.noreply.github.com",
+      "login": "dragomano"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849343866",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849343866/job/56872835591"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849343866/job/56872835594"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849343866/job/56872835605"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849343866/job/56872835622"
+      }
+    ]
+  },
+  {
     "commitSha": "ce58c1f4c8699779ee72cab61c7b2190ebc68b8c",
     "commitTimestamp": "2025-12-02T06:11:56Z",
     "commitMessage": "chore: fix the diff.yml event (#2828)",
