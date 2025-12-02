@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "032acca67f590bd18adec33061891c3d166fd340",
+    "commitTimestamp": "2025-12-02T03:30:16Z",
+    "commitMessage": "chore(deps): update dependency express to v5.2.0 [security] (#1372)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19845994900",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19845994900/job/56863416691"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19845994900/job/56863416694"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19845994900/job/56863416698"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19845994900/job/56863416709"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19845994900/job/56863416719"
+      }
+    ]
+  },
+  {
     "commitSha": "638dae6c73ba6f2d5ade0050269f5a173a22be4f",
     "commitTimestamp": "2025-12-01T12:00:32Z",
     "commitMessage": "fix: preserve original extension when extension redirection is disabled (#1369)",
