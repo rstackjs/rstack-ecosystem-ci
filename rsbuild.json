@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c0e5a89b1105b3f7cc6bba8ccef1be9fa11c4e93",
+    "commitTimestamp": "2025-12-02T06:09:55Z",
+    "commitMessage": "chore: remove pnpm trust policy config (#6679)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141/job/56872401437"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141/job/56872401449"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141/job/56872401456"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141/job/56872401458"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141/job/56872401459"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849191141/job/56872401460"
+      }
+    ]
+  },
+  {
     "commitSha": "d899b13f547dad85b7ee185a150024abb78e4e14",
     "commitTimestamp": "2025-12-02T02:18:08Z",
     "commitMessage": "feat(diagnostic): improve error formatting for data-uri imports (#6677)",
