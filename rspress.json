@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ccb32fe9d88d9b6f567c3668214255d71d95c5e8",
+    "commitTimestamp": "2025-12-02T09:35:49Z",
+    "commitMessage": "feat(rspack)!: revert Rspack native watcher by default (#2830)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19853912376",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19853912376/job/56886942134"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19853912376/job/56886942155"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19853912376/job/56886942163"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19853912376/job/56886942179"
+      }
+    ]
+  },
+  {
     "commitSha": "e01049da0a7a9492ac7e9cd3fc5dd2ba5ed6b513",
     "commitTimestamp": "2025-12-02T06:23:04Z",
     "commitMessage": "feat(i18n): add Russian translation for built-in i18n text (#2827)",
