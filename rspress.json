@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ce58c1f4c8699779ee72cab61c7b2190ebc68b8c",
+    "commitTimestamp": "2025-12-02T06:11:56Z",
+    "commitMessage": "chore: fix the diff.yml event (#2828)",
+    "author": {
+      "name": "yifancong",
+      "email": "easy_cong@126.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849205787",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849205787/job/56872443350"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849205787/job/56872443351"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849205787/job/56872443357"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19849205787/job/56872443358"
+      }
+    ]
+  },
+  {
     "commitSha": "0a04fbd9e169f207f563a2ffcc52f1d24747f309",
     "commitTimestamp": "2025-12-01T10:56:13Z",
     "commitMessage": "chore(deps): update all patch dependencies (#2824)",
