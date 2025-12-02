@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "87d4897a7dffed99dc68405a7357121dfafadf16",
+    "commitTimestamp": "2025-12-02T10:45:52Z",
+    "commitMessage": "fix(ssg): wrong html selector for crawlers regression due to react@19.2.0 `progressiveChunkSize` change (#2831)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855890881",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855890881/job/56893596329"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855890881/job/56893596333"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855890881/job/56893596342"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19855890881/job/56893596365"
+      }
+    ]
+  },
+  {
     "commitSha": "ccb32fe9d88d9b6f567c3668214255d71d95c5e8",
     "commitTimestamp": "2025-12-02T09:35:49Z",
     "commitMessage": "feat(rspack)!: revert Rspack native watcher by default (#2830)",
