@@ -21,7 +21,6 @@ const STACK_CHOICES: Stack[] = [
   'rstest',
   'rslib',
   'rsdoctor',
-  'rslint',
   'rspress',
 ];
 
@@ -85,7 +84,6 @@ registerBuildAlias('build-rspack', 'rspack');
 registerBuildAlias('build-rstest', 'rstest');
 registerBuildAlias('build-rslib', 'rslib');
 registerBuildAlias('build-rsdoctor', 'rsdoctor');
-registerBuildAlias('build-rslint', 'rslint');
 registerBuildAlias('build-rspress', 'rspress');
 
 cli
@@ -315,9 +313,6 @@ function assignStackAliases(
   } else if (stack === 'rsdoctor') {
     runOptions.rsdoctorPath = stackPath;
     runOptions.rsdoctorMajor = stackMajor;
-  } else if (stack === 'rslint') {
-    runOptions.rslintPath = stackPath;
-    runOptions.rslintMajor = stackMajor;
   } else if (stack === 'rspress') {
     runOptions.rspressPath = stackPath;
     runOptions.rspressMajor = stackMajor;

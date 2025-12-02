@@ -27,7 +27,6 @@ const STACK_WORKSPACE_DIR: Record<Stack, string> = {
   rstest: 'rstest',
   rslib: 'rslib',
   rsdoctor: 'rsdoctor',
-  rslint: 'rslint',
   rspress: 'rspress',
 };
 
@@ -37,7 +36,6 @@ const STACK_DEFAULT_REPO: Record<Stack, string> = {
   rstest: 'web-infra-dev/rstest',
   rslib: 'web-infra-dev/rslib',
   rsdoctor: 'web-infra-dev/rsdoctor',
-  rslint: 'web-infra-dev/rslint',
   rspress: 'web-infra-dev/rspress',
 };
 
@@ -49,7 +47,7 @@ let env: NodeJS.ProcessEnv;
 
 const monorepoPackagesCache: Partial<
   Record<
-    'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint' | 'rspress',
+    'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rspress',
     { name: string; directory: string }[]
   >
 > = {};
@@ -182,8 +180,6 @@ export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
     data.rslibPath = stackPath;
   } else if (stack === 'rsdoctor') {
     data.rsdoctorPath = stackPath;
-  } else if (stack === 'rslint') {
-    data.rslintPath = stackPath;
   } else if (stack === 'rspress') {
     data.rspressPath = stackPath;
   }
@@ -297,7 +293,7 @@ function toCommand(
 }
 
 async function getMonorepoPackages(
-  stack: 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rslint' | 'rspress',
+  stack: 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rspress',
 ) {
   const cached = monorepoPackagesCache[stack];
   if (cached) {
@@ -446,7 +442,6 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       activeStack === 'rstest' ||
       activeStack === 'rslib' ||
       activeStack === 'rsdoctor' ||
-      activeStack === 'rslint' ||
       activeStack === 'rspress'
     ) {
       const packages = await getMonorepoPackages(activeStack);
@@ -564,7 +559,6 @@ export async function setupStackRepo(options: Partial<RepoOptions> = {}) {
     activeStack === 'rstest' ||
     activeStack === 'rslib' ||
     activeStack === 'rsdoctor' ||
-    activeStack === 'rslint' ||
     activeStack === 'rspress'
   ) {
     delete monorepoPackagesCache[activeStack];
@@ -843,20 +837,12 @@ export function parseStackMajor(projectPath: string): number {
     const pkg = JSON.parse(content);
     return parseMajorVersion(pkg.version);
   }
-  let packageJsonPath = path.join(
+  const packageJsonPath = path.join(
     projectPath,
     'packages',
     'core',
     'package.json',
   );
-  if (activeStack === 'rslint') {
-    packageJsonPath = path.join(
-      projectPath,
-      'packages',
-      'rslint',
-      'package.json',
-    );
-  }
   const content = fs.readFileSync(packageJsonPath, 'utf-8');
   const pkg = JSON.parse(content);
   return parseMajorVersion(pkg.version);
