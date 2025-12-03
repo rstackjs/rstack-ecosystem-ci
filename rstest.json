@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "6abf780a3a44cf2ecbb5062fbfc423bed3a4374f",
+    "commitTimestamp": "2025-12-03T06:27:27Z",
+    "commitMessage": "fix: stripping types error under `node_modules` (#730)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884636495",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884636495/job/56989316785"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884636495/job/56989316793"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884636495/job/56989316808"
+      }
+    ]
+  },
+  {
     "commitSha": "4575e04aaccd0551eee4e0d1348a30946937c87e",
     "commitTimestamp": "2025-12-03T03:44:20Z",
     "commitMessage": "fix: should handle circular reference in error object correctly (#728)",
