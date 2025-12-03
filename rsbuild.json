@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7e4fffab32de8da8cde748d88d06ca95f8ba8a60",
+    "commitTimestamp": "2025-12-03T02:19:14Z",
+    "commitMessage": "feat: improve error message filename formatting (#6685)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490/job/56975940946"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490/job/56975940949"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490/job/56975940952"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490/job/56975940958"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490/job/56975940959"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19880121490/job/56975940960"
+      }
+    ]
+  },
+  {
     "commitSha": "326a672e7527de272b96b867656ccb6a20c3c084",
     "commitTimestamp": "2025-12-02T13:57:14Z",
     "commitMessage": "release: v1.6.12 (#6684)",
