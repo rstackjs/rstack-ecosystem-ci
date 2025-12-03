@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "40571fb069b72187a6e68d9d87382773fa5e30d7",
+    "commitTimestamp": "2025-12-03T07:27:00Z",
+    "commitMessage": "chore(deps): bump Rsbuild 1.6.12 (#1375)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19885897968",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19885897968/job/56992974873"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19885897968/job/56992974876"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19885897968/job/56992974884"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19885897968/job/56992974887"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19885897968/job/56992974898"
+      }
+    ]
+  },
+  {
     "commitSha": "1fea10de754d679a3baf2b1690a99d8011b63b8c",
     "commitTimestamp": "2025-12-02T11:43:33Z",
     "commitMessage": "fix(dts): check for existence of target path when redirect extension (#1374)",
