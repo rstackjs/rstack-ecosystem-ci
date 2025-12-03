@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "871ab1cd181c4d043e0955fee924221e49df7147",
+    "commitTimestamp": "2025-12-03T08:21:45Z",
+    "commitMessage": "feat(core): add showDiff option to printFileSize  (#6635)",
+    "author": {
+      "name": "lluisemper",
+      "email": "58423269+lluisemper@users.noreply.github.com",
+      "login": "lluisemper"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176/job/56996834837"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176/job/56996834855"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176/job/56996834859"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176/job/56996834860"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176/job/56996834884"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19887148176/job/56996834889"
+      }
+    ]
+  },
+  {
     "commitSha": "dd07fc08b316402fc2dfbcab8a1250d914112e18",
     "commitTimestamp": "2025-12-03T03:36:06Z",
     "commitMessage": "fix: remove loader chain delimiters in module trace logs (#6686)",
