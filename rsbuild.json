@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ba4c73f2c91a7ab831d6b48f35f7878e950f0c15",
+    "commitTimestamp": "2025-12-03T08:59:57Z",
+    "commitMessage": "fix: correct file size display indentation (#6687)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025/job/57000015539"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025/job/57000015549"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025/job/57000015562"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025/job/57000015564"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025/job/57000015568"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19888132025/job/57000015580"
+      }
+    ]
+  },
+  {
     "commitSha": "871ab1cd181c4d043e0955fee924221e49df7147",
     "commitTimestamp": "2025-12-03T08:21:45Z",
     "commitMessage": "feat(core): add showDiff option to printFileSize  (#6635)",
