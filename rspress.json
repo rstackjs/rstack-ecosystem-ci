@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "085604a8ccbe512c20e24f299ccdb08adcc388ab",
+    "commitTimestamp": "2025-12-03T10:51:56Z",
+    "commitMessage": "fix(theme/callout): link in callout should use currentColor (#2838)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891286495",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891286495/job/57010505208"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891286495/job/57010505210"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891286495/job/57010505221"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891286495/job/57010505224"
+      }
+    ]
+  },
+  {
     "commitSha": "30438b22d830a303e67147798dcf3367d223e92d",
     "commitTimestamp": "2025-12-03T10:51:25Z",
     "commitMessage": "chore(theme/Tabs): upgrade hover style (#2837)",
