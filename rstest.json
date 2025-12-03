@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "4575e04aaccd0551eee4e0d1348a30946937c87e",
+    "commitTimestamp": "2025-12-03T03:44:20Z",
+    "commitMessage": "fix: should handle circular reference in error object correctly (#728)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881618693",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881618693/job/56980675479"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881618693/job/56980675483"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881618693/job/56980675485"
+      }
+    ]
+  },
+  {
     "commitSha": "cb6c951f134f4fb1407210bd2592342cd8279749",
     "commitTimestamp": "2025-11-29T02:04:15Z",
     "commitMessage": "docs: add `projects` guide (#724)",
