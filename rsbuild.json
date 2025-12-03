@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "99a75ac8a99f61772ef1c72a4c2487ba5c626fcc",
+    "commitTimestamp": "2025-12-03T10:53:59Z",
+    "commitMessage": "test(hmr): refactor live-reload tests to use temp directory (#6690)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615/job/57010693563"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615/job/57010693579"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615/job/57010693583"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615/job/57010693586"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615/job/57010693589"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19891341615/job/57010693594"
+      }
+    ]
+  },
+  {
     "commitSha": "43144d2eccc985fab8cfeed8b9b8d0d937e74aff",
     "commitTimestamp": "2025-12-03T09:37:50Z",
     "commitMessage": "refactor(fileSize): rename showDiff to diff (#6688)",
