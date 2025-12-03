@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e8d527f1a57d4afc6df09d05a80490c54cd184b6",
+    "commitTimestamp": "2025-12-03T23:19:26Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2842)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912062094",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912062094/job/57082795791"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912062094/job/57082795793"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912062094/job/57082795803"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912062094/job/57082795805"
+      }
+    ]
+  },
+  {
     "commitSha": "085604a8ccbe512c20e24f299ccdb08adcc388ab",
     "commitTimestamp": "2025-12-03T10:51:56Z",
     "commitMessage": "fix(theme/callout): link in callout should use currentColor (#2838)",
