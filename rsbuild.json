@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "05ebb46d77cec15ebfdd18fda1c379bfb2803053",
+    "commitTimestamp": "2025-12-03T23:21:22Z",
+    "commitMessage": "chore: update file size snapshot path (#6692)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886/job/57083140279"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886/job/57083140288"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886/job/57083140289"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886/job/57083140294"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886/job/57083140299"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912177886/job/57083140303"
+      }
+    ]
+  },
+  {
     "commitSha": "385fdf74bff1fae12c77ab6c5fe1c4ef99b5a850",
     "commitTimestamp": "2025-12-03T23:20:24Z",
     "commitMessage": "chore(deps): update actions/setup-node action to v6.1.0 (#6694)",
