@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "385fdf74bff1fae12c77ab6c5fe1c4ef99b5a850",
+    "commitTimestamp": "2025-12-03T23:20:24Z",
+    "commitMessage": "chore(deps): update actions/setup-node action to v6.1.0 (#6694)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945/job/57082859736"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945/job/57082859737"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945/job/57082859742"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945/job/57082859753"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945/job/57082859755"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19912083945/job/57082859761"
+      }
+    ]
+  },
+  {
     "commitSha": "2da5a05b087cfb103c41520c88e3c72d5b3ba2eb",
     "commitTimestamp": "2025-12-03T23:19:52Z",
     "commitMessage": "chore(deps): update rspack-contrib/rstack-ecosystem-ci action to v0.2.0 (#6695)",
