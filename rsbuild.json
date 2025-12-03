@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "72c3beff2946c30f18a1bb288f1bfb245bc4d1e2",
+    "commitTimestamp": "2025-12-03T13:11:25Z",
+    "commitMessage": "feat: refine size diff output for new files (#6691)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639/job/57023086644"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639/job/57023086655"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639/job/57023086658"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639/job/57023086661"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639/job/57023086663"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19895022639/job/57023086791"
+      }
+    ]
+  },
+  {
     "commitSha": "fef7605fdc8ca529d0959d8ad5233f580cae7f1d",
     "commitTimestamp": "2025-12-03T10:54:18Z",
     "commitMessage": "fix(fileSize): ensure consistency of output order (#6689)",
