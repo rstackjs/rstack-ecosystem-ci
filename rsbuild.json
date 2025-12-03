@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dd07fc08b316402fc2dfbcab8a1250d914112e18",
+    "commitTimestamp": "2025-12-03T03:36:06Z",
+    "commitMessage": "fix: remove loader chain delimiters in module trace logs (#6686)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505/job/56980234068"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505/job/56980234069"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505/job/56980234071"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505/job/56980234083"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505/job/56980234085"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19881473505/job/56980234130"
+      }
+    ]
+  },
+  {
     "commitSha": "7e4fffab32de8da8cde748d88d06ca95f8ba8a60",
     "commitTimestamp": "2025-12-03T02:19:14Z",
     "commitMessage": "feat: improve error message filename formatting (#6685)",
