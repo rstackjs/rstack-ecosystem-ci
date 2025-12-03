@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "48f9c45afa2229717abbe766f53d251d9f0cd61f",
+    "commitTimestamp": "2025-12-03T06:33:08Z",
+    "commitMessage": "feat(plugin-typedoc): Upgrade to TypeDoc v0.28 with new API (#2790)",
+    "author": {
+      "name": "Yuki Karibayashi",
+      "email": "y.karibayashi@gmail.com",
+      "login": "Karibash"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884783338",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884783338/job/56989739177"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884783338/job/56989739188"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884783338/job/56989739190"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19884783338/job/56989739194"
+      }
+    ]
+  },
+  {
     "commitSha": "27fb5aaea206f7ace08bddc7fbd16fd40cc35019",
     "commitTimestamp": "2025-12-02T10:47:11Z",
     "commitMessage": "chore: bump pnpm 10.24.0 and remove trust policy config (#2829)",
