@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0966c14252ca0468492ac82b483ac54f39816ff3",
+    "commitTimestamp": "2025-12-04T09:42:51Z",
+    "commitMessage": "fix(cli): should not restart when public folder change files (#2847)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924499835",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924499835/job/57120764933"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924499835/job/57120764943"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924499835/job/57120764944"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924499835/job/57120764949"
+      }
+    ]
+  },
+  {
     "commitSha": "69926c8064e9ae318f09261936c41a057d18d4de",
     "commitTimestamp": "2025-12-04T09:32:53Z",
     "commitMessage": "feat(mdx): support absolute paths with `<root>/` prefix in remarkFileCodeBlock (#2665)",
