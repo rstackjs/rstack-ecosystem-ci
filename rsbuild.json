@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "008efc5622a84a6a71ec310d446733ad087fd513",
+    "commitTimestamp": "2025-12-04T07:33:08Z",
+    "commitMessage": "release: create-rsbuild v1.6.5 (#6699)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936/job/57110227952"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936/job/57110227956"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936/job/57110227958"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936/job/57110227959"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936/job/57110227964"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921239936/job/57110227977"
+      }
+    ]
+  },
+  {
     "commitSha": "7f2869936d555c6cb59bbfa6445f6ef4f3827e0f",
     "commitTimestamp": "2025-12-04T07:29:08Z",
     "commitMessage": "feat(create-rsbuild): add storybook as optional tool (#6698)",
