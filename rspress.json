@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "e5086acd747290754aaa3afc2458e800de5eb1d6",
+    "commitTimestamp": "2025-12-04T03:50:17Z",
+    "commitMessage": "fix(plugin-typedoc): allow typedoc plugin interface as usual (#2836)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19917028784",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19917028784/job/57098072634"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19917028784/job/57098072640"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19917028784/job/57098072642"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19917028784/job/57098072652"
+      }
+    ]
+  },
+  {
     "commitSha": "b0b1d2d116e652f1804cc6cdf6e8649854f7a027",
     "commitTimestamp": "2025-12-04T03:36:50Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.57.0 (#2843)",
