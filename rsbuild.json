@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5408420b7717e30f679c3bcc22ee8deeb5bbc393",
+    "commitTimestamp": "2025-12-04T23:30:22Z",
+    "commitMessage": "chore(deps): update dependency react-router-dom to ^7.10.1 (#6708)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129/job/57199785225"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129/job/57199785230"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129/job/57199785232"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129/job/57199785234"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129/job/57199785239"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19947360129/job/57199785257"
+      }
+    ]
+  },
+  {
     "commitSha": "d520225aaaa2d2a179f1cf98504e710f24cdf9c6",
     "commitTimestamp": "2025-12-04T09:46:34Z",
     "commitMessage": "fix: handle ANSI escape codes in node polyfill hint (#6704)",
