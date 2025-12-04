@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e6d8c1710df345805e433be614849555ececa723",
+    "commitTimestamp": "2025-12-04T03:35:56Z",
+    "commitMessage": "chore(deps): update dependency lint-staged to v16 (#2844)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19916794122",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19916794122/job/57097227971"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19916794122/job/57097227983"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19916794122/job/57097227991"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19916794122/job/57097228112"
+      }
+    ]
+  },
+  {
     "commitSha": "e8d527f1a57d4afc6df09d05a80490c54cd184b6",
     "commitTimestamp": "2025-12-03T23:19:26Z",
     "commitMessage": "chore(deps): update all patch dependencies (#2842)",
