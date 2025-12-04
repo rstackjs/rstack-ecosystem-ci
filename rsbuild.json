@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d520225aaaa2d2a179f1cf98504e710f24cdf9c6",
+    "commitTimestamp": "2025-12-04T09:46:34Z",
+    "commitMessage": "fix: handle ANSI escape codes in node polyfill hint (#6704)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342/job/57121116061"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342/job/57121116073"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342/job/57121116075"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342/job/57121116087"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342/job/57121116101"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924601342/job/57121116109"
+      }
+    ]
+  },
+  {
     "commitSha": "008efc5622a84a6a71ec310d446733ad087fd513",
     "commitTimestamp": "2025-12-04T07:33:08Z",
     "commitMessage": "release: create-rsbuild v1.6.5 (#6699)",
