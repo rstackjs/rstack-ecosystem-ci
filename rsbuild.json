@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7f2869936d555c6cb59bbfa6445f6ef4f3827e0f",
+    "commitTimestamp": "2025-12-04T07:29:08Z",
+    "commitMessage": "feat(create-rsbuild): add storybook as optional tool (#6698)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132/job/57109953722"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132/job/57109953727"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132/job/57109953730"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132/job/57109953733"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132/job/57109953736"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19921150132/job/57109953743"
+      }
+    ]
+  },
+  {
     "commitSha": "05ebb46d77cec15ebfdd18fda1c379bfb2803053",
     "commitTimestamp": "2025-12-03T23:21:22Z",
     "commitMessage": "chore: update file size snapshot path (#6692)",
