@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "c7f428bd212a297bb0b1b0d2225460a24a81b16e",
+    "commitTimestamp": "2025-12-04T02:46:01Z",
+    "commitMessage": "feat: Support `import.meta.filename/dirname/resolve` (#12317)",
+    "author": {
+      "name": "magic-akari",
+      "email": "akari.ccino@gmail.com",
+      "login": "magic-akari"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/19915929992",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735325"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735330"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735334"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735337"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735344"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735349"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735351"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735356"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735373"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735379"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/19915929992/job/57094735407"
+      }
+    ]
+  },
+  {
     "commitSha": "fece90f534ee95dd1ad3d38e7f6e5f8fd52f4b9f",
     "commitTimestamp": "2025-12-04T02:20:58Z",
     "commitMessage": "chore(deps): pin action dependencies (#12354)",
