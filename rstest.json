@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "c8be3bf49e549ba907240ee6474a2024dd4bfa7b",
+    "commitTimestamp": "2025-12-04T06:37:15Z",
+    "commitMessage": "release: 0.6.9 (#734)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19920059878",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19920059878/job/57106778605"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19920059878/job/57106778610"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19920059878/job/57106778615"
+      }
+    ]
+  },
+  {
     "commitSha": "9087bb813644c065f07ddb99d62ad601741c8ccb",
     "commitTimestamp": "2025-12-04T06:06:32Z",
     "commitMessage": "fix(vscode): should compute range correctly with chinese characters (#733)",
