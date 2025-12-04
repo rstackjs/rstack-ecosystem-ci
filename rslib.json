@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d90f7de9c0ca883c7f36809da18bcdbe2cf61271",
+    "commitTimestamp": "2025-12-04T08:58:19Z",
+    "commitMessage": "fix: disable split chunks for umd and iife output format (#1378)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19923321921",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19923321921/job/57116863253"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19923321921/job/57116863260"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19923321921/job/57116863261"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19923321921/job/57116863299"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19923321921/job/57116863311"
+      }
+    ]
+  },
+  {
     "commitSha": "020f5286acf5786d7c50ee72d9b49a85bdb04d63",
     "commitTimestamp": "2025-12-03T07:47:43Z",
     "commitMessage": "Release v0.18.3 (#1376)",
