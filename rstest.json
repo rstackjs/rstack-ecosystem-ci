@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "27534db2ef43ab57df0db28e6dd7f327bbdde0c5",
+    "commitTimestamp": "2025-12-04T11:30:47Z",
+    "commitMessage": "chore: use swc 47 (#712)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19927522147",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19927522147/job/57130928318"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19927522147/job/57130928329"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19927522147/job/57130928355"
+      }
+    ]
+  },
+  {
     "commitSha": "c8be3bf49e549ba907240ee6474a2024dd4bfa7b",
     "commitTimestamp": "2025-12-04T06:37:15Z",
     "commitMessage": "release: 0.6.9 (#734)",
