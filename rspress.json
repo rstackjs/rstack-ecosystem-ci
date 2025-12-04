@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "69926c8064e9ae318f09261936c41a057d18d4de",
+    "commitTimestamp": "2025-12-04T09:32:53Z",
+    "commitMessage": "feat(mdx): support absolute paths with `<root>/` prefix in remarkFileCodeBlock (#2665)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924228111",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924228111/job/57119854666"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924228111/job/57119854671"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924228111/job/57119854680"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19924228111/job/57119854699"
+      }
+    ]
+  },
+  {
     "commitSha": "8da52ec1e965c127c819cdb904dc168b659daa06",
     "commitTimestamp": "2025-12-04T06:22:51Z",
     "commitMessage": "chore(plugin-algolia): Add Russian translation for plugin-algolia (#2832)",
