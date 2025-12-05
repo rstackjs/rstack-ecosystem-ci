@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a87b206e3da6b3bf67287856ef59e04d9f50b9fb",
+    "commitTimestamp": "2025-12-05T22:59:13Z",
+    "commitMessage": "fix(file-size): use config hash for snapshot filename to avoid collisions (#6710)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688/job/57299788034"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688/job/57299788035"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688/job/57299788038"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688/job/57299788040"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688/job/57299788043"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19978378688/job/57299788044"
+      }
+    ]
+  },
+  {
     "commitSha": "e2e25ee7729d7b8014aeb97033080e322fa65eea",
     "commitTimestamp": "2025-12-05T01:42:46Z",
     "commitMessage": "refactor(fileSize): optimize asset sorting and display logic (#6709)",
