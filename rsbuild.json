@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e2e25ee7729d7b8014aeb97033080e322fa65eea",
+    "commitTimestamp": "2025-12-05T01:42:46Z",
+    "commitMessage": "refactor(fileSize): optimize asset sorting and display logic (#6709)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568/job/57207405909"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568/job/57207405910"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568/job/57207405913"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568/job/57207405916"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568/job/57207405917"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19949854568/job/57207405923"
+      }
+    ]
+  },
+  {
     "commitSha": "7296479944f835eaa632277a1c19250684a95e74",
     "commitTimestamp": "2025-12-04T23:32:53Z",
     "commitMessage": "feat: support displaying the total size diff (#6706)",
