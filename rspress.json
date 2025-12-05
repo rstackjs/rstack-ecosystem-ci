@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6d02bbee21cd76f7f3cdaa852114d1a90ecc0d41",
+    "commitTimestamp": "2025-12-05T09:53:16Z",
+    "commitMessage": "chore(build): use advanced ESM (#2848)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19959216512",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19959216512/job/57235303434"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19959216512/job/57235303437"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19959216512/job/57235303443"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19959216512/job/57235303446"
+      }
+    ]
+  },
+  {
     "commitSha": "3b65cbcebfb09df8f53b50af691296530d86000f",
     "commitTimestamp": "2025-12-04T09:44:39Z",
     "commitMessage": "chore(core): truncate some error stack traces to 5 lines (#2821)",
