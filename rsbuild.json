@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5405b70ffaf163d5b8264ba0299647e996c01e9d",
+    "commitTimestamp": "2025-12-06T12:40:32Z",
+    "commitMessage": "fix(file-size): improve size diff detection (#6711)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559/job/57326133732"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559/job/57326133736"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559/job/57326133738"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559/job/57326133743"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559/job/57326133748"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19988621559/job/57326133760"
+      }
+    ]
+  },
+  {
     "commitSha": "7f96112e9963968b1882c42da72a8701b519cc79",
     "commitTimestamp": "2025-12-05T23:59:21Z",
     "commitMessage": "feat(core): add `dev.client.logLevel` option (#6712)",
