@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7f96112e9963968b1882c42da72a8701b519cc79",
+    "commitTimestamp": "2025-12-05T23:59:21Z",
+    "commitMessage": "feat(core): add `dev.client.logLevel` option (#6712)",
+    "author": {
+      "name": "Alexander",
+      "email": "zalishchuk.me@gmail.com",
+      "login": "zalishchuk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439/job/57302792493"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439/job/57302792500"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439/job/57302792501"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439/job/57302792505"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439/job/57302792506"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19979405439/job/57302792512"
+      }
+    ]
+  },
+  {
     "commitSha": "f4d69cfaa5ff62c389f3c95e93362fa7428d0d81",
     "commitTimestamp": "2025-12-05T23:10:34Z",
     "commitMessage": "chore(deps): update dependency @rstest/core to ^0.7.0 (#6713)",
