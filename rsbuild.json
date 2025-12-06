@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d48cfcb6eeb4bd5b7eae23aad258f388cf3b330e",
+    "commitTimestamp": "2025-12-06T23:28:35Z",
+    "commitMessage": "test(e2e): add case for package.json imports resolution (#6715)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459/job/57343036931"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459/job/57343036934"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459/job/57343036936"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459/job/57343036941"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459/job/57343036943"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/19995782459/job/57343036950"
+      }
+    ]
+  },
+  {
     "commitSha": "49e4174827af296d36b8f6cdc9d645ad7d532b29",
     "commitTimestamp": "2025-12-06T12:44:37Z",
     "commitMessage": "release: 1.6.13 (#6716)",
