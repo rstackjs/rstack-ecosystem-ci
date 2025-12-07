@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cc9c593d2fab61f8f20abc853268876c1c2550f0",
+    "commitTimestamp": "2025-12-07T22:00:17Z",
+    "commitMessage": "fix: throw when no free port is found (#6719)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531/job/57380328798"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531/job/57380328801"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531/job/57380328803"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531/job/57380328812"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531/job/57380328819"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20010949531/job/57380328829"
+      }
+    ]
+  },
+  {
     "commitSha": "fb9a3090d138c1531b31f11eb8c3c77f4a427cce",
     "commitTimestamp": "2025-12-07T13:25:46Z",
     "commitMessage": "fix(fileSize): Avoid tiny gzip total diffs in file size reports (#6720)",
