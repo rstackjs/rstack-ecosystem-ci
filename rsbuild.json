@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fb9a3090d138c1531b31f11eb8c3c77f4a427cce",
+    "commitTimestamp": "2025-12-07T13:25:46Z",
+    "commitMessage": "fix(fileSize): Avoid tiny gzip total diffs in file size reports (#6720)",
+    "author": {
+      "name": "Alexander",
+      "email": "zalishchuk.me@gmail.com",
+      "login": "zalishchuk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855/job/57365694754"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855/job/57365694755"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855/job/57365694756"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855/job/57365694758"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855/job/57365694760"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20004921855/job/57365694762"
+      }
+    ]
+  },
+  {
     "commitSha": "0a496c6b7cc74e20097b5a657dd2ab785ff4cdcd",
     "commitTimestamp": "2025-12-06T23:28:51Z",
     "commitMessage": "docs: improve documentation for file size diff (#6717)",
