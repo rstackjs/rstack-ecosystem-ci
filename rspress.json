@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b9a191d29551ca40fc02043d6e8923921ccbc769",
+    "commitTimestamp": "2025-12-08T12:18:19Z",
+    "commitMessage": "chore(theme/Codeblock): beautify the shiki highlight (#2864)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027857834",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027857834/job/57429393105"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027857834/job/57429393109"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027857834/job/57429393121"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027857834/job/57429393334"
+      }
+    ]
+  },
+  {
     "commitSha": "e47e041fc6e99a997dd03682272ed7fd22bcb442",
     "commitTimestamp": "2025-12-08T12:06:27Z",
     "commitMessage": "test: use Rstest as Rspress's test framework (#2413)",
