@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "da56fcf2db120e4619cf89e3f64f48c8bc69f0b0",
+    "commitTimestamp": "2025-12-08T03:41:37Z",
+    "commitMessage": "chore(deps): update actions/setup-node digest to 395ad32 (#1381)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015951851",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015951851/job/57393656964"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015951851/job/57393656966"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015951851/job/57393656973"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015951851/job/57393656975"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015951851/job/57393656978"
+      }
+    ]
+  },
+  {
     "commitSha": "d90f7de9c0ca883c7f36809da18bcdbe2cf61271",
     "commitTimestamp": "2025-12-04T08:58:19Z",
     "commitMessage": "fix: disable split chunks for umd and iife output format (#1378)",
