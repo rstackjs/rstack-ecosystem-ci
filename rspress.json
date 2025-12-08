@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7710bfebea65b92c1c945e1316d3e1e40df8c366",
+    "commitTimestamp": "2025-12-08T07:42:03Z",
+    "commitMessage": "feat(plugin-typedoc): Add setup callback for TypeDoc customization (#2841)",
+    "author": {
+      "name": "Yuki Karibayashi",
+      "email": "y.karibayashi@gmail.com",
+      "login": "Karibash"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020472373",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020472373/job/57406154076"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020472373/job/57406154081"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020472373/job/57406154088"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020472373/job/57406154091"
+      }
+    ]
+  },
+  {
     "commitSha": "3ece83e0e62a29e78180eced95806dae0e3c4597",
     "commitTimestamp": "2025-12-08T07:21:25Z",
     "commitMessage": "feat(theme/Root): add ejectable <Root /> component to theme (#2858)",
