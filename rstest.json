@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "5d6cb8af4123d7d05c4439a1c4fe6711213df92c",
+    "commitTimestamp": "2025-12-08T11:14:25Z",
+    "commitMessage": "feat: support output test files in ES module format (#735)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026210891",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026210891/job/57424095274"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026210891/job/57424095295"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026210891/job/57424095333"
+      }
+    ]
+  },
+  {
     "commitSha": "796884e78c903839a7c07ac544626e08a6c179bd",
     "commitTimestamp": "2025-12-08T09:17:02Z",
     "commitMessage": "fix: not exit with code 1 when unexpectedly exited during teardown (#741)",
