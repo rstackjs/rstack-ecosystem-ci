@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f13046d5f43e32a61df70b2b45963d242ac8185c",
+    "commitTimestamp": "2025-12-08T09:56:27Z",
+    "commitMessage": "fix(core): Fix an issue where the PackageManagerTabs component outputs broken Markdown (#2861)",
+    "author": {
+      "name": "Yuki Karibayashi",
+      "email": "y.karibayashi@gmail.com",
+      "login": "Karibash"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20023960638",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20023960638/job/57416932776"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20023960638/job/57416932788"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20023960638/job/57416932800"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20023960638/job/57416932820"
+      }
+    ]
+  },
+  {
     "commitSha": "449ba47cdb34f8981c121feadecc8ed6732ff70f",
     "commitTimestamp": "2025-12-08T08:04:40Z",
     "commitMessage": "perf(theme/useWindowSize): optimize useWindowSize with debounce to reduce resize handler calls (#2849)",
