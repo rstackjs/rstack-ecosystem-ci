@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e47e041fc6e99a997dd03682272ed7fd22bcb442",
+    "commitTimestamp": "2025-12-08T12:06:27Z",
+    "commitMessage": "test: use Rstest as Rspress's test framework (#2413)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027529253",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027529253/job/57428312996"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027529253/job/57428312997"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027529253/job/57428312999"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20027529253/job/57428313003"
+      }
+    ]
+  },
+  {
     "commitSha": "47112bc9acd1d6d5d8245b8169cfb83115df22e0",
     "commitTimestamp": "2025-12-08T11:41:35Z",
     "commitMessage": "chore(theme/CodeBlock): add box-shadow to codeblock (#2863)",
