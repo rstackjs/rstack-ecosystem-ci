@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3ece83e0e62a29e78180eced95806dae0e3c4597",
+    "commitTimestamp": "2025-12-08T07:21:25Z",
+    "commitMessage": "feat(theme/Root): add ejectable <Root /> component to theme (#2858)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020029749",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020029749/job/57404882032"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020029749/job/57404882035"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020029749/job/57404882047"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020029749/job/57404882055"
+      }
+    ]
+  },
+  {
     "commitSha": "8a60a92e7c0d6d438ef8cd8f2f3d8250f85d2bf1",
     "commitTimestamp": "2025-12-08T07:21:19Z",
     "commitMessage": "feat(theme)!: custom theme should use `@rspress/core/theme-original` (#2860)",
