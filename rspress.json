@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d938835d8ba3e27c0a2bf12d7d30dd030841f0a6",
+    "commitTimestamp": "2025-12-08T10:41:59Z",
+    "commitMessage": "Release v2.0.0-rc.2 (#2862)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20025297418",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20025297418/job/57421170649"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20025297418/job/57421170664"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20025297418/job/57421170665"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20025297418/job/57421170694"
+      }
+    ]
+  },
+  {
     "commitSha": "f13046d5f43e32a61df70b2b45963d242ac8185c",
     "commitTimestamp": "2025-12-08T09:56:27Z",
     "commitMessage": "fix(core): Fix an issue where the PackageManagerTabs component outputs broken Markdown (#2861)",
