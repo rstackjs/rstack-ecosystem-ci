@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "597544dcd4b5d2820a5c8fa14a2ee50b11fb3aba",
+    "commitTimestamp": "2025-12-08T06:13:36Z",
+    "commitMessage": "release: @rsbuild/plugin-svgr v1.2.3 (#6728)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750/job/57400882961"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750/job/57400882962"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750/job/57400882975"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750/job/57400882976"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750/job/57400882986"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20018592750/job/57400882995"
+      }
+    ]
+  },
+  {
     "commitSha": "b0e1345d4da19f19e7859772fb6b9d5e8b131851",
     "commitTimestamp": "2025-12-07T22:02:49Z",
     "commitMessage": "fix(plugin-svgr): disable React refresh for transformed SVG (#6724)",
