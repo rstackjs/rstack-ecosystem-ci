@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "38dbedc9f925676c45920aa92e92dcc62310c443",
+    "commitTimestamp": "2025-12-08T11:35:48Z",
+    "commitMessage": "release: 0.7.1 (#744)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026784330",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026784330/job/57425879538"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026784330/job/57425879545"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026784330/job/57425879553"
+      }
+    ]
+  },
+  {
     "commitSha": "c6a45a4fd22ac632eba0b53a0d450efeb7afd007",
     "commitTimestamp": "2025-12-08T11:23:32Z",
     "commitMessage": "perf: fix sourcemap performance degradation in browser environment (#743)",
