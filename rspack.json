@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "b41e1f0708b3fbd5ea42b9db07f9df293ab1b9eb",
+    "commitTimestamp": "2025-12-08T09:38:17Z",
+    "commitMessage": "fix: prevent URLPlugin from parsing new URL(import.meta.url) (#12386)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20023457004",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700099"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700102"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700103"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700107"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700112"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700114"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700116"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700118"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700119"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700123"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20023457004/job/57415700131"
+      }
+    ]
+  },
+  {
     "commitSha": "fb5dfffa938a36ddbf76e0ac6028c0720b34831d",
     "commitTimestamp": "2025-12-08T09:21:52Z",
     "commitMessage": "refactor: support `.rspack[...]` syntax and rebrand CSS extract plugin internals (#12385)",
