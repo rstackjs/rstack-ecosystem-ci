@@ -1,5 +1,38 @@
 [
   {
+    "commitSha": "c6a45a4fd22ac632eba0b53a0d450efeb7afd007",
+    "commitTimestamp": "2025-12-08T11:23:32Z",
+    "commitMessage": "perf: fix sourcemap performance degradation in browser environment (#743)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026456959",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026456959/job/57424859846"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026456959/job/57424859852"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20026456959/job/57424859873"
+      }
+    ]
+  },
+  {
     "commitSha": "5d6cb8af4123d7d05c4439a1c4fe6711213df92c",
     "commitTimestamp": "2025-12-08T11:14:25Z",
     "commitMessage": "feat: support output test files in ES module format (#735)",
