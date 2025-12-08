@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "449ba47cdb34f8981c121feadecc8ed6732ff70f",
+    "commitTimestamp": "2025-12-08T08:04:40Z",
+    "commitMessage": "perf(theme/useWindowSize): optimize useWindowSize with debounce to reduce resize handler calls (#2849)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020978234",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020978234/job/57407607119"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020978234/job/57407607126"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020978234/job/57407607142"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020978234/job/57407607143"
+      }
+    ]
+  },
+  {
     "commitSha": "7710bfebea65b92c1c945e1316d3e1e40df8c366",
     "commitTimestamp": "2025-12-08T07:42:03Z",
     "commitMessage": "feat(plugin-typedoc): Add setup callback for TypeDoc customization (#2841)",
