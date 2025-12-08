@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d8abb5485c8a9f327ef3d673870501487f1f6d56",
+    "commitTimestamp": "2025-12-08T03:40:21Z",
+    "commitMessage": "chore(deps): update dependency cspell to ^9.4.0 (#2854)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015927412",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015927412/job/57393582781"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015927412/job/57393582782"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015927412/job/57393582787"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015927412/job/57393582792"
+      }
+    ]
+  },
+  {
     "commitSha": "6d02bbee21cd76f7f3cdaa852114d1a90ecc0d41",
     "commitTimestamp": "2025-12-05T09:53:16Z",
     "commitMessage": "chore(build): use advanced ESM (#2848)",
