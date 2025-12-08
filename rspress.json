@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "ba5789dbd035f4643d50f42bd3947ef8a7a53c22",
+    "commitTimestamp": "2025-12-08T07:27:43Z",
+    "commitMessage": "feat(theme/Toc): Add data-depth attribute to TOC items (#2859)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020173588",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020173588/job/57405286406"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020173588/job/57405286407"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020173588/job/57405286419"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20020173588/job/57405286424"
+      }
+    ]
+  },
+  {
     "commitSha": "3ece83e0e62a29e78180eced95806dae0e3c4597",
     "commitTimestamp": "2025-12-08T07:21:25Z",
     "commitMessage": "feat(theme/Root): add ejectable <Root /> component to theme (#2858)",
