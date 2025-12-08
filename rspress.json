@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d0c2059851f81f13375e86efca5630edb6cf4f0f",
+    "commitTimestamp": "2025-12-08T03:43:34Z",
+    "commitMessage": "chore(deps): update dependency rimraf to ^6.1.2 (#2856)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015998383",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015998383/job/57393790948"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015998383/job/57393790950"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015998383/job/57393790951"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20015998383/job/57393790956"
+      }
+    ]
+  },
+  {
     "commitSha": "612ba133445002cb6e17df4923e1184cf03fa34a",
     "commitTimestamp": "2025-12-08T03:43:10Z",
     "commitMessage": "chore(deps): update dependency react-router-dom to ^7.10.1 (#2855)",
