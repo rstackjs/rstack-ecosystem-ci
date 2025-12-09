@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9e0a887df6594bcb4b7ed7496cde028d3d9a43e1",
+    "commitTimestamp": "2025-12-09T03:06:09Z",
+    "commitMessage": "refactor: improve type definitions and documentation (#6732)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914/job/57505150118"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914/job/57505150121"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914/job/57505150124"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914/job/57505150125"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914/job/57505150131"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050493914/job/57505150134"
+      }
+    ]
+  },
+  {
     "commitSha": "6b7a65a9fd9e9939f90da601c54a2d2f2173a1e9",
     "commitTimestamp": "2025-12-09T02:43:06Z",
     "commitMessage": "chore(deps): update Rspress to 2.0.0-rc.2 (#6731)",
