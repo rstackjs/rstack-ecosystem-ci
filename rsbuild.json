@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "00938fa3202b897a40a893926146daaffaca2994",
+    "commitTimestamp": "2025-12-09T02:20:13Z",
+    "commitMessage": "release: @rsbuild/plugin-vue v1.2.1 (#6730)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899/job/57502600968"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899/job/57502600970"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899/job/57502600976"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899/job/57502600977"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899/job/57502600980"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049660899/job/57502600982"
+      }
+    ]
+  },
+  {
     "commitSha": "492649170f659ce3921ab491e0f21ccab6e84ab6",
     "commitTimestamp": "2025-12-09T02:07:39Z",
     "commitMessage": "feat(plugin-vue): add test option (#6729)",
