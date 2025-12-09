@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f6692bbf37d077b926e46140ed2dab2da2dfd9bd",
+    "commitTimestamp": "2025-12-09T08:59:30Z",
+    "commitMessage": "chore: update create-rstack to 1.7.14 and quick start doc (#6737)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092/job/57527336639"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092/job/57527336645"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092/job/57527336653"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092/job/57527336655"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092/job/57527336656"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057886092/job/57527336661"
+      }
+    ]
+  },
+  {
     "commitSha": "6943e9b844d3ac1ad13ea211b165fa28cf47f24c",
     "commitTimestamp": "2025-12-09T05:46:27Z",
     "commitMessage": "test(e2e): fix flaky cache directory tests (#6736)",
