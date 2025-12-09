@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "eeaeb7a89ac3daf9ccd5f5018cd9ca2232c154a5",
+    "commitTimestamp": "2025-12-09T03:34:53Z",
+    "commitMessage": "fix(core): Fix an issue where llms.txt was not generated when locales was not set (#2866)",
+    "author": {
+      "name": "Yuki Karibayashi",
+      "email": "y.karibayashi@gmail.com",
+      "login": "Karibash"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051009738",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051009738/job/57506838552"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051009738/job/57506838569"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051009738/job/57506838572"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051009738/job/57506838575"
+      }
+    ]
+  },
+  {
     "commitSha": "b9a191d29551ca40fc02043d6e8923921ccbc769",
     "commitTimestamp": "2025-12-08T12:18:19Z",
     "commitMessage": "chore(theme/Codeblock): beautify the shiki highlight (#2864)",
