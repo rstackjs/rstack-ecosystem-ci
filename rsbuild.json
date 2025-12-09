@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "49c67f810bafad2c92d5b6d9f05e35eab1e744c5",
+    "commitTimestamp": "2025-12-09T09:16:37Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.6.7 (#6738)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690/job/57528374120"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690/job/57528374128"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690/job/57528374140"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690/job/57528374159"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690/job/57528374196"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058205690/job/57528374204"
+      }
+    ]
+  },
+  {
     "commitSha": "f6692bbf37d077b926e46140ed2dab2da2dfd9bd",
     "commitTimestamp": "2025-12-09T08:59:30Z",
     "commitMessage": "chore: update create-rstack to 1.7.14 and quick start doc (#6737)",
