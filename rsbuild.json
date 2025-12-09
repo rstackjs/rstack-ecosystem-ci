@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a7dfb508099417494aa07878c6c29837f2525647",
+    "commitTimestamp": "2025-12-09T03:38:52Z",
+    "commitMessage": "chore: update Rslint v0.1.4 and refactor types (#6733)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362/job/57507192983"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362/job/57507192986"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362/job/57507192987"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362/job/57507192991"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362/job/57507192994"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051108362/job/57507192996"
+      }
+    ]
+  },
+  {
     "commitSha": "9e0a887df6594bcb4b7ed7496cde028d3d9a43e1",
     "commitTimestamp": "2025-12-09T03:06:09Z",
     "commitMessage": "refactor: improve type definitions and documentation (#6732)",
