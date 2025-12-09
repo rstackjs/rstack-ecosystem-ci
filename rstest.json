@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "66045a72905d8f731fc5df986304d47125697e67",
+    "commitTimestamp": "2025-12-09T07:55:55Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#662)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056103294",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056103294/job/57521626460"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056103294/job/57521626473"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056103294/job/57521626480"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056103294/job/57521626485"
+      }
+    ]
+  },
+  {
     "commitSha": "37d7cc865b91d80bdc2951f74c6c10a6fa78f357",
     "commitTimestamp": "2025-12-09T07:30:16Z",
     "commitMessage": "feat(vscode): report test run progress (#720)",
