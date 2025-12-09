@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "492649170f659ce3921ab491e0f21ccab6e84ab6",
+    "commitTimestamp": "2025-12-09T02:07:39Z",
+    "commitMessage": "feat(plugin-vue): add test option (#6729)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125/job/57501957827"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125/job/57501957828"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125/job/57501957834"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125/job/57501957850"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125/job/57501957854"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20049431125/job/57501957858"
+      }
+    ]
+  },
+  {
     "commitSha": "597544dcd4b5d2820a5c8fa14a2ee50b11fb3aba",
     "commitTimestamp": "2025-12-08T06:13:36Z",
     "commitMessage": "release: @rsbuild/plugin-svgr v1.2.3 (#6728)",
