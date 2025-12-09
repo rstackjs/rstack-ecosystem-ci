@@ -84,6 +84,8 @@ jobs:
             os: ubuntu-latest
           - suite: rsdoctor
             os: ubuntu-latest
+          - suite: rspress
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rstest (${{ matrix.suite }})
