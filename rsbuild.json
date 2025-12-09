@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "275193c81ff60af6a9200884f63225e983a12f64",
+    "commitTimestamp": "2025-12-09T05:24:43Z",
+    "commitMessage": "test(e2e): fix flaky plugin hook case (#6735)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419/job/57512570514"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419/job/57512570518"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419/job/57512570523"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419/job/57512570526"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419/job/57512570527"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052975419/job/57512570528"
+      }
+    ]
+  },
+  {
     "commitSha": "9ef0252830cc8499162abf381864c6148f7dd591",
     "commitTimestamp": "2025-12-09T04:01:25Z",
     "commitMessage": "fix: use proper API to preserve source maps of inlined chunks (#6734)",
