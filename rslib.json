@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4dc582ee25a88025e2353a3f211cc63ea996e35f",
+    "commitTimestamp": "2025-12-09T12:12:58Z",
+    "commitMessage": "Release v0.18.4 (#1389)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20063064299",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20063064299/job/57544573747"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20063064299/job/57544573764"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20063064299/job/57544573766"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20063064299/job/57544573768"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20063064299/job/57544573793"
+      }
+    ]
+  },
+  {
     "commitSha": "040997d78b1d20a0e96a6826d321a09960812635",
     "commitTimestamp": "2025-12-09T11:54:26Z",
     "commitMessage": "chore(deps): update actions/checkout digest to 8e8c483 (#1388)",
