@@ -43,6 +43,49 @@
     ]
   },
   {
+    "commitSha": "913070056f463916a206bbc0faab782131fdd73e",
+    "commitTimestamp": "2025-12-09T11:54:08Z",
+    "commitMessage": "chore(deps): bump Rsbuild 1.6.14 (#1387)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062561445",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062561445/job/57542865499"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062561445/job/57542865519"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062561445/job/57542865527"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062561445/job/57542865548"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062561445/job/57542865558"
+      }
+    ]
+  },
+  {
     "commitSha": "477eeb2ff66739b6936ab65e6dbea4c04e873f0d",
     "commitTimestamp": "2025-12-09T11:09:21Z",
     "commitMessage": "feat: improve bundleless file size print (#1386)",
