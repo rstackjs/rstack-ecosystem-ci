@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d8c201abea67ff708a4cb9be0148a124e728a679",
+    "commitTimestamp": "2025-12-09T08:07:41Z",
+    "commitMessage": "fix: ignore specific system files in bundleless entry config (#1384)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056353462",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056353462/job/57522417386"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056353462/job/57522417391"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056353462/job/57522417395"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056353462/job/57522417400"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20056353462/job/57522417408"
+      }
+    ]
+  },
+  {
     "commitSha": "7d64659cc81bf05c5c4affba8ff25caabc248b9e",
     "commitTimestamp": "2025-12-08T11:46:53Z",
     "commitMessage": "chore(deps): bump Rspress 2.0.0-rc.2 (#1383)",
