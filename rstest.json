@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a43947fff643d5e41e9915a70b6b3fa25dbcb73f",
+    "commitTimestamp": "2025-12-09T05:14:44Z",
+    "commitMessage": "chore(ci): manually update rsbuild core package until v1.7 (#746)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052792480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052792480/job/57512063025"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052792480/job/57512063026"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052792480/job/57512063034"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20052792480/job/57512063041"
+      }
+    ]
+  },
+  {
     "commitSha": "38dbedc9f925676c45920aa92e92dcc62310c443",
     "commitTimestamp": "2025-12-08T11:35:48Z",
     "commitMessage": "release: 0.7.1 (#744)",
