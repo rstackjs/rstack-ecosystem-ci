@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "37d7cc865b91d80bdc2951f74c6c10a6fa78f357",
+    "commitTimestamp": "2025-12-09T07:30:16Z",
+    "commitMessage": "feat(vscode): report test run progress (#720)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20055520714",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20055520714/job/57519877821"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20055520714/job/57519877833"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20055520714/job/57519877845"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20055520714/job/57519877848"
+      }
+    ]
+  },
+  {
     "commitSha": "a43947fff643d5e41e9915a70b6b3fa25dbcb73f",
     "commitTimestamp": "2025-12-09T05:14:44Z",
     "commitMessage": "chore(ci): manually update rsbuild core package until v1.7 (#746)",
