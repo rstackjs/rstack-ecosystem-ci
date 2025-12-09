@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "c1aabb8e0033827fd10eee647c332d2c891e489e",
+    "commitTimestamp": "2025-12-09T03:31:58Z",
+    "commitMessage": "feat: support `[relative-resource-path]` in moduleFilenameTemplate (#12370)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20050952889",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926716"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926717"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926718"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926726"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926728"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926731"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926743"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926750"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926759"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926761"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20050952889/job/57506926766"
+      }
+    ]
+  },
+  {
     "commitSha": "914541a398c1f56be21e9cc14a0e1ecf16b5437e",
     "commitTimestamp": "2025-12-09T03:25:46Z",
     "commitMessage": "test: bump Rstest to v0.7.1 (#12390)",
