@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9ef0252830cc8499162abf381864c6148f7dd591",
+    "commitTimestamp": "2025-12-09T04:01:25Z",
+    "commitMessage": "fix: use proper API to preserve source maps of inlined chunks (#6734)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077/job/57508279417"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077/job/57508279429"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077/job/57508279430"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077/job/57508279437"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077/job/57508279443"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20051471077/job/57508279454"
+      }
+    ]
+  },
+  {
     "commitSha": "a7dfb508099417494aa07878c6c29837f2525647",
     "commitTimestamp": "2025-12-09T03:38:52Z",
     "commitMessage": "chore: update Rslint v0.1.4 and refactor types (#6733)",
