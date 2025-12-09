@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6943e9b844d3ac1ad13ea211b165fa28cf47f24c",
+    "commitTimestamp": "2025-12-09T05:46:27Z",
+    "commitMessage": "test(e2e): fix flaky cache directory tests (#6736)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644/job/57513693205"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644/job/57513693207"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644/job/57513693208"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644/job/57513693211"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644/job/57513693213"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20053383644/job/57513693218"
+      }
+    ]
+  },
+  {
     "commitSha": "275193c81ff60af6a9200884f63225e983a12f64",
     "commitTimestamp": "2025-12-09T05:24:43Z",
     "commitMessage": "test(e2e): fix flaky plugin hook case (#6735)",
