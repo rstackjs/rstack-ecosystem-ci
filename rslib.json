@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "dd31c168e4b6e7920ea71d4732c909f50b15b244",
+    "commitTimestamp": "2025-12-09T08:59:12Z",
+    "commitMessage": "test: use rstest es module outputs (#1385)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057675994",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057675994/job/57526679288"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057675994/job/57526679292"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057675994/job/57526679311"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057675994/job/57526679313"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20057675994/job/57526679326"
+      }
+    ]
+  },
+  {
     "commitSha": "d8c201abea67ff708a4cb9be0148a124e728a679",
     "commitTimestamp": "2025-12-09T08:07:41Z",
     "commitMessage": "fix: ignore specific system files in bundleless entry config (#1384)",
