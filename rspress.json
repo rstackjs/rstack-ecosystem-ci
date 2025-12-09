@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1f28f3e0cd997189318914539715bf091be76a5a",
+    "commitTimestamp": "2025-12-09T12:04:55Z",
+    "commitMessage": "chore(create-rspress): Add React 19 dependencies to create-rspress template (#2873)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062841034",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062841034/job/57543818740"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062841034/job/57543818746"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062841034/job/57543818752"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062841034/job/57543818792"
+      }
+    ]
+  },
+  {
     "commitSha": "766dd75679928436626ec9739dce8f88da305e54",
     "commitTimestamp": "2025-12-09T09:15:41Z",
     "commitMessage": "chore(theme/Tabs): update style when nested Tabs in Tabs (#2870)",
