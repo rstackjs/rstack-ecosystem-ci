@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "040997d78b1d20a0e96a6826d321a09960812635",
+    "commitTimestamp": "2025-12-09T11:54:26Z",
+    "commitMessage": "chore(deps): update actions/checkout digest to 8e8c483 (#1388)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062584703",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062584703/job/57542944824"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062584703/job/57542944835"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062584703/job/57542944851"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062584703/job/57542944855"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20062584703/job/57542944856"
+      }
+    ]
+  },
+  {
     "commitSha": "477eeb2ff66739b6936ab65e6dbea4c04e873f0d",
     "commitTimestamp": "2025-12-09T11:09:21Z",
     "commitMessage": "feat: improve bundleless file size print (#1386)",
