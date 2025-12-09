@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "1206e73b6ac384e5bfe5e739894fd91f3323cea0",
+    "commitTimestamp": "2025-12-09T03:16:33Z",
+    "commitMessage": "fix(sdk): ensure process exits after SIGTERM signal handling (#1435)",
+    "author": {
+      "name": "DeepCold",
+      "email": "deepcoldy@gmail.com",
+      "login": "deepcoldy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050682252",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050682252/job/57505719626"
+      }
+    ]
+  },
+  {
     "commitSha": "ac7a6aed11fedaf8c1b8288f4ef08c898357e85f",
     "commitTimestamp": "2025-12-08T03:27:37Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to ^0.18.3 (#1432)",
