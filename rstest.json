@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c10a04a215e96cf44bf9b8849f2428252e50254a",
+    "commitTimestamp": "2025-12-09T11:10:40Z",
+    "commitMessage": "feat: support use `toMatchInlineSnapshot` outside of test (#747)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20061480394",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20061480394/job/57539281833"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20061480394/job/57539281845"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20061480394/job/57539281857"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20061480394/job/57539281870"
+      }
+    ]
+  },
+  {
     "commitSha": "66045a72905d8f731fc5df986304d47125697e67",
     "commitTimestamp": "2025-12-09T07:55:55Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#662)",
