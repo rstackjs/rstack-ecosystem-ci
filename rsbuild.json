@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6b7a65a9fd9e9939f90da601c54a2d2f2173a1e9",
+    "commitTimestamp": "2025-12-09T02:43:06Z",
+    "commitMessage": "chore(deps): update Rspress to 2.0.0-rc.2 (#6731)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430/job/57503861145"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430/job/57503861148"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430/job/57503861149"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430/job/57503861153"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430/job/57503861154"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20050072430/job/57503861155"
+      }
+    ]
+  },
+  {
     "commitSha": "00938fa3202b897a40a893926146daaffaca2994",
     "commitTimestamp": "2025-12-09T02:20:13Z",
     "commitMessage": "release: @rsbuild/plugin-vue v1.2.1 (#6730)",
