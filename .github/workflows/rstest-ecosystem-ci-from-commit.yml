@@ -25,7 +25,7 @@ on:
         options:
           - "-"
           # - plugins
-          # - rspress
+          - rspress
           - rslib
           - rsbuild
           - rsdoctor
@@ -80,8 +80,8 @@ jobs:
           #   os: ubuntu-latest
           # - suite: plugins
           #   os: ubuntu-latest
-          # - suite: rspress
-          #   os: ubuntu-latest
+          - suite: rspress
+            os: ubuntu-latest
           - suite: rsbuild
             os: ubuntu-latest
           - suite: rslib
