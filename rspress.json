@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3c3c9ce0ef97a7a65e3f06a333cda5787745c6a5",
+    "commitTimestamp": "2025-12-09T09:06:45Z",
+    "commitMessage": "fix(theme/Link): add forwardRef for react 18 (#2871)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058057322",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058057322/job/57527889796"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058057322/job/57527889819"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058057322/job/57527889835"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20058057322/job/57527889992"
+      }
+    ]
+  },
+  {
     "commitSha": "846a37aaf05c80dbc7bbe0abdc80b5f47b78aba0",
     "commitTimestamp": "2025-12-09T03:36:31Z",
     "commitMessage": "fix(plugin-algolia): add missing constant (#2865)",
