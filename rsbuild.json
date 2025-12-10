@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f8536da9b3a5798637c18b9150a71b03f0836e78",
+    "commitTimestamp": "2025-12-10T02:53:06Z",
+    "commitMessage": "fix: include env in app icon cache key (#6742)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616/job/57622500547"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616/job/57622500549"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616/job/57622500575"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616/job/57622500576"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616/job/57622500581"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085687616/job/57622500585"
+      }
+    ]
+  },
+  {
     "commitSha": "272bd871efe10ab1ed8b44f480cfddbae6be5c26",
     "commitTimestamp": "2025-12-10T02:29:06Z",
     "commitMessage": "fix: exclude lazy compilation identifier from import traces (#6740)",
