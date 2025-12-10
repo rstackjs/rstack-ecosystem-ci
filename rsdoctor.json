@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "ee871419141a6e2a8bd34af91d4ec7c43c44e836",
+    "commitTimestamp": "2025-12-10T03:19:55Z",
+    "commitMessage": "fix(sdk): implement atomic write for manifest to prevent truncation (#1437)",
+    "author": {
+      "name": "DeepCold",
+      "email": "shenhan.sh@bytedance.com",
+      "login": "deepcoldy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086207632",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086207632/job/57624126696"
+      }
+    ]
+  },
+  {
     "commitSha": "d5c2bc6c5fb68ce8010539ad91ab0fadf8a5c667",
     "commitTimestamp": "2025-12-09T11:33:43Z",
     "commitMessage": "fix: sourcemap tool problem (#1436)",
