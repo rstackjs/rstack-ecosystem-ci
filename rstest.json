@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d6ee7fac164e3435db10fa65582a9dcdaaea98d4",
+    "commitTimestamp": "2025-12-10T06:42:15Z",
+    "commitMessage": "release: 0.7.2 (#751)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20089826719",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20089826719/job/57634809131"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20089826719/job/57634809132"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20089826719/job/57634809154"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20089826719/job/57634809221"
+      }
+    ]
+  },
+  {
     "commitSha": "cb37bff53ab561ba10ffdba12f4cc74595408cf3",
     "commitTimestamp": "2025-12-10T04:04:24Z",
     "commitMessage": "fix: fixed font color when use background color (#750)",
