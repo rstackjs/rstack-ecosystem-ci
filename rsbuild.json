@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "272bd871efe10ab1ed8b44f480cfddbae6be5c26",
+    "commitTimestamp": "2025-12-10T02:29:06Z",
+    "commitMessage": "fix: exclude lazy compilation identifier from import traces (#6740)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945/job/57621157699"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945/job/57621157703"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945/job/57621157705"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945/job/57621157707"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945/job/57621157709"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20085262945/job/57621157715"
+      }
+    ]
+  },
+  {
     "commitSha": "15e9875a8c68579f716c470c9836a7877e6fa165",
     "commitTimestamp": "2025-12-09T09:21:55Z",
     "commitMessage": "release: v1.6.14 (#6739)",
