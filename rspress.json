@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "aaf7311b60d952b66379f8abf769f3c996585c4d",
+    "commitTimestamp": "2025-12-10T08:11:50Z",
+    "commitMessage": "feat(plugin-typedoc): allow customize the docs/api/_meta.json and track in git (#2869)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20091775450",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20091775450/job/57640670407"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20091775450/job/57640670419"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20091775450/job/57640670432"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20091775450/job/57640670433"
+      }
+    ]
+  },
+  {
     "commitSha": "1f28f3e0cd997189318914539715bf091be76a5a",
     "commitTimestamp": "2025-12-09T12:04:55Z",
     "commitMessage": "chore(create-rspress): Add React 19 dependencies to create-rspress template (#2873)",
