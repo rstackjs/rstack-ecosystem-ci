@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "cb37bff53ab561ba10ffdba12f4cc74595408cf3",
+    "commitTimestamp": "2025-12-10T04:04:24Z",
+    "commitMessage": "fix: fixed font color when use background color (#750)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086913394",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086913394/job/57626438240"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086913394/job/57626438246"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086913394/job/57626438252"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086913394/job/57626438261"
+      }
+    ]
+  },
+  {
     "commitSha": "2fd4ec531e4d96e0de8f9235381720b141f160e4",
     "commitTimestamp": "2025-12-09T11:55:28Z",
     "commitMessage": "test: remove flaky signalListener case (#748)",
