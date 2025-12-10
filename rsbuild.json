@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "436e95cd3b23a2d189635528719bfb2eff378413",
+    "commitTimestamp": "2025-12-10T03:28:44Z",
+    "commitMessage": "test: remove skipped test case (#6744)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272/job/57624435045"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272/job/57624435060"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272/job/57624435068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272/job/57624435077"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272/job/57624435078"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20086310272/job/57624435085"
+      }
+    ]
+  },
+  {
     "commitSha": "f8536da9b3a5798637c18b9150a71b03f0836e78",
     "commitTimestamp": "2025-12-10T02:53:06Z",
     "commitMessage": "fix: include env in app icon cache key (#6742)",
