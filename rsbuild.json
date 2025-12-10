@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8d92d7e58901de9fc870167ac6ffdf47c874b703",
+    "commitTimestamp": "2025-12-10T06:00:07Z",
+    "commitMessage": "refactor: update rspack-chain dependency and imports (#6741)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433/job/57632294582"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433/job/57632294595"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433/job/57632294597"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433/job/57632294610"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433/job/57632294612"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20088962433/job/57632294628"
+      }
+    ]
+  },
+  {
     "commitSha": "bba2791ff5709863afc40354cad65929ab641ab1",
     "commitTimestamp": "2025-12-10T05:41:00Z",
     "commitMessage": "docs(alias): add documentation for Node.js imports field (#6745)",
