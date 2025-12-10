@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fa30724236bc5555baf3449997c24152835f2b5a",
+    "commitTimestamp": "2025-12-10T13:12:30Z",
+    "commitMessage": "perf: avoid reading asset content from file system (#6747)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381/job/57667437431"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381/job/57667437438"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381/job/57667437446"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381/job/57667437449"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381/job/57667437454"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20099821381/job/57667437458"
+      }
+    ]
+  },
+  {
     "commitSha": "c513fa56dfaaa01df72a4ee5572f7df30374a643",
     "commitTimestamp": "2025-12-10T08:08:07Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6727)",
