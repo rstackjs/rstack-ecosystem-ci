@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b4258eba0228576d9d4e5ce2f003ea320530d8bf",
+    "commitTimestamp": "2025-12-10T09:45:49Z",
+    "commitMessage": "docs(temp-fix-workaround): add shiki langs for markdown codeblock unstable bundle size (#2874)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20094251296",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20094251296/job/57648610494"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20094251296/job/57648610506"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20094251296/job/57648610511"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20094251296/job/57648610530"
+      }
+    ]
+  },
+  {
     "commitSha": "aaf7311b60d952b66379f8abf769f3c996585c4d",
     "commitTimestamp": "2025-12-10T08:11:50Z",
     "commitMessage": "feat(plugin-typedoc): allow customize the docs/api/_meta.json and track in git (#2869)",
