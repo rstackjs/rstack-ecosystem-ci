@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b910f46bcef77d7f1b797507400407c234e62001",
+    "commitTimestamp": "2025-12-11T07:15:57Z",
+    "commitMessage": "feat(coverage-istanbul): read coverage data without babel (#752)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20125102823",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20125102823/job/57753004840"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20125102823/job/57753004844"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20125102823/job/57753004848"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20125102823/job/57753004856"
+      }
+    ]
+  },
+  {
     "commitSha": "1264699adf20b4ff5facc8249782a87409f75195",
     "commitTimestamp": "2025-12-11T07:11:08Z",
     "commitMessage": "feat: support output error message to stderr (#758)",
