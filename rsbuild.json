@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c9d3f2a06c14ed4cb678da6941e58e4ec8bb8f72",
+    "commitTimestamp": "2025-12-11T02:02:02Z",
+    "commitMessage": "fix(fileSize): simplify gzip size coloring (#6750)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955/job/57736349508"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955/job/57736349515"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955/job/57736349519"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955/job/57736349520"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955/job/57736349526"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20119480955/job/57736349535"
+      }
+    ]
+  },
+  {
     "commitSha": "fa30724236bc5555baf3449997c24152835f2b5a",
     "commitTimestamp": "2025-12-10T13:12:30Z",
     "commitMessage": "perf: avoid reading asset content from file system (#6747)",
