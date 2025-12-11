@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4f5e9424eaed31c219c7c9df8ac588ce9b9fb884",
+    "commitTimestamp": "2025-12-11T09:49:02Z",
+    "commitMessage": "docs: add description for Rstest (#759)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20128954479",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20128954479/job/57765316296"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20128954479/job/57765316318"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20128954479/job/57765316331"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20128954479/job/57765316343"
+      }
+    ]
+  },
+  {
     "commitSha": "b910f46bcef77d7f1b797507400407c234e62001",
     "commitTimestamp": "2025-12-11T07:15:57Z",
     "commitMessage": "feat(coverage-istanbul): read coverage data without babel (#752)",
