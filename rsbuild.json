@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6e72f2ee5872538a51f55128daf3dea4c7216e32",
+    "commitTimestamp": "2025-12-11T02:56:52Z",
+    "commitMessage": "docs: deprecate bundleAnalyze in favor of Rsdoctor (#6415)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480/job/57739304912"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480/job/57739304914"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480/job/57739304916"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480/job/57739304929"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480/job/57739304933"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120449480/job/57739304959"
+      }
+    ]
+  },
+  {
     "commitSha": "c9d3f2a06c14ed4cb678da6941e58e4ec8bb8f72",
     "commitTimestamp": "2025-12-11T02:02:02Z",
     "commitMessage": "fix(fileSize): simplify gzip size coloring (#6750)",
