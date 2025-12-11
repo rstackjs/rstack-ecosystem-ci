@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "04f3c082d758096cb88b9f864dbb4348e9861f51",
+    "commitTimestamp": "2025-12-11T02:52:07Z",
+    "commitMessage": "feat: support show assertion calls when test timeout (#753)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120336787",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120336787/job/57738907353"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120336787/job/57738907361"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120336787/job/57738907369"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20120336787/job/57738907370"
+      }
+    ]
+  },
+  {
     "commitSha": "d6ee7fac164e3435db10fa65582a9dcdaaea98d4",
     "commitTimestamp": "2025-12-10T06:42:15Z",
     "commitMessage": "release: 0.7.2 (#751)",
