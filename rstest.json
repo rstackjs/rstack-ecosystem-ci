@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "17dcfd71cb793d024311fad73728f2b65cdeefed",
+    "commitTimestamp": "2025-12-11T07:07:36Z",
+    "commitMessage": "chore(deps): update dependency @sinonjs/fake-timers to v15 (#601)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124920057",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124920057/job/57752468227"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124920057/job/57752468228"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124920057/job/57752468230"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124920057/job/57752468231"
+      }
+    ]
+  },
+  {
     "commitSha": "04f3c082d758096cb88b9f864dbb4348e9861f51",
     "commitTimestamp": "2025-12-11T02:52:07Z",
     "commitMessage": "feat: support show assertion calls when test timeout (#753)",
