@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1264699adf20b4ff5facc8249782a87409f75195",
+    "commitTimestamp": "2025-12-11T07:11:08Z",
+    "commitMessage": "feat: support output error message to stderr (#758)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124996502",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124996502/job/57752698473"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124996502/job/57752698477"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124996502/job/57752698478"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20124996502/job/57752698494"
+      }
+    ]
+  },
+  {
     "commitSha": "17dcfd71cb793d024311fad73728f2b65cdeefed",
     "commitTimestamp": "2025-12-11T07:07:36Z",
     "commitMessage": "chore(deps): update dependency @sinonjs/fake-timers to v15 (#601)",
