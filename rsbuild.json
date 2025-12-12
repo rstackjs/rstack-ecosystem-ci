@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "84fc518be205d01c9b5acdd245969db624283561",
+    "commitTimestamp": "2025-12-11T23:58:55Z",
+    "commitMessage": "feat(sri): add support for multiple integrity algorithms (#6753)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261/job/57844729633"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261/job/57844729634"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261/job/57844729636"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261/job/57844729641"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261/job/57844729663"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151384261/job/57844729712"
+      }
+    ]
+  },
+  {
     "commitSha": "ccb229cc569c601d82a96f6432760a8150fe0d0f",
     "commitTimestamp": "2025-12-11T23:56:16Z",
     "commitMessage": "chore(deps): update sass to ^1.96.0 (#6757)",
@@ -44,54 +92,6 @@
         "name": "rstest",
         "status": "success",
         "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562939"
-      }
-    ]
-  },
-  {
-    "commitSha": "56dcfcc0fa24a326a2da4a71e31fd19b6fde2d4d",
-    "commitTimestamp": "2025-12-11T23:55:53Z",
-    "commitMessage": "chore(deps): update dependency nx to ^22.2.1 (#6756)",
-    "author": {
-      "name": "renovate[bot]",
-      "email": "29139614+renovate[bot]@users.noreply.github.com",
-      "login": "renovate[bot]"
-    },
-    "repository": {
-      "fullName": "web-infra-dev/rsbuild",
-      "name": "rsbuild"
-    },
-    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859",
-    "overallStatus": "success",
-    "suites": [
-      {
-        "name": "rstest",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542916"
-      },
-      {
-        "name": "plugins",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542923"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542926"
-      },
-      {
-        "name": "examples",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542932"
-      },
-      {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542936"
-      },
-      {
-        "name": "modernjs",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542943"
       }
     ]
   },
