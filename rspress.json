@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b76eeb0bb9cee91bc4085a741d907052c50fdaca",
+    "commitTimestamp": "2025-12-12T08:05:28Z",
+    "commitMessage": "feat(theme/tags): allow frontmatter tag (#2879)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160359425",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160359425/job/57871202007"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160359425/job/57871202011"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160359425/job/57871202015"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160359425/job/57871202023"
+      }
+    ]
+  },
+  {
     "commitSha": "75f79a81849e63cc92919a3708577d760496e98f",
     "commitTimestamp": "2025-12-11T11:10:24Z",
     "commitMessage": "chore(deps): upgrade rsbuild and not show warning for __dirname and __filename when bundling for web (#2878)",
