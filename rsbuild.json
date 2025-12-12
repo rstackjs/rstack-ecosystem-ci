@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a91a8999bc0d5fcbe04624c36b4023e7b21e8cb7",
+    "commitTimestamp": "2025-12-12T09:45:23Z",
+    "commitMessage": "feat(create-rsbuild): add rstest as optional tool (#6759)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537/job/57878914760"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537/job/57878914762"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537/job/57878914767"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537/job/57878914768"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537/job/57878914774"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162786537/job/57878914779"
+      }
+    ]
+  },
+  {
     "commitSha": "84fc518be205d01c9b5acdd245969db624283561",
     "commitTimestamp": "2025-12-11T23:58:55Z",
     "commitMessage": "feat(sri): add support for multiple integrity algorithms (#6753)",
