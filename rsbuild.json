@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "56dcfcc0fa24a326a2da4a71e31fd19b6fde2d4d",
+    "commitTimestamp": "2025-12-11T23:55:53Z",
+    "commitMessage": "chore(deps): update dependency nx to ^22.2.1 (#6756)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542916"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542923"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542926"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542932"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542936"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151326859/job/57844542943"
+      }
+    ]
+  },
+  {
     "commitSha": "6e72f2ee5872538a51f55128daf3dea4c7216e32",
     "commitTimestamp": "2025-12-11T02:56:52Z",
     "commitMessage": "docs: deprecate bundleAnalyze in favor of Rsdoctor (#6415)",
