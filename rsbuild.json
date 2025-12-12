@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ccb229cc569c601d82a96f6432760a8150fe0d0f",
+    "commitTimestamp": "2025-12-11T23:56:16Z",
+    "commitMessage": "chore(deps): update sass to ^1.96.0 (#6757)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562912"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562914"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562919"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562928"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562935"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20151333429/job/57844562939"
+      }
+    ]
+  },
+  {
     "commitSha": "6e72f2ee5872538a51f55128daf3dea4c7216e32",
     "commitTimestamp": "2025-12-11T02:56:52Z",
     "commitMessage": "docs: deprecate bundleAnalyze in favor of Rsdoctor (#6415)",
