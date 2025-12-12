@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9f1a0d6c601c5723f8cc1e4a1472881f1ee81bf8",
+    "commitTimestamp": "2025-12-12T13:57:31Z",
+    "commitMessage": "chore(CI): add preview workflow (#6761)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520/job/57899550730"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520/job/57899550732"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520/job/57899550734"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520/job/57899550740"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520/job/57899550744"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20169019520/job/57899550747"
+      }
+    ]
+  },
+  {
     "commitSha": "a91a8999bc0d5fcbe04624c36b4023e7b21e8cb7",
     "commitTimestamp": "2025-12-12T09:45:23Z",
     "commitMessage": "feat(create-rsbuild): add rstest as optional tool (#6759)",
