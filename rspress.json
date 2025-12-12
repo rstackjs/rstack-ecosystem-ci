@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "29ba105e290f51599ff60e67694640b655026c55",
+    "commitTimestamp": "2025-12-12T09:49:17Z",
+    "commitMessage": "fix(theme/NavScreen): Disable clicks on active language/version entries in mobile nav (#2883)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162879275",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162879275/job/57879224417"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162879275/job/57879224420"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162879275/job/57879224445"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20162879275/job/57879224500"
+      }
+    ]
+  },
+  {
     "commitSha": "b76eeb0bb9cee91bc4085a741d907052c50fdaca",
     "commitTimestamp": "2025-12-12T08:05:28Z",
     "commitMessage": "feat(theme/tags): allow frontmatter tag (#2879)",
