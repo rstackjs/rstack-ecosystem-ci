@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "3c56e8cd62fbf178032af6c28f928e428558b51f",
+    "commitTimestamp": "2025-12-12T07:57:12Z",
+    "commitMessage": "refactor: replace `SourceFile` with `&str` and replace `Arc<SourceMap>` with `Rope` in rspack_plugin_javascript (#12404)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20160170277",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040017"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040018"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040024"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040034"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040039"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040040"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040041"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040045"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040046"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040059"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20160170277/job/57871040060"
+      }
+    ]
+  },
+  {
     "commitSha": "127d0af7b7bce20e46e12381256d6b1771a33dde",
     "commitTimestamp": "2025-12-11T14:09:08Z",
     "commitMessage": "chore(ci): fix artifact discovery logic in Rsdoctor action (#12405)",
