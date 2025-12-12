@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1619fc8944a3de7f5a6aa358bf4fa56c44cb101d",
+    "commitTimestamp": "2025-12-12T07:31:55Z",
+    "commitMessage": "feat: support `rs.hoisted` (#717)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20159676040",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20159676040/job/57869165656"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20159676040/job/57869165658"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20159676040/job/57869165665"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20159676040/job/57869165666"
+      }
+    ]
+  },
+  {
     "commitSha": "172176a89660474d03d0fc6a213b3b5418c8cea9",
     "commitTimestamp": "2025-12-12T03:28:03Z",
     "commitMessage": "docs: update cli options (#760)",
