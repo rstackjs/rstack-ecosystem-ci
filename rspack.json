@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "6f3f4de245f3d3b8c550e0d5751422a95c93c891",
+    "commitTimestamp": "2025-12-12T08:40:47Z",
+    "commitMessage": "chore: bump `swc_experimental` to fix parsing utf8 in template (#12431)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20161163838",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995041"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995047"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995048"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995053"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995058"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995059"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995062"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995071"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995073"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995098"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20161163838/job/57873995160"
+      }
+    ]
+  },
+  {
     "commitSha": "3c56e8cd62fbf178032af6c28f928e428558b51f",
     "commitTimestamp": "2025-12-12T07:57:12Z",
     "commitMessage": "refactor: replace `SourceFile` with `&str` and replace `Arc<SourceMap>` with `Rope` in rspack_plugin_javascript (#12404)",
