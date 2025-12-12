@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "cef5a6a54964a46d10b27ad0a67562940e11527f",
+    "commitTimestamp": "2025-12-12T08:10:40Z",
+    "commitMessage": "test: replace `onDevCompileDone` with `onAfterDevCompile` (#1393)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160479824",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160479824/job/57871582380"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160479824/job/57871582382"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160479824/job/57871582394"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160479824/job/57871582395"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20160479824/job/57871582396"
+      }
+    ]
+  },
+  {
     "commitSha": "4dc582ee25a88025e2353a3f211cc63ea996e35f",
     "commitTimestamp": "2025-12-09T12:12:58Z",
     "commitMessage": "Release v0.18.4 (#1389)",
