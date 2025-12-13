@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a14f68f8ba6a1c2380e042eafc321eb0294db0d5",
+    "commitTimestamp": "2025-12-13T23:39:10Z",
+    "commitMessage": "feat(create-rsbuild): improve tools descriptions (#6767)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306/job/57988400461"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306/job/57988400462"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306/job/57988400466"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306/job/57988400470"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306/job/57988400472"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20199538306/job/57988400473"
+      }
+    ]
+  },
+  {
     "commitSha": "502ad82765f361812371ce0e2d2f438fa4bbe7e6",
     "commitTimestamp": "2025-12-13T04:21:37Z",
     "commitMessage": "chore(deps): pin typescript-go to previous version (#6766)",
