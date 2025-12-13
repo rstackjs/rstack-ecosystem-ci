@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "98ce9eae98046b7661674950be60c830f0653900",
+    "commitTimestamp": "2025-12-13T03:54:47Z",
+    "commitMessage": "chore(deps): update pnpm to v10.25.0 (#6765)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426/job/57957290739"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426/job/57957290741"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426/job/57957290742"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426/job/57957290743"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426/job/57957290744"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186422426/job/57957290746"
+      }
+    ]
+  },
+  {
     "commitSha": "cc58d21fe92c84476ed680f6f0435063888fc857",
     "commitTimestamp": "2025-12-13T03:38:25Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6758)",
