@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "60660dfc02383ffe7fbbba1a11643518b501fd56",
+    "commitTimestamp": "2025-12-13T03:28:12Z",
+    "commitMessage": "test: fix unstable chunk id snapshot (#6764)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964/job/57956267204"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964/job/57956267205"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964/job/57956267206"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964/job/57956267207"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964/job/57956267214"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186107964/job/57956267217"
+      }
+    ]
+  },
+  {
     "commitSha": "9f1a0d6c601c5723f8cc1e4a1472881f1ee81bf8",
     "commitTimestamp": "2025-12-12T13:57:31Z",
     "commitMessage": "chore(CI): add preview workflow (#6761)",
