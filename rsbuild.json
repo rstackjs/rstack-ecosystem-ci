@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cc58d21fe92c84476ed680f6f0435063888fc857",
+    "commitTimestamp": "2025-12-13T03:38:25Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#6758)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438/job/57956773672"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438/job/57956773674"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438/job/57956773678"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438/job/57956773680"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438/job/57956773682"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20186229438/job/57956773699"
+      }
+    ]
+  },
+  {
     "commitSha": "60660dfc02383ffe7fbbba1a11643518b501fd56",
     "commitTimestamp": "2025-12-13T03:28:12Z",
     "commitMessage": "test: fix unstable chunk id snapshot (#6764)",
