@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "db099dc33b2d419b4209cc82618f9f13bc805866",
+    "commitTimestamp": "2025-12-14T14:00:16Z",
+    "commitMessage": "release: create-rsbuild v1.6.7 (#6773)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339/job/58012114935"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339/job/58012114944"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339/job/58012114945"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339/job/58012114947"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339/job/58012114949"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20209067339/job/58012114986"
+      }
+    ]
+  },
+  {
     "commitSha": "d46700616398144ea2930f10dba9e64764389b3e",
     "commitTimestamp": "2025-12-14T01:08:38Z",
     "commitMessage": "chore(deps): update dependency svelte to ^5.46.0 (#6769)",
