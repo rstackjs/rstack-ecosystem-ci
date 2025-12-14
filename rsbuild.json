@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d46700616398144ea2930f10dba9e64764389b3e",
+    "commitTimestamp": "2025-12-14T01:08:38Z",
+    "commitMessage": "chore(deps): update dependency svelte to ^5.46.0 (#6769)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108/job/57990947563"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108/job/57990947565"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108/job/57990947566"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108/job/57990947567"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108/job/57990947570"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20200501108/job/57990947573"
+      }
+    ]
+  },
+  {
     "commitSha": "a14f68f8ba6a1c2380e042eafc321eb0294db0d5",
     "commitTimestamp": "2025-12-13T23:39:10Z",
     "commitMessage": "feat(create-rsbuild): improve tools descriptions (#6767)",
