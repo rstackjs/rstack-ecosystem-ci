@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "457ce303d0e08ba70f571f82a27fe4495b1cff47",
+    "commitTimestamp": "2025-12-14T13:33:59Z",
+    "commitMessage": "chore(deps): update dependency cspell to ^9.4.0 (#12439)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20208762978",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501435"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501436"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501437"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501438"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501439"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501445"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501449"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501450"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501454"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501456"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20208762978/job/58011501459"
+      }
+    ]
+  },
+  {
     "commitSha": "56154ad455059f63e7e5995f34251d9e257a991f",
     "commitTimestamp": "2025-12-13T14:56:59Z",
     "commitMessage": "chore(ci): skip diff action for doc-only changes (#12437)",
