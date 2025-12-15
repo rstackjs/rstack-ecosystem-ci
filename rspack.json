@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "4a4613a4b2c9dc468c9d88e85568b108c5a74db1",
+    "commitTimestamp": "2025-12-15T05:43:00Z",
+    "commitMessage": "feat: stabilize lazy compilation middleware (#12429)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20221822834",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331954"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331955"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331956"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331957"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331960"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331961"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331963"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331967"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331969"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331970"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20221822834/job/58045331988"
+      }
+    ]
+  },
+  {
     "commitSha": "f4c00dd41e9492891dff0a258e25afb7e3a5454b",
     "commitTimestamp": "2025-12-15T02:22:56Z",
     "commitMessage": "fix: strip ANSI codes from ignoreWarnings messages (#12435)",
