@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a9b631234cffb368bd6ea03fea0cde2f9a4d1df1",
+    "commitTimestamp": "2025-12-15T03:08:29Z",
+    "commitMessage": "fix: update HMR import paths to include file extensions (#6774)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366/job/58037619968"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366/job/58037619974"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366/job/58037619975"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366/job/58037619981"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366/job/58037619985"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219190366/job/58037619986"
+      }
+    ]
+  },
+  {
     "commitSha": "a004cea0519337206b2da599d1e083244d258e2f",
     "commitTimestamp": "2025-12-15T03:05:20Z",
     "commitMessage": "chore: remove @rsbuild/plugin-webpack-swc package (#6775)",
