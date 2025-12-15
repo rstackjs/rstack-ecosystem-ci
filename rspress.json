@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6b800772c9b06d34998b681e3e1f9f55a59b1ac9",
+    "commitTimestamp": "2025-12-15T07:24:52Z",
+    "commitMessage": "chore(auto-nav-sidebar): Improve missing page error readability (#2880)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223928041",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223928041/job/58051114772"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223928041/job/58051114778"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223928041/job/58051114780"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223928041/job/58051114782"
+      }
+    ]
+  },
+  {
     "commitSha": "f4c42dbbfdcbb5ddb8b6e93d1d965c22dbf4b5b1",
     "commitTimestamp": "2025-12-15T04:03:10Z",
     "commitMessage": "chore(deps): update actions/cache action to v5 (#2893)",
