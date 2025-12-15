@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "70fb81b04a5dbccbd38d95615cc11cf6dad36ef7",
+    "commitTimestamp": "2025-12-15T11:18:42Z",
+    "commitMessage": "feat: truncate long import traces with hidden count (#6782)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164/job/58071472524"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164/job/58071472538"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164/job/58071472541"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164/job/58071472562"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164/job/58071472566"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20230323164/job/58071472643"
+      }
+    ]
+  },
+  {
     "commitSha": "42c91965cc7c7aefa1c015864fc77ed292c6ca1c",
     "commitTimestamp": "2025-12-15T08:34:14Z",
     "commitMessage": "docs: update links to reflect changes in Rspack rules structure (#6781)",
