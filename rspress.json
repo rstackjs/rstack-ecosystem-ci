@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3ceec3ffaa99f33bc20e6f73237af7f391175a95",
+    "commitTimestamp": "2025-12-15T03:45:22Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2889)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219786627",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219786627/job/58039338521"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219786627/job/58039338524"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219786627/job/58039338525"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219786627/job/58039338544"
+      }
+    ]
+  },
+  {
     "commitSha": "29ba105e290f51599ff60e67694640b655026c55",
     "commitTimestamp": "2025-12-12T09:49:17Z",
     "commitMessage": "fix(theme/NavScreen): Disable clicks on active language/version entries in mobile nav (#2883)",
