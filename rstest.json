@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c22437240a06fc9d03566e2a1e6703ecbbab25dc",
+    "commitTimestamp": "2025-12-15T12:37:43Z",
+    "commitMessage": "feat(vscode): support run tests with debug or coverage, list test items in tree structure (#738)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20232453233",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20232453233/job/58078570119"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20232453233/job/58078570126"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20232453233/job/58078570148"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20232453233/job/58078570168"
+      }
+    ]
+  },
+  {
     "commitSha": "a05cfd0a3c17ab2ad27c691e9ad4fd739f3c996e",
     "commitTimestamp": "2025-12-15T07:25:56Z",
     "commitMessage": "feat: support get task name from test context (#770)",
