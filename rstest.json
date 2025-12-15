@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8cecbe48a5e083776915658d0a2621ab47b02280",
+    "commitTimestamp": "2025-12-15T03:58:41Z",
+    "commitMessage": "release: 0.7.3 (#768)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219987957",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219987957/job/58040110001"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219987957/job/58040110006"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219987957/job/58040110007"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219987957/job/58040110010"
+      }
+    ]
+  },
+  {
     "commitSha": "948cffc76f66bb93b7d135083fed695eb7420bc1",
     "commitTimestamp": "2025-12-15T03:15:16Z",
     "commitMessage": "feat: collect test location (#739)",
