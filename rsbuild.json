@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a0245f592dbee054222534e9883bce9eb3f6be35",
+    "commitTimestamp": "2025-12-15T05:38:42Z",
+    "commitMessage": "fix(plugin-vue): treat it as a client build when calling from Rstest (#6779)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576/job/58044924893"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576/job/58044924896"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576/job/58044924897"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576/job/58044924899"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576/job/58044924901"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20221757576/job/58044924903"
+      }
+    ]
+  },
+  {
     "commitSha": "a9b631234cffb368bd6ea03fea0cde2f9a4d1df1",
     "commitTimestamp": "2025-12-15T03:08:29Z",
     "commitMessage": "fix: update HMR import paths to include file extensions (#6774)",
