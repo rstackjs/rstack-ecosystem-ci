@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1f2292a41540bc052ef3878256cdfc7683382acf",
+    "commitTimestamp": "2025-12-15T07:22:53Z",
+    "commitMessage": "feat: export resolve config types (#6780)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718/job/58050975717"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718/job/58050975720"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718/job/58050975724"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718/job/58050975728"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718/job/58050975737"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223877718/job/58050975754"
+      }
+    ]
+  },
+  {
     "commitSha": "a0245f592dbee054222534e9883bce9eb3f6be35",
     "commitTimestamp": "2025-12-15T05:38:42Z",
     "commitMessage": "fix(plugin-vue): treat it as a client build when calling from Rstest (#6779)",
