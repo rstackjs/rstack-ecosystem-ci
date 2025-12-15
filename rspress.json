@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b3b061d2f8ad2160587ce3f0616c2b742c7648e6",
+    "commitTimestamp": "2025-12-15T03:46:53Z",
+    "commitMessage": "chore(deps): update pnpm to v10.25.0 (#2890)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219809577",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219809577/job/58039409079"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219809577/job/58039409086"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219809577/job/58039409090"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219809577/job/58039409094"
+      }
+    ]
+  },
+  {
     "commitSha": "3ceec3ffaa99f33bc20e6f73237af7f391175a95",
     "commitTimestamp": "2025-12-15T03:45:22Z",
     "commitMessage": "chore(deps): update all patch dependencies (#2889)",
