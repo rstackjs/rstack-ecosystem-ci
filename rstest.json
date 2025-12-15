@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a05cfd0a3c17ab2ad27c691e9ad4fd739f3c996e",
+    "commitTimestamp": "2025-12-15T07:25:56Z",
+    "commitMessage": "feat: support get task name from test context (#770)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223966654",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223966654/job/58051227070"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223966654/job/58051227071"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223966654/job/58051227075"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20223966654/job/58051227098"
+      }
+    ]
+  },
+  {
     "commitSha": "2868dd486432b78cb68e462f06b1be785040ccb9",
     "commitTimestamp": "2025-12-15T06:52:53Z",
     "commitMessage": "docs: add `includeTaskLocation` configuration (#769)",
