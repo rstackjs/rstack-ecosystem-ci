@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f4c42dbbfdcbb5ddb8b6e93d1d965c22dbf4b5b1",
+    "commitTimestamp": "2025-12-15T04:03:10Z",
+    "commitMessage": "chore(deps): update actions/cache action to v5 (#2893)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20220086455",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20220086455/job/58040381288"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20220086455/job/58040381291"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20220086455/job/58040381293"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20220086455/job/58040381309"
+      }
+    ]
+  },
+  {
     "commitSha": "0705b7c363e86514abef43d6f0751392931b8970",
     "commitTimestamp": "2025-12-15T04:01:08Z",
     "commitMessage": "chore(deps): update shiki monorepo to ^3.20.0 (#2892)",
