@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "423c9eed2087b73da35a85a02e32034c567d0626",
+    "commitTimestamp": "2025-12-15T03:48:22Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1396)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219838605",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219838605/job/58039511620"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219838605/job/58039511622"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219838605/job/58039511623"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219838605/job/58039511629"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219838605/job/58039511633"
+      }
+    ]
+  },
+  {
     "commitSha": "cef5a6a54964a46d10b27ad0a67562940e11527f",
     "commitTimestamp": "2025-12-12T08:10:40Z",
     "commitMessage": "test: replace `onDevCompileDone` with `onAfterDevCompile` (#1393)",
