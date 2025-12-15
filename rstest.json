@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "948cffc76f66bb93b7d135083fed695eb7420bc1",
+    "commitTimestamp": "2025-12-15T03:15:16Z",
+    "commitMessage": "feat: collect test location (#739)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219351264",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219351264/job/58038016907"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219351264/job/58038016908"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219351264/job/58038016915"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20219351264/job/58038016928"
+      }
+    ]
+  },
+  {
     "commitSha": "8edc4491d0a708b42065eba4b177cebe28fb8231",
     "commitTimestamp": "2025-12-12T10:45:41Z",
     "commitMessage": "chore(deps): update actions/checkout action to v6 (#765)",
