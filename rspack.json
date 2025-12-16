@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "8bcf0f8f528b0ad1273b978a80316b027119dba0",
+    "commitTimestamp": "2025-12-16T11:51:47Z",
+    "commitMessage": "fix: re-validate HttpUriPlugin redirects against allowedUris and enforce http(s) and max redirects (#12463)",
+    "author": {
+      "name": "Fy",
+      "email": "1114550440@qq.com",
+      "login": "JSerFeng"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20266957688",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838965"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838967"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838968"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838969"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838976"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838982"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838983"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838984"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838985"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192838995"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20266957688/job/58192839026"
+      }
+    ]
+  },
+  {
     "commitSha": "5fade2fad0a26126d8cbffc5a8d694d5f6118be1",
     "commitTimestamp": "2025-12-16T08:22:24Z",
     "commitMessage": "feat(deps)!: bump `swc_core` from 46.0.3 to 50.2.3 and `swc_experimental` (#12445)",
