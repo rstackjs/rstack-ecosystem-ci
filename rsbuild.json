@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8e85d520ee9e8219298c4f1cd5f0a96001fa8e61",
+    "commitTimestamp": "2025-12-16T13:36:56Z",
+    "commitMessage": "fix(overlay): avoid matching HTML fragments when linking file paths (#6790)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546/job/58202415930"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546/job/58202415933"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546/job/58202415944"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546/job/58202415945"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546/job/58202415963"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20269845546/job/58202415969"
+      }
+    ]
+  },
+  {
     "commitSha": "6e3daa8252d22d82494d8c6e2519a673b3238fcb",
     "commitTimestamp": "2025-12-16T09:40:04Z",
     "commitMessage": "chore(deps): update sass to ^1.97.0 (#6789)",
