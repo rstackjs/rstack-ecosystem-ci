@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "dd67985a2e481ce20179a4ef454cdd4ae4246075",
+    "commitTimestamp": "2025-12-16T05:53:33Z",
+    "commitMessage": "feat: export `mergeProjectConfig` method (#773)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20258054143",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20258054143/job/58164063650"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20258054143/job/58164063652"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20258054143/job/58164063653"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20258054143/job/58164063663"
+      }
+    ]
+  },
+  {
     "commitSha": "c22437240a06fc9d03566e2a1e6703ecbbab25dc",
     "commitTimestamp": "2025-12-15T12:37:43Z",
     "commitMessage": "feat(vscode): support run tests with debug or coverage, list test items in tree structure (#738)",
