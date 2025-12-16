@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "bb352815af4be3c8ea501d9fd918865752b79bde",
+    "commitTimestamp": "2025-12-16T02:25:32Z",
+    "commitMessage": "fix: add Set methods to compilation dependencies (#12459)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20254374191",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291339"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291346"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291352"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291357"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291360"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291368"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291373"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291384"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291395"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291410"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20254374191/job/58153291413"
+      }
+    ]
+  },
+  {
     "commitSha": "02b3377e3d7a111f992b2e794a96e8345444016a",
     "commitTimestamp": "2025-12-15T11:10:19Z",
     "commitMessage": "fix: wasm plugin panic when use persistent cache (#12455)",
