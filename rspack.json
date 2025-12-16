@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "2fd81281031428ca29dce1bc364fd0c942efbac9",
+    "commitTimestamp": "2025-12-16T14:32:37Z",
+    "commitMessage": "fix: extra runtime global bits are lost after js hook (#12275)",
+    "author": {
+      "name": "nilptr",
+      "email": "nilptr.js@gmail.com",
+      "login": "nilptr"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20271524594",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873658"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873672"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873673"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873674"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873677"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873681"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873684"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873685"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873686"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873689"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20271524594/job/58208873721"
+      }
+    ]
+  },
+  {
     "commitSha": "8bcf0f8f528b0ad1273b978a80316b027119dba0",
     "commitTimestamp": "2025-12-16T11:51:47Z",
     "commitMessage": "fix: re-validate HttpUriPlugin redirects against allowedUris and enforce http(s) and max redirects (#12463)",
