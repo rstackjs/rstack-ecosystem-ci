@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "df2dad46102823cb83ee2ab791fde2c2ee005b44",
+    "commitTimestamp": "2025-12-16T02:23:22Z",
+    "commitMessage": "fix: avoid duplicate newline characters in error logs (#6786)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259/job/58152944519"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259/job/58152944522"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259/job/58152944525"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259/job/58152944529"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259/job/58152944530"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254342259/job/58152944531"
+      }
+    ]
+  },
+  {
     "commitSha": "dd5b510ce462c7daf0200e2f571de5f2b7604b62",
     "commitTimestamp": "2025-12-16T02:16:30Z",
     "commitMessage": "feat: update node builtins set for hints (#6783)",
