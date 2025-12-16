@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "324386d2a8b5006e42906dc2823c41fccffdc982",
+    "commitTimestamp": "2025-12-16T10:47:49Z",
+    "commitMessage": "fix(cli/eject): fix the component path not right (#2896)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20265273510",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20265273510/job/58186881104"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20265273510/job/58186881112"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20265273510/job/58186881118"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20265273510/job/58186881126"
+      }
+    ]
+  },
+  {
     "commitSha": "6b800772c9b06d34998b681e3e1f9f55a59b1ac9",
     "commitTimestamp": "2025-12-15T07:24:52Z",
     "commitMessage": "chore(auto-nav-sidebar): Improve missing page error readability (#2880)",
