@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2a75fac4b6305014112927a443a5918e5956496e",
+    "commitTimestamp": "2025-12-16T13:47:42Z",
+    "commitMessage": "chore: add constant for default browserLogs trace (#6791)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784/job/58203512568"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784/job/58203512615"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784/job/58203512627"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784/job/58203512640"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784/job/58203512655"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20270159784/job/58203512706"
+      }
+    ]
+  },
+  {
     "commitSha": "8e85d520ee9e8219298c4f1cd5f0a96001fa8e61",
     "commitTimestamp": "2025-12-16T13:36:56Z",
     "commitMessage": "fix(overlay): avoid matching HTML fragments when linking file paths (#6790)",
