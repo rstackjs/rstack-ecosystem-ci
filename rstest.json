@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "77db591a5d88ad454baf4a3ec4dc6d902eaf4cfc",
+    "commitTimestamp": "2025-12-16T11:26:50Z",
+    "commitMessage": "feat: support global setup files (#772)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20266322062",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20266322062/job/58190375602"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20266322062/job/58190375608"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20266322062/job/58190375613"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20266322062/job/58190375631"
+      }
+    ]
+  },
+  {
     "commitSha": "dd67985a2e481ce20179a4ef454cdd4ae4246075",
     "commitTimestamp": "2025-12-16T05:53:33Z",
     "commitMessage": "feat: export `mergeProjectConfig` method (#773)",
