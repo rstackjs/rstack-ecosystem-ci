@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dd5b510ce462c7daf0200e2f571de5f2b7604b62",
+    "commitTimestamp": "2025-12-16T02:16:30Z",
+    "commitMessage": "feat: update node builtins set for hints (#6783)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738/job/58152618050"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738/job/58152618057"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738/job/58152618070"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738/job/58152618075"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738/job/58152618077"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254228738/job/58152618082"
+      }
+    ]
+  },
+  {
     "commitSha": "3707849e93ccc7148fd7149dfe995c7ef31792ae",
     "commitTimestamp": "2025-12-15T13:27:03Z",
     "commitMessage": "release: @rsbuild/plugin-vue v1.2.2 (#6784)",
