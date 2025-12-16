@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "731340bd6b221c95b6d06b078f1f18f82738d910",
+    "commitTimestamp": "2025-12-16T02:40:28Z",
+    "commitMessage": "fix: hide import traces by default for warnings (#6785)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509/job/58153877016"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509/job/58153877021"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509/job/58153877023"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509/job/58153877026"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509/job/58153877032"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20254644509/job/58153877040"
+      }
+    ]
+  },
+  {
     "commitSha": "dd5b510ce462c7daf0200e2f571de5f2b7604b62",
     "commitTimestamp": "2025-12-16T02:16:30Z",
     "commitMessage": "feat: update node builtins set for hints (#6783)",
