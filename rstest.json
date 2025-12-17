@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0a0a5a696fb6db951b4f7404e358e330b2c8824c",
+    "commitTimestamp": "2025-12-17T12:14:16Z",
+    "commitMessage": "feat(vscode): support collect tests from runtime (#754)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20302452412",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20302452412/job/58311192493"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20302452412/job/58311192500"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20302452412/job/58311192505"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20302452412/job/58311192517"
+      }
+    ]
+  },
+  {
     "commitSha": "855c787b095943e4b7ae413c607907e158bfb399",
     "commitTimestamp": "2025-12-17T11:24:35Z",
     "commitMessage": "fix: resolve setupFile edge cases (#780)",
