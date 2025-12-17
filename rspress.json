@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e86fde2df5693584db678fbad8f548658ae5b773",
+    "commitTimestamp": "2025-12-17T07:34:50Z",
+    "commitMessage": "test(e2e): playwright support lazyCompilation after Rsbuild 1.4.0, remove env variable (#2319)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20295237274",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20295237274/job/58287426615"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20295237274/job/58287426627"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20295237274/job/58287426629"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20295237274/job/58287426631"
+      }
+    ]
+  },
+  {
     "commitSha": "2de9231165093375e9c52e765be5946ad7642478",
     "commitTimestamp": "2025-12-17T06:45:40Z",
     "commitMessage": "chore: remove view transition (#2898)",
