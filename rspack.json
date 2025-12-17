@@ -1,8 +1,8 @@
 [
   {
-    "commitSha": "886003fa8e3c5a45ad94dde644e48c53a9d8da0a",
-    "commitTimestamp": "2025-12-17T02:36:30Z",
-    "commitMessage": "fix: handle ignored asset modules with proper data URL export (#12468)",
+    "commitSha": "03e45d3eff66e2ead01f68ecfd1e34cc6f667f74",
+    "commitTimestamp": "2025-12-17T02:38:06Z",
+    "commitMessage": "feat: implement UniversalCompileAsyncWasmPlugin for universal chunk loading (#12471)",
     "author": {
       "name": "harpsealjs",
       "email": "lingyucoder@gmail.com",
@@ -12,63 +12,63 @@
       "fullName": "web-infra-dev/rspack",
       "name": "rspack"
     },
-    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20289692035",
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20289719139",
     "overallStatus": "failure",
     "suites": [
       {
-        "name": "rsdoctor",
-        "status": "success",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487272"
-      },
-      {
-        "name": "plugin",
-        "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487276"
-      },
-      {
         "name": "rsbuild",
         "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487282"
-      },
-      {
-        "name": "lynx-stack",
-        "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487283"
-      },
-      {
-        "name": "devserver",
-        "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487285"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487288"
-      },
-      {
-        "name": "examples",
-        "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487289"
-      },
-      {
-        "name": "rspress",
-        "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487294"
-      },
-      {
-        "name": "rstest",
-        "status": "success",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487299"
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508433"
       },
       {
         "name": "modernjs",
         "status": "failure",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487301"
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508434"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508435"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508437"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508438"
       },
       {
         "name": "nuxt",
         "status": "success",
-        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289692035/job/58271487314"
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508442"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508444"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508445"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508446"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508447"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20289719139/job/58271508449"
       }
     ]
   },
