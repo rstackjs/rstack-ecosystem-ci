@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "077e3d053498d0e1fd7097e28b4d125a8070d431",
+    "commitTimestamp": "2025-12-17T08:39:39Z",
+    "commitMessage": "fix: should rerun all tests when setup file changes (#779)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20296746464",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20296746464/job/58292124335"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20296746464/job/58292124336"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20296746464/job/58292124341"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20296746464/job/58292124342"
+      }
+    ]
+  },
+  {
     "commitSha": "cae9e6c2ecf0588803ab42c673e1cfb9f970e455",
     "commitTimestamp": "2025-12-17T05:43:41Z",
     "commitMessage": "fix: should respect config.root option (#778)",
