@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "952a3b719794245550930f4a7ebaf30bfd535f04",
+    "commitTimestamp": "2025-12-17T04:07:22Z",
+    "commitMessage": "chore(ci): update playwright test config (#2897)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20291265439",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20291265439/job/58276054775"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20291265439/job/58276054780"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20291265439/job/58276054785"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20291265439/job/58276054793"
+      }
+    ]
+  },
+  {
     "commitSha": "324386d2a8b5006e42906dc2823c41fccffdc982",
     "commitTimestamp": "2025-12-16T10:47:49Z",
     "commitMessage": "fix(cli/eject): fix the component path not right (#2896)",
