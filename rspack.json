@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "f283b9b06fc85480b95b8d8c59302a656e780040",
+    "commitTimestamp": "2025-12-17T06:30:36Z",
+    "commitMessage": "fix: respect matchResource when generate nameForCondition (#12449)",
+    "author": {
+      "name": "Austaras",
+      "email": "austaras@outlook.com",
+      "login": "Austaras"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20293890751",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709323"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709324"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709325"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709327"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709328"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709329"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709331"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709333"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709335"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709336"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293890751/job/58283709337"
+      }
+    ]
+  },
+  {
     "commitSha": "aef8598250c4902598ebcc90dc62cb5b3701086d",
     "commitTimestamp": "2025-12-17T06:16:05Z",
     "commitMessage": "fix: reexports in arrow-only environments without const (#12484)",
