@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "aef8598250c4902598ebcc90dc62cb5b3701086d",
+    "commitTimestamp": "2025-12-17T06:16:05Z",
+    "commitMessage": "fix: reexports in arrow-only environments without const (#12484)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20293589720",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891332"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891333"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891346"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891374"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891385"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891386"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891388"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891390"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891391"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891392"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20293589720/job/58282891399"
+      }
+    ]
+  },
+  {
     "commitSha": "ff4d368956a296062cbbc4e7411692de1e2caba2",
     "commitTimestamp": "2025-12-17T05:56:47Z",
     "commitMessage": "feat: stabilize inline exports (#12475)",
