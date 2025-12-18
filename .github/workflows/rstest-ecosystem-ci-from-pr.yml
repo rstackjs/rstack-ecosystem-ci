@@ -33,6 +33,7 @@ on:
           - rspress
           - rsbuild
           - rsdoctor
+          - modernjs
       suiteRefType:
         description: "type of suite ref to use"
         required: true
@@ -81,6 +82,8 @@ jobs:
           - suite: rsbuild
             os: ubuntu-latest
           - suite: rsdoctor
+            os: ubuntu-latest
+          - suite: modernjs
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
