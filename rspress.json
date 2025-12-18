@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8a6d0fddd4de1cd6822d3feb7fb3d0fc9b6521a7",
+    "commitTimestamp": "2025-12-18T06:55:47Z",
+    "commitMessage": "refactor(ssg-md): redesign the remarkSplitMdx split logic (#2903)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328780331",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328780331/job/58399271285"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328780331/job/58399271288"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328780331/job/58399271293"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328780331/job/58399271299"
+      }
+    ]
+  },
+  {
     "commitSha": "33f9e838921fb19533912f9e6dd77c822c5eaee6",
     "commitTimestamp": "2025-12-18T03:25:18Z",
     "commitMessage": "fix(theme/CodeBlockRuntime): Render SSR fallback for CodeBlockRuntime to avoid first-paint empty DOM/CLS (#2902)",
