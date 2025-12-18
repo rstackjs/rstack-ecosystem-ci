@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c4f4431a2d5b34123a286c195bf1a9e7b19d22e5",
+    "commitTimestamp": "2025-12-18T06:45:16Z",
+    "commitMessage": "fix: aggregateTimeout default to 5 (#783)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328515142",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328515142/job/58398499589"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328515142/job/58398499601"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328515142/job/58398499606"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328515142/job/58398499612"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20328515142/job/58398499614"
+      }
+    ]
+  },
+  {
     "commitSha": "369de7fdaf76f38c74fc2479e6a2d8ab244aa4a8",
     "commitTimestamp": "2025-12-18T04:53:32Z",
     "commitMessage": "release: 0.7.5 (#782)",
