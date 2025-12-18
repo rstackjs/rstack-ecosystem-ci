@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "694c69c64afaaa5179e1ced93d83b5abb770be59",
+    "commitTimestamp": "2025-12-18T03:24:02Z",
+    "commitMessage": "chore(theme): better UI for overview items without headers case (#2899)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324978482",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324978482/job/58388141891"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324978482/job/58388141895"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324978482/job/58388141899"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324978482/job/58388141901"
+      }
+    ]
+  },
+  {
     "commitSha": "e86fde2df5693584db678fbad8f548658ae5b773",
     "commitTimestamp": "2025-12-17T07:34:50Z",
     "commitMessage": "test(e2e): playwright support lazyCompilation after Rsbuild 1.4.0, remove env variable (#2319)",
