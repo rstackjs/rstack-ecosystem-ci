@@ -6,6 +6,6 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/modern.js',
     branch: process.env.MODERNJS ?? 'main',
-    test: ['test:unit'],
+    test: ['test:rstest'],
   });
 }
