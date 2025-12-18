@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "369de7fdaf76f38c74fc2479e6a2d8ab244aa4a8",
+    "commitTimestamp": "2025-12-18T04:53:32Z",
+    "commitMessage": "release: 0.7.5 (#782)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20326474757",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20326474757/job/58392731192"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20326474757/job/58392731195"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20326474757/job/58392731197"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20326474757/job/58392731198"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20326474757/job/58392731203"
+      }
+    ]
+  },
+  {
     "commitSha": "63595c877587771d0143f424322b1a1fbdf23421",
     "commitTimestamp": "2025-12-18T03:13:06Z",
     "commitMessage": "feat(deps): update @rsbuild/core to 1.7.0-beta.0 (#781)",
