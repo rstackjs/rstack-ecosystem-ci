@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0bfd84766a76361aa7422047a1310fa55047e32f",
+    "commitTimestamp": "2025-12-18T03:13:35Z",
+    "commitMessage": "chore: update SubresourceIntegrityPlugin reference (#6803)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590/job/58387718688"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590/job/58387718717"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590/job/58387718726"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590/job/58387718731"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590/job/58387718732"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324831590/job/58387718776"
+      }
+    ]
+  },
+  {
     "commitSha": "f470125397079361d846d5cfe1b2d8ea4fe0d5f2",
     "commitTimestamp": "2025-12-18T02:58:27Z",
     "commitMessage": "chore(deps): update dependency react-router-dom to ^7.11.0 (#6801)",
