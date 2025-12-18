@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3b9e5c2b0a5d9412fb1b8be29074a3afe3967669",
+    "commitTimestamp": "2025-12-18T09:53:56Z",
+    "commitMessage": "Release v0.18.5 (#1399)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20332950790",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20332950790/job/58412411453"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20332950790/job/58412411478"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20332950790/job/58412411495"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20332950790/job/58412411511"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20332950790/job/58412411512"
+      }
+    ]
+  },
+  {
     "commitSha": "61bcc74de1c0b1772e250f3086956f13e94ecf1a",
     "commitTimestamp": "2025-12-18T09:13:19Z",
     "commitMessage": " chore(deps): update dependency @rsbuild/core to v1.7.0-beta.0 (#1398)",
