@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a9b87fa509d73546345dfa8bd556280cc237a2f2",
+    "commitTimestamp": "2025-12-18T02:54:04Z",
+    "commitMessage": "feat(coverage): support custom reporters like @canyonjs/report-html (#771)",
+    "author": {
+      "name": "Travis Zhang",
+      "email": "wr.zhang25@gmail.com",
+      "login": "travzhang"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324427882",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324427882/job/58386593106"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324427882/job/58386593110"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324427882/job/58386593115"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324427882/job/58386593122"
+      }
+    ]
+  },
+  {
     "commitSha": "0a0a5a696fb6db951b4f7404e358e330b2c8824c",
     "commitTimestamp": "2025-12-17T12:14:16Z",
     "commitMessage": "feat(vscode): support collect tests from runtime (#754)",
