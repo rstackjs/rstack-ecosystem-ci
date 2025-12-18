@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "93cc88d18a6ed9c6ffea8c28efbc8e338f3eb91d",
+    "commitTimestamp": "2025-12-18T11:50:47Z",
+    "commitMessage": "fix: should collect test correctly when no isolate (#786)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20336004559",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20336004559/job/58422635580"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20336004559/job/58422635582"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20336004559/job/58422635588"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20336004559/job/58422635596"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20336004559/job/58422635597"
+      }
+    ]
+  },
+  {
     "commitSha": "c4f4431a2d5b34123a286c195bf1a9e7b19d22e5",
     "commitTimestamp": "2025-12-18T06:45:16Z",
     "commitMessage": "fix: aggregateTimeout default to 5 (#783)",
