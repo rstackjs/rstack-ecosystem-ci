@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "63595c877587771d0143f424322b1a1fbdf23421",
+    "commitTimestamp": "2025-12-18T03:13:06Z",
+    "commitMessage": "feat(deps): update @rsbuild/core to 1.7.0-beta.0 (#781)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324779949",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324779949/job/58387562950"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324779949/job/58387562961"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324779949/job/58387562964"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324779949/job/58387562967"
+      }
+    ]
+  },
+  {
     "commitSha": "a9b87fa509d73546345dfa8bd556280cc237a2f2",
     "commitTimestamp": "2025-12-18T02:54:04Z",
     "commitMessage": "feat(coverage): support custom reporters like @canyonjs/report-html (#771)",
