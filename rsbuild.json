@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "1c41803adc3a9c77877c6f59e0900190a5464b48",
+    "commitTimestamp": "2025-12-18T02:50:42Z",
+    "commitMessage": "release: v1.7.0-beta.0 (#6802)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040/job/58386405248"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040/job/58386405251"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040/job/58386405252"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040/job/58386405253"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040/job/58386405257"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20324367040/job/58386405258"
+      }
+    ]
+  },
+  {
     "commitSha": "5e1aa388e8c0fffea0fc58673c3aedab713d6db6",
     "commitTimestamp": "2025-12-17T13:47:35Z",
     "commitMessage": "chore(deps): update pnpm to v10.26.0 (#6800)",
