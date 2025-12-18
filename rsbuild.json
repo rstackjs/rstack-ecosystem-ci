@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4c0d31715dd0fd969b8c4402e7741bcb58553112",
+    "commitTimestamp": "2025-12-18T14:35:24Z",
+    "commitMessage": "chore(deps): update swc monorepo to ^12.1.0 (#6808)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525/job/58438209778"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525/job/58438209780"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525/job/58438209798"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525/job/58438209802"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525/job/58438209806"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20340501525/job/58438209822"
+      }
+    ]
+  },
+  {
     "commitSha": "0bfd84766a76361aa7422047a1310fa55047e32f",
     "commitTimestamp": "2025-12-18T03:13:35Z",
     "commitMessage": "chore: update SubresourceIntegrityPlugin reference (#6803)",
