@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "61bcc74de1c0b1772e250f3086956f13e94ecf1a",
+    "commitTimestamp": "2025-12-18T09:13:19Z",
+    "commitMessage": " chore(deps): update dependency @rsbuild/core to v1.7.0-beta.0 (#1398)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20331866819",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20331866819/job/58408851776"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20331866819/job/58408851782"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20331866819/job/58408851785"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20331866819/job/58408851791"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20331866819/job/58408851799"
+      }
+    ]
+  },
+  {
     "commitSha": "423c9eed2087b73da35a85a02e32034c567d0626",
     "commitTimestamp": "2025-12-15T03:48:22Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1396)",
