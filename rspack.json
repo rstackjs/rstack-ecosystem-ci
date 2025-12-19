@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "b17b689ab1e9dfb2ffa38d29c121b911ab40c6f0",
+    "commitTimestamp": "2025-12-19T03:12:36Z",
+    "commitMessage": "chore(ci): collapse the diff action detail comments (#12503)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20358584366",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273220"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273221"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273226"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273227"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273228"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273233"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273234"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273237"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273239"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273241"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20358584366/job/58499273245"
+      }
+    ]
+  },
+  {
     "commitSha": "06f6b341ee0114a40155e289e5a48d50d35e54c4",
     "commitTimestamp": "2025-12-18T14:19:52Z",
     "commitMessage": "chore(deps): bump Rslib v0.18.5 (#12502)",
