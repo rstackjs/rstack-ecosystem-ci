@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "489b74745757d9baf55765ae0455d68b17c045af",
+    "commitTimestamp": "2025-12-20T09:36:35Z",
+    "commitMessage": "fix: preserve filename and dirname for ESM bundles (#6811)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819/job/58603770780"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819/job/58603770781"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819/job/58603770785"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819/job/58603770793"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819/job/58603770794"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20392523819/job/58603770799"
+      }
+    ]
+  },
+  {
     "commitSha": "9b955528a5e97d72f1d8d3bcf8aa96f6e5eb0ef2",
     "commitTimestamp": "2025-12-20T01:11:19Z",
     "commitMessage": "chore(deps): update dependency nx to ^22.3.3 (#6810)",
