@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9b955528a5e97d72f1d8d3bcf8aa96f6e5eb0ef2",
+    "commitTimestamp": "2025-12-20T01:11:19Z",
+    "commitMessage": "chore(deps): update dependency nx to ^22.3.3 (#6810)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790/job/58589189910"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790/job/58589189912"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790/job/58589189913"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790/job/58589189915"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790/job/58589189920"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20386803790/job/58589189925"
+      }
+    ]
+  },
+  {
     "commitSha": "4c0d31715dd0fd969b8c4402e7741bcb58553112",
     "commitTimestamp": "2025-12-18T14:35:24Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.1.0 (#6808)",
