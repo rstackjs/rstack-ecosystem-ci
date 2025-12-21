@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a367e66f6d1753e3386d57d030df16503550b5b1",
+    "commitTimestamp": "2025-12-21T10:27:31Z",
+    "commitMessage": "test(e2e): add runtime error overlay test (#6814)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678/job/58641745317"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678/job/58641745318"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678/job/58641745319"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678/job/58641745324"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678/job/58641745327"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20408484678/job/58641745334"
+      }
+    ]
+  },
+  {
     "commitSha": "ff6fa935f39458739cf87657b9457d405e6e2c67",
     "commitTimestamp": "2025-12-21T02:45:36Z",
     "commitMessage": "feat: support displaying runtime errors on overlay (#6793)",
