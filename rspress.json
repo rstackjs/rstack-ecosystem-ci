@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c83c6d8fe68133f6c02a632a4d7a5794fd3b7a1b",
+    "commitTimestamp": "2025-12-22T07:04:25Z",
+    "commitMessage": "chore: remove unused min-height style (#2917)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20424511393",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20424511393/job/58682169891"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20424511393/job/58682169901"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20424511393/job/58682169902"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20424511393/job/58682169904"
+      }
+    ]
+  },
+  {
     "commitSha": "3ec6aecf5025a9221ed5f4e6e4b4940ea24387de",
     "commitTimestamp": "2025-12-22T03:20:20Z",
     "commitMessage": "fix: do not modify singleton global sidebar (#2911)",
