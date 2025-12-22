@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d824eddd3177ec4bc52087f58a4bb906f3b39c9e",
+    "commitTimestamp": "2025-12-22T11:10:31Z",
+    "commitMessage": "chore: no need to set inlineExports (#6819)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375/job/58698978346"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375/job/58698978353"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375/job/58698978366"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375/job/58698978367"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375/job/58698978369"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20430178375/job/58698978375"
+      }
+    ]
+  },
+  {
     "commitSha": "54c59ac5ea29d56e7dac09b01b72f15d791ff741",
     "commitTimestamp": "2025-12-22T03:00:52Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6816)",
