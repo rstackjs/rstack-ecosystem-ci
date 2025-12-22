@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "62c494aad3739bc1d440db8e4b506648d37131bc",
+    "commitTimestamp": "2025-12-22T08:46:21Z",
+    "commitMessage": "chore: bump swc_core from 50.2.3 to 52.0.0 and swc_experimental from 0.3.3 to 0.3.5 (#12518)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20426661510",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603807"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603810"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603819"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603829"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603833"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603835"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603840"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603841"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603849"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603855"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20426661510/job/58688603859"
+      }
+    ]
+  },
+  {
     "commitSha": "ef55569c8addcdb7b8660cb7d1d0c0807da66bbf",
     "commitTimestamp": "2025-12-22T08:16:08Z",
     "commitMessage": "test: enable previously skipped stats output tests (#12520)",
