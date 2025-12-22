@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1915933b2acde5abbd8e1de83eb79fd646992922",
+    "commitTimestamp": "2025-12-22T07:32:36Z",
+    "commitMessage": "chore(deps): update pnpm to v10.26.1 (#2915)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425106737",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425106737/job/58683799144"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425106737/job/58683799147"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425106737/job/58683799149"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425106737/job/58683799159"
+      }
+    ]
+  },
+  {
     "commitSha": "c83c6d8fe68133f6c02a632a4d7a5794fd3b7a1b",
     "commitTimestamp": "2025-12-22T07:04:25Z",
     "commitMessage": "chore: remove unused min-height style (#2917)",
