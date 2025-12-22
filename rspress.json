@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f8768659ea182e5b4070aa94a30dfe66814c05f4",
+    "commitTimestamp": "2025-12-22T07:33:50Z",
+    "commitMessage": "chore(deps): update actions/upload-artifact action to v6 (#2916)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425127110",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425127110/job/58683860123"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425127110/job/58683860125"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425127110/job/58683860126"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20425127110/job/58683860132"
+      }
+    ]
+  },
+  {
     "commitSha": "1915933b2acde5abbd8e1de83eb79fd646992922",
     "commitTimestamp": "2025-12-22T07:32:36Z",
     "commitMessage": "chore(deps): update pnpm to v10.26.1 (#2915)",
