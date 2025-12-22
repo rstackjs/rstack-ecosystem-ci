@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "09cbb39c9ca89e37a8ee70235ab6eaec9b4fac0e",
+    "commitTimestamp": "2025-12-22T03:51:07Z",
+    "commitMessage": "docs: correct capitalization several words (#790)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20421172297",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20421172297/job/58673129988"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20421172297/job/58673130002"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20421172297/job/58673130012"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20421172297/job/58673130013"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20421172297/job/58673130059"
+      }
+    ]
+  },
+  {
     "commitSha": "e36a7282f487299cf76ff797a9e70ccddd17ecdc",
     "commitTimestamp": "2025-12-22T03:00:22Z",
     "commitMessage": "fix: some runtime errors when no isolate (#787)",
