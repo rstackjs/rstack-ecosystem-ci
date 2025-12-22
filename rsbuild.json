@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "bd3fa6a7300d34cf4b47ef9c6813db0b892077c1",
+    "commitTimestamp": "2025-12-22T02:48:18Z",
+    "commitMessage": "test(e2e): centralize log expectations with shared constants (#6815)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686/job/58670350400"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686/job/58670350401"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686/job/58670350404"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686/job/58670350413"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686/job/58670350415"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420215686/job/58670350418"
+      }
+    ]
+  },
+  {
     "commitSha": "a367e66f6d1753e3386d57d030df16503550b5b1",
     "commitTimestamp": "2025-12-21T10:27:31Z",
     "commitMessage": "test(e2e): add runtime error overlay test (#6814)",
