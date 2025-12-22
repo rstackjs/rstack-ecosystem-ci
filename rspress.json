@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3ec6aecf5025a9221ed5f4e6e4b4940ea24387de",
+    "commitTimestamp": "2025-12-22T03:20:20Z",
+    "commitMessage": "fix: do not modify singleton global sidebar (#2911)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420717418",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420717418/job/58671655145"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420717418/job/58671655152"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420717418/job/58671655153"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20420717418/job/58671655164"
+      }
+    ]
+  },
+  {
     "commitSha": "8a6d0fddd4de1cd6822d3feb7fb3d0fc9b6521a7",
     "commitTimestamp": "2025-12-18T06:55:47Z",
     "commitMessage": "refactor(ssg-md): redesign the remarkSplitMdx split logic (#2903)",
