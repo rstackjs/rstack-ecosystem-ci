@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ca51ccdae38b8974fe7d27f035d5e3392f94f700",
+    "commitTimestamp": "2025-12-23T07:51:44Z",
+    "commitMessage": "feat: always display all test cases when running a single test file (#794)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454880594",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454880594/job/58774732630"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454880594/job/58774732632"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454880594/job/58774732635"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454880594/job/58774732641"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454880594/job/58774732642"
+      }
+    ]
+  },
+  {
     "commitSha": "1e241560bff48173719d91f2cbb30154dabea5e2",
     "commitTimestamp": "2025-12-23T07:10:19Z",
     "commitMessage": "docs: reorganize `api/` directory structure (#793)",
