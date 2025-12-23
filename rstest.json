@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "e1f50be8af6b23a3940c6a67ba6c08fecd7de749",
+    "commitTimestamp": "2025-12-23T12:37:25Z",
+    "commitMessage": "release: 0.7.6 (#796)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20460929024",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20460929024/job/58793314892"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20460929024/job/58793314896"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20460929024/job/58793314908"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20460929024/job/58793314909"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20460929024/job/58793314915"
+      }
+    ]
+  },
+  {
     "commitSha": "7e36e65dd7fe7e7cd916345e0fc3bfe552d3cd4a",
     "commitTimestamp": "2025-12-23T11:22:41Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#795)",
