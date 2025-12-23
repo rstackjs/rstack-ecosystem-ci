@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7e36e65dd7fe7e7cd916345e0fc3bfe552d3cd4a",
+    "commitTimestamp": "2025-12-23T11:22:41Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#795)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20459402704",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20459402704/job/58788550307"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20459402704/job/58788550309"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20459402704/job/58788550323"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20459402704/job/58788550336"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20459402704/job/58788550345"
+      }
+    ]
+  },
+  {
     "commitSha": "ca51ccdae38b8974fe7d27f035d5e3392f94f700",
     "commitTimestamp": "2025-12-23T07:51:44Z",
     "commitMessage": "feat: always display all test cases when running a single test file (#794)",
