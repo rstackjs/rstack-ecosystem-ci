@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4d8e20033fb033b539019f0c347987b7be0c3486",
+    "commitTimestamp": "2025-12-23T12:47:08Z",
+    "commitMessage": "test: exclude mock cases when isolate false (#797)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20461128278",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20461128278/job/58793941098"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20461128278/job/58793941099"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20461128278/job/58793941101"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20461128278/job/58793941102"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20461128278/job/58793941104"
+      }
+    ]
+  },
+  {
     "commitSha": "e1f50be8af6b23a3940c6a67ba6c08fecd7de749",
     "commitTimestamp": "2025-12-23T12:37:25Z",
     "commitMessage": "release: 0.7.6 (#796)",
