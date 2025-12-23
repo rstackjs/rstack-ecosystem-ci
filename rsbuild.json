@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a6153d9da3c7f6dbf9e6b03137da8424e3eeeba7",
+    "commitTimestamp": "2025-12-23T09:50:12Z",
+    "commitMessage": "fix!: should throw error when custom config file not found (#6828)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703/job/58782305808"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703/job/58782305809"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703/job/58782305813"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703/job/58782305817"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703/job/58782305820"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20457374703/job/58782305826"
+      }
+    ]
+  },
+  {
     "commitSha": "c2ed74092dd92ce8f00891e78342462057f92178",
     "commitTimestamp": "2025-12-23T09:13:06Z",
     "commitMessage": "release: 1.7.0-beta.1 (#6827)",
