@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1e241560bff48173719d91f2cbb30154dabea5e2",
+    "commitTimestamp": "2025-12-23T07:10:19Z",
+    "commitMessage": "docs: reorganize `api/` directory structure (#793)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454079289",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454079289/job/58772530569"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454079289/job/58772530575"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454079289/job/58772530578"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454079289/job/58772530590"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20454079289/job/58772530642"
+      }
+    ]
+  },
+  {
     "commitSha": "6e8929e9fe4e3b807141092a25987bc63d64a1fd",
     "commitTimestamp": "2025-12-22T05:33:21Z",
     "commitMessage": "perf: reduce memory usage (#776)",
