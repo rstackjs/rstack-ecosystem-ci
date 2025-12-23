@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "feb99a4b3be5e197ad8ef677beb50dea857d2610",
+    "commitTimestamp": "2025-12-23T14:28:55Z",
+    "commitMessage": "docs: enhance `content.devServer` type (#6830)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752/job/58801102716"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752/job/58801102718"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752/job/58801102720"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752/job/58801102726"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752/job/58801102731"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20463379752/job/58801102751"
+      }
+    ]
+  },
+  {
     "commitSha": "a6153d9da3c7f6dbf9e6b03137da8424e3eeeba7",
     "commitTimestamp": "2025-12-23T09:50:12Z",
     "commitMessage": "fix!: should throw error when custom config file not found (#6828)",
