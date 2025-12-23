@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "653115d3513e4804249d9766a3be432faa5f4fe3",
+    "commitTimestamp": "2025-12-23T09:02:38Z",
+    "commitMessage": "perf: use native relative source maps (#6798)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246/job/58779100563"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246/job/58779100565"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246/job/58779100568"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246/job/58779100575"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246/job/58779100578"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456319246/job/58779100582"
+      }
+    ]
+  },
+  {
     "commitSha": "a3f309407c9adbb913938b35f710e8ad46f49286",
     "commitTimestamp": "2025-12-22T14:21:37Z",
     "commitMessage": "test: add error recovery overlay test case (#6821)",
