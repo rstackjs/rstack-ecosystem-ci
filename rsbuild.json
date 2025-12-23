@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c2ed74092dd92ce8f00891e78342462057f92178",
+    "commitTimestamp": "2025-12-23T09:13:06Z",
+    "commitMessage": "release: 1.7.0-beta.1 (#6827)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399/job/58780231605"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399/job/58780231607"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399/job/58780231609"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399/job/58780231613"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399/job/58780231614"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456691399/job/58780231672"
+      }
+    ]
+  },
+  {
     "commitSha": "653115d3513e4804249d9766a3be432faa5f4fe3",
     "commitTimestamp": "2025-12-23T09:02:38Z",
     "commitMessage": "perf: use native relative source maps (#6798)",
