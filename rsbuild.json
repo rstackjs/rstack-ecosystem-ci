@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "30101013636f34b1e1617922d4401a4b8b987dfb",
+    "commitTimestamp": "2025-12-23T08:49:01Z",
+    "commitMessage": "feat(deps): update @rspack/core to v1.7.0-beta.1 (#6826)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851/job/58778173463"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851/job/58778173464"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851/job/58778173467"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851/job/58778173470"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851/job/58778173495"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20456025851/job/58778173497"
+      }
+    ]
+  },
+  {
     "commitSha": "a3f309407c9adbb913938b35f710e8ad46f49286",
     "commitTimestamp": "2025-12-22T14:21:37Z",
     "commitMessage": "test: add error recovery overlay test case (#6821)",
