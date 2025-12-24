@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "96972093806763065ea36f3126d03033d43e2559",
+    "commitTimestamp": "2025-12-24T12:21:32Z",
+    "commitMessage": "chore(deps): bump Rsbuild 1.7.0-beta.1 (#1409)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20486104786",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20486104786/job/58868795290"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20486104786/job/58868795292"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20486104786/job/58868795293"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20486104786/job/58868795306"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20486104786/job/58868795309"
+      }
+    ]
+  },
+  {
     "commitSha": "388b014d24a0b3507f5f83d724e90f83bf386f62",
     "commitTimestamp": "2025-12-24T09:43:12Z",
     "commitMessage": "fix(CLI): simplify build error logs (#1408)",
