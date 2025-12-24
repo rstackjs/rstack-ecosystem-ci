@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "388b014d24a0b3507f5f83d724e90f83bf386f62",
+    "commitTimestamp": "2025-12-24T09:43:12Z",
+    "commitMessage": "fix(CLI): simplify build error logs (#1408)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483408018",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483408018/job/58861049184"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483408018/job/58861049195"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483408018/job/58861049196"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483408018/job/58861049202"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483408018/job/58861049211"
+      }
+    ]
+  },
+  {
     "commitSha": "4c90579e7197db6f9ba5970d01ac0bf90ba1e292",
     "commitTimestamp": "2025-12-24T09:43:02Z",
     "commitMessage": "fix(CLI): ensure consistent spacing before the greeting message (#1407)",
