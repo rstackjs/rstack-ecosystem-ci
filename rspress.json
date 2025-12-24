@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2c4e166f3f6f207d8dd0dd17bead18df3632842e",
+    "commitTimestamp": "2025-12-24T06:24:43Z",
+    "commitMessage": "fix: `Iterator#map` is only available on Node 22+ (#2923)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20479951467",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20479951467/job/58851483605"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20479951467/job/58851483610"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20479951467/job/58851483628"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20479951467/job/58851483635"
+      }
+    ]
+  },
+  {
     "commitSha": "e8f542951fa67a9b1243afe908e0374cfe082e73",
     "commitTimestamp": "2025-12-22T11:56:15Z",
     "commitMessage": "Release v2.0.0-rc.3 (#2921)",
