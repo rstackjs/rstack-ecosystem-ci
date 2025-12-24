@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "637b2b04745b97e0b7c45de90b3bdbca26be7ccc",
+    "commitTimestamp": "2025-12-24T13:24:42Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1411)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20487157198",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20487157198/job/58871810778"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20487157198/job/58871810780"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20487157198/job/58871810782"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20487157198/job/58871810786"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20487157198/job/58871810795"
+      }
+    ]
+  },
+  {
     "commitSha": "bbee0758b9cf373621018ee6fcc9348a775bb113",
     "commitTimestamp": "2025-12-24T12:42:45Z",
     "commitMessage": "Release v0.18.6 (#1410)",
