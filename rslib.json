@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4c90579e7197db6f9ba5970d01ac0bf90ba1e292",
+    "commitTimestamp": "2025-12-24T09:43:02Z",
+    "commitMessage": "fix(CLI): ensure consistent spacing before the greeting message (#1407)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483375934",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483375934/job/58860958706"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483375934/job/58860958714"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483375934/job/58860958715"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483375934/job/58860958717"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20483375934/job/58860958721"
+      }
+    ]
+  },
+  {
     "commitSha": "6d9a384a9292204a86a561ca32b98c7d522ebdfe",
     "commitTimestamp": "2025-12-24T09:15:59Z",
     "commitMessage": "feat(CLI): add `rslib-node` process title (#1406)",
