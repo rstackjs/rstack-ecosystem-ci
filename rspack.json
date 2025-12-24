@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "08772c3f0798ad8caa30ca7cf705c4a5a56ee1d2",
+    "commitTimestamp": "2025-12-24T08:14:22Z",
+    "commitMessage": "fix: include import attributes in context module identifier (#12551)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20481762159",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590736"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590740"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590746"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590747"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590750"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590756"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590757"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590761"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590763"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590766"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20481762159/job/58856590778"
+      }
+    ]
+  },
+  {
     "commitSha": "0866596c4b9c76250265b54ed1cf37508b691436",
     "commitTimestamp": "2025-12-24T07:38:26Z",
     "commitMessage": "feat: add bytes support for asset modules (#12548)",
