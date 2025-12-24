@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b93fade4d0a0f5af5d1dfa5a1c691177caffeebc",
+    "commitTimestamp": "2025-12-24T10:20:44Z",
+    "commitMessage": "docs: upgrade custom-theme and add wrap and eject (#2925)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20484061301",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20484061301/job/58862930327"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20484061301/job/58862930333"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20484061301/job/58862930340"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20484061301/job/58862930365"
+      }
+    ]
+  },
+  {
     "commitSha": "c384e1e37e6de3fbb5432ccff701b516dad5cfa1",
     "commitTimestamp": "2025-12-24T06:58:02Z",
     "commitMessage": "fix(theme/Sidebar): sidebar should also listen location changes (#2922)",
