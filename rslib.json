@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a526b2cfe161c36f3c31c427c5e6edf4e9d1e745",
+    "commitTimestamp": "2025-12-24T08:03:10Z",
+    "commitMessage": "fix: should throw error when custom config file not found (#1403)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20481573566",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20481573566/job/58855824111"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20481573566/job/58855824112"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20481573566/job/58855824119"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20481573566/job/58855824121"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20481573566/job/58855824123"
+      }
+    ]
+  },
+  {
     "commitSha": "22abbc9ee52aa9a21f515d3dab065d5e2380c218",
     "commitTimestamp": "2025-12-22T02:48:52Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1402)",
