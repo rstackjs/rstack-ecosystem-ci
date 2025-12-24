@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c384e1e37e6de3fbb5432ccff701b516dad5cfa1",
+    "commitTimestamp": "2025-12-24T06:58:02Z",
+    "commitMessage": "fix(theme/Sidebar): sidebar should also listen location changes (#2922)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20480469865",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20480469865/job/58852864237"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20480469865/job/58852864243"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20480469865/job/58852864244"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20480469865/job/58852864247"
+      }
+    ]
+  },
+  {
     "commitSha": "2c4e166f3f6f207d8dd0dd17bead18df3632842e",
     "commitTimestamp": "2025-12-24T06:24:43Z",
     "commitMessage": "fix: `Iterator#map` is only available on Node 22+ (#2923)",
