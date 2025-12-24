@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6d9a384a9292204a86a561ca32b98c7d522ebdfe",
+    "commitTimestamp": "2025-12-24T09:15:59Z",
+    "commitMessage": "feat(CLI): add `rslib-node` process title (#1406)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20482876110",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20482876110/job/58859561160"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20482876110/job/58859561168"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20482876110/job/58859561169"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20482876110/job/58859561170"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20482876110/job/58859561184"
+      }
+    ]
+  },
+  {
     "commitSha": "a526b2cfe161c36f3c31c427c5e6edf4e9d1e745",
     "commitTimestamp": "2025-12-24T08:03:10Z",
     "commitMessage": "fix: should throw error when custom config file not found (#1403)",
