@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "65b79b91e5aba840e07b70ee9dc420eb6e0fa3a5",
+    "commitTimestamp": "2025-12-25T11:45:21Z",
+    "commitMessage": "fix: coverage should show 0% when no source files are tested (#806)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20504566375",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20504566375/job/58917020649"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20504566375/job/58917020654"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20504566375/job/58917020657"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20504566375/job/58917020662"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20504566375/job/58917020663"
+      }
+    ]
+  },
+  {
     "commitSha": "5a893ed028fcd590a121320435a624ea5612cf2c",
     "commitTimestamp": "2025-12-25T04:00:04Z",
     "commitMessage": "fix: incorrect setup files source mapping when no isolated (#805)",
