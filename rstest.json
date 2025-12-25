@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a2573cf90187a6d1c9f466a006a4f8ac1f22c0ee",
+    "commitTimestamp": "2025-12-25T03:13:17Z",
+    "commitMessage": "fix: cannot debug or profile child processes (#800)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498072413",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498072413/job/58900830275"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498072413/job/58900830280"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498072413/job/58900830281"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498072413/job/58900830282"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498072413/job/58900830284"
+      }
+    ]
+  },
+  {
     "commitSha": "4d8e20033fb033b539019f0c347987b7be0c3486",
     "commitTimestamp": "2025-12-23T12:47:08Z",
     "commitMessage": "test: exclude mock cases when isolate false (#797)",
