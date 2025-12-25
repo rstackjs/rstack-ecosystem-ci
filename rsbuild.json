@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c586bafc44b4346b48d32f108d6fd6c50599bf97",
+    "commitTimestamp": "2025-12-25T02:56:32Z",
+    "commitMessage": "fix: enhance overlay to display full stack trace for runtime errors (#6834)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475/job/58900334087"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475/job/58900334090"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475/job/58900334091"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475/job/58900334092"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475/job/58900334093"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20497870475/job/58900334095"
+      }
+    ]
+  },
+  {
     "commitSha": "9e4af5363189b976a3b584bda9ade4e5e79edc1d",
     "commitTimestamp": "2025-12-25T02:37:20Z",
     "commitMessage": "fix: improve overlay link color for better visibility (#6833)",
