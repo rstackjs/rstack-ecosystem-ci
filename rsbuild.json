@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b7c857dcaf00d54e988afe6c70ef9f7c35a3fa6a",
+    "commitTimestamp": "2025-12-25T09:53:05Z",
+    "commitMessage": "perf: reuse parsed stack frames (#6837)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639/job/58913563491"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639/job/58913563492"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639/job/58913563497"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639/job/58913563499"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639/job/58913563500"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20503151639/job/58913563503"
+      }
+    ]
+  },
+  {
     "commitSha": "14faa709a199d05eca3ea2aabf47ecd697433244",
     "commitTimestamp": "2025-12-25T03:26:01Z",
     "commitMessage": "chore(deps): update dependency @rsdoctor/rspack-plugin to v1.4.0 (#6835)",
