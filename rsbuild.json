@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "14faa709a199d05eca3ea2aabf47ecd697433244",
+    "commitTimestamp": "2025-12-25T03:26:01Z",
+    "commitMessage": "chore(deps): update dependency @rsdoctor/rspack-plugin to v1.4.0 (#6835)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890/job/58901234631"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890/job/58901234633"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890/job/58901234634"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890/job/58901234635"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890/job/58901234636"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498228890/job/58901234656"
+      }
+    ]
+  },
+  {
     "commitSha": "c586bafc44b4346b48d32f108d6fd6c50599bf97",
     "commitTimestamp": "2025-12-25T02:56:32Z",
     "commitMessage": "fix: enhance overlay to display full stack trace for runtime errors (#6834)",
