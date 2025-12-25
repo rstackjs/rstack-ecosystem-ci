@@ -40,6 +40,7 @@ on:
           - rslib
           - rsbuild
           - rsdoctor
+          - modernjs
           # - examples
       suiteRefType:
         description: "type of suite ref to use"
@@ -91,6 +92,8 @@ jobs:
           - suite: rsbuild
             os: ubuntu-latest
           - suite: rsdoctor
+            os: ubuntu-latest
+          - suite: modernjs
             os: ubuntu-latest
           # - suite: examples
           #   os: ubuntu-latest
