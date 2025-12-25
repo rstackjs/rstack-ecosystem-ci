@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5a893ed028fcd590a121320435a624ea5612cf2c",
+    "commitTimestamp": "2025-12-25T04:00:04Z",
+    "commitMessage": "fix: incorrect setup files source mapping when no isolated (#805)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498618660",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498618660/job/58902509243"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498618660/job/58902509247"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498618660/job/58902509251"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498618660/job/58902509260"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498618660/job/58902509270"
+      }
+    ]
+  },
+  {
     "commitSha": "7c8417405df2c1ca60f01db085de34d42107a54f",
     "commitTimestamp": "2025-12-25T03:34:18Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to v0.18.6 (#804)",
