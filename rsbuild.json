@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "db18e66c53645efbec5d8a57a70d3da126dffd6b",
+    "commitTimestamp": "2025-12-25T03:25:50Z",
+    "commitMessage": "chore(deps): update module federation to v0.22.0 (#6836)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550/job/58901231072"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550/job/58901231073"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550/job/58901231074"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550/job/58901231077"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550/job/58901231080"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20498227550/job/58901231082"
+      }
+    ]
+  },
+  {
     "commitSha": "c586bafc44b4346b48d32f108d6fd6c50599bf97",
     "commitTimestamp": "2025-12-25T02:56:32Z",
     "commitMessage": "fix: enhance overlay to display full stack trace for runtime errors (#6834)",
