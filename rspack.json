@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "a6766713eb7388a3f7bd2dc6e5bb6f9bcc21c494",
+    "commitTimestamp": "2025-12-26T03:43:51Z",
+    "commitMessage": "refactor: merge rspack_cacheable SerializeError and DeserializeError (#12556)",
+    "author": {
+      "name": "jinrui",
+      "email": "jerrykingxyz@gmail.com",
+      "login": "jerrykingxyz"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20515398894",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579393"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579395"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579396"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579399"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579401"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579402"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579403"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579408"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579409"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579416"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20515398894/job/58942579419"
+      }
+    ]
+  },
+  {
     "commitSha": "8fb5a12e947fa553c593a427550ef0ec69b1e47b",
     "commitTimestamp": "2025-12-25T15:06:18Z",
     "commitMessage": "perf: update module graph overlay map (#12560)",
