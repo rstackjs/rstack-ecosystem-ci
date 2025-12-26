@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "23edebaf360d19fb46e361e42ab9b30eeea0f949",
+    "commitTimestamp": "2025-12-26T10:15:56Z",
+    "commitMessage": "release: 0.7.7 (#808)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20520701014",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20520701014/job/58955457420"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20520701014/job/58955457434"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20520701014/job/58955457438"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20520701014/job/58955457448"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20520701014/job/58955457458"
+      }
+    ]
+  },
+  {
     "commitSha": "2f26261fe8f173023a4a0bc60b57d4b5c9d60726",
     "commitTimestamp": "2025-12-26T07:48:32Z",
     "commitMessage": "feat: support extend rstest config (#799)",
