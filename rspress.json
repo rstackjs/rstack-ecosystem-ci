@@ -1,8 +1,8 @@
 [
   {
-    "commitSha": "4a54e5181623afd3ff5c1ca77dea65a8cfb8484c",
-    "commitTimestamp": "2025-12-26T07:19:07Z",
-    "commitMessage": "fix(theme): improve SSR compatibility (#2934)",
+    "commitSha": "b5c8703d8fff2d205ffa2919f5f7805e8b845040",
+    "commitTimestamp": "2025-12-26T07:20:30Z",
+    "commitMessage": "feat(ssg-md): support Overview and HomeLayout (#2933)",
     "author": {
       "name": "Soon",
       "email": "sooniter@gmail.com",
@@ -12,28 +12,28 @@
       "fullName": "web-infra-dev/rspress",
       "name": "rspress"
     },
-    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583",
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518237400",
     "overallStatus": "success",
     "suites": [
       {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518237400/job/58949328653"
+      },
+      {
         "name": "rspack",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274502"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518237400/job/58949328658"
       },
       {
         "name": "rsbuild",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274505"
-      },
-      {
-        "name": "rslib",
-        "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274506"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518237400/job/58949328659"
       },
       {
         "name": "rstest",
         "status": "success",
-        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274507"
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518237400/job/58949328666"
       }
     ]
   },
