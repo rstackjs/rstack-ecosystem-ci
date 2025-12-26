@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2f26261fe8f173023a4a0bc60b57d4b5c9d60726",
+    "commitTimestamp": "2025-12-26T07:48:32Z",
+    "commitMessage": "feat: support extend rstest config (#799)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518628484",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518628484/job/58950251141"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518628484/job/58950251145"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518628484/job/58950251161"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518628484/job/58950251162"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518628484/job/58950251174"
+      }
+    ]
+  },
+  {
     "commitSha": "bedc821f02be1f94e444ef4bc85855ac9b28a214",
     "commitTimestamp": "2025-12-26T03:42:02Z",
     "commitMessage": "perf: enable split chunks (#798)",
