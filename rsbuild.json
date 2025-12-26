@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "052a01460dae74bba14f981dc2cd7d6a8e842059",
+    "commitTimestamp": "2025-12-26T05:47:00Z",
+    "commitMessage": "fix: hide unmapped runtime frames by default in error overlay (#6841)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860/job/58946153106"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860/job/58946153108"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860/job/58946153109"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860/job/58946153111"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860/job/58946153114"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20516933860/job/58946153123"
+      }
+    ]
+  },
+  {
     "commitSha": "6ed65a86c6020cf05d463581e95e15de1b837903",
     "commitTimestamp": "2025-12-26T02:35:43Z",
     "commitMessage": "fix: improve diagnostics for Rspack runtime modules (#6840)",
