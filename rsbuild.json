@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fcd9bf41f01b6b63f0d139804070dc328c5cb078",
+    "commitTimestamp": "2025-12-26T08:53:13Z",
+    "commitMessage": "release: 1.7.0-beta.2 (#6844)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659/job/58952538344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659/job/58952538350"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659/job/58952538353"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659/job/58952538357"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659/job/58952538365"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519523659/job/58952538368"
+      }
+    ]
+  },
+  {
     "commitSha": "89f20ca4447f51f2c3a6426f0c7e7078cd09615f",
     "commitTimestamp": "2025-12-26T08:25:37Z",
     "commitMessage": "chore: simplify HMR init function parameter structure (#6843)",
