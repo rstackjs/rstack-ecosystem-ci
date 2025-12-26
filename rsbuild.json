@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "89f20ca4447f51f2c3a6426f0c7e7078cd09615f",
+    "commitTimestamp": "2025-12-26T08:25:37Z",
+    "commitMessage": "chore: simplify HMR init function parameter structure (#6843)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953/job/58951569593"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953/job/58951569594"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953/job/58951569597"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953/job/58951569599"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953/job/58951569601"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20519151953/job/58951569619"
+      }
+    ]
+  },
+  {
     "commitSha": "bb44bf0494cb2acca06eb3a7539e8aa7b9143aae",
     "commitTimestamp": "2025-12-26T06:58:22Z",
     "commitMessage": "fix: Node.js addons loading for ESM output (#6842)",
