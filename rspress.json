@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "96aac4368151969713f77976085ab59fc20e995b",
+    "commitTimestamp": "2025-12-26T07:45:54Z",
+    "commitMessage": "fix: hover group links should also calc active with matchNavbar by default (#2930)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518590364",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518590364/job/58950162721"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518590364/job/58950162723"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518590364/job/58950162726"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518590364/job/58950162727"
+      }
+    ]
+  },
+  {
     "commitSha": "b5c8703d8fff2d205ffa2919f5f7805e8b845040",
     "commitTimestamp": "2025-12-26T07:20:30Z",
     "commitMessage": "feat(ssg-md): support Overview and HomeLayout (#2933)",
