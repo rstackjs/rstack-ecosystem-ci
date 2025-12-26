@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "bedc821f02be1f94e444ef4bc85855ac9b28a214",
+    "commitTimestamp": "2025-12-26T03:42:02Z",
+    "commitMessage": "perf: enable split chunks (#798)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20515383060",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20515383060/job/58942353927"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20515383060/job/58942353934"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20515383060/job/58942353938"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20515383060/job/58942353939"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20515383060/job/58942353941"
+      }
+    ]
+  },
+  {
     "commitSha": "65b79b91e5aba840e07b70ee9dc420eb6e0fa3a5",
     "commitTimestamp": "2025-12-25T11:45:21Z",
     "commitMessage": "fix: coverage should show 0% when no source files are tested (#806)",
