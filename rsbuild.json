@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bb44bf0494cb2acca06eb3a7539e8aa7b9143aae",
+    "commitTimestamp": "2025-12-26T06:58:22Z",
+    "commitMessage": "fix: Node.js addons loading for ESM output (#6842)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927/job/58948507635"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927/job/58948507644"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927/job/58948507646"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927/job/58948507653"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927/job/58948507656"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20517906927/job/58948507657"
+      }
+    ]
+  },
+  {
     "commitSha": "052a01460dae74bba14f981dc2cd7d6a8e842059",
     "commitTimestamp": "2025-12-26T05:47:00Z",
     "commitMessage": "fix: hide unmapped runtime frames by default in error overlay (#6841)",
