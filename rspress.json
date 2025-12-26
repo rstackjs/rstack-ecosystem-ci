@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4a54e5181623afd3ff5c1ca77dea65a8cfb8484c",
+    "commitTimestamp": "2025-12-26T07:19:07Z",
+    "commitMessage": "fix(theme): improve SSR compatibility (#2934)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274502"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274505"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274506"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20518214583/job/58949274507"
+      }
+    ]
+  },
+  {
     "commitSha": "c03d863a6b0e095c11003f9592ab5fd06b886b73",
     "commitTimestamp": "2025-12-25T03:54:08Z",
     "commitMessage": "docs: upgrade llms.txt and ssg-md (#2927)",
