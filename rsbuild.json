@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "4acbef1091ca175f114164897b859be661a11d74",
+    "commitTimestamp": "2025-12-27T01:36:23Z",
+    "commitMessage": "chore(deps): update dependency jsdom to ^27.4.0 (#6847)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443/job/58986001499"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443/job/58986001500"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443/job/58986001501"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443/job/58986001503"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443/job/58986001504"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532569443/job/58986001507"
+      }
+    ]
+  },
+  {
     "commitSha": "fcd9bf41f01b6b63f0d139804070dc328c5cb078",
     "commitTimestamp": "2025-12-26T08:53:13Z",
     "commitMessage": "release: 1.7.0-beta.2 (#6844)",
