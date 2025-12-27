@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1b32b79c389e74374edde742fcad5d6d682e3451",
+    "commitTimestamp": "2025-12-27T01:43:35Z",
+    "commitMessage": "docs: polish start and FAQ docs (#6848)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013/job/58986181200"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013/job/58986181205"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013/job/58986181219"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013/job/58986181220"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013/job/58986181227"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20532644013/job/58986181253"
+      }
+    ]
+  },
+  {
     "commitSha": "88bb0307e15a95725b5d8117667cdee5eac7f19c",
     "commitTimestamp": "2025-12-27T01:36:46Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.3.0 (#6849)",
