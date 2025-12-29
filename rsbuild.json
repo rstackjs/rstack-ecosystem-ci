@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "57ef9b8689e1604a5293a87a6e2940b32d56aa52",
+    "commitTimestamp": "2025-12-29T13:37:14Z",
+    "commitMessage": "fix(plugin-api): allow to override exposed API (#6861)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926/job/59087457690"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926/job/59087457693"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926/job/59087457698"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926/job/59087457700"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926/job/59087457702"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20574197926/job/59087457703"
+      }
+    ]
+  },
+  {
     "commitSha": "77cca6e9096183745aa3e65472942c4a7626db26",
     "commitTimestamp": "2025-12-29T08:01:42Z",
     "commitMessage": "feat(create-rsbuild): use `happy-dom` instead of `jsdom` (#6859)",
