@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "27fbbb91a16bc7bab4c47d289142094040956de9",
+    "commitTimestamp": "2025-12-29T08:19:46Z",
+    "commitMessage": "fix(theme/Nav): render empty nav items correctly not link (#2929)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568261952",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568261952/job/59070241970"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568261952/job/59070241976"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568261952/job/59070241982"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568261952/job/59070241984"
+      }
+    ]
+  },
+  {
     "commitSha": "56120dc97836dd01c9c6e2036ce3a63a49eb5bf0",
     "commitTimestamp": "2025-12-29T08:00:06Z",
     "commitMessage": "docs: fix og-image cjk wrong font and title slice logic (#2919)",
