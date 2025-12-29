@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3e88e1390abd8a1cdd7e60674c9db8f32580b85a",
+    "commitTimestamp": "2025-12-29T08:38:01Z",
+    "commitMessage": "fix: render `beforeNavMenu` correctly (#2822)",
+    "author": {
+      "name": "JounQin",
+      "email": "admin@1stg.me",
+      "login": "JounQin"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568579336",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568579336/job/59071127500"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568579336/job/59071127515"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568579336/job/59071127524"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20568579336/job/59071127588"
+      }
+    ]
+  },
+  {
     "commitSha": "27fbbb91a16bc7bab4c47d289142094040956de9",
     "commitTimestamp": "2025-12-29T08:19:46Z",
     "commitMessage": "fix(theme/Nav): render empty nav items correctly not link (#2929)",
