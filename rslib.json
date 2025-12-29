@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c071d978c8a064b850ac81fc58b014f3b085aa94",
+    "commitTimestamp": "2025-12-29T03:20:59Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1414)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563937767",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563937767/job/59058806225"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563937767/job/59058806227"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563937767/job/59058806230"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563937767/job/59058806236"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563937767/job/59058806243"
+      }
+    ]
+  },
+  {
     "commitSha": "31b64d93e55e79e1a31100096866efeb283fcc72",
     "commitTimestamp": "2025-12-25T11:32:24Z",
     "commitMessage": "feat(create-rslib): use `happy-dom` instead of `jsdom` (#1412)",
