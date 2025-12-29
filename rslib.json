@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4fb69990f1a6d1174036b929e0ea1fe144284703",
+    "commitTimestamp": "2025-12-29T03:59:08Z",
+    "commitMessage": "feat(create-rslib): use `@rstest/adapter-rslib` (#1415)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564434268",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564434268/job/59060345004"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564434268/job/59060345012"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564434268/job/59060345013"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564434268/job/59060345014"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564434268/job/59060345015"
+      }
+    ]
+  },
+  {
     "commitSha": "14da49842f248749976ccee2fc5b12f670b31f72",
     "commitTimestamp": "2025-12-29T03:47:53Z",
     "commitMessage": "feat!: add JavaScript API and enhance CLI behaviour (#1394)",
