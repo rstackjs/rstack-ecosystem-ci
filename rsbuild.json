@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be6039b5eafd616318cdd9b69994e913703cf4e7",
+    "commitTimestamp": "2025-12-29T01:52:31Z",
+    "commitMessage": "fix(create-rsbuild): use uppercase doctype in lit templates (#6854)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021/job/59055863134"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021/job/59055863136"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021/job/59055863139"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021/job/59055863140"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021/job/59055863143"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20562804021/job/59055863144"
+      }
+    ]
+  },
+  {
     "commitSha": "8e948834b7adc25051a62126ab223e10bfc23593",
     "commitTimestamp": "2025-12-28T14:09:51Z",
     "commitMessage": "fix: standardize doctype declaration to uppercase in default template (#6853)",
