@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "080bc0a00937e51b898ec0d7d425b2a30c47dae1",
+    "commitTimestamp": "2025-12-29T03:14:18Z",
+    "commitMessage": "chore(deps): update dependency @docsearch/css to ^4.4.0 (#2939)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563839404",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563839404/job/59058595327"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563839404/job/59058595328"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563839404/job/59058595329"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563839404/job/59058595330"
+      }
+    ]
+  },
+  {
     "commitSha": "96aac4368151969713f77976085ab59fc20e995b",
     "commitTimestamp": "2025-12-26T07:45:54Z",
     "commitMessage": "fix: hover group links should also calc active with matchNavbar by default (#2930)",
