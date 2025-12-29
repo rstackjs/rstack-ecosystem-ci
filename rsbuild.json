@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "68a422e0c505ff1628761cf923028fdc464c79fa",
+    "commitTimestamp": "2025-12-29T07:40:25Z",
+    "commitMessage": "chore(deps): bump Rslib to v0.19.0 (#6858)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291/job/59068488698"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291/job/59068488700"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291/job/59068488703"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291/job/59068488705"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291/job/59068488710"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20567618291/job/59068488726"
+      }
+    ]
+  },
+  {
     "commitSha": "4adb70bd0afaeb14e801e5202724651e7f187ae7",
     "commitTimestamp": "2025-12-29T02:13:20Z",
     "commitMessage": "fix: normalize default charset to lowercase `utf-8` (#6856)",
