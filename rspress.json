@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d6c65eedf6cc0efc9e2e003fb2fb827abdba3e2c",
+    "commitTimestamp": "2025-12-29T12:02:28Z",
+    "commitMessage": "fix(ssg-md): use .md links instead of .html in Overview SSG-MD mode (#2944)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20572389069",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20572389069/job/59082116225"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20572389069/job/59082116227"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20572389069/job/59082116230"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20572389069/job/59082116267"
+      }
+    ]
+  },
+  {
     "commitSha": "3e88e1390abd8a1cdd7e60674c9db8f32580b85a",
     "commitTimestamp": "2025-12-29T08:38:01Z",
     "commitMessage": "fix: render `beforeNavMenu` correctly (#2822)",
