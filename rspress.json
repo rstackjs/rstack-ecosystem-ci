@@ -114,6 +114,44 @@
     ]
   },
   {
+    "commitSha": "72f9f59dc64dbc81bcb8d05c4bd6ddd04517c09e",
+    "commitTimestamp": "2025-12-29T03:12:41Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2938)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563816969",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563816969/job/59058546955"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563816969/job/59058546956"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563816969/job/59058546959"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20563816969/job/59058546961"
+      }
+    ]
+  },
+  {
     "commitSha": "96aac4368151969713f77976085ab59fc20e995b",
     "commitTimestamp": "2025-12-26T07:45:54Z",
     "commitMessage": "fix: hover group links should also calc active with matchNavbar by default (#2930)",
