@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bed23555e47c218410bf61cd2329930732f9415f",
+    "commitTimestamp": "2025-12-29T03:31:18Z",
+    "commitMessage": "chore(deps): update dependency @rsdoctor/rspack-plugin to v1.4.0 (#2942)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564089523",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564089523/job/59059169052"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564089523/job/59059169053"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564089523/job/59059169061"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564089523/job/59059169069"
+      }
+    ]
+  },
+  {
     "commitSha": "080bc0a00937e51b898ec0d7d425b2a30c47dae1",
     "commitTimestamp": "2025-12-29T03:14:18Z",
     "commitMessage": "chore(deps): update dependency @docsearch/css to ^4.4.0 (#2939)",
