@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d164c94063d980d1c41a6a360a306c8be239b42a",
+    "commitTimestamp": "2025-12-29T04:14:04Z",
+    "commitMessage": "feat!: enable advanced esm by default (#1413)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564654733",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564654733/job/59060880810"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564654733/job/59060880811"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564654733/job/59060880812"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564654733/job/59060880815"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20564654733/job/59060880817"
+      }
+    ]
+  },
+  {
     "commitSha": "4fb69990f1a6d1174036b929e0ea1fe144284703",
     "commitTimestamp": "2025-12-29T03:59:08Z",
     "commitMessage": "feat(create-rslib): use `@rstest/adapter-rslib` (#1415)",
