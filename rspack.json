@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "6626bda9a7eb899ba94df5f5e60b58b3088386a0",
+    "commitTimestamp": "2025-12-30T08:04:38Z",
+    "commitMessage": "refactor: DerefOpiton default to Some(T) when T impl Default trait (#12406)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20591925875",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855315"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855318"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855319"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855320"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855326"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855328"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855336"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855337"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855338"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855341"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20591925875/job/59138855350"
+      }
+    ]
+  },
+  {
     "commitSha": "4a0f619226d0523c12ad4fbad1a32a866459ea7c",
     "commitTimestamp": "2025-12-30T06:37:41Z",
     "commitMessage": "chore: bump swc_core from 52.0.0 to 54.0.0 and swc_experimental from 0.3.5 to 0.4.0 (#12582)",
