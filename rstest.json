@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "81d40781caa988f7eff27a8a7795a33a34d34c0e",
+    "commitTimestamp": "2025-12-30T08:03:45Z",
+    "commitMessage": "docs: add `mocking re-exported modules` tip (#817)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591984360",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591984360/job/59138689008"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591984360/job/59138689009"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591984360/job/59138689016"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591984360/job/59138689018"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591984360/job/59138689025"
+      }
+    ]
+  },
+  {
     "commitSha": "dfa66d0e5bd8ad44f21d6d02a48e57e30a02cb3d",
     "commitTimestamp": "2025-12-30T07:28:30Z",
     "commitMessage": "feat: support testEnvironment.options (#816)",
