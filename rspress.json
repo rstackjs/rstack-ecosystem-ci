@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5f6709f68ca782eb6aedc49f66b899b642e3f70d",
+    "commitTimestamp": "2025-12-30T05:15:05Z",
+    "commitMessage": "fix(plugin-algolia): upgrade docsearch and fix the css (#2946)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589480219",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589480219/job/59132036495"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589480219/job/59132036501"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589480219/job/59132036506"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589480219/job/59132036507"
+      }
+    ]
+  },
+  {
     "commitSha": "3ec30f62adc8ab52a2a5b5b812cd30696b308c86",
     "commitTimestamp": "2025-12-30T04:50:41Z",
     "commitMessage": "docs: fix the shiki highlighter ansi \"/\" (#2947)",
