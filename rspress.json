@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3ec30f62adc8ab52a2a5b5b812cd30696b308c86",
+    "commitTimestamp": "2025-12-30T04:50:41Z",
+    "commitMessage": "docs: fix the shiki highlighter ansi \"/\" (#2947)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589150350",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589150350/job/59131163101"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589150350/job/59131163103"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589150350/job/59131163106"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20589150350/job/59131163107"
+      }
+    ]
+  },
+  {
     "commitSha": "d6c65eedf6cc0efc9e2e003fb2fb827abdba3e2c",
     "commitTimestamp": "2025-12-29T12:02:28Z",
     "commitMessage": "fix(ssg-md): use .md links instead of .html in Overview SSG-MD mode (#2944)",
