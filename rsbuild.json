@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f471402ea498fd8de9b3525fdee5b7e625ae01a1",
+    "commitTimestamp": "2025-12-30T07:48:47Z",
+    "commitMessage": "fix: replace hardcoded Node.js built-ins with `builtinModules` (#6865)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546/job/59137883780"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546/job/59137883784"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546/job/59137883787"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546/job/59137883789"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546/job/59137883798"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591702546/job/59137883804"
+      }
+    ]
+  },
+  {
     "commitSha": "8758a08e50bae1827135a3d0e1555463b0238ca6",
     "commitTimestamp": "2025-12-30T02:43:43Z",
     "commitMessage": "perf: minify some pre-bundled packages (#6862)",
