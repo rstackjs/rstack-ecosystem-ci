@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "db82fec7fdabc7276c615f412e5b6e4626fd0f2c",
+    "commitTimestamp": "2025-12-30T10:44:32Z",
+    "commitMessage": "fix: should treat mjs and mts files as strict ES modules (#818)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20594728525",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20594728525/job/59146890628"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20594728525/job/59146890631"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20594728525/job/59146890632"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20594728525/job/59146890633"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20594728525/job/59146890634"
+      }
+    ]
+  },
+  {
     "commitSha": "392be6dc76707dafd5e220b30ed0342f0bbfb4fa",
     "commitTimestamp": "2025-12-30T09:50:23Z",
     "commitMessage": "fix: allow inlineSnapshot calls in each with same snapshot (#820)",
