@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "9feee33b8c5fb258bc9e221fe98bb188ae900a8d",
+    "commitTimestamp": "2025-12-30T08:12:10Z",
+    "commitMessage": "fix(theme/Codeblock): revert the code shadow and enhance the separator line (#2931)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20592157033",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20592157033/job/59139207562"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20592157033/job/59139207564"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20592157033/job/59139207568"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20592157033/job/59139207575"
+      }
+    ]
+  },
+  {
     "commitSha": "899cac477c03da3f0599417f0b0c8baffcf26837",
     "commitTimestamp": "2025-12-30T07:40:35Z",
     "commitMessage": "feat(core): add import.meta.env.SSR and import.meta.env.SSG_MD (#2948)",
