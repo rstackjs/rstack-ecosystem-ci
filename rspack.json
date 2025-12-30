@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "4a0f619226d0523c12ad4fbad1a32a866459ea7c",
+    "commitTimestamp": "2025-12-30T06:37:41Z",
+    "commitMessage": "chore: bump swc_core from 52.0.0 to 54.0.0 and swc_experimental from 0.3.5 to 0.4.0 (#12582)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20590614539",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198318"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198320"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198323"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198324"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198325"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198326"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198329"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198333"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198344"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198346"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20590614539/job/59135198350"
+      }
+    ]
+  },
+  {
     "commitSha": "71e655f0a52f18c4965dfdfee8112d41afcfb3d0",
     "commitTimestamp": "2025-12-30T06:05:45Z",
     "commitMessage": "fix: compilation js object memory leak (#12579)",
