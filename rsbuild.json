@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8758a08e50bae1827135a3d0e1555463b0238ca6",
+    "commitTimestamp": "2025-12-30T02:43:43Z",
+    "commitMessage": "perf: minify some pre-bundled packages (#6862)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494/job/59126594418"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494/job/59126594419"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494/job/59126594427"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494/job/59126594428"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494/job/59126594432"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20587550494/job/59126594441"
+      }
+    ]
+  },
+  {
     "commitSha": "57ef9b8689e1604a5293a87a6e2940b32d56aa52",
     "commitTimestamp": "2025-12-29T13:37:14Z",
     "commitMessage": "fix(plugin-api): allow to override exposed API (#6861)",
