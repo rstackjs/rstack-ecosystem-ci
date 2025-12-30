@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "392be6dc76707dafd5e220b30ed0342f0bbfb4fa",
+    "commitTimestamp": "2025-12-30T09:50:23Z",
+    "commitMessage": "fix: allow inlineSnapshot calls in each with same snapshot (#820)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593802457",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593802457/job/59144083349"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593802457/job/59144083351"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593802457/job/59144083354"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593802457/job/59144083358"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593802457/job/59144083361"
+      }
+    ]
+  },
+  {
     "commitSha": "81d40781caa988f7eff27a8a7795a33a34d34c0e",
     "commitTimestamp": "2025-12-30T08:03:45Z",
     "commitMessage": "docs: add `mocking re-exported modules` tip (#817)",
