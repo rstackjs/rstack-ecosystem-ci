@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "236ace192e0913bb0b6ad999b9431064bb8c2c5a",
+    "commitTimestamp": "2025-12-30T09:45:23Z",
+    "commitMessage": "feat(nodejs)!: drop support of node 18, upgrade engines to `node >= 20.9.0` (#2924)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593791965",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593791965/job/59144053536"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593791965/job/59144053544"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593791965/job/59144053546"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20593791965/job/59144053558"
+      }
+    ]
+  },
+  {
     "commitSha": "0432fc8012afe9fafe3cc1dc603cfd6b09164b71",
     "commitTimestamp": "2025-12-30T09:18:04Z",
     "commitMessage": "feat(theme/nav): support multiple level nested navigation items (#2943)",
