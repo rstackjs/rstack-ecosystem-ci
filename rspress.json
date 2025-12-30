@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "899cac477c03da3f0599417f0b0c8baffcf26837",
+    "commitTimestamp": "2025-12-30T07:40:35Z",
+    "commitMessage": "feat(core): add import.meta.env.SSR and import.meta.env.SSG_MD (#2948)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591577914",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591577914/job/59137552636"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591577914/job/59137552638"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591577914/job/59137552641"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591577914/job/59137552645"
+      }
+    ]
+  },
+  {
     "commitSha": "5f6709f68ca782eb6aedc49f66b899b642e3f70d",
     "commitTimestamp": "2025-12-30T05:15:05Z",
     "commitMessage": "fix(plugin-algolia): upgrade docsearch and fix the css (#2946)",
