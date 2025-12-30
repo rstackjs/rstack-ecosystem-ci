@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "dfa66d0e5bd8ad44f21d6d02a48e57e30a02cb3d",
+    "commitTimestamp": "2025-12-30T07:28:30Z",
+    "commitMessage": "feat: support testEnvironment.options (#816)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591401601",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591401601/job/59137069801"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591401601/job/59137069806"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591401601/job/59137069813"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591401601/job/59137069827"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20591401601/job/59137069828"
+      }
+    ]
+  },
+  {
     "commitSha": "24e90a33a615265f5173645c60753e8ae9f85324",
     "commitTimestamp": "2025-12-29T07:56:38Z",
     "commitMessage": "release: @rstest/adapter-rslib v0.1.1 (#812)",
