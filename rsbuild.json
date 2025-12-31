@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d9ffb7023b31a480d018624db45a435f9ce44804",
+    "commitTimestamp": "2025-12-31T09:18:33Z",
+    "commitMessage": "test(e2e): fix the `expectNoLog` helper (#6872)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20616279589",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20616279589/job/59209563838"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20616279589/job/59209563846"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20616279589/job/59209563850"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20616279589/job/59209563852"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20616279589/job/59209563864"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20616279589/job/59209563867"
+      }
+    ]
+  },
+  {
     "commitSha": "a62155242964ff413302bb41be99963e2e0c36e4",
     "commitTimestamp": "2025-12-31T08:38:59Z",
     "commitMessage": "release: v1.7.1 (#6871)",
