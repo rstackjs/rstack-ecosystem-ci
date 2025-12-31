@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dfe1d1f200f0678b49b72f7c8de8cc2a2037592f",
+    "commitTimestamp": "2025-12-31T08:20:29Z",
+    "commitMessage": "refactor: adjust position of collectTypeScriptInfo in swc-loader (#6869)",
+    "author": {
+      "name": "Nikhil S",
+      "email": "nikhilsnayak3473@gmail.com",
+      "login": "nikhilsnayak"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615257127",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615257127/job/59206669354"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615257127/job/59206669358"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615257127/job/59206669363"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615257127/job/59206669364"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615257127/job/59206669365"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615257127/job/59206669370"
+      }
+    ]
+  },
+  {
     "commitSha": "0ec7d977f1fcf24755c1eb837e04eacc470efae1",
     "commitTimestamp": "2025-12-31T07:03:24Z",
     "commitMessage": "release: 1.7.0 (#6868)",
