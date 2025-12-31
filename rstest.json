@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ce95843a2bdbc6ee9181c2bb0462a8bea14fa24c",
+    "commitTimestamp": "2025-12-31T08:17:49Z",
+    "commitMessage": "docs: update links from rspack-contrib to rstackjs (#823)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615193055",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615193055/job/59206493746"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615193055/job/59206493749"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615193055/job/59206493752"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615193055/job/59206493757"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615193055/job/59206493768"
+      }
+    ]
+  },
+  {
     "commitSha": "2493e44a542b94ceb490cb685344fe56f739b59a",
     "commitTimestamp": "2025-12-31T08:17:26Z",
     "commitMessage": "chore(deps): bump Rsbuild 1.7.0 (#824)",
