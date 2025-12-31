@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "77525c0610b781fc0c3dc13975d91482dab192db",
+    "commitTimestamp": "2025-12-31T08:23:05Z",
+    "commitMessage": "docs: update links from rspack-contrib to rstackjs (#2953)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615288268",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615288268/job/59206753277"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615288268/job/59206753281"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615288268/job/59206753284"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615288268/job/59206753306"
+      }
+    ]
+  },
+  {
     "commitSha": "48515d8e80352658b5b89709e72644ecd112f1bf",
     "commitTimestamp": "2025-12-31T06:53:30Z",
     "commitMessage": "Release v2.0.0-rc.4 (#2936)",
