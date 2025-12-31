@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2493e44a542b94ceb490cb685344fe56f739b59a",
+    "commitTimestamp": "2025-12-31T08:17:26Z",
+    "commitMessage": "chore(deps): bump Rsbuild 1.7.0 (#824)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615168147",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615168147/job/59206428766"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615168147/job/59206428772"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615168147/job/59206428774"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615168147/job/59206428778"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615168147/job/59206428784"
+      }
+    ]
+  },
+  {
     "commitSha": "db82fec7fdabc7276c615f412e5b6e4626fd0f2c",
     "commitTimestamp": "2025-12-30T10:44:32Z",
     "commitMessage": "fix: should treat mjs and mts files as strict ES modules (#818)",
