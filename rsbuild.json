@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0bf72c572bbd8444876cd9a7b6ba33220e587202",
+    "commitTimestamp": "2025-12-31T06:53:14Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.7.0 (#6867)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20613920000",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613920000/job/59203139679"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613920000/job/59203139684"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613920000/job/59203139696"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613920000/job/59203139697"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613920000/job/59203139698"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613920000/job/59203139708"
+      }
+    ]
+  },
+  {
     "commitSha": "194ae9a98296ab053b9d0941923319564285379d",
     "commitTimestamp": "2025-12-31T06:24:49Z",
     "commitMessage": "docs: update links from rspack-contrib to rstackjs (#6866)",
