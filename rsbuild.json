@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "62fe7414935c07477ea7dc1a020f198cf5ae3623",
+    "commitTimestamp": "2025-12-31T08:30:01Z",
+    "commitMessage": "test(ut): update snapshots (#6870)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615381423",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020043"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020046"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020052"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020054"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020056"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020094"
+      }
+    ]
+  },
+  {
     "commitSha": "dfe1d1f200f0678b49b72f7c8de8cc2a2037592f",
     "commitTimestamp": "2025-12-31T08:20:29Z",
     "commitMessage": "refactor: adjust position of collectTypeScriptInfo in swc-loader (#6869)",
