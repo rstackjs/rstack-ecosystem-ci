@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "fe2cc7f7d1d6db513ff8559d9826e945bcf40e68",
+    "commitTimestamp": "2025-12-31T13:57:04Z",
+    "commitMessage": "release: 0.7.8 (#826)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20620459213",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20620459213/job/59221248980"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20620459213/job/59221248982"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20620459213/job/59221248983"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20620459213/job/59221248985"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20620459213/job/59221249066"
+      }
+    ]
+  },
+  {
     "commitSha": "c1e8a2743004b642183cb57c62f4fa3055891c34",
     "commitTimestamp": "2025-12-31T13:33:53Z",
     "commitMessage": "chore: bump @rsbuild/core to 1.7.1 (#827)",
