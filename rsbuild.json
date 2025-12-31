@@ -1,8 +1,8 @@
 [
   {
-    "commitSha": "62fe7414935c07477ea7dc1a020f198cf5ae3623",
-    "commitTimestamp": "2025-12-31T08:30:01Z",
-    "commitMessage": "test(ut): update snapshots (#6870)",
+    "commitSha": "a62155242964ff413302bb41be99963e2e0c36e4",
+    "commitTimestamp": "2025-12-31T08:38:59Z",
+    "commitMessage": "release: v1.7.1 (#6871)",
     "author": {
       "name": "neverland",
       "email": "chenjiahan.jait@bytedance.com",
@@ -12,38 +12,38 @@
       "fullName": "web-infra-dev/rsbuild",
       "name": "rsbuild"
     },
-    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615381423",
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615480991",
     "overallStatus": "failure",
     "suites": [
       {
-        "name": "rspress",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020043"
-      },
-      {
-        "name": "plugins",
-        "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020046"
-      },
-      {
-        "name": "rslib",
-        "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020052"
-      },
-      {
         "name": "rstest",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020054"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615480991/job/59207306552"
       },
       {
         "name": "examples",
         "status": "success",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020056"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615480991/job/59207306555"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615480991/job/59207306556"
       },
       {
         "name": "modernjs",
         "status": "failure",
-        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615381423/job/59207020094"
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615480991/job/59207306557"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615480991/job/59207306560"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615480991/job/59207306588"
       }
     ]
   },
