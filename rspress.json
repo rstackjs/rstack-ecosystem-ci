@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "b6118779a8c2e3ed7593cf01ac2a0f1adac4576a",
+    "commitTimestamp": "2025-12-31T11:20:36Z",
+    "commitMessage": "docs: add migrate from V1 (#2954)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20617968678",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20617968678/job/59214279221"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20617968678/job/59214279224"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20617968678/job/59214279228"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20617968678/job/59214279242"
+      }
+    ]
+  },
+  {
     "commitSha": "77525c0610b781fc0c3dc13975d91482dab192db",
     "commitTimestamp": "2025-12-31T08:23:05Z",
     "commitMessage": "docs: update links from rspack-contrib to rstackjs (#2953)",
