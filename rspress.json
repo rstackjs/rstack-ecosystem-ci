@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "48515d8e80352658b5b89709e72644ecd112f1bf",
+    "commitTimestamp": "2025-12-31T06:53:30Z",
+    "commitMessage": "Release v2.0.0-rc.4 (#2936)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20613931473",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613931473/job/59203166061"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613931473/job/59203166064"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613931473/job/59203166066"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613931473/job/59203166103"
+      }
+    ]
+  },
+  {
     "commitSha": "236ace192e0913bb0b6ad999b9431064bb8c2c5a",
     "commitTimestamp": "2025-12-30T09:45:23Z",
     "commitMessage": "feat(nodejs)!: drop support of node 18, upgrade engines to `node >= 20.9.0` (#2924)",
