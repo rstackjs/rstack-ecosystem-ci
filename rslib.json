@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1163e85f3504e0d43d66f891904a6d511365f920",
+    "commitTimestamp": "2025-12-31T08:49:58Z",
+    "commitMessage": "Release v0.19.1 (#1424)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20615591778",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615591778/job/59207633791"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615591778/job/59207633801"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615591778/job/59207633808"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615591778/job/59207633813"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20615591778/job/59207633815"
+      }
+    ]
+  },
+  {
     "commitSha": "431dc3d0c665a88eff6babb51d6e78e0bb453c29",
     "commitTimestamp": "2025-12-31T08:16:20Z",
     "commitMessage": "docs: update links from rspack-contrib to rstackjs (#1423)",
