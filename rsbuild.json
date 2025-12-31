@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "194ae9a98296ab053b9d0941923319564285379d",
+    "commitTimestamp": "2025-12-31T06:24:49Z",
+    "commitMessage": "docs: update links from rspack-contrib to rstackjs (#6866)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20613540088",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613540088/job/59202162931"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613540088/job/59202162933"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613540088/job/59202162938"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613540088/job/59202162939"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613540088/job/59202162941"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20613540088/job/59202162945"
+      }
+    ]
+  },
+  {
     "commitSha": "66c7a9a916c9cde1d176c1f191a19fcec569e5cf",
     "commitTimestamp": "2025-12-30T11:03:46Z",
     "commitMessage": "test: fix initial chunks HMR test case (#6864)",
