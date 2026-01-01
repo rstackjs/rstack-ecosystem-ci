@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4b3d516f6293db92aec50175073dfadab32f29fd",
+    "commitTimestamp": "2026-01-01T01:44:20Z",
+    "commitMessage": "chore(CI): separate Playwright browser installation step (#6874)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20630690322",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20630690322/job/59248130084"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20630690322/job/59248130085"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20630690322/job/59248130087"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20630690322/job/59248130093"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20630690322/job/59248130102"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20630690322/job/59248130119"
+      }
+    ]
+  },
+  {
     "commitSha": "d9ffb7023b31a480d018624db45a435f9ce44804",
     "commitTimestamp": "2025-12-31T09:18:33Z",
     "commitMessage": "test(e2e): fix the `expectNoLog` helper (#6872)",
