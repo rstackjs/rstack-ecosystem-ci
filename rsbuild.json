@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0a680251fac061ca56e4852b903a3b03839fdfb4",
+    "commitTimestamp": "2026-01-01T09:08:26Z",
+    "commitMessage": "chore(CI): speed up playwright browser setup (#6877)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20635959834",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20635959834/job/59260901200"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20635959834/job/59260901204"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20635959834/job/59260901211"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20635959834/job/59260901217"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20635959834/job/59260901226"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20635959834/job/59260901240"
+      }
+    ]
+  },
+  {
     "commitSha": "5289776e2a21d53824d2e3c5769907063603817f",
     "commitTimestamp": "2026-01-01T08:47:17Z",
     "commitMessage": "fix(server): return a response body for 404 (#6878)",
