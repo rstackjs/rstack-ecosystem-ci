@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "3f659d411724089dca0db18a150234cc28a34cc6",
+    "commitTimestamp": "2026-01-02T01:28:31Z",
+    "commitMessage": "chore(CI): run E2E type checker (#6882)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20648829001",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648829001/job/59290196710"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648829001/job/59290196718"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648829001/job/59290196723"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648829001/job/59290196728"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648829001/job/59290196731"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648829001/job/59290196734"
+      }
+    ]
+  },
+  {
     "commitSha": "12d5ff722c6f0f3be2f9f8135148a4c697357b90",
     "commitTimestamp": "2026-01-02T01:27:53Z",
     "commitMessage": "refactor(plugin-vue): improve CSS module detection (#6879)",
