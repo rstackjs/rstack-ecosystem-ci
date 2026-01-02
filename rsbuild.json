@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ecf1af6cde9060ce73bfc08cd5136fa733119717",
+    "commitTimestamp": "2026-01-02T01:28:53Z",
+    "commitMessage": "perf: improve path handling in emptyDir (#6883)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20648838522",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648838522/job/59290221841"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648838522/job/59290221842"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648838522/job/59290221845"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648838522/job/59290221846"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648838522/job/59290221848"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648838522/job/59290221859"
+      }
+    ]
+  },
+  {
     "commitSha": "0a680251fac061ca56e4852b903a3b03839fdfb4",
     "commitTimestamp": "2026-01-01T09:08:26Z",
     "commitMessage": "chore(CI): speed up playwright browser setup (#6877)",
