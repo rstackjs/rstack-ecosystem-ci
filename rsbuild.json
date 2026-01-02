@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "12d5ff722c6f0f3be2f9f8135148a4c697357b90",
+    "commitTimestamp": "2026-01-02T01:27:53Z",
+    "commitMessage": "refactor(plugin-vue): improve CSS module detection (#6879)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20648799248",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648799248/job/59290126280"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648799248/job/59290126284"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648799248/job/59290126287"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648799248/job/59290126291"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648799248/job/59290126293"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20648799248/job/59290126317"
+      }
+    ]
+  },
+  {
     "commitSha": "0a680251fac061ca56e4852b903a3b03839fdfb4",
     "commitTimestamp": "2026-01-01T09:08:26Z",
     "commitMessage": "chore(CI): speed up playwright browser setup (#6877)",
