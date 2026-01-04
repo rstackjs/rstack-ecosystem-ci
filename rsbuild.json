@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bd0dacc36d6460316a1b77ae3253f3bb39c6cf96",
+    "commitTimestamp": "2026-01-04T02:24:03Z",
+    "commitMessage": "refactor: use helper for async file reading (#6885)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20686313733",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20686313733/job/59387439464"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20686313733/job/59387439468"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20686313733/job/59387439469"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20686313733/job/59387439472"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20686313733/job/59387439473"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20686313733/job/59387439482"
+      }
+    ]
+  },
+  {
     "commitSha": "a1d9bd0f953a380f3f4e76142e196a38580b865e",
     "commitTimestamp": "2026-01-03T01:28:43Z",
     "commitMessage": "chore(CI): update Node.js to v24 in workflow files (#6884)",
