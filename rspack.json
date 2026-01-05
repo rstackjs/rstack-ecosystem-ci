@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "42c39a2f4a72fa01bee5825e44adcd91ad75d71a",
+    "commitTimestamp": "2026-01-05T08:53:31Z",
+    "commitMessage": "refactor: replace UsageCallback closure with InnerGraphUsageOperation enum (#12619)",
+    "author": {
+      "name": "Fy",
+      "email": "1114550440@qq.com",
+      "login": "JSerFeng"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20710047191",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632286"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632289"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632294"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632296"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632297"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632300"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632312"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632313"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632316"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632325"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20710047191/job/59448632345"
+      }
+    ]
+  },
+  {
     "commitSha": "02a925c030dc78cc37c1713f7102afdd109dfe23",
     "commitTimestamp": "2026-01-05T08:36:25Z",
     "commitMessage": "feat(module-federation): enhance manifest generation and shared module handling (#12399)",
