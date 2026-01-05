@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "3de0ea564a9822e077da5da57b5066f42cd2a2a6",
+    "commitTimestamp": "2026-01-05T13:47:52Z",
+    "commitMessage": "chore(deps): update github-actions (#12592)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20717389377",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141231"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141236"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141237"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141245"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141248"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141250"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141257"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141259"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141264"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141268"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20717389377/job/59472141297"
+      }
+    ]
+  },
+  {
     "commitSha": "42c39a2f4a72fa01bee5825e44adcd91ad75d71a",
     "commitTimestamp": "2026-01-05T08:53:31Z",
     "commitMessage": "refactor: replace UsageCallback closure with InnerGraphUsageOperation enum (#12619)",
