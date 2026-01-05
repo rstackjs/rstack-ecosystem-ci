@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5cdd0c92d0ecb913325889ff34a3cc1023d6e10d",
+    "commitTimestamp": "2026-01-05T06:57:09Z",
+    "commitMessage": "chore: remove pnpm dedupe check from CI and lint-staged (#1429)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20707631820",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707631820/job/59441176994"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707631820/job/59441176997"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707631820/job/59441177008"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707631820/job/59441177010"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707631820/job/59441177018"
+      }
+    ]
+  },
+  {
     "commitSha": "7a5a1423554ec196bd137523d7f8cd96ac89a5db",
     "commitTimestamp": "2026-01-05T04:00:22Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1427)",
