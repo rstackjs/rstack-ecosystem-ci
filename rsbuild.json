@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "38e1553498bcb7ea817e4d7403a3031a1863ca92",
+    "commitTimestamp": "2026-01-05T00:20:43Z",
+    "commitMessage": "fix(swc): automatically unset `env.targets` when `jsc.target` is set (#6886)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20701427127",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20701427127/job/59424246789"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20701427127/job/59424246791"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20701427127/job/59424246798"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20701427127/job/59424246800"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20701427127/job/59424246809"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20701427127/job/59424246815"
+      }
+    ]
+  },
+  {
     "commitSha": "bd0dacc36d6460316a1b77ae3253f3bb39c6cf96",
     "commitTimestamp": "2026-01-04T02:24:03Z",
     "commitMessage": "refactor: use helper for async file reading (#6885)",
