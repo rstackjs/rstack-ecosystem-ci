@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5501ff123cf4f6f0ebb654b7d1a630a7f446d845",
+    "commitTimestamp": "2026-01-05T03:51:16Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#2957)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20704625582",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704625582/job/59432636984"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704625582/job/59432636988"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704625582/job/59432636991"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704625582/job/59432636996"
+      }
+    ]
+  },
+  {
     "commitSha": "b6118779a8c2e3ed7593cf01ac2a0f1adac4576a",
     "commitTimestamp": "2025-12-31T11:20:36Z",
     "commitMessage": "docs: add migrate from V1 (#2954)",
