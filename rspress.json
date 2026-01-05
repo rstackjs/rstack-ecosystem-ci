@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "68277c6d41173968b5c591fea7d25672d88e4315",
+    "commitTimestamp": "2026-01-05T04:13:07Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/core to ~1.7.1 (#2958)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20704863380",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704863380/job/59433473401"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704863380/job/59433473402"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704863380/job/59433473406"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704863380/job/59433473413"
+      }
+    ]
+  },
+  {
     "commitSha": "b5f99f0d214505797e6ebe37ee496add8ae9dbd7",
     "commitTimestamp": "2026-01-05T03:59:14Z",
     "commitMessage": "chore(deps): update dependency @unhead/react to ^2.1.1 (#2960)",
