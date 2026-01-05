@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "512967970047cec61c44a5e858a1e650f736bafc",
+    "commitTimestamp": "2026-01-05T03:50:28Z",
+    "commitMessage": "chore(deps): update dependency check-dependency-version-consistency to v6 (#1428)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20704601188",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704601188/job/59432557388"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704601188/job/59432557392"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704601188/job/59432557397"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704601188/job/59432557405"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20704601188/job/59432557406"
+      }
+    ]
+  },
+  {
     "commitSha": "58742abe429f973fa8c4e931c0dc2da932e62350",
     "commitTimestamp": "2025-12-31T09:18:17Z",
     "commitMessage": "chore: bump @rslib/core (#1425)",
