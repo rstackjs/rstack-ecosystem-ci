@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "170fef836ae7913db0ba1717123ad34d0e993bfe",
+    "commitTimestamp": "2026-01-05T10:00:27Z",
+    "commitMessage": "fix: use effect for theme sync (#2961)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20711778680",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20711778680/job/59453757286"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20711778680/job/59453757302"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20711778680/job/59453757360"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20711778680/job/59453757384"
+      }
+    ]
+  },
+  {
     "commitSha": "93f4ee3162d9fb133bedaced494999d7a13e5d70",
     "commitTimestamp": "2026-01-05T08:17:26Z",
     "commitMessage": "refactor(theme/dark): simplify useThemeState hook and avoid dark mode flash (#2955)",
