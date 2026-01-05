@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "93f4ee3162d9fb133bedaced494999d7a13e5d70",
+    "commitTimestamp": "2026-01-05T08:17:26Z",
+    "commitMessage": "refactor(theme/dark): simplify useThemeState hook and avoid dark mode flash (#2955)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20709251115",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20709251115/job/59445840591"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20709251115/job/59445840616"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20709251115/job/59445840637"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20709251115/job/59445840647"
+      }
+    ]
+  },
+  {
     "commitSha": "68277c6d41173968b5c591fea7d25672d88e4315",
     "commitTimestamp": "2026-01-05T04:13:07Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/core to ~1.7.1 (#2958)",
