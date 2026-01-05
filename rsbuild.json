@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3524618619f6ef391c7dbf120a930fc6c4be6295",
+    "commitTimestamp": "2026-01-05T05:47:44Z",
+    "commitMessage": "fix: separate inline assets by environment to prevent multi-compiler overrides (#6889)",
+    "author": {
+      "name": "qixuan",
+      "email": "58852732+GiveMe-A-Name@users.noreply.github.com",
+      "login": "GiveMe-A-Name"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20706372923",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706372923/job/59437679580"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706372923/job/59437679582"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706372923/job/59437679584"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706372923/job/59437679586"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706372923/job/59437679600"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706372923/job/59437679606"
+      }
+    ]
+  },
+  {
     "commitSha": "38e1553498bcb7ea817e4d7403a3031a1863ca92",
     "commitTimestamp": "2026-01-05T00:20:43Z",
     "commitMessage": "fix(swc): automatically unset `env.targets` when `jsc.target` is set (#6886)",
