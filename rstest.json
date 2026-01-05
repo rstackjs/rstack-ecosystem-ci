@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "60891ae6966f0b409906e40901b03da9cc67b2ed",
+    "commitTimestamp": "2026-01-05T06:29:51Z",
+    "commitMessage": "fix: coverage cannot includes parent folders (#825)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20707149057",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707149057/job/59439818867"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707149057/job/59439818871"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707149057/job/59439818872"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707149057/job/59439818873"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707149057/job/59439818877"
+      }
+    ]
+  },
+  {
     "commitSha": "eef54085b7729f677169a1ffb9fa7aef55f56af7",
     "commitTimestamp": "2026-01-02T13:34:15Z",
     "commitMessage": "docs: link to Rsbuild plugin list (#829)",
