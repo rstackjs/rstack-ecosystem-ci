@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3ffd45784802e0bb0069ce75124e2bdba789e53f",
+    "commitTimestamp": "2026-01-05T06:52:31Z",
+    "commitMessage": "fix: Using include in coverage will cause file items to be displayed repeatedly in the report. (#822)",
+    "author": {
+      "name": "hoifong",
+      "email": "hoi_fong@126.com",
+      "login": "hoifong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20707558967",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707558967/job/59440967388"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707558967/job/59440967410"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707558967/job/59440967412"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707558967/job/59440967415"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20707558967/job/59440967416"
+      }
+    ]
+  },
+  {
     "commitSha": "433438a608e164ebbbf67a6429f3e6a1f6f40138",
     "commitTimestamp": "2026-01-05T06:39:34Z",
     "commitMessage": "feat(vscode): continuous run (#814)",
