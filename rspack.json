@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "02a925c030dc78cc37c1713f7102afdd109dfe23",
+    "commitTimestamp": "2026-01-05T08:36:25Z",
+    "commitMessage": "feat(module-federation): enhance manifest generation and shared module handling (#12399)",
+    "author": {
+      "name": "Hanric",
+      "email": "zhanghang.heal@bytedance.com",
+      "login": "2heal1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20709679304",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539550"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539554"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539556"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539560"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539562"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539568"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539571"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539577"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539579"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539581"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20709679304/job/59447539604"
+      }
+    ]
+  },
+  {
     "commitSha": "cd97e3bb37ddfe526b7a3128a74af7e72d0784ff",
     "commitTimestamp": "2026-01-05T07:48:55Z",
     "commitMessage": "refactor: remove unused SWC helpers (#12614)",
