@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "04235cbda73434680d9c24fe022b6812a3176b66",
+    "commitTimestamp": "2026-01-05T06:17:36Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#6888)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20706909693",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706909693/job/59439190753"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706909693/job/59439190755"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706909693/job/59439190756"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706909693/job/59439190761"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706909693/job/59439190763"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20706909693/job/59439190766"
+      }
+    ]
+  },
+  {
     "commitSha": "3524618619f6ef391c7dbf120a930fc6c4be6295",
     "commitTimestamp": "2026-01-05T05:47:44Z",
     "commitMessage": "fix: separate inline assets by environment to prevent multi-compiler overrides (#6889)",
