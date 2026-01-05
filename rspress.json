@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7d8ac9b51c7130f411ef801f6f922ec04a5d1b5d",
+    "commitTimestamp": "2026-01-05T10:42:00Z",
+    "commitMessage": "refactor!: merge @rspress/runtime into @rspress/core package and remove @rspress/runtime package (#2935)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20712850781",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20712850781/job/59457172847"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20712850781/job/59457172852"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20712850781/job/59457172876"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20712850781/job/59457172884"
+      }
+    ]
+  },
+  {
     "commitSha": "170fef836ae7913db0ba1717123ad34d0e993bfe",
     "commitTimestamp": "2026-01-05T10:00:27Z",
     "commitMessage": "fix: use effect for theme sync (#2961)",
