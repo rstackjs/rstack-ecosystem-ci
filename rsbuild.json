@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2102147f6a22f7fa1ff28cfc185c162b31255de5",
+    "commitTimestamp": "2026-01-06T11:05:32Z",
+    "commitMessage": "refactor!: remove deprecated `source.aliasStrategy` configuration (#6903)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20746404910",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746404910/job/59564701898"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746404910/job/59564701903"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746404910/job/59564701905"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746404910/job/59564701910"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746404910/job/59564701911"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746404910/job/59564701918"
+      }
+    ]
+  },
+  {
     "commitSha": "854af9a830d7bcc0f770b77de19a03a1eed756fe",
     "commitTimestamp": "2026-01-06T08:43:03Z",
     "commitMessage": "refactor!: remove deprecated `source.alias` configuration (#6902)",
