@@ -6,10 +6,6 @@ export async function test(options: RunOptions) {
     ...options,
     repo: 'web-infra-dev/rsbuild',
     branch: process.env.RSBUILD_REF ?? 'main',
-    beforeTest: async () => {
-      cd('./e2e');
-      cd('..');
-    },
     test: ['e2e'],
   });
 }
