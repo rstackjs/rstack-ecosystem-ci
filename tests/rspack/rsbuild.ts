@@ -1,5 +1,5 @@
 import type { RunOptions } from '../../types';
-import { $, cd, runInRepo } from '../../utils';
+import { runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
   await runInRepo({
