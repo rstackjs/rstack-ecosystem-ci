@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ecb668005cac29daf6832fb486f9ba573dedfb94",
+    "commitTimestamp": "2026-01-06T11:27:17Z",
+    "commitMessage": "chore(core): expose routePathToMdPath utility in runtime (#2967)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20746917061",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746917061/job/59566331944"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746917061/job/59566331948"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746917061/job/59566331960"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746917061/job/59566331961"
+      }
+    ]
+  },
+  {
     "commitSha": "7d8ac9b51c7130f411ef801f6f922ec04a5d1b5d",
     "commitTimestamp": "2026-01-05T10:42:00Z",
     "commitMessage": "refactor!: merge @rspress/runtime into @rspress/core package and remove @rspress/runtime package (#2935)",
