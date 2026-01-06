@@ -8,7 +8,7 @@ export async function test(options: RunOptions) {
     branch: process.env.RSTEST ?? 'main',
     test: ['test'],
     beforeTest: async () => {
-      await $`pnpm playwright install chromium`;
+      await $`npx playwright install chromium webkit`;
     },
   });
 }
