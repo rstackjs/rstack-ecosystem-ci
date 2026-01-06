@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b5ac9202090ab2dc26a00388e059d094e4719354",
+    "commitTimestamp": "2026-01-06T14:09:45Z",
+    "commitMessage": "fix(browser): forever hang if playwright is not installed (#836)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20750836351",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20750836351/job/59579501088"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20750836351/job/59579501123"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20750836351/job/59579501128"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20750836351/job/59579501183"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20750836351/job/59579501221"
+      }
+    ]
+  },
+  {
     "commitSha": "4d4e9514dee6839775a1d86ec0f971cb9ec2ae04",
     "commitTimestamp": "2026-01-06T09:07:25Z",
     "commitMessage": "docs: enable rspress ssg-md (#835)",
