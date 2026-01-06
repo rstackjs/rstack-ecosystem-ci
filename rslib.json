@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3ef4ab23474a04d5362289a55d8a140524abe2d1",
+    "commitTimestamp": "2026-01-06T11:10:03Z",
+    "commitMessage": "fix(core): use default import from node:module to avoid naming conflict (#1433)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20746514303",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746514303/job/59565061917"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746514303/job/59565061922"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746514303/job/59565061927"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746514303/job/59565061936"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20746514303/job/59565061940"
+      }
+    ]
+  },
+  {
     "commitSha": "a44a8bad42adfe1ec63015c6012f5df8f02548f7",
     "commitTimestamp": "2026-01-06T09:41:39Z",
     "commitMessage": "docs: enable ssg-md to support rendering overview component (#1432)",
