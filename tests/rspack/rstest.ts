@@ -1,5 +1,5 @@
 import type { RunOptions } from '../../types';
-import { runInRepo } from '../../utils';
+import { $, runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
   await runInRepo({
@@ -8,5 +8,8 @@ export async function test(options: RunOptions) {
     branch: process.env.RSTEST ?? 'main',
     // ignore snapshot changes
     test: ['test -u', 'e2e'],
+    beforeTest: async () => {
+      await $`npx playwright install chromium webkit`;
+    },
   });
 }
