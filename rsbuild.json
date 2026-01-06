@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2b00c84482cdd4fbf9c1bb6d9682d3dfca3711f0",
+    "commitTimestamp": "2026-01-06T14:18:51Z",
+    "commitMessage": "refactor!: remove deprecated HTML template parameters (#6909)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20751084632",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20751084632/job/59580379447"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20751084632/job/59580379450"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20751084632/job/59580379452"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20751084632/job/59580379465"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20751084632/job/59580379466"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20751084632/job/59580379479"
+      }
+    ]
+  },
+  {
     "commitSha": "89906a0c6a13434536c074005a0f2a5cffda72fd",
     "commitTimestamp": "2026-01-06T11:15:26Z",
     "commitMessage": "feat(deps): update dependency @rspack/core to ~1.7.1 (#6908)",
