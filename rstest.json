@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "4d4e9514dee6839775a1d86ec0f971cb9ec2ae04",
+    "commitTimestamp": "2026-01-06T09:07:25Z",
+    "commitMessage": "docs: enable rspress ssg-md (#835)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20743775409",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20743775409/job/59556139411"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20743775409/job/59556139415"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20743775409/job/59556139418"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20743775409/job/59556139420"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20743775409/job/59556139439"
+      }
+    ]
+  },
+  {
     "commitSha": "6de56d776d251f24777ac20db4c8853849c9fe09",
     "commitTimestamp": "2026-01-06T03:32:40Z",
     "commitMessage": "fix: override globals that Fetch API relies on (#833)",
