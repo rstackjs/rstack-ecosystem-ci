@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6de56d776d251f24777ac20db4c8853849c9fe09",
+    "commitTimestamp": "2026-01-06T03:32:40Z",
+    "commitMessage": "fix: override globals that Fetch API relies on (#833)",
+    "author": {
+      "name": "Tmk",
+      "email": "i@tmk.im",
+      "login": "tmkx"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20737076472",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737076472/job/59536330480"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737076472/job/59536330495"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737076472/job/59536330510"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737076472/job/59536330516"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737076472/job/59536330524"
+      }
+    ]
+  },
+  {
     "commitSha": "f84cb3de7998d9a4f906774a4b3131e7823feec2",
     "commitTimestamp": "2026-01-05T09:59:38Z",
     "commitMessage": "feat: output ES module format by default (#763)",
