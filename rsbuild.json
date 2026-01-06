@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "8ef75babe942cf77742580e7a38164eccafcafb3",
+    "commitTimestamp": "2026-01-06T04:08:19Z",
+    "commitMessage": "chore(CI): no longer run webpack-related e2e tests (#6894)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20737683719",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737683719/job/59538275089"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737683719/job/59538275092"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737683719/job/59538275095"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737683719/job/59538275100"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737683719/job/59538275104"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20737683719/job/59538275108"
+      }
+    ]
+  },
+  {
     "commitSha": "04235cbda73434680d9c24fe022b6812a3176b66",
     "commitTimestamp": "2026-01-05T06:17:36Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6888)",
