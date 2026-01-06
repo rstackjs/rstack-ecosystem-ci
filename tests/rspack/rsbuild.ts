@@ -8,9 +8,8 @@ export async function test(options: RunOptions) {
     branch: process.env.RSBUILD_REF ?? 'main',
     beforeTest: async () => {
       cd('./e2e');
-      await $`pnpm playwright install chromium`;
       cd('..');
     },
-    test: ['e2e:rspack'],
+    test: ['e2e'],
   });
 }
