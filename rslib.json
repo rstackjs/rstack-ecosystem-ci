@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a44a8bad42adfe1ec63015c6012f5df8f02548f7",
+    "commitTimestamp": "2026-01-06T09:41:39Z",
+    "commitMessage": "docs: enable ssg-md to support rendering overview component (#1432)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20744350242",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20744350242/job/59557993861"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20744350242/job/59557993862"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20744350242/job/59557993871"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20744350242/job/59557993888"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20744350242/job/59557993901"
+      }
+    ]
+  },
+  {
     "commitSha": "9a66d1cfabd6b5bb24461a2c7930561a1304da5e",
     "commitTimestamp": "2026-01-06T08:53:25Z",
     "commitMessage": "refactor(core): use named import from node:module for require shim (#1431)",
