@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "242f90f898280ec504b960db0497b0b316eda879",
+    "commitTimestamp": "2026-01-07T11:26:22Z",
+    "commitMessage": "fix(fileSize): remove extra newline for multi environment builds (#6924)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20779937090",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20779937090/job/59674727290"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20779937090/job/59674727295"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20779937090/job/59674727298"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20779937090/job/59674727299"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20779937090/job/59674727303"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20779937090/job/59674727305"
+      }
+    ]
+  },
+  {
     "commitSha": "ae4f7542f9927ce05cdf7e1bf49c9e1f961fc515",
     "commitTimestamp": "2026-01-07T10:41:44Z",
     "commitMessage": "feat!: do not minify Node bundles (#6922)",
