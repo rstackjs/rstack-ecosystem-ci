@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "deb2cc543749969cb3f252d77570918227636d6f",
+    "commitTimestamp": "2026-01-07T05:18:15Z",
+    "commitMessage": "perf(core)!: drop CommonJS build (#6918)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20771476047",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20771476047/job/59648437942"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20771476047/job/59648437944"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20771476047/job/59648437947"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20771476047/job/59648437954"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20771476047/job/59648437956"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20771476047/job/59648437962"
+      }
+    ]
+  },
+  {
     "commitSha": "4d6eb7e5d80a1f03582eea96f2897c48f2248d75",
     "commitTimestamp": "2026-01-07T03:21:42Z",
     "commitMessage": "refactor: replace URL parsing helper with native URL.canParse (#6916)",
