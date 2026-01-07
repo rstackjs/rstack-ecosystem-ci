@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0b60b77a4974a25856fb9122b5e95c859ae845ff",
+    "commitTimestamp": "2026-01-07T08:15:40Z",
+    "commitMessage": "feat(theme): support clickable badge in HomeHero (#2969)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20774981199",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20774981199/job/59658568790"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20774981199/job/59658568813"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20774981199/job/59658568814"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20774981199/job/59658568830"
+      }
+    ]
+  },
+  {
     "commitSha": "ecb668005cac29daf6832fb486f9ba573dedfb94",
     "commitTimestamp": "2026-01-06T11:27:17Z",
     "commitMessage": "chore(core): expose routePathToMdPath utility in runtime (#2967)",
