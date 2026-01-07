@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "f7ec441f57553f28251a6df8791701f2bd898236",
+    "commitTimestamp": "2026-01-07T03:03:24Z",
+    "commitMessage": "refactor!: drop support for Node 18 (#6914)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20769299191",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20769299191/job/59641906071"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20769299191/job/59641906072"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20769299191/job/59641906075"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20769299191/job/59641906076"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20769299191/job/59641906083"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20769299191/job/59641906088"
+      }
+    ]
+  },
+  {
     "commitSha": "c7e504a6384f2c92c372092e6a9e75063a107029",
     "commitTimestamp": "2026-01-07T02:53:24Z",
     "commitMessage": "refactor!: remove `compiler` parameter from `rsbuild.startDevServer()` (#6913)",
