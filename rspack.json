@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "86634a079855003c3e837ab7be59b0c53b56c26d",
+    "commitTimestamp": "2026-01-07T08:09:03Z",
+    "commitMessage": "refactor: afterCodeGeneration hook use read only compilation ref (#12655)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20774817061",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462856"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462868"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462870"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462876"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462879"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462884"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462888"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462894"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462901"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462922"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20774817061/job/59658462935"
+      }
+    ]
+  },
+  {
     "commitSha": "d424733ba9e21577785311f770d97d5b4e9b2cdf",
     "commitTimestamp": "2026-01-07T03:52:39Z",
     "commitMessage": "fix(lint): enable @typescript-eslint/await-thenable rule (#12644)",
