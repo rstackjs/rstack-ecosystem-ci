@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "d424733ba9e21577785311f770d97d5b4e9b2cdf",
+    "commitTimestamp": "2026-01-07T03:52:39Z",
+    "commitMessage": "fix(lint): enable @typescript-eslint/await-thenable rule (#12644)",
+    "author": {
+      "name": "Tu Shaokun",
+      "email": "53142663+tt-a1i@users.noreply.github.com",
+      "login": "tt-a1i"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20770020937",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752445"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752449"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752453"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752459"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752461"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752470"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752474"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752478"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752480"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752481"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20770020937/job/59644752482"
+      }
+    ]
+  },
+  {
     "commitSha": "25a4021b5ffaa3acf2430f71ffe5f30a9fa20892",
     "commitTimestamp": "2026-01-07T03:44:24Z",
     "commitMessage": "feat(rstest): add preserveNewUrl option to keep new URL untouched (#12632)",
