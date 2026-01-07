@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "f4c77913ab9fb1c0ee04243e50af1eb228080823",
+    "commitTimestamp": "2026-01-07T14:41:37Z",
+    "commitMessage": "fix(lint): enable @typescript-eslint/require-await rule (#12664)",
+    "author": {
+      "name": "Tu Shaokun",
+      "email": "53142663+tt-a1i@users.noreply.github.com",
+      "login": "tt-a1i"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20785173666",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062553"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062555"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062562"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062568"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062570"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062574"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062577"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062581"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062585"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062596"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20785173666/job/59693062601"
+      }
+    ]
+  },
+  {
     "commitSha": "86634a079855003c3e837ab7be59b0c53b56c26d",
     "commitTimestamp": "2026-01-07T08:09:03Z",
     "commitMessage": "refactor: afterCodeGeneration hook use read only compilation ref (#12655)",
