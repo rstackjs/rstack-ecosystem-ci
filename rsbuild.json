@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b7fdc106b6c1f5754ea523c6fcf51ab4484aeca1",
+    "commitTimestamp": "2026-01-07T09:23:03Z",
+    "commitMessage": "docs: update navigation for Rsbuild 1.x link (#6921)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20776647991",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20776647991/job/59663925933"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20776647991/job/59663925941"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20776647991/job/59663925964"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20776647991/job/59663925968"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20776647991/job/59663925971"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20776647991/job/59663925974"
+      }
+    ]
+  },
+  {
     "commitSha": "deb2cc543749969cb3f252d77570918227636d6f",
     "commitTimestamp": "2026-01-07T05:18:15Z",
     "commitMessage": "perf(core)!: drop CommonJS build (#6918)",
