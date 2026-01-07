@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2dcf1f0794714494597c3b36af83248a12d7b1b3",
+    "commitTimestamp": "2026-01-07T06:29:25Z",
+    "commitMessage": "fix: should print error correctly when worker unexpectedly exit (#837)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20772784009",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20772784009/job/59652126204"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20772784009/job/59652126214"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20772784009/job/59652126215"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20772784009/job/59652126218"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20772784009/job/59652126229"
+      }
+    ]
+  },
+  {
     "commitSha": "b5ac9202090ab2dc26a00388e059d094e4719354",
     "commitTimestamp": "2026-01-06T14:09:45Z",
     "commitMessage": "fix(browser): forever hang if playwright is not installed (#836)",
