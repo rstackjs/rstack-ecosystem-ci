@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d73f96cdab9cfe94e4d09e8d7020a4a5cc6df1d4",
+    "commitTimestamp": "2026-01-07T07:13:14Z",
+    "commitMessage": "feat(browser): add @rstest/browser-react package for React component testing (#831)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20773650239",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773650239/job/59654595559"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773650239/job/59654595561"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773650239/job/59654595568"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773650239/job/59654595574"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773650239/job/59654595575"
+      }
+    ]
+  },
+  {
     "commitSha": "2dcf1f0794714494597c3b36af83248a12d7b1b3",
     "commitTimestamp": "2026-01-07T06:29:25Z",
     "commitMessage": "fix: should print error correctly when worker unexpectedly exit (#837)",
