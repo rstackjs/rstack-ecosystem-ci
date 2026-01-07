@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "14b229de2419ff9a0cdbf98cb601053daebedc9b",
+    "commitTimestamp": "2026-01-07T07:15:40Z",
+    "commitMessage": "release: @rstest/coverage-istanbul 0.1.5 (#839)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20773712864",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773712864/job/59654779543"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773712864/job/59654779545"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773712864/job/59654779548"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773712864/job/59654779552"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20773712864/job/59654779554"
+      }
+    ]
+  },
+  {
     "commitSha": "d73f96cdab9cfe94e4d09e8d7020a4a5cc6df1d4",
     "commitTimestamp": "2026-01-07T07:13:14Z",
     "commitMessage": "feat(browser): add @rstest/browser-react package for React component testing (#831)",
