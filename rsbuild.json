@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "99e99bdbc8d12108aaaad0cd763a8d45894cbdfa",
+    "commitTimestamp": "2026-01-07T02:28:31Z",
+    "commitMessage": "refactor!: remove `performance.bundleAnalyzer` configuration (#6911)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20768640647",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20768640647/job/59639914249"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20768640647/job/59639914250"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20768640647/job/59639914262"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20768640647/job/59639914263"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20768640647/job/59639914266"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20768640647/job/59639914282"
+      }
+    ]
+  },
+  {
     "commitSha": "2b00c84482cdd4fbf9c1bb6d9682d3dfca3711f0",
     "commitTimestamp": "2026-01-06T14:18:51Z",
     "commitMessage": "refactor!: remove deprecated HTML template parameters (#6909)",
