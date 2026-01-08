@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "4ecc5cb27e2613119ff57eb3d0a657aed76583e4",
+    "commitTimestamp": "2026-01-08T03:23:28Z",
+    "commitMessage": "fix(lint): enable @typescript-eslint/return-await rule (#12665)",
+    "author": {
+      "name": "Tu Shaokun",
+      "email": "53142663+tt-a1i@users.noreply.github.com",
+      "login": "tt-a1i"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20804383849",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735152"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735153"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735154"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735155"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735156"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735159"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735160"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735161"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735163"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735164"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20804383849/job/59755735165"
+      }
+    ]
+  },
+  {
     "commitSha": "9400b6514e3727f9a570036687047a5552dd8e95",
     "commitTimestamp": "2026-01-08T02:26:57Z",
     "commitMessage": "chore(deps): update github-actions (#12645)",
