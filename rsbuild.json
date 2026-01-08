@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "565c16c5edcdd2ee2f2530d2747103818a31668f",
+    "commitTimestamp": "2026-01-08T06:11:04Z",
+    "commitMessage": "chore(deps): update tsgo to latest and fix type issues (#6932)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20807665643",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807665643/job/59765049513"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807665643/job/59765049516"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807665643/job/59765049523"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807665643/job/59765049526"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807665643/job/59765049529"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807665643/job/59765049583"
+      }
+    ]
+  },
+  {
     "commitSha": "18f879a196af87157a657a3e65e82ff6ff0c51bd",
     "commitTimestamp": "2026-01-08T05:34:28Z",
     "commitMessage": "chore: disable Nx TUI via CLI flag (#6931)",
