@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "a584ce83eab5602d703ffafed49e17c75478114e",
+    "commitTimestamp": "2026-01-08T05:18:54Z",
+    "commitMessage": "refactor: dynamic import source map libs (#6928)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20806407230",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20806407230/job/59761561054"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20806407230/job/59761561055"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20806407230/job/59761561064"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20806407230/job/59761561066"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20806407230/job/59761561067"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20806407230/job/59761561068"
+      }
+    ]
+  },
+  {
     "commitSha": "2ca80cb2e563e5bd522bb887e0c4ec775f906f48",
     "commitTimestamp": "2026-01-08T04:01:42Z",
     "commitMessage": "refactor: simplify inspectConfig functions (#6930)",
