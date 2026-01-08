@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "25e8d48d581e7861e0e642c39a79f7f02fa3b58b",
+    "commitTimestamp": "2026-01-08T09:52:26Z",
+    "commitMessage": "feat(core): improve build status logging in watch mode (#1437)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20812784327",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812784327/job/59780871409"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812784327/job/59780871419"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812784327/job/59780871427"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812784327/job/59780871435"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812784327/job/59780871436"
+      }
+    ]
+  },
+  {
     "commitSha": "dd2198ec45a3fe2adfcc25e3b7e80d7d97c490e5",
     "commitTimestamp": "2026-01-08T03:20:57Z",
     "commitMessage": "chore(deps): update dependency preact to v10.28.2 [security] (#1436)",
