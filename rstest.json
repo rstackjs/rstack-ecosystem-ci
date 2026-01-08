@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6962c6ca6b6a461f2c5b2b7386cd4031b8ac0857",
+    "commitTimestamp": "2026-01-08T06:08:25Z",
+    "commitMessage": "feat(coverage-istanbul): transform coverage using source map (#821)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20807408096",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807408096/job/59764311600"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807408096/job/59764311606"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807408096/job/59764311607"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807408096/job/59764311613"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807408096/job/59764311620"
+      }
+    ]
+  },
+  {
     "commitSha": "0ce27d0a83b1a83d5da4d8417fdaad5978b996eb",
     "commitTimestamp": "2026-01-08T06:06:18Z",
     "commitMessage": "fix: handle projects using `extends` configuration correctly (#843)",
