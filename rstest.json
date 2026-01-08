@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0ce27d0a83b1a83d5da4d8417fdaad5978b996eb",
+    "commitTimestamp": "2026-01-08T06:06:18Z",
+    "commitMessage": "fix: handle projects using `extends` configuration correctly (#843)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20807346454",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807346454/job/59764129649"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807346454/job/59764129650"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807346454/job/59764129651"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807346454/job/59764129656"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20807346454/job/59764129673"
+      }
+    ]
+  },
+  {
     "commitSha": "cbe83ceaa32f325012ef066ac75069078fd6f137",
     "commitTimestamp": "2026-01-08T03:49:38Z",
     "commitMessage": "feat: adapter-rsbuild (#830)",
