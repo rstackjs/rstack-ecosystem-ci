@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "dd2198ec45a3fe2adfcc25e3b7e80d7d97c490e5",
+    "commitTimestamp": "2026-01-08T03:20:57Z",
+    "commitMessage": "chore(deps): update dependency preact to v10.28.2 [security] (#1436)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20804348200",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804348200/job/59755382432"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804348200/job/59755382436"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804348200/job/59755382438"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804348200/job/59755382441"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804348200/job/59755382445"
+      }
+    ]
+  },
+  {
     "commitSha": "3ef4ab23474a04d5362289a55d8a140524abe2d1",
     "commitTimestamp": "2026-01-06T11:10:03Z",
     "commitMessage": "fix(core): use default import from node:module to avoid naming conflict (#1433)",
