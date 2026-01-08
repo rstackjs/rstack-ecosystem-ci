@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f8d21c6d50e395b811666cafb159d9a37c77a469",
+    "commitTimestamp": "2026-01-08T08:31:13Z",
+    "commitMessage": "fix(create-rsbuild): remove unused fields from Rstest templates (#6933)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20810676391",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20810676391/job/59773919360"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20810676391/job/59773919362"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20810676391/job/59773919365"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20810676391/job/59773919367"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20810676391/job/59773919379"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20810676391/job/59773919381"
+      }
+    ]
+  },
+  {
     "commitSha": "565c16c5edcdd2ee2f2530d2747103818a31668f",
     "commitTimestamp": "2026-01-08T06:11:04Z",
     "commitMessage": "chore(deps): update tsgo to latest and fix type issues (#6932)",
