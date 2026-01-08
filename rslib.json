@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ed198d71de89dd4525780b7f80a8c4fb37d3c0a3",
+    "commitTimestamp": "2026-01-08T11:21:10Z",
+    "commitMessage": "refactor(plugin-dts): simplify dtsPromises to single dtsPromise (#1439)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20815120177",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20815120177/job/59788748320"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20815120177/job/59788748323"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20815120177/job/59788748326"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20815120177/job/59788748328"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20815120177/job/59788748357"
+      }
+    ]
+  },
+  {
     "commitSha": "65f850e25216c68f5011731aa4414c97513c80b7",
     "commitTimestamp": "2026-01-08T10:06:38Z",
     "commitMessage": "fix(dts): unify logger in dts plugin (#1438)",
