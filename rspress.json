@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7f2f966f125f4c50da5f9d85b2a431daa956bd2e",
+    "commitTimestamp": "2026-01-08T09:06:23Z",
+    "commitMessage": "fix(theme): use modern sidebar CSS to respect system scrollbar settings  (#2973)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20811429852",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20811429852/job/59776403035"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20811429852/job/59776403070"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20811429852/job/59776403083"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20811429852/job/59776403090"
+      }
+    ]
+  },
+  {
     "commitSha": "325b1ca7cca1c5d4ba13d3f9e18fb432a6fb4652",
     "commitTimestamp": "2026-01-08T07:03:12Z",
     "commitMessage": "docs: add rspress-plugin-file-tree and use tree syntax for file tree code blocks (#2976)",
