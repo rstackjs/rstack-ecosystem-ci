@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2ca80cb2e563e5bd522bb887e0c4ec775f906f48",
+    "commitTimestamp": "2026-01-08T04:01:42Z",
+    "commitMessage": "refactor: simplify inspectConfig functions (#6930)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20805048047",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20805048047/job/59757690392"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20805048047/job/59757690395"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20805048047/job/59757690398"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20805048047/job/59757690400"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20805048047/job/59757690406"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20805048047/job/59757690421"
+      }
+    ]
+  },
+  {
     "commitSha": "22a7be5ab76072b743380f12a85fe29526fe4fbe",
     "commitTimestamp": "2026-01-08T03:27:17Z",
     "commitMessage": "chore: fix tsgo type inference issues (#6929)",
