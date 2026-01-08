@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "31aa530e90022c172ef9e9dd976a7cb04ddaf8d1",
+    "commitTimestamp": "2026-01-08T13:57:29Z",
+    "commitMessage": "feat(browser-react): export configure in non-pure entry (#846)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20819290132",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20819290132/job/59803071544"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20819290132/job/59803071554"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20819290132/job/59803071565"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20819290132/job/59803071568"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20819290132/job/59803071592"
+      }
+    ]
+  },
+  {
     "commitSha": "25c33762bb6b6517b399fac224c5761694aeb4f3",
     "commitTimestamp": "2026-01-08T07:08:06Z",
     "commitMessage": "feat: support `rstest init` command (#841)",
