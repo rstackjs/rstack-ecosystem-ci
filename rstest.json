@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "cbe83ceaa32f325012ef066ac75069078fd6f137",
+    "commitTimestamp": "2026-01-08T03:49:38Z",
+    "commitMessage": "feat: adapter-rsbuild (#830)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20804834125",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804834125/job/59757051581"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804834125/job/59757051587"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804834125/job/59757051590"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804834125/job/59757051600"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804834125/job/59757051633"
+      }
+    ]
+  },
+  {
     "commitSha": "14b229de2419ff9a0cdbf98cb601053daebedc9b",
     "commitTimestamp": "2026-01-07T07:15:40Z",
     "commitMessage": "release: @rstest/coverage-istanbul 0.1.5 (#839)",
