@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "25c33762bb6b6517b399fac224c5761694aeb4f3",
+    "commitTimestamp": "2026-01-08T07:08:06Z",
+    "commitMessage": "feat: support `rstest init` command (#841)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20808670499",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20808670499/job/59767880721"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20808670499/job/59767880728"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20808670499/job/59767880735"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20808670499/job/59767880746"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20808670499/job/59767880751"
+      }
+    ]
+  },
+  {
     "commitSha": "6962c6ca6b6a461f2c5b2b7386cd4031b8ac0857",
     "commitTimestamp": "2026-01-08T06:08:25Z",
     "commitMessage": "feat(coverage-istanbul): transform coverage using source map (#821)",
