@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "22a7be5ab76072b743380f12a85fe29526fe4fbe",
+    "commitTimestamp": "2026-01-08T03:27:17Z",
+    "commitMessage": "chore: fix tsgo type inference issues (#6929)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20804455978",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804455978/job/59755712021"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804455978/job/59755712023"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804455978/job/59755712026"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804455978/job/59755712027"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804455978/job/59755712039"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20804455978/job/59755712048"
+      }
+    ]
+  },
+  {
     "commitSha": "7c6f1bed847220abad7ac9816ae6f6abb47f2210",
     "commitTimestamp": "2026-01-08T02:23:45Z",
     "commitMessage": "chore(deps): update dependency preact to v10.28.2 [security] (#6927)",
