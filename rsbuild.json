@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "713c3bc9c3843f857d026246619b5ea8dc1e3492",
+    "commitTimestamp": "2026-01-08T02:16:22Z",
+    "commitMessage": "refactor: migrate pre-bundled packages to dynamic imports (#6925)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20803213089",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20803213089/job/59752084820"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20803213089/job/59752084833"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20803213089/job/59752084837"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20803213089/job/59752084839"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20803213089/job/59752084840"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20803213089/job/59752084846"
+      }
+    ]
+  },
+  {
     "commitSha": "242f90f898280ec504b960db0497b0b316eda879",
     "commitTimestamp": "2026-01-07T11:26:22Z",
     "commitMessage": "fix(fileSize): remove extra newline for multi environment builds (#6924)",
