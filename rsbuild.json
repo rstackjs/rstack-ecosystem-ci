@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "de39e4eb8939dfcbca3f0703f97d026c45ab9a8b",
+    "commitTimestamp": "2026-01-08T09:42:10Z",
+    "commitMessage": "release: create-rsbuild v1.7.0 (#6935)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20812450550",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812450550/job/59779753947"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812450550/job/59779753967"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812450550/job/59779753982"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812450550/job/59779753990"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812450550/job/59779754008"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20812450550/job/59779754032"
+      }
+    ]
+  },
+  {
     "commitSha": "76d1710109e7ec6b4f376b4c3a5693a2754de721",
     "commitTimestamp": "2026-01-08T09:30:58Z",
     "commitMessage": "feat(create-rsbuild): add Tailwind CSS support (#6934)",
