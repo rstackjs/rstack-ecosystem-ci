@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "65f850e25216c68f5011731aa4414c97513c80b7",
+    "commitTimestamp": "2026-01-08T10:06:38Z",
+    "commitMessage": "fix(dts): unify logger in dts plugin (#1438)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20813129924",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20813129924/job/59782034181"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20813129924/job/59782034192"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20813129924/job/59782034197"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20813129924/job/59782034214"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20813129924/job/59782034258"
+      }
+    ]
+  },
+  {
     "commitSha": "25e8d48d581e7861e0e642c39a79f7f02fa3b58b",
     "commitTimestamp": "2026-01-08T09:52:26Z",
     "commitMessage": "feat(core): improve build status logging in watch mode (#1437)",
