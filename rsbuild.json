@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d9c2bef2d5adb98f3cc2a5920eb64571fc2c35c9",
+    "commitTimestamp": "2026-01-09T02:20:55Z",
+    "commitMessage": "refactor: migrate pre-bundled sirv to dynamic imports (#6936)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20838990739",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20838990739/job/59869308240"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20838990739/job/59869308245"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20838990739/job/59869308247"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20838990739/job/59869308249"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20838990739/job/59869308253"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20838990739/job/59869308261"
+      }
+    ]
+  },
+  {
     "commitSha": "de39e4eb8939dfcbca3f0703f97d026c45ab9a8b",
     "commitTimestamp": "2026-01-08T09:42:10Z",
     "commitMessage": "release: create-rsbuild v1.7.0 (#6935)",
