@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2f48ce487417f8c6e04ce2011fc39b61a7d92024",
+    "commitTimestamp": "2026-01-09T02:47:56Z",
+    "commitMessage": "refactor: dynamic import launch-editor-middleware (#6937)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20839483804",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839483804/job/59870719755"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839483804/job/59870719756"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839483804/job/59870719757"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839483804/job/59870719758"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839483804/job/59870719763"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839483804/job/59870719776"
+      }
+    ]
+  },
+  {
     "commitSha": "d9c2bef2d5adb98f3cc2a5920eb64571fc2c35c9",
     "commitTimestamp": "2026-01-09T02:20:55Z",
     "commitMessage": "refactor: migrate pre-bundled sirv to dynamic imports (#6936)",
