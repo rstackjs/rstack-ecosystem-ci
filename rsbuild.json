@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "21d86ec517336ed24d90a7cc60448a03f62d8af9",
+    "commitTimestamp": "2026-01-09T03:22:53Z",
+    "commitMessage": "chore(deps): update dependency @rspack/plugin-react-refresh to ^1.6.0 (#6938)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20840098985",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840098985/job/59872444063"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840098985/job/59872444066"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840098985/job/59872444069"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840098985/job/59872444076"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840098985/job/59872444090"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840098985/job/59872444168"
+      }
+    ]
+  },
+  {
     "commitSha": "2f48ce487417f8c6e04ce2011fc39b61a7d92024",
     "commitTimestamp": "2026-01-09T02:47:56Z",
     "commitMessage": "refactor: dynamic import launch-editor-middleware (#6937)",
