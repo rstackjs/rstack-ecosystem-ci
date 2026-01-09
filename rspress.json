@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bf0e42ff597757f0625eda0c25c0762f4c8577b9",
+    "commitTimestamp": "2026-01-09T06:59:26Z",
+    "commitMessage": "Release v2.0.0-rc.5 (#2982)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20843978372",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843978372/job/59883595071"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843978372/job/59883595072"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843978372/job/59883595077"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843978372/job/59883595079"
+      }
+    ]
+  },
+  {
     "commitSha": "6f272df7d8cf7d65c2f23fdc93316f2b6fd10087",
     "commitTimestamp": "2026-01-09T06:29:59Z",
     "commitMessage": "feat(ssg-md): add SSG-MD support to OverviewGroup and FallbackHeading components (Vibe Kanban) (#2966)",
