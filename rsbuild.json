@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "97f3c0a5672f6f49127f21258c712a582f1b1384",
+    "commitTimestamp": "2026-01-09T05:43:20Z",
+    "commitMessage": "feat(cli): update host option to accept boolean (#6942)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20842555608",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20842555608/job/59879637012"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20842555608/job/59879637013"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20842555608/job/59879637018"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20842555608/job/59879637021"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20842555608/job/59879637023"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20842555608/job/59879637024"
+      }
+    ]
+  },
+  {
     "commitSha": "c2ef9cf68763bafa5aa12df6a7b19c5cfe6efd6b",
     "commitTimestamp": "2026-01-09T03:41:58Z",
     "commitMessage": "feat(server)!: change default host from 0.0.0.0 to localhost (#6940)",
