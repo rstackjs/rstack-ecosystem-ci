@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "aeea423e10a782f26951339436a72cf4a6d11b8f",
+    "commitTimestamp": "2026-01-09T12:04:38Z",
+    "commitMessage": "fix(types): loosen reporter type to support older versions (#855)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20851344812",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20851344812/job/59906910063"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20851344812/job/59906910066"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20851344812/job/59906910067"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20851344812/job/59906910071"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20851344812/job/59906910082"
+      }
+    ]
+  },
+  {
     "commitSha": "e309067b3136bcf34d46e2e9b547bac12b23c993",
     "commitTimestamp": "2026-01-09T11:50:24Z",
     "commitMessage": "test: e2e error 'worker exited unexpectedly' (#854)",
