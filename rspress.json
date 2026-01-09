@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6f272df7d8cf7d65c2f23fdc93316f2b6fd10087",
+    "commitTimestamp": "2026-01-09T06:29:59Z",
+    "commitMessage": "feat(ssg-md): add SSG-MD support to OverviewGroup and FallbackHeading components (Vibe Kanban) (#2966)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20843525084",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843525084/job/59882322909"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843525084/job/59882322925"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843525084/job/59882322933"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843525084/job/59882322975"
+      }
+    ]
+  },
+  {
     "commitSha": "2807084a7dfbd5e09f269b7b7facc563955d68ea",
     "commitTimestamp": "2026-01-09T03:47:31Z",
     "commitMessage": "fix(theme): Fixed step counter text alignment (#2981)",
