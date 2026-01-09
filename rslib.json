@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d109157dbdb071697ddfce53a308ef1c61f37da9",
+    "commitTimestamp": "2026-01-09T10:08:59Z",
+    "commitMessage": "feat: support import.meta.dirname / filename shims for CJS (#1440)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20848515814",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848515814/job/59897748137"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848515814/job/59897748144"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848515814/job/59897748146"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848515814/job/59897748149"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848515814/job/59897748153"
+      }
+    ]
+  },
+  {
     "commitSha": "ed198d71de89dd4525780b7f80a8c4fb37d3c0a3",
     "commitTimestamp": "2026-01-08T11:21:10Z",
     "commitMessage": "refactor(plugin-dts): simplify dtsPromises to single dtsPromise (#1439)",
