@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "8bf1fd872ddb336f8df62a5900c2859538b794e8",
+    "commitTimestamp": "2026-01-09T03:44:10Z",
+    "commitMessage": "fix(theme/nav): Fixed small layout shift on scroll (#2980)",
+    "author": {
+      "name": "Elliot Courant",
+      "email": "me@elliotcourant.dev",
+      "login": "elliotcourant"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20840461086",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840461086/job/59873541681"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840461086/job/59873541683"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840461086/job/59873541685"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840461086/job/59873541698"
+      }
+    ]
+  },
+  {
     "commitSha": "e83a0f65f530035aa43a065e8612086b14e04fe8",
     "commitTimestamp": "2026-01-08T09:58:59Z",
     "commitMessage": "chore(deps): update rspress-plugin-file-tree to ^1.0.3 (#2977)",
