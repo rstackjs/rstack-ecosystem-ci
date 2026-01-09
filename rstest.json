@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b5b4420d93deeb1bd1d375da724fbbcf4b389d7d",
+    "commitTimestamp": "2026-01-09T17:10:22Z",
+    "commitMessage": "fix(browser): prevent default entry detection and WS port conflicts (#857)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20859591766",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20859591766/job/59935483838"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20859591766/job/59935483845"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20859591766/job/59935483853"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20859591766/job/59935483857"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20859591766/job/59935483879"
+      }
+    ]
+  },
+  {
     "commitSha": "eea68d0f0b9b574d75431ac504b6727f10e7b39c",
     "commitTimestamp": "2026-01-09T12:05:28Z",
     "commitMessage": "fix(e2e): stabilize no-isolate runs and harden stack parsing (#849)",
