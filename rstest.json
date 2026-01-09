@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "eca3cab5f1d475c376e0c8fc6e024f69e373db8a",
+    "commitTimestamp": "2026-01-09T03:44:21Z",
+    "commitMessage": "fix: only filter experimental warnings by default (#845)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20840466147",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840466147/job/59873556309"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840466147/job/59873556310"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840466147/job/59873556321"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840466147/job/59873556324"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840466147/job/59873556351"
+      }
+    ]
+  },
+  {
     "commitSha": "31aa530e90022c172ef9e9dd976a7cb04ddaf8d1",
     "commitTimestamp": "2026-01-08T13:57:29Z",
     "commitMessage": "feat(browser-react): export configure in non-pure entry (#846)",
