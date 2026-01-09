@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "40c31bf486f9d188cb95715b1ef9037d775fc091",
+    "commitTimestamp": "2026-01-09T10:16:34Z",
+    "commitMessage": "feat(cli): add `rstest-node` process title (#856)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20848650749",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848650749/job/59898180735"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848650749/job/59898180737"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848650749/job/59898180741"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848650749/job/59898180769"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20848650749/job/59898180873"
+      }
+    ]
+  },
+  {
     "commitSha": "2b21e7cc33c73b5772b5e9aaa684bc335edcd03f",
     "commitTimestamp": "2026-01-09T08:37:32Z",
     "commitMessage": "fix(browser): avoid use the conventional index entry point (#853)",
