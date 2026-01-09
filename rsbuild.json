@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c2ef9cf68763bafa5aa12df6a7b19c5cfe6efd6b",
+    "commitTimestamp": "2026-01-09T03:41:58Z",
+    "commitMessage": "feat(server)!: change default host from 0.0.0.0 to localhost (#6940)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20840424933",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840424933/job/59873424484"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840424933/job/59873424486"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840424933/job/59873424487"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840424933/job/59873424488"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840424933/job/59873424492"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20840424933/job/59873424504"
+      }
+    ]
+  },
+  {
     "commitSha": "21d86ec517336ed24d90a7cc60448a03f62d8af9",
     "commitTimestamp": "2026-01-09T03:22:53Z",
     "commitMessage": "chore(deps): update dependency @rspack/plugin-react-refresh to ^1.6.0 (#6938)",
