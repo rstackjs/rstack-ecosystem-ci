@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4268a15c6fb7753a374329239bd1d8d1dffe3679",
+    "commitTimestamp": "2026-01-09T06:29:22Z",
+    "commitMessage": "feat(create-rsbuild): add `@rstest/adapter-rsbuild` to reuse configuration  (#6941)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20843496688",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843496688/job/59882247125"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843496688/job/59882247129"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843496688/job/59882247135"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843496688/job/59882247154"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843496688/job/59882247157"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20843496688/job/59882247164"
+      }
+    ]
+  },
+  {
     "commitSha": "361796f78afe619f7c89ba3823be2a00b270506b",
     "commitTimestamp": "2026-01-09T06:26:26Z",
     "commitMessage": "feat(server): print hint when host is not set (#6943)",
