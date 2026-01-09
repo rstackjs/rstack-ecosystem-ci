@@ -96,6 +96,54 @@
     ]
   },
   {
+    "commitSha": "5def64607d1d7fda3374160e53a1acb79381ba3e",
+    "commitTimestamp": "2026-01-09T03:00:46Z",
+    "commitMessage": "chore(deps): update dependency ws to ^8.19.0 (#6939)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20839713891",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839713891/job/59871403483"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839713891/job/59871403484"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839713891/job/59871403492"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839713891/job/59871403501"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839713891/job/59871403503"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20839713891/job/59871403545"
+      }
+    ]
+  },
+  {
     "commitSha": "2f48ce487417f8c6e04ce2011fc39b61a7d92024",
     "commitTimestamp": "2026-01-09T02:47:56Z",
     "commitMessage": "refactor: dynamic import launch-editor-middleware (#6937)",
