@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7226ed5bf6318152cd23ee4214af7534efc3ae1d",
+    "commitTimestamp": "2026-01-10T01:36:28Z",
+    "commitMessage": "chore(deps): update pnpm to v10.28.0 (#6947)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20870655140",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20870655140/job/59971479639"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20870655140/job/59971479640"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20870655140/job/59971479644"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20870655140/job/59971479649"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20870655140/job/59971479651"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20870655140/job/59971479662"
+      }
+    ]
+  },
+  {
     "commitSha": "f6b1a4e3825dda4622d527f584a4493a3f0de6b3",
     "commitTimestamp": "2026-01-10T01:35:21Z",
     "commitMessage": "chore(deps): update dependency happy-dom to ^20.1.0 (#6946)",
