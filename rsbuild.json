@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c4301c5ed52c5934a2cbf6c18b77d2e13eb0baef",
+    "commitTimestamp": "2026-01-12T05:45:37Z",
+    "commitMessage": "feat(plugin-vue): bump rspack-vue-loader to support hot update (#6956)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20909324897",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20909324897/job/60068979969"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20909324897/job/60068979973"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20909324897/job/60068979983"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20909324897/job/60068979985"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20909324897/job/60068979998"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20909324897/job/60068980021"
+      }
+    ]
+  },
+  {
     "commitSha": "3b71eb1a666ad4fd17913f059ceb731c6205301c",
     "commitTimestamp": "2026-01-12T03:18:52Z",
     "commitMessage": "feat!: remove deprecated 'content-changed' socket type (#6955)",
