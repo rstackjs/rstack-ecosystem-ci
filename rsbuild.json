@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fec1e092f9ec02e7b1f6861406b60cff486f3680",
+    "commitTimestamp": "2026-01-12T03:06:42Z",
+    "commitMessage": "fix(core): remove unused exports for client modules (#6954)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20907188424",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907188424/job/60062790687"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907188424/job/60062790693"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907188424/job/60062790696"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907188424/job/60062790697"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907188424/job/60062790698"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907188424/job/60062790704"
+      }
+    ]
+  },
+  {
     "commitSha": "d5a3810a61a13af213a70d672fefb378f827165d",
     "commitTimestamp": "2026-01-12T02:06:36Z",
     "commitMessage": "feat!: output ESM by default for node target (#6950)",
