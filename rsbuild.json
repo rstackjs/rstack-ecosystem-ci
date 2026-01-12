@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d5a3810a61a13af213a70d672fefb378f827165d",
+    "commitTimestamp": "2026-01-12T02:06:36Z",
+    "commitMessage": "feat!: output ESM by default for node target (#6950)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20905928590",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905928590/job/60059359393"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905928590/job/60059359394"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905928590/job/60059359398"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905928590/job/60059359401"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905928590/job/60059359402"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905928590/job/60059359412"
+      }
+    ]
+  },
+  {
     "commitSha": "001ba7fb51023b524e425b39ad5406a884a2ba99",
     "commitTimestamp": "2026-01-12T02:06:19Z",
     "commitMessage": "chore(deps): update all patch dependencies (#6951)",
