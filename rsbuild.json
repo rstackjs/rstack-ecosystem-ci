@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "001ba7fb51023b524e425b39ad5406a884a2ba99",
+    "commitTimestamp": "2026-01-12T02:06:19Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#6951)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20905925147",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905925147/job/60059350686"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905925147/job/60059350687"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905925147/job/60059350689"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905925147/job/60059350691"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905925147/job/60059350702"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20905925147/job/60059350708"
+      }
+    ]
+  },
+  {
     "commitSha": "7226ed5bf6318152cd23ee4214af7534efc3ae1d",
     "commitTimestamp": "2026-01-10T01:36:28Z",
     "commitMessage": "chore(deps): update pnpm to v10.28.0 (#6947)",
