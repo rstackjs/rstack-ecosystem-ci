@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "82a242261afab10445eb1a3c8e3e1056501bc10c",
+    "commitTimestamp": "2026-01-12T03:33:23Z",
+    "commitMessage": "chore(deps): update shiki monorepo to ^3.21.0 (#2994)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20907316299",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907316299/job/60063159171"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907316299/job/60063159177"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907316299/job/60063159181"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907316299/job/60063159199"
+      }
+    ]
+  },
+  {
     "commitSha": "935bd882d5e9b1a3f3aa4baf6a5d5a087aba3bef",
     "commitTimestamp": "2026-01-12T03:29:21Z",
     "commitMessage": "chore(deps): update pnpm to v10.28.0 (#2993)",
