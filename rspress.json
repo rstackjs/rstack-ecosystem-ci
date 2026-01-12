@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "20899b7dfcaa80e2bdd1cc73df0bcfe1c99381a8",
+    "commitTimestamp": "2026-01-12T03:12:59Z",
+    "commitMessage": "chore(deps): update dependency react-router-dom to ^7.12.0 (#2992)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20907205232",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907205232/job/60062837187"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907205232/job/60062837189"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907205232/job/60062837190"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907205232/job/60062837196"
+      }
+    ]
+  },
+  {
     "commitSha": "bf0e42ff597757f0625eda0c25c0762f4c8577b9",
     "commitTimestamp": "2026-01-09T06:59:26Z",
     "commitMessage": "Release v2.0.0-rc.5 (#2982)",
