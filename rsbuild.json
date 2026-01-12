@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3b71eb1a666ad4fd17913f059ceb731c6205301c",
+    "commitTimestamp": "2026-01-12T03:18:52Z",
+    "commitMessage": "feat!: remove deprecated 'content-changed' socket type (#6955)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20907217102",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907217102/job/60062868109"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907217102/job/60062868113"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907217102/job/60062868118"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907217102/job/60062868119"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907217102/job/60062868133"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20907217102/job/60062868197"
+      }
+    ]
+  },
+  {
     "commitSha": "fec1e092f9ec02e7b1f6861406b60cff486f3680",
     "commitTimestamp": "2026-01-12T03:06:42Z",
     "commitMessage": "fix(core): remove unused exports for client modules (#6954)",
