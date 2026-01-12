@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "37006c169adbdb82823efa7261c3dd9f59bb78eb",
+    "commitTimestamp": "2026-01-12T09:00:35Z",
+    "commitMessage": "fix: running Happy DOM in the global scope (#859)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20913490237",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20913490237/job/60081346069"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20913490237/job/60081346081"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20913490237/job/60081346096"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20913490237/job/60081346122"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20913490237/job/60081346166"
+      }
+    ]
+  },
+  {
     "commitSha": "b5b4420d93deeb1bd1d375da724fbbcf4b389d7d",
     "commitTimestamp": "2026-01-09T17:10:22Z",
     "commitMessage": "fix(browser): prevent default entry detection and WS port conflicts (#857)",
