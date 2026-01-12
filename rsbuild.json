@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "de3f0b77b00c0bbb906376b8d4cd85c752d5ca10",
+    "commitTimestamp": "2026-01-12T10:56:07Z",
+    "commitMessage": "fix(overlay): fix overlay crash in environments without custom elements (#6957)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20916816759",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20916816759/job/60092198867"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20916816759/job/60092198877"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20916816759/job/60092198884"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20916816759/job/60092198888"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20916816759/job/60092198904"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20916816759/job/60092198907"
+      }
+    ]
+  },
+  {
     "commitSha": "c4301c5ed52c5934a2cbf6c18b77d2e13eb0baef",
     "commitTimestamp": "2026-01-12T05:45:37Z",
     "commitMessage": "feat(plugin-vue): bump rspack-vue-loader to support hot update (#6956)",
