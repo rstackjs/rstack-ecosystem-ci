@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ffc6534ba2b98783f28baae0cc15ef023e02118c",
+    "commitTimestamp": "2026-01-12T12:02:03Z",
+    "commitMessage": "test: use tree-kill to kill e2e child process (#861)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20918632198",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20918632198/job/60098298630"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20918632198/job/60098298635"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20918632198/job/60098298639"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20918632198/job/60098298675"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20918632198/job/60098298690"
+      }
+    ]
+  },
+  {
     "commitSha": "37006c169adbdb82823efa7261c3dd9f59bb78eb",
     "commitTimestamp": "2026-01-12T09:00:35Z",
     "commitMessage": "fix: running Happy DOM in the global scope (#859)",
