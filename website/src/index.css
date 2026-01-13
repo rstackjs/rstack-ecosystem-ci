@@ -13,6 +13,18 @@ body {
   background: #000;
   font-family: "JetBrains Mono", "Geist Mono", "SF Mono", "Consolas", monospace;
   color: #f5f5f5;
+  touch-action: manipulation;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .glass-panel {

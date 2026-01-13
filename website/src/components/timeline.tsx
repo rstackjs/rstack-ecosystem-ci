@@ -137,7 +137,7 @@ export function Timeline({
               value={externalSelectedStack}
               onValueChange={(value) => onStackChange?.(value)}
             >
-              <SelectTrigger className="w-52">
+              <SelectTrigger className="w-52" aria-label="Select stack">
                 <div className="flex flex-1 items-center justify-between gap-2">
                   <span className="truncate font-medium text-foreground/90">
                     {selectedStackMeta?.label ?? 'Select stack'}
@@ -152,7 +152,7 @@ export function Timeline({
                     </Badge>
                   ) : null}
                 </div>
-                <SelectValue className="sr-only" placeholder="Select stack" />
+                <SelectValue className="sr-only" placeholder="Select stack…" />
               </SelectTrigger>
               <SelectContent>
                 {stacks?.map((stack) => (
@@ -181,7 +181,7 @@ export function Timeline({
           </label>
           <Select value={selectedSuite} onValueChange={setSelectedSuite}>
             <SelectTrigger id="suite-filter" className="w-64">
-              <SelectValue placeholder="Select suite">
+              <SelectValue placeholder="Select suite…">
                 {selectedSuite === 'all' ? 'All suites' : selectedSuite}
               </SelectValue>
             </SelectTrigger>
@@ -214,6 +214,8 @@ export function Timeline({
                 <img
                   src={netlifyLogomark}
                   alt=""
+                  width="14"
+                  height="14"
                   className="h-3.5 w-3.5 mr-1"
                   loading="lazy"
                 />
@@ -228,7 +230,10 @@ export function Timeline({
       ) : null}
 
       {filteredEntries.length > 0 ? (
-        <div className="grid gap-3">
+        <div
+          className="grid gap-3"
+          style={{ contentVisibility: 'auto', containIntrinsicSize: '1000px' }}
+        >
           {filteredEntries.map((entry, index) => {
             const commitStyles =
               commitStatusStyles[entry.overallStatus] ??
@@ -273,7 +278,7 @@ export function Timeline({
                   >
                     <span
                       className={cn(
-                        'h-3.5 w-3.5 rounded-full',
+                        'h-3.5 w-3.5 rounded-full motion-safe:animate-[glow-pulse_2s_ease-in-out_infinite]',
                         commitStyles.dotCore,
                       )}
                     />
@@ -295,6 +300,8 @@ export function Timeline({
                       <img
                         src={avatarUrl}
                         alt={entry.author?.name ?? 'Author'}
+                        width="32"
+                        height="32"
                         className={cn(
                           'h-8 w-8 flex-none border-2 border-border/40 bg-black/40',
                           isRenovateBot ? 'rounded-[6px]' : 'rounded-full',
@@ -309,7 +316,7 @@ export function Timeline({
                             href={commitUrl}
                             target="_blank"
                             rel="noreferrer"
-                            className="inline-flex items-center gap-2 text-foreground transition hover:text-foreground/70"
+                            className="inline-flex items-center gap-2 text-foreground transition-[color] hover:text-foreground/70"
                           >
                             <span className="truncate">
                               {entry.commitMessage}
@@ -321,7 +328,7 @@ export function Timeline({
                         </CardTitle>
                         <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-muted-foreground">
                           <a
-                            className="inline-flex items-center gap-1 rounded border border-border/50 bg-black/40 px-2 py-0.5 font-mono tracking-tight text-foreground/85 transition hover:border-border hover:text-foreground"
+                            className="inline-flex items-center gap-1 rounded border border-border/50 bg-black/40 px-2 py-0.5 font-mono tracking-tight text-foreground/85 transition-[border-color,color] hover:border-border hover:text-foreground"
                             href={commitUrl}
                             target="_blank"
                             rel="noreferrer"
@@ -370,7 +377,7 @@ export function Timeline({
                         </Badge>
                         <a
                           href={entry.workflowRunUrl}
-                          className="text-[11px] text-muted-foreground transition hover:text-foreground/90"
+                          className="text-[11px] text-muted-foreground transition-[color] hover:text-foreground/90"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -400,7 +407,7 @@ export function Timeline({
                               target="_blank"
                               rel="noreferrer"
                               className={cn(
-                                'flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-2 text-xs font-medium transition hover:border-border hover:bg-black/15',
+                                'flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-2 text-xs font-medium transition-[background-color,border-color] hover:border-border hover:bg-black/15',
                                 suiteStyles.container,
                               )}
                             >
