@@ -5,6 +5,9 @@ const config: Config = {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      screens: {
+        xs: '420px',
+      },
       colors: {
         border: 'rgba(255,255,255,0.08)',
         input: 'rgba(255,255,255,0.04)',

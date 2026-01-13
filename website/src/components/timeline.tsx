@@ -127,17 +127,20 @@ export function Timeline({
 
   return (
     <div className="grid gap-6">
-      <div className="flex flex-wrap items-center gap-4">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         {hasStackControl ? (
-          <div className="flex items-center gap-2">
-            <span className="text-sm font-medium text-muted-foreground">
+          <div className="flex flex-1 min-w-0 items-center gap-2">
+            <span className="shrink-0 text-sm font-medium text-muted-foreground">
               Stack:
             </span>
             <Select
               value={externalSelectedStack}
               onValueChange={(value) => onStackChange?.(value)}
             >
-              <SelectTrigger className="w-52" aria-label="Select stack">
+              <SelectTrigger
+                className="min-w-0 flex-1 max-w-[200px]"
+                aria-label="Select stack"
+              >
                 <div className="flex flex-1 items-center justify-between gap-2">
                   <span className="truncate font-medium text-foreground/90">
                     {selectedStackMeta?.label ?? 'Select stack'}
@@ -172,15 +175,18 @@ export function Timeline({
           </div>
         ) : null}
 
-        <div className="flex items-center gap-3">
+        <div className="flex flex-1 min-w-0 items-center gap-3">
           <label
             htmlFor="suite-filter"
-            className="text-sm font-medium text-muted-foreground"
+            className="shrink-0 text-sm font-medium text-muted-foreground"
           >
-            Filter by suite:
+            Filter:
           </label>
           <Select value={selectedSuite} onValueChange={setSelectedSuite}>
-            <SelectTrigger id="suite-filter" className="w-64">
+            <SelectTrigger
+              id="suite-filter"
+              className="min-w-0 flex-1 max-w-xs"
+            >
               <SelectValue placeholder="Select suite…">
                 {selectedSuite === 'all' ? 'All suites' : selectedSuite}
               </SelectValue>
@@ -256,7 +262,7 @@ export function Timeline({
             return (
               <div
                 key={entry.commitSha}
-                className="grid grid-cols-[26px,1fr] items-stretch gap-5 sm:grid-cols-[30px,1fr]"
+                className="grid min-w-0 grid-cols-[26px,1fr] items-stretch gap-3 sm:grid-cols-[30px,1fr] sm:gap-5"
               >
                 <div className="flex h-full flex-col items-center">
                   <span
@@ -371,7 +377,7 @@ export function Timeline({
                       <div className="flex flex-none items-center gap-2 sm:flex-col sm:items-end">
                         <Badge
                           variant={commitStyles.badge}
-                          className="px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide"
+                          className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide sm:px-2.5"
                         >
                           {commitStyles.label}
                         </Badge>
@@ -388,7 +394,7 @@ export function Timeline({
                   </CardHeader>
 
                   <CardContent className="p-2.5 sm:p-3">
-                    <div className="grid gap-2 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+                    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                       {[...entry.suites]
                         .sort((a, b) => a.name.localeCompare(b.name))
                         .map((suite) => {
@@ -407,11 +413,11 @@ export function Timeline({
                               target="_blank"
                               rel="noreferrer"
                               className={cn(
-                                'flex w-full items-center justify-between gap-3 rounded-lg border px-3 py-2 text-xs font-medium transition-[background-color,border-color] hover:border-border hover:bg-black/15',
+                                'flex min-w-0 w-full items-center justify-between gap-3 rounded-lg border px-3 py-2 text-xs font-medium transition-[background-color,border-color] hover:border-border hover:bg-black/15',
                                 suiteStyles.container,
                               )}
                             >
-                              <span className="text-foreground/90">
+                              <span className="truncate text-foreground/90">
                                 {suite.name}
                               </span>
                               <span className="flex items-center gap-2 text-muted-foreground/80">

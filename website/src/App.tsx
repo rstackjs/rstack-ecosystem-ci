@@ -186,7 +186,7 @@ export default function App() {
   const schedule = useMemo(() => buildUpdateSchedule(now), [now]);
 
   return (
-    <div className="min-h-screen bg-transparent px-4 py-12 text-foreground sm:px-8">
+    <div className="min-h-screen overflow-x-hidden bg-transparent px-4 py-12 text-foreground sm:px-8">
       <div
         id="main-content"
         tabIndex={-1}
@@ -205,10 +205,10 @@ export default function App() {
                 </Badge>
               ) : null}
             </div>
-            <div className="flex items-center gap-3">
-              <span className="relative inline-flex h-12 w-12 items-center justify-center">
+            <div className="flex items-center gap-3 sm:gap-4">
+              <span className="relative inline-flex h-10 w-10 shrink-0 items-center justify-center sm:h-12 sm:w-12">
                 <span
-                  className="absolute left-1/2 top-1/2 h-16 w-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/35 blur-2xl"
+                  className="absolute left-1/2 top-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/35 blur-xl sm:h-16 sm:w-16 sm:blur-2xl"
                   aria-hidden
                 />
                 <img
@@ -216,10 +216,10 @@ export default function App() {
                   alt="Rspack logo"
                   width="40"
                   height="40"
-                  className="relative h-10 w-10 drop-shadow-[0_4px_18px_rgba(34,211,238,0.75)]"
+                  className="relative h-8 w-8 drop-shadow-[0_4px_18px_rgba(34,211,238,0.75)] sm:h-10 sm:w-10"
                 />
               </span>
-              <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              <h1 className="text-2xl font-semibold tracking-tight sm:text-4xl">
                 Rstack Ecosystem CI Dashboard
               </h1>
             </div>
@@ -296,7 +296,7 @@ export default function App() {
           </div>
         </header>
 
-        <section className="grid gap-4 sm:grid-cols-2">
+        <section className="grid gap-4 lg:grid-cols-2">
           <StackStatusCard
             statuses={stackStatusSummary}
             activeStack={selectedStack}
@@ -418,15 +418,15 @@ function StackStatusCard({
 }: StackStatusCardProps) {
   return (
     <div className="glass-panel rounded-2xl border border-border/60 px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
-      <div className="flex items-center justify-between">
-        <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground/70">
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/70 sm:text-xs sm:tracking-[0.4em]">
           Stack Health
         </p>
-        <span className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
+        <span className="hidden text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55 xs:inline">
           Latest run
         </span>
       </div>
-      <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+      <div className="mt-5 grid grid-cols-1 gap-3 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
         {statuses.map((stack) => {
           const isActive = stack.id === activeStack;
           const baseClasses =
