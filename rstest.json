@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "745e10f1dd5648853f39707924b8e2dabcb581fd",
+    "commitTimestamp": "2026-01-13T03:51:49Z",
+    "commitMessage": "fix(browser): decouple strictPort from port configuration (#862)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20944032541",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20944032541/job/60183383090"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20944032541/job/60183383091"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20944032541/job/60183383100"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20944032541/job/60183383103"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20944032541/job/60183383109"
+      }
+    ]
+  },
+  {
     "commitSha": "ffc6534ba2b98783f28baae0cc15ef023e02118c",
     "commitTimestamp": "2026-01-12T12:02:03Z",
     "commitMessage": "test: use tree-kill to kill e2e child process (#861)",
