@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ab9ceb87d1f850759bf48112d9a700352e9bdad3",
+    "commitTimestamp": "2026-01-13T13:19:50Z",
+    "commitMessage": "feat(deps): update dependency @rspack/core to v1.7.2 (#6959)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20958225576",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20958225576/job/60228158288"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20958225576/job/60228158316"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20958225576/job/60228158318"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20958225576/job/60228158345"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20958225576/job/60228158349"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20958225576/job/60228158409"
+      }
+    ]
+  },
+  {
     "commitSha": "de3f0b77b00c0bbb906376b8d4cd85c752d5ca10",
     "commitTimestamp": "2026-01-12T10:56:07Z",
     "commitMessage": "fix(overlay): fix overlay crash in environments without custom elements (#6957)",
