@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3b26efca8297edf3a2340226435b3eb85ae11dce",
+    "commitTimestamp": "2026-01-13T03:38:19Z",
+    "commitMessage": "fix(theme): fix inline code style in Callout when code is direct child of content (#2997)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20943772992",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20943772992/job/60182447427"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20943772992/job/60182447434"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20943772992/job/60182447437"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20943772992/job/60182447445"
+      }
+    ]
+  },
+  {
     "commitSha": "82a242261afab10445eb1a3c8e3e1056501bc10c",
     "commitTimestamp": "2026-01-12T03:33:23Z",
     "commitMessage": "chore(deps): update shiki monorepo to ^3.21.0 (#2994)",
