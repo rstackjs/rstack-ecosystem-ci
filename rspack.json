@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "a6892fefc24173887bc250bdfe58425828dec36a",
+    "commitTimestamp": "2026-01-13T05:24:50Z",
+    "commitMessage": "fix(context-replacement): only apply changes when regex matches (#12657)",
+    "author": {
+      "name": "Agney Menon",
+      "email": "agney.menons@live.com",
+      "login": "agneym"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20945782418",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645377"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645380"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645382"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645383"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645385"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645388"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645412"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645425"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645428"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645432"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20945782418/job/60188645434"
+      }
+    ]
+  },
+  {
     "commitSha": "6256796a998c4f2249ca8997217ae0268972afdb",
     "commitTimestamp": "2026-01-13T05:00:09Z",
     "commitMessage": "fix: dynamic entry panic when disable build cache (#12696)",
