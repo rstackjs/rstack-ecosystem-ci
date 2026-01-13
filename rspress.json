@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5310781281e313d5d96f32c4a7da8397c681ec27",
+    "commitTimestamp": "2026-01-13T09:26:18Z",
+    "commitMessage": "refactor(plugin-rss)!: requires the `ssg` config, and remove `_html` field (#3003)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20951526574",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20951526574/job/60205862097"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20951526574/job/60205862105"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20951526574/job/60205862136"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20951526574/job/60205862151"
+      }
+    ]
+  },
+  {
     "commitSha": "9a8d8338cb76009b3db9f35dcf8240c110032564",
     "commitTimestamp": "2026-01-13T07:18:11Z",
     "commitMessage": "chore(deps): upgrade @rslib/core 0.19.2 (#3002)",
