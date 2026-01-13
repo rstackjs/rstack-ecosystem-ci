@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fc8883cbd2b0aad721266f6aa58a859b17bc5ffe",
+    "commitTimestamp": "2026-01-13T14:11:18Z",
+    "commitMessage": "refactor: simplify core-js path resolution (#6962)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20959848734",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20959848734/job/60233765065"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20959848734/job/60233765080"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20959848734/job/60233765100"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20959848734/job/60233765107"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20959848734/job/60233765117"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20959848734/job/60233765145"
+      }
+    ]
+  },
+  {
     "commitSha": "3cbedab7351b365e0e4813452c4a66d0a9eac41d",
     "commitTimestamp": "2026-01-13T13:52:06Z",
     "commitMessage": "perf!: make `core-js` an optional peer dependency (#6960)",
