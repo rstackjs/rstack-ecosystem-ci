@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "a47337bf63ad292842deaac0964f6ecdff3cf8bc",
+    "commitTimestamp": "2026-01-13T08:05:47Z",
+    "commitMessage": "fix(mf): handle missing chunk gracefully and improve expose chunk name logic (#12709)",
+    "author": {
+      "name": "Hanric",
+      "email": "zhanghang.heal@bytedance.com",
+      "login": "2heal1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20949284117",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929755"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929761"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929762"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929766"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929769"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929771"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929775"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929779"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929793"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929805"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20949284117/job/60198929807"
+      }
+    ]
+  },
+  {
     "commitSha": "a6892fefc24173887bc250bdfe58425828dec36a",
     "commitTimestamp": "2026-01-13T05:24:50Z",
     "commitMessage": "fix(context-replacement): only apply changes when regex matches (#12657)",
