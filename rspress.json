@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1072a5754ea911eb7e7f5bb0b3c9380a97c68cc3",
+    "commitTimestamp": "2026-01-13T05:35:49Z",
+    "commitMessage": "fix(config/types): defineConfig should support asyncFn (#3000)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20946005475",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20946005475/job/60189044043"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20946005475/job/60189044056"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20946005475/job/60189044061"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20946005475/job/60189044080"
+      }
+    ]
+  },
+  {
     "commitSha": "86250fc1d1b43bd07925d580880120cbde3b233b",
     "commitTimestamp": "2026-01-13T03:41:23Z",
     "commitMessage": "docs: improve conventional route documentation with better examples and best practices (#2995)",
