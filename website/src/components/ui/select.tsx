@@ -18,7 +18,7 @@ const SelectTrigger = forwardRef<
   <SelectPrimitive.Trigger
     ref={ref}
     className={cn(
-      'inline-flex h-11 w-full items-center justify-between rounded-xl border border-border/60 bg-transparent px-4 py-2 text-sm text-foreground shadow-sm transition hover:border-border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 disabled:cursor-not-allowed disabled:opacity-50',
+      'inline-flex h-11 w-full items-center justify-between rounded-xl border border-border/60 bg-transparent px-4 py-2 text-sm text-foreground shadow-sm transition-[background-color,border-color,color,box-shadow] motion-safe:duration-200 hover:border-border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 disabled:cursor-not-allowed disabled:opacity-50',
       className,
     )}
     {...props}
@@ -39,7 +39,7 @@ const SelectContent = forwardRef<
     <SelectPrimitive.Content
       ref={ref}
       className={cn(
-        'z-50 min-w-[14rem] overflow-hidden rounded-2xl border border-border/40 bg-popover/95 shadow-xl backdrop-blur-xl animate-in fade-in-0 zoom-in-95',
+        'z-50 min-w-[14rem] overflow-hidden rounded-2xl border border-border/40 bg-popover/95 shadow-xl backdrop-blur-xl motion-safe:animate-in motion-safe:fade-in-0 motion-safe:zoom-in-95',
         position === 'popper' && 'translate-y-2',
         className,
       )}
@@ -73,7 +73,7 @@ const SelectItem = forwardRef<
   <SelectPrimitive.Item
     ref={ref}
     className={cn(
-      'relative flex w-full cursor-pointer select-none items-center rounded-xl border border-transparent px-3 py-2 text-sm outline-none transition focus:bg-accent/60 focus:text-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[state=checked]:border-border data-[state=checked]:bg-accent/80 data-[state=checked]:text-foreground',
+      'relative flex w-full cursor-pointer select-none items-center rounded-xl border border-transparent px-3 py-2 text-sm outline-none transition-[background-color,color,border-color] motion-safe:duration-200 focus:bg-accent/60 focus:text-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50 data-[state=checked]:border-border data-[state=checked]:bg-accent/80 data-[state=checked]:text-foreground',
       className,
     )}
     {...props}

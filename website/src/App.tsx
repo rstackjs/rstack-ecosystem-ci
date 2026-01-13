@@ -187,7 +187,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-transparent px-4 py-12 text-foreground sm:px-8">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-10">
+      <div
+        id="main-content"
+        tabIndex={-1}
+        className="mx-auto flex w-full max-w-6xl flex-col gap-10 outline-none"
+      >
         <header className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-4">
             <div className="inline-flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-white/90">
@@ -210,6 +214,8 @@ export default function App() {
                 <img
                   src="https://assets.rspack.rs/rspack/rspack-logo.svg"
                   alt="Rspack logo"
+                  width="40"
+                  height="40"
                   className="relative h-10 w-10 drop-shadow-[0_4px_18px_rgba(34,211,238,0.75)]"
                 />
               </span>
@@ -224,7 +230,7 @@ export default function App() {
                 href={GITHUB_REPO_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/40 bg-white/5 text-white/80 transition hover:bg-white/10 hover:text-white"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/40 bg-white/5 text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
                 aria-label="Open GitHub repository"
               >
                 <span className="sr-only">GitHub</span>
@@ -243,7 +249,7 @@ export default function App() {
               <div className="relative" ref={repoMenuRef}>
                 <button
                   type="button"
-                  className="inline-flex items-center gap-1 rounded-full border border-border/40 bg-white/5 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/80 transition hover:bg-white/10 hover:text-white"
+                  className="inline-flex items-center gap-1 rounded-full border border-border/40 bg-white/5 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
                   aria-haspopup="menu"
                   aria-expanded={isRepoMenuOpen}
                   onClick={() => setIsRepoMenuOpen((open) => !open)}
@@ -252,7 +258,7 @@ export default function App() {
                   <svg
                     aria-hidden="true"
                     viewBox="0 0 12 12"
-                    className={`h-3 w-3 transition-transform ${isRepoMenuOpen ? 'rotate-180' : ''}`}
+                    className={`h-3 w-3 transition-transform motion-safe:duration-200 ${isRepoMenuOpen ? 'rotate-180' : ''}`}
                     fill="none"
                     role="img"
                   >
@@ -275,7 +281,7 @@ export default function App() {
                             href={repo.url}
                             target="_blank"
                             rel="noreferrer"
-                            className="block rounded-md px-2.5 py-1.5 text-sm text-foreground/85 transition hover:bg-white/10 hover:text-white"
+                            className="block rounded-md px-2.5 py-1.5 text-sm text-foreground/85 transition-[background-color,color] hover:bg-white/10 hover:text-white"
                             onClick={() => setIsRepoMenuOpen(false)}
                           >
                             {repo.label}
@@ -424,7 +430,7 @@ function StackStatusCard({
         {statuses.map((stack) => {
           const isActive = stack.id === activeStack;
           const baseClasses =
-            'flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.04] px-3 py-3 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30';
+            'flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.04] px-3 py-3 transition-[background-color,border-color] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30';
           return (
             <button
               type="button"
@@ -442,7 +448,7 @@ function StackStatusCard({
                 {stack.label}
               </span>
               <span
-                className={`inline-flex h-3.5 w-3.5 shrink-0 rounded-full ${STACK_STATUS_CLASS[stack.status]}`}
+                className={`inline-flex h-3.5 w-3.5 shrink-0 rounded-full motion-safe:animate-[glow-pulse_2s_ease-in-out_infinite] ${STACK_STATUS_CLASS[stack.status]}`}
                 aria-hidden="true"
               />
             </button>
