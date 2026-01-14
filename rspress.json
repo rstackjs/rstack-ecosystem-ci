@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4a5b6e3360f14820519113bac3876d94313e1a16",
+    "commitTimestamp": "2026-01-14T09:22:47Z",
+    "commitMessage": "refactor(core): replace @rspress/mdx-rs and html-to-text with @mdx-js/mdx createProcessor for toc and searchIndex generation (#3001)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20988951809",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988951809/job/60329449467"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988951809/job/60329449477"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988951809/job/60329449481"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988951809/job/60329449554"
+      }
+    ]
+  },
+  {
     "commitSha": "5310781281e313d5d96f32c4a7da8397c681ec27",
     "commitTimestamp": "2026-01-13T09:26:18Z",
     "commitMessage": "refactor(plugin-rss)!: requires the `ssg` config, and remove `_html` field (#3003)",
