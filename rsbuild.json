@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "601a556f32ee95058b0d7c9eec505461d659212a",
+    "commitTimestamp": "2026-01-14T02:21:58Z",
+    "commitMessage": "feat!: raise default Node target to 20 (#6965)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20980021853",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20980021853/job/60302847969"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20980021853/job/60302847970"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20980021853/job/60302847974"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20980021853/job/60302847977"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20980021853/job/60302847978"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20980021853/job/60302847979"
+      }
+    ]
+  },
+  {
     "commitSha": "fc8883cbd2b0aad721266f6aa58a859b17bc5ffe",
     "commitTimestamp": "2026-01-13T14:11:18Z",
     "commitMessage": "refactor: simplify core-js path resolution (#6962)",
