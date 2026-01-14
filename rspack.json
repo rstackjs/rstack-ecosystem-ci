@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "36866eaae3ae0f0259a48a7b86f541680574e696",
+    "commitTimestamp": "2026-01-14T09:13:41Z",
+    "commitMessage": "test: skip recover-from-error/delete-file in watchCases (#12726)",
+    "author": {
+      "name": "jinrui",
+      "email": "jerrykingxyz@gmail.com",
+      "login": "jerrykingxyz"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20988678604",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012220"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012222"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012226"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012228"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012231"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012239"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012253"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012255"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012257"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012258"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20988678604/job/60329012276"
+      }
+    ]
+  },
+  {
     "commitSha": "0ddce9d224b5d7b447236996fba31bb85cfebef6",
     "commitTimestamp": "2026-01-14T02:26:37Z",
     "commitMessage": "chore(deps): update patch crates (#12716)",
