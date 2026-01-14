@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "25020fd1f3819636eb3740844dd010691217bfcc",
+    "commitTimestamp": "2026-01-14T09:37:41Z",
+    "commitMessage": "feat: support portable cache and disable by default (#12680)",
+    "author": {
+      "name": "jinrui",
+      "email": "jerrykingxyz@gmail.com",
+      "login": "jerrykingxyz"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/20989372436",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356221"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356225"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356226"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356232"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356245"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356248"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356313"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356316"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356320"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356328"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/20989372436/job/60331356355"
+      }
+    ]
+  },
+  {
     "commitSha": "36866eaae3ae0f0259a48a7b86f541680574e696",
     "commitTimestamp": "2026-01-14T09:13:41Z",
     "commitMessage": "test: skip recover-from-error/delete-file in watchCases (#12726)",
