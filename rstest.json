@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "43e2e64a4d7c0d4cf4a1a82e1c32b6733519751b",
+    "commitTimestamp": "2026-01-14T03:32:10Z",
+    "commitMessage": "feat(cli): add browser mode CLI options (#864)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20981328545",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20981328545/job/60306682228"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20981328545/job/60306682230"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20981328545/job/60306682235"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20981328545/job/60306682240"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20981328545/job/60306682265"
+      }
+    ]
+  },
+  {
     "commitSha": "745e10f1dd5648853f39707924b8e2dabcb581fd",
     "commitTimestamp": "2026-01-13T03:51:49Z",
     "commitMessage": "fix(browser): decouple strictPort from port configuration (#862)",
