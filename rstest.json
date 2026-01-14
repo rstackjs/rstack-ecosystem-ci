@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "daef2142950b39685371561ff08be3a3feda72f5",
+    "commitTimestamp": "2026-01-14T10:05:12Z",
+    "commitMessage": "feat: show project name when running multiple projects (#838)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20990179654",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20990179654/job/60333463670"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20990179654/job/60333463674"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20990179654/job/60333463688"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20990179654/job/60333463689"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20990179654/job/60333463703"
+      }
+    ]
+  },
+  {
     "commitSha": "43e2e64a4d7c0d4cf4a1a82e1c32b6733519751b",
     "commitTimestamp": "2026-01-14T03:32:10Z",
     "commitMessage": "feat(cli): add browser mode CLI options (#864)",
