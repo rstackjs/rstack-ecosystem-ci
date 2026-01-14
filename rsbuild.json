@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "31124fc53cbf3bc2cd05412343256cfd4bc6689b",
+    "commitTimestamp": "2026-01-14T09:07:16Z",
+    "commitMessage": "refactor: replace `__dirname` with `import.meta.dirname` (#6964)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/20988507438",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988507438/job/60328006309"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988507438/job/60328006313"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988507438/job/60328006324"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988507438/job/60328006340"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988507438/job/60328006346"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/20988507438/job/60328006358"
+      }
+    ]
+  },
+  {
     "commitSha": "a3a0f2300f5dd3f5752b66c277418aca16ab06fc",
     "commitTimestamp": "2026-01-14T04:08:36Z",
     "commitMessage": "feat!: raise default browserslist to baseline 2025-05-01 (#6966)",
