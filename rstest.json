@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1d7bcab2d203923deafd04b44096e94c1fa23620",
+    "commitTimestamp": "2026-01-15T06:21:52Z",
+    "commitMessage": "fix: rspack context in windows (#868)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21021873026",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021873026/job/60438096558"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021873026/job/60438096562"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021873026/job/60438096566"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021873026/job/60438096569"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021873026/job/60438096571"
+      }
+    ]
+  },
+  {
     "commitSha": "8bd38c6f7d5e852428c1d1aea5d4450c21b333cb",
     "commitTimestamp": "2026-01-15T06:09:33Z",
     "commitMessage": "feat: support `hideSkippedTestFiles` (#867)",
