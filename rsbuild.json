@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "bd187de1d2391ee13876df24eb465f880f8db7ab",
+    "commitTimestamp": "2026-01-15T02:52:39Z",
+    "commitMessage": "fix(create-rsbuild): update @rsbuild/core dependency to v2.0.0-0 (#6978)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21017982487",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017982487/job/60426831663"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017982487/job/60426831667"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017982487/job/60426831678"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017982487/job/60426831683"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017982487/job/60426831684"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017982487/job/60426831693"
+      }
+    ]
+  },
+  {
     "commitSha": "1207ee260a793fbdb40197cd7c602d4caacd35cd",
     "commitTimestamp": "2026-01-15T02:42:44Z",
     "commitMessage": "release: bump version for all plugins (#6977)",
