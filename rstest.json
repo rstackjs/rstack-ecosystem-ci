@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8bd38c6f7d5e852428c1d1aea5d4450c21b333cb",
+    "commitTimestamp": "2026-01-15T06:09:33Z",
+    "commitMessage": "feat: support `hideSkippedTestFiles` (#867)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21021626205",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021626205/job/60437398315"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021626205/job/60437398316"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021626205/job/60437398317"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021626205/job/60437398318"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21021626205/job/60437398337"
+      }
+    ]
+  },
+  {
     "commitSha": "daef2142950b39685371561ff08be3a3feda72f5",
     "commitTimestamp": "2026-01-14T10:05:12Z",
     "commitMessage": "feat: show project name when running multiple projects (#838)",
