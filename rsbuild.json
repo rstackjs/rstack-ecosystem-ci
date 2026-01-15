@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1207ee260a793fbdb40197cd7c602d4caacd35cd",
+    "commitTimestamp": "2026-01-15T02:42:44Z",
+    "commitMessage": "release: bump version for all plugins (#6977)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21017792467",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017792467/job/60426258047"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017792467/job/60426258051"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017792467/job/60426258052"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017792467/job/60426258055"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017792467/job/60426258057"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21017792467/job/60426258069"
+      }
+    ]
+  },
+  {
     "commitSha": "2d4bc504a2d6c8123216a1e371cd557440d9378c",
     "commitTimestamp": "2026-01-15T02:38:14Z",
     "commitMessage": "fix(plugins): update peerDependencies to support Rsbuild v2 (#6976)",
