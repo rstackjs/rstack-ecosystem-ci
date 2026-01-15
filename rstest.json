@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "618a54406a963475521ba9477e7c5a6e19227f48",
+    "commitTimestamp": "2026-01-15T16:17:13Z",
+    "commitMessage": "fix(browser-ui): optimize (#873)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21038248281",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21038248281/job/60492307156"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21038248281/job/60492307196"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21038248281/job/60492307206"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21038248281/job/60492307234"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21038248281/job/60492307274"
+      }
+    ]
+  },
+  {
     "commitSha": "56738438315adeba667c6ab52e725d441d62cfaa",
     "commitTimestamp": "2026-01-15T15:11:45Z",
     "commitMessage": "fix(browser): use root path for container UI (#872)",
