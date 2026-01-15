@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "956edac52ad829a115d0de48f633f0e062c39f4c",
+    "commitTimestamp": "2026-01-15T09:30:57Z",
+    "commitMessage": "feat(browser): trigger test re-runs on source file changes in watch mode (#869)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21026364673",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21026364673/job/60451718764"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21026364673/job/60451718765"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21026364673/job/60451718776"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21026364673/job/60451718780"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21026364673/job/60451718903"
+      }
+    ]
+  },
+  {
     "commitSha": "1d7bcab2d203923deafd04b44096e94c1fa23620",
     "commitTimestamp": "2026-01-15T06:21:52Z",
     "commitMessage": "fix: rspack context in windows (#868)",
