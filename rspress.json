@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4d0815f8e55ac78b7c56e3b4f91b3d6ea3137054",
+    "commitTimestamp": "2026-01-15T08:16:48Z",
+    "commitMessage": "feat(core): auto-extract description from first contentful line in extractPageData (#3006)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21024365602",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21024365602/job/60445299247"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21024365602/job/60445299258"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21024365602/job/60445299262"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21024365602/job/60445299268"
+      }
+    ]
+  },
+  {
     "commitSha": "4a5b6e3360f14820519113bac3876d94313e1a16",
     "commitTimestamp": "2026-01-14T09:22:47Z",
     "commitMessage": "refactor(core): replace @rspress/mdx-rs and html-to-text with @mdx-js/mdx createProcessor for toc and searchIndex generation (#3001)",
