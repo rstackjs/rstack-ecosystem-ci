@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "2546e80d32acb1726a3d33c398cc80191121e0b3",
+    "commitTimestamp": "2026-01-15T09:15:45Z",
+    "commitMessage": "docs: Update documentation and improve frontmatter references (#3009)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21025930986",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21025930986/job/60450321004"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21025930986/job/60450321010"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21025930986/job/60450321025"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21025930986/job/60450321049"
+      }
+    ]
+  },
+  {
     "commitSha": "4d0815f8e55ac78b7c56e3b4f91b3d6ea3137054",
     "commitTimestamp": "2026-01-15T08:16:48Z",
     "commitMessage": "feat(core): auto-extract description from first contentful line in extractPageData (#3006)",
