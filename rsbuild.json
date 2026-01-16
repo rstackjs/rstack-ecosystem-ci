@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0601e5067bc41d10ad8fcc846cdcff3fe3212ef2",
+    "commitTimestamp": "2026-01-16T07:40:06Z",
+    "commitMessage": "chore(deps): update dependency @rsdoctor/rspack-plugin to v1.5.0 (#6982)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21059326037",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21059326037/job/60561876033"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21059326037/job/60561876034"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21059326037/job/60561876043"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21059326037/job/60561876045"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21059326037/job/60561876049"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21059326037/job/60561876051"
+      }
+    ]
+  },
+  {
     "commitSha": "d8204bb72b5dd32dc736372dff6bb618675a4ad5",
     "commitTimestamp": "2026-01-16T02:07:45Z",
     "commitMessage": "fix: remove unused CHAIN_ID entries (#6980)",
