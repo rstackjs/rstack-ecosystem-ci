@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d8204bb72b5dd32dc736372dff6bb618675a4ad5",
+    "commitTimestamp": "2026-01-16T02:07:45Z",
+    "commitMessage": "fix: remove unused CHAIN_ID entries (#6980)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21053155315",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21053155315/job/60543670755"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21053155315/job/60543670758"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21053155315/job/60543670763"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21053155315/job/60543670764"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21053155315/job/60543670768"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21053155315/job/60543670775"
+      }
+    ]
+  },
+  {
     "commitSha": "fdd49681343ade035dfc1e47f947ce00a6dad944",
     "commitTimestamp": "2026-01-15T09:11:41Z",
     "commitMessage": "fix: ensure `output.minify` has a default value based on target (#6979)",
