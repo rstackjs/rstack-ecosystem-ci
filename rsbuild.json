@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d0b4b893adcb35bb06a7aef1aa6d97b9f3581cc7",
+    "commitTimestamp": "2026-01-17T01:35:06Z",
+    "commitMessage": "fix: update transformImport typing (#6986)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21086219049",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21086219049/job/60649923568"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21086219049/job/60649923572"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21086219049/job/60649923575"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21086219049/job/60649923582"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21086219049/job/60649923585"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21086219049/job/60649923586"
+      }
+    ]
+  },
+  {
     "commitSha": "adeb7e3bd81495146e3cc40925c1be17747ddb90",
     "commitTimestamp": "2026-01-16T10:11:30Z",
     "commitMessage": "fix: update type definitions for `source.define` (#6985)",
