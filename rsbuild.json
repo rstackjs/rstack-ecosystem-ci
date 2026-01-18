@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ea48894d71fa13bfd41f3047c89ff2d2d4ed1286",
+    "commitTimestamp": "2026-01-18T11:17:03Z",
+    "commitMessage": "feat(deps)!: update @rspack/core to v2 canary (#6988)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21110845388",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21110845388/job/60709143362"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21110845388/job/60709143363"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21110845388/job/60709143364"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21110845388/job/60709143365"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21110845388/job/60709143370"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21110845388/job/60709143373"
+      }
+    ]
+  },
+  {
     "commitSha": "525f7beccfeb2959e7e755ae7365e93460adc2d3",
     "commitTimestamp": "2026-01-18T00:55:02Z",
     "commitMessage": "chore(deps): update dependency prettier to ^3.8.0 (#6990)",
