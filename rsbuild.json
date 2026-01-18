@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "fc7f3f2bcb2940d1e6a1d51a899a9041237b92b4",
+    "commitTimestamp": "2026-01-18T00:54:38Z",
+    "commitMessage": "chore(deps): update dependency happy-dom to ^20.3.1 (#6989)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21103564605",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103564605/job/60691299505"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103564605/job/60691299510"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103564605/job/60691299516"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103564605/job/60691299517"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103564605/job/60691299520"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103564605/job/60691299525"
+      }
+    ]
+  },
+  {
     "commitSha": "04db9a2441a5e8f2c51b7f1251fdc5be62d2aba8",
     "commitTimestamp": "2026-01-17T02:42:37Z",
     "commitMessage": "fix: correct 'drafts' in lightningcss minimize plugin (#6987)",
