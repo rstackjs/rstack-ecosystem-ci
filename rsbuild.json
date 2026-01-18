@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "525f7beccfeb2959e7e755ae7365e93460adc2d3",
+    "commitTimestamp": "2026-01-18T00:55:02Z",
+    "commitMessage": "chore(deps): update dependency prettier to ^3.8.0 (#6990)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21103565559",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103565559/job/60691301663"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103565559/job/60691301666"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103565559/job/60691301670"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103565559/job/60691301676"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103565559/job/60691301684"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21103565559/job/60691301688"
+      }
+    ]
+  },
+  {
     "commitSha": "04db9a2441a5e8f2c51b7f1251fdc5be62d2aba8",
     "commitTimestamp": "2026-01-17T02:42:37Z",
     "commitMessage": "fix: correct 'drafts' in lightningcss minimize plugin (#6987)",
