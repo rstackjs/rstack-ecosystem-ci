@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c0324358870b857aec0168085b90c36973989dc8",
+    "commitTimestamp": "2026-01-19T04:27:45Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1445)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21125322909",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125322909/job/60745456609"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125322909/job/60745456620"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125322909/job/60745456626"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125322909/job/60745456628"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125322909/job/60745456629"
+      }
+    ]
+  },
+  {
     "commitSha": "140ce9927f491fa058db331bc19a00d174964771",
     "commitTimestamp": "2026-01-19T03:53:27Z",
     "commitMessage": "chore(deps): update actions/setup-node digest to 6044e13 (#1444)",
