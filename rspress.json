@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bc079bcd86c7be3c158c0e45756d4bef477e64db",
+    "commitTimestamp": "2026-01-19T12:19:19Z",
+    "commitMessage": "feat(core): add logoHref config option (#3012)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21137236025",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21137236025/job/60782163749"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21137236025/job/60782163754"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21137236025/job/60782163780"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21137236025/job/60782163781"
+      }
+    ]
+  },
+  {
     "commitSha": "bcfdcf55e11600e304951507b423d95edce72306",
     "commitTimestamp": "2026-01-19T11:17:17Z",
     "commitMessage": "feat(core): move Llms runtime components from plugin-llms to core/theme (#3026)",
