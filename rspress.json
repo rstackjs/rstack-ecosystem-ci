@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bcfdcf55e11600e304951507b423d95edce72306",
+    "commitTimestamp": "2026-01-19T11:17:17Z",
+    "commitMessage": "feat(core): move Llms runtime components from plugin-llms to core/theme (#3026)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21135473504",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21135473504/job/60776383934"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21135473504/job/60776383948"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21135473504/job/60776383961"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21135473504/job/60776383972"
+      }
+    ]
+  },
+  {
     "commitSha": "c2dff24ace017f4ec7e06d7da09d9b0d0f30622f",
     "commitTimestamp": "2026-01-19T07:00:40Z",
     "commitMessage": "chore(ssg): `experimentalExcludeRoutePaths` warning level to info (#3025)",
