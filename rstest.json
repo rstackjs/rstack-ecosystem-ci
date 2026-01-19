@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "41e437f08bb3fbf17515717eddf2025a464359b5",
+    "commitTimestamp": "2026-01-19T08:27:52Z",
+    "commitMessage": "docs: add Commonjs interop tips (#878)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130411481",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130411481/job/60759988674"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130411481/job/60759988677"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130411481/job/60759988681"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130411481/job/60759988686"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130411481/job/60759988690"
+      }
+    ]
+  },
+  {
     "commitSha": "22141ecf0c613ab017ee51cc8f2e5f1db3537606",
     "commitTimestamp": "2026-01-19T08:27:40Z",
     "commitMessage": "fix(core): properly cleanup worker processes on SIGINT/SIGTERM (#880)",
