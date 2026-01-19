@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1d5c8b7a8b958837d685724054abc8b9c78dd792",
+    "commitTimestamp": "2026-01-19T03:06:28Z",
+    "commitMessage": "chore: show root path when tests not found (#875)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21123926299",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123926299/job/60741470600"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123926299/job/60741470607"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123926299/job/60741470610"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123926299/job/60741470612"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123926299/job/60741470613"
+      }
+    ]
+  },
+  {
     "commitSha": "c595448a205b092701a582e9edb506466b5fa9cd",
     "commitTimestamp": "2026-01-16T09:32:36Z",
     "commitMessage": "fix(browser-ui): auto-switch preview when clicking rerun (#874)",
