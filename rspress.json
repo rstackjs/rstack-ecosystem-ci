@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "c2dff24ace017f4ec7e06d7da09d9b0d0f30622f",
+    "commitTimestamp": "2026-01-19T07:00:40Z",
+    "commitMessage": "chore(ssg): `experimentalExcludeRoutePaths` warning level to info (#3025)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21128285414",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21128285414/job/60753680274"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21128285414/job/60753680281"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21128285414/job/60753680282"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21128285414/job/60753680297"
+      }
+    ]
+  },
+  {
     "commitSha": "48aa622f4e202521f597205d5dbee2a3a79c037a",
     "commitTimestamp": "2026-01-19T05:19:23Z",
     "commitMessage": "feat(core): add `markdown.extractDescription` config (#3023)",
