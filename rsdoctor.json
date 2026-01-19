@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "bdd5468f25665ffff649085918689f446804ac47",
+    "commitTimestamp": "2026-01-19T10:00:24Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#1493)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21133134662",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21133134662/job/60768773748"
+      }
+    ]
+  },
+  {
     "commitSha": "fa75c34745ceb1695e970f8bb763240958698dfc",
     "commitTimestamp": "2026-01-16T08:20:11Z",
     "commitMessage": "fix: upgrade sirv to 3.0.2 to resolve path traversal vulnerability (#1487)",
