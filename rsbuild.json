@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "56c96a16f345ead6c93e4f4c34fb852972fc20d3",
+    "commitTimestamp": "2026-01-19T03:28:29Z",
+    "commitMessage": "chore(deps): update actions/setup-node action to v6.2.0 (#6993)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21124344467",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124344467/job/60742546038"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124344467/job/60742546039"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124344467/job/60742546051"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124344467/job/60742546052"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124344467/job/60742546057"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124344467/job/60742546066"
+      }
+    ]
+  },
+  {
     "commitSha": "cc996bc4babd058231efe423025af08a62ce0fd0",
     "commitTimestamp": "2026-01-19T02:58:27Z",
     "commitMessage": "feat!: remove `performance.removeMomentLocale` option (#6991)",
