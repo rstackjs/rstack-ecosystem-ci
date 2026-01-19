@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "48aa622f4e202521f597205d5dbee2a3a79c037a",
+    "commitTimestamp": "2026-01-19T05:19:23Z",
+    "commitMessage": "feat(core): add `markdown.extractDescription` config (#3023)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21126252491",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21126252491/job/60748014116"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21126252491/job/60748014121"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21126252491/job/60748014141"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21126252491/job/60748014157"
+      }
+    ]
+  },
+  {
     "commitSha": "c224ed693b47ad9982ce9c068ca9f097c89da66d",
     "commitTimestamp": "2026-01-19T05:18:54Z",
     "commitMessage": "feat(theme): make NavTitle component ejectable (#3022)",
