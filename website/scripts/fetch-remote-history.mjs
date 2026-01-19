@@ -5,7 +5,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const STACKS = ['rsbuild', 'rspack', 'rslib', 'rstest', 'rsdoctor', 'rspress'];
-const DATA_REPO = 'rspack-contrib/rstack-ecosystem-ci';
+const DATA_REPO = 'rstackjs/rstack-ecosystem-ci';
 const DATA_BRANCH_URL = `https://raw.githubusercontent.com/${DATA_REPO}/data`;
 
 const isMockMode = process.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock';
