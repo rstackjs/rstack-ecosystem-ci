@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "5b35090e32d10de22ed21dd23ca886caa884f5cc",
+    "commitTimestamp": "2026-01-19T03:27:34Z",
+    "commitMessage": "fix(browser): update worker format and add e2e test (#12747)",
+    "author": {
+      "name": "CPunisher",
+      "email": "1343316114@qq.com",
+      "login": "CPunisher"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21124271908",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609612"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609618"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609620"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609621"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609622"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609624"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609626"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609629"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609631"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609633"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21124271908/job/60742609635"
+      }
+    ]
+  },
+  {
     "commitSha": "1dc4b725c773bd773d087cffdb011ab611eeba6f",
     "commitTimestamp": "2026-01-19T03:14:09Z",
     "commitMessage": "refactor: use compilation readonly ref in codegen optimization hook (#12743)",
