@@ -109,7 +109,7 @@ if (
 const API_HEADERS = {
   Accept: 'application/vnd.github+json',
   Authorization: `Bearer ${TOKEN}`,
-  'User-Agent': 'rspack-contrib-rstack-ecosystem-ci',
+  'User-Agent': 'rstackjs-rstack-ecosystem-ci',
 };
 
 /**
@@ -136,7 +136,7 @@ async function readExistingRecords() {
     headers: {
       Accept: 'application/json',
       Authorization: `Bearer ${TOKEN}`,
-      'User-Agent': 'rspack-contrib-rstack-ecosystem-ci',
+      'User-Agent': 'rstackjs-rstack-ecosystem-ci',
     },
   });
 

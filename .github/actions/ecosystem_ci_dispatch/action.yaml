@@ -8,7 +8,7 @@ inputs:
   ecosystem-owner:
     description: "Owner of the downstream ecosystem CI repository"
     required: false
-    default: "rspack-contrib"
+    default: "rstackjs"
   ecosystem-repo:
     description: "Repository containing the downstream workflow"
     required: true
@@ -99,7 +99,7 @@ runs:
       uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
       continue-on-error: true
       with:
-        owner: rspack-contrib
+        owner: rstackjs
         repo: rstack-ecosystem-ci
         workflow_file_name: ${{ inputs.workflow-file }}
         ref: main
@@ -112,7 +112,7 @@ runs:
         fetch-depth: 1
 
     - id: eco-ci-result
-      uses: rspack-contrib/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
+      uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
       name: Get CI Result
       with:
         job-prefix: ${{ inputs.job-name-prefix }}

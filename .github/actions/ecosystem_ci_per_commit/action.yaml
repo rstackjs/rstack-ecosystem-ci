@@ -8,7 +8,7 @@ inputs:
   ecosystem-owner:
     description: "Owner of the downstream ecosystem CI repository"
     required: false
-    default: "rspack-contrib"
+    default: "rstackjs"
   ecosystem-repo:
     description: "Repository containing the downstream workflow"
     required: true
@@ -49,7 +49,7 @@ runs:
       continue-on-error: true
       uses: convictional/trigger-workflow-and-wait@f69fa9eedd3c62a599220f4d5745230e237904be # v1.6.5
       with:
-        owner: rspack-contrib
+        owner: rstackjs
         repo: rstack-ecosystem-ci
         workflow_file_name: ${{ inputs.workflow-file }}
         github_token: ${{ inputs.github-token }}
@@ -70,7 +70,7 @@ runs:
 
     - name: Get CI Result
       id: eco-ci-result
-      uses: rspack-contrib/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
+      uses: rstackjs/rstack-ecosystem-ci/.github/actions/ecosystem-ci-result@main
       with:
         job-prefix: ${{ inputs.job-name-prefix }}
         heading: ${{ inputs.ecosystem-repo }}
@@ -92,7 +92,7 @@ runs:
     - name: Checkout ecosystem-ci repository
       uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       with:
-        repository: rspack-contrib/rstack-ecosystem-ci
+        repository: rstackjs/rstack-ecosystem-ci
         ref: main
         path: ecosystem-ci-repo
         fetch-depth: 1
@@ -105,7 +105,7 @@ runs:
         SUMMARY_MARKDOWN: ${{ steps.eco-ci-result.outputs.summary }}
         RESULTS_JSON: ${{ steps.eco-ci-result.outputs.results }}
         WORKFLOW_FILE: ${{ inputs.workflow-file }}
-        HISTORY_REPOSITORY: rspack-contrib/rstack-ecosystem-ci
+        HISTORY_REPOSITORY: rstackjs/rstack-ecosystem-ci
         OUTPUT_DIR: data-artifacts
         GITHUB_TOKEN: ${{ inputs.github-token }}
       run: |
@@ -120,6 +120,6 @@ runs:
         clean: false
         target-folder: .
         token: ${{ inputs.github-token }}
-        repository-name: rspack-contrib/rstack-ecosystem-ci
+        repository-name: rstackjs/rstack-ecosystem-ci
         git-config-name: github-actions[bot]
         git-config-email: github-actions[bot]@users.noreply.github.com

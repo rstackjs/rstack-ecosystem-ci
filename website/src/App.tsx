@@ -25,7 +25,7 @@ type StackStatus = EcosystemCommitRecord['overallStatus'] | 'missing';
 
 const DEFAULT_STACK: StackId = 'rspack';
 
-const GITHUB_REPO_URL = 'https://github.com/rspack-contrib/rstack-ecosystem-ci';
+const GITHUB_REPO_URL = 'https://github.com/rstackjs/rstack-ecosystem-ci';
 
 const RSTACK_REPOS = [
   { label: 'Rspack', url: 'https://github.com/web-infra-dev/rspack' },

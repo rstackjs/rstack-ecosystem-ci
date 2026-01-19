@@ -33,7 +33,7 @@ runs:
         HEADING: ${{ inputs.heading }}
       with:
         script: |
-          const owner = "rspack-contrib";
+          const owner = "rstackjs";
           const repo = "rstack-ecosystem-ci";
           const jobPrefix = process.env.JOB_PREFIX ?? 'execute-all ';
           const rawHeading = process.env.HEADING;
