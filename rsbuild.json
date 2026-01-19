@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "cc996bc4babd058231efe423025af08a62ce0fd0",
+    "commitTimestamp": "2026-01-19T02:58:27Z",
+    "commitMessage": "feat!: remove `performance.removeMomentLocale` option (#6991)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21123791814",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123791814/job/60741069149"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123791814/job/60741069150"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123791814/job/60741069154"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123791814/job/60741069155"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123791814/job/60741069165"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21123791814/job/60741069188"
+      }
+    ]
+  },
+  {
     "commitSha": "ea48894d71fa13bfd41f3047c89ff2d2d4ed1286",
     "commitTimestamp": "2026-01-18T11:17:03Z",
     "commitMessage": "feat(deps)!: update @rspack/core to v2 canary (#6988)",
