@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "22141ecf0c613ab017ee51cc8f2e5f1db3537606",
+    "commitTimestamp": "2026-01-19T08:27:40Z",
+    "commitMessage": "fix(core): properly cleanup worker processes on SIGINT/SIGTERM (#880)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130405960",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130405960/job/60759972445"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130405960/job/60759972448"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130405960/job/60759972458"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130405960/job/60759972478"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21130405960/job/60759972565"
+      }
+    ]
+  },
+  {
     "commitSha": "407889ca20c24d7bfebda659d6aa0df9c0f25347",
     "commitTimestamp": "2026-01-19T07:43:18Z",
     "commitMessage": "fix(browser): use relative path to show re-running test (#879)",
