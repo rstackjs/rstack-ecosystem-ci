@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "217659fe7e147c5dc776e6813a1ecd62f8cf84b5",
+    "commitTimestamp": "2026-01-19T03:51:14Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3018)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21124689143",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124689143/job/60743537165"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124689143/job/60743537168"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124689143/job/60743537169"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124689143/job/60743537170"
+      }
+    ]
+  },
+  {
     "commitSha": "94f62a1de6048ec15b65268fae253472cb177db9",
     "commitTimestamp": "2026-01-19T03:09:45Z",
     "commitMessage": "feat(theme/nav): Added fancy transition to nav background (#3017)",
