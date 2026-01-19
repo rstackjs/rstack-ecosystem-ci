@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "14b7da94a9aa9f8b2b0ba0f951aa7d377e6406e3",
+    "commitTimestamp": "2026-01-19T04:11:31Z",
+    "commitMessage": "chore(deps): update dependency @rsdoctor/rspack-plugin to v1.5.0 (#3020)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21125034216",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125034216/job/60744694538"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125034216/job/60744694539"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125034216/job/60744694544"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21125034216/job/60744694545"
+      }
+    ]
+  },
+  {
     "commitSha": "8db24d435a3acf70816615a7e3fc8a5591cf39f6",
     "commitTimestamp": "2026-01-19T04:10:32Z",
     "commitMessage": "chore(deps): update dependency cspell to ^9.6.0 (#3021)",
