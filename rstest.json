@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "407889ca20c24d7bfebda659d6aa0df9c0f25347",
+    "commitTimestamp": "2026-01-19T07:43:18Z",
+    "commitMessage": "fix(browser): use relative path to show re-running test (#879)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21129274498",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21129274498/job/60756553415"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21129274498/job/60756553424"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21129274498/job/60756553428"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21129274498/job/60756553429"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21129274498/job/60756553431"
+      }
+    ]
+  },
+  {
     "commitSha": "1d5c8b7a8b958837d685724054abc8b9c78dd792",
     "commitTimestamp": "2026-01-19T03:06:28Z",
     "commitMessage": "chore: show root path when tests not found (#875)",
