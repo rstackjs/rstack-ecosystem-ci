@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5c1f0c50f3e7f75113a3cd2f2181ad1fd838e0d4",
+    "commitTimestamp": "2026-01-19T03:53:01Z",
+    "commitMessage": "chore(deps): update actions/setup-node action to v6.2.0 (#3019)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rspack-contrib/rstack-ecosystem-ci/actions/runs/21124719558",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124719558/job/60743631089"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124719558/job/60743631094"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124719558/job/60743631101"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21124719558/job/60743631103"
+      }
+    ]
+  },
+  {
     "commitSha": "217659fe7e147c5dc776e6813a1ecd62f8cf84b5",
     "commitTimestamp": "2026-01-19T03:51:14Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3018)",
