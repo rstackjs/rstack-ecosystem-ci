@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b88d347d0adc386a9c2989f8bd4bc9a6c7fce1f0",
+    "commitTimestamp": "2026-01-20T07:37:40Z",
+    "commitMessage": "feat: unify browser mode and node mode summary report (#883)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163291237",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163291237/job/60862139665"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163291237/job/60862139671"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163291237/job/60862139672"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163291237/job/60862139675"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163291237/job/60862139694"
+      }
+    ]
+  },
+  {
     "commitSha": "bfdbef93944f9e70fc33543a0c66ae24ebe46988",
     "commitTimestamp": "2026-01-20T06:54:15Z",
     "commitMessage": "chore: ignore test temp files (#885)",
