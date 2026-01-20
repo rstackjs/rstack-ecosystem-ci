@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f9f18fe2b31e16f66da6a6c73cbba40c878465d5",
+    "commitTimestamp": "2026-01-20T10:16:31Z",
+    "commitMessage": "fix(ssg): collapse experimentalExcludeRoutePaths log when too many routes are ignored (#3032)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21167733186",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21167733186/job/60876540824"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21167733186/job/60876540854"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21167733186/job/60876540873"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21167733186/job/60876540878"
+      }
+    ]
+  },
+  {
     "commitSha": "f49de1c024028cb2eb7a0aabf141446f68f30460",
     "commitTimestamp": "2026-01-20T09:29:15Z",
     "commitMessage": "perf(core): skip search index generation when search is disabled (#3031)",
