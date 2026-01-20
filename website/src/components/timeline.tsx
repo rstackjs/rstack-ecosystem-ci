@@ -135,24 +135,25 @@ export function Timeline({
               onValueChange={(value) => onStackChange?.(value)}
             >
               <SelectTrigger
-                className="min-w-0 flex-1 max-w-[200px]"
+                className="min-w-0 flex-1 max-w-fit"
                 aria-label="Select stack"
               >
-                <div className="flex flex-1 items-center justify-between gap-2">
-                  <span className="truncate font-medium text-foreground/90">
-                    {selectedStackMeta?.label ?? 'Select stack'}
+                <SelectValue placeholder="Select stack…">
+                  <span className="flex items-center gap-2">
+                    <span className="font-medium text-foreground/90">
+                      {selectedStackMeta?.label ?? 'Select stack'}
+                    </span>
+                    {selectedStackMeta ? (
+                      <Badge
+                        variant="outline"
+                        className="shrink-0 border-border/40 text-[11px]"
+                      >
+                        {selectedStackMeta.runs}{' '}
+                        {selectedStackMeta.runs === 1 ? 'run' : 'runs'}
+                      </Badge>
+                    ) : null}
                   </span>
-                  {selectedStackMeta ? (
-                    <Badge
-                      variant="outline"
-                      className="border-border/40 text-[11px]"
-                    >
-                      {selectedStackMeta.runs}{' '}
-                      {selectedStackMeta.runs === 1 ? 'run' : 'runs'}
-                    </Badge>
-                  ) : null}
-                </div>
-                <SelectValue className="sr-only" placeholder="Select stack…" />
+                </SelectValue>
               </SelectTrigger>
               <SelectContent>
                 {stacks?.map((stack) => (

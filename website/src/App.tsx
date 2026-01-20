@@ -11,6 +11,9 @@ import history from '@data';
 const DATA_SOURCE =
   import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
 
+/** Build timestamp injected at compile time */
+const BUILD_TIME = import.meta.env.RSBUILD_BUILD_TIME as string | undefined;
+
 const STACKS = [
   { id: 'rspack', label: 'Rspack' },
   { id: 'rsbuild', label: 'Rsbuild' },
@@ -324,7 +327,6 @@ interface UpdateSchedule {
 const SCHEDULE_HOURS_UTC = [1, 13] as const;
 
 function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
-  const lastUpdate = getPrevScheduledTime(referenceTime);
   const nextUpdate = getNextScheduledTime(referenceTime);
 
   const countdownMinutes = Math.max(
@@ -332,8 +334,13 @@ function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
     Math.floor((nextUpdate.getTime() - referenceTime.getTime()) / 60_000),
   );
 
+  // Use actual build time if available, otherwise fall back to calculated previous schedule
+  const lastUpdated = BUILD_TIME
+    ? formatTimestamp(new Date(BUILD_TIME))
+    : formatTimestamp(getPrevScheduledTime(referenceTime));
+
   return {
-    lastUpdated: formatTimestamp(lastUpdate),
+    lastUpdated,
     countdownMinutes,
   };
 }

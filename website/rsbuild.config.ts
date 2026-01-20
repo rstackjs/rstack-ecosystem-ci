@@ -5,6 +5,8 @@ import { pluginReact } from '@rsbuild/plugin-react';
 const dataSource =
   process.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
 
+const buildTime = new Date().toISOString();
+
 export default defineConfig({
   plugins: [pluginReact()],
   source: {
@@ -13,6 +15,7 @@ export default defineConfig({
     },
     define: {
       'import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE': JSON.stringify(dataSource),
+      'import.meta.env.RSBUILD_BUILD_TIME': JSON.stringify(buildTime),
     },
   },
   resolve: {
