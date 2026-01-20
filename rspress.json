@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "f49de1c024028cb2eb7a0aabf141446f68f30460",
+    "commitTimestamp": "2026-01-20T09:29:15Z",
+    "commitMessage": "perf(core): skip search index generation when search is disabled (#3031)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21166314917",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21166314917/job/60871803360"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21166314917/job/60871803362"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21166314917/job/60871803383"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21166314917/job/60871803481"
+      }
+    ]
+  },
+  {
     "commitSha": "0fcf7af2f6e0553138f77e433126c4885cfa58a4",
     "commitTimestamp": "2026-01-20T09:07:44Z",
     "commitMessage": "fix(core): improve i18n missing keys warning with configuration hints (#3030)",
