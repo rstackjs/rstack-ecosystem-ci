@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "568a28ab64ff2afa1fd87d9afba8bd9ea03c8a7b",
+    "commitTimestamp": "2026-01-20T08:03:33Z",
+    "commitMessage": "refactor: simplify Rspack plugin and config types (#7000)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664/job/60863987072"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664/job/60863987075"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664/job/60863987079"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664/job/60863987089"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664/job/60863987103"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21163906664/job/60863987106"
+      }
+    ]
+  },
+  {
     "commitSha": "6808f61f3723174a0a2ce47e647855d4226127a4",
     "commitTimestamp": "2026-01-20T03:35:33Z",
     "commitMessage": "chore(deps): update dependency @babel/plugin-transform-class-properties to ^7.28.6 (#6997)",
