@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6808f61f3723174a0a2ce47e647855d4226127a4",
+    "commitTimestamp": "2026-01-20T03:35:33Z",
+    "commitMessage": "chore(deps): update dependency @babel/plugin-transform-class-properties to ^7.28.6 (#6997)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370/job/60848237941"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370/job/60848237950"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370/job/60848237952"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370/job/60848237955"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370/job/60848237963"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21158563370/job/60848237964"
+      }
+    ]
+  },
+  {
     "commitSha": "56c96a16f345ead6c93e4f4c34fb852972fc20d3",
     "commitTimestamp": "2026-01-19T03:28:29Z",
     "commitMessage": "chore(deps): update actions/setup-node action to v6.2.0 (#6993)",
