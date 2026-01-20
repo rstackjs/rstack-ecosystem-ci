@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bd2598e9590eb3d93d0cbee43d025f1672557628",
+    "commitTimestamp": "2026-01-20T09:07:21Z",
+    "commitMessage": "feat(ssg-md)!: add llmsUI config option to automatically show LlmsCopyButton and LlmsViewOptions when set `llms: true` (#3029)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21165646688",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21165646688/job/60869629949"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21165646688/job/60869629953"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21165646688/job/60869629954"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21165646688/job/60869629983"
+      }
+    ]
+  },
+  {
     "commitSha": "bc079bcd86c7be3c158c0e45756d4bef477e64db",
     "commitTimestamp": "2026-01-19T12:19:19Z",
     "commitMessage": "feat(core): add logoHref config option (#3012)",
