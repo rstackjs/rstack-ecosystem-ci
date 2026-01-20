@@ -1,6 +1,5 @@
 import { useMemo, useState } from 'react';
 
-import netlifyLogomark from '@/assets/netlify-symbol.svg';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {
@@ -63,7 +62,6 @@ interface TimelineProps {
   }>;
   selectedStack?: string;
   onStackChange?: (stackId: string) => void;
-  previewLinks?: Array<{ id: string; label: string; url: string }>;
 }
 
 export function Timeline({
@@ -73,7 +71,6 @@ export function Timeline({
   stacks,
   selectedStack: externalSelectedStack,
   onStackChange,
-  previewLinks,
 }: TimelineProps) {
   const [internalSelectedSuite, setInternalSelectedSuite] =
     useState<string>('all');
@@ -202,38 +199,6 @@ export function Timeline({
           </Select>
         </div>
       </div>
-
-      {externalSelectedStack === 'rspress' && previewLinks?.length ? (
-        <div className="flex flex-col gap-2">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.35em] text-muted-foreground/65">
-            rspress ecosystem ci preview
-          </span>
-          <div className="flex flex-wrap items-center gap-2">
-            {previewLinks.map((preview) => (
-              <a
-                key={preview.id}
-                href={preview.url}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1 rounded-full border border-white/15 bg-white/[0.05] px-3 py-1 text-[11px] font-medium uppercase tracking-[0.2em] text-foreground transition hover:border-white/35 hover:bg-white/[0.1] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30"
-              >
-                <img
-                  src={netlifyLogomark}
-                  alt=""
-                  width="14"
-                  height="14"
-                  className="h-3.5 w-3.5 mr-1"
-                  loading="lazy"
-                />
-                {preview.label}
-                <span aria-hidden className="text-xs text-muted-foreground/75">
-                  ↗
-                </span>
-              </a>
-            ))}
-          </div>
-        </div>
-      ) : null}
 
       {filteredEntries.length > 0 ? (
         <div
