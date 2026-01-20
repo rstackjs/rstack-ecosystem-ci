@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "82757f8f1e99132d603460fe9b6765165635636d",
+    "commitTimestamp": "2026-01-20T04:13:26Z",
+    "commitMessage": "docs: remove netlify.toml (#882)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21159232036",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21159232036/job/60850370303"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21159232036/job/60850370309"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21159232036/job/60850370312"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21159232036/job/60850370318"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21159232036/job/60850370319"
+      }
+    ]
+  },
+  {
     "commitSha": "41e437f08bb3fbf17515717eddf2025a464359b5",
     "commitTimestamp": "2026-01-19T08:27:52Z",
     "commitMessage": "docs: add Commonjs interop tips (#878)",
