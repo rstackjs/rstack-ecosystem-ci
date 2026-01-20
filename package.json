@@ -16,7 +16,8 @@
     "bisect": "tsx ecosystem-ci.ts bisect",
     "lint": "biome check .",
     "prepare": "pnpm exec simple-git-hooks",
-    "test": "tsx ecosystem-ci.ts"
+    "test": "tsx ecosystem-ci.ts",
+    "build:website": "pnpm --filter ecosystem-ci-website build"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec nano-staged"
