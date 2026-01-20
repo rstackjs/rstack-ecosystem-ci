@@ -9,7 +9,7 @@ export async function test(options: RunOptions) {
     // ignore snapshot changes
     test: ['test -u', 'e2e'],
     beforeTest: async () => {
-      await $`npx playwright install chromium webkit`;
+      await $`npx playwright install chromium webkit --with-deps`;
     },
   });
 }
