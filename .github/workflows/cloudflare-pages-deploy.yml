@@ -1,0 +1,26 @@
+name: cloudflare-pages-deploy
+
+on:
+  schedule:
+    # Twice daily: 01:00 UTC (09:00 Beijing) and 13:00 UTC (21:00 Beijing)
+    - cron: '0 1,13 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: cloudflare-pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages Deploy Hook
+        env:
+          CLOUDFLARE_PAGES_DEPLOY_HOOK_URL: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$CLOUDFLARE_PAGES_DEPLOY_HOOK_URL" ]; then
+            echo "Missing secret CLOUDFLARE_PAGES_DEPLOY_HOOK_URL" >&2
+            exit 1
+          fi
+
+          curl -sS -X POST "$CLOUDFLARE_PAGES_DEPLOY_HOOK_URL" -o /dev/null -w "HTTP %{http_code}\n"

@@ -36,33 +36,6 @@ const RSTACK_REPOS = [
   { label: 'Rspress', url: 'https://github.com/web-infra-dev/rspress' },
 ] as const;
 
-const RSPRESS_PREVIEW_LINKS: Array<{
-  id: StackId;
-  label: string;
-  url: string;
-}> = [
-  {
-    id: 'rspack',
-    label: 'Rspack',
-    url: 'https://ecosystem-ci--rspack.netlify.app/',
-  },
-  {
-    id: 'rsbuild',
-    label: 'Rsbuild',
-    url: 'https://ecosystem-ci--rsbuild.netlify.app/',
-  },
-  {
-    id: 'rslib',
-    label: 'Rslib',
-    url: 'https://ecosystem-ci--rslib.netlify.app/',
-  },
-  {
-    id: 'rstest',
-    label: 'Rstest',
-    url: 'https://ecosystem-ci--rstest-dev.netlify.app/',
-  },
-];
-
 export default function App() {
   const historySource = history as Record<StackId, EcosystemCommitHistory>;
   const [searchParams, setSearchParams] = useSearchParams();
@@ -315,7 +288,6 @@ export default function App() {
           onStackChange={(value) => handleStackChange(value as StackId)}
           selectedSuite={selectedSuite}
           onSuiteChange={handleSuiteChange}
-          previewLinks={RSPRESS_PREVIEW_LINKS}
         />
       </div>
     </div>
@@ -348,9 +320,12 @@ interface UpdateSchedule {
   countdownMinutes: number | null;
 }
 
+/** Schedule times in UTC hours: 01:00 and 13:00 UTC (09:00 and 21:00 Beijing) */
+const SCHEDULE_HOURS_UTC = [1, 13] as const;
+
 function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
-  const lastUpdate = alignToHour(referenceTime, 'floor');
-  const nextUpdate = alignToHour(referenceTime, 'ceil');
+  const lastUpdate = getPrevScheduledTime(referenceTime);
+  const nextUpdate = getNextScheduledTime(referenceTime);
 
   const countdownMinutes = Math.max(
     0,
@@ -376,18 +351,38 @@ function formatTimestamp(date: Date) {
   return `${dateStr} ${utcStr}`;
 }
 
-function alignToHour(date: Date, mode: 'floor' | 'ceil') {
-  const aligned = new Date(date);
-  aligned.setSeconds(0, 0);
-  aligned.setMinutes(0);
+/** Build a Date for a specific UTC hour on a given day (offset in days from base). */
+function buildScheduleTime(base: Date, dayOffset: number, utcHour: number) {
+  const d = new Date(base);
+  d.setUTCHours(0, 0, 0, 0);
+  d.setUTCDate(d.getUTCDate() + dayOffset);
+  d.setUTCHours(utcHour);
+  return d;
+}
 
-  if (mode === 'floor' && aligned.getTime() > date.getTime()) {
-    aligned.setHours(aligned.getHours() - 1);
-  } else if (mode === 'ceil' && aligned.getTime() <= date.getTime()) {
-    aligned.setHours(aligned.getHours() + 1);
-  }
+/** Get candidates: yesterday's, today's, and tomorrow's scheduled times. */
+function getScheduleCandidates(base: Date) {
+  return [-1, 0, 1].flatMap((offset) =>
+    SCHEDULE_HOURS_UTC.map((hour) => buildScheduleTime(base, offset, hour)),
+  );
+}
 
-  return aligned;
+/** Returns the most recent scheduled time at or before `now`. */
+function getPrevScheduledTime(now: Date) {
+  const nowMs = now.getTime();
+  const candidates = getScheduleCandidates(now).filter(
+    (d) => d.getTime() <= nowMs,
+  );
+  return new Date(Math.max(...candidates.map((d) => d.getTime())));
+}
+
+/** Returns the next scheduled time strictly after `now`. */
+function getNextScheduledTime(now: Date) {
+  const nowMs = now.getTime();
+  const candidates = getScheduleCandidates(now).filter(
+    (d) => d.getTime() > nowMs,
+  );
+  return new Date(Math.min(...candidates.map((d) => d.getTime())));
 }
 
 function formatCountdown(minutes: number | null) {
@@ -396,6 +391,12 @@ function formatCountdown(minutes: number | null) {
   }
 
   const safeMinutes = Math.max(0, minutes);
+  const hours = Math.floor(safeMinutes / 60);
+  const mins = safeMinutes % 60;
+
+  if (hours > 0) {
+    return mins > 0 ? `in ${hours}h ${mins}min` : `in ${hours}h`;
+  }
   return `in ${safeMinutes}min`;
 }
 
@@ -491,7 +492,7 @@ function UpdateScheduleCard({
           <div>
             <p className="text-sm font-medium text-foreground">Next refresh</p>
             <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
-              1h cron
+              12h cron
             </p>
           </div>
           <p className="text-right text-sm text-foreground">
