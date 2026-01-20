@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3da48b37d61d9770046bfb7e604163d4ba22f6a3",
+    "commitTimestamp": "2026-01-20T13:23:59Z",
+    "commitMessage": "fix(browser): make `provider` field required (#886)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21173130319",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21173130319/job/60894671908"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21173130319/job/60894671927"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21173130319/job/60894671930"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21173130319/job/60894671937"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21173130319/job/60894671943"
+      }
+    ]
+  },
+  {
     "commitSha": "b88d347d0adc386a9c2989f8bd4bc9a6c7fce1f0",
     "commitTimestamp": "2026-01-20T07:37:40Z",
     "commitMessage": "feat: unify browser mode and node mode summary report (#883)",
