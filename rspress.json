@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a06dbcb0d0dc234b13ea920f364e7e7ee350b4a5",
+    "commitTimestamp": "2026-01-21T04:01:32Z",
+    "commitMessage": "Release v2.0.0-rc.6 (#3033)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196750945",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196750945/job/60974345631"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196750945/job/60974345642"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196750945/job/60974345659"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196750945/job/60974345696"
+      }
+    ]
+  },
+  {
     "commitSha": "f9f18fe2b31e16f66da6a6c73cbba40c878465d5",
     "commitTimestamp": "2026-01-20T10:16:31Z",
     "commitMessage": "fix(ssg): collapse experimentalExcludeRoutePaths log when too many routes are ignored (#3032)",
