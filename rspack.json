@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "48885c75c930cc981e34bb8b336bf78ac8469edf",
+    "commitTimestamp": "2026-01-21T03:22:00Z",
+    "commitMessage": "fix: `require.resolve()` replaced as `require()` (#12773)",
+    "author": {
+      "name": "intellild",
+      "email": "intellild@outlook.com",
+      "login": "intellild"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21196016715",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158429"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158437"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158440"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158443"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158444"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158445"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158446"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158456"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158461"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158465"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21196016715/job/60972158470"
+      }
+    ]
+  },
+  {
     "commitSha": "d11b7e11862a2fc0bb257281280174ce9d5fe5aa",
     "commitTimestamp": "2026-01-21T01:25:04Z",
     "commitMessage": "chore: update Node.js version in .nvmrc to 22 (#12797)",
