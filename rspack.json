@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "15d47500bcd2e0cd29ac995323ecfbf1227ab0a6",
+    "commitTimestamp": "2026-01-21T06:08:30Z",
+    "commitMessage": "feat(mf): add async startup promise gating for entrypoints (#11899)",
+    "author": {
+      "name": "Zack Jackson",
+      "email": "25274700+ScriptedAlchemy@users.noreply.github.com",
+      "login": "ScriptedAlchemy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21199218898",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579859"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579860"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579861"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579864"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579865"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579873"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579878"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579886"
+      },
+      {
+        "name": "nuxt",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579888"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579894"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21199218898/job/60981579941"
+      }
+    ]
+  },
+  {
     "commitSha": "5a9e27f883751456cdbc833b3243fa7af412505a",
     "commitTimestamp": "2026-01-21T05:41:06Z",
     "commitMessage": "feat: support import and export string specifier (#12759)",
