@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9642161a81f5a52b8ea7f23fdc178809d882a9ac",
+    "commitTimestamp": "2026-01-21T03:43:28Z",
+    "commitMessage": "chore: update @rspack/core to 2.0.0-canary.20260120 (#7002)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545/job/60973399638"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545/job/60973399639"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545/job/60973399642"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545/job/60973399647"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545/job/60973399649"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21196488545/job/60973399663"
+      }
+    ]
+  },
+  {
     "commitSha": "cfea9d6450771d1e838e971eee6755664cd1a1a0",
     "commitTimestamp": "2026-01-20T08:17:06Z",
     "commitMessage": "test(e2e): enable skipped tests for Preact (#7001)",
