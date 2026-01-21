@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "78cd7083cbd3a0e45bd30c5a773bb246fdc52d76",
+    "commitTimestamp": "2026-01-21T07:05:34Z",
+    "commitMessage": "Security: Upgrade react-router-dom to 6.30.3 to patch XSS via open redirects (#1500)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200447102",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200447102/job/60984878664"
+      }
+    ]
+  },
+  {
     "commitSha": "24f01d978ae73d5b80dc19f2b8c485d0d3e1991c",
     "commitTimestamp": "2026-01-21T06:58:44Z",
     "commitMessage": "Fix qs DoS vulnerability via pnpm override to 6.14.1 (#1495)",
