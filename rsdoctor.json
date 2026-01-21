@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "24f01d978ae73d5b80dc19f2b8c485d0d3e1991c",
+    "commitTimestamp": "2026-01-21T06:58:44Z",
+    "commitMessage": "Fix qs DoS vulnerability via pnpm override to 6.14.1 (#1495)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200292616",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200292616/job/60984423539"
+      }
+    ]
+  },
+  {
     "commitSha": "70b7161ac2359484e32c6db1d26ee9af544a3e40",
     "commitTimestamp": "2026-01-20T06:28:33Z",
     "commitMessage": "chore: update Node.js version in .nvmrc to 22 (#1502)",
