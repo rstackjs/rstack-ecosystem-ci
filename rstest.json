@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "baaeecf4908980230f1d793da669c4d06ed2ba1d",
+    "commitTimestamp": "2026-01-21T07:02:03Z",
+    "commitMessage": "docs(browser): add browser mode documentation (#860)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200367004",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200367004/job/60984646817"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200367004/job/60984646819"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200367004/job/60984646820"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200367004/job/60984646830"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200367004/job/60984646835"
+      }
+    ]
+  },
+  {
     "commitSha": "3da48b37d61d9770046bfb7e604163d4ba22f6a3",
     "commitTimestamp": "2026-01-20T13:23:59Z",
     "commitMessage": "fix(browser): make `provider` field required (#886)",
