@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8318442202ec4d18d773cffb9d3bdb09e4c4fc8f",
+    "commitTimestamp": "2026-01-21T05:26:39Z",
+    "commitMessage": "chore: remove Netlify configuration and add redirects file (#7004)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350/job/60978992494"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350/job/60978992496"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350/job/60978992497"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350/job/60978992502"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350/job/60978992504"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21198386350/job/60978992512"
+      }
+    ]
+  },
+  {
     "commitSha": "9642161a81f5a52b8ea7f23fdc178809d882a9ac",
     "commitTimestamp": "2026-01-21T03:43:28Z",
     "commitMessage": "chore: update @rspack/core to 2.0.0-canary.20260120 (#7002)",
