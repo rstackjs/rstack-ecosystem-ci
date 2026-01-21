@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "34175a49cdd814d5aca656d4dcbb8bcc1b4e9b76",
+    "commitTimestamp": "2026-01-21T07:07:23Z",
+    "commitMessage": "Fix tar security vulnerability by upgrading to 7.5.3 (#1496)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200503928",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21200503928/job/60985050279"
+      }
+    ]
+  },
+  {
     "commitSha": "78cd7083cbd3a0e45bd30c5a773bb246fdc52d76",
     "commitTimestamp": "2026-01-21T07:05:34Z",
     "commitMessage": "Security: Upgrade react-router-dom to 6.30.3 to patch XSS via open redirects (#1500)",
