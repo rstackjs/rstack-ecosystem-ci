@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5585ef77fc3cb92a0862b47850d75bf516daaa42",
+    "commitTimestamp": "2026-01-21T09:10:14Z",
+    "commitMessage": "chore: bump @rsbuild/core to 1.7.2 (#889)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21203665641",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21203665641/job/60994882822"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21203665641/job/60994882826"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21203665641/job/60994882834"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21203665641/job/60994882851"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21203665641/job/60994882896"
+      }
+    ]
+  },
+  {
     "commitSha": "b605c163b6c3949030c8aa7fd3ae8c138b958914",
     "commitTimestamp": "2026-01-21T07:14:05Z",
     "commitMessage": "chore: set up bumpp version management (#888)",
