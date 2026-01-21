@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2585781b619e037a23c1a6a2e2bd71211465db70",
+    "commitTimestamp": "2026-01-21T10:36:39Z",
+    "commitMessage": "fix(core): lazy initialize StatusRenderer to prevent clearing early error messages (#891)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21206347355",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21206347355/job/61003662322"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21206347355/job/61003662329"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21206347355/job/61003662349"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21206347355/job/61003662407"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21206347355/job/61003662499"
+      }
+    ]
+  },
+  {
     "commitSha": "5585ef77fc3cb92a0862b47850d75bf516daaa42",
     "commitTimestamp": "2026-01-21T09:10:14Z",
     "commitMessage": "chore: bump @rsbuild/core to 1.7.2 (#889)",
