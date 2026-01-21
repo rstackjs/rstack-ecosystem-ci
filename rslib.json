@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d63944d6dd06722d486382a825c9034add51b9f8",
+    "commitTimestamp": "2026-01-21T07:29:32Z",
+    "commitMessage": "Release v0.19.3 (#1447)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21201021837",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21201021837/job/60986575166"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21201021837/job/60986575169"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21201021837/job/60986575178"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21201021837/job/60986575181"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21201021837/job/60986575192"
+      }
+    ]
+  },
+  {
     "commitSha": "c0324358870b857aec0168085b90c36973989dc8",
     "commitTimestamp": "2026-01-19T04:27:45Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1445)",
