@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9c8cafc46e0767faf895db129fb63c0371092259",
+    "commitTimestamp": "2026-01-21T14:06:54Z",
+    "commitMessage": "chore: update renovate configuration to include Rstest group (#7006)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066/job/61024824390"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066/job/61024824394"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066/job/61024824401"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066/job/61024824405"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066/job/61024824411"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21212594066/job/61024824447"
+      }
+    ]
+  },
+  {
     "commitSha": "8318442202ec4d18d773cffb9d3bdb09e4c4fc8f",
     "commitTimestamp": "2026-01-21T05:26:39Z",
     "commitMessage": "chore: remove Netlify configuration and add redirects file (#7004)",
