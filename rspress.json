@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a2890df5263a499e0fa4ad06791bc21868f85ab6",
+    "commitTimestamp": "2026-01-22T15:34:08Z",
+    "commitMessage": "fix(theme/Llms): use SvgWrapper in Llms (#3045)",
+    "author": {
+      "name": "Jan Jaworski",
+      "email": "jaworek3211@gmail.com",
+      "login": "jaworek"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21254419021",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21254419021/job/61164763817"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21254419021/job/61164763822"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21254419021/job/61164763831"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21254419021/job/61164763886"
+      }
+    ]
+  },
+  {
     "commitSha": "a023b8a02a2b039a3ee34fd588129e1479f3865b",
     "commitTimestamp": "2026-01-22T09:55:47Z",
     "commitMessage": "feat(theme/SvgWrapper): icon field support svg and img icon in HomeLayout  (#3036)",
