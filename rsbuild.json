@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "3a39c6453beff82b08f61685b4c9f34639dc12da",
+    "commitTimestamp": "2026-01-22T11:05:11Z",
+    "commitMessage": "test: simplify assertions in SSR tests (#7013)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101/job/61135610734"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101/job/61135610757"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101/job/61135610763"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101/job/61135610769"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101/job/61135610776"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246084101/job/61135610783"
+      }
+    ]
+  },
+  {
     "commitSha": "44a330e47932d5bb37b3aee505616ff20d7a5e93",
     "commitTimestamp": "2026-01-22T09:17:43Z",
     "commitMessage": "fix(cli): exit with non-zero code when it fails to start (#7010)",
