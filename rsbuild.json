@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "44a330e47932d5bb37b3aee505616ff20d7a5e93",
+    "commitTimestamp": "2026-01-22T09:17:43Z",
+    "commitMessage": "fix(cli): exit with non-zero code when it fails to start (#7010)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475/job/61124653825"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475/job/61124653871"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475/job/61124653883"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475/job/61124653885"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475/job/61124653886"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21242824475/job/61124653894"
+      }
+    ]
+  },
+  {
     "commitSha": "60288cafdfd9743df7d03dc51d22068a5ca8aa65",
     "commitTimestamp": "2026-01-22T03:58:10Z",
     "commitMessage": "chore(deps): update dependency lodash to v4.17.23 [security] (#7009)",
