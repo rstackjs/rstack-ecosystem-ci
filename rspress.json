@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "bb61e3317ceb4de63b2b2c73b9c0e34bfc995f09",
+    "commitTimestamp": "2026-01-22T16:02:29Z",
+    "commitMessage": "feat(theme/icon): extract IconLink use in LlmsViewOptions (#3046)",
+    "author": {
+      "name": "Jan Jaworski",
+      "email": "jan.jaworski@callstack.com",
+      "login": "jaworek"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21255398250",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21255398250/job/61168373534"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21255398250/job/61168373538"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21255398250/job/61168373581"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21255398250/job/61168373648"
+      }
+    ]
+  },
+  {
     "commitSha": "a2890df5263a499e0fa4ad06791bc21868f85ab6",
     "commitTimestamp": "2026-01-22T15:34:08Z",
     "commitMessage": "fix(theme/Llms): use SvgWrapper in Llms (#3045)",
