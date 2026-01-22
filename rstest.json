@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b0ff18490d0c07eda6252a51d45c0a26355ab546",
+    "commitTimestamp": "2026-01-22T11:15:30Z",
+    "commitMessage": "fix(cli): exit with non-zero code when failed (#898)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246386486",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246386486/job/61136627224"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246386486/job/61136627233"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246386486/job/61136627238"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246386486/job/61136627243"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21246386486/job/61136627293"
+      }
+    ]
+  },
+  {
     "commitSha": "652dec3ea0b575550f777029aece295833128206",
     "commitTimestamp": "2026-01-22T08:11:51Z",
     "commitMessage": "ci: use test gate job as required job (#896)",
