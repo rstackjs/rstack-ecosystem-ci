@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "82d144fcb436a590a4ce915f38e755c3ec0b61d3",
+    "commitTimestamp": "2026-01-22T03:58:35Z",
+    "commitMessage": "docs: improve Overview page and custom-theme related pages (#3037)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235509608",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235509608/job/61102642481"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235509608/job/61102642485"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235509608/job/61102642489"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235509608/job/61102642490"
+      }
+    ]
+  },
+  {
     "commitSha": "804425a297ac35ea14865f197a57bff116c988fe",
     "commitTimestamp": "2026-01-22T03:29:47Z",
     "commitMessage": "chore(deps): update dependency lodash-es to v4.17.23 [security] (#3038)",
