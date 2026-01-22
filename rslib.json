@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "bc2cecc5ccfea37852e5945d4a804d6a6f22f248",
+    "commitTimestamp": "2026-01-22T11:55:20Z",
+    "commitMessage": "chore(deps): update dependency prettier-plugin-packagejson to v3 (#1450)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247517944",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247517944/job/61140387027"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247517944/job/61140387028"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247517944/job/61140387035"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247517944/job/61140387054"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247517944/job/61140387062"
+      }
+    ]
+  },
+  {
     "commitSha": "2ee645ae329ca80fc211a20c9532c55ddb076827",
     "commitTimestamp": "2026-01-22T11:48:48Z",
     "commitMessage": "fix(cli): exit with non-zero code when it fails to start (#1449)",
