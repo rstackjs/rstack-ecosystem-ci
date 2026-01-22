@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d8c9a9375f4810eb88810bc67747cfc883f4bbe0",
+    "commitTimestamp": "2026-01-22T03:50:14Z",
+    "commitMessage": "chore(deps): update Rstest to v0.8.0 (#7008)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199/job/61101989275"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199/job/61101989276"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199/job/61101989282"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199/job/61101989284"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199/job/61101989286"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235345199/job/61101989300"
+      }
+    ]
+  },
+  {
     "commitSha": "29909126b7ee34667c8137478121287ea5b5381b",
     "commitTimestamp": "2026-01-21T14:10:04Z",
     "commitMessage": "release: 2.0.0-alpha.1 (#7005)",
