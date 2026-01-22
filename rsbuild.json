@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "60288cafdfd9743df7d03dc51d22068a5ca8aa65",
+    "commitTimestamp": "2026-01-22T03:58:10Z",
+    "commitMessage": "chore(deps): update dependency lodash to v4.17.23 [security] (#7009)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274/job/61102598124"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274/job/61102598125"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274/job/61102598129"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274/job/61102598131"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274/job/61102598138"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21235494274/job/61102598139"
+      }
+    ]
+  },
+  {
     "commitSha": "d8c9a9375f4810eb88810bc67747cfc883f4bbe0",
     "commitTimestamp": "2026-01-22T03:50:14Z",
     "commitMessage": "chore(deps): update Rstest to v0.8.0 (#7008)",
