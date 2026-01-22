@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "2ee645ae329ca80fc211a20c9532c55ddb076827",
+    "commitTimestamp": "2026-01-22T11:48:48Z",
+    "commitMessage": "fix(cli): exit with non-zero code when it fails to start (#1449)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247331363",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247331363/job/61139769442"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247331363/job/61139769444"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247331363/job/61139769484"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247331363/job/61139769489"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21247331363/job/61139769540"
+      }
+    ]
+  },
+  {
     "commitSha": "d63944d6dd06722d486382a825c9034add51b9f8",
     "commitTimestamp": "2026-01-21T07:29:32Z",
     "commitMessage": "Release v0.19.3 (#1447)",
