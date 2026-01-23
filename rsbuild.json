@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "347cd8f20798abd1edf2c6a400b39b8e149fccb5",
+    "commitTimestamp": "2026-01-23T07:07:11Z",
+    "commitMessage": "release: 2.0.0-alpha.2 (#7022)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002/job/61240735217"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002/job/61240735224"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002/job/61240735233"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002/job/61240735235"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002/job/61240735242"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277769002/job/61240735252"
+      }
+    ]
+  },
+  {
     "commitSha": "898dcd5df8dbd8401f21c7f84d53b1f106ccca06",
     "commitTimestamp": "2026-01-23T06:55:34Z",
     "commitMessage": "chore: simplify prebundle config (#7021)",
