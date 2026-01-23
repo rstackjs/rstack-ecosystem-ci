@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "91c4c53b756af72c57d51f4e10090c48069eb6b6",
+    "commitTimestamp": "2026-01-23T05:38:26Z",
+    "commitMessage": "feat(deps)!: upgrade chokidar to ^5.0.0 (#7020)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544/job/61235474543"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544/job/61235474547"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544/job/61235474553"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544/job/61235474555"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544/job/61235474556"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21275915544/job/61235474577"
+      }
+    ]
+  },
+  {
     "commitSha": "67a669a969dfdfd430f8a2e060c3daf170d3f221",
     "commitTimestamp": "2026-01-23T03:23:19Z",
     "commitMessage": "chore(deps): update dependency core-js to ^3.48.0 (#7018)",
