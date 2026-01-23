@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4c48709f51b933094effcfba68250bff8c8008a6",
+    "commitTimestamp": "2026-01-23T13:09:04Z",
+    "commitMessage": "feat: support server custom message handling by `module.hot.on` (#7003)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493/job/61271426049"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493/job/61271426053"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493/job/61271426059"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493/job/61271426062"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493/job/61271426076"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287273493/job/61271426080"
+      }
+    ]
+  },
+  {
     "commitSha": "f533ad317985e5cbbe0d844a551617146c02f93c",
     "commitTimestamp": "2026-01-23T13:07:58Z",
     "commitMessage": "test(e2e):  fix service worker flaky tests (#7017)",
