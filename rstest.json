@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "d5e682f491e87742caf436ade6dba47240acbf6e",
+    "commitTimestamp": "2026-01-23T02:58:28Z",
+    "commitMessage": "docs: polish chaiConfig (#897)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21272957234",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21272957234/job/61226788361"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21272957234/job/61226788365"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21272957234/job/61226788368"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21272957234/job/61226788376"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21272957234/job/61226788384"
+      }
+    ]
+  },
+  {
     "commitSha": "b0ff18490d0c07eda6252a51d45c0a26355ab546",
     "commitTimestamp": "2026-01-22T11:15:30Z",
     "commitMessage": "fix(cli): exit with non-zero code when failed (#898)",
