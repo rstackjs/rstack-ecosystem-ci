@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5bde6b32cf440d8612e1365b39d04bbce34c7c2c",
+    "commitTimestamp": "2026-01-23T09:06:19Z",
+    "commitMessage": "feat(core): disable ANSI and VT output in AI agent environments (#899)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280675326",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280675326/job/61249667847"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280675326/job/61249667864"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280675326/job/61249667868"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280675326/job/61249667887"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280675326/job/61249667917"
+      }
+    ]
+  },
+  {
     "commitSha": "b56991de77316aab67cfe7a6c14db3305f569bda",
     "commitTimestamp": "2026-01-23T05:47:21Z",
     "commitMessage": "fix(browser): should not tip `no test files found` (#900)",
