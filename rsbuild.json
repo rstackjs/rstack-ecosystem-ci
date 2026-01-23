@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "67a669a969dfdfd430f8a2e060c3daf170d3f221",
+    "commitTimestamp": "2026-01-23T03:23:19Z",
+    "commitMessage": "chore(deps): update dependency core-js to ^3.48.0 (#7018)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326/job/61228049856"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326/job/61228049859"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326/job/61228049860"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326/job/61228049867"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326/job/61228049873"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21273402326/job/61228049898"
+      }
+    ]
+  },
+  {
     "commitSha": "8ccca9fb8a715d241f4c0cd52ae58207877dba1f",
     "commitTimestamp": "2026-01-22T14:29:04Z",
     "commitMessage": "test: reset logger level after each test (#7015)",
