@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "b56991de77316aab67cfe7a6c14db3305f569bda",
+    "commitTimestamp": "2026-01-23T05:47:21Z",
+    "commitMessage": "fix(browser): should not tip `no test files found` (#900)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21276091169",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21276091169/job/61235960844"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21276091169/job/61235960845"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21276091169/job/61235960851"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21276091169/job/61235960855"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21276091169/job/61235960857"
+      }
+    ]
+  },
+  {
     "commitSha": "6e563ff5a54d3634c8e94b5c20c399d7ebe565b9",
     "commitTimestamp": "2026-01-23T04:49:12Z",
     "commitMessage": "feat(core): add `mockObject` and `mocked` utilities (#881)",
