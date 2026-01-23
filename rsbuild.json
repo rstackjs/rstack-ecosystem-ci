@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f533ad317985e5cbbe0d844a551617146c02f93c",
+    "commitTimestamp": "2026-01-23T13:07:58Z",
+    "commitMessage": "test(e2e):  fix service worker flaky tests (#7017)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101/job/61271327512"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101/job/61271327513"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101/job/61271327515"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101/job/61271327518"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101/job/61271327521"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287245101/job/61271327540"
+      }
+    ]
+  },
+  {
     "commitSha": "347cd8f20798abd1edf2c6a400b39b8e149fccb5",
     "commitTimestamp": "2026-01-23T07:07:11Z",
     "commitMessage": "release: 2.0.0-alpha.2 (#7022)",
