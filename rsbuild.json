@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "898dcd5df8dbd8401f21c7f84d53b1f106ccca06",
+    "commitTimestamp": "2026-01-23T06:55:34Z",
+    "commitMessage": "chore: simplify prebundle config (#7021)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620/job/61239973079"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620/job/61239973083"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620/job/61239973085"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620/job/61239973090"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620/job/61239973091"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21277511620/job/61239973094"
+      }
+    ]
+  },
+  {
     "commitSha": "91c4c53b756af72c57d51f4e10090c48069eb6b6",
     "commitTimestamp": "2026-01-23T05:38:26Z",
     "commitMessage": "feat(deps)!: upgrade chokidar to ^5.0.0 (#7020)",
