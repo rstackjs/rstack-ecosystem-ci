@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "2ef0186dd91c7eb2b0cab3545ec4228665648fef",
+    "commitTimestamp": "2026-01-23T13:08:28Z",
+    "commitMessage": "feat!: set default config loader to 'auto' for loadConfig (#7024)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704/job/61271371689"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704/job/61271371691"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704/job/61271371695"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704/job/61271371704"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704/job/61271371707"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21287257704/job/61271371812"
+      }
+    ]
+  },
+  {
     "commitSha": "f533ad317985e5cbbe0d844a551617146c02f93c",
     "commitTimestamp": "2026-01-23T13:07:58Z",
     "commitMessage": "test(e2e):  fix service worker flaky tests (#7017)",
