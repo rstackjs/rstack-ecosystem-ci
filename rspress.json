@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "eaddb963f77a22a3762b3f01facd2c1780f3240b",
+    "commitTimestamp": "2026-01-23T08:41:30Z",
+    "commitMessage": "chore(deps): upgrade rsbuild to 2.0.0-alpha.2 (#3050)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280011364",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280011364/job/61247484721"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280011364/job/61247484725"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280011364/job/61247484733"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21280011364/job/61247484734"
+      }
+    ]
+  },
+  {
     "commitSha": "c2b47170459c31581b68ad17ed7095457ed89bc9",
     "commitTimestamp": "2026-01-23T06:13:34Z",
     "commitMessage": "chore(theme): standardize link icon SVG attributes format (#3049)",
