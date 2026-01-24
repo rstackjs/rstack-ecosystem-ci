@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8a6b55d65cde7127bcf3b2a88d6e6f67116b553f",
+    "commitTimestamp": "2026-01-24T00:51:46Z",
+    "commitMessage": "feat(core): add ignore option for public directory copy in server plugin (#7023)",
+    "author": {
+      "name": "SeungHwa Jeong",
+      "email": "62323657+JSH-data@users.noreply.github.com",
+      "login": "JSH-data"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548/job/61334439072"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548/job/61334439074"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548/job/61334439082"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548/job/61334439083"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548/job/61334439085"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21306199548/job/61334439109"
+      }
+    ]
+  },
+  {
     "commitSha": "4c48709f51b933094effcfba68250bff8c8008a6",
     "commitTimestamp": "2026-01-23T13:09:04Z",
     "commitMessage": "feat: support server custom message handling by `module.hot.on` (#7003)",
