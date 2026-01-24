@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "33705cb2264ef92f69e50a9cf2f1304544cd8b55",
+    "commitTimestamp": "2026-01-24T23:49:55Z",
+    "commitMessage": "chore(deps): update dependency @rstest/adapter-rslib to ^0.2.0 (#7030)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337/job/61376988016"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337/job/61376988019"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337/job/61376988020"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337/job/61376988021"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337/job/61376988023"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323612337/job/61376988032"
+      }
+    ]
+  },
+  {
     "commitSha": "14c8ff81cce5e1682a66b9814b84fe7572937a3e",
     "commitTimestamp": "2026-01-24T09:12:58Z",
     "commitMessage": "fix(types): add public typing for `import.meta.webpackHot.on` (#7028)",
