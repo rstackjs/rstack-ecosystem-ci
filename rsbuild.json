@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "14c8ff81cce5e1682a66b9814b84fe7572937a3e",
+    "commitTimestamp": "2026-01-24T09:12:58Z",
+    "commitMessage": "fix(types): add public typing for `import.meta.webpackHot.on` (#7028)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846/job/61351395546"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846/job/61351395548"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846/job/61351395550"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846/job/61351395555"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846/job/61351395559"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21312763846/job/61351395561"
+      }
+    ]
+  },
+  {
     "commitSha": "d4e23fc7c8de46d2fae7e7e32750a88958ea04d9",
     "commitTimestamp": "2026-01-24T08:07:23Z",
     "commitMessage": "test: streamline custom message tests (#7027)",
