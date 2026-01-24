@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f386fde350b2ae7d8ac997748c1d3687fdd55a6d",
+    "commitTimestamp": "2026-01-24T02:35:56Z",
+    "commitMessage": "chore(build): simplify rspack runtime replacement plugin (#7026)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390/job/61338647811"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390/job/61338647812"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390/job/61338647823"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390/job/61338647826"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390/job/61338647832"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21307725390/job/61338647864"
+      }
+    ]
+  },
+  {
     "commitSha": "8a6b55d65cde7127bcf3b2a88d6e6f67116b553f",
     "commitTimestamp": "2026-01-24T00:51:46Z",
     "commitMessage": "feat(core): add ignore option for public directory copy in server plugin (#7023)",
