@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d4e23fc7c8de46d2fae7e7e32750a88958ea04d9",
+    "commitTimestamp": "2026-01-24T08:07:23Z",
+    "commitMessage": "test: streamline custom message tests (#7027)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692/job/61349461746"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692/job/61349461752"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692/job/61349461757"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692/job/61349461769"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692/job/61349461771"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21311952692/job/61349461811"
+      }
+    ]
+  },
+  {
     "commitSha": "f386fde350b2ae7d8ac997748c1d3687fdd55a6d",
     "commitTimestamp": "2026-01-24T02:35:56Z",
     "commitMessage": "chore(build): simplify rspack runtime replacement plugin (#7026)",
