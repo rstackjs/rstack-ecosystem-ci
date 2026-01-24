@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9a58e75e0d45be2f642b84f539bed0494bc2ef75",
+    "commitTimestamp": "2026-01-24T23:50:25Z",
+    "commitMessage": "chore(deps): update module federation to v0.23.0 (#7031)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245/job/61376999269"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245/job/61376999270"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245/job/61376999273"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245/job/61376999276"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245/job/61376999277"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21323617245/job/61376999282"
+      }
+    ]
+  },
+  {
     "commitSha": "33705cb2264ef92f69e50a9cf2f1304544cd8b55",
     "commitTimestamp": "2026-01-24T23:49:55Z",
     "commitMessage": "chore(deps): update dependency @rstest/adapter-rslib to ^0.2.0 (#7030)",
