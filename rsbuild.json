@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "82f2225bd31fd44d81720a8be082c431cbd784fc",
+    "commitTimestamp": "2026-01-25T09:54:58Z",
+    "commitMessage": "refactor: rename id for JS main oneOf rule (#7036)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948/job/61395003193"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948/job/61395003198"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948/job/61395003202"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948/job/61395003204"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948/job/61395003207"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330714948/job/61395003213"
+      }
+    ]
+  },
+  {
     "commitSha": "de3418a19b8e6cadc993190938c0859120d9970e",
     "commitTimestamp": "2026-01-25T09:25:47Z",
     "commitMessage": "chore(deps): update swc monorepo to ^12.4.0 (#7034)",
