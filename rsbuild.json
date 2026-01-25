@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "c3c251034f12d02d6e65333aa4aef3e9564bd2c6",
+    "commitTimestamp": "2026-01-25T09:11:43Z",
+    "commitMessage": "feat!: convert the built‑in JS rule to oneOf structure (#7032)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355/job/61393743406"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355/job/61393743419"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355/job/61393743423"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355/job/61393743428"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355/job/61393743436"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21330188355/job/61393743464"
+      }
+    ]
+  },
+  {
     "commitSha": "a7d33aa93ccdd5871dbb07ccc3b8102847a78b72",
     "commitTimestamp": "2026-01-24T23:52:03Z",
     "commitMessage": "docs: update sockWrite with custom message support (#7029)",
