@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ca9237ddc70b005725f8ca98f4b2ddfcc37ab913",
+    "commitTimestamp": "2026-01-26T09:07:36Z",
+    "commitMessage": "chore(theme/nav): fix hover menu exit transition in nav dropdowns (#3043)",
+    "author": {
+      "name": "Copilot",
+      "email": "198982749+Copilot@users.noreply.github.com",
+      "login": "Copilot"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352057643",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352057643/job/61450820454"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352057643/job/61450820465"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352057643/job/61450820469"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352057643/job/61450820472"
+      }
+    ]
+  },
+  {
     "commitSha": "511161914fdbb9238c22c9e31d82b485e40b2b47",
     "commitTimestamp": "2026-01-26T08:26:31Z",
     "commitMessage": "chore(deps): update dependency @docsearch/react to ^4.5.3 (#3055) (#3056)",
