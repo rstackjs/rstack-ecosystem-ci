@@ -144,6 +144,54 @@
     ]
   },
   {
+    "commitSha": "6b5394c62d4f59ee5c3fdc3d66a1b6005b6b0d0b",
+    "commitTimestamp": "2026-01-26T02:24:55Z",
+    "commitMessage": "chore(deps): update dependency react-router-dom to ^7.13.0 (#7042)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230/job/61428707296"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230/job/61428707300"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230/job/61428707303"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230/job/61428707304"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230/job/61428707310"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344262230/job/61428707332"
+      }
+    ]
+  },
+  {
     "commitSha": "d62944f0d84b08cee0fab27a88d3ddc1e87a6ddd",
     "commitTimestamp": "2026-01-25T11:31:13Z",
     "commitMessage": "feat!: convert the built‑in CSS rule to oneOf structure (#7037)",
