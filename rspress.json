@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "84f4f81b88ee7bd331a49a3ad9cae61df587d53f",
+    "commitTimestamp": "2026-01-26T11:06:35Z",
+    "commitMessage": "feat(plugin-playground)!: change defaultRenderMode to 'pure' and support combined usage with plugin-preview (#3059)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21355463332",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21355463332/job/61461734096"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21355463332/job/61461734098"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21355463332/job/61461734105"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21355463332/job/61461734140"
+      }
+    ]
+  },
+  {
     "commitSha": "6847733204193be67efb3f4e48a5376be233fc26",
     "commitTimestamp": "2026-01-26T09:20:20Z",
     "commitMessage": "refactor(theme): remove navbar compatibility class names and update Algolia docs (#3057)",
