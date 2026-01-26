@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5bcc0c34fb641bdb2d089c3e5f2e2eef9ae39e78",
+    "commitTimestamp": "2026-01-26T02:43:58Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#7040)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816/job/61429474499"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816/job/61429474502"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816/job/61429474506"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816/job/61429474507"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816/job/61429474508"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344556816/job/61429474510"
+      }
+    ]
+  },
+  {
     "commitSha": "e0d295cd9a0a816d217112a6138fb2555e2357d9",
     "commitTimestamp": "2026-01-26T02:28:53Z",
     "commitMessage": "test: remove compatibility tests for Rsbuild < 1.3.0 (#7044)",
