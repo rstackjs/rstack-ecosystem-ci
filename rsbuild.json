@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e0d295cd9a0a816d217112a6138fb2555e2357d9",
+    "commitTimestamp": "2026-01-26T02:28:53Z",
+    "commitMessage": "test: remove compatibility tests for Rsbuild < 1.3.0 (#7044)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581/job/61429339072"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581/job/61429339075"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581/job/61429339079"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581/job/61429339085"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581/job/61429339087"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344506581/job/61429339100"
+      }
+    ]
+  },
+  {
     "commitSha": "5db2f89b47f2fe12faaa18e0175161352d7ff742",
     "commitTimestamp": "2026-01-26T02:28:20Z",
     "commitMessage": "chore(deps): update dependency svelte to ^5.48.2 (#7043)",
