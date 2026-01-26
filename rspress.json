@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "98545ccef02932402f9522311532795e4f4ba7e2",
+    "commitTimestamp": "2026-01-26T09:14:06Z",
+    "commitMessage": "docs(css-vars): improve generateThemeCssVariables scope matching for better theme color extraction (#3058)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352245783",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352245783/job/61451422830"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352245783/job/61451422836"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352245783/job/61451422840"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352245783/job/61451422892"
+      }
+    ]
+  },
+  {
     "commitSha": "4b6733e5acfbb9b90f25fcb46522790c219269e2",
     "commitTimestamp": "2026-01-26T09:08:03Z",
     "commitMessage": "feat(theme/HomeHero): add new hero image slot and add interactive to document (#3051)",
