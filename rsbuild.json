@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c60b688c665eea1cef4649820eb55f3fd2fa2513",
+    "commitTimestamp": "2026-01-26T08:13:07Z",
+    "commitMessage": "fix(SSR): ESM source map in VM (#7052)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840/job/61446370766"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840/job/61446370769"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840/job/61446370772"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840/job/61446370774"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840/job/61446370783"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350634840/job/61446370787"
+      }
+    ]
+  },
+  {
     "commitSha": "968d8d5fa43e017bc606a933a4c2a10053bd8e7b",
     "commitTimestamp": "2026-01-26T07:05:20Z",
     "commitMessage": "release: 2.0.0-alpha.3 (#7050)",
