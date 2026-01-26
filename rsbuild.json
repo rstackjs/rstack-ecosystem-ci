@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5db2f89b47f2fe12faaa18e0175161352d7ff742",
+    "commitTimestamp": "2026-01-26T02:28:20Z",
+    "commitMessage": "chore(deps): update dependency svelte to ^5.48.2 (#7043)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093/job/61429003929"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093/job/61429003930"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093/job/61429003932"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093/job/61429003934"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093/job/61429003936"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21344377093/job/61429003939"
+      }
+    ]
+  },
+  {
     "commitSha": "d62944f0d84b08cee0fab27a88d3ddc1e87a6ddd",
     "commitTimestamp": "2026-01-25T11:31:13Z",
     "commitMessage": "feat!: convert the built‑in CSS rule to oneOf structure (#7037)",
