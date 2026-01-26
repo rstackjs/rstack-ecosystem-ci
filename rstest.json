@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ccfdc37c3414debfa57e58777a9c9785b1b876e2",
+    "commitTimestamp": "2026-01-26T08:12:35Z",
+    "commitMessage": "docs: add `react` guide (#903)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350623821",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350623821/job/61446336102"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350623821/job/61446336105"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350623821/job/61446336110"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350623821/job/61446336120"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21350623821/job/61446336125"
+      }
+    ]
+  },
+  {
     "commitSha": "be149980766453afdd4aaed0b902ef9cfb6e3ce8",
     "commitTimestamp": "2026-01-26T07:16:29Z",
     "commitMessage": "feat(core): support pool shorthand and granular CLI options (#904)",
