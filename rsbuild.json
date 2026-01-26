@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "968d8d5fa43e017bc606a933a4c2a10053bd8e7b",
+    "commitTimestamp": "2026-01-26T07:05:20Z",
+    "commitMessage": "release: 2.0.0-alpha.3 (#7050)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887/job/61442100608"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887/job/61442100611"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887/job/61442100613"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887/job/61442100615"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887/job/61442100625"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21349132887/job/61442100626"
+      }
+    ]
+  },
+  {
     "commitSha": "22ccf0557a6d01b2c60ee118ad81b46411144044",
     "commitTimestamp": "2026-01-26T06:21:04Z",
     "commitMessage": "chore: update plugin versions to 2.0.0-alpha.2 and adjust peer deps (#7049)",
