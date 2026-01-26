@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "e05c2bafaf5986b4fa1d9ab1174284e3db184ea5",
+    "commitTimestamp": "2026-01-26T05:00:03Z",
+    "commitMessage": "chore(deps): update dependency @docsearch/css to ^4.5.3 (#3055)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21346843591",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21346843591/job/61436016367"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21346843591/job/61436016370"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21346843591/job/61436016371"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21346843591/job/61436016390"
+      }
+    ]
+  },
+  {
     "commitSha": "59c4c10eba85e5886d66ae9af9e75cf31461ff0b",
     "commitTimestamp": "2026-01-23T08:58:38Z",
     "commitMessage": "Release v2.0.0-rc.7 (#3052)",
