@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3004a659eccf1c68e085e6caad31d1cbf205b81a",
+    "commitTimestamp": "2026-01-26T08:51:31Z",
+    "commitMessage": "Revert \"chore: update plugin versions to 2.0.0-alpha.2 and adjust peer deps\" (#7053)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263/job/61449401165"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263/job/61449401177"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263/job/61449401189"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263/job/61449401214"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263/job/61449401225"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21351620263/job/61449401228"
+      }
+    ]
+  },
+  {
     "commitSha": "c60b688c665eea1cef4649820eb55f3fd2fa2513",
     "commitTimestamp": "2026-01-26T08:13:07Z",
     "commitMessage": "fix(SSR): ESM source map in VM (#7052)",
