@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8a44eb88d313a4a8acb1d3e0af721cb29b1236e0",
+    "commitTimestamp": "2026-01-26T09:31:47Z",
+    "commitMessage": "docs: add `vue` guide (#905)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352744912",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352744912/job/61453021028"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352744912/job/61453021034"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352744912/job/61453021037"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352744912/job/61453021051"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352744912/job/61453021062"
+      }
+    ]
+  },
+  {
     "commitSha": "5a769dd93df1841408f783e1db426c1e62378881",
     "commitTimestamp": "2026-01-26T09:04:38Z",
     "commitMessage": "feat(mock): support `spy: true` option in `rs.mock()` (#901)",
