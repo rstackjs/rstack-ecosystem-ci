@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6847733204193be67efb3f4e48a5376be233fc26",
+    "commitTimestamp": "2026-01-26T09:20:20Z",
+    "commitMessage": "refactor(theme): remove navbar compatibility class names and update Algolia docs (#3057)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352421681",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352421681/job/61451986293"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352421681/job/61451986301"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352421681/job/61451986305"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21352421681/job/61451986364"
+      }
+    ]
+  },
+  {
     "commitSha": "98545ccef02932402f9522311532795e4f4ba7e2",
     "commitTimestamp": "2026-01-26T09:14:06Z",
     "commitMessage": "docs(css-vars): improve generateThemeCssVariables scope matching for better theme color extraction (#3058)",
