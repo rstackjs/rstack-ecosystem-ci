@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7f66f0ffc413dd8ae4e1ee904ec2ab4a71484729",
+    "commitTimestamp": "2026-01-27T03:33:13Z",
+    "commitMessage": "feat(mock): support `mock: true` option in rs.mock()  (#907)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21383473164",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21383473164/job/61554953566"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21383473164/job/61554953568"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21383473164/job/61554953570"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21383473164/job/61554953575"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21383473164/job/61554953580"
+      }
+    ]
+  },
+  {
     "commitSha": "a227d7e71f6780a516cc9ec83c40303245971956",
     "commitTimestamp": "2026-01-26T12:37:49Z",
     "commitMessage": "refactor(core): simplify ANSI suppress color logic  (#906)",
