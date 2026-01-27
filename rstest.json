@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "12fc4867a12d71597be942f74e8c5a1e80c97767",
+    "commitTimestamp": "2026-01-27T05:38:30Z",
+    "commitMessage": "release: 0.8.1 (#908)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21386036158",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21386036158/job/61562559838"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21386036158/job/61562559842"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21386036158/job/61562559845"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21386036158/job/61562559851"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21386036158/job/61562559856"
+      }
+    ]
+  },
+  {
     "commitSha": "7f66f0ffc413dd8ae4e1ee904ec2ab4a71484729",
     "commitTimestamp": "2026-01-27T03:33:13Z",
     "commitMessage": "feat(mock): support `mock: true` option in rs.mock()  (#907)",
