@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6b24da9919cb41754fec48e55c79618656ae81e6",
+    "commitTimestamp": "2026-01-27T09:46:33Z",
+    "commitMessage": "chore(deps): upgrade Rspack to v1.7.4 (#1455)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392329375",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392329375/job/61582014626"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392329375/job/61582014628"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392329375/job/61582014631"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392329375/job/61582014636"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392329375/job/61582014663"
+      }
+    ]
+  },
+  {
     "commitSha": "1a04d35ecbdd136221e31baed65cc58b6eb2f88d",
     "commitTimestamp": "2026-01-26T04:56:44Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1454)",
