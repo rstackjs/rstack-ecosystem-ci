@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "56054823aff1c6e14d8ff45972ec284f9c35d571",
+    "commitTimestamp": "2026-01-27T09:17:33Z",
+    "commitMessage": "feat: not update snapshots that were not run on test failure (#910)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391430917",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391430917/job/61579062463"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391430917/job/61579062468"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391430917/job/61579062476"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391430917/job/61579062485"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391430917/job/61579062566"
+      }
+    ]
+  },
+  {
     "commitSha": "c0e6f3c5e62815e4bc43b139f681b618ed02a335",
     "commitTimestamp": "2026-01-27T08:27:58Z",
     "commitMessage": "fix(e2e): ensure environment variables are truly unset in CLI helper (#909)",
