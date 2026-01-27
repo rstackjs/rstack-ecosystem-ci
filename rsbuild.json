@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "90be475d906f748d720e76082f1bf886ee1aaaff",
+    "commitTimestamp": "2026-01-27T02:48:48Z",
+    "commitMessage": "refactor: simplify CSS rules and identifiers (#7060)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455/job/61552341812"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455/job/61552341814"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455/job/61552341815"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455/job/61552341816"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455/job/61552341821"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382594455/job/61552341822"
+      }
+    ]
+  },
+  {
     "commitSha": "07acdc3961369e56b72a28c171520a1edc4ff2b4",
     "commitTimestamp": "2026-01-27T02:29:30Z",
     "commitMessage": "feat!: remove support for `?__inline=false` query (#7057)",
