@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0a755c72dc86b27c4a7ff5ab86d044e602fd1ee6",
+    "commitTimestamp": "2026-01-27T09:53:42Z",
+    "commitMessage": "docs: update home feature gap and remove V2 badge from homepage (#3064)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392552902",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392552902/job/61582766342"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392552902/job/61582766352"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392552902/job/61582766388"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21392552902/job/61582766415"
+      }
+    ]
+  },
+  {
     "commitSha": "3ac3e84aae729e25f3c62af1dc6f298b625a64fb",
     "commitTimestamp": "2026-01-27T09:22:18Z",
     "commitMessage": "fix(plugin-preview): handle preEntry as string type (#3065)",
