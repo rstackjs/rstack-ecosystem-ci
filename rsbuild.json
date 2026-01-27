@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1fc523affa103f4911c01cabd4a80bfd2d8f7d55",
+    "commitTimestamp": "2026-01-27T02:56:24Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.58.0 (#7033)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557/job/61552839877"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557/job/61552839879"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557/job/61552839888"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557/job/61552839889"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557/job/61552839893"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21382750557/job/61552839894"
+      }
+    ]
+  },
+  {
     "commitSha": "90be475d906f748d720e76082f1bf886ee1aaaff",
     "commitTimestamp": "2026-01-27T02:48:48Z",
     "commitMessage": "refactor: simplify CSS rules and identifiers (#7060)",
