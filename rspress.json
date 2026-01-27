@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "008cb48af6427f520ce51c71b6bb4764e9b0c440",
+    "commitTimestamp": "2026-01-27T07:50:05Z",
+    "commitMessage": "Release v2.0.0-rc.8 (#3061)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21388950243",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21388950243/job/61571080706"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21388950243/job/61571080712"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21388950243/job/61571080731"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21388950243/job/61571080735"
+      }
+    ]
+  },
+  {
     "commitSha": "84f4f81b88ee7bd331a49a3ad9cae61df587d53f",
     "commitTimestamp": "2026-01-26T11:06:35Z",
     "commitMessage": "feat(plugin-playground)!: change defaultRenderMode to 'pure' and support combined usage with plugin-preview (#3059)",
