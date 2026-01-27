@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "c0e6f3c5e62815e4bc43b139f681b618ed02a335",
+    "commitTimestamp": "2026-01-27T08:27:58Z",
+    "commitMessage": "fix(e2e): ensure environment variables are truly unset in CLI helper (#909)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21389963816",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21389963816/job/61574256934"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21389963816/job/61574256937"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21389963816/job/61574256954"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21389963816/job/61574256958"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21389963816/job/61574256997"
+      }
+    ]
+  },
+  {
     "commitSha": "12fc4867a12d71597be942f74e8c5a1e80c97767",
     "commitTimestamp": "2026-01-27T05:38:30Z",
     "commitMessage": "release: 0.8.1 (#908)",
