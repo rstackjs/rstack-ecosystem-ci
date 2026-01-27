@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "3ac3e84aae729e25f3c62af1dc6f298b625a64fb",
+    "commitTimestamp": "2026-01-27T09:22:18Z",
+    "commitMessage": "fix(plugin-preview): handle preEntry as string type (#3065)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391645704",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391645704/job/61579749778"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391645704/job/61579749782"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391645704/job/61579749792"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21391645704/job/61579749817"
+      }
+    ]
+  },
+  {
     "commitSha": "008cb48af6427f520ce51c71b6bb4764e9b0c440",
     "commitTimestamp": "2026-01-27T07:50:05Z",
     "commitMessage": "Release v2.0.0-rc.8 (#3061)",
