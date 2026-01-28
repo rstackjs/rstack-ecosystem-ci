@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b939ce8f202dd276dd683d33b5363423c516ae1c",
+    "commitTimestamp": "2026-01-28T03:05:34Z",
+    "commitMessage": "docs: improve server options description for clarity (#7067)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769/job/61687114616"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769/job/61687114617"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769/job/61687114627"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769/job/61687114629"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769/job/61687114630"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423311769/job/61687114635"
+      }
+    ]
+  },
+  {
     "commitSha": "de7ac7953fe6a9cbe8e296f6e4042d1df433a744",
     "commitTimestamp": "2026-01-27T07:07:34Z",
     "commitMessage": "release: 2.0.0-alpha.4 (#7066)",
