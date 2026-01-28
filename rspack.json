@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "30fbb1ef684112466c8e4f0c8ba84d6be2c8cea8",
+    "commitTimestamp": "2026-01-28T11:01:33Z",
+    "commitMessage": "refactor: collect module runtime requirements (#12843)",
+    "author": {
+      "name": "harpsealjs",
+      "email": "lingyucoder@gmail.com",
+      "login": "LingyuCoder"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21435612142",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297010"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297016"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297025"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297026"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297037"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297038"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297039"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297042"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297057"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297065"
+      },
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21435612142/job/61726297076"
+      }
+    ]
+  },
+  {
     "commitSha": "ec06548a7fcc519ea21f9f1fff43cbd7a5e8a2df",
     "commitTimestamp": "2026-01-28T07:43:36Z",
     "commitMessage": "fix: rsc should handle concat module in build server manifest (#12859)",
