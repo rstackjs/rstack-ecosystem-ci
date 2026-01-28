@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be59215ff6e091ccd1a0b820d0df591623990e9d",
+    "commitTimestamp": "2026-01-28T03:18:13Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/plugin-svelte to ^1.1.0 (#7070)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969/job/61687876840"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969/job/61687876843"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969/job/61687876848"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969/job/61687876856"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969/job/61687876861"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423590969/job/61687876866"
+      }
+    ]
+  },
+  {
     "commitSha": "811b5c604203c32a8131e83703653ceb8eb30251",
     "commitTimestamp": "2026-01-28T03:17:59Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-babel to ^1.1.0 (#7068)",
