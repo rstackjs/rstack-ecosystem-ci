@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4dccaf2ab2740874e8c80a7a83df5bdd2ad32096",
+    "commitTimestamp": "2026-01-28T03:10:25Z",
+    "commitMessage": "chore(deps): update @rsbuild/core to 2.0.0-alpha.4 (#3063)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423438380",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423438380/job/61687458981"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423438380/job/61687459000"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423438380/job/61687459001"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423438380/job/61687459038"
+      }
+    ]
+  },
+  {
     "commitSha": "7d815345993bcd75a6089cb06452a6f1a6ea7edf",
     "commitTimestamp": "2026-01-27T10:11:21Z",
     "commitMessage": "docs: improve generateThemeCssVariables scope matching for better theme color extraction (#3066)",
