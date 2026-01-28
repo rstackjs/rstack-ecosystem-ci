@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1ee0c5fc6c7e0d60cb11948faf4c8052cda1d549",
+    "commitTimestamp": "2026-01-28T14:14:12Z",
+    "commitMessage": "docs(deps): update Rspress to 2.0.0 stable versions (#7075)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419/job/61746158987"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419/job/61746158991"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419/job/61746158998"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419/job/61746159002"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419/job/61746159071"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21441670419/job/61746159209"
+      }
+    ]
+  },
+  {
     "commitSha": "c1e1b4b1f205130afdd80d437bdecd0601895b1f",
     "commitTimestamp": "2026-01-28T04:44:12Z",
     "commitMessage": "refactor: update rspack import paths (#7072)",
