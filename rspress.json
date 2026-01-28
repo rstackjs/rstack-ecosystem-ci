@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "abb8731bf4a4dd61c84524950aa0cb070ec3780c",
+    "commitTimestamp": "2026-01-28T03:37:00Z",
+    "commitMessage": "fix(Nav): conditionally render appearance switch based on darkMode setting (#3068) (#3069)",
+    "author": {
+      "name": "Andrew",
+      "email": "andrewmaccuaig@gmail.com",
+      "login": "maccuaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423972618",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423972618/job/61689002770"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423972618/job/61689002778"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423972618/job/61689002783"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21423972618/job/61689002792"
+      }
+    ]
+  },
+  {
     "commitSha": "4dccaf2ab2740874e8c80a7a83df5bdd2ad32096",
     "commitTimestamp": "2026-01-28T03:10:25Z",
     "commitMessage": "chore(deps): update @rsbuild/core to 2.0.0-alpha.4 (#3063)",
