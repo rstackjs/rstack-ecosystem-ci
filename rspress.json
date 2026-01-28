@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "ed00b6aa464d403dacd8aff0343b54a139107210",
+    "commitTimestamp": "2026-01-28T11:31:06Z",
+    "commitMessage": "Release v2.0.0 (#3070)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21436515481",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21436515481/job/61728465629"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21436515481/job/61728465631"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21436515481/job/61728465632"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21436515481/job/61728465644"
+      }
+    ]
+  },
+  {
     "commitSha": "2318a00aa63d3e8c600c81b6a083758ba2385080",
     "commitTimestamp": "2026-01-28T10:51:45Z",
     "commitMessage": "docs: update Rspress 1.x documentation links (#3071)",
