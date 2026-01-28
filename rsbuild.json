@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "75e24373ad0130ad8bf08ba64c8b95bb1a531e4a",
+    "commitTimestamp": "2026-01-28T03:39:16Z",
+    "commitMessage": "perf: replace createRequire with require from helpers (#7071)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587/job/61689151652"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587/job/61689151654"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587/job/61689151669"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587/job/61689151671"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587/job/61689151680"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21424020587/job/61689151682"
+      }
+    ]
+  },
+  {
     "commitSha": "be59215ff6e091ccd1a0b820d0df591623990e9d",
     "commitTimestamp": "2026-01-28T03:18:13Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-svelte to ^1.1.0 (#7070)",
