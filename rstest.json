@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "41f9365b5d5631c36885f03c610c760c6b79c7ea",
+    "commitTimestamp": "2026-01-28T06:26:24Z",
+    "commitMessage": "test(e2e): refactor browser snapshot tests for better isolation (#913)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21427644819",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21427644819/job/61699906710"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21427644819/job/61699906711"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21427644819/job/61699906821"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21427644819/job/61699906837"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21427644819/job/61699906840"
+      }
+    ]
+  },
+  {
     "commitSha": "56054823aff1c6e14d8ff45972ec284f9c35d571",
     "commitTimestamp": "2026-01-27T09:17:33Z",
     "commitMessage": "feat: not update snapshots that were not run on test failure (#910)",
