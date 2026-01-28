@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "491c2f383b8b580585c38af089acb3d31eb24635",
+    "commitTimestamp": "2026-01-28T10:29:43Z",
+    "commitMessage": "feat: support filter test by full test name (#916)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21434638476",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21434638476/job/61722227534"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21434638476/job/61722227546"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21434638476/job/61722227557"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21434638476/job/61722227588"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21434638476/job/61722227596"
+      }
+    ]
+  },
+  {
     "commitSha": "47bbcaade8fc5a6c42af5046ff736d5a41fe7d3d",
     "commitTimestamp": "2026-01-28T09:00:09Z",
     "commitMessage": "fix(vscode): relax @rstest/core version requirement (#914)",
