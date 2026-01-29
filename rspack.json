@@ -1,5 +1,78 @@
 [
   {
+    "commitSha": "27a1911c1db2bfa5501dbf34ce4b1afcab544b34",
+    "commitTimestamp": "2026-01-29T11:35:06Z",
+    "commitMessage": "fix: unsafe cache cannot watch symlink (#12885)",
+    "author": {
+      "name": "Cong-Cong Pan",
+      "email": "dacongsama@live.com",
+      "login": "SyMind"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com//web-infra-dev/rspack/actions/runs/21476579726",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "nuxt",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417877"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417881"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417896"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417897"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417898"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417903"
+      },
+      {
+        "name": "devserver",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417908"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417920"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417922"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417939"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/web-infra-dev/rspack/actions/runs/21476579726/job/61862417960"
+      }
+    ]
+  },
+  {
     "commitSha": "eb5242658ffc233c343cc64b1f3d1d3e181dec1f",
     "commitTimestamp": "2026-01-29T11:05:11Z",
     "commitMessage": "fix: should render export name when re-export from different modules (#12886)",
