@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "103c341e0e3f68fcf2c0e6ae672f4ee97ecb889a",
+    "commitTimestamp": "2026-01-29T02:48:06Z",
+    "commitMessage": "test(e2e): add split-chunks test cases (#7078)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454/job/61821201030"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454/job/61821201036"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454/job/61821201037"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454/job/61821201041"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454/job/61821201042"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463692454/job/61821201047"
+      }
+    ]
+  },
+  {
     "commitSha": "57deec69e208ff3679c233d286390eea80f91911",
     "commitTimestamp": "2026-01-29T02:17:32Z",
     "commitMessage": "fix: correctly read split size config (#7076)",
