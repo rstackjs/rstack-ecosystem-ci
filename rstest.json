@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "01a0f3aed5ac476c1a549e89028f9ad7b74fe561",
+    "commitTimestamp": "2026-01-29T16:45:21Z",
+    "commitMessage": "fix(browser): fix headless config and enable coverage support (#922)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21486799785",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21486799785/job/61898184263"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21486799785/job/61898184273"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21486799785/job/61898184285"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21486799785/job/61898184288"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21486799785/job/61898184297"
+      }
+    ]
+  },
+  {
     "commitSha": "ba642999156308710294f1445fbcebb6c1599696",
     "commitTimestamp": "2026-01-29T10:59:34Z",
     "commitMessage": "feat(core): support inspector mode for worker pool (#919)",
