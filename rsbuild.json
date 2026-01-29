@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "188005da22b133ae066ad38dec86d081e233761e",
+    "commitTimestamp": "2026-01-29T06:14:50Z",
+    "commitMessage": "fix: allow to disable default `lib-polyfill` cache group (#7080)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290/job/61833521437"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290/job/61833521439"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290/job/61833521440"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290/job/61833521442"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290/job/61833521444"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21467809290/job/61833521447"
+      }
+    ]
+  },
+  {
     "commitSha": "3ab257312ad797d89eb00cb4f163527c643c1c1d",
     "commitTimestamp": "2026-01-29T03:15:18Z",
     "commitMessage": "feat: remove default `lib-axios` split from default preset (#7079)",
