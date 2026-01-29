@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "ed938a8b1d4f74a0309c4a3e084bf70fccea7829",
+    "commitTimestamp": "2026-01-29T02:25:57Z",
+    "commitMessage": "test: replace performance.chunkSplit with new splitChunks config (#7077)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619/job/61819967228"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619/job/61819967232"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619/job/61819967236"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619/job/61819967237"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619/job/61819967242"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21463257619/job/61819967278"
+      }
+    ]
+  },
+  {
     "commitSha": "57deec69e208ff3679c233d286390eea80f91911",
     "commitTimestamp": "2026-01-29T02:17:32Z",
     "commitMessage": "fix: correctly read split size config (#7076)",
