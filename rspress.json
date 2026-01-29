@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "6cfd3e96026f6b8c2fb3c8602f101b1e7693287e",
+    "commitTimestamp": "2026-01-29T10:06:10Z",
+    "commitMessage": "docs: 2.0.0 publish blog (#2940)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473946792",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473946792/job/61853095563"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473946792/job/61853095568"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473946792/job/61853095570"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473946792/job/61853095583"
+      }
+    ]
+  },
+  {
     "commitSha": "0014766c7909087d6830b49b6c712b283daf3ecd",
     "commitTimestamp": "2026-01-29T09:50:12Z",
     "commitMessage": "feat(nodejs)!: update engines.node to ^20.19.0 || >=22.12.0 (#3073)",
