@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5b1576b1e62d6a2a500868a398079596921500dc",
+    "commitTimestamp": "2026-01-29T06:27:12Z",
+    "commitMessage": "chore(create-rslib): remove git track of auto-generated templates (#1460)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21468088589",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21468088589/job/61834367457"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21468088589/job/61834367460"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21468088589/job/61834367465"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21468088589/job/61834367470"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21468088589/job/61834367481"
+      }
+    ]
+  },
+  {
     "commitSha": "221c66b21fb05609c6f596df5f3f7d765d7fe3a5",
     "commitTimestamp": "2026-01-28T11:03:15Z",
     "commitMessage": "test: refactor runCliSync to unify cli tests (#1458)",
