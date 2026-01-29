@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "9d614e4b7c8a44f87f4b051f3ada100e1e8c8e0e",
+    "commitTimestamp": "2026-01-29T08:57:06Z",
+    "commitMessage": "feat(create-rslib): add Rspress documentation tool templates (#1459)",
+    "author": {
+      "name": "Soon",
+      "email": "sunyiteng@bytedance.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21471823594",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21471823594/job/61845999548"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21471823594/job/61845999573"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21471823594/job/61845999575"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21471823594/job/61845999582"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21471823594/job/61845999585"
+      }
+    ]
+  },
+  {
     "commitSha": "5b1576b1e62d6a2a500868a398079596921500dc",
     "commitTimestamp": "2026-01-29T06:27:12Z",
     "commitMessage": "chore(create-rslib): remove git track of auto-generated templates (#1460)",
