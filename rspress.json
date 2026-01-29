@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "0014766c7909087d6830b49b6c712b283daf3ecd",
+    "commitTimestamp": "2026-01-29T09:50:12Z",
+    "commitMessage": "feat(nodejs)!: update engines.node to ^20.19.0 || >=22.12.0 (#3073)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473450498",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473450498/job/61851441674"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473450498/job/61851441677"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473450498/job/61851441678"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21473450498/job/61851441679"
+      }
+    ]
+  },
+  {
     "commitSha": "ed00b6aa464d403dacd8aff0343b54a139107210",
     "commitTimestamp": "2026-01-28T11:31:06Z",
     "commitMessage": "Release v2.0.0 (#3070)",
