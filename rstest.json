@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "9fe38b22fb51febaada27a2f14d4c268afa5485a",
+    "commitTimestamp": "2026-01-30T09:40:52Z",
+    "commitMessage": "fix(coverage): only apply coverage plugin for main js rule (#925)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511355440",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511355440/job/61978907655"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511355440/job/61978907665"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511355440/job/61978907671"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511355440/job/61978907673"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511355440/job/61978907739"
+      }
+    ]
+  },
+  {
     "commitSha": "5877055e3e9a20e2feda40d70296775988b7e4ac",
     "commitTimestamp": "2026-01-30T08:47:46Z",
     "commitMessage": "fix: exit with code 1 when coverage report generate error (#924)",
