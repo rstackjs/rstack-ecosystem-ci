@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "099a5bd76ccd7478d0a4f837028d400b66a16888",
+    "commitTimestamp": "2026-01-30T03:36:50Z",
+    "commitMessage": "fix(vscode): Unable to use the “Run Tests in File or Folder” feature (#920)",
+    "author": {
+      "name": "claneo",
+      "email": "claneo@outlook.com",
+      "login": "claneo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503486504",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503486504/job/61954579304"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503486504/job/61954579317"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503486504/job/61954579319"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503486504/job/61954579320"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503486504/job/61954579324"
+      }
+    ]
+  },
+  {
     "commitSha": "01a0f3aed5ac476c1a549e89028f9ad7b74fe561",
     "commitTimestamp": "2026-01-29T16:45:21Z",
     "commitMessage": "fix(browser): fix headless config and enable coverage support (#922)",
