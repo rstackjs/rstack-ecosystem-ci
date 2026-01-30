@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d937a5ae369e74eab49051576fb8fa7ff9b35684",
+    "commitTimestamp": "2026-01-30T06:54:43Z",
+    "commitMessage": "release: @rsbuild/plugin-react v1.4.4 (#7089)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339/job/61965998458"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339/job/61965998461"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339/job/61965998468"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339/job/61965998482"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339/job/61965998487"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21507274339/job/61965998548"
+      }
+    ]
+  },
+  {
     "commitSha": "be3247f8842820211a50c1fb58db44679b8d0bf1",
     "commitTimestamp": "2026-01-30T06:54:35Z",
     "commitMessage": "fix(plugin-vue): skip chunk splitting for non-web targets (#7091)",
