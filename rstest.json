@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3aa5f769f53dbb84a83c6b4bd36ee34f76eda72e",
+    "commitTimestamp": "2026-01-30T04:59:26Z",
+    "commitMessage": "chore: bump browserlist (#923)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21504989241",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21504989241/job/61959268009"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21504989241/job/61959268012"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21504989241/job/61959268015"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21504989241/job/61959268021"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21504989241/job/61959268030"
+      }
+    ]
+  },
+  {
     "commitSha": "099a5bd76ccd7478d0a4f837028d400b66a16888",
     "commitTimestamp": "2026-01-30T03:36:50Z",
     "commitMessage": "fix(vscode): Unable to use the “Run Tests in File or Folder” feature (#920)",
