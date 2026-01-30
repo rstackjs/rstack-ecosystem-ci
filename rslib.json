@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "61c39d81e96075a8c6f27d1a389e0b5e95a8234e",
+    "commitTimestamp": "2026-01-30T11:24:24Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1466)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514167891",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514167891/job/61988302525"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514167891/job/61988302531"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514167891/job/61988302532"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514167891/job/61988302540"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514167891/job/61988302543"
+      }
+    ]
+  },
+  {
     "commitSha": "e6dcc79e2b8f7570047d5a082a5637d0187853b4",
     "commitTimestamp": "2026-01-30T11:19:00Z",
     "commitMessage": "fix(create-rslib): support dynamic package name in rspress template (#1465)",
