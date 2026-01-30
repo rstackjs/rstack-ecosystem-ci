@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "e6dcc79e2b8f7570047d5a082a5637d0187853b4",
+    "commitTimestamp": "2026-01-30T11:19:00Z",
+    "commitMessage": "fix(create-rslib): support dynamic package name in rspress template (#1465)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514029020",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514029020/job/61987848197"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514029020/job/61987848199"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514029020/job/61987848217"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514029020/job/61987848226"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21514029020/job/61987848243"
+      }
+    ]
+  },
+  {
     "commitSha": "e744a7c82246b4ebbf502737c4bbeacf9c884281",
     "commitTimestamp": "2026-01-30T10:19:19Z",
     "commitMessage": "fix(create-rslib): remove rspress-js template (#1464)",
