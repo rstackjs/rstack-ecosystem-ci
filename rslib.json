@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "7923896b612669b3d5b8bf22734af85a2e43f406",
+    "commitTimestamp": "2026-01-30T09:59:34Z",
+    "commitMessage": "refactor(create-rslib): use `extraTools` to generate templates (#1462)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511866974",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511866974/job/61980599704"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511866974/job/61980599714"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511866974/job/61980599721"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511866974/job/61980599728"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511866974/job/61980599796"
+      }
+    ]
+  },
+  {
     "commitSha": "9d614e4b7c8a44f87f4b051f3ada100e1e8c8e0e",
     "commitTimestamp": "2026-01-29T08:57:06Z",
     "commitMessage": "feat(create-rslib): add Rspress documentation tool templates (#1459)",
