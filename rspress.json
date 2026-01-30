@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d44b8ba96f5d9f90dd03fd05c16d7d0e00b4a5ac",
+    "commitTimestamp": "2026-01-30T09:07:24Z",
+    "commitMessage": "fix(llms): support multi-version + multi-language in SSG-MD and plugin-llms (#3076)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21510413807",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21510413807/job/61975834248"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21510413807/job/61975834267"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21510413807/job/61975834289"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21510413807/job/61975834301"
+      }
+    ]
+  },
+  {
     "commitSha": "1b2211c5374e118321edba565c5693b08192ef0a",
     "commitTimestamp": "2026-01-30T07:45:54Z",
     "commitMessage": "chore(deps): update @rsbuild/core to 2.0.0-beta.0 (#3077)",
