@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "1b2211c5374e118321edba565c5693b08192ef0a",
+    "commitTimestamp": "2026-01-30T07:45:54Z",
+    "commitMessage": "chore(deps): update @rsbuild/core to 2.0.0-beta.0 (#3077)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21508401969",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21508401969/job/61969395431"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21508401969/job/61969395434"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21508401969/job/61969395439"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21508401969/job/61969395450"
+      }
+    ]
+  },
+  {
     "commitSha": "6cfd3e96026f6b8c2fb3c8602f101b1e7693287e",
     "commitTimestamp": "2026-01-29T10:06:10Z",
     "commitMessage": "docs: 2.0.0 publish blog (#2940)",
