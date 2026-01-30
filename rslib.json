@@ -43,6 +43,49 @@
     ]
   },
   {
+    "commitSha": "72bc87391bc96c73278bf06fee112d9875c2ffe7",
+    "commitTimestamp": "2026-01-30T10:07:42Z",
+    "commitMessage": "fix(shims): `import.meta.url` not being removed by tree-shaking (#1463)",
+    "author": {
+      "name": "泷涯",
+      "email": "896640547@qq.com",
+      "login": "sylingd"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21512105525",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21512105525/job/61981394539"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21512105525/job/61981394541"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21512105525/job/61981394542"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21512105525/job/61981394561"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21512105525/job/61981394573"
+      }
+    ]
+  },
+  {
     "commitSha": "7923896b612669b3d5b8bf22734af85a2e43f406",
     "commitTimestamp": "2026-01-30T09:59:34Z",
     "commitMessage": "refactor(create-rslib): use `extraTools` to generate templates (#1462)",
