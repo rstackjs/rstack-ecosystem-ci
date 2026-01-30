@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ff148684a2d3c93fd43ef440abdb67ed1d7f647e",
+    "commitTimestamp": "2026-01-30T13:28:03Z",
+    "commitMessage": "Release v0.19.4 (#1469)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "50201324+Timeless0911@users.noreply.github.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21517438768",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21517438768/job/61999272296"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21517438768/job/61999272314"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21517438768/job/61999272340"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21517438768/job/61999272346"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21517438768/job/61999272395"
+      }
+    ]
+  },
+  {
     "commitSha": "d7f51d69a1940e9d852d02bfe41b49ea4db5713e",
     "commitTimestamp": "2026-01-30T13:02:26Z",
     "commitMessage": "fix(create-rslib): improve template argument parsing and defaults (#1467)",
