@@ -42,6 +42,6 @@ export async function test(options: RunOptions) {
         await cache.saveCache([nxCachePath], nxCacheKey);
       }
     },
-    test: ['test:rstest'],
+    test: ['test:ut'],
   });
 }
