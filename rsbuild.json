@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2422d5100904fc1f2b8b87acca426a4183e75ebd",
+    "commitTimestamp": "2026-01-30T03:09:27Z",
+    "commitMessage": "chore(deps): update dependency happy-dom to ^20.4.0 (#7082)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666/job/61953116978"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666/job/61953116979"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666/job/61953116990"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666/job/61953116991"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666/job/61953116992"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21502998666/job/61953117007"
+      }
+    ]
+  },
+  {
     "commitSha": "188005da22b133ae066ad38dec86d081e233761e",
     "commitTimestamp": "2026-01-29T06:14:50Z",
     "commitMessage": "fix: allow to disable default `lib-polyfill` cache group (#7080)",
