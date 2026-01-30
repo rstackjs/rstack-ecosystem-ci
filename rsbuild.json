@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "42e0bc25305cb4f24e09d48fc9e83972d4ca1f48",
+    "commitTimestamp": "2026-01-30T06:31:13Z",
+    "commitMessage": "release: 2.0.0-beta.0 (#7088)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402/job/61964557285"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402/job/61964557290"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402/job/61964557291"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402/job/61964557293"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402/job/61964557294"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21506787402/job/61964557296"
+      }
+    ]
+  },
+  {
     "commitSha": "a6047b32d0d6377b2ef6805d587bf269e3af5d29",
     "commitTimestamp": "2026-01-30T05:10:44Z",
     "commitMessage": "fix(mf): remove unnecessary chunk split rules (#7086)",
