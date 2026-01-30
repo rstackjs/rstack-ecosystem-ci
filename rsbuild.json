@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "68a26216aa56c33ddb0389e18aeb7af3a77c50c6",
+    "commitTimestamp": "2026-01-30T03:25:30Z",
+    "commitMessage": "feat: support boolean type for server host configuration (#7084)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962/job/61954025815"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962/job/61954025818"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962/job/61954025820"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962/job/61954025822"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962/job/61954025823"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503288962/job/61954025824"
+      }
+    ]
+  },
+  {
     "commitSha": "76bc2a95a1ce2669079cdf03ef42d361dd82820f",
     "commitTimestamp": "2026-01-30T03:11:09Z",
     "commitMessage": "chore(deps): update dependency vue-router to v5 (#7083)",
