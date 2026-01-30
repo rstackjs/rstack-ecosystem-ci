@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "76bc2a95a1ce2669079cdf03ef42d361dd82820f",
+    "commitTimestamp": "2026-01-30T03:11:09Z",
+    "commitMessage": "chore(deps): update dependency vue-router to v5 (#7083)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000/job/61953368963"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000/job/61953368972"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000/job/61953368974"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000/job/61953368980"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000/job/61953368981"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21503066000/job/61953368997"
+      }
+    ]
+  },
+  {
     "commitSha": "2422d5100904fc1f2b8b87acca426a4183e75ebd",
     "commitTimestamp": "2026-01-30T03:09:27Z",
     "commitMessage": "chore(deps): update dependency happy-dom to ^20.4.0 (#7082)",
