@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5877055e3e9a20e2feda40d70296775988b7e4ac",
+    "commitTimestamp": "2026-01-30T08:47:46Z",
+    "commitMessage": "fix: exit with code 1 when coverage report generate error (#924)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21509909249",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21509909249/job/61974158384"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21509909249/job/61974158397"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21509909249/job/61974158398"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21509909249/job/61974158400"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21509909249/job/61974158409"
+      }
+    ]
+  },
+  {
     "commitSha": "3aa5f769f53dbb84a83c6b4bd36ee34f76eda72e",
     "commitTimestamp": "2026-01-30T04:59:26Z",
     "commitMessage": "chore: bump browserlist (#923)",
