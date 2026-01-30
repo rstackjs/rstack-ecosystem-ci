@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a68fd2bd69135bdf1edf9f5db00b4a803406ddca",
+    "commitTimestamp": "2026-01-30T09:49:53Z",
+    "commitMessage": "docs: update 2.0 blog and theme styles (#3075)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511603097",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511603097/job/61979727712"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511603097/job/61979727721"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511603097/job/61979727722"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21511603097/job/61979727732"
+      }
+    ]
+  },
+  {
     "commitSha": "d44b8ba96f5d9f90dd03fd05c16d7d0e00b4a5ac",
     "commitTimestamp": "2026-01-30T09:07:24Z",
     "commitMessage": "fix(llms): support multi-version + multi-language in SSG-MD and plugin-llms (#3076)",
