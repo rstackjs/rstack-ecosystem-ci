@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "da87af8c8a1f1147d94189a743092551a664a24d",
+    "commitTimestamp": "2026-01-31T05:01:49Z",
+    "commitMessage": "fix(theme): add margin-bottom to homefeature and use clsx for homebackground (#3081)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539168781",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539168781/job/62070739089"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539168781/job/62070739090"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539168781/job/62070739091"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539168781/job/62070739106"
+      }
+    ]
+  },
+  {
     "commitSha": "d5fe80c41edbf022e07cc55cfb8582da35e8337c",
     "commitTimestamp": "2026-01-31T04:53:00Z",
     "commitMessage": "feat: consider mf async entry scene (#3079)",
