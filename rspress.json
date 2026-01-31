@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "7e00c83bce839cb12276b6d365faab280cb3e7f1",
+    "commitTimestamp": "2026-01-31T04:37:09Z",
+    "commitMessage": "test: disable e2e lazyCompilation temporary (#3082)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538870626",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538870626/job/62069932235"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538870626/job/62069932238"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538870626/job/62069932251"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538870626/job/62069932258"
+      }
+    ]
+  },
+  {
     "commitSha": "4460581257d2ef0ccf62e85aaa001ceaec0887a8",
     "commitTimestamp": "2026-01-31T04:23:39Z",
     "commitMessage": "fix(plugin-api-docgen): support HMR by using rsbuild-plugin-virtual-module (#3080)",
