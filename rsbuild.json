@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "96ff45aba94819a2722fda70155364744966d3c6",
+    "commitTimestamp": "2026-01-31T01:54:56Z",
+    "commitMessage": "chore(deps): update swc monorepo to ^12.5.0 (#7096)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149/job/62063925554"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149/job/62063925556"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149/job/62063925557"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149/job/62063925559"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149/job/62063925562"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21536761149/job/62063925566"
+      }
+    ]
+  },
+  {
     "commitSha": "52d3ea4f6aca34ad0c2cf5237d23eada97350e3d",
     "commitTimestamp": "2026-01-30T06:59:34Z",
     "commitMessage": "release: @rsbuild/plugin-vue v1.2.4 (#7092)",
