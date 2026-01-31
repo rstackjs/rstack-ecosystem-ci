@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "d5fe80c41edbf022e07cc55cfb8582da35e8337c",
+    "commitTimestamp": "2026-01-31T04:53:00Z",
+    "commitMessage": "feat: consider mf async entry scene (#3079)",
+    "author": {
+      "name": "Hanric",
+      "email": "TwoHeal@163.com",
+      "login": "2heal1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539068313",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539068313/job/62070466325"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539068313/job/62070466326"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539068313/job/62070466327"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21539068313/job/62070466328"
+      }
+    ]
+  },
+  {
     "commitSha": "7e00c83bce839cb12276b6d365faab280cb3e7f1",
     "commitTimestamp": "2026-01-31T04:37:09Z",
     "commitMessage": "test: disable e2e lazyCompilation temporary (#3082)",
