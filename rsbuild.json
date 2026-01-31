@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "be736b2817d1d9aef2adbcb803690667bb05e522",
+    "commitTimestamp": "2026-01-31T08:21:24Z",
+    "commitMessage": "feat: add support for 'none' preset in splitChunks (#7099)",
+    "author": {
+      "name": "neverland",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702/job/62076903935"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702/job/62076903939"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702/job/62076903941"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702/job/62076903942"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702/job/62076903944"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21541621702/job/62076903947"
+      }
+    ]
+  },
+  {
     "commitSha": "f036abd898b247a14a9025781186d19d4a75d3ea",
     "commitTimestamp": "2026-01-31T01:55:02Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/plugin-vue2 to ^1.1.0 (#7095)",
