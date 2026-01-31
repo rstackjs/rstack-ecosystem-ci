@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4460581257d2ef0ccf62e85aaa001ceaec0887a8",
+    "commitTimestamp": "2026-01-31T04:23:39Z",
+    "commitMessage": "fix(plugin-api-docgen): support HMR by using rsbuild-plugin-virtual-module (#3080)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538684948",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538684948/job/62069438008"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538684948/job/62069438013"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538684948/job/62069438014"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/21538684948/job/62069438021"
+      }
+    ]
+  },
+  {
     "commitSha": "a68fd2bd69135bdf1edf9f5db00b4a803406ddca",
     "commitTimestamp": "2026-01-30T09:49:53Z",
     "commitMessage": "docs: update 2.0 blog and theme styles (#3075)",
