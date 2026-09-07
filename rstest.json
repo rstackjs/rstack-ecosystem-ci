@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d28127548802bf42bb0a50f1cdf5841a79ce7897",
+    "commitTimestamp": "2026-09-07T15:27:29Z",
+    "commitMessage": "refactor(core)!: express exact file filters with quotes (#1804)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693080"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693145"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693302"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693320"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693342"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693385"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34138428620/job/101794693506"
+      }
+    ]
+  },
+  {
     "commitSha": "dd28e060b02d911aaede35a42b7db6f8faaa432d",
     "commitTimestamp": "2026-09-07T14:16:46Z",
     "commitMessage": "refactor(core): run tests through the public createRstest API (#1803)",
