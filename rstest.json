@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8317af40dfe31dccf39902b32d4fa6443b42a527",
+    "commitTimestamp": "2026-09-07T09:28:08Z",
+    "commitMessage": "fix(playwright): preserve assertion errors at timeout (#1798)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694502879"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694502916"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694503013"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694503068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694503108"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694503110"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34107094409/job/101694503222"
+      }
+    ]
+  },
+  {
     "commitSha": "f67ad841942e5be54780466de21f0381f4eac504",
     "commitTimestamp": "2026-09-07T08:56:23Z",
     "commitMessage": "refactor(core): run merge-reports through the public API (#1796)",
