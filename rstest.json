@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "90eab35dd85cdb7778b2e673baa5c4f8536d11c0",
+    "commitTimestamp": "2026-09-07T03:26:42Z",
+    "commitMessage": "refactor(core): move list rendering to the CLI (#1787)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613027939"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613028102"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613028111"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613028152"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613028160"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613028179"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34079881744/job/101613028238"
+      }
+    ]
+  },
+  {
     "commitSha": "1fe4c6954441a96e4f769f4831e562ef56027f0f",
     "commitTimestamp": "2026-09-05T10:14:34Z",
     "commitMessage": "perf(core): skip mock hoisting for environment bundles (#1790)",
