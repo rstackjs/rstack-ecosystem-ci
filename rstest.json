@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "644806c40d31ed81bd088a4b12e13baf9a7168f5",
+    "commitTimestamp": "2026-09-07T06:04:10Z",
+    "commitMessage": "chore(deps): update dependency @rsbuild/core to ~2.2.3 (#1794)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810568"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810590"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810638"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810650"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810672"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810721"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34089451252/job/101639810730"
+      }
+    ]
+  },
+  {
     "commitSha": "d82db4fc31a61ee74b2a74917f14a458e1bca419",
     "commitTimestamp": "2026-09-07T05:00:58Z",
     "commitMessage": "refactor(core): match runCLI argv to the process.argv shape (#1792)",
