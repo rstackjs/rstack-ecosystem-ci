@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "656313d73a67fd81ed6805fefd66448015c9bbd4",
+    "commitTimestamp": "2026-09-07T02:20:24Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#8435)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043889"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043890"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043911"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043941"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043947"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043948"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043955"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34075977028/job/101602043995"
+      }
+    ]
+  },
+  {
     "commitSha": "53d1c36c7022af808e4aa1e1b26dc82fd80c3326",
     "commitTimestamp": "2026-09-06T09:20:15Z",
     "commitMessage": "chore(deps): update dependency octane to ^0.2.3 (#8433)",
