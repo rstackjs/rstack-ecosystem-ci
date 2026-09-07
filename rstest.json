@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "dd28e060b02d911aaede35a42b7db6f8faaa432d",
+    "commitTimestamp": "2026-09-07T14:16:46Z",
+    "commitMessage": "refactor(core): run tests through the public createRstest API (#1803)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774411737"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774411751"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774411767"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774411891"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774411943"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774412043"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34132107441/job/101774412254"
+      }
+    ]
+  },
+  {
     "commitSha": "20d62c402185c0bf3f91f0d659724a4edb80b9be",
     "commitTimestamp": "2026-09-07T10:45:54Z",
     "commitMessage": "perf(core): reuse successful jsdom compatibility probes (#1800)",
