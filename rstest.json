@@ -53,6 +53,59 @@
     ]
   },
   {
+    "commitSha": "48c69b5d5e53809cca41586f97a704bab1362c70",
+    "commitTimestamp": "2026-09-07T07:52:55Z",
+    "commitMessage": "feat(core): support virtual setup files (#1783)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486230"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486262"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486310"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486409"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486419"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486434"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34098213737/job/101666486463"
+      }
+    ]
+  },
+  {
     "commitSha": "644806c40d31ed81bd088a4b12e13baf9a7168f5",
     "commitTimestamp": "2026-09-07T06:04:10Z",
     "commitMessage": "chore(deps): update dependency @rsbuild/core to ~2.2.3 (#1794)",
