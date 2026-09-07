@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "8143003d9aef0bbe6b403ecc9ef806de86d0d4ba",
+    "commitTimestamp": "2026-09-07T02:57:00Z",
+    "commitMessage": "fix(plugin-twoslash): relax typescript peerDependency to ^5.5.0 || ^6.0.0 (#3657)",
+    "author": {
+      "name": "Qingyu Wang",
+      "email": "40660121+colinaaa@users.noreply.github.com",
+      "login": "colinaaa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34077990004",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34077990004/job/101607748084"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34077990004/job/101607748116"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34077990004/job/101607748149"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34077990004/job/101607748186"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34077990004/job/101607748197"
+      }
+    ]
+  },
+  {
     "commitSha": "60c4b453b6fc220dcc9c38eb62726d1b8d951564",
     "commitTimestamp": "2026-09-03T09:32:53Z",
     "commitMessage": "chore(deps): update Rslib to v1.0.0 (#3655)",
