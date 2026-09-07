@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "a526610558f4d405376fc151db5d21e1363bf1ea",
+    "commitTimestamp": "2026-09-07T03:33:57Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3659)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34080980579",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34080980579/job/101616057278"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34080980579/job/101616057422"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34080980579/job/101616057423"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34080980579/job/101616057424"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34080980579/job/101616057490"
+      }
+    ]
+  },
+  {
     "commitSha": "8143003d9aef0bbe6b403ecc9ef806de86d0d4ba",
     "commitTimestamp": "2026-09-07T02:57:00Z",
     "commitMessage": "fix(plugin-twoslash): relax typescript peerDependency to ^5.5.0 || ^6.0.0 (#3657)",
