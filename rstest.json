@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "20d62c402185c0bf3f91f0d659724a4edb80b9be",
+    "commitTimestamp": "2026-09-07T10:45:54Z",
+    "commitMessage": "perf(core): reuse successful jsdom compatibility probes (#1800)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818081"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818091"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818160"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818224"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818247"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818283"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34113170074/job/101713818301"
+      }
+    ]
+  },
+  {
     "commitSha": "8317af40dfe31dccf39902b32d4fa6443b42a527",
     "commitTimestamp": "2026-09-07T09:28:08Z",
     "commitMessage": "fix(playwright): preserve assertion errors at timeout (#1798)",
