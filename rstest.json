@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f67ad841942e5be54780466de21f0381f4eac504",
+    "commitTimestamp": "2026-09-07T08:56:23Z",
+    "commitMessage": "refactor(core): run merge-reports through the public API (#1796)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683198766"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683198872"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683198890"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683199007"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683199009"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683199030"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34103520876/job/101683199178"
+      }
+    ]
+  },
+  {
     "commitSha": "b2331bd2afdac97d8f4ca2ce004ea9d432f471ce",
     "commitTimestamp": "2026-09-07T07:57:11Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1793)",
