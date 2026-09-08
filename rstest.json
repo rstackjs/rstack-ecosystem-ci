@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "994b77e0674a4889ce3daf6573e00176337f767a",
+    "commitTimestamp": "2026-09-08T09:40:42Z",
+    "commitMessage": "refactor(core): run watch mode through the public createRstest API (#1807)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901413"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901432"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901453"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901477"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901499"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901629"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34211367313/job/102012901706"
+      }
+    ]
+  },
+  {
     "commitSha": "88cd5f6d9192773f210cc2315b864ace37bf42e5",
     "commitTimestamp": "2026-09-08T08:00:18Z",
     "commitMessage": "feat(core): support browser projects in the public watch API (#1806)",
