@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "89f2654240d0ea94a12519fc9388ac636e6ad40e",
+    "commitTimestamp": "2026-09-08T03:08:26Z",
+    "commitMessage": "feat(playwright): support config via extends (#1799)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257012"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257041"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257059"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257065"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257082"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257131"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34182504050/job/101924257197"
+      }
+    ]
+  },
+  {
     "commitSha": "d28127548802bf42bb0a50f1cdf5841a79ce7897",
     "commitTimestamp": "2026-09-07T15:27:29Z",
     "commitMessage": "refactor(core)!: express exact file filters with quotes (#1804)",
