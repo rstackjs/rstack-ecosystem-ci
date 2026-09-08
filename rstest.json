@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "11d02c2a53b0e4bc565aabc2ee75d4e257b6df41",
+    "commitTimestamp": "2026-09-08T11:09:06Z",
+    "commitMessage": "feat(core): add vmForks pool support (#1808)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056662"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056695"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056738"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056763"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056780"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056803"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34219195363/job/102038056816"
+      }
+    ]
+  },
+  {
     "commitSha": "994b77e0674a4889ce3daf6573e00176337f767a",
     "commitTimestamp": "2026-09-08T09:40:42Z",
     "commitMessage": "refactor(core): run watch mode through the public createRstest API (#1807)",
