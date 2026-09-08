@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c4388fa3e96d97b6f1d64c6c6ac55c8c5eaff209",
+    "commitTimestamp": "2026-09-08T08:51:42Z",
+    "commitMessage": "release: @rsbuild/plugin-solid v2.0.0-rc.0 (#8451)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207002"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207045"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207046"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207126"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207164"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207262"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207280"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34206839902/job/101998207318"
+      }
+    ]
+  },
+  {
     "commitSha": "d16aafbc969d09418f77e13a7d8b05661b06e228",
     "commitTimestamp": "2026-09-08T08:27:20Z",
     "commitMessage": "test: fail e2e tests on unexpected build warnings (#8449)",
