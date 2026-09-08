@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "88cd5f6d9192773f210cc2315b864ace37bf42e5",
+    "commitTimestamp": "2026-09-08T08:00:18Z",
+    "commitMessage": "feat(core): support browser projects in the public watch API (#1806)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373457"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373472"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373485"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373505"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373561"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373651"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202203981/job/101983373801"
+      }
+    ]
+  },
+  {
     "commitSha": "bbca71a524defa8b89db73df6ffb91f8a93874c2",
     "commitTimestamp": "2026-09-08T07:03:29Z",
     "commitMessage": "feat(core): add vmThreads pool support (#1755)",
