@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "ec8efb782b98481a6c11a3a70a77ebc5a79502dc",
+    "commitTimestamp": "2026-09-08T06:11:19Z",
+    "commitMessage": "fix: pre-register modules before chunk graph splitting (#15308)",
+    "author": {
+      "name": "Matt Van Horn",
+      "email": "mvanhorn@users.noreply.github.com",
+      "login": "mvanhorn"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138220"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138235"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138243"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138253"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138256"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138257"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138258"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138273"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138298"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138305"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138361"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34194125356/job/101958138389"
+      }
+    ]
+  },
+  {
     "commitSha": "aae4ecd02c11f374ad48a3e6d791f60372181682",
     "commitTimestamp": "2026-09-08T05:56:39Z",
     "commitMessage": "perf(javascript): reduce atom materialization in parser walkers (#15515)",
