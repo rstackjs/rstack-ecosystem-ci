@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e5e17cc36a0b6585ec802d6bdecae656d3010fb1",
+    "commitTimestamp": "2026-09-08T08:06:28Z",
+    "commitMessage": "chore(build): enable Rspack runtime mode (#8448)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119429"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119474"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119529"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119569"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119602"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119613"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119651"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34202755445/job/101985119736"
+      }
+    ]
+  },
+  {
     "commitSha": "84ab0a262e9f26c4738932c0ef1637b60874b9c9",
     "commitTimestamp": "2026-09-08T07:50:23Z",
     "commitMessage": "test(plugin-solid): expand SSR and hydration coverage (#8447)",
