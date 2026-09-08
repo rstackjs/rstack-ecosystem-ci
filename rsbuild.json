@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8a99161600e32e258b16638d94119574e1ec2f85",
+    "commitTimestamp": "2026-09-08T07:22:46Z",
+    "commitMessage": "refactor(plugin-solid): simplify compiler defaults (#8446)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229216"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229241"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229255"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229267"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229327"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229346"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229385"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34199319036/job/101974229422"
+      }
+    ]
+  },
+  {
     "commitSha": "810d4927b28094eb7b5c4f0d2277a196f5cda7e0",
     "commitTimestamp": "2026-09-08T07:08:10Z",
     "commitMessage": "refactor(plugin-solid): migrate to Solid compiler packages (#8445)",
