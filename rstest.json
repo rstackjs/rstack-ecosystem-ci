@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "6ad771e8d47a93ed299f95a32aa711c50e8dd16e",
+    "commitTimestamp": "2026-09-08T13:21:04Z",
+    "commitMessage": "refactor(core): throw config and browser-module errors instead of exiting (#1809)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078410954"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078411153"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078411167"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078411190"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078411260"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078411371"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34231469352/job/102078411391"
+      }
+    ]
+  },
+  {
     "commitSha": "11d02c2a53b0e4bc565aabc2ee75d4e257b6df41",
     "commitTimestamp": "2026-09-08T11:09:06Z",
     "commitMessage": "feat(core): add vmForks pool support (#1808)",
