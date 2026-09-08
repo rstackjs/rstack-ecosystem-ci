@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "99be33e8da43d1af3c17c010938423aac9f93b5c",
+    "commitTimestamp": "2026-09-08T04:03:25Z",
+    "commitMessage": "refactor(core)!: list tests through the public createRstest API (#1805)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320617"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320736"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320748"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320803"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320814"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320843"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34185637374/job/101933320849"
+      }
+    ]
+  },
+  {
     "commitSha": "89f2654240d0ea94a12519fc9388ac636e6ad40e",
     "commitTimestamp": "2026-09-08T03:08:26Z",
     "commitMessage": "feat(playwright): support config via extends (#1799)",
