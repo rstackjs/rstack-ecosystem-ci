@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "bbca71a524defa8b89db73df6ffb91f8a93874c2",
+    "commitTimestamp": "2026-09-08T07:03:29Z",
+    "commitMessage": "feat(core): add vmThreads pool support (#1755)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425323"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425347"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425358"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425412"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425426"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425593"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34197505857/job/101968425595"
+      }
+    ]
+  },
+  {
     "commitSha": "99be33e8da43d1af3c17c010938423aac9f93b5c",
     "commitTimestamp": "2026-09-08T04:03:25Z",
     "commitMessage": "refactor(core)!: list tests through the public createRstest API (#1805)",
