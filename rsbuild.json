@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "12f905d62c479d99c5b9fe35a1bfc6d0bc582049",
+    "commitTimestamp": "2026-09-08T09:31:05Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.2.3 (#8453)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010116868"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010116887"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010116906"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010116940"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010117005"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010117053"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010117122"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34210506478/job/102010117255"
+      }
+    ]
+  },
+  {
     "commitSha": "c4388fa3e96d97b6f1d64c6c6ac55c8c5eaff209",
     "commitTimestamp": "2026-09-08T08:51:42Z",
     "commitMessage": "release: @rsbuild/plugin-solid v2.0.0-rc.0 (#8451)",
