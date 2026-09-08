@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4ec0533bc566169e9d38c504ba8a3199d92388d5",
+    "commitTimestamp": "2026-09-08T02:04:26Z",
+    "commitMessage": "fix(deps): upgrade rspack-chain to 2.3.2 (#8441)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454665"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454669"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454691"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454724"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454737"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454759"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454767"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34178799132/job/101913454801"
+      }
+    ]
+  },
+  {
     "commitSha": "8c55c3b192d7c82bc2a48fc695c2472b6926c958",
     "commitTimestamp": "2026-09-07T13:55:17Z",
     "commitMessage": "fix: defer build logs until all progress bars finish (#8440)",
