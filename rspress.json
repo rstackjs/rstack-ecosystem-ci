@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "66e0b6211284614f6e27ea606785181502429daf",
+    "commitTimestamp": "2026-09-09T08:02:15Z",
+    "commitMessage": "fix(core): use native paths for route files (#3664)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329284770",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329284770/job/102393814959"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329284770/job/102393815040"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329284770/job/102393815079"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329284770/job/102393815119"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329284770/job/102393815188"
+      }
+    ]
+  },
+  {
     "commitSha": "a526610558f4d405376fc151db5d21e1363bf1ea",
     "commitTimestamp": "2026-09-07T03:33:57Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3659)",
