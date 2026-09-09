@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "9c056458ee4dbac031c0dc280339e96dd8429194",
+    "commitTimestamp": "2026-09-09T08:03:57Z",
+    "commitMessage": "chore(deps): update dependency path-serializer to v0.7.0 (#3662)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329387766",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329387766/job/102394151864"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329387766/job/102394152056"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329387766/job/102394152099"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329387766/job/102394152113"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34329387766/job/102394152212"
+      }
+    ]
+  },
+  {
     "commitSha": "66e0b6211284614f6e27ea606785181502429daf",
     "commitTimestamp": "2026-09-09T08:02:15Z",
     "commitMessage": "fix(core): use native paths for route files (#3664)",
