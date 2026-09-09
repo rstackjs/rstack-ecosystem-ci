@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e6be74b8a1ff353e810df6e9c4b2ef733c8b4e9a",
+    "commitTimestamp": "2026-09-09T09:42:05Z",
+    "commitMessage": "release: v2.2.5 (#8471)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417310954"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311005"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311042"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311053"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311071"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311096"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311112"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34336591208/job/102417311282"
+      }
+    ]
+  },
+  {
     "commitSha": "71a556d0aff3ddb56710c2abc2ee1c10efa29736",
     "commitTimestamp": "2026-09-09T09:14:29Z",
     "commitMessage": "chore(deps): upgrade @rstackjs/load-config to v1.0.0 (#8470)",
