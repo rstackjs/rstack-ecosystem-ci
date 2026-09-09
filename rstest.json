@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "9cc0d511bb5fa97d2a80e2879a9998bced6c6d07",
+    "commitTimestamp": "2026-09-09T08:58:43Z",
+    "commitMessage": "fix(core): validate project names at instance creation (#1820)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920069"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920430"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920460"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920496"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920537"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920557"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332123260/job/102402920623"
+      }
+    ]
+  },
+  {
     "commitSha": "0a2e182caa79df7d9638a4c580082424ee851343",
     "commitTimestamp": "2026-09-09T07:33:34Z",
     "commitMessage": "fix(core): retry a failed globalSetup on the next watch cycle (#1818)",
