@@ -43,6 +43,49 @@
     ]
   },
   {
+    "commitSha": "adf293855fd288391184ef3ff68d88f219d62af9",
+    "commitTimestamp": "2026-09-09T11:22:02Z",
+    "commitMessage": "fix(theme/SwitchAppearance): correct appearance transition animation (#3661)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345213984",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345213984/job/102445095905"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345213984/job/102445096004"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345213984/job/102445096100"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345213984/job/102445096141"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345213984/job/102445096197"
+      }
+    ]
+  },
+  {
     "commitSha": "05e56453f2f92a0cf30c7cabec22f74f135cbc29",
     "commitTimestamp": "2026-09-09T11:13:55Z",
     "commitMessage": "chore(deps): update rstack (#3647)",
