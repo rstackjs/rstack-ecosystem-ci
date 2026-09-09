@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e909dd02070298641392d579b8208bafb0f74422",
+    "commitTimestamp": "2026-09-09T04:08:10Z",
+    "commitMessage": "fix(core): extend worker cleanup timeout (#1813)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925354"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925455"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925470"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925483"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925506"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925524"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34309799412/job/102333925532"
+      }
+    ]
+  },
+  {
     "commitSha": "6ad771e8d47a93ed299f95a32aa711c50e8dd16e",
     "commitTimestamp": "2026-09-08T13:21:04Z",
     "commitMessage": "refactor(core): throw config and browser-module errors instead of exiting (#1809)",
