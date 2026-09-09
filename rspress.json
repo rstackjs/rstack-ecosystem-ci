@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "159644b4f2ff2ddf67c85cff4e33f451b0b0c5b5",
+    "commitTimestamp": "2026-09-09T11:27:19Z",
+    "commitMessage": "chore(deps): update dependency typedoc-plugin-markdown to v4.13.0 (#3663)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345677708",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345677708/job/102446586628"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345677708/job/102446586690"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345677708/job/102446586703"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345677708/job/102446586773"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34345677708/job/102446586881"
+      }
+    ]
+  },
+  {
     "commitSha": "05e56453f2f92a0cf30c7cabec22f74f135cbc29",
     "commitTimestamp": "2026-09-09T11:13:55Z",
     "commitMessage": "chore(deps): update rstack (#3647)",
