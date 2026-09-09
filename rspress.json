@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "05e56453f2f92a0cf30c7cabec22f74f135cbc29",
+    "commitTimestamp": "2026-09-09T11:13:55Z",
+    "commitMessage": "chore(deps): update rstack (#3647)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34344485984",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34344485984/job/102442735063"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34344485984/job/102442735066"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34344485984/job/102442735132"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34344485984/job/102442735208"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34344485984/job/102442735219"
+      }
+    ]
+  },
+  {
     "commitSha": "ef930ddbd38ac71b9a9d35468937e7c2c08cf028",
     "commitTimestamp": "2026-09-09T09:53:47Z",
     "commitMessage": "docs: add interactive layout slot preview (#3668)",
