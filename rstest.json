@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "833eb9d870021aedf1c7fcfc82d5d73a4bd708b7",
+    "commitTimestamp": "2026-09-09T05:24:39Z",
+    "commitMessage": "fix(browser): keep an empty watch session alive so added test files run (#1816)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606544"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606549"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606557"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606600"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606636"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606668"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34314778680/job/102348606670"
+      }
+    ]
+  },
+  {
     "commitSha": "e909dd02070298641392d579b8208bafb0f74422",
     "commitTimestamp": "2026-09-09T04:08:10Z",
     "commitMessage": "fix(core): extend worker cleanup timeout (#1813)",
