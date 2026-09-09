@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "0a2e182caa79df7d9638a4c580082424ee851343",
+    "commitTimestamp": "2026-09-09T07:33:34Z",
+    "commitMessage": "fix(core): retry a failed globalSetup on the next watch cycle (#1818)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102436"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102454"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102464"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102471"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102477"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102513"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34325310334/job/102381102525"
+      }
+    ]
+  },
+  {
     "commitSha": "c53e0b5209e70caac2246a877332f976e3793521",
     "commitTimestamp": "2026-09-09T07:17:53Z",
     "commitMessage": "chore(deps): update rsbuild and rspack (#1819)",
