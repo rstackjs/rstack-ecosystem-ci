@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "62fddb9b4596f78e262e704858d9f09d8842982a",
+    "commitTimestamp": "2026-09-09T08:58:25Z",
+    "commitMessage": "chore: update pull request template and skills (#3669)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332105067",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332105067/job/102402862567"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332105067/job/102402862700"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332105067/job/102402862707"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332105067/job/102402862767"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34332105067/job/102402862792"
+      }
+    ]
+  },
+  {
     "commitSha": "4089a630bcfe3c8befa9d70878762de68c535c66",
     "commitTimestamp": "2026-09-09T08:05:29Z",
     "commitMessage": "chore: enable Rstest lint rules (#3665)",
