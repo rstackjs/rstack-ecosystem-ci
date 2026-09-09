@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c53e0b5209e70caac2246a877332f976e3793521",
+    "commitTimestamp": "2026-09-09T07:17:53Z",
+    "commitMessage": "chore(deps): update rsbuild and rspack (#1819)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374225909"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374226050"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374226108"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374226110"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374226174"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374226203"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34323162996/job/102374226241"
+      }
+    ]
+  },
+  {
     "commitSha": "833eb9d870021aedf1c7fcfc82d5d73a4bd708b7",
     "commitTimestamp": "2026-09-09T05:24:39Z",
     "commitMessage": "fix(browser): keep an empty watch session alive so added test files run (#1816)",
