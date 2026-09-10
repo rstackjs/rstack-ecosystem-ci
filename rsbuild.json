@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c0604172b90c8cad4b2b6f390ae3e7f6d336a3cf",
+    "commitTimestamp": "2026-09-10T07:06:01Z",
+    "commitMessage": "chore(docs): disable automatic browser opening (#8474)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833190"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833299"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833313"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833315"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833340"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833341"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833410"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34449837065/job/102782833444"
+      }
+    ]
+  },
+  {
     "commitSha": "166b33f1b0d1edf604455c1c3c24f516ec678429",
     "commitTimestamp": "2026-09-10T06:48:47Z",
     "commitMessage": "chore(deps): upgrade pnpm to v12.4.0 (#8473)",
