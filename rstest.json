@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c0fd9f1d0949a90557fecc99b19ecab96fd04d9c",
+    "commitTimestamp": "2026-09-10T12:46:14Z",
+    "commitMessage": "refactor(core): reuse Rsbuild config file discovery (#1831)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584436"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584445"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584598"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584628"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584648"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584684"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34478650155/job/102875584742"
+      }
+    ]
+  },
+  {
     "commitSha": "73725baf29d598fafb782bd5eada5211eacba3f8",
     "commitTimestamp": "2026-09-10T08:58:44Z",
     "commitMessage": "fix(core): avoid reporting cancelled tests as worker failures (#1829)",
