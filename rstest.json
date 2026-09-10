@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "0dcbb2e01592b810793cf7e66823003e27ab974c",
+    "commitTimestamp": "2026-09-10T03:22:48Z",
+    "commitMessage": "fix(core): spy on accessor-backed module exports in VM pools (#1822)",
+    "author": {
+      "name": "Brian Kemper",
+      "email": "bkemper@gmail.com",
+      "login": "Gobd"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588668"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588752"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588829"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588845"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588880"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588899"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433113743/job/102732588936"
+      }
+    ]
+  },
+  {
     "commitSha": "9cc0d511bb5fa97d2a80e2879a9998bced6c6d07",
     "commitTimestamp": "2026-09-09T08:58:43Z",
     "commitMessage": "fix(core): validate project names at instance creation (#1820)",
