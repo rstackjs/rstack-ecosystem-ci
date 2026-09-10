@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "29c66a9f546c6d6e45842acde9dd5e4b2035cbf9",
+    "commitTimestamp": "2026-09-10T11:57:32Z",
+    "commitMessage": "fix(javascript): do not terminate the enclosing scope after a do-while loop (#15618)",
+    "author": {
+      "name": "Nikita Lebedev",
+      "email": "swan.nikita@gmail.com",
+      "login": "nest-aka-swan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862508998"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509008"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509027"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509041"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509056"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509057"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509067"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509069"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509073"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509116"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509120"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34474648571/job/102862509139"
+      }
+    ]
+  },
+  {
     "commitSha": "18b1c4de01cd6cae21b48427329954cec5517c86",
     "commitTimestamp": "2026-09-10T11:48:42Z",
     "commitMessage": "feat: share persistent cache cross child compilers (#15616)",
