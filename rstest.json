@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8a6318e351031f0b614713d7491d518d073822cb",
+    "commitTimestamp": "2026-09-10T07:00:33Z",
+    "commitMessage": "fix(core): ignore unhandled preprocessor styles in Node tests (#1825)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779594960"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779595061"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779595068"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779595176"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779595194"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779595273"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34448837317/job/102779595281"
+      }
+    ]
+  },
+  {
     "commitSha": "8f56b09125e8a777b4a76fba9bf7fbc4af6d5456",
     "commitTimestamp": "2026-09-10T06:49:17Z",
     "commitMessage": "fix(browser): wait for compilation before watch readiness (#1828)",
