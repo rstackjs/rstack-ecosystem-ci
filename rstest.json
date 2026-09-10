@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8fd08c110f1d244ebec51bcf66b9c90960a31de8",
+    "commitTimestamp": "2026-09-10T13:24:30Z",
+    "commitMessage": "chore(deps): upgrade Rsbuild to 2.2.5 (#1834)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466055"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466190"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466201"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466249"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466251"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466460"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34482483241/job/102888466510"
+      }
+    ]
+  },
+  {
     "commitSha": "c0fd9f1d0949a90557fecc99b19ecab96fd04d9c",
     "commitTimestamp": "2026-09-10T12:46:14Z",
     "commitMessage": "refactor(core): reuse Rsbuild config file discovery (#1831)",
