@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f96eb3630ca17665ac871c45b944fdb438fabe95",
+    "commitTimestamp": "2026-09-10T07:39:33Z",
+    "commitMessage": "feat(playwright): configure assertion timeouts and align E2E defaults (#1827)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787001889"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787002065"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787002120"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787002121"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787002200"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787002225"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34451163158/job/102787002403"
+      }
+    ]
+  },
+  {
     "commitSha": "8a6318e351031f0b614713d7491d518d073822cb",
     "commitTimestamp": "2026-09-10T07:00:33Z",
     "commitMessage": "fix(core): ignore unhandled preprocessor styles in Node tests (#1825)",
