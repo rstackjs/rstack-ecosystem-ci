@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ff610859ef18725e8a6b4b832d882456949a6a03",
+    "commitTimestamp": "2026-09-10T14:32:10Z",
+    "commitMessage": "feat(core): expose config file dependencies (#1835)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057069"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057178"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057305"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057341"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057355"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057474"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34489736774/job/102913057525"
+      }
+    ]
+  },
+  {
     "commitSha": "8fd08c110f1d244ebec51bcf66b9c90960a31de8",
     "commitTimestamp": "2026-09-10T13:24:30Z",
     "commitMessage": "chore(deps): upgrade Rsbuild to 2.2.5 (#1834)",
