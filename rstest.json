@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8f56b09125e8a777b4a76fba9bf7fbc4af6d5456",
+    "commitTimestamp": "2026-09-10T06:49:17Z",
+    "commitMessage": "fix(browser): wait for compilation before watch readiness (#1828)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441617"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441618"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441620"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441657"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441720"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441826"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34447182734/job/102774441873"
+      }
+    ]
+  },
+  {
     "commitSha": "c95ac64b81b0b68170d5383f84bb53de9c3c1b76",
     "commitTimestamp": "2026-09-10T03:33:41Z",
     "commitMessage": "feat(pool): support RSS memory limits for reused forks (#1291)",
