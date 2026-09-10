@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "1daa47b61568cdfd6804e88f244bb52f3a28ed5c",
+    "commitTimestamp": "2026-09-10T04:08:33Z",
+    "commitMessage": "fix(core): track delegated config files and dependencies (#3671)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34436039253",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34436039253/job/102741194524"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34436039253/job/102741194540"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34436039253/job/102741194574"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34436039253/job/102741194647"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34436039253/job/102741194665"
+      }
+    ]
+  },
+  {
     "commitSha": "68bee1899fc1c503ad63d9612351b391bc394496",
     "commitTimestamp": "2026-09-09T11:58:32Z",
     "commitMessage": "feat(theme/Search): animate search panel opening (#3645)",
