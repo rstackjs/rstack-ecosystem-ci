@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "29791dc58f871b86d1cbf78578ae715f245b3164",
+    "commitTimestamp": "2026-09-10T09:31:51Z",
+    "commitMessage": "fix(core): use absolute paths for deeply nested parent references (#8475)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819220942"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221013"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221020"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221099"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221120"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221209"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221223"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34461207276/job/102819221255"
+      }
+    ]
+  },
+  {
     "commitSha": "c0604172b90c8cad4b2b6f390ae3e7f6d336a3cf",
     "commitTimestamp": "2026-09-10T07:06:01Z",
     "commitMessage": "chore(docs): disable automatic browser opening (#8474)",
