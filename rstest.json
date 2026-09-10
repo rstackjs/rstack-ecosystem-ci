@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "73725baf29d598fafb782bd5eada5211eacba3f8",
+    "commitTimestamp": "2026-09-10T08:58:44Z",
+    "commitMessage": "fix(core): avoid reporting cancelled tests as worker failures (#1829)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809225666"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809225959"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809225963"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809225988"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809226054"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809226168"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34458120273/job/102809226192"
+      }
+    ]
+  },
+  {
     "commitSha": "3c714bea3de4e8f7a4a7f20bd3c82663fd54eb4c",
     "commitTimestamp": "2026-09-10T08:25:16Z",
     "commitMessage": "fix(core): support VM constructors in expect.any (#1823)",
