@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "938fa7e1c27f16759ad38fdcd54b0ab3f821c1c9",
+    "commitTimestamp": "2026-09-10T03:27:01Z",
+    "commitMessage": "fix(core): align thread worker stack size with forks (#1824)",
+    "author": {
+      "name": "Brian Kemper",
+      "email": "bkemper@gmail.com",
+      "login": "Gobd"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733413912"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733413966"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733414021"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733414059"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733414072"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733414097"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433391053/job/102733414128"
+      }
+    ]
+  },
+  {
     "commitSha": "0dcbb2e01592b810793cf7e66823003e27ab974c",
     "commitTimestamp": "2026-09-10T03:22:48Z",
     "commitMessage": "fix(core): spy on accessor-backed module exports in VM pools (#1822)",
