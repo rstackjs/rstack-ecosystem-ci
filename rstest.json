@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c95ac64b81b0b68170d5383f84bb53de9c3c1b76",
+    "commitTimestamp": "2026-09-10T03:33:41Z",
+    "commitMessage": "feat(pool): support RSS memory limits for reused forks (#1291)",
+    "author": {
+      "name": "Peter Kasarda",
+      "email": "peter.kasarda@visma.com",
+      "login": "pkasarda"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734650987"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734651059"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734651092"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734651098"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734651129"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734651143"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34433814432/job/102734651185"
+      }
+    ]
+  },
+  {
     "commitSha": "938fa7e1c27f16759ad38fdcd54b0ab3f821c1c9",
     "commitTimestamp": "2026-09-10T03:27:01Z",
     "commitMessage": "fix(core): align thread worker stack size with forks (#1824)",
