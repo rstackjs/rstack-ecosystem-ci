@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "27ab584658f57b4274dc5470da0c9671cac82e58",
+    "commitTimestamp": "2026-09-11T05:06:54Z",
+    "commitMessage": "fix(browser): apply the node pool's watch ignore rules (#1833)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426140"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426173"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426231"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426234"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426236"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426245"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34564737887/job/103154426252"
+      }
+    ]
+  },
+  {
     "commitSha": "ff610859ef18725e8a6b4b832d882456949a6a03",
     "commitTimestamp": "2026-09-10T14:32:10Z",
     "commitMessage": "feat(core): expose config file dependencies (#1835)",
