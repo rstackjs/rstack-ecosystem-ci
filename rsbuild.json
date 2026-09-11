@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e642d04a9547a0bb2a7c83aeffbcdae8ce3276e5",
+    "commitTimestamp": "2026-09-11T02:22:26Z",
+    "commitMessage": "chore: remove unused fixtures and website assets (#8479)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809519"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809541"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809551"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809598"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809633"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809668"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809697"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34554384731/job/103123809745"
+      }
+    ]
+  },
+  {
     "commitSha": "43bb41527213de8ec3be4c9a0f9862b0d9ecdd1e",
     "commitTimestamp": "2026-09-10T13:24:01Z",
     "commitMessage": "chore(ci): skip tests for documentation and repository metadata (#8477)",
