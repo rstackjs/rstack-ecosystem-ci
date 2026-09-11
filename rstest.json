@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "5f908ae939d6631eb9ade9b27893b77cc63d5640",
+    "commitTimestamp": "2026-09-11T08:40:59Z",
+    "commitMessage": "refactor(core)!: unify public result types with reporter types (#1837)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405094"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405129"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405133"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405142"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405154"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405160"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34580410393/job/103202405196"
+      }
+    ]
+  },
+  {
     "commitSha": "27ab584658f57b4274dc5470da0c9671cac82e58",
     "commitTimestamp": "2026-09-11T05:06:54Z",
     "commitMessage": "fix(browser): apply the node pool's watch ignore rules (#1833)",
