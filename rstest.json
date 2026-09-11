@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "0c8cd663a71bf5a4aff5030d17f29a2b1806c5e2",
+    "commitTimestamp": "2026-09-11T12:29:44Z",
+    "commitMessage": "fix(cli): watch root config dependencies (#1838)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209161"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209202"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209291"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209341"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209356"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209420"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34599231137/job/103262209544"
+      }
+    ]
+  },
+  {
     "commitSha": "5f908ae939d6631eb9ade9b27893b77cc63d5640",
     "commitTimestamp": "2026-09-11T08:40:59Z",
     "commitMessage": "refactor(core)!: unify public result types with reporter types (#1837)",
