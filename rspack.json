@@ -1,5 +1,83 @@
 [
   {
+    "commitSha": "1e09fb1fabfc00c48aa79e9c5728eea4413e4b36",
+    "commitTimestamp": "2026-09-12T15:38:55Z",
+    "commitMessage": "fix: drop trailing comma when rewriting require.resolve calls (#15656)",
+    "author": {
+      "name": "Per Bergland",
+      "email": "2690254+perbergland@users.noreply.github.com",
+      "login": "perbergland"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578354984"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578354988"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578354989"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578354995"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578354998"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355018"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355025"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355035"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355055"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355061"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355067"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34703131938/job/103578355112"
+      }
+    ]
+  },
+  {
     "commitSha": "aaa576b879fa53856f8fb18c88cbcbbff6172584",
     "commitTimestamp": "2026-09-12T07:22:30Z",
     "commitMessage": "chore(deps): update pnpm to v11.26.0 (#15650)",
