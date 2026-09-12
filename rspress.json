@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "44d59c8d43b1d0edefa200504f52f58cf2cebd93",
+    "commitTimestamp": "2026-09-12T02:08:16Z",
+    "commitMessage": "chore(skills): add docs writer and update existing skills (#3677)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34666840001",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34666840001/job/103480340658"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34666840001/job/103480340679"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34666840001/job/103480340681"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34666840001/job/103480340692"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34666840001/job/103480341403"
+      }
+    ]
+  },
+  {
     "commitSha": "549cb11e4e898934072328abcde1de5c04417f5b",
     "commitTimestamp": "2026-09-11T02:31:48Z",
     "commitMessage": "chore(repo): remove unused files (#3675)",
