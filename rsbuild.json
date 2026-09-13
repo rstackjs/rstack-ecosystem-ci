@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "704060d2dc9946d1d649c0627556159ef4bb6746",
+    "commitTimestamp": "2026-09-13T00:14:11Z",
+    "commitMessage": "chore(deps): update dependency rspack-vue-loader to ^17.7.0 (#8481)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028220"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028268"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028272"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028277"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028291"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028309"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028310"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727457738/job/103644028319"
+      }
+    ]
+  },
+  {
     "commitSha": "c725ac9af00a1aac06cd312e9e910d994a3536d5",
     "commitTimestamp": "2026-09-13T00:10:01Z",
     "commitMessage": "feat(core): support Rsdoctor v2 auto-loading (#8454)",
