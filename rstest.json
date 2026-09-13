@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "fd791c98ee87fedf3aab187c15b46d7055b2bec4",
+    "commitTimestamp": "2026-09-13T00:15:11Z",
+    "commitMessage": "fix(cli): watch project config dependencies (#1842)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149705"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149713"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149728"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149745"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149753"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149764"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727503106/job/103644149855"
+      }
+    ]
+  },
+  {
     "commitSha": "45fbd74fd1e0e71a59092ebdc4579aa9be1e261d",
     "commitTimestamp": "2026-09-12T04:36:58Z",
     "commitMessage": "refactor(core): pass config load results internally (#1840)",
