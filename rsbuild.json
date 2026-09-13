@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c725ac9af00a1aac06cd312e9e910d994a3536d5",
+    "commitTimestamp": "2026-09-13T00:10:01Z",
+    "commitMessage": "feat(core): support Rsdoctor v2 auto-loading (#8454)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553206"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553260"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553287"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553298"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553316"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553319"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553323"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34727286093/job/103643553338"
+      }
+    ]
+  },
+  {
     "commitSha": "426955942ee5d5024fd3395d911ee3ee6a2c1075",
     "commitTimestamp": "2026-09-11T02:41:07Z",
     "commitMessage": "perf(core): re-enable compact hashed IDs in production (#8478)",
