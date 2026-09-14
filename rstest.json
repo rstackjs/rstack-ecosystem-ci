@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "53a24ab4a9a737f0430a9caafd8c7dcceba922a8",
+    "commitTimestamp": "2026-09-14T13:05:26Z",
+    "commitMessage": "feat(core): support config dependencies in Node API (#1847)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985642972"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985642977"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985643017"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985643098"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985643123"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985643158"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34847109759/job/103985643240"
+      }
+    ]
+  },
+  {
     "commitSha": "7507a945b234c512e02ed77fb9b1dc096ecd209e",
     "commitTimestamp": "2026-09-14T10:46:44Z",
     "commitMessage": "fix(core): report fatal compile errors instead of hanging (#1846)",
