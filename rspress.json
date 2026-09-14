@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "26f6cd431b7889ee952cc892ef7e236250d91100",
+    "commitTimestamp": "2026-09-14T06:07:22Z",
+    "commitMessage": "fix(theme/Search): await FlexSearch addAsync before init resolves (#3678)",
+    "author": {
+      "name": "Dev M",
+      "email": "devtechedge@gmail.com",
+      "login": "devtechedge"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34812152525",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34812152525/job/103875475750"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34812152525/job/103875475763"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34812152525/job/103875475764"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34812152525/job/103875475953"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34812152525/job/103875475979"
+      }
+    ]
+  },
+  {
     "commitSha": "44d59c8d43b1d0edefa200504f52f58cf2cebd93",
     "commitTimestamp": "2026-09-12T02:08:16Z",
     "commitMessage": "chore(skills): add docs writer and update existing skills (#3677)",
