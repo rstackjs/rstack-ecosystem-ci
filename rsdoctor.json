@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "83b96c84a6541b1b38b99c07a3d51ff7808c8a52",
+    "commitTimestamp": "2026-09-14T08:34:20Z",
+    "commitMessage": "chore(deps): update dependency @lynx-js/rspeedy to ^0.17.2 (#2001)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34823760281",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34823760281/job/103911031264"
+      }
+    ]
+  },
+  {
     "commitSha": "e84dd22ebd8dcbaa3824dd8979ce0fa7fba669fc",
     "commitTimestamp": "2026-09-14T08:33:24Z",
     "commitMessage": "fix(core): prebundle runtime dependencies (#2002)",
