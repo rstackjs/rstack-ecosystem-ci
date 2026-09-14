@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "877b6186ace244d7b2613d494ae59352bec900c6",
+    "commitTimestamp": "2026-09-14T03:24:30Z",
+    "commitMessage": "fix(core): handle cross-realm constructors in toStrictEqual (#1830)",
+    "author": {
+      "name": "Ramon Villain",
+      "email": "ramon.villain@gmail.com",
+      "login": "ramon-villain"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888611"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888628"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888671"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888699"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888719"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888733"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802522813/job/103847888951"
+      }
+    ]
+  },
+  {
     "commitSha": "fd791c98ee87fedf3aab187c15b46d7055b2bec4",
     "commitTimestamp": "2026-09-13T00:15:11Z",
     "commitMessage": "fix(cli): watch project config dependencies (#1842)",
