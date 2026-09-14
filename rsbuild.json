@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "780f0c7aded0194781c6448eb33bfb02a5edcc0b",
+    "commitTimestamp": "2026-09-14T02:16:31Z",
+    "commitMessage": "fix(deps): update all patch dependencies (#8484)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744034"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744044"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744063"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744081"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744125"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744174"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744196"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798689044/job/103836744217"
+      }
+    ]
+  },
+  {
     "commitSha": "37001558c00f57f04e8234117f5def969b2de72a",
     "commitTimestamp": "2026-09-13T00:16:33Z",
     "commitMessage": "chore(deps): update pnpm/action-setup action to v6.1.0 (#8482)",
