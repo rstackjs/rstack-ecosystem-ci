@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "a19d24d238af83065d27849d28afdafe68ab430e",
+    "commitTimestamp": "2026-09-14T03:28:17Z",
+    "commitMessage": "chore(deps): update dependency svelte to ^5.57.0 (#8487)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507557"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507622"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507659"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507666"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507687"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507698"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507711"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34802736080/job/103848507724"
+      }
+    ]
+  },
+  {
     "commitSha": "e7ff5c196694e49a99b98f1e1ae094dbc03e6acd",
     "commitTimestamp": "2026-09-14T02:17:16Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.76.0 (#8485)",
