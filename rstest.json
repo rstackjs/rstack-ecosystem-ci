@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e0b819279c3227d5cef3ac1aaf5aaffede42f97c",
+    "commitTimestamp": "2026-09-14T07:41:22Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1844)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267541"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267558"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267664"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267680"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267681"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267747"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34819092043/job/103896267812"
+      }
+    ]
+  },
+  {
     "commitSha": "1c982fddde7c68b4257edd2e42091d1f1b5ba9a7",
     "commitTimestamp": "2026-09-14T06:37:26Z",
     "commitMessage": "fix(core): compare cross-realm binary values by bytes (#1843)",
