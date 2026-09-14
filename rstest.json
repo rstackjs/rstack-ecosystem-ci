@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "28c76cd90f84349fa343a5a3df2b1355270e7ee6",
+    "commitTimestamp": "2026-09-14T05:37:18Z",
+    "commitMessage": "fix(coverage-v8): preserve template counters and implicit else hits (#1839)",
+    "author": {
+      "name": "Karol Fabjańczuk",
+      "email": "karol-f@users.noreply.github.com",
+      "login": "karol-f"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208638"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208641"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208643"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208689"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208716"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208822"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34810326342/job/103870208877"
+      }
+    ]
+  },
+  {
     "commitSha": "877b6186ace244d7b2613d494ae59352bec900c6",
     "commitTimestamp": "2026-09-14T03:24:30Z",
     "commitMessage": "fix(core): handle cross-realm constructors in toStrictEqual (#1830)",
