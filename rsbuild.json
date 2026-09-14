@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e7ff5c196694e49a99b98f1e1ae094dbc03e6acd",
+    "commitTimestamp": "2026-09-14T02:17:16Z",
+    "commitMessage": "chore(deps): update dependency memfs to ^4.76.0 (#8485)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852391"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852447"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852460"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852546"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852554"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852565"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852566"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34798724447/job/103836852579"
+      }
+    ]
+  },
+  {
     "commitSha": "37001558c00f57f04e8234117f5def969b2de72a",
     "commitTimestamp": "2026-09-13T00:16:33Z",
     "commitMessage": "chore(deps): update pnpm/action-setup action to v6.1.0 (#8482)",
