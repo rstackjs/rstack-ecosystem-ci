@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "7507a945b234c512e02ed77fb9b1dc096ecd209e",
+    "commitTimestamp": "2026-09-14T10:46:44Z",
+    "commitMessage": "fix(core): report fatal compile errors instead of hanging (#1846)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384635"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384683"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384699"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384736"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384740"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384749"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34834895962/job/103946384826"
+      }
+    ]
+  },
+  {
     "commitSha": "e0b819279c3227d5cef3ac1aaf5aaffede42f97c",
     "commitTimestamp": "2026-09-14T07:41:22Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1844)",
