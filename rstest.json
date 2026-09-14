@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1c982fddde7c68b4257edd2e42091d1f1b5ba9a7",
+    "commitTimestamp": "2026-09-14T06:37:26Z",
+    "commitMessage": "fix(core): compare cross-realm binary values by bytes (#1843)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567171"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567222"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567224"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567262"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567277"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567288"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34814268354/job/103881567361"
+      }
+    ]
+  },
+  {
     "commitSha": "28c76cd90f84349fa343a5a3df2b1355270e7ee6",
     "commitTimestamp": "2026-09-14T05:37:18Z",
     "commitMessage": "fix(coverage-v8): preserve template counters and implicit else hits (#1839)",
