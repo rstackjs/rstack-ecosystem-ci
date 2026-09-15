@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "6c492b079c817a944e687fdb7852a19d79a2b054",
+    "commitTimestamp": "2026-09-15T09:40:36Z",
+    "commitMessage": "fix(theme/Search): use native prefetch for search index (#3681)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34953855944",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34953855944/job/104331057757"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34953855944/job/104331057784"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34953855944/job/104331057819"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34953855944/job/104331057846"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34953855944/job/104331057944"
+      }
+    ]
+  },
+  {
     "commitSha": "94b989b96ae29d058d6f2bacbd82bf6a8471661f",
     "commitTimestamp": "2026-09-15T09:37:18Z",
     "commitMessage": "feat(theme/Nav): support responsive navigation slots and NavList (#3670)",
