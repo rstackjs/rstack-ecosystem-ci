@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "8d4b32f1a4484279fea3de4517b8bf5b5f62de49",
+    "commitTimestamp": "2026-09-15T02:24:00Z",
+    "commitMessage": "fix(core): include config dependencies in build cache (#1848)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045425"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045433"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045440"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045476"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045565"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045575"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34921046563/job/104229045641"
+      }
+    ]
+  },
+  {
     "commitSha": "53a24ab4a9a737f0430a9caafd8c7dcceba922a8",
     "commitTimestamp": "2026-09-14T13:05:26Z",
     "commitMessage": "feat(core): support config dependencies in Node API (#1847)",
