@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "dcbff8ebc098e0c1c3072b9d0dd56c1639af6ef1",
+    "commitTimestamp": "2026-09-15T03:40:41Z",
+    "commitMessage": "chore(deps): upgrade Rsbuild to v2.2.6 (#1923)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887527"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887575"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887598"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887604"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887617"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887646"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887666"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34925933730/job/104243887675"
+      }
+    ]
+  },
+  {
     "commitSha": "532869283a8897d0525afb7c8044364f977e777d",
     "commitTimestamp": "2026-09-15T03:40:17Z",
     "commitMessage": "docs: add wasm version metadata (#1922)",
