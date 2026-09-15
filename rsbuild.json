@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2f9bb3428e0b4b60fd84df743e08529e4df04d98",
+    "commitTimestamp": "2026-09-15T10:59:13Z",
+    "commitMessage": "test(core): isolate Rsdoctor fallback resolution (#8493)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353843793"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353843952"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353843992"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353844062"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353844070"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353844151"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353844228"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34960856170/job/104353844241"
+      }
+    ]
+  },
+  {
     "commitSha": "483abb2869a650636cc169871387604861c4dd0d",
     "commitTimestamp": "2026-09-15T07:11:18Z",
     "commitMessage": "test: split Rsdoctor auto-loading fixtures (#8491)",
