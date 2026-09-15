@@ -40,6 +40,7 @@ on:
           - plugin
           - lynx-stack
           - rsbuild-rsc-plugin
+          - extension-js
       suiteRefType:
         description: 'type of suite ref to use'
         required: true
@@ -149,6 +150,8 @@ jobs:
           - suite: lynx-stack
             os: ubuntu-latest
           - suite: rsbuild-rsc-plugin
+            os: ubuntu-latest
+          - suite: extension-js
             os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
