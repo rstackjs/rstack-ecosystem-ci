@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "57526ad98934fa08789c770e8dd4909a2ed40140",
+    "commitTimestamp": "2026-09-15T07:12:45Z",
+    "commitMessage": "perf(core): use compact-hashed module IDs for web target (#1924)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212510"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212573"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212673"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212687"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212690"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212707"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212734"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/34940609020/job/104288212771"
+      }
+    ]
+  },
+  {
     "commitSha": "dcbff8ebc098e0c1c3072b9d0dd56c1639af6ef1",
     "commitTimestamp": "2026-09-15T03:40:41Z",
     "commitMessage": "chore(deps): upgrade Rsbuild to v2.2.6 (#1923)",
