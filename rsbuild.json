@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7aaaf5fee185ab2cf381bae12cafadb5ae59d5c9",
+    "commitTimestamp": "2026-09-16T06:48:01Z",
+    "commitMessage": "chore(deps): update dependency @tsrx/typescript-plugin to ^0.4.1 (#8501)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499175"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499189"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499205"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499258"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499271"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499298"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499301"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35065418211/job/104694499416"
+      }
+    ]
+  },
+  {
     "commitSha": "c712008bd38090bd1a07956e55f0fef03ea74f28",
     "commitTimestamp": "2026-09-16T06:47:56Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.78.0 (#8502)",
