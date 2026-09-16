@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6f5ba5088ad67c69b4fc5cea42949837dce0a910",
+    "commitTimestamp": "2026-09-16T09:33:16Z",
+    "commitMessage": "refactor(core): support sending HMR messages to a single socket (#8503)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820417"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820477"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820493"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820580"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820609"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820630"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820640"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35080115514/job/104741820944"
+      }
+    ]
+  },
+  {
     "commitSha": "7aaaf5fee185ab2cf381bae12cafadb5ae59d5c9",
     "commitTimestamp": "2026-09-16T06:48:01Z",
     "commitMessage": "chore(deps): update dependency @tsrx/typescript-plugin to ^0.4.1 (#8501)",
