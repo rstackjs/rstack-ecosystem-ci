@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "2b1dd37161ad269f6eb8bf988b1fd32717639c77",
+    "commitTimestamp": "2026-09-16T12:01:55Z",
+    "commitMessage": "fix(loader): revert native loader hook invocation (#15719)",
+    "author": {
+      "name": "AsyncIter",
+      "email": "intellild@outlook.com",
+      "login": "intellild"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306503"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306514"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306543"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306560"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306561"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306562"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306566"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306593"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306598"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306606"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306621"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306625"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35094439739/job/104788306663"
+      }
+    ]
+  },
+  {
     "commitSha": "9a0eedc2e6745fc74e73f40469d4b6b496840a53",
     "commitTimestamp": "2026-09-16T11:51:16Z",
     "commitMessage": "fix(core): make module source maps context independent (#15671)",
