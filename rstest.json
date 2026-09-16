@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "7e01d9e1268c60ca16bdfa60486bf0a6458a5d77",
+    "commitTimestamp": "2026-09-16T10:19:11Z",
+    "commitMessage": "chore(build): enable Rspack runtime for Rslib builds (#1854)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539331"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539350"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539409"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539461"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539467"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539473"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35084347888/job/104755539480"
+      }
+    ]
+  },
+  {
     "commitSha": "4f133dd3fec42fb74573c8b482575d6022f68bee",
     "commitTimestamp": "2026-09-16T09:01:45Z",
     "commitMessage": "test(mock): reproduce manual mock ignored for workspace-linked package (#1851)",
