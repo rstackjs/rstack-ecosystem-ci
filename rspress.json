@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "0a6fdd8acfed1617bd80618837947b397bd898de",
+    "commitTimestamp": "2026-09-16T08:06:47Z",
+    "commitMessage": "chore(build): enable Rspack runtime mode (#3666)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35072135188",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35072135188/job/104715869278"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35072135188/job/104715869382"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35072135188/job/104715869428"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35072135188/job/104715869436"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35072135188/job/104715869545"
+      }
+    ]
+  },
+  {
     "commitSha": "7592684409a3d1d15b316be043f487f21a8a02e0",
     "commitTimestamp": "2026-09-15T10:00:50Z",
     "commitMessage": "chore(deps): update dependency memfs to ^4.78.0 (#3660)",
