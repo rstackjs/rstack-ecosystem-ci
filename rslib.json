@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "abc8c1e50c76859c9241471ca96191f1d8184d1b",
+    "commitTimestamp": "2026-09-16T08:50:22Z",
+    "commitMessage": "chore(build): enable Rspack runtime mode (#1927)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728603767"
+      },
+      {
+        "name": "rspack",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728603813"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728603847"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728603868"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728603893"
+      },
+      {
+        "name": "modernjs",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728603968"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728604000"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35076046378/job/104728604069"
+      }
+    ]
+  },
+  {
     "commitSha": "a0aae936dcbfb6e71501bbce488e610c198a4628",
     "commitTimestamp": "2026-09-15T10:59:54Z",
     "commitMessage": "chore: update workspace Rslib dependency to 1.0.1 (#1926)",
