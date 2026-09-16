@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4f133dd3fec42fb74573c8b482575d6022f68bee",
+    "commitTimestamp": "2026-09-16T09:01:45Z",
+    "commitMessage": "test(mock): reproduce manual mock ignored for workspace-linked package (#1851)",
+    "author": {
+      "name": "Michael Kelley",
+      "email": "michael.a.kelley@gmail.com",
+      "login": "kelleyma49"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978554"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978675"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978684"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978727"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978732"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978849"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35077088834/job/104731978876"
+      }
+    ]
+  },
+  {
     "commitSha": "e5b5da6dc4874cab53e91f629435a6e0e7f5814a",
     "commitTimestamp": "2026-09-16T05:57:58Z",
     "commitMessage": "chore(deps): update rsbuild and rspack (#1853)",
