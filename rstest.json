@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e5b5da6dc4874cab53e91f629435a6e0e7f5814a",
+    "commitTimestamp": "2026-09-16T05:57:58Z",
+    "commitMessage": "chore(deps): update rsbuild and rspack (#1853)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068067"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068088"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068161"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068167"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068179"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068198"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35061657990/job/104683068314"
+      }
+    ]
+  },
+  {
     "commitSha": "8d4b32f1a4484279fea3de4517b8bf5b5f62de49",
     "commitTimestamp": "2026-09-15T02:24:00Z",
     "commitMessage": "fix(core): include config dependencies in build cache (#1848)",
