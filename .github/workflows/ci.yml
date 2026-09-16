@@ -188,6 +188,8 @@ jobs:
             os: ubuntu-latest
           - suite: rsbuild-rsc-plugin
             os: ubuntu-latest
+          - suite: extension-js
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rspack (${{ matrix.suite }})
