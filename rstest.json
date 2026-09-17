@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "a915d809037351abbcdc98e5634b3392b92edb7b",
+    "commitTimestamp": "2026-09-17T10:52:31Z",
+    "commitMessage": "fix(playwright): make context cleanup idempotent (#1859)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997296"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997310"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997347"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997450"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997456"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997720"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35212770924/job/105173997810"
+      }
+    ]
+  },
+  {
     "commitSha": "19bc755a45b7a842166062e5d12416ee06b477f4",
     "commitTimestamp": "2026-09-17T10:31:13Z",
     "commitMessage": "release: 0.12.0 (#1860)",
