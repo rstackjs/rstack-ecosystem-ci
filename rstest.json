@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "de9d6c422a9d4db2004f2fadc40a87cb7ae5c258",
+    "commitTimestamp": "2026-09-17T07:20:14Z",
+    "commitMessage": "chore(deps): manage Rstack versions with pnpm catalog (#1855)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118836505"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118836569"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118836577"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118836584"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118836590"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118836650"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35195867582/job/105118837514"
+      }
+    ]
+  },
+  {
     "commitSha": "7e01d9e1268c60ca16bdfa60486bf0a6458a5d77",
     "commitTimestamp": "2026-09-16T10:19:11Z",
     "commitMessage": "chore(build): enable Rspack runtime for Rslib builds (#1854)",
