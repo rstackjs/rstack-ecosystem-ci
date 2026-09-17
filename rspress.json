@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "ec791cfaa81116ed4bfdca6dbf037c433615601a",
+    "commitTimestamp": "2026-09-17T07:54:02Z",
+    "commitMessage": "fix(search): cap token length in the default search index (#3682)",
+    "author": {
+      "name": "yongsong you",
+      "email": "youyongsong@gmail.com",
+      "login": "youyongsong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35197595484",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35197595484/job/105124424132"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35197595484/job/105124424149"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35197595484/job/105124424166"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35197595484/job/105124424298"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35197595484/job/105124424404"
+      }
+    ]
+  },
+  {
     "commitSha": "0a6fdd8acfed1617bd80618837947b397bd898de",
     "commitTimestamp": "2026-09-16T08:06:47Z",
     "commitMessage": "chore(build): enable Rspack runtime mode (#3666)",
