@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "f5c8edec01f78b2af1ae6703c5803921a157452d",
+    "commitTimestamp": "2026-09-17T11:46:18Z",
+    "commitMessage": "fix(theme/Search): show search index loading errors (#3679)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35217483242",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35217483242/job/105189298344"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35217483242/job/105189298347"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35217483242/job/105189298494"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35217483242/job/105189298540"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35217483242/job/105189298604"
+      }
+    ]
+  },
+  {
     "commitSha": "ec791cfaa81116ed4bfdca6dbf037c433615601a",
     "commitTimestamp": "2026-09-17T07:54:02Z",
     "commitMessage": "fix(search): cap token length in the default search index (#3682)",
