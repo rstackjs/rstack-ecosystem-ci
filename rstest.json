@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "19bc755a45b7a842166062e5d12416ee06b477f4",
+    "commitTimestamp": "2026-09-17T10:31:13Z",
+    "commitMessage": "release: 0.12.0 (#1860)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011304"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011443"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011498"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011539"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011546"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011611"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35210936632/job/105168011646"
+      }
+    ]
+  },
+  {
     "commitSha": "de9d6c422a9d4db2004f2fadc40a87cb7ae5c258",
     "commitTimestamp": "2026-09-17T07:20:14Z",
     "commitMessage": "chore(deps): manage Rstack versions with pnpm catalog (#1855)",
