@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "5b7791853b2e456e8070beb07f8aca779fc95cc2",
+    "commitTimestamp": "2026-09-18T09:09:19Z",
+    "commitMessage": "fix(core): drain worker IPC writes before async leak checks (#1863)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545789894"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545789955"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545789990"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545789993"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545790000"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545790006"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35328087106/job/105545790024"
+      }
+    ]
+  },
+  {
     "commitSha": "a2ee78bb13142dbb0aa4ff22b34828718170c7c9",
     "commitTimestamp": "2026-09-18T06:12:25Z",
     "commitMessage": "feat(core): show previous errors for retried tests (#1862)",
