@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "074190679ffd878bbe9fb1b8b9039f70a1bab29e",
+    "commitTimestamp": "2026-09-18T09:45:01Z",
+    "commitMessage": "chore(deps): upgrade Rstack to 0.7.6 and Rstest to 0.12 (#8511)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822660"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822717"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822729"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822763"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822796"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822811"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822867"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35331237784/job/105555822906"
+      }
+    ]
+  },
+  {
     "commitSha": "48e6f4f6e6c057b825a136b3a6896a34a6f879df",
     "commitTimestamp": "2026-09-18T08:48:53Z",
     "commitMessage": "fix(types): prebundle ws declarations (#8510)",
