@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "bbefea9a38ecb272087966700a7bef74c9f2f30f",
+    "commitTimestamp": "2026-09-18T03:36:10Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1861)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855822"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855830"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855864"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855865"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855866"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855868"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35303838534/job/105471855929"
+      }
+    ]
+  },
+  {
     "commitSha": "a915d809037351abbcdc98e5634b3392b92edb7b",
     "commitTimestamp": "2026-09-17T10:52:31Z",
     "commitMessage": "fix(playwright): make context cleanup idempotent (#1859)",
