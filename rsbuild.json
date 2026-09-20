@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e1f6005d96baf9d097c8cc39acdc260c2c47e407",
+    "commitTimestamp": "2026-09-20T08:00:49Z",
+    "commitMessage": "perf(deps): upgrade html-rspack-plugin to v6.1.11 (#8513)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697681"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697684"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697687"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697752"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697762"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697778"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697825"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35498439064/job/106045697897"
+      }
+    ]
+  },
+  {
     "commitSha": "1204352a89e920d79d1cb877b7b53ee2e2d0759d",
     "commitTimestamp": "2026-09-18T11:59:14Z",
     "commitMessage": "test: configure Playwright launch options via helper (#8512)",
