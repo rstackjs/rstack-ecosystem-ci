@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f38ebc1d635e53533c4d33abe6396eef913dff7f",
+    "commitTimestamp": "2026-09-20T03:13:00Z",
+    "commitMessage": "perf(core): cache test entry compilation in VM pools (#1864)",
+    "author": {
+      "name": "Brian Kemper",
+      "email": "bkemper@gmail.com",
+      "login": "Gobd"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411539"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411546"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411549"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411577"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411579"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411593"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35486013017/job/106012411630"
+      }
+    ]
+  },
+  {
     "commitSha": "5b7791853b2e456e8070beb07f8aca779fc95cc2",
     "commitTimestamp": "2026-09-18T09:09:19Z",
     "commitMessage": "fix(core): drain worker IPC writes before async leak checks (#1863)",
