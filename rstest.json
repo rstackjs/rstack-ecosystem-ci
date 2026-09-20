@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1f67e2905b48e3a5dfc137802a1f5321c4d6e261",
+    "commitTimestamp": "2026-09-20T09:54:46Z",
+    "commitMessage": "feat(playwright): re-export common Playwright types (#1866)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601640"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601644"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601671"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601675"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601679"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601694"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35503617738/job/106059601728"
+      }
+    ]
+  },
+  {
     "commitSha": "edd0af88486b9e4d3c3251a9c25ce94eab5fc079",
     "commitTimestamp": "2026-09-20T08:23:33Z",
     "commitMessage": "fix(playwright): cap assertions by active test deadline (#1865)",
