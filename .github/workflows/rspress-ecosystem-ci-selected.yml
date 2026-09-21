@@ -38,6 +38,7 @@ on:
           - rsbuild
           - rslib
           - rspack
+          - rspress-plugins
           - rstest
           - rstack-cli
       suiteRefType:
@@ -101,6 +102,8 @@ jobs:
           - suite: rslib
             os: ubuntu-latest
           - suite: rspack
+            os: ubuntu-latest
+          - suite: rspress-plugins
             os: ubuntu-latest
           - suite: rstest
             os: ubuntu-latest
