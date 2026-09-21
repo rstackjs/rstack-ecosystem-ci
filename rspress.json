@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "3f8cfbfe6f7ed1a6e198d4672378cad0ec03586f",
+    "commitTimestamp": "2026-09-21T06:13:53Z",
+    "commitMessage": "chore(deps): update pnpm to v11.27.0 (#3692)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35567580151",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35567580151/job/106232379756"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35567580151/job/106232379758"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35567580151/job/106232379761"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35567580151/job/106232379793"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35567580151/job/106232379895"
+      }
+    ]
+  },
+  {
     "commitSha": "60cee459ded9acfd7e838eab84781b38ed11a47c",
     "commitTimestamp": "2026-09-21T06:10:39Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.63.0 (#3691)",
