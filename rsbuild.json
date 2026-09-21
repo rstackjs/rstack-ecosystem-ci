@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "93029d967cd8a09ada82d77d43aaaab818c84d09",
+    "commitTimestamp": "2026-09-21T02:00:57Z",
+    "commitMessage": "chore(deps): update pnpm to v12.5.1 (#8515)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461116"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461145"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461152"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461153"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461160"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461164"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461170"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35552764708/job/106190461183"
+      }
+    ]
+  },
+  {
     "commitSha": "e1f6005d96baf9d097c8cc39acdc260c2c47e407",
     "commitTimestamp": "2026-09-20T08:00:49Z",
     "commitMessage": "perf(deps): upgrade html-rspack-plugin to v6.1.11 (#8513)",
