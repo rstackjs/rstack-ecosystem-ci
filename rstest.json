@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e0ff92b36c47ef7a27091014844558fd2cbdc876",
+    "commitTimestamp": "2026-09-21T04:47:15Z",
+    "commitMessage": "fix(core): unify startup, fatal and retryable failure semantics across node and browser (#1849)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236856"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236885"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236900"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236953"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236968"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236971"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562265462/job/106217236986"
+      }
+    ]
+  },
+  {
     "commitSha": "1f67e2905b48e3a5dfc137802a1f5321c4d6e261",
     "commitTimestamp": "2026-09-20T09:54:46Z",
     "commitMessage": "feat(playwright): re-export common Playwright types (#1866)",
