@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "509da276d18972cfca7187561465300784bfabee",
+    "commitTimestamp": "2026-09-21T07:33:42Z",
+    "commitMessage": "fix(browser): await websocket server teardown (#1870)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214769"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214838"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214845"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214897"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214906"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214936"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35573554226/job/106250214959"
+      }
+    ]
+  },
+  {
     "commitSha": "3ce684a34260ba4028cd2ca1b2d4f3883b2c66f9",
     "commitTimestamp": "2026-09-21T06:06:07Z",
     "commitMessage": "fix(core): defer auto-mock module evaluation (#1868)",
