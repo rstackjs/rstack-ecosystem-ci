@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "3ce684a34260ba4028cd2ca1b2d4f3883b2c66f9",
+    "commitTimestamp": "2026-09-21T06:06:07Z",
+    "commitMessage": "fix(core): defer auto-mock module evaluation (#1868)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722170"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722181"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722206"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722209"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722264"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722271"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35566999108/job/106230722277"
+      }
+    ]
+  },
+  {
     "commitSha": "e0ff92b36c47ef7a27091014844558fd2cbdc876",
     "commitTimestamp": "2026-09-21T04:47:15Z",
     "commitMessage": "fix(core): unify startup, fatal and retryable failure semantics across node and browser (#1849)",
