@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "bcb28c77b91697ee098736a5a7442c94f2b972ec",
+    "commitTimestamp": "2026-09-21T09:07:04Z",
+    "commitMessage": "fix(core): infer federation for browser globalSetup and reject setup files without a usable export (#1872)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189693"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189705"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189713"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189768"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189796"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189809"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35581496599/job/106275189818"
+      }
+    ]
+  },
+  {
     "commitSha": "ac1a408559f03b789a44341d3ce38b9b8303e169",
     "commitTimestamp": "2026-09-21T08:48:25Z",
     "commitMessage": "fix(browser): report test entry load errors as file failures (#1871)",
