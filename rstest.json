@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "16c59f51cc70b28e62e1868dbe2a4b5bd4015722",
+    "commitTimestamp": "2026-09-21T11:11:26Z",
+    "commitMessage": "chore: remove redundant CLAUDE.md symlinks (#1873)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608533"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608579"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608610"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608613"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608618"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608686"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35592758791/job/106310608798"
+      }
+    ]
+  },
+  {
     "commitSha": "bcb28c77b91697ee098736a5a7442c94f2b972ec",
     "commitTimestamp": "2026-09-21T09:07:04Z",
     "commitMessage": "fix(core): infer federation for browser globalSetup and reject setup files without a usable export (#1872)",
