@@ -1,5 +1,48 @@
 [
   {
+    "commitSha": "5d3f51158b5df8337a7af2f27ef7a9cdbc8acac7",
+    "commitTimestamp": "2026-09-21T04:53:09Z",
+    "commitMessage": "chore(deps): update rstack (#3690)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562599998",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562599998/job/106218180219"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562599998/job/106218180326"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562599998/job/106218180337"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562599998/job/106218180383"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35562599998/job/106218180394"
+      }
+    ]
+  },
+  {
     "commitSha": "fd825b90de7fc5d35231cee24231c4ee797e9e0d",
     "commitTimestamp": "2026-09-21T03:12:49Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3689)",
