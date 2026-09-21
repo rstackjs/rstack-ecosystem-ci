@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "ac1a408559f03b789a44341d3ce38b9b8303e169",
+    "commitTimestamp": "2026-09-21T08:48:25Z",
+    "commitMessage": "fix(browser): report test entry load errors as file failures (#1871)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269948947"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269948956"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269948981"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269949007"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269949027"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269949054"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35579851052/job/106269949070"
+      }
+    ]
+  },
+  {
     "commitSha": "509da276d18972cfca7187561465300784bfabee",
     "commitTimestamp": "2026-09-21T07:33:42Z",
     "commitMessage": "fix(browser): await websocket server teardown (#1870)",
