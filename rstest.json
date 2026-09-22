@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "b546d4bfd7c3a26a1703c2df2a5b49a583670bc3",
+    "commitTimestamp": "2026-09-22T14:36:03Z",
+    "commitMessage": "fix(core): let the host own cancellation on a process-group SIGINT (#1880)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792079590"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792079759"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792079768"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792079828"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792079849"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792079854"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35741481358/job/106792080025"
+      }
+    ]
+  },
+  {
     "commitSha": "49b14308c38325a567f4cc32ab9771b82d395900",
     "commitTimestamp": "2026-09-22T11:53:48Z",
     "commitMessage": "fix(core): finalize runs after executor startup failures (#1879)",
