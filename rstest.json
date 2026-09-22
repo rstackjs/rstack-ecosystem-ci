@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "49b14308c38325a567f4cc32ab9771b82d395900",
+    "commitTimestamp": "2026-09-22T11:53:48Z",
+    "commitMessage": "fix(core): finalize runs after executor startup failures (#1879)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343457"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343496"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343545"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343618"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343735"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343756"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35724052151/job/106733343761"
+      }
+    ]
+  },
+  {
     "commitSha": "034aa0a38e9a995ab81d22be67c104f3782e7473",
     "commitTimestamp": "2026-09-22T08:38:42Z",
     "commitMessage": "fix(core, browser): unify CLI signal ownership across node and browser (#1874)",
