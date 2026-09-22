@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e4175f8961341712164137f8a1990fb1cac13e70",
+    "commitTimestamp": "2026-09-22T10:38:49Z",
+    "commitMessage": "chore(deps): upgrade rstack to v0.8.0 (#8524)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244740"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244756"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244814"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244882"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244920"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244933"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711244950"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35717154518/job/106711245603"
+      }
+    ]
+  },
+  {
     "commitSha": "550129f89bdb7465775ed68aa4c51bbc5dbf616f",
     "commitTimestamp": "2026-09-22T09:33:28Z",
     "commitMessage": "perf(core): statically import util and zlib in server helpers (#8523)",
