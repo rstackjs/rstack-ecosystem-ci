@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e697225117d6c1eb5f2c39a9c6a1ff6c40ca61cc",
+    "commitTimestamp": "2026-09-23T06:25:17Z",
+    "commitMessage": "feat(wasm): support inlining wasm binaries with the `?inline` query (#1909)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873622"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873630"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873650"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873660"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873672"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873758"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873780"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35826689987/job/107069873848"
+      }
+    ]
+  },
+  {
     "commitSha": "15faff78de61a2863f7b068d9dd342d440ee53fc",
     "commitTimestamp": "2026-09-23T03:51:14Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1930)",
