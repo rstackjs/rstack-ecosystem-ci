@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e6408f05c1c9c48816cc707b5a8af608b8261f54",
+    "commitTimestamp": "2026-09-23T03:39:48Z",
+    "commitMessage": "refactor(core): organize core modules (#1877)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253151"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253152"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253172"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253195"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253212"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253214"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35815235424/job/107035253261"
+      }
+    ]
+  },
+  {
     "commitSha": "b546d4bfd7c3a26a1703c2df2a5b49a583670bc3",
     "commitTimestamp": "2026-09-22T14:36:03Z",
     "commitMessage": "fix(core): let the host own cancellation on a process-group SIGINT (#1880)",
