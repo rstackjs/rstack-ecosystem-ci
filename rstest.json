@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "56da003ddad68e36e34fc0ec5b56af24efbca123",
+    "commitTimestamp": "2026-09-23T10:17:47Z",
+    "commitMessage": "fix(vscode): use JSON IPC so workers survive VS Code 1.139 (#1888)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695077"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695096"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695145"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695164"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695306"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695333"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35847995726/job/107138695424"
+      }
+    ]
+  },
+  {
     "commitSha": "7321b7fa3b8f42a3388b1dec12e890ef446bb90f",
     "commitTimestamp": "2026-09-23T08:09:36Z",
     "commitMessage": "fix(core): keep watch silent when a change reaches no test file (#1884)",
