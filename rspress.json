@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "afed6960ad19dc316b0426e87fd459f192717b6c",
+    "commitTimestamp": "2026-09-23T09:41:16Z",
+    "commitMessage": "fix(theme): preserve literal content in inline Markdown (#3687)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494/job/107127609070"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494/job/107127609089"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494/job/107127609199"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494/job/107127609202"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494/job/107127609256"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35844602494/job/107127609272"
+      }
+    ]
+  },
+  {
     "commitSha": "3f8cfbfe6f7ed1a6e198d4672378cad0ec03586f",
     "commitTimestamp": "2026-09-21T06:13:53Z",
     "commitMessage": "chore(deps): update pnpm to v11.27.0 (#3692)",
