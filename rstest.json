@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "311f385209b943456195425594293940ff8b55df",
+    "commitTimestamp": "2026-09-23T10:39:13Z",
+    "commitMessage": "feat(core): add teardownTimeout option (#1887)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335177"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335204"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335233"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335279"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335303"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335357"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35850052093/job/107145335572"
+      }
+    ]
+  },
+  {
     "commitSha": "56da003ddad68e36e34fc0ec5b56af24efbca123",
     "commitTimestamp": "2026-09-23T10:17:47Z",
     "commitMessage": "fix(vscode): use JSON IPC so workers survive VS Code 1.139 (#1888)",
