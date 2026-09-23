@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "def6df71743de1a704048cf7b6357e86eb3814cc",
+    "commitTimestamp": "2026-09-23T07:23:31Z",
+    "commitMessage": "fix(core): fail instead of hanging on a lost IPC envelope (#1885)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896068"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896102"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896166"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896170"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896212"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896223"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831487316/job/107084896238"
+      }
+    ]
+  },
+  {
     "commitSha": "eb6f040f45b1de82134550f4272de3674bb11e7d",
     "commitTimestamp": "2026-09-23T07:22:45Z",
     "commitMessage": "release: 0.12.1 (#1883)",
