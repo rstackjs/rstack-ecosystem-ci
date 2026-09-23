@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "eb6f040f45b1de82134550f4272de3674bb11e7d",
+    "commitTimestamp": "2026-09-23T07:22:45Z",
+    "commitMessage": "release: 0.12.1 (#1883)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682032"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682044"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682089"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682132"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682200"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682209"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35831420678/job/107084682212"
+      }
+    ]
+  },
+  {
     "commitSha": "fa64eb5a1e58125c5d7a36ea2f85863d1ff56ed0",
     "commitTimestamp": "2026-09-23T04:28:56Z",
     "commitMessage": "chore(deps): update rsbuild and rspack (#1882)",
