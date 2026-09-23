@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "7321b7fa3b8f42a3388b1dec12e890ef446bb90f",
+    "commitTimestamp": "2026-09-23T08:09:36Z",
+    "commitMessage": "fix(core): keep watch silent when a change reaches no test file (#1884)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118380"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118557"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118634"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118651"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118657"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118709"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35835582099/job/107098118823"
+      }
+    ]
+  },
+  {
     "commitSha": "def6df71743de1a704048cf7b6357e86eb3814cc",
     "commitTimestamp": "2026-09-23T07:23:31Z",
     "commitMessage": "fix(core): fail instead of hanging on a lost IPC envelope (#1885)",
