@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "fe528e6affa378e53862ef7fce633fc23e6b5d17",
+    "commitTimestamp": "2026-09-23T06:55:32Z",
+    "commitMessage": "release: v1.0.2 (#1935)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077388835"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077388876"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077388899"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077388966"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077388975"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077389030"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077389092"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35829115702/job/107077389139"
+      }
+    ]
+  },
+  {
     "commitSha": "e697225117d6c1eb5f2c39a9c6a1ff6c40ca61cc",
     "commitTimestamp": "2026-09-23T06:25:17Z",
     "commitMessage": "feat(wasm): support inlining wasm binaries with the `?inline` query (#1909)",
