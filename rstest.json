@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4eee02c24a943f1cdfbfd9e327743d59b8793f92",
+    "commitTimestamp": "2026-09-24T08:46:59Z",
+    "commitMessage": "fix(core): stop injecting color env into test workers (#1893)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669517"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669598"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669643"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669736"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669766"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669805"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35977290040/job/107560669906"
+      }
+    ]
+  },
+  {
     "commitSha": "6b96760a9aaf8cd77cca6fdebf331dc5245bbea1",
     "commitTimestamp": "2026-09-24T07:35:34Z",
     "commitMessage": "chore(deps): upgrade pnpm to 12.6 and enable autoDedupe (#1890)",
