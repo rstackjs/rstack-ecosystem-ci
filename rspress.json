@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a54de04c427575ea8c4671b5122ad9ad29b48066",
+    "commitTimestamp": "2026-09-24T09:47:40Z",
+    "commitMessage": "fix(core): accept site data HMR updates (#3698)",
+    "author": {
+      "name": "Shadorux The Hedgehog",
+      "email": "yomazre@gmail.com",
+      "login": "Shadorux"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085/job/107580476648"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085/job/107580476680"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085/job/107580476686"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085/job/107580476691"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085/job/107580476702"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983435085/job/107580476777"
+      }
+    ]
+  },
+  {
     "commitSha": "afed6960ad19dc316b0426e87fd459f192717b6c",
     "commitTimestamp": "2026-09-23T09:41:16Z",
     "commitMessage": "fix(theme): preserve literal content in inline Markdown (#3687)",
