@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d99e0d6d644f343aa867512cd51268e63cc9bfbf",
+    "commitTimestamp": "2026-09-24T09:53:05Z",
+    "commitMessage": "fix(core): expose config helpers from @rstest/core inside tests (#1896)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222516"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222621"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222645"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222668"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222708"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222736"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35983980951/job/107582222778"
+      }
+    ]
+  },
+  {
     "commitSha": "4eee02c24a943f1cdfbfd9e327743d59b8793f92",
     "commitTimestamp": "2026-09-24T08:46:59Z",
     "commitMessage": "fix(core): stop injecting color env into test workers (#1893)",
