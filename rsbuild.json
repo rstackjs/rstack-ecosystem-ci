@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "00ae8801b4bb39394b96e79037752c45b0c187cc",
+    "commitTimestamp": "2026-09-24T06:54:01Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 12.6 and enable autoDedupe (#8539)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527460899"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527460946"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527460954"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527460958"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527460968"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527461018"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527461053"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35966913999/job/107527461074"
+      }
+    ]
+  },
+  {
     "commitSha": "2769025ee403360018143cd34da9c97d5f289ebc",
     "commitTimestamp": "2026-09-24T03:50:43Z",
     "commitMessage": "fix(core): reset compile done state on watch restart (#8538)",
