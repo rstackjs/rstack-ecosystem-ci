@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eef4b4dba1e00ffed92ae96d1f9a7a792d394f7d",
+    "commitTimestamp": "2026-09-24T10:54:33Z",
+    "commitMessage": "refactor(core): centralize virtual module access in runtime hooks (#3701)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077/job/107601508677"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077/job/107601508691"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077/job/107601508713"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077/job/107601508847"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077/job/107601508863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35989984077/job/107601508895"
+      }
+    ]
+  },
+  {
     "commitSha": "a54de04c427575ea8c4671b5122ad9ad29b48066",
     "commitTimestamp": "2026-09-24T09:47:40Z",
     "commitMessage": "fix(core): accept site data HMR updates (#3698)",
