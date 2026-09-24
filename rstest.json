@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "6b96760a9aaf8cd77cca6fdebf331dc5245bbea1",
+    "commitTimestamp": "2026-09-24T07:35:34Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 12.6 and enable autoDedupe (#1890)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538782749"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538782754"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538782818"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538782867"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538782900"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538782942"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/35970477225/job/107538783170"
+      }
+    ]
+  },
+  {
     "commitSha": "311f385209b943456195425594293940ff8b55df",
     "commitTimestamp": "2026-09-23T10:39:13Z",
     "commitMessage": "feat(core): add teardownTimeout option (#1887)",
