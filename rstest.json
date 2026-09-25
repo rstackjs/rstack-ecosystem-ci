@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "41daaa1b8eb793436dddc72d9fd0ba6cb6793227",
+    "commitTimestamp": "2026-09-25T05:07:16Z",
+    "commitMessage": "release: 0.12.2 (#1897)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977367"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977436"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977444"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977458"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977519"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977546"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36097240916/job/107951977585"
+      }
+    ]
+  },
+  {
     "commitSha": "d99e0d6d644f343aa867512cd51268e63cc9bfbf",
     "commitTimestamp": "2026-09-24T09:53:05Z",
     "commitMessage": "fix(core): expose config helpers from @rstest/core inside tests (#1896)",
