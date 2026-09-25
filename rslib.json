@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6ee55bc3a12dc7c2828aa6b3e4d87cceb7251d85",
+    "commitTimestamp": "2026-09-25T10:38:35Z",
+    "commitMessage": "chore: flatten package Rslib configs (#1938)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318170"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318194"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318233"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318285"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318286"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318331"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318419"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36125110423/job/108039318522"
+      }
+    ]
+  },
+  {
     "commitSha": "d4d6ec2c882cd6f6538ec7508f31ecc64452bac4",
     "commitTimestamp": "2026-09-23T10:52:09Z",
     "commitMessage": "chore(deps): upgrade local Rslib to 1.0.2 (#1936)",
