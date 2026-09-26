@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "3752549da2d41f260e0d9ea134d0adc2c90129a9",
+    "commitTimestamp": "2026-09-26T03:06:47Z",
+    "commitMessage": "fix(core): dedupe nested paths with dot-prefixed names (#8549)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636171"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636182"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636186"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636220"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636233"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636240"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636266"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36213804909/job/108325636303"
+      }
+    ]
+  },
+  {
     "commitSha": "53f850d7ab2f30ca72aac684aae9733cd09de1ae",
     "commitTimestamp": "2026-09-26T02:49:41Z",
     "commitMessage": "fix(core): avoid treating sibling dist paths as nested (#8544)",
