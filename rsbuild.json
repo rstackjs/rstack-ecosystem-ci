@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "16ff6d97804e98dd2c0dfc0b27c5b7b4a84ffaa6",
+    "commitTimestamp": "2026-09-26T11:44:58Z",
+    "commitMessage": "fix(core): avoid printing 60.0s in build time logs (#8552)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053068"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053100"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053132"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053142"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053150"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053168"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053184"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36239800727/job/108398053228"
+      }
+    ]
+  },
+  {
     "commitSha": "0ea47f9717959e61543a0befcd45401c859cd08b",
     "commitTimestamp": "2026-09-26T11:41:35Z",
     "commitMessage": "fix(core): normalize and share path containment checks (#8551)",
