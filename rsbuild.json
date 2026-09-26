@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "de31880d6c398c95a3be80ba9bba7d0c675702a1",
+    "commitTimestamp": "2026-09-26T02:11:56Z",
+    "commitMessage": "chore(deps): update dependency octane to ^0.5.0 (#8547)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121607"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121623"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121625"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121630"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121644"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121660"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121675"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36210934913/job/108317121754"
+      }
+    ]
+  },
+  {
     "commitSha": "00ae8801b4bb39394b96e79037752c45b0c187cc",
     "commitTimestamp": "2026-09-24T06:54:01Z",
     "commitMessage": "chore(deps): upgrade pnpm to 12.6 and enable autoDedupe (#8539)",
