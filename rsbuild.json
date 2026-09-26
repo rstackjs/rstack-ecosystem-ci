@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "53f850d7ab2f30ca72aac684aae9733cd09de1ae",
+    "commitTimestamp": "2026-09-26T02:49:41Z",
+    "commitMessage": "fix(core): avoid treating sibling dist paths as nested (#8544)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323048929"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323048934"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323048944"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323048958"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323048995"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323049005"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323049007"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36212915793/job/108323049036"
+      }
+    ]
+  },
+  {
     "commitSha": "de31880d6c398c95a3be80ba9bba7d0c675702a1",
     "commitTimestamp": "2026-09-26T02:11:56Z",
     "commitMessage": "chore(deps): update dependency octane to ^0.5.0 (#8547)",
