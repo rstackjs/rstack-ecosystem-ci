@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7d616e1262997d02d17ae0bb5a037cc9081798a0",
+    "commitTimestamp": "2026-09-27T03:25:10Z",
+    "commitMessage": "test(core): verify module worker runtime behavior (#8564)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948086"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948190"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948208"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948220"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948232"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948250"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948254"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36291358975/job/108541948265"
+      }
+    ]
+  },
+  {
     "commitSha": "c4ea730bf3d25310ba32192c70b48d17892e4624",
     "commitTimestamp": "2026-09-27T03:18:46Z",
     "commitMessage": "release: v2.2.10 (#8563)",
