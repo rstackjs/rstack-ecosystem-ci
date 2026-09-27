@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "14c78e2de32314db6f38a5c6a1937f7b48da8674",
+    "commitTimestamp": "2026-09-27T02:51:18Z",
+    "commitMessage": "fix(core): avoid retaining CJS runner module scopes (#8559)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384756"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384772"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384786"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384801"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384825"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384826"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384835"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36289730955/job/108537384853"
+      }
+    ]
+  },
+  {
     "commitSha": "4c71227a632b2b15f76b9e0e79ca1eeb062c499c",
     "commitTimestamp": "2026-09-27T02:23:19Z",
     "commitMessage": "fix(core): avoid writing assets twice when writeToDisk is true (#8556)",
