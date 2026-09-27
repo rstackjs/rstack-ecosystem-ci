@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "376f6c589c7ab8dc976317cab22f3c4b66abc2d0",
+    "commitTimestamp": "2026-09-27T17:24:25Z",
+    "commitMessage": "fix(theme/Search): ignore Enter when the search panel is closed (#3710)",
+    "author": {
+      "name": "Tiago Vilas Boas",
+      "email": "tcarvalhovb@gmail.com",
+      "login": "tiagovilasboas"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784/job/108669220104"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784/job/108669220142"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784/job/108669220151"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784/job/108669220228"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784/job/108669220237"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36336845784/job/108669220368"
+      }
+    ]
+  },
+  {
     "commitSha": "eef4b4dba1e00ffed92ae96d1f9a7a792d394f7d",
     "commitTimestamp": "2026-09-24T10:54:33Z",
     "commitMessage": "refactor(core): centralize virtual module access in runtime hooks (#3701)",
