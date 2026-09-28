@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "78eee3d994c515aba9894e597224dba466ca7e0c",
+    "commitTimestamp": "2026-09-28T06:57:20Z",
+    "commitMessage": "test(core): pin LC_ALL=C in gitLog test so conflict detection is locale-independent (#3706)",
+    "author": {
+      "name": "Marrrrrrrrry",
+      "email": "34876935+Marrrrrrrrry@users.noreply.github.com",
+      "login": "Marrrrrrrrry"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585/job/108820716712"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585/job/108820716783"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585/job/108820716796"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585/job/108820716814"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585/job/108820716871"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36389088585/job/108820717045"
+      }
+    ]
+  },
+  {
     "commitSha": "b42d6d73c1d39f4c082e29c89f7500f7580d1d61",
     "commitTimestamp": "2026-09-28T06:44:20Z",
     "commitMessage": "fix(shared): respect path segment boundary in withBase and removeBase (#3702)",
