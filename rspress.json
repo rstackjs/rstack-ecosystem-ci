@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b42d6d73c1d39f4c082e29c89f7500f7580d1d61",
+    "commitTimestamp": "2026-09-28T06:44:20Z",
+    "commitMessage": "fix(shared): respect path segment boundary in withBase and removeBase (#3702)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749/job/108817381585"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749/job/108817381635"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749/job/108817381653"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749/job/108817381667"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749/job/108817381670"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36387981749/job/108817381714"
+      }
+    ]
+  },
+  {
     "commitSha": "0b489e9ef7186db3d7d14021bfe0fc333ea076e2",
     "commitTimestamp": "2026-09-28T05:36:58Z",
     "commitMessage": "fix(cli): skip Node compile cache in CI (#3713)",
