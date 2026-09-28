@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "668f5ef812d50a2011eb06d8f559ad7a720553c7",
+    "commitTimestamp": "2026-09-28T10:44:56Z",
+    "commitMessage": "fix(plugin-react): apply reactCompiler only to web environments (#8568)",
+    "author": {
+      "name": "Petr Glaser",
+      "email": "12586960+BleedingDev@users.noreply.github.com",
+      "login": "BleedingDev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892891866"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892891907"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892891938"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892891953"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892891984"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892892009"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892892024"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36411612909/job/108892892025"
+      }
+    ]
+  },
+  {
     "commitSha": "47d69b91a98315d262c17de93534122ce1cca6ca",
     "commitTimestamp": "2026-09-28T10:44:15Z",
     "commitMessage": "fix(client): clear runtime error history on hot updates (#8585)",
