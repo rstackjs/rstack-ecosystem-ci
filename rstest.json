@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "1b20f0ca0a8bec143ca906e16e0821992f306a52",
+    "commitTimestamp": "2026-09-28T05:36:43Z",
+    "commitMessage": "fix(cli): skip Node compile cache in CI (#1899)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525238"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525368"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525411"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525418"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525429"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525432"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382687662/job/108801525478"
+      }
+    ]
+  },
+  {
     "commitSha": "41daaa1b8eb793436dddc72d9fd0ba6cb6793227",
     "commitTimestamp": "2026-09-25T05:07:16Z",
     "commitMessage": "release: 0.12.2 (#1897)",
