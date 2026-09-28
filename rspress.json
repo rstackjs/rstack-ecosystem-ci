@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a80d5f5d1e76cefb983ab7c219b14c682d38c522",
+    "commitTimestamp": "2026-09-28T04:19:08Z",
+    "commitMessage": "fix(core): keep replacement patterns in head config during SSG (#3703)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023/job/108785422432"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023/job/108785422480"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023/job/108785422539"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023/job/108785422556"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023/job/108785422615"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36377225023/job/108785422664"
+      }
+    ]
+  },
+  {
     "commitSha": "376f6c589c7ab8dc976317cab22f3c4b66abc2d0",
     "commitTimestamp": "2026-09-27T17:24:25Z",
     "commitMessage": "fix(theme/Search): ignore Enter when the search panel is closed (#3710)",
