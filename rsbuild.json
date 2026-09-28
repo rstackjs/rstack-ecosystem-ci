@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4b5b1ec66528cdf52d9d30f03dab8afc67e0a1cd",
+    "commitTimestamp": "2026-09-28T02:10:58Z",
+    "commitMessage": "fix(core): respect CI=false consistently (#8567)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647468"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647513"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647530"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647538"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647542"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647545"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647577"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36368845553/job/108760647592"
+      }
+    ]
+  },
+  {
     "commitSha": "073f4f2f517f683846b10d69fe0bcf9e4ce65074",
     "commitTimestamp": "2026-09-28T02:10:18Z",
     "commitMessage": "chore(deps): update all patch dependencies (#8569)",
