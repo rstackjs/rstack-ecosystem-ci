@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "6f5876c2aa001e003106a6f877e0fff007dbb0c3",
+    "commitTimestamp": "2026-09-28T08:00:40Z",
+    "commitMessage": "docs: explain dependency export conditions for Jest migration (#1900)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751366"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751430"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751433"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751465"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751514"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751682"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36394861615/job/108838751793"
+      }
+    ]
+  },
+  {
     "commitSha": "1b20f0ca0a8bec143ca906e16e0821992f306a52",
     "commitTimestamp": "2026-09-28T05:36:43Z",
     "commitMessage": "fix(cli): skip Node compile cache in CI (#1899)",
