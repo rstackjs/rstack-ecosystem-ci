@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "000f367460733a858a44f89cf5ac9b1a79a6f796",
+    "commitTimestamp": "2026-09-28T08:19:26Z",
+    "commitMessage": "fix(core): balance shards with stable path hashing (#1901)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704471"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704484"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704565"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704576"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704582"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704613"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36396702030/job/108844704676"
+      }
+    ]
+  },
+  {
     "commitSha": "6f5876c2aa001e003106a6f877e0fff007dbb0c3",
     "commitTimestamp": "2026-09-28T08:00:40Z",
     "commitMessage": "docs: explain dependency export conditions for Jest migration (#1900)",
