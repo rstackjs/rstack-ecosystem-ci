@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "837d1e75c415f1a69e7bd7522828fffbd58156d1",
+    "commitTimestamp": "2026-09-28T09:12:24Z",
+    "commitMessage": "fix(cli): stop propagating the Node compile cache to workers (#1902)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995045"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995058"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995108"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995175"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995186"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995212"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36402054260/job/108861995366"
+      }
+    ]
+  },
+  {
     "commitSha": "000f367460733a858a44f89cf5ac9b1a79a6f796",
     "commitTimestamp": "2026-09-28T08:19:26Z",
     "commitMessage": "fix(core): balance shards with stable path hashing (#1901)",
