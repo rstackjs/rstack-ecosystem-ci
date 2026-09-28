@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0b489e9ef7186db3d7d14021bfe0fc333ea076e2",
+    "commitTimestamp": "2026-09-28T05:36:58Z",
+    "commitMessage": "fix(cli): skip Node compile cache in CI (#3713)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993/job/108801603450"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993/job/108801603516"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993/job/108801603539"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993/job/108801603565"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993/job/108801603584"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382713993/job/108801603594"
+      }
+    ]
+  },
+  {
     "commitSha": "a80d5f5d1e76cefb983ab7c219b14c682d38c522",
     "commitTimestamp": "2026-09-28T04:19:08Z",
     "commitMessage": "fix(core): keep replacement patterns in head config during SSG (#3703)",
