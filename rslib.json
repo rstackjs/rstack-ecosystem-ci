@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6cb9ed76e74f56025072b5ed488379fd2adafd5a",
+    "commitTimestamp": "2026-09-28T05:28:43Z",
+    "commitMessage": "chore(dts): remove NO_COLOR workaround for Rstest (#1943)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971601"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971690"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971694"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971700"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971761"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971768"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971793"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36382149165/job/108799971841"
+      }
+    ]
+  },
+  {
     "commitSha": "1f3f89e6414369dc09a94b3f6b7e75df42d248d0",
     "commitTimestamp": "2026-09-28T03:51:10Z",
     "commitMessage": "fix(cli): skip Node compile cache in CI (#1940)",
