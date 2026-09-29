@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1f5aaeb6c705f69a72e09e9622ce52692c896260",
+    "commitTimestamp": "2026-09-29T07:35:12Z",
+    "commitMessage": "Release v2.0.23 (#3716)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409/job/109305011119"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409/job/109305011163"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409/job/109305011168"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409/job/109305011180"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409/job/109305011203"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36537558409/job/109305011222"
+      }
+    ]
+  },
+  {
     "commitSha": "104ca326e20484f97e496ab872931c02cc8ada0f",
     "commitTimestamp": "2026-09-29T06:48:58Z",
     "commitMessage": "fix(theme/SourceCode): exclude source links from outline (#3715)",
