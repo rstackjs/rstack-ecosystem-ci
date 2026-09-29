@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d9f39d52e8d95c387b296b3ae1735ee5f8e83c08",
+    "commitTimestamp": "2026-09-29T03:51:10Z",
+    "commitMessage": "fix(core): support rs.mock with require (#1909)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530117"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530184"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530195"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530207"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530256"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530258"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36518992377/job/109247530315"
+      }
+    ]
+  },
+  {
     "commitSha": "837d1e75c415f1a69e7bd7522828fffbd58156d1",
     "commitTimestamp": "2026-09-28T09:12:24Z",
     "commitMessage": "fix(cli): stop propagating the Node compile cache to workers (#1902)",
