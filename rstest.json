@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d33fe499e11d3c2efa08770e4feee3e3092c2ae5",
+    "commitTimestamp": "2026-09-29T08:26:29Z",
+    "commitMessage": "docs: document partial mock limitations with top-level await (#1912)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321843995"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321844231"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321844278"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321844294"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321844331"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321844337"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542756405/job/109321844519"
+      }
+    ]
+  },
+  {
     "commitSha": "7f34c4796d26fea8fd98c1dfa182786948ce88c7",
     "commitTimestamp": "2026-09-29T06:52:55Z",
     "commitMessage": "feat(mock): resolve importMock and requireMock via registry (#1886)",
