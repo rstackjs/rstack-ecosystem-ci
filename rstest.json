@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "87492aa4720bae8bd12827560a314ce4bc4831e4",
+    "commitTimestamp": "2026-09-29T09:50:13Z",
+    "commitMessage": "chore(deps): update dependency react-router to v7 [security] (#1616)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351846988"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351846999"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351847022"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351847053"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351847055"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351847090"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36551906496/job/109351847259"
+      }
+    ]
+  },
+  {
     "commitSha": "e15a32381469bd3ece062a891892b186c69a4076",
     "commitTimestamp": "2026-09-29T08:27:43Z",
     "commitMessage": "fix(core): avoid eager matcher argument inspection (#1911)",
