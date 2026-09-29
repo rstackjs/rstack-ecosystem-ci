@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "104ca326e20484f97e496ab872931c02cc8ada0f",
+    "commitTimestamp": "2026-09-29T06:48:58Z",
+    "commitMessage": "fix(theme/SourceCode): exclude source links from outline (#3715)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431/job/109291357218"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431/job/109291357270"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431/job/109291357281"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431/job/109291357311"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431/job/109291357322"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36533218431/job/109291357343"
+      }
+    ]
+  },
+  {
     "commitSha": "3aac4999c9d4af58463c312cbba79aba941287c2",
     "commitTimestamp": "2026-09-29T03:39:44Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3711)",
