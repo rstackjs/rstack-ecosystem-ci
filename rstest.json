@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "89568078e743058cd55abb0e488162b415d9a256",
+    "commitTimestamp": "2026-09-29T05:56:57Z",
+    "commitMessage": "chore(deps): update rsbuild and rspack (#1910)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055196"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055244"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055246"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055271"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055307"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055323"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36528621618/job/109277055330"
+      }
+    ]
+  },
+  {
     "commitSha": "d9f39d52e8d95c387b296b3ae1735ee5f8e83c08",
     "commitTimestamp": "2026-09-29T03:51:10Z",
     "commitMessage": "fix(core): support rs.mock with require (#1909)",
