@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "4ebff7abf8f0049c3c8cf0a70ba41295d3a12fe9",
+    "commitTimestamp": "2026-09-29T08:26:58Z",
+    "commitMessage": "perf(coverage-istanbul): stop resending structure maps the host already holds (#1895)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063713"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063720"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063734"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063766"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063773"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063811"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542823927/job/109322063903"
+      }
+    ]
+  },
+  {
     "commitSha": "d33fe499e11d3c2efa08770e4feee3e3092c2ae5",
     "commitTimestamp": "2026-09-29T08:26:29Z",
     "commitMessage": "docs: document partial mock limitations with top-level await (#1912)",
