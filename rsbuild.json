@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ea8dbd49155a5290ec46ae2e7f87f36ccc2f0c19",
+    "commitTimestamp": "2026-09-29T02:30:22Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.2.8 (#8598)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229027799"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229027954"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229027987"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229027993"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229028006"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229028044"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229028064"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36512986557/job/109229028077"
+      }
+    ]
+  },
+  {
     "commitSha": "d166ff1b96d2b63910cd2132c77e66f63c2cbcb0",
     "commitTimestamp": "2026-09-28T13:55:37Z",
     "commitMessage": "perf(core): avoid copying complete asset buffers (#8595)",
