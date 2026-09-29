@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2e5cf8ca5f418a11e4b84cb48b663264124c008d",
+    "commitTimestamp": "2026-09-29T07:07:28Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to v2.2.11 (#1946)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462526"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462601"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462638"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462672"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462737"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462745"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296462779"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36534855851/job/109296463208"
+      }
+    ]
+  },
+  {
     "commitSha": "436d09e43bb78017dc9361fdd93d7c1b73eb5049",
     "commitTimestamp": "2026-09-28T07:46:43Z",
     "commitMessage": "fix(dts): respect false user externals (#1944)",
