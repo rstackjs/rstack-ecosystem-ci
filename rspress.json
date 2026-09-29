@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ef58ecd0e62b055f355b114326e1d4b2c6a9d1c2",
+    "commitTimestamp": "2026-09-29T03:25:55Z",
+    "commitMessage": "chore(deps): update rstack (#3712)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559/job/109241813780"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559/job/109241813851"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559/job/109241813890"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559/job/109241813941"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559/job/109241813981"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36517125559/job/109241813990"
+      }
+    ]
+  },
+  {
     "commitSha": "78eee3d994c515aba9894e597224dba466ca7e0c",
     "commitTimestamp": "2026-09-28T06:57:20Z",
     "commitMessage": "test(core): pin LC_ALL=C in gitLog test so conflict detection is locale-independent (#3706)",
