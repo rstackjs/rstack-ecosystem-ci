@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e15a32381469bd3ece062a891892b186c69a4076",
+    "commitTimestamp": "2026-09-29T08:27:43Z",
+    "commitMessage": "fix(core): avoid eager matcher argument inspection (#1911)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272083"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272136"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272166"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272174"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272263"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272390"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36542889647/job/109322272619"
+      }
+    ]
+  },
+  {
     "commitSha": "4ebff7abf8f0049c3c8cf0a70ba41295d3a12fe9",
     "commitTimestamp": "2026-09-29T08:26:58Z",
     "commitMessage": "perf(coverage-istanbul): stop resending structure maps the host already holds (#1895)",
