@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "e1607861ac055c6f9b687f0fea3a7829f46ec14b",
+    "commitTimestamp": "2026-09-29T06:31:11Z",
+    "commitMessage": "feat(core): support function names for tests and suites (#1908)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033410"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033441"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033489"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033529"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033532"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033614"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36531518244/job/109286033621"
+      }
+    ]
+  },
+  {
     "commitSha": "89568078e743058cd55abb0e488162b415d9a256",
     "commitTimestamp": "2026-09-29T05:56:57Z",
     "commitMessage": "chore(deps): update rsbuild and rspack (#1910)",
