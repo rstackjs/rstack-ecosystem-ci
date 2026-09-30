@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d1044b6978179ba1195e843731d1f634e70be9af",
+    "commitTimestamp": "2026-09-30T09:03:38Z",
+    "commitMessage": "release: 0.12.3 (#1920)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816471857"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816472053"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816472079"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816472104"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816472168"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816472190"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36693670707/job/109816472260"
+      }
+    ]
+  },
+  {
     "commitSha": "f19392158b1ba41c2e4f341ef9af7d293c57aac4",
     "commitTimestamp": "2026-09-30T07:08:04Z",
     "commitMessage": "feat(vscode): prepare the final standalone extension release (#1917)",
