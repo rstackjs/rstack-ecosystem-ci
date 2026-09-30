@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d56bf975f5f3ccc97ecc061503a1edddaf41425c",
+    "commitTimestamp": "2026-09-30T09:33:38Z",
+    "commitMessage": "chore(vscode): freeze the extension version after its final release (#1919)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826968708"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826969052"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826969077"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826969093"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826969153"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826969258"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36696917986/job/109826969271"
+      }
+    ]
+  },
+  {
     "commitSha": "d956e663810c8be583fbf3aacd853b3b9a975445",
     "commitTimestamp": "2026-09-30T09:30:29Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1918)",
