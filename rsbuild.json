@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "a3035109a86d471c732d53f64fd245493b947e99",
+    "commitTimestamp": "2026-09-30T01:50:12Z",
+    "commitMessage": "fix(core): respect minimizer options for CSS URL imports (#8607)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506353"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506458"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506502"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506552"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506578"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506583"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506636"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36657041555/job/109703506661"
+      }
+    ]
+  },
+  {
     "commitSha": "ac8374d18df54ca7ef83c99ef9354dd4e1883e0e",
     "commitTimestamp": "2026-09-29T08:28:02Z",
     "commitMessage": "fix(core): avoid minifying CSS URL assets twice (#8606)",
