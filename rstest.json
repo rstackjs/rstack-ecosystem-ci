@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "f19392158b1ba41c2e4f341ef9af7d293c57aac4",
+    "commitTimestamp": "2026-09-30T07:08:04Z",
+    "commitMessage": "feat(vscode): prepare the final standalone extension release (#1917)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281505"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281576"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281581"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281624"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281690"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281726"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36682001292/job/109779281854"
+      }
+    ]
+  },
+  {
     "commitSha": "b65fc8f9514cf0c7940cd3c8b431efa7ca0d8e32",
     "commitTimestamp": "2026-09-30T04:01:23Z",
     "commitMessage": "fix(core): preserve mock state when restoring spies (#1916)",
