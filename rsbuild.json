@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "41cd7242b45bd027848f3936fe60f7a40c2ac838",
+    "commitTimestamp": "2026-10-01T09:05:41Z",
+    "commitMessage": "chore(deps): update dependency node to v24.21.0 (#8612)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509126"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509161"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509280"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509282"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509301"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509303"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509318"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36840588923/job/110298509351"
+      }
+    ]
+  },
+  {
     "commitSha": "c89a21146665151521ebb2e6634dd58b1fc24a9b",
     "commitTimestamp": "2026-10-01T01:22:26Z",
     "commitMessage": "fix(core): preserve proxy logger formatting arguments (#8609)",
