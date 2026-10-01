@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c89a21146665151521ebb2e6634dd58b1fc24a9b",
+    "commitTimestamp": "2026-10-01T01:22:26Z",
+    "commitMessage": "fix(core): preserve proxy logger formatting arguments (#8609)",
+    "author": {
+      "name": "hardfist",
+      "email": "yangjianzju@gmail.com",
+      "login": "hardfist"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486378"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486391"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486414"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486415"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486430"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486453"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486501"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/36800810645/job/110174486735"
+      }
+    ]
+  },
+  {
     "commitSha": "a3035109a86d471c732d53f64fd245493b947e99",
     "commitTimestamp": "2026-09-30T01:50:12Z",
     "commitMessage": "fix(core): respect minimizer options for CSS URL imports (#8607)",
