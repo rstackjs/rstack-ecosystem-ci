@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4ba621ead6f07bcb8af0c2b4e46fc1344ab246b1",
+    "commitTimestamp": "2026-10-03T01:18:26Z",
+    "commitMessage": "perf(core): avoid buffering compressed output for size reporting (#8613)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145340"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145380"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145399"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145421"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145445"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145466"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095145467"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37085607503/job/111095146077"
+      }
+    ]
+  },
+  {
     "commitSha": "41cd7242b45bd027848f3936fe60f7a40c2ac838",
     "commitTimestamp": "2026-10-01T09:05:41Z",
     "commitMessage": "chore(deps): update dependency node to v24.21.0 (#8612)",
