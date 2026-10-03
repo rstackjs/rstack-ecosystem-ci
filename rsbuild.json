@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "58ba0b6dc129828827385cd43b6424a67958d30b",
+    "commitTimestamp": "2026-10-03T01:38:48Z",
+    "commitMessage": "fix(server): avoid leaking file streams for HEAD requests (#8614)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007083"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007097"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007156"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007158"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007164"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007213"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007219"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37087252878/job/111100007251"
+      }
+    ]
+  },
+  {
     "commitSha": "4ba621ead6f07bcb8af0c2b4e46fc1344ab246b1",
     "commitTimestamp": "2026-10-03T01:18:26Z",
     "commitMessage": "perf(core): avoid buffering compressed output for size reporting (#8613)",
