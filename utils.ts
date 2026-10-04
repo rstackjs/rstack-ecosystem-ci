@@ -499,7 +499,7 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         beforeInstallCommand,
         installArgs: {
           pnpm: [
-            '--prefer-frozen-lockfile',
+            '--no-frozen-lockfile',
             '--prefer-offline',
             '--strict-peer-dependencies',
             'false',
@@ -546,7 +546,7 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         beforeInstallCommand,
         installArgs: {
           pnpm: [
-            '--prefer-frozen-lockfile',
+            '--no-frozen-lockfile',
             '--prefer-offline',
             '--no-strict-peer-dependencies',
           ],
