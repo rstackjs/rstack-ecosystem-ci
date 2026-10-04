@@ -499,7 +499,7 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         beforeInstallCommand,
         installArgs: {
           pnpm: [
-            '--prefer-frozen-lockfile',
+            '--no-frozen-lockfile',
             '--prefer-offline',
             '--strict-peer-dependencies',
             'false',
@@ -546,7 +546,7 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         beforeInstallCommand,
         installArgs: {
           pnpm: [
-            '--prefer-frozen-lockfile',
+            '--no-frozen-lockfile',
             '--prefer-offline',
             '--no-strict-peer-dependencies',
           ],
@@ -1013,16 +1013,6 @@ async function applyPackageOverrides({
     if (process.env.NPM_CONFIG_REGISTRY) {
       pnpmArgs.push(`--registry=${process.env.NPM_CONFIG_REGISTRY}`);
     }
-    // Overrides change the dependency graph; synchronize its lockfile before
-    // installing with the existing frozen-lockfile policy.
-    const lockfileCommand = [
-      'pnpm',
-      'install',
-      ...pnpmArgs,
-      '--lockfile-only',
-      '--ignore-scripts',
-    ].join(' ');
-    await $`${lockfileCommand}`;
     const command = ['pnpm', 'install', ...pnpmArgs].join(' ');
     await $`${command}`;
   } else if (pm === 'yarn') {
