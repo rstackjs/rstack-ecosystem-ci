@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "4d6e35321798b99eeef2c8852c61f289d4a2cb65",
+    "commitTimestamp": "2026-10-05T02:02:39Z",
+    "commitMessage": "perf(core): avoid reading assets that writeToDisk skips (#8615)",
+    "author": {
+      "name": "Guru 🦄",
+      "email": "gurupungavn@gmail.com",
+      "login": "guru-irl"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600739"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600792"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600831"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600839"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600860"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600861"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600866"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254500759/job/111588600882"
+      }
+    ]
+  },
+  {
     "commitSha": "7f27ae12f188a6c6fdcee979cf08db392ad7a5ea",
     "commitTimestamp": "2026-10-05T02:00:53Z",
     "commitMessage": "fix(plugin-solid): align refresh with Solid rc.13 (#8623)",
