@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "a494a209b98ed5a4c0e5bdcaed121acbd12c6b1a",
+    "commitTimestamp": "2026-10-05T01:58:45Z",
+    "commitMessage": "chore(deps): update dependency @tsrx/typescript-plugin to ^0.6.1 (#8621)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904828"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904833"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904840"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904843"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904846"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904909"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904917"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37253556823/job/111585904927"
+      }
+    ]
+  },
+  {
     "commitSha": "e3b54fb604e1f03a121fba03502303663f77f6e9",
     "commitTimestamp": "2026-10-05T01:44:41Z",
     "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.5.0 (#8620)",
