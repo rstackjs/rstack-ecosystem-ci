@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e3b54fb604e1f03a121fba03502303663f77f6e9",
+    "commitTimestamp": "2026-10-05T01:44:41Z",
+    "commitMessage": "chore(deps): update dependency @shikijs/transformers to ^4.5.0 (#8620)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273214"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273233"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273257"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273273"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273279"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273283"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273300"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37252650472/job/111583273303"
+      }
+    ]
+  },
+  {
     "commitSha": "4a0a3982a9df79dec0009600bf5a71fd1861eae4",
     "commitTimestamp": "2026-10-05T01:44:04Z",
     "commitMessage": "fix(server): close gzip streams when responses close (#8617)",
