@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2c193a5433ebad9ce18a729ba6e1e6885bcf1624",
+    "commitTimestamp": "2026-10-05T02:06:22Z",
+    "commitMessage": "chore(deps): update pnpm to v12.9.1 (#8624)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741232"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741369"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741373"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741405"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741447"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741463"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741498"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37254550805/job/111588741506"
+      }
+    ]
+  },
+  {
     "commitSha": "7f27ae12f188a6c6fdcee979cf08db392ad7a5ea",
     "commitTimestamp": "2026-10-05T02:00:53Z",
     "commitMessage": "fix(plugin-solid): align refresh with Solid rc.13 (#8623)",
