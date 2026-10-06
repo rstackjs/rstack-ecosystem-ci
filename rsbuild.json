@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "d628b176c4d34557f3e2f85df78555f107d77295",
+    "commitTimestamp": "2026-10-06T09:55:41Z",
+    "commitMessage": "release: @rsbuild/plugin-solid v2.0.0-rc.1 (#8630)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212061739"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212061788"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212061862"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212061867"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212061959"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212062235"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212062356"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37446362918/job/112212062369"
+      }
+    ]
+  },
+  {
     "commitSha": "60c828297b121cf5ec10d62cf818bac7beb21b01",
     "commitTimestamp": "2026-10-06T01:17:41Z",
     "commitMessage": "perf(server): skip unnecessary HTML path normalization (#8628)",
