@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "b1f3dd955bab3ee289b1b21ef9c38b3d33cf4608",
+    "commitTimestamp": "2026-10-08T03:54:38Z",
+    "commitMessage": "chore(deps): upgrade knip to 6.40 and drop Rstest workarounds (#1924)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957211"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957248"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957271"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957278"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957282"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957298"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37724969654/job/113140957305"
+      }
+    ]
+  },
+  {
     "commitSha": "d56bf975f5f3ccc97ecc061503a1edddaf41425c",
     "commitTimestamp": "2026-09-30T09:33:38Z",
     "commitMessage": "chore(vscode): freeze the extension version after its final release (#1919)",
