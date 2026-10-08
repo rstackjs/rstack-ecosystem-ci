@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "db43d2444934dbc1ed4c35ad542d97d8b4c1887c",
+    "commitTimestamp": "2026-10-08T10:50:39Z",
+    "commitMessage": "fix(core): forward only worker-safe host node flags to pools (#1929)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259245"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259384"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259510"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259520"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259542"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259555"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37766167195/job/113274259622"
+      }
+    ]
+  },
+  {
     "commitSha": "c61729d3ee8ca27682e52e5bcbdb3a2fa4791692",
     "commitTimestamp": "2026-10-08T08:17:16Z",
     "commitMessage": "fix(core): format `%d`, `%i` and `%f` in `each` names like `util.format` (#1922)",
