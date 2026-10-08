@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "dad902e46cf6cfe30e4edf44dd756218ed28008b",
+    "commitTimestamp": "2026-10-08T05:41:47Z",
+    "commitMessage": "fix(core): bound host asset memory and retry OOM-killed workers (#1913)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328619"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328623"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328663"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328670"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328672"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328713"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37733682846/job/113168328776"
+      }
+    ]
+  },
+  {
     "commitSha": "b1f3dd955bab3ee289b1b21ef9c38b3d33cf4608",
     "commitTimestamp": "2026-10-08T03:54:38Z",
     "commitMessage": "chore(deps): upgrade knip to 6.40 and drop Rstest workarounds (#1924)",
