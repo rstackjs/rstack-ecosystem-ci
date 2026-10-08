@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c61729d3ee8ca27682e52e5bcbdb3a2fa4791692",
+    "commitTimestamp": "2026-10-08T08:17:16Z",
+    "commitMessage": "fix(core): format `%d`, `%i` and `%f` in `each` names like `util.format` (#1922)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897132"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897191"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897208"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897270"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897327"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897375"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37748874554/job/113216897814"
+      }
+    ]
+  },
+  {
     "commitSha": "c16ad7a088d823f211a5fe1c631c25ed4e388a4c",
     "commitTimestamp": "2026-10-08T07:20:16Z",
     "commitMessage": "fix(core): let pool.execArgv override inherited host node flags (#1928)",
