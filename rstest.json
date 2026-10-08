@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "c16ad7a088d823f211a5fe1c631c25ed4e388a4c",
+    "commitTimestamp": "2026-10-08T07:20:16Z",
+    "commitMessage": "fix(core): let pool.execArgv override inherited host node flags (#1928)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670670"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670682"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670746"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670763"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670806"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670814"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37743564724/job/113199670836"
+      }
+    ]
+  },
+  {
     "commitSha": "dad902e46cf6cfe30e4edf44dd756218ed28008b",
     "commitTimestamp": "2026-10-08T05:41:47Z",
     "commitMessage": "fix(core): bound host asset memory and retry OOM-killed workers (#1913)",
