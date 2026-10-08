@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a8e5414664f5d15ac9d6c0d019a8c7a42705a825",
+    "commitTimestamp": "2026-10-08T09:13:49Z",
+    "commitMessage": "chore(deps): update dependency mdast-util-from-markdown to ^2.1.0 (#3723)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187/job/113238078486"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187/job/113238078529"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187/job/113238078532"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187/job/113238078550"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187/job/113238078584"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37755243187/job/113238078597"
+      }
+    ]
+  },
+  {
     "commitSha": "8d4e04fb358b696b0ba08aad586a4d6c2d8afc41",
     "commitTimestamp": "2026-10-05T01:46:03Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3721)",
