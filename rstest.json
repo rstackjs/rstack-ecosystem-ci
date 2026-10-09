@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "d49e6155cb10b5d5802b818653d9b2ace92be94a",
+    "commitTimestamp": "2026-10-09T10:49:25Z",
+    "commitMessage": "feat(core): expose `--trace` through the programmatic API (#1934)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268400"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268409"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268439"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268510"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268647"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268668"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37919965614/job/113785268733"
+      }
+    ]
+  },
+  {
     "commitSha": "81dbc66ee50ad23489d51520e49da7f8d310df64",
     "commitTimestamp": "2026-10-09T05:22:34Z",
     "commitMessage": "chore: remove unit tests already covered by e2e (#1931)",
