@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "81dbc66ee50ad23489d51520e49da7f8d310df64",
+    "commitTimestamp": "2026-10-09T05:22:34Z",
+    "commitMessage": "chore: remove unit tests already covered by e2e (#1931)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170024"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170082"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170114"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170182"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170217"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170253"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/37888290217/job/113683170361"
+      }
+    ]
+  },
+  {
     "commitSha": "db43d2444934dbc1ed4c35ad542d97d8b4c1887c",
     "commitTimestamp": "2026-10-08T10:50:39Z",
     "commitMessage": "fix(core): forward only worker-safe host node flags to pools (#1929)",
