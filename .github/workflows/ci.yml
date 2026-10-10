@@ -102,6 +102,8 @@ jobs:
             os: ubuntu-latest
           - suite: rstack-cli
             os: ubuntu-latest
+          - suite: rstack-editor
+            os: ubuntu-latest
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: rstest (${{ matrix.suite }})
