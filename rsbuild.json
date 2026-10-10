@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "d9d693aeaa04d9185f027dbf6cc733e330a769c8",
+    "commitTimestamp": "2026-10-10T08:45:07Z",
+    "commitMessage": "chore(lint): enable automatic TypeScript project discovery (#8643)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282198"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282256"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282270"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282297"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282312"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282344"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282351"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38038987985/job/114175282407"
+      }
+    ]
+  },
+  {
     "commitSha": "2805fc5d1c1a006e259f66006e9f5f5cdf54b37f",
     "commitTimestamp": "2026-10-10T07:48:02Z",
     "commitMessage": "chore(deps): upgrade rstack to 0.8.3 (#8644)",
