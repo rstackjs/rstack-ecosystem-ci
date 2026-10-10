@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2ff452e5a590d5434ce4d6bdd95685c7d52cf455",
+    "commitTimestamp": "2026-10-10T07:51:35Z",
+    "commitMessage": "chore(deps): update dependency tinypool to v2 [security] (#3736)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723/job/114166500085"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723/job/114166500126"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723/job/114166500136"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723/job/114166500189"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723/job/114166500205"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38036024723/job/114166500242"
+      }
+    ]
+  },
+  {
     "commitSha": "26f51bec5e724328ac71837165441a46553ff600",
     "commitTimestamp": "2026-10-10T06:43:13Z",
     "commitMessage": "fix(plugin-playground): strip quotes from code-block meta values (#3728)",
