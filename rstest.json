@@ -1,5 +1,58 @@
 [
   {
+    "commitSha": "6f91eaacd5a68ae4e87fed45a84d126056502d01",
+    "commitTimestamp": "2026-10-10T07:40:45Z",
+    "commitMessage": "fix(core): keep factory mock exports spyable by emitting Rspack interop helpers (#1939)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255500"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255534"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255566"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255570"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255612"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255621"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035258219/job/114164255630"
+      }
+    ]
+  },
+  {
     "commitSha": "d49e6155cb10b5d5802b818653d9b2ace92be94a",
     "commitTimestamp": "2026-10-09T10:49:25Z",
     "commitMessage": "feat(core): expose `--trace` through the programmatic API (#1934)",
