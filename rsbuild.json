@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2805fc5d1c1a006e259f66006e9f5f5cdf54b37f",
+    "commitTimestamp": "2026-10-10T07:48:02Z",
+    "commitMessage": "chore(deps): upgrade rstack to 0.8.3 (#8644)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165806920"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165806921"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165806957"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165807040"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165807055"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165807057"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165807064"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38035788003/job/114165807094"
+      }
+    ]
+  },
+  {
     "commitSha": "45fb76fa55aced87b8112e3a9f85d1855f81f465",
     "commitTimestamp": "2026-10-10T07:06:23Z",
     "commitMessage": "chore(lint): scope typed linting for templates and fixtures (#8642)",
