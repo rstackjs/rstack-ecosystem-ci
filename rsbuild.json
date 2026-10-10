@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "45fb76fa55aced87b8112e3a9f85d1855f81f465",
+    "commitTimestamp": "2026-10-10T07:06:23Z",
+    "commitMessage": "chore(lint): scope typed linting for templates and fixtures (#8642)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158453959"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158453994"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158453997"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158454020"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158454022"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158454029"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158454046"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38033283008/job/114158454063"
+      }
+    ]
+  },
+  {
     "commitSha": "8a17c78d39c153bb21f8f1557b8ac2ea2fa4a285",
     "commitTimestamp": "2026-10-10T06:59:37Z",
     "commitMessage": "chore(test): prepare plugin tests for type-aware linting (#8641)",
