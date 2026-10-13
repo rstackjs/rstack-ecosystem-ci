@@ -63,17 +63,32 @@ jobs:
         env:
           DISTINCT_ID: ${{ inputs.distinct_id }}
 
+  prepare-binding:
+    name: Prepare Rslint Binding
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      commit-sha: ${{ steps.prepare.outputs.commit-sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: ./.github/actions/prepare-rslint-binding
+        id: prepare
+        with:
+          repository: ${{ inputs.repo }}
+          ref: ${{ inputs.branchName }}
+
   execute-selected-suite:
+    needs: prepare-binding
     if: "inputs.suite != '-'"
     runs-on: ubuntu-latest
     name: execute-all (${{ inputs.suite }})
-    timeout-minutes: 60
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: ./.github/actions/build-rslint
         with:
           repository: ${{ inputs.repo }}
-          ref: ${{ inputs.branchName }}
+          ref: ${{ needs.prepare-binding.outputs.commit-sha }}
       - run: pnpm install --frozen-lockfile
       - name: Publish Rslint to Verdaccio
         id: publish-rslint
@@ -100,6 +115,7 @@ jobs:
             --release "$RELEASE" "${suite_ref_args[@]}" "$SUITE"
 
   execute-all:
+    needs: prepare-binding
     if: "inputs.suite == '-'"
     strategy:
       fail-fast: false
@@ -107,13 +123,13 @@ jobs:
         suite: [rsbuild, rslib, rstest]
     runs-on: ubuntu-latest
     name: execute-all (${{ matrix.suite }})
-    timeout-minutes: 60
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: ./.github/actions/build-rslint
         with:
           repository: ${{ inputs.repo }}
-          ref: ${{ inputs.branchName }}
+          ref: ${{ needs.prepare-binding.outputs.commit-sha }}
       - run: pnpm install --frozen-lockfile
       - name: Publish Rslint to Verdaccio
         id: publish-rslint

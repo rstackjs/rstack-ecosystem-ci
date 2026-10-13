@@ -1,5 +1,5 @@
 name: 'Build Rslint'
-description: 'Checkout and build the host Rslint packages'
+description: 'Checkout, restore Rslint native artifacts, and build JavaScript'
 
 inputs:
   repository:
@@ -34,26 +34,20 @@ runs:
         submodules: recursive
         persist-credentials: false
 
-    - name: Setup Go
-      uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
+    - name: Download Rslint native packages and schemas
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
       with:
-        go-version-file: workspace/rslint/go.mod
-        cache-dependency-path: |
-          workspace/rslint/go.sum
-          workspace/rslint/shim/**/go.sum
-          workspace/rslint/typescript-go/tsc/go.sum
+        name: rslint-linux-x64-gnu
+        path: workspace/rslint
 
-    - name: Setup Rust
-      uses: dtolnay/rust-toolchain@4cda84d5c5c54efe2404f9d843567869ab1699d4 # stable
-      with:
-        toolchain: 1.96.1
-
-    - name: Build Rslint
+    - name: Build Rslint JavaScript
       shell: bash
       working-directory: workspace/rslint
       run: |
         set -euo pipefail
+        # Artifact downloads do not preserve the Go executable's permission.
+        chmod +x npm/rslint/linux-x64-gnu/rslint
+        test -s packages/rslint/rule-schemas.json
         pnpm install --frozen-lockfile
-        pnpm --filter @rslint/native build
-        go run ./tools/dump_rule_schemas > packages/rslint/rule-schemas.json
-        pnpm --filter @rslint/core... run build
+        pnpm --filter @rslint/api run build
+        pnpm --filter @rslint/core run build:js
