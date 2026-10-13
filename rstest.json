@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "da8eb2266c810b714cfc8f722237de84223e5659",
+    "commitTimestamp": "2026-10-13T08:00:57Z",
+    "commitMessage": "fix(core): support cross-realm DOM containment matchers (#1944)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575095"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575113"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575150"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575153"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575159"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575175"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192575192"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38366437492/job/115192576339"
+      }
+    ]
+  },
+  {
     "commitSha": "77b6cf6061cc6963f74a532026c89aaa49947c2a",
     "commitTimestamp": "2026-10-13T04:29:28Z",
     "commitMessage": "fix(core): format VM DOM assertions with the current HTMLElement (#1943)",
