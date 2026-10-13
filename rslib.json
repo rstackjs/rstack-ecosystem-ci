@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "260a345153fa8aeed6bf8ffff1180123b4fc3a47",
+    "commitTimestamp": "2026-10-13T07:14:40Z",
+    "commitMessage": "fix(examples): support Preact 11 in peer dependencies (#1954)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588485"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588545"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588568"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588588"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588594"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588629"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588658"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38361519305/job/115176588785"
+      }
+    ]
+  },
+  {
     "commitSha": "7095ac9696ffc881f9071d0ebfe18d74bf3bf39b",
     "commitTimestamp": "2026-10-12T07:40:37Z",
     "commitMessage": "chore(deps): update dependency preact to v11 (#1951)",
