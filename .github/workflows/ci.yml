@@ -238,7 +238,21 @@ jobs:
           --stack rspack
           ${{ matrix.suite }}
 
+  prepare-rslint-binding:
+    name: Prepare Rslint Binding
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 60
+    outputs:
+      commit-sha: ${{ steps.prepare.outputs.commit-sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: ./.github/actions/prepare-rslint-binding
+        id: prepare
+
   rslint:
+    needs: prepare-rslint-binding
     strategy:
       matrix:
         suite:
@@ -250,10 +264,12 @@ jobs:
     permissions:
       contents: read
     name: rslint (${{ matrix.suite }})
-    timeout-minutes: 60
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: ./.github/actions/build-rslint
+        with:
+          ref: ${{ needs.prepare-rslint-binding.outputs.commit-sha }}
       - run: pnpm install --frozen-lockfile
       - name: Publish Rslint
         id: publish-rslint

@@ -50,6 +50,8 @@ pnpm test --stack rslint --release 0.9.5 rstest
 
 Source builds require Go (the version in Rslint's `go.mod`), Rust, and the initialized `typescript-go` submodule. The suites install `@rslint/core` and the matching host native package from packed source builds or a fresh local Verdaccio version, then verify the versions resolved by the actual caller. Independently versioned tsgo server packages use their published versions.
 
+GitHub Actions builds the Rust binding, Go CLI, and rule schemas once in a prepare job. Each suite checks out that same source commit, restores the artifacts, and builds only JavaScript before publishing to its own local Verdaccio registry.
+
 For upstream runs, configure the Repository secret `REPO_RSLINT_ECO_CI_GITHUB_TOKEN` in `web-infra-dev/rslint` with **Actions read/write** access to this repository. Merge this integration before the upstream workflow. History publishing uses this repository's own `GITHUB_TOKEN`; the dispatch token needs no Contents permission. Existing shared actions are unchanged, so no action release or SHA pin update is required.
 
 # How to add a new integration test
