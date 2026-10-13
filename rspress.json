@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e7c346ec28dc62c42a233b0da8a9270a0efa53c2",
+    "commitTimestamp": "2026-10-13T11:15:06Z",
+    "commitMessage": "feat(core): add built-in WebMCP tools and useWebMcp (#3742)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844/job/115268823507"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844/job/115268823556"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844/job/115268823575"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844/job/115268823577"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844/job/115268823741"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38389302844/job/115268823760"
+      }
+    ]
+  },
+  {
     "commitSha": "77c81ee730e8ee1d2338b83620f5213a545c64fa",
     "commitTimestamp": "2026-10-13T08:39:25Z",
     "commitMessage": "chore(deps): update playwright monorepo to v1.64.0 (#3743)",
