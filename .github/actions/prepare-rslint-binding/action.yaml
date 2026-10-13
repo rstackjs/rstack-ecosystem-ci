@@ -44,10 +44,9 @@ runs:
       uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
       with:
         go-version-file: workspace/rslint/go.mod
-        cache-dependency-path: |
-          workspace/rslint/go.sum
-          workspace/rslint/shim/**/go.sum
-          workspace/rslint/typescript-go/tsc/go.sum
+        # Keep the build cache within this job; restoring another ref's outputs
+        # can exhaust disk space while compiling Rslint.
+        cache: false
 
     - name: Setup Rust
       uses: dtolnay/rust-toolchain@4cda84d5c5c54efe2404f9d843567869ab1699d4 # stable
