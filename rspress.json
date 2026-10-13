@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "896385a2c8eef06ea5028276dca58d4bd797f07a",
+    "commitTimestamp": "2026-10-13T07:29:25Z",
+    "commitMessage": "feat(core/router)!: migrate navigation to React Router data mode (#3685)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996/job/115181436792"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996/job/115181436845"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996/job/115181436852"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996/job/115181436958"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996/job/115181437093"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38363006996/job/115181437117"
+      }
+    ]
+  },
+  {
     "commitSha": "07abe4e9a79dbcc2db5b92ff883c7beddc5c2856",
     "commitTimestamp": "2026-10-12T07:11:30Z",
     "commitMessage": "ci: add Linux test workflow, align Node versions, fail-open skip detection (#3730)",
