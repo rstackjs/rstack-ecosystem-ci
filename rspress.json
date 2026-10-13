@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "77c81ee730e8ee1d2338b83620f5213a545c64fa",
+    "commitTimestamp": "2026-10-13T08:39:25Z",
+    "commitMessage": "chore(deps): update playwright monorepo to v1.64.0 (#3743)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969/job/115207168471"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969/job/115207168491"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969/job/115207168535"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969/job/115207168677"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969/job/115207168702"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38370842969/job/115207169144"
+      }
+    ]
+  },
+  {
     "commitSha": "a208375ead1e651570767b6eb502403e294f612d",
     "commitTimestamp": "2026-10-13T08:21:32Z",
     "commitMessage": "chore(deps): update rstack (#3741)",
