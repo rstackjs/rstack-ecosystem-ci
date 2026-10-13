@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ce3c0b0c99dc8e9282cdae9e70313daa099bf51d",
+    "commitTimestamp": "2026-10-13T03:55:43Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1942)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160297"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160320"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160343"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160367"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160370"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160387"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160412"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38344017749/job/115121160418"
+      }
+    ]
+  },
+  {
     "commitSha": "6f91eaacd5a68ae4e87fed45a84d126056502d01",
     "commitTimestamp": "2026-10-10T07:40:45Z",
     "commitMessage": "fix(core): keep factory mock exports spyable by emitting Rspack interop helpers (#1939)",
