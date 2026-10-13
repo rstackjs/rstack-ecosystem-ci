@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "77b6cf6061cc6963f74a532026c89aaa49947c2a",
+    "commitTimestamp": "2026-10-13T04:29:28Z",
+    "commitMessage": "fix(core): format VM DOM assertions with the current HTMLElement (#1943)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683690"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683707"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683708"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683719"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683727"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683734"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683840"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38346695404/job/115129683948"
+      }
+    ]
+  },
+  {
     "commitSha": "ce3c0b0c99dc8e9282cdae9e70313daa099bf51d",
     "commitTimestamp": "2026-10-13T03:55:43Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1942)",
