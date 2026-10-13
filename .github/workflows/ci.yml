@@ -237,3 +237,30 @@ jobs:
           run-suites
           --stack rspack
           ${{ matrix.suite }}
+
+  rslint:
+    strategy:
+      matrix:
+        suite:
+          - rsbuild
+          - rslib
+          - rstest
+      fail-fast: false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    name: rslint (${{ matrix.suite }})
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: ./.github/actions/build-rslint
+      - run: pnpm install --frozen-lockfile
+      - name: Publish Rslint
+        id: publish-rslint
+        uses: ./.github/actions/publish-rslint-to-verdaccio
+      - name: Run suite (with Verdaccio)
+        env:
+          NPM_CONFIG_REGISTRY: http://localhost:4873
+          RELEASE: ${{ steps.publish-rslint.outputs.version }}
+          SUITE: ${{ matrix.suite }}
+        run: pnpm tsx ecosystem-ci.ts run-suites --stack rslint --release "$RELEASE" "$SUITE"

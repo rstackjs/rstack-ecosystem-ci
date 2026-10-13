@@ -4,7 +4,15 @@ import { writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const STACKS = ['rsbuild', 'rspack', 'rslib', 'rstest', 'rsdoctor', 'rspress'];
+const STACKS = [
+  'rsbuild',
+  'rspack',
+  'rslib',
+  'rstest',
+  'rsdoctor',
+  'rspress',
+  'rslint',
+];
 const DATA_REPO = 'rstackjs/rstack-ecosystem-ci';
 const DATA_BRANCH_URL = `https://raw.githubusercontent.com/${DATA_REPO}/data`;
 

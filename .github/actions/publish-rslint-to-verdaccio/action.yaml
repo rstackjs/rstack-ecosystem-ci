@@ -1,0 +1,30 @@
+name: Publish Rslint to Verdaccio
+description: Publish the built host Rslint packages under a unique per-run version
+
+outputs:
+  version:
+    description: The sentinel version published to Verdaccio
+    value: ${{ steps.publish.outputs.version }}
+
+runs:
+  using: composite
+  steps:
+    - name: Start Verdaccio
+      shell: bash
+      run: |
+        pnpm verdaccio --config verdaccio.yaml --listen 127.0.0.1:4873 &
+        verdaccio_pid=$!
+        printf '\n//localhost:4873/:_authToken="this-is-a-fake-token"\n' >> ~/.npmrc
+        for attempt in {1..30}; do
+          kill -0 "$verdaccio_pid"
+          if curl --fail --silent --max-time 2 http://localhost:4873/-/ping > /dev/null; then
+            break
+          fi
+          sleep 1
+        done
+        curl --fail --silent --max-time 2 http://localhost:4873/-/ping > /dev/null
+
+    - name: Publish Rslint
+      id: publish
+      shell: bash
+      run: pnpm tsx scripts/publish-rslint.ts workspace/rslint

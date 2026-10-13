@@ -39,6 +39,19 @@ The repositories are checked out into `workspace` subdirectory as shallow clones
 - `pnpm test --stack rspack modernjs` (rspack suites include modernjs, rspress, rsbuild, rslib, rstest, rsdoctor, examples, devserver, plugin, lynx-stack, \_selftest)
 - `pnpm test --stack rspress rspress-plugins`: build Rspress and run the [Rspress plugins](https://github.com/rstackjs/rspress-plugins) package builds, documentation builds, unit tests, and Chromium E2E tests
 
+### Rslint
+
+The Rslint suites build and lint Rsbuild, Rslib, and Rstest with type checking enabled. Rsbuild and Rslib exercise Rslint through Rstack; Rstest uses the Rslint CLI directly.
+
+```bash
+pnpm test --stack rslint --branch main rsbuild
+pnpm test --stack rslint --release 0.9.5 rstest
+```
+
+Source builds require Go (the version in Rslint's `go.mod`), Rust, and the initialized `typescript-go` submodule. The suites install `@rslint/core` and the matching host native package from packed source builds or a fresh local Verdaccio version, then verify the versions resolved by the actual caller. Independently versioned tsgo server packages use their published versions.
+
+For upstream runs, configure the Repository secret `REPO_RSLINT_ECO_CI_GITHUB_TOKEN` in `web-infra-dev/rslint` with **Actions read/write** access to this repository. Merge this integration before the upstream workflow. History publishing uses this repository's own `GITHUB_TOKEN`; the dispatch token needs no Contents permission. Existing shared actions are unchanged, so no action release or SHA pin update is required.
+
 # How to add a new integration test
 
 - check out the existing suites under `tests/<stack>` and add one yourself. Thanks to the shared utilities it is really easy

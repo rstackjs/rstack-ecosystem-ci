@@ -3,6 +3,7 @@ import type { EcosystemCommitHistory } from '@/types';
 import rsbuild from './rsbuild.json';
 import rsdoctor from './rsdoctor.json';
 import rslib from './rslib.json';
+import rslint from './rslint.json';
 import rspack from './rspack.json';
 import rspress from './rspress.json';
 import rstest from './rstest.json';
@@ -12,6 +13,7 @@ const mockHistory = {
   rsdoctor: rsdoctor as EcosystemCommitHistory,
   rspack: rspack as EcosystemCommitHistory,
   rslib: rslib as EcosystemCommitHistory,
+  rslint: rslint as EcosystemCommitHistory,
   rstest: rstest as EcosystemCommitHistory,
   rspress: rspress as EcosystemCommitHistory,
 } satisfies Record<string, EcosystemCommitHistory>;

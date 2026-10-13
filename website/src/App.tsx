@@ -21,6 +21,7 @@ const STACKS = [
   { id: 'rstest', label: 'Rstest' },
   { id: 'rsdoctor', label: 'Rsdoctor' },
   { id: 'rspress', label: 'Rspress' },
+  { id: 'rslint', label: 'Rslint' },
 ] as const;
 
 type StackId = (typeof STACKS)[number]['id'];
@@ -37,6 +38,7 @@ const RSTACK_REPOS = [
   { label: 'Rstest', url: 'https://github.com/web-infra-dev/rstest' },
   { label: 'Rsdoctor', url: 'https://github.com/web-infra-dev/rsdoctor' },
   { label: 'Rspress', url: 'https://github.com/web-infra-dev/rspress' },
+  { label: 'Rslint', url: 'https://github.com/web-infra-dev/rslint' },
 ] as const;
 
 export default function App() {

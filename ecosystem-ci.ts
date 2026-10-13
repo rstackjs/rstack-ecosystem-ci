@@ -22,6 +22,7 @@ const STACK_CHOICES: Stack[] = [
   'rslib',
   'rsdoctor',
   'rspress',
+  'rslint',
 ];
 
 const cli = cac();

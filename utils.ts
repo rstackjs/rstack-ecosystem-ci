@@ -1,12 +1,18 @@
 import assert from 'node:assert';
+import { createHash } from 'node:crypto';
 import fs from 'node:fs';
+import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
 import { AGENTS, detect, getCommand, serializeCommand } from '@antfu/ni';
 import { getPackages } from '@manypkg/get-packages';
-import { type Options as ExecaOptions, execaCommand } from 'execa';
+import {
+  type Options as ExecaOptions,
+  execa as execaFile,
+  execaCommand,
+} from 'execa';
 import yaml from 'yaml';
 import type {
   Agent,
@@ -29,6 +35,7 @@ const STACK_WORKSPACE_DIR: Record<Stack, string> = {
   rslib: 'rslib',
   rsdoctor: 'rsdoctor',
   rspress: 'rspress',
+  rslint: 'rslint',
 };
 
 const STACK_DEFAULT_REPO: Record<Stack, string> = {
@@ -38,6 +45,7 @@ const STACK_DEFAULT_REPO: Record<Stack, string> = {
   rslib: 'web-infra-dev/rslib',
   rsdoctor: 'web-infra-dev/rsdoctor',
   rspress: 'web-infra-dev/rspress',
+  rslint: 'web-infra-dev/rslint',
 };
 
 let activeStack: Stack = 'rsbuild';
@@ -86,11 +94,10 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
 
   const proc = execaCommand(cmd, {
     env,
-    stdio: 'pipe',
+    stdio: ['inherit', 'pipe', 'pipe'],
     cwd,
     reject: false,
   });
-  proc.stdin?.pipe(process.stdin);
   proc.stdout?.pipe(process.stdout);
   proc.stderr?.pipe(process.stderr);
   const result = await proc;
@@ -362,6 +369,169 @@ async function getRspackPackageData(): Promise<RspackPackageData> {
   return rspackPackageData;
 }
 
+interface RslintPackageInfo {
+  name: string;
+  directory: string;
+}
+
+export function getRslintPackages(
+  stackPath: string,
+): [RslintPackageInfo, RslintPackageInfo] {
+  const { platform, arch } = process;
+  assert(
+    ['darwin', 'linux', 'win32'].includes(platform) &&
+      ['arm64', 'x64'].includes(arch),
+    `unsupported rslint platform: ${platform}-${arch}`,
+  );
+  let suffix = '';
+  if (platform === 'linux') {
+    const report = process.report.getReport() as {
+      header: { glibcVersionRuntime?: string };
+    };
+    suffix = report.header.glibcVersionRuntime ? '-gnu' : '-musl';
+  } else if (platform === 'win32') {
+    suffix = '-msvc';
+  }
+  const tuple = `${platform}-${arch}${suffix}`;
+  return [
+    {
+      name: '@rslint/core',
+      directory: path.join(stackPath, 'packages/rslint'),
+    },
+    {
+      name: `@rslint/native-${tuple}`,
+      directory: path.join(stackPath, 'npm/rslint', tuple),
+    },
+  ];
+}
+
+export function verifyRslintNativeBuild(native: RslintPackageInfo) {
+  const tuple = native.name.slice('@rslint/native-'.length);
+  const binary = tuple.startsWith('win32-') ? 'rslint.exe' : 'rslint';
+  for (const file of [binary, `rslint.${tuple}.node`]) {
+    const output = path.join(native.directory, file);
+    const stat = fs.statSync(output, { throwIfNoEntry: false });
+    assert(
+      stat?.isFile() && stat.size > 0,
+      `missing or empty rslint build output: ${output}`,
+    );
+  }
+}
+
+async function packRslintPackages(
+  stackPath: string,
+  outputDir: string,
+  env: NodeJS.ProcessEnv = process.env,
+) {
+  const packages = getRslintPackages(stackPath);
+  verifyRslintNativeBuild(packages[1]);
+  fs.mkdirSync(outputDir, { recursive: true });
+  // Keep symlink aliases (e.g. macOS /var) out of pnpm's relative file IDs.
+  const realOutputDir = fs.realpathSync(outputDir);
+  const overrides: Record<string, string> = {};
+  for (const pkg of packages) {
+    const name = pkg.name.replace('@', '').replace('/', '-');
+    const temporaryTarball = path.join(realOutputDir, `${name}.tgz`);
+    // pnpm resolves workspace/catalog specs while packing, as it does on publish.
+    await execaFile('pnpm', ['pack', '--out', temporaryTarball], {
+      cwd: pkg.directory,
+      env,
+      stdio: 'inherit',
+    });
+    // A reused file: path can retain old same-version binaries in pnpm's cache.
+    // Bind the dependency URL to the actual bytes, including during bisect.
+    const digest = createHash('sha256')
+      .update(fs.readFileSync(temporaryTarball))
+      .digest('hex');
+    const tarball = path.join(realOutputDir, `${name}-${digest}.tgz`);
+    fs.renameSync(temporaryTarball, tarball);
+    overrides[pkg.name] = `file:${tarball}`;
+  }
+  return overrides;
+}
+
+function resolveInstalledPackage(
+  callerManifest: string,
+  name: string,
+  consumer: string,
+): RslintPackageInfo {
+  const realCaller = fs.realpathSync(callerManifest);
+  const callerDir = path.dirname(realCaller);
+  const lookups = createRequire(realCaller).resolve.paths(name) ?? [];
+  const consumerBoundary = path.join(consumer, 'node_modules');
+  // pnpm can store packages outside the checkout. In that case, stop at the
+  // caller's own dependency links, rather than searching another workspace.
+  const boundary = lookups.includes(consumerBoundary)
+    ? consumerBoundary
+    : lookups.find((lookup) => callerDir.startsWith(`${lookup}${path.sep}`));
+  const end = boundary ? lookups.indexOf(boundary) : -1;
+  assert(end >= 0, `missing dependency lookup boundary for ${realCaller}`);
+  // Follow Node's lookup directories through the current links. require.resolve
+  // caches old targets across installs in a long-running bisect process.
+  for (const lookup of lookups.slice(0, end + 1)) {
+    const directory = path.join(lookup, name);
+    if (fs.existsSync(path.join(directory, 'package.json'))) {
+      return { name, directory: fs.realpathSync(directory) };
+    }
+  }
+  throw new Error(
+    `${name} is missing from the consumer dependency tree; ancestor fallback is disabled`,
+  );
+}
+
+// Check resolution from the actual caller. A root-level core package alone
+// cannot prove that `rs lint` uses it through rstack's dependency tree.
+function verifyRslintInstall(dir: string, expectedVersion: string) {
+  const consumer = fs.realpathSync(dir);
+  const manifest = JSON.parse(
+    fs.readFileSync(path.join(consumer, 'package.json'), 'utf8'),
+  );
+  const dependencies = {
+    ...manifest.dependencies,
+    ...manifest.devDependencies,
+  };
+  const callers = [
+    ...(dependencies['@rslint/core'] ? ['@rslint/core'] : []),
+    ...(dependencies.rstack ? ['rstack'] : []),
+  ];
+  assert(
+    callers.length,
+    `${dir} does not consume rslint directly or through rstack`,
+  );
+  const [, hostNative] = getRslintPackages('');
+  for (const caller of callers) {
+    const callerManifest =
+      caller === 'rstack'
+        ? path.join(consumer, 'node_modules/rstack/package.json')
+        : path.join(consumer, 'package.json');
+    const core = resolveInstalledPackage(
+      callerManifest,
+      '@rslint/core',
+      consumer,
+    );
+    const native = resolveInstalledPackage(
+      path.join(core.directory, 'package.json'),
+      hostNative.name,
+      consumer,
+    );
+    const packages: [RslintPackageInfo, RslintPackageInfo] = [core, native];
+    for (const pkg of packages) {
+      const installed = JSON.parse(
+        fs.readFileSync(path.join(pkg.directory, 'package.json'), 'utf8'),
+      );
+      assert.strictEqual(installed.name, pkg.name);
+      assert.strictEqual(
+        installed.version,
+        expectedVersion,
+        `${caller} resolved an unexpected ${pkg.name} version`,
+      );
+    }
+    console.log(
+      `Verified ${caller} uses @rslint/core and ${hostNative.name}@${expectedVersion}`,
+    );
+  }
+}
+
 export async function runInRepo(options: RunOptions & RepoOptions) {
   if (options.verify == null) {
     options.verify = true;
@@ -465,9 +635,13 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       activeStack === 'rstest' ||
       activeStack === 'rslib' ||
       activeStack === 'rsdoctor' ||
-      activeStack === 'rspress'
+      activeStack === 'rspress' ||
+      activeStack === 'rslint'
     ) {
-      const packages = await getMonorepoPackages(activeStack);
+      const packages =
+        activeStack === 'rslint'
+          ? getRslintPackages(stackPath)
+          : await getMonorepoPackages(activeStack);
       if (options.release) {
         for (const pkgInfo of packages) {
           if (skippedPackageOverrides.has(pkgInfo.name)) {
@@ -484,11 +658,20 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
           overrides[pkgInfo.name] = options.release;
         }
       } else {
+        const localOverrides =
+          activeStack === 'rslint'
+            ? await packRslintPackages(
+                stackPath,
+                path.join(workspaceRoot, 'rslint-tarballs'),
+                env,
+              )
+            : undefined;
         for (const pkgInfo of packages) {
           if (skippedPackageOverrides.has(pkgInfo.name)) {
             continue;
           }
-          overrides[pkgInfo.name] ||= pkgInfo.directory;
+          overrides[pkgInfo.name] ||=
+            localOverrides?.[pkgInfo.name] ?? pkgInfo.directory;
         }
       }
       await applyPackageOverrides({
@@ -553,6 +736,17 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
         },
         devDependencyStrategy: 'all',
       });
+    }
+    if (activeStack === 'rslint') {
+      const expectedVersion =
+        options.release ??
+        JSON.parse(
+          fs.readFileSync(
+            path.join(stackPath, 'packages/rslint/package.json'),
+            'utf8',
+          ),
+        ).version;
+      verifyRslintInstall(dir, expectedVersion);
     }
     await afterInstallCommand?.(pkg.scripts);
     await beforeBuildCommand?.(pkg.scripts);
@@ -640,6 +834,28 @@ export async function buildStack({ verify = false }: { verify?: boolean }) {
     if (verify) {
       const runTest = serializeCommand(getCommand('pnpm', 'run', ['test:js']));
       await $`${runTest}`;
+    }
+  } else if (activeStack === 'rslint') {
+    await $`git submodule update --init --recursive`;
+    await $`pnpm install --frozen-lockfile`;
+    await $`pnpm --filter @rslint/native run build`;
+    const schemas = await execaFile(
+      'go',
+      ['run', './tools/dump_rule_schemas'],
+      {
+        cwd: stackPath,
+        env,
+        stderr: 'inherit',
+      },
+    );
+    fs.writeFileSync(
+      path.join(stackPath, 'packages/rslint/rule-schemas.json'),
+      schemas.stdout,
+    );
+    await $`pnpm --filter @rslint/core... run build`;
+    verifyRslintNativeBuild(getRslintPackages(stackPath)[1]);
+    if (verify) {
+      await $`pnpm --filter @rslint/core run test`;
     }
   } else {
     const frozenInstall = serializeCommand(getCommand('pnpm', 'frozen'));
@@ -1042,7 +1258,7 @@ export function parseStackMajor(projectPath: string): number {
   const packageJsonPath = path.join(
     projectPath,
     'packages',
-    'core',
+    activeStack === 'rslint' ? 'rslint' : 'core',
     'package.json',
   );
   const content = fs.readFileSync(packageJsonPath, 'utf-8');
