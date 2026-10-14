@@ -76,6 +76,44 @@
     ]
   },
   {
+    "commitSha": "865e3a5ab73cf60bbafd12e680142acf9949e5c1",
+    "commitTimestamp": "2026-10-14T08:46:48Z",
+    "commitMessage": "feat(vscode): prepare the final standalone extension release (#2427)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537569433",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537569433/job/115782854423"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537569433/job/115782854561"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537569433/job/115782854613"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537569433/job/115782854690"
+      }
+    ]
+  },
+  {
     "commitSha": "c559988c34c2bfee56186bba59aa9f2c263cf771",
     "commitTimestamp": "2026-10-14T07:42:57Z",
     "commitMessage": "ci: connect Rslint to ecosystem CI (#2420)",
