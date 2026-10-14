@@ -1,6 +1,12 @@
 import type { RunOptions } from '../../types';
-import { runRspressTests } from '../shared/rspress';
+import { runInRepo } from '../../utils';
 
 export async function test(options: RunOptions) {
-  await runRspressTests(options, process.env.RSPRESS ?? 'main');
+  await runInRepo({
+    ...options,
+    repo: 'web-infra-dev/rspress',
+    branch: process.env.RSPRESS ?? 'main',
+    beforeTest: 'pnpm exec playwright install --with-deps chromium',
+    test: ['test'],
+  });
 }
