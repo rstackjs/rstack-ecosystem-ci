@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2cb2c3c96a87f929ca030f39622a17c1d4c3fb99",
+    "commitTimestamp": "2026-10-14T09:04:58Z",
+    "commitMessage": "chore(lint): restrict imports across parent directories (#3745)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158/job/115771440012"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158/job/115771440033"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158/job/115771440092"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158/job/115771440141"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158/job/115771440194"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38539795158/job/115771440310"
+      }
+    ]
+  },
+  {
     "commitSha": "8efa1c25c7b8f560eb34f96ff6b16c949800f029",
     "commitTimestamp": "2026-10-14T08:57:28Z",
     "commitMessage": "feat(core): enable llms by default in v2.1.0 (#3744)",
