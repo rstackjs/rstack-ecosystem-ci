@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "4e59b7cc5a8d29101e443b2d12379c47df118789",
+    "commitTimestamp": "2026-10-14T08:50:30Z",
+    "commitMessage": "feat(unicorn): port no-for-each rule (#2402)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538042957",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538042957/job/115779783755"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538042957/job/115779783882"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538042957/job/115779783883"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538042957/job/115779783912"
+      }
+    ]
+  },
+  {
     "commitSha": "c559988c34c2bfee56186bba59aa9f2c263cf771",
     "commitTimestamp": "2026-10-14T07:42:57Z",
     "commitMessage": "ci: connect Rslint to ecosystem CI (#2420)",
