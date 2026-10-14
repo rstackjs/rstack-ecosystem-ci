@@ -1,13 +1,17 @@
 import type { RunOptions } from '../../types';
 import { runInRepo } from '../../utils';
 
-// Only unit tests run for now. E2E tests are excluded because they need
-// VS Code and a display server.
+// `test:unit` runs the editor's unit tests, which load `@rslint/core` in the
+// lint worker, and `lint` runs `rs lint --type-check`, which type-checks the
+// editor against `@rslint/core` (the worker imports its `config-loader` and
+// `eslint-plugin` modules) and uses that core as the linter engine.
+// E2E tests are intentionally excluded because they need VS Code and a
+// display server.
 export async function test(options: RunOptions) {
   await runInRepo({
     ...options,
     repo: 'rstackjs/rstack-editor',
     branch: process.env.RSTACK_EDITOR ?? 'main',
-    test: 'test:unit',
+    test: ['test:unit', 'lint'],
   });
 }
