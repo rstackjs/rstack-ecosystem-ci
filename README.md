@@ -41,7 +41,7 @@ The repositories are checked out into `workspace` subdirectory as shallow clones
 
 ### Rslint
 
-The Rslint suites build and lint Rsbuild, Rslib, and Rstest with type checking enabled. Rsbuild and Rslib exercise Rslint through Rstack; Rstest uses the Rslint CLI directly.
+The Rslint suites build and lint Rsbuild, Rslib, and Rstest with type checking enabled. Rsbuild and Rslib exercise Rslint through Rstack; Rstest uses the Rslint CLI directly. The rstack-editor suite runs the editor's unit tests, which load `@rslint/core` in the lint worker.
 
 ```bash
 pnpm test --stack rslint --branch main rsbuild
