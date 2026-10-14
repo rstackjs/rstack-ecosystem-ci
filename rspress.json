@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8efa1c25c7b8f560eb34f96ff6b16c949800f029",
+    "commitTimestamp": "2026-10-14T08:57:28Z",
+    "commitMessage": "feat(core): enable llms by default in v2.1.0 (#3744)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832/job/115768497286"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832/job/115768497416"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832/job/115768497472"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832/job/115768497686"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832/job/115768497720"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38538894832/job/115768497778"
+      }
+    ]
+  },
+  {
     "commitSha": "e7c346ec28dc62c42a233b0da8a9270a0efa53c2",
     "commitTimestamp": "2026-10-13T11:15:06Z",
     "commitMessage": "feat(core): add built-in WebMCP tools and useWebMcp (#3742)",
