@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "ba32449e1402a05033b0a3eaefd0aa8314726534",
+    "commitTimestamp": "2026-10-14T02:52:46Z",
+    "commitMessage": "fix(resolver): resolve tsconfig `extends` through the real path (#15718)",
+    "author": {
+      "name": "Orgad Shaneh",
+      "email": "orgads@gmail.com",
+      "login": "orgads"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551657"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551669"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551681"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551690"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551696"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551727"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551733"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551738"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551740"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551771"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551773"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551793"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38504086454/job/115657551838"
+      }
+    ]
+  },
+  {
     "commitSha": "5acb6c8b309aa287338f09dfda3cf7acffca6548",
     "commitTimestamp": "2026-10-14T02:01:29Z",
     "commitMessage": "chore(deps): update patch npm dependencies (#16029)",
