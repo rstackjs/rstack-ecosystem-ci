@@ -38,6 +38,44 @@
     ]
   },
   {
+    "commitSha": "86cae507a90794e9dcec77f1086889599c346f01",
+    "commitTimestamp": "2026-10-14T08:49:55Z",
+    "commitMessage": "feat(import): add no-internal-modules rule (#2407)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537950272",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537950272/job/115779890417"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537950272/job/115779890491"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537950272/job/115779890554"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38537950272/job/115779890626"
+      }
+    ]
+  },
+  {
     "commitSha": "c559988c34c2bfee56186bba59aa9f2c263cf771",
     "commitTimestamp": "2026-10-14T07:42:57Z",
     "commitMessage": "ci: connect Rslint to ecosystem CI (#2420)",
