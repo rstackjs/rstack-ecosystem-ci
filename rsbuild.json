@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "0be30bb4d5861192cda9357a39d7055e2549318f",
+    "commitTimestamp": "2026-10-14T06:44:31Z",
+    "commitMessage": "fix(core): recognize charset attributes in custom HTML templates (#8670)",
+    "author": {
+      "name": "Jarvis",
+      "email": "mengda636431@gmail.com",
+      "login": "Jarvis636431"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720043939"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720043958"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720043965"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720044037"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720044055"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720044083"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720044127"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38524023766/job/115720044208"
+      }
+    ]
+  },
+  {
     "commitSha": "d171b7dc3204606ecbfc7900224ca413300ad6c4",
     "commitTimestamp": "2026-10-13T11:01:18Z",
     "commitMessage": "release: v2.2.13 (#8668)",
