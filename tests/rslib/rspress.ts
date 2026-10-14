@@ -1,11 +1,6 @@
 import type { RunOptions } from '../../types';
-import { runInRepo } from '../../utils';
+import { runRspressTests } from '../shared/rspress';
 
 export async function test(options: RunOptions) {
-  await runInRepo({
-    ...options,
-    repo: 'web-infra-dev/rspress',
-    branch: process.env.RSPRESS ?? 'main',
-    test: ['test'],
-  });
+  await runRspressTests(options, process.env.RSPRESS ?? 'main');
 }
