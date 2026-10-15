@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e9e7fe5b66f71fddd3feb1202d4ba3edca2ff1ac",
+    "commitTimestamp": "2026-10-15T10:52:58Z",
+    "commitMessage": "chore(deps): upgrade Rspress to 2.1.0-beta.1 (#8675)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367534"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367584"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367601"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367666"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367689"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367691"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367780"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723432174/job/116383367822"
+      }
+    ]
+  },
+  {
     "commitSha": "e69b28fd9b78d2db76a91e4e092e033a2f2c736b",
     "commitTimestamp": "2026-10-15T10:51:06Z",
     "commitMessage": "fix(core): suggest latest Rsdoctor core when missing (#8674)",
