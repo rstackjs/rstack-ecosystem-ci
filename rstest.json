@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2d799b7ab7d07e084eb0609b44b91206ff35a41e",
+    "commitTimestamp": "2026-10-15T03:48:32Z",
+    "commitMessage": "chore(deps): update dependency @rslint/core to ^0.9.5 (#1954)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486819"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486838"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486849"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486869"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486877"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486893"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486936"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38678191444/job/116236486956"
+      }
+    ]
+  },
+  {
     "commitSha": "16ba516e6e58924f259b494a113905b4442fa30d",
     "commitTimestamp": "2026-10-15T03:44:46Z",
     "commitMessage": "fix(browser): resolve expect.element soon after the condition is met (#1952)",
