@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e69b28fd9b78d2db76a91e4e092e033a2f2c736b",
+    "commitTimestamp": "2026-10-15T10:51:06Z",
+    "commitMessage": "fix(core): suggest latest Rsdoctor core when missing (#8674)",
+    "author": {
+      "name": "yifancong",
+      "email": "congzhe@bytedance.com",
+      "login": "yifancong"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648168"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648449"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648527"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648529"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648576"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648599"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648606"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38723215473/job/116382648644"
+      }
+    ]
+  },
+  {
     "commitSha": "ff66f25ce8fb2dc88e0b83e0e8cf6e30f24cb438",
     "commitTimestamp": "2026-10-14T07:26:47Z",
     "commitMessage": "fix(core): handle file watcher errors (#8671)",
