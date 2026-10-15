@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6aaea7dcbd309997a48a285a0d7a9dabf471b35b",
+    "commitTimestamp": "2026-10-15T11:49:07Z",
+    "commitMessage": "feat(core): enable built-in sitemap generation (#3700)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831/job/116405483832"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831/job/116405483956"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831/job/116405483969"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831/job/116405483994"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831/job/116405484061"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38730097831/job/116405484120"
+      }
+    ]
+  },
+  {
     "commitSha": "fdc99ccdcaea17ec2bdf04f76c63abaa14ab0134",
     "commitTimestamp": "2026-10-15T04:02:52Z",
     "commitMessage": "fix(ssg-md): specify React 18 renderer version in warning (#3749)",
