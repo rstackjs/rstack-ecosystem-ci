@@ -5,9 +5,8 @@
     "moduleResolution": "Bundler",
     "jsx": "react-jsx",
     "lib": ["ESNext", "DOM"],
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
     "types": ["node"],
     "noEmit": true,
