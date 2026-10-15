@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fdc99ccdcaea17ec2bdf04f76c63abaa14ab0134",
+    "commitTimestamp": "2026-10-15T04:02:52Z",
+    "commitMessage": "fix(ssg-md): specify React 18 renderer version in warning (#3749)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075/job/116242336444"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075/job/116242336501"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075/job/116242336540"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075/job/116242336609"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075/job/116242336627"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38680064075/job/116242336668"
+      }
+    ]
+  },
+  {
     "commitSha": "2cb2c3c96a87f929ca030f39622a17c1d4c3fb99",
     "commitTimestamp": "2026-10-14T09:04:58Z",
     "commitMessage": "chore(lint): restrict imports across parent directories (#3745)",
