@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "58b789419cbd644f04fdf62207c9ae287498a5b9",
+    "commitTimestamp": "2026-10-15T13:43:38Z",
+    "commitMessage": "fix(core): include user-defined fields in import.meta.env (#8672)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456965632"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966022"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966085"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966088"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966190"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966210"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966223"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38745213431/job/116456966300"
+      }
+    ]
+  },
+  {
     "commitSha": "e9e7fe5b66f71fddd3feb1202d4ba3edca2ff1ac",
     "commitTimestamp": "2026-10-15T10:52:58Z",
     "commitMessage": "chore(deps): upgrade Rspress to 2.1.0-beta.1 (#8675)",
