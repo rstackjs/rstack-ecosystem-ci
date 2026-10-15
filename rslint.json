@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "5ba76e9eabc63b0e4785bf52b65c17c5fefe1b36",
+    "commitTimestamp": "2026-10-15T01:59:46Z",
+    "commitMessage": "feat(import): support CJS named exports resolution (#2413)",
+    "author": {
+      "name": "adam magued",
+      "email": "adamismailmageud@gmail.com",
+      "login": "AdamMagued"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38668637152",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38668637152/job/116218395858"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38668637152/job/116218395893"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38668637152/job/116218395922"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38668637152/job/116218396112"
+      }
+    ]
+  },
+  {
     "commitSha": "4e59b7cc5a8d29101e443b2d12379c47df118789",
     "commitTimestamp": "2026-10-14T08:50:30Z",
     "commitMessage": "feat(unicorn): port no-for-each rule (#2402)",
