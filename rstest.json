@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8a011cd87bec4af2ad601c5cd8bc794b6b24292c",
+    "commitTimestamp": "2026-10-15T11:41:23Z",
+    "commitMessage": "chore(deps): upgrade rsdoctor to v2 (#1958)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402292793"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402292895"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402292920"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402292992"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402293018"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402293110"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402293131"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38729136639/job/116402293448"
+      }
+    ]
+  },
+  {
     "commitSha": "56154467c7ee0e3ac37dc04f21e146385db03347",
     "commitTimestamp": "2026-10-15T11:32:26Z",
     "commitMessage": "fix(coverage-v8): keep block coverage across files in a reused worker (#1927)",
