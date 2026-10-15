@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "75f9686cac555471019be82b15c934aaf7e52161",
+    "commitTimestamp": "2026-10-15T12:06:09Z",
+    "commitMessage": "chore(release): bump version to 2.1.0-beta.1 (#3747)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599/job/116412349677"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599/job/116412349727"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599/job/116412349750"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599/job/116412349764"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599/job/116412349771"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38732169599/job/116412349848"
+      }
+    ]
+  },
+  {
     "commitSha": "6aaea7dcbd309997a48a285a0d7a9dabf471b35b",
     "commitTimestamp": "2026-10-15T11:49:07Z",
     "commitMessage": "feat(core): enable built-in sitemap generation (#3700)",
