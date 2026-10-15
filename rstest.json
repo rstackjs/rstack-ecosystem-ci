@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "f25bde075dc1381c2eade80ef93eb8ae51a2e310",
+    "commitTimestamp": "2026-10-15T03:59:00Z",
+    "commitMessage": "feat(browser): add locator.pressSequentially (#1953)",
+    "author": {
+      "name": "Rodrigo Faria",
+      "email": "fariarodfar@gmail.com",
+      "login": "rodrigofariow"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258600"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258692"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258734"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258737"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258739"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258763"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258793"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38679078175/job/116239258849"
+      }
+    ]
+  },
+  {
     "commitSha": "2d799b7ab7d07e084eb0609b44b91206ff35a41e",
     "commitTimestamp": "2026-10-15T03:48:32Z",
     "commitMessage": "chore(deps): update dependency @rslint/core to ^0.9.5 (#1954)",
