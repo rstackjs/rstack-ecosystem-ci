@@ -1,5 +1,5 @@
 import { join } from 'node:path';
-import cache from '@actions/cache';
+import { restoreCache, saveCache } from '@actions/cache';
 import type { RunOptions } from '../../types';
 import { $, cd, runInRepo } from '../../utils';
 
@@ -20,7 +20,7 @@ export async function test(options: RunOptions) {
         const sha = await $`git rev-parse HEAD`;
         nxCacheKey = `modernjs-nx-${sha.trim()}`;
         const restoreKeys = ['modernjs-nx-'];
-        const cacheHitKey = await cache.restoreCache(
+        const cacheHitKey = await restoreCache(
           [nxCachePath],
           nxCacheKey,
           restoreKeys,
@@ -39,7 +39,7 @@ export async function test(options: RunOptions) {
       if (isGitHubActions) {
         console.log('Caching `.nx/cache` directory for future builds.');
         await $`ls -lah .nx/cache`;
-        await cache.saveCache([nxCachePath], nxCacheKey);
+        await saveCache([nxCachePath], nxCacheKey);
       }
     },
     test: [
