@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ecf79a6318514edb98dd9b8f543032a35e08291b",
+    "commitTimestamp": "2026-10-16T06:29:53Z",
+    "commitMessage": "perf(coverage-v8): fold raw coverage on the host as payloads arrive (#1959)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768261"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768285"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768312"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768314"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768331"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768351"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768354"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38861555857/job/116844768405"
+      }
+    ]
+  },
+  {
     "commitSha": "e0a7f6c67b79b6627cc4b4b07c2cf80936eb256b",
     "commitTimestamp": "2026-10-16T05:04:36Z",
     "commitMessage": "feat(browser): support screenshot matcher configuration (#1960)",
