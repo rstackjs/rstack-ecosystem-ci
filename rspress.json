@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b17e9f0b3d6cb16cf2da818418652333a87bed62",
+    "commitTimestamp": "2026-10-16T12:12:56Z",
+    "commitMessage": "chore(deps): upgrade Rsdoctor to 2.0.0 (#3759)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105/job/116966364727"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105/job/116966364754"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105/job/116966364813"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105/job/116966364873"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105/job/116966364934"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38899012105/job/116966365210"
+      }
+    ]
+  },
+  {
     "commitSha": "d908efb449c2034871343e2b428a2da1642415ea",
     "commitTimestamp": "2026-10-16T10:11:43Z",
     "commitMessage": "style(theme/Search): refine responsive search panel layout (#3683)",
