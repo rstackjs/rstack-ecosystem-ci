@@ -1,9 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { ArrowUpRight, ChevronDown } from 'lucide-react';
+import * as Tooltip from '@radix-ui/react-tooltip';
 import { useSearchParams } from 'react-router-dom';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
-import { cn } from '@/lib/utils';
+import { cn, formatCommitTime, shortSha } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 // @ts-expect-error dynamic data source alias
 import history from '@data';
@@ -131,6 +133,22 @@ export default function App() {
     [searchParams, selectedStack, setSearchParams],
   );
 
+  const [focusRequest, setFocusRequest] = useState<{
+    sha: string;
+    nonce: number;
+  } | null>(null);
+
+  const handleRunSelect = useCallback(
+    (stack: StackId, sha: string) => {
+      const params = new URLSearchParams(searchParams);
+      params.set('stack', stack);
+      params.delete('suite');
+      setSearchParams(params);
+      setFocusRequest((prev) => ({ sha, nonce: (prev?.nonce ?? 0) + 1 }));
+    },
+    [searchParams, setSearchParams],
+  );
+
   const handleSuiteChange = useCallback(
     (suite: string) => {
       const params = new URLSearchParams(searchParams);
@@ -157,152 +175,146 @@ export default function App() {
       STACKS.map((stack) => ({
         id: stack.id,
         label: stack.label,
-        runs: historyByStack[stack.id]?.length ?? 0,
       })),
-    [historyByStack],
+    [],
   );
   const schedule = useMemo(() => buildUpdateSchedule(now), [now]);
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-transparent px-4 py-12 text-foreground sm:px-8">
+    <div className="min-h-screen px-4 py-10 text-foreground sm:px-6 sm:py-14">
       <div
         id="main-content"
         tabIndex={-1}
-        className="mx-auto flex w-full max-w-6xl flex-col gap-10 outline-none"
+        className="mx-auto flex w-full max-w-6xl flex-col gap-8 outline-hidden"
       >
-        <header className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-          <div className="space-y-4">
-            <div className="inline-flex items-center gap-3 rounded-lg border border-white/10 bg-white/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.2em] text-white/90">
-              Ecosystem CI
-              {DATA_SOURCE === 'mock' ? (
-                <Badge
-                  variant="outline"
-                  className="border-white/20 bg-white/5 px-2.5 py-0.5 text-[10px] uppercase tracking-[0.15em] text-white/70"
-                >
-                  Mock Data
-                </Badge>
-              ) : null}
-            </div>
-            <div className="flex items-center gap-3 sm:gap-4">
-              <span className="relative inline-flex h-10 w-10 shrink-0 items-center justify-center sm:h-12 sm:w-12">
-                <span
-                  className="absolute left-1/2 top-1/2 h-12 w-12 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/35 blur-xl sm:h-16 sm:w-16 sm:blur-2xl"
-                  aria-hidden
-                />
-                <img
-                  src="https://assets.rspack.rs/rspack/rspack-logo.svg"
-                  alt="Rspack logo"
-                  width="40"
-                  height="40"
-                  className="relative h-8 w-8 drop-shadow-[0_4px_18px_rgba(34,211,238,0.75)] sm:h-10 sm:w-10"
-                />
-              </span>
-              <h1 className="text-2xl font-semibold tracking-tight sm:text-4xl">
-                Rstack Ecosystem CI Dashboard
-              </h1>
-            </div>
-          </div>
-          <div className="flex flex-col items-end gap-4">
-            <div className="flex items-center justify-end gap-2">
-              <a
-                href={GITHUB_REPO_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/40 bg-white/5 text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
-                aria-label="Open GitHub repository"
-              >
-                <span className="sr-only">GitHub</span>
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 24 24"
-                  className="h-5 w-5"
-                  fill="currentColor"
-                  role="img"
-                >
-                  <title>GitHub</title>
-                  <path d="M12 0C5.37 0 0 5.48 0 12.24c0 5.41 3.44 9.99 8.2 11.61.6.12.82-.27.82-.59 0-.29-.01-1.05-.02-2.05-3.34.75-4.04-1.65-4.04-1.65-.55-1.43-1.35-1.81-1.35-1.81-1.1-.77.08-.75.08-.75 1.22.09 1.86 1.28 1.86 1.28 1.08 1.9 2.83 1.35 3.52 1.03.11-.81.42-1.35.76-1.66-2.67-.31-5.47-1.37-5.47-6.12 0-1.35.47-2.45 1.24-3.31-.13-.31-.54-1.56.12-3.26 0 0 1-.33 3.3 1.26a11.1 11.1 0 0 1 3-.41c1.02 0 2.05.14 3 .41 2.3-1.59 3.3-1.26 3.3-1.26.66 1.7.25 2.95.12 3.26.77.86 1.24 1.96 1.24 3.31 0 4.76-2.8 5.8-5.48 6.11.43.39.81 1.17.81 2.36 0 1.7-.02 3.07-.02 3.48 0 .32.22.71.82.59C20.56 22.23 24 17.65 24 12.24 24 5.48 18.63 0 12 0Z" />
-                </svg>
-              </a>
-
-              <div className="relative" ref={repoMenuRef}>
-                <button
-                  type="button"
-                  className="inline-flex items-center gap-1 rounded-full border border-border/40 bg-white/5 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
-                  aria-haspopup="menu"
-                  aria-expanded={isRepoMenuOpen}
-                  onClick={() => setIsRepoMenuOpen((open) => !open)}
-                >
-                  Rstack
-                  <svg
-                    aria-hidden="true"
-                    viewBox="0 0 12 12"
-                    className={`h-3 w-3 transition-transform motion-safe:duration-200 ${isRepoMenuOpen ? 'rotate-180' : ''}`}
-                    fill="none"
-                    role="img"
-                  >
-                    <title>Toggle menu</title>
-                    <path
-                      d="M2.2 4.2 6 8l3.8-3.8"
-                      stroke="currentColor"
-                      strokeWidth="1.4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </button>
-                {isRepoMenuOpen ? (
-                  <div className="absolute right-0 z-20 mt-2 w-44 rounded-lg border border-border/40 bg-black/90 p-1.5 shadow-lg backdrop-blur">
-                    <ul className="flex flex-col gap-1">
-                      {RSTACK_REPOS.map((repo) => (
-                        <li key={repo.url}>
-                          <a
-                            href={repo.url}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="block rounded-md px-2.5 py-1.5 text-sm text-foreground/85 transition-[background-color,color] hover:bg-white/10 hover:text-white"
-                            onClick={() => setIsRepoMenuOpen(false)}
-                          >
-                            {repo.label}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+        <header className="flex items-start justify-between gap-4">
+          <div className="flex min-w-0 items-center gap-3.5">
+            <span className="relative hidden size-11 shrink-0 items-center justify-center rounded-xl border border-border bg-surface sm:flex">
+              <img
+                src="https://assets.rspack.rs/rspack/rspack-logo.svg"
+                alt=""
+                width="28"
+                height="28"
+                className="size-7"
+              />
+            </span>
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
+                  Rstack Ecosystem CI
+                </h1>
+                {DATA_SOURCE === 'mock' ? (
+                  <Badge variant="warning">Mock data</Badge>
                 ) : null}
               </div>
+              <p className="mt-0.5 text-sm text-muted-foreground">
+                Downstream test results for every Rstack project
+              </p>
+              <p className="mt-2 flex flex-col font-mono text-xs text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5">
+                <span>Updated {schedule.lastUpdated ?? '—'}</span>
+                <span aria-hidden className="hidden sm:inline">
+                  ·
+                </span>
+                <span>
+                  Next refresh{' '}
+                  {formatCountdown(schedule.countdownMinutes) ?? '—'}
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="flex shrink-0 items-center gap-2">
+            <a
+              href={GITHUB_REPO_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex size-9 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-border-strong hover:bg-white/[0.04] hover:text-foreground focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-cyan-400/40"
+              aria-label="Open GitHub repository"
+            >
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                className="size-[18px]"
+                fill="currentColor"
+              >
+                <path d="M12 0C5.37 0 0 5.48 0 12.24c0 5.41 3.44 9.99 8.2 11.61.6.12.82-.27.82-.59 0-.29-.01-1.05-.02-2.05-3.34.75-4.04-1.65-4.04-1.65-.55-1.43-1.35-1.81-1.35-1.81-1.1-.77.08-.75.08-.75 1.22.09 1.86 1.28 1.86 1.28 1.08 1.9 2.83 1.35 3.52 1.03.11-.81.42-1.35.76-1.66-2.67-.31-5.47-1.37-5.47-6.12 0-1.35.47-2.45 1.24-3.31-.13-.31-.54-1.56.12-3.26 0 0 1-.33 3.3 1.26a11.1 11.1 0 0 1 3-.41c1.02 0 2.05.14 3 .41 2.3-1.59 3.3-1.26 3.3-1.26.66 1.7.25 2.95.12 3.26.77.86 1.24 1.96 1.24 3.31 0 4.76-2.8 5.8-5.48 6.11.43.39.81 1.17.81 2.36 0 1.7-.02 3.07-.02 3.48 0 .32.22.71.82.59C20.56 22.23 24 17.65 24 12.24 24 5.48 18.63 0 12 0Z" />
+              </svg>
+            </a>
+
+            <div className="relative" ref={repoMenuRef}>
+              <button
+                type="button"
+                className="inline-flex h-9 items-center gap-1.5 rounded-lg border border-border px-3 text-sm font-medium text-muted-foreground transition-colors hover:border-border-strong hover:bg-white/[0.04] hover:text-foreground focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-cyan-400/40 aria-expanded:border-border-strong aria-expanded:text-foreground"
+                aria-haspopup="menu"
+                aria-expanded={isRepoMenuOpen}
+                aria-label="Toggle menu"
+                onClick={() => setIsRepoMenuOpen((open) => !open)}
+              >
+                Rstack
+                <ChevronDown
+                  aria-hidden
+                  className={cn(
+                    'size-3.5 transition-transform duration-200',
+                    isRepoMenuOpen && 'rotate-180',
+                  )}
+                />
+              </button>
+              {isRepoMenuOpen ? (
+                <div className="absolute right-0 z-20 mt-1.5 w-48 rounded-xl border border-border-strong bg-popover p-1 shadow-2xl shadow-black/60 motion-safe:animate-in motion-safe:fade-in-0 motion-safe:zoom-in-95">
+                  <ul className="flex flex-col">
+                    {RSTACK_REPOS.map((repo) => (
+                      <li key={repo.url}>
+                        <a
+                          href={repo.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="group flex items-center justify-between rounded-md px-2.5 py-1.5 text-sm text-foreground/75 transition-colors hover:bg-white/[0.06] hover:text-foreground"
+                          onClick={() => setIsRepoMenuOpen(false)}
+                        >
+                          {repo.label}
+                          <ArrowUpRight
+                            aria-hidden
+                            className="size-3.5 text-subtle-foreground transition-colors group-hover:text-muted-foreground"
+                          />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
             </div>
           </div>
         </header>
 
-        <section className="grid gap-4 lg:grid-cols-2">
-          <StackStatusCard
-            statuses={stackStatusSummary}
-            activeStack={selectedStack}
-            onSelect={handleStackChange}
-          />
-          <UpdateScheduleCard
-            lastUpdated={schedule.lastUpdated}
-            countdownMinutes={schedule.countdownMinutes}
-          />
-        </section>
+        <StackCards
+          statuses={stackStatusSummary}
+          activeStack={selectedStack}
+          onSelect={handleStackChange}
+          onSelectRun={handleRunSelect}
+        />
 
         <Timeline
           entries={stackEntries}
           stacks={stackOptions}
           selectedStack={selectedStack}
-          onStackChange={(value) => handleStackChange(value as StackId)}
           selectedSuite={selectedSuite}
           onSuiteChange={handleSuiteChange}
+          focusRequest={focusRequest}
         />
       </div>
     </div>
   );
 }
 
+const RECENT_RUN_COUNT = 20;
+
 interface StackStatusSummary {
   id: StackId;
   label: string;
   status: StackStatus;
+  /** Most recent runs, oldest first. */
+  recent: EcosystemCommitRecord[];
+  passRate: number | null;
 }
 
 function buildStackStatuses(
@@ -312,10 +324,17 @@ function buildStackStatuses(
     const records = historyByStack[stack.id] ?? [];
     const latest = records[0] ?? null;
 
+    const recent = records.slice(0, RECENT_RUN_COUNT).reverse();
+    const passed = recent.filter(
+      (record) => record.overallStatus === 'success',
+    ).length;
+
     return {
       id: stack.id,
       label: stack.label,
       status: latest?.overallStatus ?? 'missing',
+      recent,
+      passRate: recent.length > 0 ? passed / recent.length : null,
     };
   });
 }
@@ -409,106 +428,229 @@ function formatCountdown(minutes: number | null) {
   return `in ${safeMinutes}min`;
 }
 
-const STACK_STATUS_CLASS: Record<StackStatus, string> = {
-  success: 'bg-emerald-400 shadow-[0_0_12px_rgba(16,185,129,0.55)]',
-  failure: 'bg-rose-500 shadow-[0_0_12px_rgba(244,63,94,0.5)]',
-  cancelled: 'bg-amber-400 shadow-[0_0_12px_rgba(250,204,21,0.5)]',
-  missing: 'bg-white/60 shadow-[0_0_10px_rgba(255,255,255,0.35)]',
+const STATUS_STYLE: Record<
+  StackStatus,
+  {
+    label: string;
+    runLabel: string;
+    dot: string;
+    text: string;
+    segment: string;
+  }
+> = {
+  success: {
+    label: 'Passing',
+    runLabel: 'passed',
+    dot: 'bg-emerald-400',
+    text: 'text-emerald-300',
+    segment: 'bg-emerald-400/35',
+  },
+  failure: {
+    label: 'Failing',
+    runLabel: 'failed',
+    dot: 'bg-rose-500',
+    text: 'text-rose-300',
+    segment: 'bg-rose-500/90',
+  },
+  cancelled: {
+    label: 'Cancelled',
+    runLabel: 'cancelled',
+    dot: 'bg-amber-400',
+    text: 'text-amber-300',
+    segment: 'bg-amber-400/50',
+  },
+  missing: {
+    label: 'No data',
+    runLabel: 'missing',
+    dot: 'bg-neutral-600',
+    text: 'text-muted-foreground',
+    segment: 'bg-white/[0.06]',
+  },
 };
-interface StackStatusCardProps {
+
+interface StackCardsProps {
   statuses: StackStatusSummary[];
   activeStack: StackId;
-  onSelect?: (stack: StackId) => void;
+  onSelect: (stack: StackId) => void;
+  onSelectRun: (stack: StackId, sha: string) => void;
 }
 
-function StackStatusCard({
+function StackCards({
   statuses,
   activeStack,
   onSelect,
-}: StackStatusCardProps) {
+  onSelectRun,
+}: StackCardsProps) {
   return (
-    <div className="glass-panel rounded-2xl border border-border/60 px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
-      <div className="flex items-center justify-between gap-2">
-        <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/70 sm:text-xs sm:tracking-[0.4em]">
-          Stack Health
-        </p>
-        <span className="hidden text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55 xs:inline">
-          Latest run
-        </span>
-      </div>
-      <div className="mt-5 grid grid-cols-1 gap-3 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3">
+    <Tooltip.Provider delayDuration={80} skipDelayDuration={300}>
+      <section
+        aria-label="Stack health"
+        className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-7"
+      >
         {statuses.map((stack) => {
           const isActive = stack.id === activeStack;
-          const baseClasses =
-            'flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.04] px-3 py-3 transition-[background-color,border-color] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30';
+          const isFailing = stack.status === 'failure';
+          const status = STATUS_STYLE[stack.status];
+          const emptySlots = RECENT_RUN_COUNT - stack.recent.length;
           return (
-            <button
-              type="button"
+            <div
               key={stack.id}
               className={cn(
-                baseClasses,
-                onSelect ? 'hover:bg-white/[0.08] focus:bg-white/[0.08]' : '',
-                isActive ? 'border-white/40 bg-white/[0.08]' : '',
-                onSelect ? 'cursor-pointer' : 'cursor-default',
+                'relative flex min-w-0 flex-col gap-3 rounded-xl p-3 ring-1 transition-[background-color,box-shadow] duration-150 has-[>button:focus-visible]:ring-2 has-[>button:focus-visible]:ring-cyan-400/50',
+                isFailing
+                  ? 'bg-rose-500/10 hover:bg-rose-500/15'
+                  : 'bg-white/[0.03] hover:bg-white/[0.05]',
+                isActive ? 'ring-white/35' : 'ring-transparent',
               )}
-              onClick={() => onSelect?.(stack.id)}
-              aria-pressed={isActive}
             >
-              <span className="text-sm font-medium text-foreground">
-                {stack.label}
-              </span>
-              <span
-                className={`inline-flex h-3.5 w-3.5 shrink-0 rounded-full motion-safe:animate-[glow-pulse_2s_ease-in-out_infinite] ${STACK_STATUS_CLASS[stack.status]}`}
-                aria-hidden="true"
+              <button
+                type="button"
+                onClick={() => onSelect(stack.id)}
+                aria-pressed={isActive}
+                aria-label={`${stack.label}: ${status.label}`}
+                className="absolute inset-0 rounded-xl focus-visible:outline-hidden"
               />
-            </button>
+
+              <span className="pointer-events-none flex items-center justify-between gap-2">
+                <span className="truncate text-sm font-medium text-foreground">
+                  {stack.label}
+                </span>
+                <span
+                  className={cn('size-2 shrink-0 rounded-full', status.dot)}
+                  aria-hidden
+                />
+              </span>
+
+              <span className="pointer-events-none flex items-baseline justify-between gap-2">
+                <span className={cn('text-xs font-medium', status.text)}>
+                  {status.label}
+                </span>
+                <span className="font-mono text-[11px] text-subtle-foreground">
+                  {stack.passRate == null
+                    ? 'No runs'
+                    : `${Math.round(stack.passRate * 100)}% pass`}
+                </span>
+              </span>
+
+              <div
+                className="relative -my-1.5 flex gap-[2px]"
+                role="group"
+                aria-label={`${stack.label}: last ${stack.recent.length} runs, oldest to newest`}
+              >
+                {Array.from({ length: emptySlots }, (_, index) => (
+                  <span
+                    key={`empty-${index}`}
+                    aria-hidden
+                    className="pointer-events-none flex h-4 flex-1 items-center"
+                  >
+                    <span
+                      className={cn(
+                        'h-1.5 w-full rounded-full',
+                        STATUS_STYLE.missing.segment,
+                      )}
+                    />
+                  </span>
+                ))}
+                {stack.recent.map((run, index) => (
+                  <RunSegment
+                    key={run.commitSha}
+                    run={run}
+                    isLatest={index === stack.recent.length - 1}
+                    stackLabel={stack.label}
+                    onSelect={() => onSelectRun(stack.id, run.commitSha)}
+                  />
+                ))}
+              </div>
+            </div>
           );
         })}
-      </div>
-    </div>
+      </section>
+    </Tooltip.Provider>
   );
 }
 
-interface UpdateScheduleCardProps {
-  lastUpdated: string | null;
-  countdownMinutes: number | null;
+interface RunSegmentProps {
+  run: EcosystemCommitRecord;
+  isLatest: boolean;
+  stackLabel: string;
+  onSelect: () => void;
 }
 
-function UpdateScheduleCard({
-  lastUpdated,
-  countdownMinutes,
-}: UpdateScheduleCardProps) {
-  const countdownLabel = formatCountdown(countdownMinutes);
-
+function RunSegment({ run, isLatest, stackLabel, onSelect }: RunSegmentProps) {
+  const sha = shortSha(run.commitSha);
+  const style = STATUS_STYLE[run.overallStatus];
+  const label = style.runLabel;
+  const failed = run.suites.filter((suite) => suite.status === 'failure');
+  const passedCount = run.suites.filter(
+    (suite) => suite.status === 'success',
+  ).length;
+  const title = run.commitMessage.split('\n')[0];
   return (
-    <div className="glass-panel h-full rounded-2xl border border-border/60 bg-white/[0.03] px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
-      <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground/70">
-        Ecosystem CI Window
-      </p>
-      <div className="mt-5 space-y-4">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <p className="text-sm font-medium text-foreground">Last updated</p>
-            <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
-              Data sync
-            </p>
+    <Tooltip.Root>
+      <Tooltip.Trigger asChild>
+        <button
+          type="button"
+          onClick={onSelect}
+          aria-label={`Show ${stackLabel} run ${sha} (${label})`}
+          className="group/run flex h-4 flex-1 items-center rounded-sm focus-visible:outline-hidden focus-visible:ring-1 focus-visible:ring-cyan-400/70"
+        >
+          <span
+            className={cn(
+              'h-1.5 w-full rounded-full transition-[height,filter] duration-100 group-hover/run:h-2.5 group-hover/run:brightness-150',
+              isLatest ? style.dot : style.segment,
+            )}
+          />
+        </button>
+      </Tooltip.Trigger>
+      <Tooltip.Portal>
+        <Tooltip.Content
+          side="bottom"
+          sideOffset={6}
+          collisionPadding={12}
+          className="z-50 w-72 rounded-lg border border-border-strong bg-popover p-3 text-xs shadow-xl shadow-black/60 animate-in fade-in-0 zoom-in-95"
+        >
+          <div className="flex items-center justify-between gap-2 font-mono text-[11px]">
+            <span className="flex items-center gap-1.5">
+              <span
+                className={cn('size-1.5 rounded-full', style.dot)}
+                aria-hidden
+              />
+              <span className="text-foreground">{sha}</span>
+              <span className={style.text}>{label}</span>
+            </span>
+            <span className="text-subtle-foreground">
+              {formatCommitTime(run.commitTimestamp)}
+            </span>
           </div>
-          <p className="text-right text-sm text-foreground">
-            {lastUpdated ?? '—'}
+          <p className="mt-2 line-clamp-2 text-[13px] leading-snug text-foreground">
+            {title}
           </p>
-        </div>
-        <div className="flex items-start justify-between gap-4 border-t border-white/10 pt-4">
-          <div>
-            <p className="text-sm font-medium text-foreground">Next refresh</p>
-            <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground/55">
-              1h cron
-            </p>
-          </div>
-          <p className="text-right text-sm text-foreground">
-            {countdownLabel ?? '—'}
+          <p className="mt-1 text-muted-foreground">
+            {run.author.login ?? run.author.name} · {passedCount}/
+            {run.suites.length} suites passed
           </p>
-        </div>
-      </div>
-    </div>
+          {failed.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-1">
+              {failed.slice(0, 6).map((suite) => (
+                <span
+                  key={suite.name}
+                  className="rounded bg-rose-500/15 px-1.5 py-0.5 font-mono text-[11px] text-rose-300"
+                >
+                  {suite.name}
+                </span>
+              ))}
+              {failed.length > 6 && (
+                <span className="px-1 py-0.5 font-mono text-[11px] text-subtle-foreground">
+                  +{failed.length - 6}
+                </span>
+              )}
+            </div>
+          )}
+          <p className="mt-2 border-t border-border pt-2 text-[11px] text-subtle-foreground">
+            Click to jump to this run
+          </p>
+        </Tooltip.Content>
+      </Tooltip.Portal>
+    </Tooltip.Root>
   );
 }
