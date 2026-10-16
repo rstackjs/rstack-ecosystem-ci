@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "54be109e6e532c6d87adf15ad78a2750c231b5f7",
+    "commitTimestamp": "2026-10-16T10:09:05Z",
+    "commitMessage": "feat(browser): support page screenshot assertions (#1962)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567326"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567333"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567355"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567406"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567443"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567456"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567538"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38885324323/job/116921567547"
+      }
+    ]
+  },
+  {
     "commitSha": "ecf79a6318514edb98dd9b8f543032a35e08291b",
     "commitTimestamp": "2026-10-16T06:29:53Z",
     "commitMessage": "perf(coverage-v8): fold raw coverage on the host as payloads arrive (#1959)",
