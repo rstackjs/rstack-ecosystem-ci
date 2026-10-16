@@ -10,7 +10,7 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
     <div
       ref={ref}
       className={cn(
-        'glass-panel overflow-hidden rounded-2xl border border-border/40 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)] transition hover:border-border/60',
+        'glass-panel overflow-hidden rounded-2xl border border-white/40 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)] transition hover:border-white/60',
         className,
       )}
       {...props}
@@ -21,7 +21,11 @@ Card.displayName = 'Card';
 
 const CardHeader = forwardRef<HTMLDivElement, ComponentPropsWithoutRef<'div'>>(
   ({ className, ...props }, ref) => (
-    <div ref={ref} className={cn('space-y-1.5', className)} {...props} />
+    <div
+      ref={ref}
+      className={cn('flex flex-col gap-1.5', className)}
+      {...props}
+    />
   ),
 );
 CardHeader.displayName = 'CardHeader';

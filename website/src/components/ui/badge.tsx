@@ -26,7 +26,7 @@ export function Badge({
           'border-transparent bg-destructive/20 text-destructive-foreground',
         variant === 'warning' &&
           'border-transparent bg-warning/20 text-warning-foreground',
-        variant === 'outline' && 'border-border/60 text-muted-foreground',
+        variant === 'outline' && 'border-white/60 text-muted-foreground',
         className,
       )}
       {...props}

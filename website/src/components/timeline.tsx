@@ -151,13 +151,13 @@ function InspectPromptButton({
         ? createPortal(
             <div
               role="tooltip"
-              className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-full whitespace-nowrap rounded-md border border-border/60 bg-black/95 px-3 py-1.5 text-[11px] font-medium text-foreground shadow-lg"
+              className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-full whitespace-nowrap rounded-md border border-white/60 bg-black/95 px-3 py-1.5 text-[11px] font-medium text-foreground shadow-lg"
               style={{ top: tooltipPos.top - 8, left: tooltipPos.left }}
             >
               Paste the prompt to agent within {stackLabel} to inspect
               <span
                 aria-hidden
-                className="absolute left-1/2 top-full h-2 w-2 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b border-r border-border/60 bg-black/95"
+                className="absolute left-1/2 top-full h-2 w-2 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b border-r border-white/60 bg-black/95"
               />
             </div>,
             document.body,
@@ -351,21 +351,19 @@ export function Timeline({
             : null));
 
       return (
-        <div className="grid min-w-0 grid-cols-[26px,1fr] items-stretch gap-3 sm:grid-cols-[30px,1fr] sm:gap-5">
+        <div className="grid min-w-0 grid-cols-[26px_1fr] items-stretch gap-3 sm:grid-cols-[30px_1fr] sm:gap-5">
           <div className="flex h-full flex-col items-center">
             <span
               aria-hidden
               className={cn(
                 'w-px',
-                isFirst
-                  ? 'h-3 flex-none bg-transparent'
-                  : 'flex-1 bg-border/50',
+                isFirst ? 'h-3 flex-none bg-transparent' : 'flex-1 bg-white/50',
               )}
             />
             <span
               aria-hidden
               className={cn(
-                'flex h-7 w-7 items-center justify-center rounded-full border bg-black/90 shadow-[0_0_0_2px_rgba(255,255,255,0.12)] backdrop-blur',
+                'flex h-7 w-7 items-center justify-center rounded-full border bg-black/90 shadow-[0_0_0_2px_rgba(255,255,255,0.12)] backdrop-blur-sm',
                 commitStyles.dotRing,
               )}
               style={{ animation: 'glow-pulse 2s ease-in-out infinite' }}
@@ -381,13 +379,13 @@ export function Timeline({
               aria-hidden
               className={cn(
                 'w-px',
-                isLast ? 'h-3 flex-none bg-transparent' : 'flex-1 bg-border/50',
+                isLast ? 'h-3 flex-none bg-transparent' : 'flex-1 bg-white/50',
               )}
             />
           </div>
 
-          <Card className="border border-border/50">
-            <CardHeader className="flex flex-row items-center gap-3 border-b border-border/40 p-2.5 sm:gap-4 sm:p-3">
+          <Card className="border border-white/50">
+            <CardHeader className="flex flex-row items-center gap-3 border-b border-white/40 p-2.5 sm:gap-4 sm:p-3">
               {avatarUrl ? (
                 <img
                   src={avatarUrl}
@@ -395,7 +393,7 @@ export function Timeline({
                   width="32"
                   height="32"
                   className={cn(
-                    'h-8 w-8 flex-none border-2 border-border/40 bg-black/40',
+                    'h-8 w-8 flex-none border-2 border-white/40 bg-black/40',
                     isRenovateBot ? 'rounded-[6px]' : 'rounded-full',
                   )}
                 />
@@ -418,7 +416,7 @@ export function Timeline({
                   </CardTitle>
                   <div className="flex flex-wrap items-center gap-2 text-xs font-medium text-muted-foreground">
                     <a
-                      className="inline-flex items-center gap-1 rounded border border-border/50 bg-black/40 px-2 py-0.5 font-mono tracking-tight text-foreground/85 transition-[border-color,color] hover:border-border hover:text-foreground"
+                      className="inline-flex items-center gap-1 rounded border border-white/50 bg-black/40 px-2 py-0.5 font-mono tracking-tight text-foreground/85 transition-[border-color,color] hover:border-border hover:text-foreground"
                       href={commitUrl}
                       target="_blank"
                       rel="noreferrer"
@@ -432,7 +430,7 @@ export function Timeline({
                       <>
                         <span
                           aria-hidden
-                          className="h-1 w-1 rounded-full bg-border/80"
+                          className="h-1 w-1 rounded-full bg-white/80"
                         />
                         <span className="flex items-center gap-1 text-foreground/80">
                           <span className="opacity-70">by</span>
@@ -447,7 +445,7 @@ export function Timeline({
                     ) : null}
                     <span
                       aria-hidden
-                      className="h-1 w-1 rounded-full bg-border/80"
+                      className="h-1 w-1 rounded-full bg-white/80"
                     />
                     <time
                       className="opacity-70"
@@ -636,7 +634,7 @@ export function Timeline({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Commit, author, suite…"
-            className="min-w-0 flex-1 rounded-md border border-border/60 bg-white/5 px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground/50 outline-none transition-[border-color,box-shadow] focus:border-cyan-400/60 focus:ring-1 focus:ring-cyan-400/30"
+            className="min-w-0 flex-1 rounded-md border border-white/60 bg-white/5 px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground/50 outline-hidden transition-[border-color,box-shadow] focus:border-cyan-400/60 focus:ring-1 focus:ring-cyan-400/30"
           />
         </div>
       </div>
@@ -674,7 +672,7 @@ export function Timeline({
           </div>
         </div>
       ) : (
-        <div className="glass-panel flex flex-col items-center justify-center rounded-2xl border border-dashed border-border/60 px-8 py-16 text-center text-muted-foreground shadow-inner">
+        <div className="glass-panel flex flex-col items-center justify-center rounded-2xl border border-dashed border-white/60 px-8 py-16 text-center text-muted-foreground shadow-inner">
           <p className="text-sm">
             No runs found for this selection. Try switching stack or suite.
           </p>

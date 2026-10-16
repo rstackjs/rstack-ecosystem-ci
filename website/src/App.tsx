@@ -168,7 +168,7 @@ export default function App() {
       <div
         id="main-content"
         tabIndex={-1}
-        className="mx-auto flex w-full max-w-6xl flex-col gap-10 outline-none"
+        className="mx-auto flex w-full max-w-6xl flex-col gap-10 outline-hidden"
       >
         <header className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-4">
@@ -208,7 +208,7 @@ export default function App() {
                 href={GITHUB_REPO_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-border/40 bg-white/5 text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/40 bg-white/5 text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
                 aria-label="Open GitHub repository"
               >
                 <span className="sr-only">GitHub</span>
@@ -227,7 +227,7 @@ export default function App() {
               <div className="relative" ref={repoMenuRef}>
                 <button
                   type="button"
-                  className="inline-flex items-center gap-1 rounded-full border border-border/40 bg-white/5 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
+                  className="inline-flex items-center gap-1 rounded-full border border-white/40 bg-white/5 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white/80 transition-[background-color,color] hover:bg-white/10 hover:text-white"
                   aria-haspopup="menu"
                   aria-expanded={isRepoMenuOpen}
                   onClick={() => setIsRepoMenuOpen((open) => !open)}
@@ -251,7 +251,7 @@ export default function App() {
                   </svg>
                 </button>
                 {isRepoMenuOpen ? (
-                  <div className="absolute right-0 z-20 mt-2 w-44 rounded-lg border border-border/40 bg-black/90 p-1.5 shadow-lg backdrop-blur">
+                  <div className="absolute right-0 z-20 mt-2 w-44 rounded-lg border border-white/40 bg-black/90 p-1.5 shadow-lg backdrop-blur-sm">
                     <ul className="flex flex-col gap-1">
                       {RSTACK_REPOS.map((repo) => (
                         <li key={repo.url}>
@@ -427,7 +427,7 @@ function StackStatusCard({
   onSelect,
 }: StackStatusCardProps) {
   return (
-    <div className="glass-panel rounded-2xl border border-border/60 px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
+    <div className="glass-panel rounded-2xl border border-white/60 px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
       <div className="flex items-center justify-between gap-2">
         <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/70 sm:text-xs sm:tracking-[0.4em]">
           Stack Health
@@ -440,15 +440,15 @@ function StackStatusCard({
         {statuses.map((stack) => {
           const isActive = stack.id === activeStack;
           const baseClasses =
-            'flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.04] px-3 py-3 transition-[background-color,border-color] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30';
+            'flex items-center justify-between rounded-lg border border-white/10 bg-white/4 px-3 py-3 transition-[background-color,border-color] focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-cyan-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/30';
           return (
             <button
               type="button"
               key={stack.id}
               className={cn(
                 baseClasses,
-                onSelect ? 'hover:bg-white/[0.08] focus:bg-white/[0.08]' : '',
-                isActive ? 'border-white/40 bg-white/[0.08]' : '',
+                onSelect ? 'hover:bg-white/8 focus:bg-white/8' : '',
+                isActive ? 'border-white/40 bg-white/8' : '',
                 onSelect ? 'cursor-pointer' : 'cursor-default',
               )}
               onClick={() => onSelect?.(stack.id)}
@@ -481,7 +481,7 @@ function UpdateScheduleCard({
   const countdownLabel = formatCountdown(countdownMinutes);
 
   return (
-    <div className="glass-panel h-full rounded-2xl border border-border/60 bg-white/[0.03] px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
+    <div className="glass-panel h-full rounded-2xl border border-white/60 bg-white/3 px-6 py-5 shadow-[0_10px_24px_-20px_rgba(0,0,0,0.65)]">
       <p className="text-xs uppercase tracking-[0.4em] text-muted-foreground/70">
         Ecosystem CI Window
       </p>

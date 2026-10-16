@@ -11,12 +11,12 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const baseClasses =
-  'inline-flex items-center justify-center rounded-xl text-sm font-medium transition-[background-color,color,box-shadow] motion-safe:duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20 disabled:pointer-events-none disabled:opacity-50';
+  'inline-flex items-center justify-center rounded-xl text-sm font-medium transition-[background-color,color,box-shadow] motion-safe:duration-200 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-white/20 disabled:pointer-events-none disabled:opacity-50';
 
 const variants = {
   default: 'bg-foreground text-background hover:bg-foreground/90',
   outline:
-    'border border-border/60 bg-transparent text-foreground hover:border-border hover:bg-white/5',
+    'border border-white/60 bg-transparent text-foreground hover:border-border hover:bg-white/5',
   ghost: 'text-foreground hover:bg-white/5',
 };
 
