@@ -1,3 +1,9 @@
 packages:
   - .
   - website
+
+engineStrict: true
+
+allowBuilds:
+  esbuild: true
+  core-js: false
