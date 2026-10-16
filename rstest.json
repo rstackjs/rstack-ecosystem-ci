@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e0a7f6c67b79b6627cc4b4b07c2cf80936eb256b",
+    "commitTimestamp": "2026-10-16T05:04:36Z",
+    "commitMessage": "feat(browser): support screenshot matcher configuration (#1960)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988658"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988693"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988731"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988752"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988756"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988797"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988871"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38853904567/job/116820988882"
+      }
+    ]
+  },
+  {
     "commitSha": "8a011cd87bec4af2ad601c5cd8bc794b6b24292c",
     "commitTimestamp": "2026-10-15T11:41:23Z",
     "commitMessage": "chore(deps): upgrade rsdoctor to v2 (#1958)",
