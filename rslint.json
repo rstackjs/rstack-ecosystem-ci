@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "a79f0c3dbe2b2c03f6254383d07dc4717503da6f",
+    "commitTimestamp": "2026-10-16T09:53:36Z",
+    "commitMessage": "chore(deps): upgrade Rspress to 2.1.0-beta.1 (#2435)",
+    "author": {
+      "name": "Soon",
+      "email": "a1149625757@126.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38883901498",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38883901498/job/116928308207"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38883901498/job/116928308234"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38883901498/job/116928308249"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/38883901498/job/116928308283"
+      }
+    ]
+  },
+  {
     "commitSha": "5ba76e9eabc63b0e4785bf52b65c17c5fefe1b36",
     "commitTimestamp": "2026-10-15T01:59:46Z",
     "commitMessage": "feat(import): support CJS named exports resolution (#2413)",
