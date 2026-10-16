@@ -1,45 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap')
-layer(base);
-
 @import 'tailwindcss';
-
 @import 'tw-animate-css';
 
 @theme {
-  --breakpoint-xs: 420px;
+  --font-sans: 'Geist Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono:
+    'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-input: rgba(255, 255, 255, 0.04);
-  --color-ring: #111111;
   --color-background: #000000;
-  --color-foreground: #fdfdfd;
+  --color-foreground: #ededed;
+  --color-surface: #0a0a0a;
+  --color-border: rgb(255 255 255 / 0.08);
+  --color-border-strong: rgb(255 255 255 / 0.16);
 
-  --color-muted: #111111;
-  --color-muted-foreground: #a3a3a3;
+  --color-muted-foreground: #8f8f8f;
+  --color-subtle-foreground: #636363;
 
-  --color-accent: #181818;
-  --color-accent-foreground: #fdfdfd;
-
-  --color-popover: #0a0a0a;
-  --color-popover-foreground: #f5f5f5;
-
-  --color-card: #0a0a0a;
-  --color-card-foreground: #f5f5f5;
-
-  --color-destructive: #7f1d1d;
-  --color-destructive-foreground: #fee2e2;
-
-  --color-success: #22c55e;
-  --color-success-foreground: #dcfce7;
-
-  --color-warning: #f97316;
-  --color-warning-foreground: #ffedd5;
-
-  --radius-lg: 0.75rem;
-  --radius-md: 0.65rem;
-  --radius-sm: 0.5rem;
-
-  --shadow-glow: 0 12px 28px -18px rgba(0, 0, 0, 0.55);
+  --color-danger: #e5484d;
+  --color-popover: #0c0c0c;
 }
 
 @layer base {
@@ -55,12 +32,23 @@ layer(base);
 
   body {
     min-height: 100vh;
-    background: #000;
-    font-family:
-      'JetBrains Mono', 'Geist Mono', 'SF Mono', 'Consolas', monospace;
-    color: #f5f5f5;
+    background-color: var(--color-background);
+    background-image: radial-gradient(
+      ellipse 80% 40% at 50% -10%,
+      rgb(34 211 238 / 0.08),
+      transparent
+    );
+    background-repeat: no-repeat;
+    font-family: var(--font-sans);
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     touch-action: manipulation;
     overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgb(34 211 238 / 0.3);
   }
 }
 
@@ -72,21 +60,5 @@ layer(base);
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-}
-
-.glass-panel {
-  background-color: rgba(14, 14, 14, 0.92);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(82, 82, 82, 0.24);
-}
-
-@keyframes glow-pulse {
-  0%,
-  100% {
-    filter: brightness(1);
-  }
-  50% {
-    filter: brightness(1.3);
   }
 }
