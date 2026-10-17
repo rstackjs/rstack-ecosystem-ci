@@ -1,5 +1,43 @@
 [
   {
+    "commitSha": "fd60c1adfa2c0bfec984a22867d8838fdf461421",
+    "commitTimestamp": "2026-10-17T10:45:00Z",
+    "commitMessage": "feat(import): add no-deprecated rule (#2408)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39026092710",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39026092710/job/117384777782"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39026092710/job/117384777786"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39026092710/job/117384777791"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39026092710/job/117384777807"
+      }
+    ]
+  },
+  {
     "commitSha": "a79f0c3dbe2b2c03f6254383d07dc4717503da6f",
     "commitTimestamp": "2026-10-16T09:53:36Z",
     "commitMessage": "chore(deps): upgrade Rspress to 2.1.0-beta.1 (#2435)",
