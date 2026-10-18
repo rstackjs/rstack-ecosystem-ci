@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "75b8d6b8a4d8dc24c472a36c99f18c1546e874f6",
+    "commitTimestamp": "2026-10-18T17:27:13Z",
+    "commitMessage": "refactor(core): fix WebMCP rendering and optimise query check 🛠️ (#3762)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248/job/117740567485"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248/job/117740567560"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248/job/117740567569"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248/job/117740567630"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248/job/117740567645"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39149677248/job/117740567682"
+      }
+    ]
+  },
+  {
     "commitSha": "b17e9f0b3d6cb16cf2da818418652333a87bed62",
     "commitTimestamp": "2026-10-16T12:12:56Z",
     "commitMessage": "chore(deps): upgrade Rsdoctor to 2.0.0 (#3759)",
