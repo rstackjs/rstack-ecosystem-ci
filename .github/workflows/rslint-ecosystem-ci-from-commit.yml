@@ -26,6 +26,10 @@ on:
           - rslib
           - rstest
           - rstack-editor
+          - rspress
+          - rsdoctor
+          - rspack
+          - rstack-cli
         default: '-'
       suiteRefType:
         description: 'type of suite ref to use'
@@ -98,7 +102,7 @@ jobs:
           SUITE_REF: ${{ inputs.suiteRef }}
         run: |
           case "$SUITE" in
-            rsbuild|rslib|rstest|rstack-editor) ;;
+            rsbuild|rslib|rstest|rstack-editor|rspress|rsdoctor|rspack|rstack-cli) ;;
             *) echo "Invalid suite: $SUITE" >&2; exit 1 ;;
           esac
           suite_ref_args=()
@@ -116,7 +120,17 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        suite: [rsbuild, rslib, rstest, rstack-editor]
+        suite:
+          [
+            rsbuild,
+            rslib,
+            rstest,
+            rstack-editor,
+            rspress,
+            rsdoctor,
+            rspack,
+            rstack-cli,
+          ]
     runs-on: ubuntu-latest
     name: execute-all (${{ matrix.suite }})
     timeout-minutes: 40
@@ -139,7 +153,7 @@ jobs:
           SUITE_REF: ${{ inputs.suiteRef }}
         run: |
           case "$SUITE" in
-            rsbuild|rslib|rstest|rstack-editor) ;;
+            rsbuild|rslib|rstest|rstack-editor|rspress|rsdoctor|rspack|rstack-cli) ;;
             *) echo "Invalid suite: $SUITE" >&2; exit 1 ;;
           esac
           suite_ref_args=()

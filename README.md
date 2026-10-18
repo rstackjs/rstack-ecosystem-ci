@@ -41,7 +41,7 @@ The repositories are checked out into `workspace` subdirectory as shallow clones
 
 ### Rslint
 
-The Rslint suites build and lint Rsbuild, Rslib, and Rstest with type checking enabled. Rsbuild and Rslib exercise Rslint through Rstack; Rstest uses the Rslint CLI directly. The rstack-editor suite runs the editor's unit tests, which load `@rslint/core` in the lint worker, and its `rs lint --type-check`, which type-checks the editor against `@rslint/core` and lints it with that core.
+The Rslint suites cover Rsbuild, Rslib, Rstest, Rspress, Rsdoctor, Rspack, rstack-cli, and rstack-editor. Rsbuild, Rslib, Rspress, Rsdoctor, and rstack-cli build and lint with type checking enabled through Rstack; Rstest builds and uses the Rslint CLI directly. Rspack runs `rs lint`, matching the lint phase of its upstream `lint:js` script (`rs check`). The rstack-cli suite builds the workspace Rstack CLI and its native binding before running `lint`. The rstack-editor suite runs the editor's unit tests, which load `@rslint/core` in the lint worker, and its `rs lint --type-check`, which type-checks the editor against `@rslint/core` and lints it with that core.
 
 ```bash
 pnpm test --stack rslint --branch main rsbuild

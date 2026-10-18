@@ -260,6 +260,10 @@ jobs:
           - rslib
           - rstest
           - rstack-editor
+          - rspress
+          - rsdoctor
+          - rspack
+          - rstack-cli
       fail-fast: false
     runs-on: ubuntu-latest
     permissions:
