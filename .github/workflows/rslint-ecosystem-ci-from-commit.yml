@@ -30,6 +30,8 @@ on:
           - rsdoctor
           - rspack
           - rstack-cli
+          - modernjs
+          - examples
         default: '-'
       suiteRefType:
         description: 'type of suite ref to use'
@@ -102,7 +104,7 @@ jobs:
           SUITE_REF: ${{ inputs.suiteRef }}
         run: |
           case "$SUITE" in
-            rsbuild|rslib|rstest|rstack-editor|rspress|rsdoctor|rspack|rstack-cli) ;;
+            rsbuild|rslib|rstest|rstack-editor|rspress|rsdoctor|rspack|rstack-cli|modernjs|examples) ;;
             *) echo "Invalid suite: $SUITE" >&2; exit 1 ;;
           esac
           suite_ref_args=()
@@ -130,6 +132,8 @@ jobs:
             rsdoctor,
             rspack,
             rstack-cli,
+            modernjs,
+            examples,
           ]
     runs-on: ubuntu-latest
     name: execute-all (${{ matrix.suite }})
@@ -153,7 +157,7 @@ jobs:
           SUITE_REF: ${{ inputs.suiteRef }}
         run: |
           case "$SUITE" in
-            rsbuild|rslib|rstest|rstack-editor|rspress|rsdoctor|rspack|rstack-cli) ;;
+            rsbuild|rslib|rstest|rstack-editor|rspress|rsdoctor|rspack|rstack-cli|modernjs|examples) ;;
             *) echo "Invalid suite: $SUITE" >&2; exit 1 ;;
           esac
           suite_ref_args=()

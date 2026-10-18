@@ -264,6 +264,8 @@ jobs:
           - rsdoctor
           - rspack
           - rstack-cli
+          - modernjs
+          - examples
       fail-fast: false
     runs-on: ubuntu-latest
     permissions:
