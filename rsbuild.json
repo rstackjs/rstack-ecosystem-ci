@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "d232ddf8596de6272700d0308afacde4b47e86ed",
+    "commitTimestamp": "2026-10-19T09:10:59Z",
+    "commitMessage": "feat(create-rsbuild): use TypeScript 7 in supported templates (#8696)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462437"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462511"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462603"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462611"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462701"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462775"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979462849"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39228166899/job/117979463031"
+      }
+    ]
+  },
+  {
     "commitSha": "2e147e7b18b21b6fb9a436d3fde8129ff885ff63",
     "commitTimestamp": "2026-10-19T07:59:12Z",
     "commitMessage": "fix(create-rsbuild): group Solid versions under one framework (#8694)",
