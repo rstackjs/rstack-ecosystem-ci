@@ -108,12 +108,27 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
       // The full output is folded inside the group above, including the
       // `::error` lines from reporters such as vitest's GitHub reporter.
       // Replay those lines outside the group so they are highlighted and
-      // visible without expanding.
+      // visible without expanding, marked so they are not mistaken for
+      // original output.
       actionsCore.endGroup();
-      for (const line of (result.all ?? '').split('\n')) {
-        if (/^::error[ :]/.test(line)) {
-          console.log(line);
+      const errorLines = (result.all ?? '')
+        .split('\n')
+        .filter((line) => /^::error[ :]/.test(line));
+      if (errorLines.length > 0) {
+        const cyan = (text: string) => `\x1b[36m${text}\x1b[0m`;
+        console.log(
+          cyan(
+            `▼ [replayed] ${errorLines.length} error(s) copied from the folded output of \`${cmd}\` above`,
+          ),
+        );
+        for (const line of errorLines) {
+          // Properties escape `:`, so the first `::` after `::error` is the
+          // separator before the message.
+          console.log(
+            line.replace(/^(::error.*?::)/, `$1${cyan('[replayed]')} `),
+          );
         }
+        console.log(cyan('▲ [replayed] end'));
       }
     }
 
