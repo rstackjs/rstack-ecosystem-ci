@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "37422672d60edac9ec25390080207474a080f95d",
+    "commitTimestamp": "2026-10-19T03:32:10Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3764)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883/job/117876864278"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883/job/117876864308"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883/job/117876864312"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883/job/117876864341"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883/job/117876864394"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39195360883/job/117876864413"
+      }
+    ]
+  },
+  {
     "commitSha": "75b8d6b8a4d8dc24c472a36c99f18c1546e874f6",
     "commitTimestamp": "2026-10-18T17:27:13Z",
     "commitMessage": "refactor(core): fix WebMCP rendering and optimise query check 🛠️ (#3762)",
