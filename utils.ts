@@ -74,6 +74,8 @@ interface RspackPackageData {
 
 let rspackPackageData: RspackPackageData | null = null;
 
+const FAILURE_TAIL_LINES = 100;
+
 export function cd(dir: string) {
   cwd = path.resolve(cwd, dir);
 }
@@ -97,12 +99,25 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
     stdio: ['inherit', 'pipe', 'pipe'],
     cwd,
     reject: false,
+    all: true,
   });
   proc.stdout?.pipe(process.stdout);
   proc.stderr?.pipe(process.stderr);
   const result = await proc;
 
   if (result.failed) {
+    if (isGitHubActions) {
+      // The full output is folded inside the group above; repeat its tail
+      // outside the group so the failure reason is visible without expanding.
+      actionsCore.endGroup();
+      const tail = (result.all ?? '').split('\n').slice(-FAILURE_TAIL_LINES);
+      console.log(
+        `Last ${tail.length} lines of output from \`${cmd}\` (${cwd}):`,
+      );
+      console.log(tail.join('\n'));
+      actionsCore.error(`Command failed: ${cmd}`);
+    }
+
     const errorResult = result as unknown as {
       shortMessage?: string;
       message?: string;
