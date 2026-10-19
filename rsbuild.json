@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "cf2cac05aac0d8c4242843576f6f03bc2180a8ff",
+    "commitTimestamp": "2026-10-19T03:59:04Z",
+    "commitMessage": "fix(create-rsbuild): preserve non-interactive TanStack creation (#8686)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610311"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610447"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610469"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610488"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610495"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610497"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610540"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39197261027/job/117882610546"
+      }
+    ]
+  },
+  {
     "commitSha": "bf401f09df4f959318eb8979147b609a0458dd16",
     "commitTimestamp": "2026-10-19T03:49:49Z",
     "commitMessage": "feat(create-rsbuild): add TanStack Start template (#8685)",
