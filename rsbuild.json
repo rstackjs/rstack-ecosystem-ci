@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "67359dde6d67c5aa56d4d5e412954733bddddcce",
+    "commitTimestamp": "2026-10-19T05:20:13Z",
+    "commitMessage": "fix(create-rsbuild): clarify basic template labels (#8687)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908273"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908284"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908357"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908384"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908398"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908444"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908447"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39204047243/job/117902908475"
+      }
+    ]
+  },
+  {
     "commitSha": "cf2cac05aac0d8c4242843576f6f03bc2180a8ff",
     "commitTimestamp": "2026-10-19T03:59:04Z",
     "commitMessage": "fix(create-rsbuild): preserve non-interactive TanStack creation (#8686)",
