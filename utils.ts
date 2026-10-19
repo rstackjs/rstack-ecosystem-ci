@@ -75,7 +75,8 @@ interface RspackPackageData {
 
 let rspackPackageData: RspackPackageData | null = null;
 
-const FAILURE_TAIL_LINES = 100;
+// Observed cap is ~4096 chars per annotation message; leave some headroom.
+const FAILURE_ANNOTATION_MAX_CHARS = 4000;
 
 export function cd(dir: string) {
   cwd = path.resolve(cwd, dir);
@@ -111,13 +112,16 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
       // The full output is folded inside the group above; surface its tail as
       // an error annotation so the failure reason is visible without expanding.
       actionsCore.endGroup();
-      const tail = stripVTControlCharacters(result.all ?? '')
-        .trimEnd()
-        .split('\n')
-        .slice(-FAILURE_TAIL_LINES);
-      actionsCore.error(tail.join('\n'), {
-        title: `Command failed: ${cmd} (${cwd})`,
-      });
+      const summary = `Command failed: ${cmd} (${cwd})`;
+      const output = stripVTControlCharacters(result.all ?? '').trimEnd();
+      // GitHub truncates annotation messages from the end, which would drop
+      // the most relevant lines; keep only whole lines that fit the budget.
+      const budget = FAILURE_ANNOTATION_MAX_CHARS - summary.length - 1;
+      const tail =
+        output.length > budget
+          ? output.slice(-budget).split('\n').slice(1).join('\n')
+          : output;
+      actionsCore.error(`${summary}\n${tail}`, { title: summary });
     }
 
     const errorResult = result as unknown as {
