@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "bf401f09df4f959318eb8979147b609a0458dd16",
+    "commitTimestamp": "2026-10-19T03:49:49Z",
+    "commitMessage": "feat(create-rsbuild): add TanStack Start template (#8685)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880500925"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880500981"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880501021"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880501023"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880501024"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880501026"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880501046"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196559439/job/117880501095"
+      }
+    ]
+  },
+  {
     "commitSha": "893dbaa95b3c3900683956e92a6a8c1f1281f9b9",
     "commitTimestamp": "2026-10-19T02:47:45Z",
     "commitMessage": "fix(core): only serve publicDir for GET and HEAD requests (#8682)",
