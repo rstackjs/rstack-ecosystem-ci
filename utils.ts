@@ -4,7 +4,6 @@ import fs from 'node:fs';
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { stripVTControlCharacters } from 'node:util';
 import actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
 import { AGENTS, detect, getCommand, serializeCommand } from '@antfu/ni';
@@ -75,9 +74,6 @@ interface RspackPackageData {
 
 let rspackPackageData: RspackPackageData | null = null;
 
-// Observed cap is ~4096 chars per annotation message; leave some headroom.
-const FAILURE_ANNOTATION_MAX_CHARS = 4000;
-
 export function cd(dir: string) {
   cwd = path.resolve(cwd, dir);
 }
@@ -109,26 +105,16 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
 
   if (result.failed) {
     if (isGitHubActions) {
-      // The full output is folded inside the group above; surface its tail as
-      // an error annotation so the failure reason is visible without expanding.
+      // The full output is folded inside the group above, including the
+      // `::error` lines from reporters such as vitest's GitHub reporter.
+      // Replay those lines outside the group so they are highlighted and
+      // visible without expanding.
       actionsCore.endGroup();
-      const summary = `Command failed: ${cmd} (${cwd})`;
-      // Drop workflow command lines (e.g. vitest's GitHub reporter emits
-      // `::error ...` / `::group::`): they are already reported on their own
-      // and would otherwise fill the annotation with encoded noise.
-      const output = stripVTControlCharacters(result.all ?? '')
-        .split('\n')
-        .filter((line) => !/^::[a-z-]+[ :]/.test(line))
-        .join('\n')
-        .trimEnd();
-      // GitHub truncates annotation messages from the end, which would drop
-      // the most relevant lines; keep only whole lines that fit the budget.
-      const budget = FAILURE_ANNOTATION_MAX_CHARS - summary.length - 1;
-      const tail =
-        output.length > budget
-          ? output.slice(-budget).split('\n').slice(1).join('\n')
-          : output;
-      actionsCore.error(`${summary}\n${tail}`, { title: summary });
+      for (const line of (result.all ?? '').split('\n')) {
+        if (/^::error[ :]/.test(line)) {
+          console.log(line);
+        }
+      }
     }
 
     const errorResult = result as unknown as {
