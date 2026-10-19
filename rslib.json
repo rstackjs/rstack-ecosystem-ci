@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "de72ce3b9cf38e026607063ec7fb67ea216f33fb",
+    "commitTimestamp": "2026-10-19T03:54:34Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#1960)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561607"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561618"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561640"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561654"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561670"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561792"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561803"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196915468/job/117881561804"
+      }
+    ]
+  },
+  {
     "commitSha": "31da6d36f54d79a4ebb4ca9b01f682c4af3160e5",
     "commitTimestamp": "2026-10-16T05:01:33Z",
     "commitMessage": "chore(deps): upgrade Rspress to 2.1.0-beta.1 (#1958)",
