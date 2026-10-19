@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "3a38843aa68e2cae20a763946e1f2bb29d5af10a",
+    "commitTimestamp": "2026-10-19T02:48:36Z",
+    "commitMessage": "fix(browser): align screenshot paths with Vitest (#1964)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770131"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770182"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770191"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770207"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770209"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770229"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770267"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191715401/job/117865770268"
+      }
+    ]
+  },
+  {
     "commitSha": "5e59b1b653a70f41a1b9808a29c842fd3cef8a6f",
     "commitTimestamp": "2026-10-16T11:03:52Z",
     "commitMessage": "chore(deps): upgrade Rspress to 2.1.0-beta.1 (#1957)",
