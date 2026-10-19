@@ -113,7 +113,14 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
       // an error annotation so the failure reason is visible without expanding.
       actionsCore.endGroup();
       const summary = `Command failed: ${cmd} (${cwd})`;
-      const output = stripVTControlCharacters(result.all ?? '').trimEnd();
+      // Drop workflow command lines (e.g. vitest's GitHub reporter emits
+      // `::error ...` / `::group::`): they are already reported on their own
+      // and would otherwise fill the annotation with encoded noise.
+      const output = stripVTControlCharacters(result.all ?? '')
+        .split('\n')
+        .filter((line) => !/^::[a-z-]+[ :]/.test(line))
+        .join('\n')
+        .trimEnd();
       // GitHub truncates annotation messages from the end, which would drop
       // the most relevant lines; keep only whole lines that fit the budget.
       const budget = FAILURE_ANNOTATION_MAX_CHARS - summary.length - 1;
