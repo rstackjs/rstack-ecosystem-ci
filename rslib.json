@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "1d25aa5a4f13ebfc87ee794787928809d53dd45b",
+    "commitTimestamp": "2026-10-19T07:43:00Z",
+    "commitMessage": "feat(wasm): support source phase imports for `?inline` wasm modules (#1959)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946006891"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946006942"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946007191"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946007193"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946007223"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946007231"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946007257"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39217902083/job/117946007406"
+      }
+    ]
+  },
+  {
     "commitSha": "de72ce3b9cf38e026607063ec7fb67ea216f33fb",
     "commitTimestamp": "2026-10-19T03:54:34Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1960)",
