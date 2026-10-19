@@ -114,7 +114,15 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
       console.log(
         `Last ${tail.length} lines of output from \`${cmd}\` (${cwd}):`,
       );
+      // Disable workflow commands while replaying, so `::group::` / `::error::`
+      // emitted by the command (e.g. vitest's GitHub reporter) do not fold the
+      // tail again or duplicate annotations.
+      const stopToken = createHash('sha256')
+        .update(`${Date.now()}${Math.random()}`)
+        .digest('hex');
+      console.log(`::stop-commands::${stopToken}`);
       console.log(tail.join('\n'));
+      console.log(`::${stopToken}::`);
       actionsCore.error(`Command failed: ${cmd}`);
     }
 
