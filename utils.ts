@@ -78,6 +78,32 @@ export function cd(dir: string) {
   cwd = path.resolve(cwd, dir);
 }
 
+/**
+ * A failed command's output is folded inside its log group, including the
+ * `::error` lines from reporters such as vitest's GitHub reporter. Replay
+ * those lines after the group so they are highlighted and visible without
+ * expanding, marked so they are not mistaken for original output.
+ */
+function replayErrorLines(output: string, cmd: string) {
+  const errorLines = output.match(/^::error[ :].*$/gm);
+  if (!errorLines) {
+    return;
+  }
+
+  const cyan = (text: string) => `\x1b[36m${text}\x1b[0m`;
+  console.log(
+    cyan(
+      `▼ [replayed] ${errorLines.length} error(s) copied from the folded output of \`${cmd}\` above`,
+    ),
+  );
+  for (const line of errorLines) {
+    // Properties escape `:`, so the first `::` after `::error` is the
+    // separator before the message.
+    console.log(line.replace(/^(::error.*?::)/, `$1${cyan('[replayed]')} `));
+  }
+  console.log(cyan('▲ [replayed] end'));
+}
+
 export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
   const cmd = literals.reduce(
     (result, current, i) =>
@@ -102,7 +128,15 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
   proc.stderr?.pipe(process.stderr);
   const result = await proc;
 
+  if (isGitHubActions) {
+    actionsCore.endGroup();
+  }
+
   if (result.failed) {
+    if (isGitHubActions) {
+      replayErrorLines(`${result.stdout}\n${result.stderr}`, cmd);
+    }
+
     const errorResult = result as unknown as {
       shortMessage?: string;
       message?: string;
@@ -113,7 +147,6 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
   }
 
   if (isGitHubActions) {
-    actionsCore.endGroup();
     const cost = Math.ceil((Date.now() - start) / 1000);
     console.log(`Cost for \`${cmd}\`: ${cost} s`);
   }
