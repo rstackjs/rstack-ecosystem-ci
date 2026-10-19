@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "9dd54d6155f73ea9d77e14f7b664004da17f2f2f",
+    "commitTimestamp": "2026-10-19T06:05:42Z",
+    "commitMessage": "release: 0.12.4 (#1968)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815393"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815408"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815415"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815443"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815525"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815533"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815554"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39207959995/job/117914815650"
+      }
+    ]
+  },
+  {
     "commitSha": "b6f08875de9614f13c6a15f7d8cdb9cc02d6e1e1",
     "commitTimestamp": "2026-10-19T03:53:26Z",
     "commitMessage": "fix(browser): ignore error events without error objects (#1967)",
