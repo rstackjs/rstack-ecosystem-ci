@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b6f08875de9614f13c6a15f7d8cdb9cc02d6e1e1",
+    "commitTimestamp": "2026-10-19T03:53:26Z",
+    "commitMessage": "fix(browser): ignore error events without error objects (#1967)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881273874"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881273908"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881273960"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881273987"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881274015"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881274022"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881274032"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39196818310/job/117881274045"
+      }
+    ]
+  },
+  {
     "commitSha": "3a38843aa68e2cae20a763946e1f2bb29d5af10a",
     "commitTimestamp": "2026-10-19T02:48:36Z",
     "commitMessage": "fix(browser): align screenshot paths with Vitest (#1964)",
