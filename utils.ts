@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { stripVTControlCharacters } from 'node:util';
 import actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
 import { AGENTS, detect, getCommand, serializeCommand } from '@antfu/ni';
@@ -107,23 +108,16 @@ export async function $(literals: TemplateStringsArray, ...values: unknown[]) {
 
   if (result.failed) {
     if (isGitHubActions) {
-      // The full output is folded inside the group above; repeat its tail
-      // outside the group so the failure reason is visible without expanding.
+      // The full output is folded inside the group above; surface its tail as
+      // an error annotation so the failure reason is visible without expanding.
       actionsCore.endGroup();
-      const tail = (result.all ?? '').split('\n').slice(-FAILURE_TAIL_LINES);
-      console.log(
-        `Last ${tail.length} lines of output from \`${cmd}\` (${cwd}):`,
-      );
-      // Disable workflow commands while replaying, so `::group::` / `::error::`
-      // emitted by the command (e.g. vitest's GitHub reporter) do not fold the
-      // tail again or duplicate annotations.
-      const stopToken = createHash('sha256')
-        .update(`${Date.now()}${Math.random()}`)
-        .digest('hex');
-      console.log(`::stop-commands::${stopToken}`);
-      console.log(tail.join('\n'));
-      console.log(`::${stopToken}::`);
-      actionsCore.error(`Command failed: ${cmd}`);
+      const tail = stripVTControlCharacters(result.all ?? '')
+        .trimEnd()
+        .split('\n')
+        .slice(-FAILURE_TAIL_LINES);
+      actionsCore.error(tail.join('\n'), {
+        title: `Command failed: ${cmd} (${cwd})`,
+      });
     }
 
     const errorResult = result as unknown as {
