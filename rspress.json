@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e594d85f22a7914e7fd392fc4981de88ad2feb39",
+    "commitTimestamp": "2026-10-19T06:25:00Z",
+    "commitMessage": "feat(core): enable clean URLs by default (#3757)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879/job/117920969360"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879/job/117920969410"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879/job/117920969424"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879/job/117920969487"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879/job/117920969507"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39209975879/job/117920969534"
+      }
+    ]
+  },
+  {
     "commitSha": "3d42e3dc3a132f461d7a1afc8017f501351c40c7",
     "commitTimestamp": "2026-10-19T06:16:02Z",
     "commitMessage": "chore(deps): update dependency p-map to ^7.1.1 (#3767)",
