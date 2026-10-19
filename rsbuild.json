@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "893dbaa95b3c3900683956e92a6a8c1f1281f9b9",
+    "commitTimestamp": "2026-10-19T02:47:45Z",
+    "commitMessage": "fix(core): only serve publicDir for GET and HEAD requests (#8682)",
+    "author": {
+      "name": "Yang Bai",
+      "email": "yangbai2026@gmail.com",
+      "login": "ybai08"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589100"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589108"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589109"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589154"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589175"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589194"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589205"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39191657401/job/117865589221"
+      }
+    ]
+  },
+  {
     "commitSha": "e31fe3d14d5a93cc8dded37ed99f5df36a1daf94",
     "commitTimestamp": "2026-10-19T02:37:01Z",
     "commitMessage": "chore(deps): update all patch dependencies (#8683)",
