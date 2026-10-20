@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1912b77b2ca7229d349361fe7e0f5c8318bbf803",
+    "commitTimestamp": "2026-10-20T03:44:27Z",
+    "commitMessage": "fix(core): hide detailed file sizes by default (#3769)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347/job/118442572794"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347/job/118442572818"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347/job/118442572884"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347/job/118442572885"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347/job/118442572928"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39365901347/job/118442572979"
+      }
+    ]
+  },
+  {
     "commitSha": "e594d85f22a7914e7fd392fc4981de88ad2feb39",
     "commitTimestamp": "2026-10-19T06:25:00Z",
     "commitMessage": "feat(core): enable clean URLs by default (#3757)",
