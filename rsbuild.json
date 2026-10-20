@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "9ca073fda49e0a99d22da21e8e534676c8b08062",
+    "commitTimestamp": "2026-10-20T00:32:35Z",
+    "commitMessage": "fix(core): omit empty compression columns in file size reports (#8699)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135166"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135186"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135264"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135294"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135323"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135358"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135372"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39348292512/job/118386135395"
+      }
+    ]
+  },
+  {
     "commitSha": "5ac8a8d2a922ce55c63d7201c04457d526e2c005",
     "commitTimestamp": "2026-10-19T11:05:59Z",
     "commitMessage": "feat(core): support limiting file size details (#8697)",
