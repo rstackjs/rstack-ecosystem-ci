@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "30d51678eceafcbc9c8e1ca67faa64b1c6aa7cd5",
+    "commitTimestamp": "2026-10-20T13:48:41Z",
+    "commitMessage": "feat(core): add onClosePreviewServer hook (#8705)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001060"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001333"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001379"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001388"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001407"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001472"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001702"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39433680521/job/118665001777"
+      }
+    ]
+  },
+  {
     "commitSha": "acf7b13d7f3e327350129cc5b607e4be2c2ab13d",
     "commitTimestamp": "2026-10-20T09:33:54Z",
     "commitMessage": "test: correct test fixture metadata for ecosystem CI (#8703)",
