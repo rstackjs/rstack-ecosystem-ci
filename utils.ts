@@ -54,12 +54,18 @@ let workspaceRoot: string;
 let cwd: string;
 let env: NodeJS.ProcessEnv;
 
+type MonorepoStack = 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rspress';
+
 const monorepoPackagesCache: Partial<
-  Record<
-    'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rspress',
-    { name: string; directory: string }[]
-  >
+  Record<MonorepoStack, { name: string; directory: string }[]>
 > = {};
+
+// Rsbuild publishes packages/*, but its pnpm workspace also includes E2E
+// fixtures that are not publishable packages (some intentionally have no name).
+// Other stacks retain workspace discovery until their publish scope is verified.
+const STACK_PACKAGE_DIR: Partial<Record<MonorepoStack, string>> = {
+  rsbuild: 'packages',
+};
 
 interface RspackPackageInfo {
   name: string;
@@ -349,28 +355,59 @@ function toCommand(
   };
 }
 
-async function getMonorepoPackages(
-  stack: 'rsbuild' | 'rstest' | 'rslib' | 'rsdoctor' | 'rspress',
+export async function discoverMonorepoPackages(
+  stack: MonorepoStack,
+  root: string,
 ) {
+  const packageDir = STACK_PACKAGE_DIR[stack];
+  if (packageDir) {
+    const entries = await fs.promises.readdir(path.join(root, packageDir), {
+      withFileTypes: true,
+    });
+    const packages: { name: string; directory: string }[] = [];
+    const names = new Set<string>();
+    for (const entry of entries) {
+      if (!entry.isDirectory()) {
+        continue;
+      }
+      const directory = path.join(root, packageDir, entry.name);
+      const manifest = path.join(directory, 'package.json');
+      if (!fs.existsSync(manifest)) {
+        continue;
+      }
+      const { name, private: isPrivate } = JSON.parse(
+        await fs.promises.readFile(manifest, 'utf8'),
+      );
+      if (isPrivate) {
+        continue;
+      }
+      assert(
+        typeof name === 'string' && name.trim(),
+        `Missing package name in ${manifest}`,
+      );
+      assert(
+        !names.has(name),
+        `Duplicate package name "${name}" in ${manifest}`,
+      );
+      names.add(name);
+      packages.push({ name, directory });
+    }
+    return packages;
+  }
+
+  const { packages } = await getPackages(root);
+  return packages.flatMap((pkg) => {
+    const { name, private: isPrivate } = pkg.packageJson;
+    return name && !isPrivate ? [{ name, directory: pkg.dir }] : [];
+  });
+}
+
+async function getMonorepoPackages(stack: MonorepoStack) {
   const cached = monorepoPackagesCache[stack];
   if (cached) {
     return cached;
   }
-  const packages = await getPackages(stackPath);
-  const packageList = packages.packages.flatMap((pkg) => {
-    const { name, private: isPrivate } = pkg.packageJson;
-
-    if (!name || isPrivate) {
-      return [];
-    }
-
-    return [
-      {
-        name,
-        directory: pkg.dir,
-      },
-    ];
-  });
+  const packageList = await discoverMonorepoPackages(stack, stackPath);
   monorepoPackagesCache[stack] = packageList;
   return packageList;
 }
