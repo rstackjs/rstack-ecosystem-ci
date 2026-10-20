@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "bb8d6b29c755f6d63c8e218bf03adabcb14627cc",
+    "commitTimestamp": "2026-10-20T07:23:09Z",
+    "commitMessage": "feat(create-rsbuild): display version in startup banner (#8700)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506507841"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506507854"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506507863"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506507901"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506507906"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506507925"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506508019"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39386194782/job/118506508086"
+      }
+    ]
+  },
+  {
     "commitSha": "9ca073fda49e0a99d22da21e8e534676c8b08062",
     "commitTimestamp": "2026-10-20T00:32:35Z",
     "commitMessage": "fix(core): omit empty compression columns in file size reports (#8699)",
