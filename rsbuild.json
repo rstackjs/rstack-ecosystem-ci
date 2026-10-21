@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e7d65898ce92d5f5d78afb0d93b4670b5e2a469d",
+    "commitTimestamp": "2026-10-21T02:26:33Z",
+    "commitMessage": "chore(deps): update dependency core-js to ^3.51.0 (#8708)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257047"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257049"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257059"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257071"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257091"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257094"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257153"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39533060250/job/119003257182"
+      }
+    ]
+  },
+  {
     "commitSha": "e9abc6a5039f07ecc961c93fb07f7304eaf1655b",
     "commitTimestamp": "2026-10-21T02:16:08Z",
     "commitMessage": "chore(deps): update actions/setup-node action to v7.1.0 (#8707)",
