@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "402649206e2e63af33a58bf92998a1de5d280595",
+    "commitTimestamp": "2026-10-21T03:37:58Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.3.0-beta.0 (#8710)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384455"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384541"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384591"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384661"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384690"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384711"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384785"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39539700635/job/119024384802"
+      }
+    ]
+  },
+  {
     "commitSha": "e7d65898ce92d5f5d78afb0d93b4670b5e2a469d",
     "commitTimestamp": "2026-10-21T02:26:33Z",
     "commitMessage": "chore(deps): update dependency core-js to ^3.51.0 (#8708)",
