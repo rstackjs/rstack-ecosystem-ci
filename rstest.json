@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7a5595e2779ff86110c4fa18132fe0d331da93cb",
+    "commitTimestamp": "2026-10-21T11:09:50Z",
+    "commitMessage": "perf(coverage-istanbul): load reporting dependencies on demand (#1981)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048399"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048480"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048509"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048585"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048692"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048696"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188048754"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39589922756/job/119188049840"
+      }
+    ]
+  },
+  {
     "commitSha": "911e99a6c2fb1bf6e73bd4b609b7cc83c5cfe7a6",
     "commitTimestamp": "2026-10-21T03:05:13Z",
     "commitMessage": "feat(browser): add DOM element locators and assertions (#1977)",
