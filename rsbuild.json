@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "061dc8f290c7a650df06bce54868f2c019f0a181",
+    "commitTimestamp": "2026-10-22T03:07:23Z",
+    "commitMessage": "fix(core): resolve HMR WebSocket URLs from blob origins (#8709)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615335956"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615335963"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615335968"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615336017"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615336026"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615336045"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615336050"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39715141008/job/119615336076"
+      }
+    ]
+  },
+  {
     "commitSha": "402649206e2e63af33a58bf92998a1de5d280595",
     "commitTimestamp": "2026-10-21T03:37:58Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.3.0-beta.0 (#8710)",
