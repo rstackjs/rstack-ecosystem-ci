@@ -83,6 +83,89 @@
     ]
   },
   {
+    "commitSha": "344b393e909699cdcb36967c2fae0692b1370090",
+    "commitTimestamp": "2026-10-22T06:23:13Z",
+    "commitMessage": "refactor: remove unused __rspack_esm_id export from module chunks (#16193)",
+    "author": {
+      "name": "hai-x",
+      "email": "98948357+hai-x@users.noreply.github.com",
+      "login": "hai-x"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374289"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374303"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374309"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374350"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374359"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374361"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374374"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374395"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374415"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374467"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374494"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374505"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39734598369/job/119677374612"
+      }
+    ]
+  },
+  {
     "commitSha": "30c2bd11ded2080bd7097fdebdaaa64175cfc71a",
     "commitTimestamp": "2026-10-22T03:58:29Z",
     "commitMessage": "fix(css): calculate CSS module hashes from graph dependencies (#16120)",
