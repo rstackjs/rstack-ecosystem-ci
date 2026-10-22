@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "0ba8c8631d3503a099f0e860057dc8cf30a91923",
+    "commitTimestamp": "2026-10-22T03:49:53Z",
+    "commitMessage": "fix(core): validate paths after stripping asset prefixes (#8713)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361196"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361211"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361236"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361281"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361302"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361307"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361378"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39719157033/job/119628361393"
+      }
+    ]
+  },
+  {
     "commitSha": "061dc8f290c7a650df06bce54868f2c019f0a181",
     "commitTimestamp": "2026-10-22T03:07:23Z",
     "commitMessage": "fix(core): resolve HMR WebSocket URLs from blob origins (#8709)",
