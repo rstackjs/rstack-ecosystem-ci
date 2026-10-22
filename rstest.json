@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "12f7d4c379bc1213e18d7672a161f1958aa5d944",
+    "commitTimestamp": "2026-10-22T04:02:10Z",
+    "commitMessage": "perf(coverage-istanbul): compact untested file transforms (#1982)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429532"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429550"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429614"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429625"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429628"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429634"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429637"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39720126348/job/119631429931"
+      }
+    ]
+  },
+  {
     "commitSha": "7a5595e2779ff86110c4fa18132fe0d331da93cb",
     "commitTimestamp": "2026-10-21T11:09:50Z",
     "commitMessage": "perf(coverage-istanbul): load reporting dependencies on demand (#1981)",
