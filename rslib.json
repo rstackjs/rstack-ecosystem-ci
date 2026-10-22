@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "1e9ebe89cda9616b1bb65f033677a9e3f0858a75",
+    "commitTimestamp": "2026-10-22T08:15:24Z",
+    "commitMessage": "feat(deps): update @rsbuild/core to ~2.3.0-beta.0 (#1967)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718487927"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488053"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488088"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488134"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488138"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488140"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488215"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747186776/job/119718488235"
+      }
+    ]
+  },
+  {
     "commitSha": "c7ecc1d7df4f860e41f881a97f396e0e29b2e329",
     "commitTimestamp": "2026-10-21T06:57:51Z",
     "commitMessage": "feat(create-rslib): use TypeScript 7 in supported templates and examples (#1966)",
