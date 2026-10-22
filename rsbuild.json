@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4d29a5d9be7fb1665309e4ddfaea38e4d0e4c89b",
+    "commitTimestamp": "2026-10-22T05:54:30Z",
+    "commitMessage": "test: cover HMR in workers (#8716)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954481"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954537"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954549"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954550"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954582"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954654"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954659"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39730740490/job/119664954741"
+      }
+    ]
+  },
+  {
     "commitSha": "7ca4bb828eb621bcd1b04e3a856e86c39be664d3",
     "commitTimestamp": "2026-10-22T04:22:37Z",
     "commitMessage": "chore(deps): update @ungap/structured-clone to 1.4.0 (#8715)",
