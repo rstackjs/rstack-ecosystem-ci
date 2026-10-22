@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e6fd59013a070c8153154a920380216561b49a03",
+    "commitTimestamp": "2026-10-22T09:55:05Z",
+    "commitMessage": "fix(theme/Sidebar): wrap long sidebar labels (#3777)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246/job/119759093540"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246/job/119759093565"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246/job/119759093596"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246/job/119759093651"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246/job/119759093700"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39759273246/job/119759094180"
+      }
+    ]
+  },
+  {
     "commitSha": "533261d629f389962e287ef0d28e5c8d2296e3e7",
     "commitTimestamp": "2026-10-20T07:57:31Z",
     "commitMessage": "feat(create-rspress): display version in startup banner (#3771)",
