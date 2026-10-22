@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "103ec542a20a35f6079af942fe0811504a6d62af",
+    "commitTimestamp": "2026-10-22T08:21:08Z",
+    "commitMessage": "fix(core): respect compression settings in bundleless size totals (#1968)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718890850"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718890932"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718891045"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718891092"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718891163"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718891164"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718891182"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39747309650/job/119718892554"
+      }
+    ]
+  },
+  {
     "commitSha": "1e9ebe89cda9616b1bb65f033677a9e3f0858a75",
     "commitTimestamp": "2026-10-22T08:15:24Z",
     "commitMessage": "feat(deps): update @rsbuild/core to ~2.3.0-beta.0 (#1967)",
