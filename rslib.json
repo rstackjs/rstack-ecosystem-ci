@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2c7ffb3ae827bbec35be86a68ee95021717d396f",
+    "commitTimestamp": "2026-10-22T08:51:23Z",
+    "commitMessage": "feat(dts): support TypeScript 7.1 API and content mappers (#1955)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731171660"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731171795"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731171877"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731171926"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731171930"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731171965"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731172009"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39750974862/job/119731172065"
+      }
+    ]
+  },
+  {
     "commitSha": "103ec542a20a35f6079af942fe0811504a6d62af",
     "commitTimestamp": "2026-10-22T08:21:08Z",
     "commitMessage": "fix(core): respect compression settings in bundleless size totals (#1968)",
