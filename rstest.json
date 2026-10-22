@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6031ab99f963fde2ffffcb413395d266d64c26a3",
+    "commitTimestamp": "2026-10-22T06:39:54Z",
+    "commitMessage": "feat(core): let hosts load project configs through PROJECT_LOADER (#1963)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709822"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709867"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709914"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709920"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709935"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709936"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709961"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39735375046/job/119679709978"
+      }
+    ]
+  },
+  {
     "commitSha": "12f7d4c379bc1213e18d7672a161f1958aa5d944",
     "commitTimestamp": "2026-10-22T04:02:10Z",
     "commitMessage": "perf(coverage-istanbul): compact untested file transforms (#1982)",
