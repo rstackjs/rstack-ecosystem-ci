@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "9e3cb98a3d3dd39e58d83f41cd76e593cdb5b637",
+    "commitTimestamp": "2026-10-22T08:33:53Z",
+    "commitMessage": "chore: resolve harness package paths on Windows (#1983)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540286"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540676"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540681"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540711"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540803"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540882"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540960"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39748705568/job/119723540964"
+      }
+    ]
+  },
+  {
     "commitSha": "6031ab99f963fde2ffffcb413395d266d64c26a3",
     "commitTimestamp": "2026-10-22T06:39:54Z",
     "commitMessage": "feat(core): let hosts load project configs through PROJECT_LOADER (#1963)",
