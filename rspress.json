@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2e3ada9effda23ec6d84d4802ed51e39a41a7697",
+    "commitTimestamp": "2026-10-22T12:01:36Z",
+    "commitMessage": "fix(theme): improve logo and heading anchor accessibility (#3775)",
+    "author": {
+      "name": "Wu Shuwen",
+      "email": "mikewushuwen@outlook.com",
+      "login": "dajiaohuang"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361/job/119811930110"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361/job/119811930117"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361/job/119811930157"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361/job/119811930227"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361/job/119811930277"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39775099361/job/119811930370"
+      }
+    ]
+  },
+  {
     "commitSha": "e6fd59013a070c8153154a920380216561b49a03",
     "commitTimestamp": "2026-10-22T09:55:05Z",
     "commitMessage": "fix(theme/Sidebar): wrap long sidebar labels (#3777)",
