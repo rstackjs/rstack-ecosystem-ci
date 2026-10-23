@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "fcb955587ccf227ed74a0f750afe604bb49cbcfb",
+    "commitTimestamp": "2026-10-23T02:46:26Z",
+    "commitMessage": "feat(core): add codeFilter to api.transform (#8722)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860797"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860807"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860828"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860857"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860887"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860912"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860919"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/39891428935/job/120211860926"
+      }
+    ]
+  },
+  {
     "commitSha": "ad8388c5befec29f5ccf765857faf126c1f05d5d",
     "commitTimestamp": "2026-10-22T09:40:04Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.3.0-beta.1 (#8721)",
