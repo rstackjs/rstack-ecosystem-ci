@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "aa079b7cac7ac8045c711ac7051dea95d0506973",
+    "commitTimestamp": "2026-10-25T01:07:54Z",
+    "commitMessage": "chore(deps): update pnpm to v12.15.0 (#8728)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648166"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648170"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648175"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648194"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648200"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648253"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648267"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40149436252/job/121037648298"
+      }
+    ]
+  },
+  {
     "commitSha": "193f4a89b9d2d6f760d274e21625de9c47737479",
     "commitTimestamp": "2026-10-25T01:07:40Z",
     "commitMessage": "chore(deps): update dependency node to v24.22.0 (#8726)",
