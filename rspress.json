@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "ab1b6d4ae8e88f4157384f4642115897df3e5a2c",
+    "commitTimestamp": "2026-10-26T11:40:08Z",
+    "commitMessage": "fix(theme): maintain package manager icons as built-in icons (#3785)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560/job/121551415157"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560/job/121551415223"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560/job/121551415280"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560/job/121551415337"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560/job/121551415342"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40316827560/job/121551415473"
+      }
+    ]
+  },
+  {
     "commitSha": "36b78443d47ae4463dfeaffd9293cc066d7aa495",
     "commitTimestamp": "2026-10-26T11:10:02Z",
     "commitMessage": "feat(theme/PackageManagerTabs): support custom commands in additional tabs (#3786)",
