@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "fcbd8a3fa8ac4907a34244b64425efa1410a3072",
+    "commitTimestamp": "2026-10-26T09:44:40Z",
+    "commitMessage": "feat(theme/CdnTabs): add CDN asset tabs (#3782)",
+    "author": {
+      "name": "Wu Shuwen",
+      "email": "mikewushuwen@outlook.com",
+      "login": "dajiaohuang"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669/job/121502363897"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669/job/121502364021"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669/job/121502364037"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669/job/121502364054"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669/job/121502364110"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40302146669/job/121502364276"
+      }
+    ]
+  },
+  {
     "commitSha": "14a4f814be5d0a719f7c8ba8e892f5fa71f7f8d3",
     "commitTimestamp": "2026-10-26T08:05:41Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3783)",
