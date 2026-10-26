@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "9d4e131d3dc41896727e24743e793a9cd1bc3e94",
+    "commitTimestamp": "2026-10-26T03:18:44Z",
+    "commitMessage": "perf(core): skip substring search when path has no fragment marker (#16223)",
+    "author": {
+      "name": "Donny/강동윤",
+      "email": "kdy.1997.dev@gmail.com",
+      "login": "kdy1"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382769978"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382769982"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382769988"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770001"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770003"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770007"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770014"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770028"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770033"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770042"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770044"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770052"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40264138664/job/121382770077"
+      }
+    ]
+  },
+  {
     "commitSha": "736f9a386d6af0e3f11926dc256414390511abe9",
     "commitTimestamp": "2026-10-26T02:59:10Z",
     "commitMessage": "perf(core): scan inline named exports linearly (#16224)",
