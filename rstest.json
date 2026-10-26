@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b88cf0e6f848284d4a14087c96aa98a58d737b1b",
+    "commitTimestamp": "2026-10-26T08:51:29Z",
+    "commitMessage": "chore(deps): update dependency happy-dom to v21.0.4 [security] (#1986)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529184"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529187"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529260"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529285"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529309"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529319"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529323"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40295219556/job/121479529400"
+      }
+    ]
+  },
+  {
     "commitSha": "9e3cb98a3d3dd39e58d83f41cd76e593cdb5b637",
     "commitTimestamp": "2026-10-22T08:33:53Z",
     "commitMessage": "chore: resolve harness package paths on Windows (#1983)",
