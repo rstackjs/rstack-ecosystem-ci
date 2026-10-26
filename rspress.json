@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "36b78443d47ae4463dfeaffd9293cc066d7aa495",
+    "commitTimestamp": "2026-10-26T11:10:02Z",
+    "commitMessage": "feat(theme/PackageManagerTabs): support custom commands in additional tabs (#3786)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019/job/121538739715"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019/job/121538739847"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019/job/121538739858"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019/job/121538739875"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019/job/121538739943"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40313058019/job/121538740066"
+      }
+    ]
+  },
+  {
     "commitSha": "fcbd8a3fa8ac4907a34244b64425efa1410a3072",
     "commitTimestamp": "2026-10-26T09:44:40Z",
     "commitMessage": "feat(theme/CdnTabs): add CDN asset tabs (#3782)",
