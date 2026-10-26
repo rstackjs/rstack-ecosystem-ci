@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "967b64b05ee17ac2af891c5ed4f72fe3b9c695cb",
+    "commitTimestamp": "2026-10-26T06:05:56Z",
+    "commitMessage": "chore(deps): update rstack (#3784)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951/job/121424488564"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951/job/121424488669"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951/job/121424488718"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951/job/121424488721"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951/job/121424488725"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40277898951/job/121424488812"
+      }
+    ]
+  },
+  {
     "commitSha": "2e3ada9effda23ec6d84d4802ed51e39a41a7697",
     "commitTimestamp": "2026-10-22T12:01:36Z",
     "commitMessage": "fix(theme): improve logo and heading anchor accessibility (#3775)",
