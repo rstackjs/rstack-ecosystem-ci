@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "9ce076b8690195ddbca046bd832bc00d618cc902",
+    "commitTimestamp": "2026-10-26T08:05:12Z",
+    "commitMessage": "feat(core): enable anchor checks by default (#3756)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948/job/121462274873"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948/job/121462274941"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948/job/121462275012"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948/job/121462275024"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948/job/121462275031"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40289911948/job/121462275116"
+      }
+    ]
+  },
+  {
     "commitSha": "967b64b05ee17ac2af891c5ed4f72fe3b9c695cb",
     "commitTimestamp": "2026-10-26T06:05:56Z",
     "commitMessage": "chore(deps): update rstack (#3784)",
