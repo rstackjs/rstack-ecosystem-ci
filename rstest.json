@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "481f8782a1fd45f17104212b30210c3d5a46f71b",
+    "commitTimestamp": "2026-10-26T09:58:43Z",
+    "commitMessage": "perf(core): enable automatic prebundling for happy-dom 21 (#1988)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040509"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040598"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040630"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040666"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040692"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040745"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040752"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40303859434/job/121508040802"
+      }
+    ]
+  },
+  {
     "commitSha": "b88cf0e6f848284d4a14087c96aa98a58d737b1b",
     "commitTimestamp": "2026-10-26T08:51:29Z",
     "commitMessage": "chore(deps): update dependency happy-dom to v21.0.4 [security] (#1986)",
