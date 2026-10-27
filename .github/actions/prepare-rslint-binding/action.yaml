@@ -59,8 +59,11 @@ runs:
       env:
         # Limit concurrent Go compiler processes to reduce peak disk usage.
         GOFLAGS: -p=4
+        # Ubuntu 26.04 mounts /tmp as a quota-limited tmpfs.
+        GOTMPDIR: ${{ runner.temp }}/rslint-go
       run: |
         set -euo pipefail
+        mkdir -p "$GOTMPDIR"
         source "$GITHUB_ACTION_PATH/diagnostics.sh"
         pnpm install --frozen-lockfile
         rslint_disk_snapshot 'after pnpm install'

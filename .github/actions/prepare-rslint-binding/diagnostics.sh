@@ -9,8 +9,8 @@ rslint_pnpm_store=$(pnpm store path 2>/dev/null || true)
 rslint_disk_snapshot() (
   set +e
   printf '\n::group::Rslint disk usage: %s (%s)\n' "$1" "$(date -u +%FT%TZ)"
-  df -hT / "$PWD" "$rslint_go_tmp" "${RUNNER_TEMP:-/tmp}" "$rslint_go_cache" "$rslint_go_modcache"
-  df -i / "$PWD" "$rslint_go_tmp" "${RUNNER_TEMP:-/tmp}" "$rslint_go_cache" "$rslint_go_modcache"
+  df -hT / /tmp "$PWD" "$rslint_go_tmp" "${RUNNER_TEMP:-/tmp}" "$rslint_go_cache" "$rslint_go_modcache"
+  df -i / /tmp "$PWD" "$rslint_go_tmp" "${RUNNER_TEMP:-/tmp}" "$rslint_go_cache" "$rslint_go_modcache"
   free -h
   ps -eo pid,comm,rss,pcpu --sort=-rss | head -n 10
 
@@ -24,7 +24,7 @@ rslint_disk_snapshot() (
   done
   if (( ${#paths[@]} )); then
     # Bound scans and tolerate Go removing temporary files during a sample.
-    timeout 15s du -sh -- "${paths[@]}" 2>&1
+    timeout 15s du -sh -- "${paths[@]}" 2>&1 || printf 'Directory scan incomplete (exit %s).\n' "$?"
   fi
   printf '::endgroup::\n'
   return 0
@@ -61,7 +61,7 @@ rslint_finish_diagnostics() {
     "${GOMAXPROCS:-<unset>}" "${GOMEMLIMIT:-<unset>}" "${GOGC:-<unset>}"
   printf 'Available CPUs: '
   nproc
-  for path in "$PWD" "$rslint_go_tmp" "$rslint_go_cache" "$rslint_go_modcache"; do
+  for path in /tmp "$PWD" "$rslint_go_tmp" "$rslint_go_cache" "$rslint_go_modcache"; do
     if [[ -d "$path" ]]; then
       findmnt -T "$path" -o TARGET,SOURCE,FSTYPE,OPTIONS
     fi
@@ -73,7 +73,8 @@ rslint_finish_diagnostics() {
   fi
   printf 'Preinstalled runner tools (before building):\n'
   timeout 15s du -sh /opt/hostedtoolcache /usr/share/dotnet \
-    /usr/local/lib/android /opt/ghc /usr/local/share/powershell 2>&1
+    /usr/local/lib/android /opt/ghc /usr/local/share/powershell 2>&1 \
+    || printf 'Runner tools scan incomplete (exit %s).\n' "$?"
   printf '::endgroup::\n'
 )
 rslint_disk_snapshot 'before pnpm install'
