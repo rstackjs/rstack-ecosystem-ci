@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "02387b930aa1a40b34eca658239a4842f9ec52dd",
+    "commitTimestamp": "2026-10-27T06:38:20Z",
+    "commitMessage": "chore(deps): upgrade React to 19.3.0 (#3789)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185/job/122049610289"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185/job/122049610327"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185/job/122049610328"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185/job/122049610337"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185/job/122049610361"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40462331185/job/122049610435"
+      }
+    ]
+  },
+  {
     "commitSha": "b7cd2c13da904c1be46aba81228358e0141d8622",
     "commitTimestamp": "2026-10-27T03:55:55Z",
     "commitMessage": "fix(plugin-preview): improve preview state toggling and add Tamil locale 🌐 (#3761)",
