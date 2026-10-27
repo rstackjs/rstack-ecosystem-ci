@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "1c5419ae73be1fed5af620d3189a58a4ceb07ae8",
+    "commitTimestamp": "2026-10-27T02:29:35Z",
+    "commitMessage": "fix(types): preserve merged environment config assignability (#8737)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754528"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754552"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754653"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754732"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754733"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754736"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754879"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40438761077/job/121973754885"
+      }
+    ]
+  },
+  {
     "commitSha": "3607fb96ee360752fc9d66d5719a3ac0987f9ba0",
     "commitTimestamp": "2026-10-26T13:37:05Z",
     "commitMessage": "feat(core): support environment-level publicDir configuration (#8711)",
