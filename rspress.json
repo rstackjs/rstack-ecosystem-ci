@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "635b34fe7e62f6aca0969aaaf9c84d25e3f41f4f",
+    "commitTimestamp": "2026-10-27T07:38:43Z",
+    "commitMessage": "chore(deps): update dependency typedoc-plugin-markdown to v4.14.1 (#3791)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353/job/122069818995"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353/job/122069818996"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353/job/122069819145"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353/job/122069819147"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353/job/122069819158"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468558353/job/122069819241"
+      }
+    ]
+  },
+  {
     "commitSha": "2796f0abd29b4ec4960d15ff981fd527495cf780",
     "commitTimestamp": "2026-10-27T07:02:56Z",
     "commitMessage": "fix(core/runtime): isolate social links virtual module dependency (#3755)",
