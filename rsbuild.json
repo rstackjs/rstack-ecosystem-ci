@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8af5eaa81a0c087692aa86f0cbcf06ad0ae33a57",
+    "commitTimestamp": "2026-10-27T07:59:23Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.3.0-rc.0 (#8740)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253411"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253439"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253488"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253561"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253616"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253619"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253634"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40470508595/job/122076253674"
+      }
+    ]
+  },
+  {
     "commitSha": "e5f3a8cd67a10e6fe0ea7cfb0c4997267265cf83",
     "commitTimestamp": "2026-10-27T04:35:26Z",
     "commitMessage": "fix(dev): wait for full builds before downstream middleware (#8734)",
