@@ -61,10 +61,15 @@ runs:
         GOFLAGS: -p=4
       run: |
         set -euo pipefail
+        source "$GITHUB_ACTION_PATH/diagnostics.sh"
         pnpm install --frozen-lockfile
+        rslint_disk_snapshot 'after pnpm install'
         pnpm --filter @rslint/native run build
+        rslint_disk_snapshot 'after Rust native build'
         pnpm --filter @rslint/core run build:bin
+        rslint_disk_snapshot 'after Go CLI build'
         go run ./tools/dump_rule_schemas > packages/rslint/rule-schemas.json
+        rslint_disk_snapshot 'after schema generation'
 
     - name: Upload Rslint native packages and schemas
       uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
