@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b68cd478b0ccfeca5c38e6c3cae5abb7c6cfb4e2",
+    "commitTimestamp": "2026-10-27T11:52:33Z",
+    "commitMessage": "chore(ci): remove macOS tests and streamline platform workflows (#3792)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962/job/122173254534"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962/job/122173254587"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962/job/122173254629"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962/job/122173254735"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962/job/122173254742"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40499475962/job/122173254782"
+      }
+    ]
+  },
+  {
     "commitSha": "635b34fe7e62f6aca0969aaaf9c84d25e3f41f4f",
     "commitTimestamp": "2026-10-27T07:38:43Z",
     "commitMessage": "chore(deps): update dependency typedoc-plugin-markdown to v4.14.1 (#3791)",
