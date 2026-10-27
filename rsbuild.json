@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e5f3a8cd67a10e6fe0ea7cfb0c4997267265cf83",
+    "commitTimestamp": "2026-10-27T04:35:26Z",
+    "commitMessage": "fix(dev): wait for full builds before downstream middleware (#8734)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433664"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433733"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433747"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433752"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433780"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433794"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013433960"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40450994272/job/122013434166"
+      }
+    ]
+  },
+  {
     "commitSha": "1c5419ae73be1fed5af620d3189a58a4ceb07ae8",
     "commitTimestamp": "2026-10-27T02:29:35Z",
     "commitMessage": "fix(types): preserve merged environment config assignability (#8737)",
