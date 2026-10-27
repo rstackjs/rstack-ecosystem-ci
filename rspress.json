@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b7cd2c13da904c1be46aba81228358e0141d8622",
+    "commitTimestamp": "2026-10-27T03:55:55Z",
+    "commitMessage": "fix(plugin-preview): improve preview state toggling and add Tamil locale 🌐 (#3761)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999/job/122002161847"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999/job/122002161870"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999/job/122002161888"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999/job/122002161906"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999/job/122002161956"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40447500999/job/122002162044"
+      }
+    ]
+  },
+  {
     "commitSha": "ab1b6d4ae8e88f4157384f4642115897df3e5a2c",
     "commitTimestamp": "2026-10-26T11:40:08Z",
     "commitMessage": "fix(theme): maintain package manager icons as built-in icons (#3785)",
