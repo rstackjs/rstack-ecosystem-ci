@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8632708234a32039acee00184b188b4d2e9950ee",
+    "commitTimestamp": "2026-10-27T12:50:04Z",
+    "commitMessage": "refactor(plugin-api-docgen): use shared i18n source (#3787)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472/job/122198597521"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472/job/122198597737"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472/job/122198597746"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472/job/122198597752"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472/job/122198597787"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506958472/job/122198597790"
+      }
+    ]
+  },
+  {
     "commitSha": "8db2206ab2551123f746971af8b023541e8f680d",
     "commitTimestamp": "2026-10-27T12:49:19Z",
     "commitMessage": "refactor(core/runtime): implement <BrowserOnly> with React browser() API  (#3708)",
