@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8db2206ab2551123f746971af8b023541e8f680d",
+    "commitTimestamp": "2026-10-27T12:49:19Z",
+    "commitMessage": "refactor(core/runtime): implement <BrowserOnly> with React browser() API  (#3708)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375/job/122198248721"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375/job/122198248723"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375/job/122198248767"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375/job/122198248784"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375/job/122198248867"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40506853375/job/122198249587"
+      }
+    ]
+  },
+  {
     "commitSha": "b68cd478b0ccfeca5c38e6c3cae5abb7c6cfb4e2",
     "commitTimestamp": "2026-10-27T11:52:33Z",
     "commitMessage": "chore(ci): remove macOS tests and streamline platform workflows (#3792)",
