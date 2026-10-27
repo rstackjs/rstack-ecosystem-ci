@@ -58,7 +58,7 @@ runs:
       working-directory: workspace/rslint
       env:
         # Limit concurrent Go compiler processes to reduce peak disk usage.
-        GOFLAGS: -p=2
+        GOFLAGS: -p=4
       run: |
         set -euo pipefail
         pnpm install --frozen-lockfile
