@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b87415a65ed4836bf6e2439e81fe4c73f239d6ff",
+    "commitTimestamp": "2026-10-27T08:16:46Z",
+    "commitMessage": "fix: clean up stale assets in dev memory filesystem (#8739)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514503"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514529"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514661"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514684"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514699"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514702"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514724"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40472437066/job/122082514727"
+      }
+    ]
+  },
+  {
     "commitSha": "8af5eaa81a0c087692aa86f0cbcf06ad0ae33a57",
     "commitTimestamp": "2026-10-27T07:59:23Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.3.0-rc.0 (#8740)",
