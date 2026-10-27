@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "5e7050355da9041c5bdeb83f3e337d22b27938ee",
+    "commitTimestamp": "2026-10-27T07:39:06Z",
+    "commitMessage": "perf(core): replace Babel code frames with a lightweight formatter (#1990)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069958789"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959004"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959087"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959097"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959103"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959106"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959127"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40468602575/job/122069959259"
+      }
+    ]
+  },
+  {
     "commitSha": "ec030bef77e8f4963d8cd05fdeb4cd18d537e343",
     "commitTimestamp": "2026-10-27T03:00:51Z",
     "commitMessage": "fix(core): only escape `:` and `,` in GitHub Actions annotation properties (#1985)",
