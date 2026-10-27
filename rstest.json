@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ec030bef77e8f4963d8cd05fdeb4cd18d537e343",
+    "commitTimestamp": "2026-10-27T03:00:51Z",
+    "commitMessage": "fix(core): only escape `:` and `,` in GitHub Actions annotation properties (#1985)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603469"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603519"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603568"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603585"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603610"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603616"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603644"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40442098872/job/121984603764"
+      }
+    ]
+  },
+  {
     "commitSha": "481f8782a1fd45f17104212b30210c3d5a46f71b",
     "commitTimestamp": "2026-10-26T09:58:43Z",
     "commitMessage": "perf(core): enable automatic prebundling for happy-dom 21 (#1988)",
