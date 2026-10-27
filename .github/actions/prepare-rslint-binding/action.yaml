@@ -56,8 +56,12 @@ runs:
     - name: Build Rslint native packages
       shell: bash
       working-directory: workspace/rslint
+      env:
+        # Ubuntu 26.04 mounts /tmp as a quota-limited tmpfs.
+        GOTMPDIR: ${{ runner.temp }}/rslint-go
       run: |
         set -euo pipefail
+        mkdir -p "$GOTMPDIR"
         pnpm install --frozen-lockfile
         pnpm --filter @rslint/native run build
         pnpm --filter @rslint/core run build:bin
