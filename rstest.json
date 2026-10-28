@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ed9c6959ff292cc2d4990756dfb41eb7a5c09b34",
+    "commitTimestamp": "2026-10-28T12:27:31Z",
+    "commitMessage": "fix(core): select related tests for loader-declared build inputs (#2010)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815219878"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815219918"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815219945"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815219978"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815219994"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815220178"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815220199"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40687988504/job/122815220303"
+      }
+    ]
+  },
+  {
     "commitSha": "3da5371f9f729cf4cb3ae90d2b9c16da834bbd7b",
     "commitTimestamp": "2026-10-28T08:38:10Z",
     "commitMessage": "fix(core): warn when related test selection cannot analyze failed test files (#2000)",
