@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4af9cda2d9b23b65d4d88ecf5480ff2c828fb3de",
+    "commitTimestamp": "2026-10-28T08:50:55Z",
+    "commitMessage": "fix(e2e): fix false positives and preview server cleanup (#3802)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041/job/122719688902"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041/job/122719688943"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041/job/122719688956"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041/job/122719688986"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041/job/122719688995"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40659800041/job/122719689125"
+      }
+    ]
+  },
+  {
     "commitSha": "dccf935cb6b25cc327b945b7010361f14eb2f886",
     "commitTimestamp": "2026-10-28T08:29:26Z",
     "commitMessage": "refactor(runtime/route): add scroll restoration (#3790)",
