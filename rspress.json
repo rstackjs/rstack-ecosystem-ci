@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dccf935cb6b25cc327b945b7010361f14eb2f886",
+    "commitTimestamp": "2026-10-28T08:29:26Z",
+    "commitMessage": "refactor(runtime/route): add scroll restoration (#3790)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283/job/122711033552"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283/job/122711033608"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283/job/122711033671"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283/job/122711033683"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283/job/122711033684"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40657199283/job/122711033733"
+      }
+    ]
+  },
+  {
     "commitSha": "57b3b0c1c2a501fd996589bc8de7fcbc3adb7392",
     "commitTimestamp": "2026-10-28T07:56:51Z",
     "commitMessage": "fix(theme/CdnTabs): add syntax highlighting and CDN logos (#3800)",
