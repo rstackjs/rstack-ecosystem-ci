@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "62898833931963ab4e6e1cf2f25dc47b7f445e8d",
+    "commitTimestamp": "2026-10-28T07:45:58Z",
+    "commitMessage": "feat(core): add sequence.hooks option (#2007)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699543"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699577"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699595"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699606"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699619"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699621"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699715"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652209026/job/122694699720"
+      }
+    ]
+  },
+  {
     "commitSha": "9c0c320d149840835bc1ee10d49528325e8f6312",
     "commitTimestamp": "2026-10-28T03:49:07Z",
     "commitMessage": "fix(core): match negated `--project` names exactly (#1996)",
