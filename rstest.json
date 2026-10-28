@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "3da5371f9f729cf4cb3ae90d2b9c16da834bbd7b",
+    "commitTimestamp": "2026-10-28T08:38:10Z",
+    "commitMessage": "fix(core): warn when related test selection cannot analyze failed test files (#2000)",
+    "author": {
+      "name": "Mohammad Khodagholi",
+      "email": "mokhodagholi@gmail.com",
+      "login": "mokhodagholi"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456348"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456368"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456395"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456396"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456411"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456427"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456467"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40658236558/job/122714456559"
+      }
+    ]
+  },
+  {
     "commitSha": "62898833931963ab4e6e1cf2f25dc47b7f445e8d",
     "commitTimestamp": "2026-10-28T07:45:58Z",
     "commitMessage": "feat(core): add sequence.hooks option (#2007)",
