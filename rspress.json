@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "3a514c58f2b445b4ccd4fdd19be603091f2bfed1",
+    "commitTimestamp": "2026-10-28T06:20:10Z",
+    "commitMessage": "docs: defer Google Analytics loading (#3796)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953/job/122666136965"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953/job/122666136977"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953/job/122666136991"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953/job/122666137027"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953/job/122666137039"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40643274953/job/122666137136"
+      }
+    ]
+  },
+  {
     "commitSha": "8632708234a32039acee00184b188b4d2e9950ee",
     "commitTimestamp": "2026-10-27T12:50:04Z",
     "commitMessage": "refactor(plugin-api-docgen): use shared i18n source (#3787)",
