@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "57b3b0c1c2a501fd996589bc8de7fcbc3adb7392",
+    "commitTimestamp": "2026-10-28T07:56:51Z",
+    "commitMessage": "fix(theme/CdnTabs): add syntax highlighting and CDN logos (#3800)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781/job/122698650184"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781/job/122698650413"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781/job/122698650453"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781/job/122698650461"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781/job/122698650575"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40653418781/job/122698650724"
+      }
+    ]
+  },
+  {
     "commitSha": "50f408c3a39232c8746e72088668fbed38c84d87",
     "commitTimestamp": "2026-10-28T07:46:27Z",
     "commitMessage": "fix(theme/Toc): sync dynamic headings across page navigation (#3799)",
