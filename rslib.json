@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "1faa990ad59757d713c25bb7842e57e863d3ba0c",
+    "commitTimestamp": "2026-10-28T05:54:12Z",
+    "commitMessage": "chore(plugin-dts): remove redundant types condition from exports (#1974)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886773"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886786"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886827"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886839"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886890"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886911"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657886919"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40640693396/job/122657887039"
+      }
+    ]
+  },
+  {
     "commitSha": "e713d60c6c05dbaccb46a66c596d468b1a655cc9",
     "commitTimestamp": "2026-10-27T12:26:36Z",
     "commitMessage": "fix(shims): preserve directives when injecting ESM require shim (#1975)",
