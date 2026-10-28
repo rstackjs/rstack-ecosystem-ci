@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4e245711e2e14001d3e761f0f70dee551c27fcb9",
+    "commitTimestamp": "2026-10-28T10:41:07Z",
+    "commitMessage": "fix(dts): support `.mts` and `.cts` entries in bundle mode (#1976)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060159"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060162"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060169"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060215"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060218"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060241"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060280"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40674121670/job/122768060494"
+      }
+    ]
+  },
+  {
     "commitSha": "1faa990ad59757d713c25bb7842e57e863d3ba0c",
     "commitTimestamp": "2026-10-28T05:54:12Z",
     "commitMessage": "chore(plugin-dts): remove redundant types condition from exports (#1974)",
