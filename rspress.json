@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "81b2e1d0fe58bc9040772651e75ecbcd936ff9fa",
+    "commitTimestamp": "2026-10-28T09:44:42Z",
+    "commitMessage": "feat(i18n): complete Tamil translations (#3788)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373/job/122742889095"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373/job/122742889320"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373/job/122742889359"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373/job/122742889382"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373/job/122742889387"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40666696373/job/122742889514"
+      }
+    ]
+  },
+  {
     "commitSha": "492808542195e7c51d4913e4c099683bdcc4027a",
     "commitTimestamp": "2026-10-28T09:44:05Z",
     "commitMessage": "chore(release): bump version to 2.1.0-beta.2 (#3803)",
