@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "50f408c3a39232c8746e72088668fbed38c84d87",
+    "commitTimestamp": "2026-10-28T07:46:27Z",
+    "commitMessage": "fix(theme/Toc): sync dynamic headings across page navigation (#3799)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380/job/122694942063"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380/job/122694942178"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380/job/122694942231"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380/job/122694942239"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380/job/122694942260"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40652284380/job/122694942262"
+      }
+    ]
+  },
+  {
     "commitSha": "3a514c58f2b445b4ccd4fdd19be603091f2bfed1",
     "commitTimestamp": "2026-10-28T06:20:10Z",
     "commitMessage": "docs: defer Google Analytics loading (#3796)",
