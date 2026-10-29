@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "aae2277a763341055a68487d2aac1bbe7f7db039",
+    "commitTimestamp": "2026-10-29T09:28:45Z",
+    "commitMessage": "feat(deps): upgrade @rsbuild/core to 2.3.0 (#1984)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778542"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778577"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778599"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778603"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778651"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778744"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778776"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40849985153/job/123366778871"
+      }
+    ]
+  },
+  {
     "commitSha": "eb97c1fc0119a913524377103bcd334f5ecd89e2",
     "commitTimestamp": "2026-10-29T09:12:50Z",
     "commitMessage": "test: cover text imports for assets, CSS, and declarations (#1982)",
