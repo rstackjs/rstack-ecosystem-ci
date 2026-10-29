@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7a26bfb6646c8b23146113b64e8ec2649234a8bc",
+    "commitTimestamp": "2026-10-29T07:08:51Z",
+    "commitMessage": "chore(vscode): remove the retired standalone extension source (#2013)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088193"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088224"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088225"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088241"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088252"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088256"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088276"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40833579139/job/123313088313"
+      }
+    ]
+  },
+  {
     "commitSha": "ed9c6959ff292cc2d4990756dfb41eb7a5c09b34",
     "commitTimestamp": "2026-10-28T12:27:31Z",
     "commitMessage": "fix(core): select related tests for loader-declared build inputs (#2010)",
