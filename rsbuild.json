@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "5f01873c5c4522e178f36bfcf49fc7cf7050b359",
+    "commitTimestamp": "2026-10-29T08:44:05Z",
+    "commitMessage": "release: v2.3.0 (#8755)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499264"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499284"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499345"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499355"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499386"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499397"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499481"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/40845086052/job/123350499482"
+      }
+    ]
+  },
+  {
     "commitSha": "17f699032ef1d18d8c2ca64737261e3952f2c880",
     "commitTimestamp": "2026-10-29T08:25:19Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.3.0 (#8754)",
