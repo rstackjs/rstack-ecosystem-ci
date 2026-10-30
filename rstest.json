@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7d6aa2f86607337ecbcd910e9a9f22d7bfdd529f",
+    "commitTimestamp": "2026-10-30T04:47:44Z",
+    "commitMessage": "perf(core): avoid awaiting case result notifications (#2016)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419048"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419050"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419072"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419107"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419122"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419131"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419204"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41004881592/job/123897419223"
+      }
+    ]
+  },
+  {
     "commitSha": "7a26bfb6646c8b23146113b64e8ec2649234a8bc",
     "commitTimestamp": "2026-10-29T07:08:51Z",
     "commitMessage": "chore(vscode): remove the retired standalone extension source (#2013)",
