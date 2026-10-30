@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "19610c465051a7a4f702ee15ffb6deac137adcad",
+    "commitTimestamp": "2026-10-30T08:19:38Z",
+    "commitMessage": "chore(deps): update dependency @rslib/core to ~1.0.5 (#2019)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214018"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214058"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214063"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214135"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214137"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214173"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214195"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41025705828/job/123963214227"
+      }
+    ]
+  },
+  {
     "commitSha": "5adf84b895a3f9be78fb28b5a70330dc8fdb958f",
     "commitTimestamp": "2026-10-30T08:00:54Z",
     "commitMessage": "fix(core): support source-relative import.meta.resolve (#1987)",
