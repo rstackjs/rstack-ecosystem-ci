@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4789529e5314cf27f36519a3da679dd670257600",
+    "commitTimestamp": "2026-10-30T06:55:32Z",
+    "commitMessage": "perf(plugin-playground): use SWC Next for import parsing (#3810)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504/job/123937647904"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504/job/123937647938"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504/job/123937647946"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504/job/123937647955"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504/job/123937647973"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41017693504/job/123937647991"
+      }
+    ]
+  },
+  {
     "commitSha": "6fb7622ed64ef37b7de02dc15c08b07bd6db7018",
     "commitTimestamp": "2026-10-30T06:42:21Z",
     "commitMessage": "test(e2e): add supplementary Midscene coverage (#3768)",
