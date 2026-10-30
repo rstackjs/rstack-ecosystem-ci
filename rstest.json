@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "f2b4bf0f9bda7973015363c33b9d68dac3c80379",
+    "commitTimestamp": "2026-10-30T06:17:48Z",
+    "commitMessage": "chore(deps): migrate V8 coverage to SWC Next 0.4.1 (#1734)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800246"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800267"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800270"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800299"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800305"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800352"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800368"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41013292480/job/123923800390"
+      }
+    ]
+  },
+  {
     "commitSha": "7d6aa2f86607337ecbcd910e9a9f22d7bfdd529f",
     "commitTimestamp": "2026-10-30T04:47:44Z",
     "commitMessage": "perf(core): avoid awaiting case result notifications (#2016)",
