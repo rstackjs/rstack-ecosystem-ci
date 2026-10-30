@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6fb7622ed64ef37b7de02dc15c08b07bd6db7018",
+    "commitTimestamp": "2026-10-30T06:42:21Z",
+    "commitMessage": "test(e2e): add supplementary Midscene coverage (#3768)",
+    "author": {
+      "name": "Leyang",
+      "email": "quanruzhuoxiu@gmail.com",
+      "login": "quanru"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615/job/123935380693"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615/job/123935380740"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615/job/123935380776"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615/job/123935380842"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615/job/123935380897"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41016966615/job/123935380907"
+      }
+    ]
+  },
+  {
     "commitSha": "1f2b6b099c5f7938953ffd9f3548bdfe0ff07375",
     "commitTimestamp": "2026-10-30T03:34:49Z",
     "commitMessage": "docs: polish homepage feature visuals (#3807)",
