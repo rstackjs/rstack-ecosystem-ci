@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "9c8a119f4a4b448b74414ab54509aa4e2798df58",
+    "commitTimestamp": "2026-11-02T06:33:05Z",
+    "commitMessage": "chore(deps): upgrade Node.js to v26 (#8824)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555584"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555616"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555639"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555651"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555694"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555736"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555788"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131555852"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41400655503/job/125131556097"
+      }
+    ]
+  },
+  {
     "commitSha": "603a292a3f669d14ff783686fee4b0ef79d0985d",
     "commitTimestamp": "2026-11-02T05:36:12Z",
     "commitMessage": "chore(deps): update dependency hono to ^4.13.16 (#8822)",
