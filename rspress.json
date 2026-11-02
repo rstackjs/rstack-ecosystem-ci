@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "662d4f1e5b6f21e5b50051d23b50485dded317f9",
+    "commitTimestamp": "2026-11-02T09:58:45Z",
+    "commitMessage": "chore(deps): update dependency @microsoft/api-extractor to ^7.60.1 (#3819)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508/job/125213770852"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508/job/125213770882"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508/job/125213770893"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508/job/125213770938"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508/job/125213771040"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41426345508/job/125213771119"
+      }
+    ]
+  },
+  {
     "commitSha": "49efce48d8ee928c0c22ec757c1fb5538781fe9d",
     "commitTimestamp": "2026-11-02T09:57:44Z",
     "commitMessage": "chore(deps): update github-actions (#3816)",
