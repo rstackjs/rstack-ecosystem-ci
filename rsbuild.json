@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "c97ccc680f89cd960f850fc9792d871f3a52d8ef",
+    "commitTimestamp": "2026-11-02T10:42:02Z",
+    "commitMessage": "test: cover NODE_ENV property access forms (#8830)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053124"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053261"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053393"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053517"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053518"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053536"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053544"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053616"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41430939099/job/125229053624"
+      }
+    ]
+  },
+  {
     "commitSha": "5e377bfa9cb5ed2ec3c681e9735ab5720584c258",
     "commitTimestamp": "2026-11-02T09:41:17Z",
     "commitMessage": "chore(lint): re-enable import rules (#8829)",
