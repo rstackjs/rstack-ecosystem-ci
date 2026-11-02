@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "64284dfb77b6226891f82c89990722db0bcba309",
+    "commitTimestamp": "2026-11-02T11:41:09Z",
+    "commitMessage": "chore(release): bump version to 2.1.0 (#3812)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282/job/125255286097"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282/job/125255286120"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282/job/125255286228"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282/job/125255286241"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282/job/125255286264"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41438824282/job/125255286344"
+      }
+    ]
+  },
+  {
     "commitSha": "37b993e88c5269c2d3995403b5169996824bdd8e",
     "commitTimestamp": "2026-11-02T10:29:10Z",
     "commitMessage": "fix(shared): update bundled js-yaml to 3.15.2 (#3815)",
