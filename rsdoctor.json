@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "30970783e6a3affe159e57054c58ea7f4bec5d53",
+    "commitTimestamp": "2026-11-02T09:53:20Z",
+    "commitMessage": "chore(test): run package tests as Rstest projects (#2139)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41425805061",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41425805061/job/125212010093"
+      }
+    ]
+  },
+  {
     "commitSha": "5eecb20ad35429b187dce0a6ca9dca498888483f",
     "commitTimestamp": "2026-11-02T03:16:37Z",
     "commitMessage": "test(e2e): replace visual checks with native Midscene coverage (#2118)",
