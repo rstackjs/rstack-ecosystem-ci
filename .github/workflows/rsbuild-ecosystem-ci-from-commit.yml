@@ -28,6 +28,7 @@ on:
           - rstest
           - rspress
           - plugins
+          - rsbuild-plugin-cloudflare
           - modernjs
           - examples
           - rstack-cli
@@ -100,6 +101,8 @@ jobs:
           - suite: rspress
             os: ubuntu-latest
           - suite: plugins
+            os: ubuntu-latest
+          - suite: rsbuild-plugin-cloudflare
             os: ubuntu-latest
           - suite: modernjs
             os: ubuntu-latest
