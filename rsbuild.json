@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "dcdcbfd20bfa738e16097700f2bbb8aa097c7eff",
+    "commitTimestamp": "2026-11-02T09:11:09Z",
+    "commitMessage": "chore: run unit tests as Rstest projects (#8828)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188626843"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627020"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627061"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627086"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627121"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627135"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627218"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627231"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41418660333/job/125188627319"
+      }
+    ]
+  },
+  {
     "commitSha": "395e5c242199200f9ae668182367e2bc8a383f1d",
     "commitTimestamp": "2026-11-02T07:47:53Z",
     "commitMessage": "test: cover plural CSS Modules filenames (#8827)",
