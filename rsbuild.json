@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "982f805bafed14398469520c91b67926d4ff0774",
+    "commitTimestamp": "2026-11-02T05:35:57Z",
+    "commitMessage": "chore(deps): update dependency preact to ^11.1.1 (#8823)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299413"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299424"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299454"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299461"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299504"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299565"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299568"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114299594"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41394997571/job/125114300099"
+      }
+    ]
+  },
+  {
     "commitSha": "1dad1c429c3581cb890690ba02c2f17d5f21547e",
     "commitTimestamp": "2026-11-02T02:41:28Z",
     "commitMessage": "chore(deps): update dependency octane to ^0.16.6 (#8821)",
