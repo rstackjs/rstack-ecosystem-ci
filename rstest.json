@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "9e68e41c72970b2e162a9e2758d613491815ca4f",
+    "commitTimestamp": "2026-11-02T08:39:54Z",
+    "commitMessage": "feat(core): support parallel lifecycle hooks (#2026)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175745843"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175745901"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175745912"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175745932"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175745988"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175746072"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175746147"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41414736635/job/125175746196"
+      }
+    ]
+  },
+  {
     "commitSha": "5333bbabd0ceb0d74e926d5f2df183166255d802",
     "commitTimestamp": "2026-11-02T07:14:02Z",
     "commitMessage": "chore(deps): update dependency @rslint/core to ^0.10.0 (#2024)",
