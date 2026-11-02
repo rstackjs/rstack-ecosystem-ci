@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "00d6ddde339f5bbf8ef3689567534eb351e8bc57",
+    "commitTimestamp": "2026-11-02T03:43:32Z",
+    "commitMessage": "chore(deps): update dependency ora to v10 (#1992)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816762"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816766"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816789"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816807"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816808"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816817"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816824"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41385981127/job/125086816836"
+      }
+    ]
+  },
+  {
     "commitSha": "c1488b1d26cb74df8ab8534d8cec6dab4de9cda2",
     "commitTimestamp": "2026-10-29T10:47:04Z",
     "commitMessage": "chore(deps): upgrade local Rslib to 1.0.5 (#1987)",
