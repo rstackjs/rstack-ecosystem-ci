@@ -23,6 +23,7 @@ Workflows are scheduled to run automatically every day
 - run `pnpm test --stack rspack` to execute all Rspack suites (available stacks: `rsbuild`, `rspack`, `rstest`, `rslib`, `rsdoctor`)
 - run `pnpm test --stack rslib` to execute all Rslib suites
 - run `pnpm test --stack rsbuild plugins` to target a specific suite
+- run `pnpm test --stack rsbuild rsbuild-plugin-cloudflare` to build the Cloudflare plugin and run its own tests; this suite first prepares its pinned workers-sdk submodule
 - or invoke `tsx ecosystem-ci.ts` directly for advanced commands such as `build`, `run-suites`, or `bisect`
 
 The version selection flags apply to the chosen stack:
