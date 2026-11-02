@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d2691795927d56c16dc68e26050d27ff0d034d33",
+    "commitTimestamp": "2026-11-02T03:04:12Z",
+    "commitMessage": "test(e2e): stabilize mobile navigation and inline preview checks (#3813)",
+    "author": {
+      "name": "Leyang",
+      "email": "quanruzhuoxiu@gmail.com",
+      "login": "quanru"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656/job/125075818228"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656/job/125075818238"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656/job/125075818240"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656/job/125075818248"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656/job/125075818357"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382393656/job/125075818496"
+      }
+    ]
+  },
+  {
     "commitSha": "4789529e5314cf27f36519a3da679dd670257600",
     "commitTimestamp": "2026-10-30T06:55:32Z",
     "commitMessage": "perf(plugin-playground): use SWC Next for import parsing (#3810)",
