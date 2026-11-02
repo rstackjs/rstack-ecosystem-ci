@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f823d9ccbd27d093477e811ae05f00078990ddca",
+    "commitTimestamp": "2026-11-02T03:05:03Z",
+    "commitMessage": "chore(deps): update github-actions (major) (#3817)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385/job/125075851023"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385/job/125075851053"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385/job/125075851119"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385/job/125075851158"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385/job/125075851202"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41382404385/job/125075851218"
+      }
+    ]
+  },
+  {
     "commitSha": "d2691795927d56c16dc68e26050d27ff0d034d33",
     "commitTimestamp": "2026-11-02T03:04:12Z",
     "commitMessage": "test(e2e): stabilize mobile navigation and inline preview checks (#3813)",
