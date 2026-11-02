@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8be0b8f59a6a680c1c9b252f9ef87b98fcbdc762",
+    "commitTimestamp": "2026-11-02T07:35:37Z",
+    "commitMessage": "fix: respect explicit output.legalComments configuration (#1994)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121641"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121654"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121712"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121784"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121804"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121876"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121882"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41407618459/job/125153121905"
+      }
+    ]
+  },
+  {
     "commitSha": "4b3cce8c85ceb037a59f8e8c2d306b260cca11d1",
     "commitTimestamp": "2026-11-02T04:53:34Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#1990)",
