@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "603a292a3f669d14ff783686fee4b0ef79d0985d",
+    "commitTimestamp": "2026-11-02T05:36:12Z",
+    "commitMessage": "chore(deps): update dependency hono to ^4.13.16 (#8822)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374452"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374557"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374580"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374604"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374606"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374665"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374692"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374751"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41395023439/job/125114374901"
+      }
+    ]
+  },
+  {
     "commitSha": "982f805bafed14398469520c91b67926d4ff0774",
     "commitTimestamp": "2026-11-02T05:35:57Z",
     "commitMessage": "chore(deps): update dependency preact to ^11.1.1 (#8823)",
