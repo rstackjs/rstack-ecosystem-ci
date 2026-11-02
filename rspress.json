@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "37b993e88c5269c2d3995403b5169996824bdd8e",
+    "commitTimestamp": "2026-11-02T10:29:10Z",
+    "commitMessage": "fix(shared): update bundled js-yaml to 3.15.2 (#3815)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431/job/125223354614"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431/job/125223354739"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431/job/125223354749"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431/job/125223354835"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431/job/125223354871"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41429233431/job/125223354917"
+      }
+    ]
+  },
+  {
     "commitSha": "662d4f1e5b6f21e5b50051d23b50485dded317f9",
     "commitTimestamp": "2026-11-02T09:58:45Z",
     "commitMessage": "chore(deps): update dependency @microsoft/api-extractor to ^7.60.1 (#3819)",
