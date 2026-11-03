@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "57dbf209e92b406e928ad00dfa1665c8594b6766",
+    "commitTimestamp": "2026-11-03T08:59:58Z",
+    "commitMessage": "fix(theme): complete appearance transition clipping and cleanup (#3821)",
+    "author": {
+      "name": "Guangyu Du",
+      "email": "23237626+Dugyu@users.noreply.github.com",
+      "login": "Dugyu"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170/job/125820930959"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170/job/125820931012"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170/job/125820931210"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170/job/125820931235"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170/job/125820931307"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41607505170/job/125820931456"
+      }
+    ]
+  },
+  {
     "commitSha": "2c283b028ce54783a4bb458eb9fd3b9996b31dc2",
     "commitTimestamp": "2026-11-03T05:42:25Z",
     "commitMessage": "docs(blog): add Rspress 2.1 release banner (#3820)",
