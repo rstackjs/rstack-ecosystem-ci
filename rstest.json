@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "21898a134cccf60e61aaa9bb2200fdd1659bfeab",
+    "commitTimestamp": "2026-11-03T13:42:40Z",
+    "commitMessage": "chore: migrate Rslint to Rstack CLI (#2033)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954164704"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954164725"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954164801"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954165026"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954165202"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954165204"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954165395"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41646798839/job/125954165471"
+      }
+    ]
+  },
+  {
     "commitSha": "427a6bebea2192d1849ed795d7b3be6ff8b91e5c",
     "commitTimestamp": "2026-11-03T12:44:30Z",
     "commitMessage": "release: 0.12.6 (#2032)",
