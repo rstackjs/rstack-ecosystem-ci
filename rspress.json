@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "e1e07f71bafad189b5bdaf9401e817369f81526c",
+    "commitTimestamp": "2026-11-04T09:36:02Z",
+    "commitMessage": "fix(theme/Prompt): stack and right-align mobile actions (#3827)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884/job/126502864513"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884/job/126502864655"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884/job/126502864909"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884/job/126502865210"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884/job/126502870720"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808915884/job/126502923014"
+      }
+    ]
+  },
+  {
     "commitSha": "6f87abf1d323ced2883261642561a3fc88fbd278",
     "commitTimestamp": "2026-11-04T03:36:39Z",
     "commitMessage": "ci(e2e): add Midscene README and result summary badges (#3824)",
