@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "26c0ec6f9ebb9cbac6bec3f4ea584c3c9907319b",
+    "commitTimestamp": "2026-11-04T09:33:25Z",
+    "commitMessage": "chore: migrate docs commands to Rstack CLI (#2039)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508439"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508465"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508480"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508525"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508531"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508605"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508627"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41808517247/job/126501508677"
+      }
+    ]
+  },
+  {
     "commitSha": "f01c8169fd5d1b6f377546979607a60e5da5d2b2",
     "commitTimestamp": "2026-11-04T08:49:08Z",
     "commitMessage": "chore: migrate Rslib builds to Rstack CLI (#2036)",
