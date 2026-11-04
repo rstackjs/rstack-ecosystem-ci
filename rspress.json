@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d2c4a9095fa58d789428c0cd2be24a704a7788e2",
+    "commitTimestamp": "2026-11-04T11:33:55Z",
+    "commitMessage": "fix(webmcp): simplify built-in tool names `rspress-` prefix (#3828)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827/job/126547162351"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827/job/126547162435"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827/job/126547162443"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827/job/126547162536"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827/job/126547162543"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41821996827/job/126547162701"
+      }
+    ]
+  },
+  {
     "commitSha": "e1e07f71bafad189b5bdaf9401e817369f81526c",
     "commitTimestamp": "2026-11-04T09:36:02Z",
     "commitMessage": "fix(theme/Prompt): stack and right-align mobile actions (#3827)",
