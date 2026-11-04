@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "f01c8169fd5d1b6f377546979607a60e5da5d2b2",
+    "commitTimestamp": "2026-11-04T08:49:08Z",
+    "commitMessage": "chore: migrate Rslib builds to Rstack CLI (#2036)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053011"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053092"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053136"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053192"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053228"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053253"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053272"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41802690005/job/126482053366"
+      }
+    ]
+  },
+  {
     "commitSha": "fd0dc96384709dbd7ec89ce9e651fbfb837b975f",
     "commitTimestamp": "2026-11-04T07:24:31Z",
     "commitMessage": "chore: migrate Lefthook to Rstack CLI (#2035)",
