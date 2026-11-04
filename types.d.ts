@@ -59,7 +59,9 @@ export interface RunOptions {
   suiteCommit?: string;
 }
 
-export type Task = string | (() => Promise<any>);
+// Function tasks receive the checkout `runInRepo` resolved, so a task can work
+// inside the consumer without re-deriving the directory naming rule.
+export type Task = string | ((context: { dir: string }) => Promise<any>);
 
 export interface CommandOptions {
   stack?: Stack;

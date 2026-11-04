@@ -168,11 +168,16 @@ export const execa = async (cmd: string, options?: ExecaOptions) => {
     console.log(`${cwd} $> ${cmd}`);
   }
 
+  // `options.env` would replace the environment `setupEnvironment` built
+  // (`CI`, `ECOSYSTEM_CI`, `NODE_OPTIONS`, …) rather than merge into it —
+  // execa's `extendEnv` only re-adds `process.env`. Fold caller additions into
+  // the snapshot; every other option keeps its precedence over the defaults.
+  const { env: extraEnv, ...rest } = options ?? {};
   const proc = execaCommand(cmd, {
-    env,
+    env: { ...env, ...extraEnv },
     cwd,
     stdio: 'pipe',
-    ...options,
+    ...rest,
   });
   proc.stdin?.pipe(process.stdin);
   proc.stdout?.pipe(process.stdout);
@@ -323,6 +328,7 @@ export async function setupRepo(options: RepoOptions) {
 function toCommand(
   task: Task | Task[] | void,
   agent: Agent,
+  dir: string,
 ): ((scripts: any) => Promise<any>) | void {
   return async (scripts: any) => {
     const tasks = Array.isArray(task) ? task : [task];
@@ -345,7 +351,7 @@ function toCommand(
           await $`${task}`;
         }
       } else if (typeof task === 'function') {
-        await task();
+        await task({ dir });
       } else {
         throw new Error(
           `invalid task, expected string or function but got ${typeof task}: ${task}`,
@@ -402,7 +408,7 @@ export async function discoverMonorepoPackages(
   });
 }
 
-async function getMonorepoPackages(stack: MonorepoStack) {
+export async function getMonorepoPackages(stack: MonorepoStack) {
   const cached = monorepoPackagesCache[stack];
   if (cached) {
     return cached;
@@ -679,12 +685,12 @@ export async function runInRepo(options: RunOptions & RepoOptions) {
       );
     }
     const agent = options.agent;
-    const beforeInstallCommand = toCommand(beforeInstall, agent);
-    const afterInstallCommand = toCommand(afterInstall, agent);
-    const beforeBuildCommand = toCommand(beforeBuild, agent);
-    const beforeTestCommand = toCommand(beforeTest, agent);
-    const buildCommand = toCommand(build, agent);
-    const testCommand = toCommand(test, agent);
+    const beforeInstallCommand = toCommand(beforeInstall, agent, dir);
+    const afterInstallCommand = toCommand(afterInstall, agent, dir);
+    const beforeBuildCommand = toCommand(beforeBuild, agent, dir);
+    const beforeTestCommand = toCommand(beforeTest, agent, dir);
+    const buildCommand = toCommand(build, agent, dir);
+    const testCommand = toCommand(test, agent, dir);
 
     const pkgFile = path.join(dir, 'package.json');
     const pkg = JSON.parse(await fs.promises.readFile(pkgFile, 'utf-8'));
