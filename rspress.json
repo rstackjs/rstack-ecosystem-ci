@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "6f87abf1d323ced2883261642561a3fc88fbd278",
+    "commitTimestamp": "2026-11-04T03:36:39Z",
+    "commitMessage": "ci(e2e): add Midscene README and result summary badges (#3824)",
+    "author": {
+      "name": "Leyang",
+      "email": "quanruzhuoxiu@gmail.com",
+      "login": "quanru"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253/job/126371575749"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253/job/126371575766"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253/job/126371575770"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253/job/126371575817"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253/job/126371575851"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41768234253/job/126371575883"
+      }
+    ]
+  },
+  {
     "commitSha": "4657773245ffa0b2042ca742364fb0008a49117d",
     "commitTimestamp": "2026-11-03T11:35:04Z",
     "commitMessage": "fix(theme/SwitchAppearance): avoid flashes during appearance transitions (#3823)",
