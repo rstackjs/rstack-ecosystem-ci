@@ -73,6 +73,7 @@ jobs:
   execute-selected-suite:
     runs-on: ubuntu-latest
     if: "inputs.suite != '-'"
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: ./.github/actions/build-rstest
@@ -115,6 +116,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: execute-all (${{ matrix.suite }})
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: ./.github/actions/build-rstest
