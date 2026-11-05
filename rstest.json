@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "74810e20ee56d4c642fecc3b106322dcef9af508",
+    "commitTimestamp": "2026-11-05T07:05:38Z",
+    "commitMessage": "fix(core): preserve GitHub summary folding for truncated logs (#2044)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316716"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316759"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316797"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316800"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316854"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316855"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316860"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41986793125/job/127109316882"
+      }
+    ]
+  },
+  {
     "commitSha": "163ac681a41b3625c2757d6ea3f5a6d9a9c6d5da",
     "commitTimestamp": "2026-11-05T06:08:10Z",
     "commitMessage": "fix: disable unused live reload outside headed watch (#2043)",
