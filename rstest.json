@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "163ac681a41b3625c2757d6ea3f5a6d9a9c6d5da",
+    "commitTimestamp": "2026-11-05T06:08:10Z",
+    "commitMessage": "fix: disable unused live reload outside headed watch (#2043)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611619"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611628"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611639"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611717"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611749"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611796"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611829"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41978416709/job/127082611940"
+      }
+    ]
+  },
+  {
     "commitSha": "45cba75d5195103ff83a9cf9bf4cf8a110917185",
     "commitTimestamp": "2026-11-05T03:59:27Z",
     "commitMessage": "feat(core): support global test repeats (#2042)",
