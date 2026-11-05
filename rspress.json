@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "9bb5ac852633dea12178da68c7b8b6cf11f04f4c",
+    "commitTimestamp": "2026-11-05T06:15:15Z",
+    "commitMessage": "test(e2e): stabilize Midscene navigation and content checks (#3831)",
+    "author": {
+      "name": "Leyang",
+      "email": "quanruzhuoxiu@gmail.com",
+      "login": "quanru"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548/job/127085189986"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548/job/127085190026"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548/job/127085190088"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548/job/127085190101"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548/job/127085190144"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41979225548/job/127085190152"
+      }
+    ]
+  },
+  {
     "commitSha": "d2c4a9095fa58d789428c0cd2be24a704a7788e2",
     "commitTimestamp": "2026-11-04T11:33:55Z",
     "commitMessage": "fix(webmcp): simplify built-in tool names `rspress-` prefix (#3828)",
