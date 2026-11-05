@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ffc4eb2989c09d911be6c6189c48fa9c6f90637e",
+    "commitTimestamp": "2026-11-05T03:27:15Z",
+    "commitMessage": "feat(core)!: stabilize reporter contract for 1.0 (#1875)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373246"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373529"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373653"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373748"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373786"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373834"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373870"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41961716233/job/127029373891"
+      }
+    ]
+  },
+  {
     "commitSha": "26c0ec6f9ebb9cbac6bec3f4ea584c3c9907319b",
     "commitTimestamp": "2026-11-04T09:33:25Z",
     "commitMessage": "chore: migrate docs commands to Rstack CLI (#2039)",
