@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eca44caa47ab697f06b06460a8b47d6433af03c1",
+    "commitTimestamp": "2026-11-05T07:29:08Z",
+    "commitMessage": "feat(core): enable Shiki notation transformers by default (#3825)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664/job/127113837097"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664/job/127113837287"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664/job/127113837304"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664/job/127113837377"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664/job/127113837395"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/41988186664/job/127113838293"
+      }
+    ]
+  },
+  {
     "commitSha": "9bb5ac852633dea12178da68c7b8b6cf11f04f4c",
     "commitTimestamp": "2026-11-05T06:15:15Z",
     "commitMessage": "test(e2e): stabilize Midscene navigation and content checks (#3831)",
