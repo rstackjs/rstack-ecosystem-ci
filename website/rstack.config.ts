@@ -34,11 +34,6 @@ define.app({
           : path.resolve(import.meta.dirname, './src/data/remote/history.ts'),
     },
   },
-  environments: {
-    // Keep the existing Cloudflare Pages output directory static-only.
-    client: { output: { distPath: { root: 'dist' } } },
-    ssr: { output: { distPath: { root: '.tanstack/server' } } },
-  },
   server: {
     port: 5137,
   },
