@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "2d3cd341c4d710d7f9f45e29472995c8225fcfcf",
+    "commitTimestamp": "2026-11-06T06:35:05Z",
+    "commitMessage": "fix(linter): use runtime budget for plugin source reads (#2509)",
+    "author": {
+      "name": "senze.fan",
+      "email": "151665030@qq.com",
+      "login": "fansenze"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925614"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925623"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925624"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925629"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925633"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925646"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925678"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925691"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925714"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42175380309/job/127762925736"
+      }
+    ]
+  },
+  {
     "commitSha": "0ebbf34fb5c572e305ab669dbdb87ccb444f868f",
     "commitTimestamp": "2026-11-06T05:33:02Z",
     "commitMessage": "fix(import): skip deferred imports in no-namespace (#2504)",
