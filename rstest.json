@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "a091c2b83759573b31b0af3bac1e6bc6bcf9074a",
+    "commitTimestamp": "2026-11-06T06:08:34Z",
+    "commitMessage": "fix(core): keep `each` names working when a `$` path crosses null (#2048)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628019"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628066"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628079"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628095"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628159"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628168"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628251"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42172586311/job/127743628278"
+      }
+    ]
+  },
+  {
     "commitSha": "3ff7b1082461d08e7ddbadb950c863186004ee1c",
     "commitTimestamp": "2026-11-05T09:06:15Z",
     "commitMessage": "perf(core): isolate VM dependencies from native workers (#2046)",
