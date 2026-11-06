@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
-import { useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearch } from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
@@ -45,13 +45,14 @@ const RSTACK_REPOS = [
 
 export default function App() {
   const historySource = history as Record<StackId, EcosystemCommitHistory>;
-  const [searchParams, setSearchParams] = useSearchParams();
+  const search = useSearch({ from: '/' });
+  const navigate = useNavigate({ from: '/' });
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
   const [now, setNow] = useState(() => new Date());
 
-  const selectedStackParam = searchParams.get('stack') as StackId | null;
+  const selectedStackParam = search.stack as StackId | undefined;
   const hasValidStack =
     selectedStackParam != null &&
     STACKS.some((stack) => stack.id === selectedStackParam);
@@ -59,7 +60,7 @@ export default function App() {
     ? selectedStackParam
     : DEFAULT_STACK;
 
-  const selectedSuite = searchParams.get('suite') ?? 'all';
+  const selectedSuite = search.suite ?? 'all';
 
   const historyByStack = useMemo(() => {
     const map = {} as Record<StackId, EcosystemCommitHistory>;
@@ -76,14 +77,17 @@ export default function App() {
 
   useEffect(() => {
     if (!hasValidStack) {
-      const params = new URLSearchParams(searchParams);
-      params.set('stack', DEFAULT_STACK);
-      if ((params.get('suite') ?? 'all') === 'all') {
-        params.delete('suite');
-      }
-      setSearchParams(params, { replace: true });
+      void navigate({
+        search: (prev) => ({
+          ...prev,
+          stack: DEFAULT_STACK,
+          suite: prev.suite === 'all' ? undefined : prev.suite,
+        }),
+        replace: true,
+        resetScroll: false,
+      });
     }
-  }, [hasValidStack, searchParams, setSearchParams]);
+  }, [hasValidStack, navigate]);
 
   useEffect(() => {
     const interval = window.setInterval(() => {
@@ -126,11 +130,12 @@ export default function App() {
       if (nextStack === selectedStack) {
         return;
       }
-      const params = new URLSearchParams(searchParams);
-      params.set('stack', nextStack);
-      setSearchParams(params);
+      void navigate({
+        search: (prev) => ({ ...prev, stack: nextStack }),
+        resetScroll: false,
+      });
     },
-    [searchParams, selectedStack, setSearchParams],
+    [navigate, selectedStack],
   );
 
   const [focusRequest, setFocusRequest] = useState<{
@@ -140,29 +145,27 @@ export default function App() {
 
   const handleRunSelect = useCallback(
     (stack: StackId, sha: string) => {
-      const params = new URLSearchParams(searchParams);
-      params.set('stack', stack);
-      params.delete('suite');
-      setSearchParams(params);
+      void navigate({
+        search: (prev) => ({ ...prev, stack, suite: undefined }),
+        resetScroll: false,
+      });
       setFocusRequest((prev) => ({ sha, nonce: (prev?.nonce ?? 0) + 1 }));
     },
-    [searchParams, setSearchParams],
+    [navigate],
   );
 
   const handleSuiteChange = useCallback(
     (suite: string) => {
-      const params = new URLSearchParams(searchParams);
-      if (!params.get('stack')) {
-        params.set('stack', selectedStack);
-      }
-      if (!suite || suite === 'all') {
-        params.delete('suite');
-      } else {
-        params.set('suite', suite);
-      }
-      setSearchParams(params);
+      void navigate({
+        search: (prev) => ({
+          ...prev,
+          stack: prev.stack || selectedStack,
+          suite: !suite || suite === 'all' ? undefined : suite,
+        }),
+        resetScroll: false,
+      });
     },
-    [searchParams, selectedStack, setSearchParams],
+    [navigate, selectedStack],
   );
 
   const stackEntries = historyByStack[selectedStack] ?? [];

@@ -1,4 +1,4 @@
-/// <reference types="@rsbuild/core/types" />
+/// <reference types="rstack/types" />
 
 export interface EcosystemSuiteResult {
   name: string;
