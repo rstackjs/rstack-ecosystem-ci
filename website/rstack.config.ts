@@ -1,6 +1,7 @@
 // Configuration guide: https://rstack.rs/config
 import path from 'node:path';
 import { pluginReact } from '@rsbuild/plugin-react';
+import { tanstackStart } from '@tanstack/react-start/plugin/rsbuild';
 import { define } from 'rstack';
 
 const dataSource =
@@ -9,11 +10,16 @@ const dataSource =
 const buildTime = new Date().toISOString();
 
 define.app({
-  plugins: [pluginReact()],
+  plugins: [
+    pluginReact(),
+    tanstackStart({
+      spa: {
+        enabled: true,
+        prerender: { outputPath: '/index' },
+      },
+    }),
+  ],
   source: {
-    entry: {
-      index: './src/main.tsx',
-    },
     define: {
       'import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE': JSON.stringify(dataSource),
       'import.meta.env.RSBUILD_BUILD_TIME': JSON.stringify(buildTime),
@@ -28,9 +34,10 @@ define.app({
           : path.resolve(import.meta.dirname, './src/data/remote/history.ts'),
     },
   },
-  html: {
-    template: './index.html',
-    title: 'Ecosystem CI Timeline',
+  environments: {
+    // Keep the existing Cloudflare Pages output directory static-only.
+    client: { output: { distPath: { root: 'dist' } } },
+    ssr: { output: { distPath: { root: '.tanstack/server' } } },
   },
   server: {
     port: 5137,
