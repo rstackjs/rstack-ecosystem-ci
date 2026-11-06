@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b6344da5a126e76ef1c9bb1f687759e755d10079",
+    "commitTimestamp": "2026-11-06T05:33:13Z",
+    "commitMessage": "chore(release): bump version to 2.1.1 (#3833)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481/job/127732632251"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481/job/127732632382"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481/job/127732632450"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481/job/127732632490"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481/job/127732632491"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42169150481/job/127732632552"
+      }
+    ]
+  },
+  {
     "commitSha": "eca44caa47ab697f06b06460a8b47d6433af03c1",
     "commitTimestamp": "2026-11-05T07:29:08Z",
     "commitMessage": "feat(core): enable Shiki notation transformers by default (#3825)",
