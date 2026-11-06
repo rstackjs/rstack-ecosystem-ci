@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ff5e10fa666733997a72b67fc888dd4042a090fd",
+    "commitTimestamp": "2026-11-06T08:31:58Z",
+    "commitMessage": "fix(core): handle cross-realm errors in VM pools (#2050)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800264757"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800264808"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800264834"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800264842"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800264981"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800264990"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800265051"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190267654/job/127800265123"
+      }
+    ]
+  },
+  {
     "commitSha": "a091c2b83759573b31b0af3bac1e6bc6bcf9074a",
     "commitTimestamp": "2026-11-06T06:08:34Z",
     "commitMessage": "fix(core): keep `each` names working when a `$` path crosses null (#2048)",
