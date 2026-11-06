@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "349cc18fb371414135ffa238e665d6b35234c7df",
+    "commitTimestamp": "2026-11-06T08:37:11Z",
+    "commitMessage": "fix(core): isolate expect extensions between VM test files (#2051)",
+    "author": {
+      "name": "9aoy",
+      "email": "gaoyuan.1226@bytedance.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800640973"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800640983"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800641037"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800641054"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800641110"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800641124"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800641148"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42190380096/job/127800641265"
+      }
+    ]
+  },
+  {
     "commitSha": "ff5e10fa666733997a72b67fc888dd4042a090fd",
     "commitTimestamp": "2026-11-06T08:31:58Z",
     "commitMessage": "fix(core): handle cross-realm errors in VM pools (#2050)",
