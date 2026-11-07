@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "df4c01f57f51ebbb197c11c09416a7634e7f8ce1",
+    "commitTimestamp": "2026-11-07T09:58:44Z",
+    "commitMessage": "chore: upgrade Rspress v2.1.1 and use built-in Shiki transformers (#2054)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082609"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082646"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082682"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082705"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082733"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082775"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082781"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42361970205/job/128372082783"
+      }
+    ]
+  },
+  {
     "commitSha": "f9f0562d65dd72334d7bd44dbb0d007cd7ec55c8",
     "commitTimestamp": "2026-11-06T10:12:34Z",
     "commitMessage": "fix(core): align bundled dynamic imports across pools (#2052)",
