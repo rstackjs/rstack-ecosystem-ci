@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "8c9bca495f9ebb557f8e10eb07be66cfb5300253",
+    "commitTimestamp": "2026-11-07T10:01:46Z",
+    "commitMessage": "chore: upgrade Rspress v2.1.1 and use built-in Shiki transformers (#2149)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42362213153",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42362213153/job/128372783419"
+      }
+    ]
+  },
+  {
     "commitSha": "798daa4031a551ed909785978f0276c1a27ea9b9",
     "commitTimestamp": "2026-11-06T10:29:41Z",
     "commitMessage": "chore(build): avoid rebuilding project references during library builds (#2147)",
