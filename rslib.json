@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b6645e209cd45d1861d7cda122134002a683d34e",
+    "commitTimestamp": "2026-11-07T09:27:35Z",
+    "commitMessage": "chore: upgrade Rspress v2.1.1 and use built-in Shiki transformers (#2011)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723263"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723266"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723282"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723300"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723331"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723332"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723355"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42359847901/job/128365723362"
+      }
+    ]
+  },
+  {
     "commitSha": "4ee6d942a7582f7af2174a2815e931a34420e25f",
     "commitTimestamp": "2026-11-06T11:01:53Z",
     "commitMessage": "refactor(dts): simplify import extension redirects (#2009)",
