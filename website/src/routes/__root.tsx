@@ -6,12 +6,7 @@ import '@fontsource/geist-mono/500.css';
 import '@/index.css';
 
 import type { ReactNode } from 'react';
-import {
-  ClientOnly,
-  createRootRoute,
-  HeadContent,
-  Scripts,
-} from '@tanstack/react-router';
+import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router';
 
 export const Route = createRootRoute({
   head: () => ({
@@ -37,8 +32,7 @@ function RootDocument({ children }: { children: ReactNode }) {
         >
           Skip to content
         </a>
-        {/* Keep SPA content client-only when hydrating the static shell. */}
-        <ClientOnly>{children}</ClientOnly>
+        {children}
         <Scripts />
       </body>
     </html>

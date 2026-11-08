@@ -28,6 +28,7 @@ import {
 } from '@/components/ui/select';
 import { buildAgentPrompt } from '@/lib/agent-prompt';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
+import { useTimeZone } from '@/lib/use-time-zone';
 import type { EcosystemCommitRecord, EcosystemSuiteResult } from '@/types';
 
 type CopyStatus = 'copied' | 'failed';
@@ -194,6 +195,7 @@ export function Timeline({
   onSearchChange,
   focusRequest,
 }: TimelineProps) {
+  const timeZone = useTimeZone();
   const [internalSelectedSuite, setInternalSelectedSuite] =
     useState<string>('all');
   const [internalSearchQuery, setInternalSearchQuery] = useState('');
@@ -318,6 +320,8 @@ export function Timeline({
     count: filteredEntries.length,
     estimateSize: () => 180,
     overscan: 5,
+    // Render the first rows on the server before the browser measures its viewport.
+    initialRect: { width: 1280, height: 720 },
   });
 
   const virtualItems = virtualizer.getVirtualItems();
@@ -358,7 +362,7 @@ export function Timeline({
     (entry: EcosystemCommitRecord) => {
       const commitStyles =
         commitStatusStyles[entry.overallStatus] ?? commitStatusStyles.failure;
-      const formattedDate = formatCommitTime(entry.commitTimestamp);
+      const formattedDate = formatCommitTime(entry.commitTimestamp, timeZone);
       const sha = shortSha(entry.commitSha);
       const commitUrl = `https://github.com/${entry.repository.fullName}/commit/${entry.commitSha}`;
       const stackLabel = selectedStackMeta?.label;
@@ -576,7 +580,7 @@ export function Timeline({
         </div>
       );
     },
-    [handleCopyPrompt, copyState, selectedStackMeta, highlightedSha],
+    [handleCopyPrompt, copyState, selectedStackMeta, highlightedSha, timeZone],
   );
 
   return (

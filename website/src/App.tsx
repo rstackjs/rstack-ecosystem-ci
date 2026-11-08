@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
-import { useNavigate, useSearch } from '@tanstack/react-router';
+import { useLoaderData, useNavigate, useSearch } from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
+import { useTimeZone } from '@/lib/use-time-zone';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 // @ts-expect-error dynamic data source alias
 import history from '@data';
@@ -44,13 +45,15 @@ const RSTACK_REPOS = [
 ] as const;
 
 export default function App() {
+  const initialNow = useLoaderData({ from: '/' });
+  const timeZone = useTimeZone();
   const historySource = history as Record<StackId, EcosystemCommitHistory>;
   const search = useSearch({ from: '/' });
   const navigate = useNavigate({ from: '/' });
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
-  const [now, setNow] = useState(() => new Date());
+  const [now, setNow] = useState(() => new Date(initialNow));
 
   const selectedStackParam = search.stack as StackId | undefined;
   const hasValidStack =
@@ -181,7 +184,10 @@ export default function App() {
       })),
     [],
   );
-  const schedule = useMemo(() => buildUpdateSchedule(now), [now]);
+  const schedule = useMemo(
+    () => buildUpdateSchedule(now, timeZone),
+    [now, timeZone],
+  );
 
   return (
     <div className="min-h-screen px-4 py-10 text-foreground sm:px-6 sm:py-14">
@@ -350,7 +356,10 @@ interface UpdateSchedule {
 /** Schedule times in UTC hours: 01:00–18:00 (09:00–02:00+1 Beijing, hourly) */
 const SCHEDULE_HOURS_UTC = Array.from({ length: 18 }, (_, i) => i + 1);
 
-function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
+function buildUpdateSchedule(
+  referenceTime: Date,
+  timeZone: string,
+): UpdateSchedule {
   const nextUpdate = getNextScheduledTime(referenceTime);
 
   const countdownMinutes = Math.max(
@@ -360,8 +369,8 @@ function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
 
   // Use actual build time if available, otherwise fall back to calculated previous schedule
   const lastUpdated = BUILD_TIME
-    ? formatTimestamp(new Date(BUILD_TIME))
-    : formatTimestamp(getPrevScheduledTime(referenceTime));
+    ? formatTimestamp(new Date(BUILD_TIME), timeZone)
+    : formatTimestamp(getPrevScheduledTime(referenceTime), timeZone);
 
   return {
     lastUpdated,
@@ -369,17 +378,18 @@ function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
   };
 }
 
-function formatTimestamp(date: Date) {
-  const dateStr = new Intl.DateTimeFormat('en', {
+function formatTimestamp(date: Date, timeZone: string) {
+  return new Intl.DateTimeFormat('en', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
     hour: 'numeric',
     minute: '2-digit',
-  }).format(date);
-  const offset = -date.getTimezoneOffset() / 60;
-  const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
-  return `${dateStr} ${utcStr}`;
+    timeZone,
+    timeZoneName: 'shortOffset',
+  })
+    .format(date)
+    .replace('GMT', 'UTC');
 }
 
 /** Build a Date for a specific UTC hour on a given day (offset in days from base). */
@@ -580,6 +590,7 @@ interface RunSegmentProps {
 }
 
 function RunSegment({ run, isLatest, stackLabel, onSelect }: RunSegmentProps) {
+  const timeZone = useTimeZone();
   const sha = shortSha(run.commitSha);
   const style = STATUS_STYLE[run.overallStatus];
   const label = style.runLabel;
@@ -622,7 +633,7 @@ function RunSegment({ run, isLatest, stackLabel, onSelect }: RunSegmentProps) {
               <span className={style.text}>{label}</span>
             </span>
             <span className="text-subtle-foreground">
-              {formatCommitTime(run.commitTimestamp)}
+              {formatCommitTime(run.commitTimestamp, timeZone)}
             </span>
           </div>
           <p className="mt-2 line-clamp-2 text-[13px] leading-snug text-foreground">

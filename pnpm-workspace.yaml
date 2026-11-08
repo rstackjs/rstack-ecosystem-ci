@@ -7,3 +7,7 @@ engineStrict: true
 allowBuilds:
   esbuild: true
   core-js: false
+  workerd: true
+
+patchedDependencies:
+  '@tanstack/start-plugin-core@1.171.55': patches/@tanstack__start-plugin-core@1.171.55.patch

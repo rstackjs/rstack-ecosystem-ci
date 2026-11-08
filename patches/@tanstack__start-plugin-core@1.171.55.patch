@@ -1,0 +1,51 @@
+diff --git a/dist/esm/rsbuild/virtual-modules.js b/dist/esm/rsbuild/virtual-modules.js
+index 48bd345555fb969984ff2174dc17c1dfd42fb6ba..afcaf20c7a1697ca5a44223eb1fa280f7da4a8fd 100644
+--- a/dist/esm/rsbuild/virtual-modules.js
++++ b/dist/esm/rsbuild/virtual-modules.js
+@@ -10,7 +10,6 @@ var RSC_HMR_VIRTUAL_ID = "virtual:tanstack-rsc-hmr";
+ var RSC_BROWSER_DECODE_VIRTUAL_ID = "virtual:tanstack-rsc-browser-decode";
+ var RSC_SSR_DECODE_VIRTUAL_ID = "virtual:tanstack-rsc-ssr-decode";
+ var START_MANIFEST_PLACEHOLDER = "__TSS_START_MANIFEST_PLACEHOLDER__";
+-var DEV_START_MANIFEST_GLOBAL = "__TSS_DEV_START_MANIFEST__";
+ /**
+ * VirtualModulesPlugin resolves module paths relative to compiler.context.
+ * Prefix them under the app root so they are unique and watcher-friendly.
+@@ -33,7 +32,7 @@ ${getScriptFormatProperty(scriptFormat)}  routes: {
+     },
+   },
+ }
+-export const tsrStartManifest = () => globalThis[${JSON.stringify(DEV_START_MANIFEST_GLOBAL)}] ?? fallbackManifest`;
++export const tsrStartManifest = () => fallbackManifest`;
+ }
+ function buildStartManifestData(clientBuild, publicBase, inlineCss, scriptFormat) {
+ 	const routeTreeRoutes = globalThis.TSS_ROUTES_MANIFEST;
+@@ -137,6 +136,7 @@ function registerVirtualModules(api, opts) {
+ 	const readyVmPlugins = {};
+ 	const pendingWrites = /* @__PURE__ */ new Map();
+ 	let clientBuild;
++	let lastManifestContent;
+ 	const lastResolverContentByEnvironment = {};
+ 	const resolverWriteCountByEnvironment = {};
+ 	const hasSeparateProviderEnvironment = !opts.rscEnabled && opts.providerEnvName !== RSBUILD_ENVIRONMENT_NAMES.server;
+@@ -280,10 +280,17 @@ export function createFromReadableStream() { throw new Error('RSC SSR decode is
+ 		updateManifest(newClientBuild) {
+ 			clientBuild = newClientBuild;
+ 			const { resolvedStartConfig } = opts.getConfig();
+-			if (isDev) globalThis[DEV_START_MANIFEST_GLOBAL] = buildStartManifestData(clientBuild, resolvedStartConfig.basePaths.publicBase, {
+-				enabled: false,
+-				transformAssets: false
+-			}, opts.scriptFormat);
++			if (isDev) {
++				// SSR may run in workerd, outside the build process's globalThis.
++				const content = `export const tsrStartManifest = () => (${serializeStartManifestData(clientBuild, resolvedStartConfig.basePaths.publicBase, {
++					enabled: false,
++					transformAssets: false
++				}, opts.scriptFormat)})`;
++				if (content !== lastManifestContent) {
++					lastManifestContent = content;
++					tryWriteModule(RSBUILD_ENVIRONMENT_NAMES.server, paths.manifest, content);
++				}
++			}
+ 		},
+ 		updateServerFnResolver() {
+ 			const updateEnvironment = (environmentName) => {
