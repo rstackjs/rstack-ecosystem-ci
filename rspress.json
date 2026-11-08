@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "0f7ae96520f8f9845b0b13cec8119a191ac5b109",
+    "commitTimestamp": "2026-11-08T16:41:03Z",
+    "commitMessage": "chore(ci): centralize path filters (#3843)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020/job/128794030913"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020/job/128794030948"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020/job/128794030951"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020/job/128794030966"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020/job/128794030988"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42501169020/job/128794030997"
+      }
+    ]
+  },
+  {
     "commitSha": "ae1bf027ba580e55560b2d8db8c507703b6d8b5d",
     "commitTimestamp": "2026-11-06T07:24:16Z",
     "commitMessage": "docs(blog): refine Rspress 2.1 release announcement (#3838)",
