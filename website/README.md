@@ -27,24 +27,48 @@ Worker and static assets to `.cloudflare/output`, which `cf deploy --prebuilt`
 deploys together. Do not deploy `dist/client` to Pages: this is now an SSR app.
 The deployment name is `rstack-ecosystem-ci`.
 
-For local deployment, authenticate with `cf login`, or set
-`CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. The GitHub `Website` workflow
-builds and validates PRs without credentials, and deploys from `main` on website
-changes, manual dispatches, and the existing hourly schedule. Set these repository
-secrets before merging:
+### Workers Builds
 
-- `CLOUDFLARE_API_TOKEN`: an API token allowed to deploy Workers to the target account.
-- `CLOUDFLARE_ACCOUNT_ID`: the target Cloudflare account ID.
+Connect this repository to the `rstack-ecosystem-ci` Worker in **Settings > Builds**.
+Use these [Workers Builds settings](https://developers.cloudflare.com/workers/ci-cd/builds/configuration/):
 
-The workflow replaces the Pages deploy hook, so
-`CLOUDFLARE_PAGES_DEPLOY_HOOK_URL` is no longer used. After validating the first
-Worker deployment at its workers.dev URL, move the existing custom domain from
-Pages to this Worker in the Cloudflare dashboard and disable the Pages project's
-automatic Git deployments. The PR does not change live domains or Pages settings.
-If using Workers Builds instead of GitHub Actions, build from the repository root
-with `pnpm build:website` and deploy with
-`pnpm --filter ecosystem-ci-website deploy:prebuilt`; avoid enabling both automatic
-deployment paths.
+| Setting           | Value                                                |
+| ----------------- | ---------------------------------------------------- |
+| Production branch | `main`                                               |
+| Root directory    | Repository root (`/`)                                |
+| Build command     | `pnpm build:website`                                 |
+| Deploy command    | `pnpm --filter ecosystem-ci-website deploy:prebuilt` |
+| Node.js version   | `24.22.0` (see `.nvmrc`)                             |
+| pnpm version      | `12.11.2` (see `package.json`)                       |
+
+Cloudflare installs dependencies, builds, and deploys when the production branch
+changes. Use the deployment credentials managed by Workers Builds; no
+`CLOUDFLARE_API_TOKEN` or `CLOUDFLARE_ACCOUNT_ID` GitHub secrets are needed.
+The GitHub `Website` workflow only checks the build, types, SSR, CSS, and deployment
+output with `--dry-run`. It never uploads a Worker.
+
+### Scheduled history refresh
+
+History is bundled at build time, so it still needs a rebuild even when `main`
+has not changed. In **Settings > Builds > Deploy Hooks**, create a
+[Workers Builds Deploy Hook](https://developers.cloudflare.com/workers/ci-cd/builds/deploy-hooks/)
+for `main`, and save its URL as the GitHub repository secret
+`CLOUDFLARE_WORKERS_DEPLOY_HOOK_URL`.
+
+The `cloudflare-workers-deploy` workflow sends a POST to that hook on the existing
+hourly schedule (09:00–02:00+1 Beijing) or on manual dispatch from `main`.
+GitHub only triggers the build; Cloudflare performs the build and deployment.
+A successful trigger does not mean deployment has finished: inspect the result
+in Cloudflare's build history. The old `CLOUDFLARE_PAGES_DEPLOY_HOOK_URL` is no
+longer used.
+
+After validating the first Worker deployment at its workers.dev URL, move the
+existing custom domain from Pages to this Worker in the Cloudflare dashboard and
+disable the Pages project's automatic Git deployments. The PR does not change
+live domains or dashboard settings.
+
+For an optional local deployment, authenticate with `cf login` before running
+`pnpm deploy`.
 
 ## Temporary compatibility patch
 
