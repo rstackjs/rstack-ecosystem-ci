@@ -2,12 +2,14 @@
 
 The website uses TanStack Start SSR on Cloudflare Workers, built with Rsbuild and
 `rsbuild-plugin-cloudflare` through `rstack.config.ts` and the `rs` commands.
-History is still fetched from the `data` branch at build time.
+The route loader fetches history from `https://ecosystem-ci-data.rstack.rs` at
+request time. TanStack Start renders the dashboard on the server and hydrates it
+with the same data. Stack and suite changes reuse this snapshot; reload the page
+to fetch the latest history.
 
-- `pnpm dev`: fetch history and start the development server.
-- `pnpm dev:mock`: start with mock data.
-- `pnpm dev:cached`: start with previously fetched history.
-- `pnpm build`: fetch history and build the Worker and static assets.
+- `pnpm dev`: start the development server; data is fetched when a page is requested.
+- `pnpm dev:mock`: start with local mock data, without fetching remote history.
+- `pnpm build`: build the Worker and static assets without fetching history.
 - `pnpm preview`: preview the production build in workerd.
 - `pnpm deploy:prebuilt`: deploy the existing `.cloudflare/output` build.
 
@@ -29,15 +31,17 @@ Connect this repository to the `rstack-ecosystem-ci` Worker using these
 Use the Node.js version in `.nvmrc` and pnpm version in `package.json`.
 Cloudflare builds and deploys on changes to `main`.
 
-For scheduled history refreshes, create a
-[Deploy Hook](https://developers.cloudflare.com/workers/ci-cd/builds/deploy-hooks/)
-for `main` in **Settings > Builds > Deploy Hooks** and save its URL as the GitHub
-secret `CLOUDFLARE_WORKERS_DEPLOY_HOOK_URL`. The `cloudflare-workers-deploy`
-workflow triggers it hourly from 09:00 to 02:00+1 Beijing, or on manual dispatch.
+## Data deployment
 
-After validating the first Worker deployment, move the custom domain from Pages
-to the Worker and disable Pages Git deployments. The old
-`CLOUDFLARE_PAGES_DEPLOY_HOOK_URL` is no longer used.
+Cloudflare Pages publishes the `data` branch of this repository at
+`https://ecosystem-ci-data.rstack.rs`. The Pages project uses `exit 0` as its build
+command, `.` as its output directory, and automatic production deployments for
+`data` only. Each stack is available at `/<stack>.json`.
+
+History updates deploy independently of the website. The Worker no longer needs
+scheduled rebuilds or a Deploy Hook to refresh data. After this change is deployed,
+the `CLOUDFLARE_WORKERS_DEPLOY_HOOK_URL` secret and its Cloudflare Deploy Hook can
+be removed.
 
 ## Temporary compatibility patch
 

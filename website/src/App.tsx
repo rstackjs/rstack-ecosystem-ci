@@ -1,32 +1,22 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
-import { useNavigate, useSearch } from '@tanstack/react-router';
+import {
+  useHydrated,
+  useLoaderData,
+  useNavigate,
+  useSearch,
+} from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
+import { STACKS, type StackId } from '@/data/stacks';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
-// @ts-expect-error dynamic data source alias
-import history from '@data';
 
 const DATA_SOURCE =
   import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
 
-/** Build timestamp injected at compile time */
-const BUILD_TIME = import.meta.env.RSBUILD_BUILD_TIME as string | undefined;
-
-const STACKS = [
-  { id: 'rspack', label: 'Rspack' },
-  { id: 'rsbuild', label: 'Rsbuild' },
-  { id: 'rslib', label: 'Rslib' },
-  { id: 'rstest', label: 'Rstest' },
-  { id: 'rsdoctor', label: 'Rsdoctor' },
-  { id: 'rspress', label: 'Rspress' },
-  { id: 'rslint', label: 'Rslint' },
-] as const;
-
-type StackId = (typeof STACKS)[number]['id'];
 type StackStatus = EcosystemCommitRecord['overallStatus'] | 'missing';
 
 const DEFAULT_STACK: StackId = 'rspack';
@@ -44,13 +34,13 @@ const RSTACK_REPOS = [
 ] as const;
 
 export default function App() {
-  const historySource = history as Record<StackId, EcosystemCommitHistory>;
+  const { history: historySource, loadedAt } = useLoaderData({ from: '/' });
+  const hydrated = useHydrated();
   const search = useSearch({ from: '/' });
   const navigate = useNavigate({ from: '/' });
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
-  const [now, setNow] = useState<Date | null>(null);
 
   const selectedStackParam = search.stack as StackId | undefined;
   const hasValidStack =
@@ -88,17 +78,6 @@ export default function App() {
       });
     }
   }, [hasValidStack, navigate]);
-
-  useEffect(() => {
-    setNow(new Date());
-    const interval = window.setInterval(() => {
-      setNow(new Date());
-    }, 30_000);
-
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, []);
 
   useEffect(() => {
     if (!isRepoMenuOpen) {
@@ -182,10 +161,6 @@ export default function App() {
       })),
     [],
   );
-  const schedule = useMemo(
-    () => (now ? buildUpdateSchedule(now) : null),
-    [now],
-  );
 
   return (
     <div className="min-h-screen px-4 py-10 text-foreground sm:px-6 sm:py-14">
@@ -218,17 +193,8 @@ export default function App() {
                 Downstream test results for every Rstack project
               </p>
               <p className="mt-2 flex min-h-8 flex-col font-mono text-xs whitespace-nowrap text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5 md:min-h-4">
-                {schedule && (
-                  <>
-                    <span>Updated {schedule.lastUpdated ?? '—'}</span>
-                    <span aria-hidden className="hidden sm:inline">
-                      ·
-                    </span>
-                    <span>
-                      Next refresh{' '}
-                      {formatCountdown(schedule.countdownMinutes) ?? '—'}
-                    </span>
-                  </>
+                {hydrated && (
+                  <span>Loaded {formatTimestamp(new Date(loadedAt))}</span>
                 )}
               </p>
             </div>
@@ -350,33 +316,6 @@ function buildStackStatuses(
   });
 }
 
-interface UpdateSchedule {
-  lastUpdated: string | null;
-  countdownMinutes: number | null;
-}
-
-/** Schedule times in UTC hours: 01:00–18:00 (09:00–02:00+1 Beijing, hourly) */
-const SCHEDULE_HOURS_UTC = Array.from({ length: 18 }, (_, i) => i + 1);
-
-function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
-  const nextUpdate = getNextScheduledTime(referenceTime);
-
-  const countdownMinutes = Math.max(
-    0,
-    Math.floor((nextUpdate.getTime() - referenceTime.getTime()) / 60_000),
-  );
-
-  // Use actual build time if available, otherwise fall back to calculated previous schedule
-  const lastUpdated = BUILD_TIME
-    ? formatTimestamp(new Date(BUILD_TIME))
-    : formatTimestamp(getPrevScheduledTime(referenceTime));
-
-  return {
-    lastUpdated,
-    countdownMinutes,
-  };
-}
-
 function formatTimestamp(date: Date) {
   const dateStr = new Intl.DateTimeFormat('en', {
     year: 'numeric',
@@ -388,55 +327,6 @@ function formatTimestamp(date: Date) {
   const offset = -date.getTimezoneOffset() / 60;
   const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
   return `${dateStr} ${utcStr}`;
-}
-
-/** Build a Date for a specific UTC hour on a given day (offset in days from base). */
-function buildScheduleTime(base: Date, dayOffset: number, utcHour: number) {
-  const d = new Date(base);
-  d.setUTCHours(0, 0, 0, 0);
-  d.setUTCDate(d.getUTCDate() + dayOffset);
-  d.setUTCHours(utcHour);
-  return d;
-}
-
-/** Get candidates: yesterday's, today's, and tomorrow's scheduled times. */
-function getScheduleCandidates(base: Date) {
-  return [-1, 0, 1].flatMap((offset) =>
-    SCHEDULE_HOURS_UTC.map((hour) => buildScheduleTime(base, offset, hour)),
-  );
-}
-
-/** Returns the most recent scheduled time at or before `now`. */
-function getPrevScheduledTime(now: Date) {
-  const nowMs = now.getTime();
-  const candidates = getScheduleCandidates(now).filter(
-    (d) => d.getTime() <= nowMs,
-  );
-  return new Date(Math.max(...candidates.map((d) => d.getTime())));
-}
-
-/** Returns the next scheduled time strictly after `now`. */
-function getNextScheduledTime(now: Date) {
-  const nowMs = now.getTime();
-  const candidates = getScheduleCandidates(now).filter(
-    (d) => d.getTime() > nowMs,
-  );
-  return new Date(Math.min(...candidates.map((d) => d.getTime())));
-}
-
-function formatCountdown(minutes: number | null) {
-  if (minutes == null) {
-    return null;
-  }
-
-  const safeMinutes = Math.max(0, minutes);
-  const hours = Math.floor(safeMinutes / 60);
-  const mins = safeMinutes % 60;
-
-  if (hours > 0) {
-    return mins > 0 ? `in ${hours}h ${mins}min` : `in ${hours}h`;
-  }
-  return `in ${safeMinutes}min`;
 }
 
 const STATUS_STYLE: Record<

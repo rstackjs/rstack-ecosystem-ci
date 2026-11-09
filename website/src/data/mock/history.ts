@@ -18,4 +18,6 @@ const mockHistory = {
   rspress: rspress as EcosystemCommitHistory,
 } satisfies Record<string, EcosystemCommitHistory>;
 
-export default mockHistory;
+export default async function loadHistory() {
+  return mockHistory;
+}
