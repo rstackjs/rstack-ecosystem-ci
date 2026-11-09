@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6063171a2e7de1199137f23dedeab790c50571f6",
+    "commitTimestamp": "2026-11-09T11:22:27Z",
+    "commitMessage": "chore(ci): centralize path filters (#2012)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444398"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444526"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444607"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444617"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444634"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444636"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444666"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42609345340/job/129133444759"
+      }
+    ]
+  },
+  {
     "commitSha": "fe771c2cd03dbce8763f18786da6be418acab801",
     "commitTimestamp": "2026-11-09T06:24:22Z",
     "commitMessage": "docs(website): simplify Rspress configuration (#2016)",
