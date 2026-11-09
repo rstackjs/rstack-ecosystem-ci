@@ -16,6 +16,14 @@ export const Route = createRootRoute({
       { title: 'Ecosystem CI Timeline' },
     ],
   }),
+  notFoundComponent: () => (
+    <main id="main-content" className="px-4 py-14 text-center">
+      <h1 className="mb-4 text-2xl font-semibold">404 — Page not found</h1>
+      <a href="/" className="underline">
+        Back to home
+      </a>
+    </main>
+  ),
   shellComponent: RootDocument,
 });
 
