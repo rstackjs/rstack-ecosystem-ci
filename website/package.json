@@ -9,7 +9,6 @@
     "dev:cached": "rs dev",
     "build": "pnpm run fetch:history && rs build",
     "preview": "rs preview",
-    "deploy": "pnpm build && cf deploy --prebuilt",
     "deploy:prebuilt": "cf deploy --prebuilt"
   },
   "dependencies": {
