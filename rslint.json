@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "42f263e202a6c5c6a573ae8f91a60739c4cbf484",
+    "commitTimestamp": "2026-11-09T04:50:08Z",
+    "commitMessage": "refactor(rule_tester): remove unused ESLint JSON test loader (#2521)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684323"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684326"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684328"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684341"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684376"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684380"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684401"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684413"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684543"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42563967620/job/128996684567"
+      }
+    ]
+  },
+  {
     "commitSha": "183ba2bad79f6c49f0c519b648f7bfe4316088c0",
     "commitTimestamp": "2026-11-09T04:49:37Z",
     "commitMessage": "chore(deps): update dependency tinybench to ^6.2.3 (#2532)",
