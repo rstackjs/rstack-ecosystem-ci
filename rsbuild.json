@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "883022c3373b8efca1366233efb77aa1d36aeb91",
+    "commitTimestamp": "2026-11-09T03:34:09Z",
+    "commitMessage": "test: wait for page reload before teardown (#8860)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968833860"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834040"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834159"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834196"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834205"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834243"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834260"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834302"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42558290514/job/128968834395"
+      }
+    ]
+  },
+  {
     "commitSha": "85c1a746edc4281e259256c628cf9fd1660b7eb2",
     "commitTimestamp": "2026-11-09T02:41:33Z",
     "commitMessage": "chore(deps): update pnpm to v12.18.0 (#8858)",
