@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "fe771c2cd03dbce8763f18786da6be418acab801",
+    "commitTimestamp": "2026-11-09T06:24:22Z",
+    "commitMessage": "docs(website): simplify Rspress configuration (#2016)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101676"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101753"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101787"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101805"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101836"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101883"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101884"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42572901026/job/129014101925"
+      }
+    ]
+  },
+  {
     "commitSha": "b6645e209cd45d1861d7cda122134002a683d34e",
     "commitTimestamp": "2026-11-07T09:27:35Z",
     "commitMessage": "chore: upgrade Rspress v2.1.1 and use built-in Shiki transformers (#2011)",
