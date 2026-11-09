@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "985250506704306e398c23fb8e14cb0573f77f7f",
+    "commitTimestamp": "2026-11-09T09:27:00Z",
+    "commitMessage": "fix(shims): encode special characters in CJS import.meta.url (#2017)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200",
+    "overallStatus": "cancelled",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604418"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604428"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604487"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604499"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604510"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604519"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604521"
+      },
+      {
+        "name": "rspress",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42597189200/job/129092604616"
+      }
+    ]
+  },
+  {
     "commitSha": "fe771c2cd03dbce8763f18786da6be418acab801",
     "commitTimestamp": "2026-11-09T06:24:22Z",
     "commitMessage": "docs(website): simplify Rspress configuration (#2016)",
