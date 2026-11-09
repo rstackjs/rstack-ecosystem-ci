@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 import App from '@/App';
-import loadHistory from '@/data/history';
+import loadHistory from '@/data/remote/history';
 
 export const Route = createFileRoute('/')({
   validateSearch: (

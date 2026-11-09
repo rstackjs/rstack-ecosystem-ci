@@ -8,7 +8,6 @@ with the same data. Stack and suite changes reuse this snapshot; reload the page
 to fetch the latest history.
 
 - `pnpm dev`: start the development server; data is fetched when a page is requested.
-- `pnpm dev:mock`: start with local mock data, without fetching remote history.
 - `pnpm build`: build the Worker and static assets without fetching history.
 - `pnpm preview`: preview the production build in workerd.
 - `pnpm deploy:prebuilt`: deploy the existing `.cloudflare/output` build.

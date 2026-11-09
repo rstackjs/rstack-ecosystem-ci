@@ -9,13 +9,9 @@ import {
 } from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
-import { Badge } from '@/components/ui/badge';
 import { STACKS, type StackId } from '@/data/stacks';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
-
-const DATA_SOURCE =
-  import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
 
 type StackStatus = EcosystemCommitRecord['overallStatus'] | 'missing';
 
@@ -185,9 +181,6 @@ export default function App() {
                 <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
                   Rstack Ecosystem CI
                 </h1>
-                {DATA_SOURCE === 'mock' ? (
-                  <Badge variant="warning">Mock data</Badge>
-                ) : null}
               </div>
               <p className="mt-0.5 text-sm text-muted-foreground">
                 Downstream test results for every Rstack project

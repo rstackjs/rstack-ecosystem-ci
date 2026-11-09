@@ -4,7 +4,6 @@
   "type": "module",
   "scripts": {
     "dev": "rs dev",
-    "dev:mock": "cross-env RSBUILD_PUBLIC_DATA_SOURCE=mock rs dev",
     "build": "rs build",
     "preview": "rs preview",
     "deploy:prebuilt": "cf deploy --prebuilt"
@@ -30,7 +29,6 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "cf": "1.0.0-beta.28",
-    "cross-env": "^10.1.0",
     "postcss": "^8.5.30",
     "rsbuild-plugin-cloudflare": "0.0.4",
     "tailwindcss": "^4.3.3",
