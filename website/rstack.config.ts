@@ -3,6 +3,7 @@ import path from 'node:path';
 import { pluginReact } from '@rsbuild/plugin-react';
 import { tanstackStart } from '@tanstack/react-start/plugin/rsbuild';
 import { define } from 'rstack';
+import { cloudflare } from 'rsbuild-plugin-cloudflare';
 
 const dataSource =
   process.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
@@ -12,12 +13,8 @@ const buildTime = new Date().toISOString();
 define.app({
   plugins: [
     pluginReact(),
-    tanstackStart({
-      spa: {
-        enabled: true,
-        prerender: { outputPath: '/index' },
-      },
-    }),
+    cloudflare({ rsbuildEnvironment: { name: 'ssr' } }),
+    tanstackStart(),
   ],
   source: {
     define: {

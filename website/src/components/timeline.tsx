@@ -1,3 +1,4 @@
+import { ClientOnly } from '@tanstack/react-router';
 import { useWindowVirtualizer } from '@tanstack/react-virtual';
 import {
   useCallback,
@@ -318,6 +319,8 @@ export function Timeline({
     count: filteredEntries.length,
     estimateSize: () => 180,
     overscan: 5,
+    // Render the first rows on the server before the browser measures its viewport.
+    initialRect: { width: 1280, height: 720 },
   });
 
   const virtualItems = virtualizer.getVirtualItems();
@@ -358,7 +361,6 @@ export function Timeline({
     (entry: EcosystemCommitRecord) => {
       const commitStyles =
         commitStatusStyles[entry.overallStatus] ?? commitStatusStyles.failure;
-      const formattedDate = formatCommitTime(entry.commitTimestamp);
       const sha = shortSha(entry.commitSha);
       const commitUrl = `https://github.com/${entry.repository.fullName}/commit/${entry.commitSha}`;
       const stackLabel = selectedStackMeta?.label;
@@ -458,7 +460,9 @@ export function Timeline({
                       ·
                     </span>
                     <time dateTime={entry.commitTimestamp}>
-                      {formattedDate}
+                      <ClientOnly>
+                        {formatCommitTime(entry.commitTimestamp)}
+                      </ClientOnly>
                     </time>
                   </div>
                 </div>

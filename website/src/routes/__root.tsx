@@ -6,12 +6,7 @@ import '@fontsource/geist-mono/500.css';
 import '@/index.css';
 
 import type { ReactNode } from 'react';
-import {
-  ClientOnly,
-  createRootRoute,
-  HeadContent,
-  Scripts,
-} from '@tanstack/react-router';
+import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router';
 
 export const Route = createRootRoute({
   head: () => ({
@@ -21,6 +16,14 @@ export const Route = createRootRoute({
       { title: 'Ecosystem CI Timeline' },
     ],
   }),
+  notFoundComponent: () => (
+    <main id="main-content" className="px-4 py-14 text-center">
+      <h1 className="mb-4 text-2xl font-semibold">404 — Page not found</h1>
+      <a href="/" className="underline">
+        Back to home
+      </a>
+    </main>
+  ),
   shellComponent: RootDocument,
 });
 
@@ -37,8 +40,7 @@ function RootDocument({ children }: { children: ReactNode }) {
         >
           Skip to content
         </a>
-        {/* Keep SPA content client-only when hydrating the static shell. */}
-        <ClientOnly>{children}</ClientOnly>
+        {children}
         <Scripts />
       </body>
     </html>

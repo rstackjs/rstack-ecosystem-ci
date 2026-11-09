@@ -50,7 +50,7 @@ export default function App() {
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
-  const [now, setNow] = useState(() => new Date());
+  const [now, setNow] = useState<Date | null>(null);
 
   const selectedStackParam = search.stack as StackId | undefined;
   const hasValidStack =
@@ -90,6 +90,7 @@ export default function App() {
   }, [hasValidStack, navigate]);
 
   useEffect(() => {
+    setNow(new Date());
     const interval = window.setInterval(() => {
       setNow(new Date());
     }, 30_000);
@@ -181,7 +182,10 @@ export default function App() {
       })),
     [],
   );
-  const schedule = useMemo(() => buildUpdateSchedule(now), [now]);
+  const schedule = useMemo(
+    () => (now ? buildUpdateSchedule(now) : null),
+    [now],
+  );
 
   return (
     <div className="min-h-screen px-4 py-10 text-foreground sm:px-6 sm:py-14">
@@ -213,15 +217,19 @@ export default function App() {
               <p className="mt-0.5 text-sm text-muted-foreground">
                 Downstream test results for every Rstack project
               </p>
-              <p className="mt-2 flex flex-col font-mono text-xs text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5">
-                <span>Updated {schedule.lastUpdated ?? '—'}</span>
-                <span aria-hidden className="hidden sm:inline">
-                  ·
-                </span>
-                <span>
-                  Next refresh{' '}
-                  {formatCountdown(schedule.countdownMinutes) ?? '—'}
-                </span>
+              <p className="mt-2 flex min-h-8 flex-col font-mono text-xs whitespace-nowrap text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5 md:min-h-4">
+                {schedule && (
+                  <>
+                    <span>Updated {schedule.lastUpdated ?? '—'}</span>
+                    <span aria-hidden className="hidden sm:inline">
+                      ·
+                    </span>
+                    <span>
+                      Next refresh{' '}
+                      {formatCountdown(schedule.countdownMinutes) ?? '—'}
+                    </span>
+                  </>
+                )}
               </p>
             </div>
           </div>
