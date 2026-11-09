@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c220a745052afb123f07d451d91f3450ad8aa3aa",
+    "commitTimestamp": "2026-11-09T07:20:45Z",
+    "commitMessage": "refactor(core): make runner preparation explicit (#2060)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875030"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875069"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875155"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875163"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875165"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875214"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875223"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42579261634/job/129033875555"
+      }
+    ]
+  },
+  {
     "commitSha": "bc44c0f7697d990d21c3f64c18b2dd2623aa76d2",
     "commitTimestamp": "2026-11-09T07:01:27Z",
     "commitMessage": "perf(core): skip unnecessary worker memory sampling (#2058)",
