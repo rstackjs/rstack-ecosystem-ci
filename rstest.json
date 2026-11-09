@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6dda630030ddecf7048e345ed19efa415f657f66",
+    "commitTimestamp": "2026-11-09T07:01:03Z",
+    "commitMessage": "fix(core): prevent fs mock leakage between VM test files (#2053)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740560"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740599"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740611"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740616"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740638"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740669"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740670"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576642847/job/129025740750"
+      }
+    ]
+  },
+  {
     "commitSha": "df4c01f57f51ebbb197c11c09416a7634e7f8ce1",
     "commitTimestamp": "2026-11-07T09:58:44Z",
     "commitMessage": "chore: upgrade Rspress v2.1.1 and use built-in Shiki transformers (#2054)",
