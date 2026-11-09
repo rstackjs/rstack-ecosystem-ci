@@ -9,8 +9,6 @@ the `rs` commands. Both development and production preview run in workerd.
 - `pnpm dev:cached`: start with previously fetched history.
 - `pnpm build`: fetch history and build the Worker and static assets.
 - `pnpm preview`: preview the production build locally.
-- `pnpm verify:ssr [URL]`: check server-rendered timeline rows and CSS against a
-  running server (defaults to `http://localhost:5137`).
 - `pnpm deploy`: build and deploy to Cloudflare Workers.
 - `pnpm deploy:prebuilt --dry-run`: validate the existing deployment output.
 
@@ -44,7 +42,7 @@ Use these [Workers Builds settings](https://developers.cloudflare.com/workers/ci
 Cloudflare installs dependencies, builds, and deploys when the production branch
 changes. Use the deployment credentials managed by Workers Builds; no
 `CLOUDFLARE_API_TOKEN` or `CLOUDFLARE_ACCOUNT_ID` GitHub secrets are needed.
-The GitHub `Website` workflow only checks the build, types, SSR, CSS, and deployment
+The GitHub `Website` workflow only checks the build, types, and deployment
 output with `--dry-run`. It never uploads a Worker.
 
 ### Scheduled history refresh
@@ -79,6 +77,6 @@ links without sharing the build process's `globalThis`. Unchanged manifests do
 not trigger extra rebuilds. See [TanStack/router#8886](https://github.com/TanStack/router/issues/8886).
 
 Remove the patch after upgrading to a TanStack version containing the upstream
-fix, and run `pnpm verify:ssr` against both development and production preview.
+fix, and verify stylesheet loading in both development and production preview.
 Rstack 0.9 uses Rsbuild 2.3, which already includes the fix for the SSR define
 conflict with web-worker targets; no patch is needed for that issue.

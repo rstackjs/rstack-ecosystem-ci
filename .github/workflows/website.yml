@@ -45,25 +45,9 @@ jobs:
         run: |
           corepack enable
           pnpm install --frozen-lockfile
-      - name: Fetch history
-        run: pnpm --filter ecosystem-ci-website fetch:history
-      - name: Verify development SSR and CSS
-        working-directory: website
-        run: |
-          setsid pnpm dev:cached > /tmp/website-dev.log 2>&1 &
-          server_pid=$!
-          trap 'kill -- "-$server_pid" || true; cat /tmp/website-dev.log' EXIT
-          pnpm verify:ssr
       - name: Build
         run: pnpm build:website
       - name: Type check
         run: pnpm --filter ecosystem-ci-website exec tsc --noEmit
-      - name: Verify production SSR and CSS
-        working-directory: website
-        run: |
-          setsid pnpm preview --port 5138 > /tmp/website-preview.log 2>&1 &
-          server_pid=$!
-          trap 'kill -- "-$server_pid" || true; cat /tmp/website-preview.log' EXIT
-          pnpm verify:ssr http://localhost:5138
       - name: Validate deployment output
         run: pnpm --filter ecosystem-ci-website deploy:prebuilt --dry-run

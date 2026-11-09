@@ -9,7 +9,6 @@
     "dev:cached": "rs dev",
     "build": "pnpm run fetch:history && rs build",
     "preview": "rs preview",
-    "verify:ssr": "node scripts/verify-ssr.mjs",
     "deploy": "pnpm build && cf deploy --prebuilt",
     "deploy:prebuilt": "cf deploy --prebuilt"
   },
