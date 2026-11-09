@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "556cae18d041790319b3002c5515483d77a6524f",
+    "commitTimestamp": "2026-11-09T08:11:19Z",
+    "commitMessage": "feat(i18n): expand built-in theme translations (#3848)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575/job/129061454777"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575/job/129061455007"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575/job/129061455012"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575/job/129061455084"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575/job/129061455168"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42587720575/job/129061455207"
+      }
+    ]
+  },
+  {
     "commitSha": "732b832377a44e5a7186c1fcde14fb6db78b9797",
     "commitTimestamp": "2026-11-09T06:40:35Z",
     "commitMessage": "fix(website): download OG font from fork raw URL (#3847)",
