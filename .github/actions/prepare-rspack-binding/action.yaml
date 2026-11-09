@@ -13,10 +13,6 @@ inputs:
     description: 'The branch, tag or SHA to checkout'
     required: true
     default: 'main'
-  node-version:
-    description: 'The version of Node.js to set up'
-    required: true
-    default: '22'
 outputs:
   artifact-name:
     description: 'The name of the uploaded artifact'
@@ -31,7 +27,7 @@ runs:
         ref: ${{ inputs.ref }}
     - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
       with:
-        node-version: ${{ inputs.node-version }}
+        node-version-file: .nvmrc
     - shell: bash
       name: Install package manager
       run: |
