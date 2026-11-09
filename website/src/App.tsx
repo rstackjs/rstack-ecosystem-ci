@@ -217,7 +217,7 @@ export default function App() {
               <p className="mt-0.5 text-sm text-muted-foreground">
                 Downstream test results for every Rstack project
               </p>
-              <p className="mt-2 flex flex-col font-mono text-xs text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5">
+              <p className="mt-2 flex min-h-8 flex-col font-mono text-xs whitespace-nowrap text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5 md:min-h-4">
                 {schedule && (
                   <>
                     <span>Updated {schedule.lastUpdated ?? '—'}</span>
