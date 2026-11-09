@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "59ae7d338631db0945f84e2b78070daf0a45b39c",
+    "commitTimestamp": "2026-11-09T02:38:32Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#2015)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684780"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684819"
+      },
+      {
+        "name": "rsbuild",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684896"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684901"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684915"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684917"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949684960"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42552085078/job/128949685008"
+      }
+    ]
+  },
+  {
     "commitSha": "b6645e209cd45d1861d7cda122134002a683d34e",
     "commitTimestamp": "2026-11-07T09:27:35Z",
     "commitMessage": "chore: upgrade Rspress v2.1.1 and use built-in Shiki transformers (#2011)",
