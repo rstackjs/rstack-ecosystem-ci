@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "732b832377a44e5a7186c1fcde14fb6db78b9797",
+    "commitTimestamp": "2026-11-09T06:40:35Z",
+    "commitMessage": "fix(website): download OG font from fork raw URL (#3847)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230/job/129019214134"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230/job/129019214179"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230/job/129019214197"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230/job/129019214206"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230/job/129019214289"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42574547230/job/129019214315"
+      }
+    ]
+  },
+  {
     "commitSha": "0f7ae96520f8f9845b0b13cec8119a191ac5b109",
     "commitTimestamp": "2026-11-08T16:41:03Z",
     "commitMessage": "chore(ci): centralize path filters (#3843)",
