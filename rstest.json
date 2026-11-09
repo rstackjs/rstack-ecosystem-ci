@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "bc44c0f7697d990d21c3f64c18b2dd2623aa76d2",
+    "commitTimestamp": "2026-11-09T07:01:27Z",
+    "commitMessage": "perf(core): skip unnecessary worker memory sampling (#2058)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851298"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851358"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851371"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851382"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851396"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851449"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851486"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42576678560/job/129025851620"
+      }
+    ]
+  },
+  {
     "commitSha": "6dda630030ddecf7048e345ed19efa415f657f66",
     "commitTimestamp": "2026-11-09T07:01:03Z",
     "commitMessage": "fix(core): prevent fs mock leakage between VM test files (#2053)",
