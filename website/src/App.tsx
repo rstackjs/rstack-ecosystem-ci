@@ -1,12 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
-import { useLoaderData, useNavigate, useSearch } from '@tanstack/react-router';
+import { useNavigate, useSearch } from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
 import { Badge } from '@/components/ui/badge';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
-import { useTimeZone } from '@/lib/use-time-zone';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 // @ts-expect-error dynamic data source alias
 import history from '@data';
@@ -45,15 +44,13 @@ const RSTACK_REPOS = [
 ] as const;
 
 export default function App() {
-  const initialNow = useLoaderData({ from: '/' });
-  const timeZone = useTimeZone();
   const historySource = history as Record<StackId, EcosystemCommitHistory>;
   const search = useSearch({ from: '/' });
   const navigate = useNavigate({ from: '/' });
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
-  const [now, setNow] = useState(() => new Date(initialNow));
+  const [now, setNow] = useState<Date | null>(null);
 
   const selectedStackParam = search.stack as StackId | undefined;
   const hasValidStack =
@@ -93,6 +90,7 @@ export default function App() {
   }, [hasValidStack, navigate]);
 
   useEffect(() => {
+    setNow(new Date());
     const interval = window.setInterval(() => {
       setNow(new Date());
     }, 30_000);
@@ -185,8 +183,8 @@ export default function App() {
     [],
   );
   const schedule = useMemo(
-    () => buildUpdateSchedule(now, timeZone),
-    [now, timeZone],
+    () => (now ? buildUpdateSchedule(now) : null),
+    [now],
   );
 
   return (
@@ -220,14 +218,18 @@ export default function App() {
                 Downstream test results for every Rstack project
               </p>
               <p className="mt-2 flex flex-col font-mono text-xs text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5">
-                <span>Updated {schedule.lastUpdated ?? '—'}</span>
-                <span aria-hidden className="hidden sm:inline">
-                  ·
-                </span>
-                <span>
-                  Next refresh{' '}
-                  {formatCountdown(schedule.countdownMinutes) ?? '—'}
-                </span>
+                {schedule && (
+                  <>
+                    <span>Updated {schedule.lastUpdated ?? '—'}</span>
+                    <span aria-hidden className="hidden sm:inline">
+                      ·
+                    </span>
+                    <span>
+                      Next refresh{' '}
+                      {formatCountdown(schedule.countdownMinutes) ?? '—'}
+                    </span>
+                  </>
+                )}
               </p>
             </div>
           </div>
@@ -356,10 +358,7 @@ interface UpdateSchedule {
 /** Schedule times in UTC hours: 01:00–18:00 (09:00–02:00+1 Beijing, hourly) */
 const SCHEDULE_HOURS_UTC = Array.from({ length: 18 }, (_, i) => i + 1);
 
-function buildUpdateSchedule(
-  referenceTime: Date,
-  timeZone: string,
-): UpdateSchedule {
+function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
   const nextUpdate = getNextScheduledTime(referenceTime);
 
   const countdownMinutes = Math.max(
@@ -369,8 +368,8 @@ function buildUpdateSchedule(
 
   // Use actual build time if available, otherwise fall back to calculated previous schedule
   const lastUpdated = BUILD_TIME
-    ? formatTimestamp(new Date(BUILD_TIME), timeZone)
-    : formatTimestamp(getPrevScheduledTime(referenceTime), timeZone);
+    ? formatTimestamp(new Date(BUILD_TIME))
+    : formatTimestamp(getPrevScheduledTime(referenceTime));
 
   return {
     lastUpdated,
@@ -378,18 +377,17 @@ function buildUpdateSchedule(
   };
 }
 
-function formatTimestamp(date: Date, timeZone: string) {
-  return new Intl.DateTimeFormat('en', {
+function formatTimestamp(date: Date) {
+  const dateStr = new Intl.DateTimeFormat('en', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
     hour: 'numeric',
     minute: '2-digit',
-    timeZone,
-    timeZoneName: 'shortOffset',
-  })
-    .format(date)
-    .replace('GMT', 'UTC');
+  }).format(date);
+  const offset = -date.getTimezoneOffset() / 60;
+  const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
+  return `${dateStr} ${utcStr}`;
 }
 
 /** Build a Date for a specific UTC hour on a given day (offset in days from base). */
@@ -590,7 +588,6 @@ interface RunSegmentProps {
 }
 
 function RunSegment({ run, isLatest, stackLabel, onSelect }: RunSegmentProps) {
-  const timeZone = useTimeZone();
   const sha = shortSha(run.commitSha);
   const style = STATUS_STYLE[run.overallStatus];
   const label = style.runLabel;
@@ -633,7 +630,7 @@ function RunSegment({ run, isLatest, stackLabel, onSelect }: RunSegmentProps) {
               <span className={style.text}>{label}</span>
             </span>
             <span className="text-subtle-foreground">
-              {formatCommitTime(run.commitTimestamp, timeZone)}
+              {formatCommitTime(run.commitTimestamp)}
             </span>
           </div>
           <p className="mt-2 line-clamp-2 text-[13px] leading-snug text-foreground">
