@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "439398a2bff19aa583b89b704a7feb39dc4f8b8c",
+    "commitTimestamp": "2026-11-10T11:27:21Z",
+    "commitMessage": "fix(core): reuse happy-dom environment modules in bundled tests (#2075)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760412"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760697"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760736"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760769"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760782"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760791"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760850"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42807623853/job/129800760910"
+      }
+    ]
+  },
+  {
     "commitSha": "628fdf10df6e53b8ac580c773bfb07e9372aba06",
     "commitTimestamp": "2026-11-10T10:36:39Z",
     "commitMessage": "fix(core): reuse jsdom environment modules in bundled tests (#2073)",
