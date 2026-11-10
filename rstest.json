@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "031af684dc2e80ca4f420beb021dc6773ffef1e2",
+    "commitTimestamp": "2026-11-10T02:57:41Z",
+    "commitMessage": "fix(core): preserve tracked immediates in VM DOM environments (#2065)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044143"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044307"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044313"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044343"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044352"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044378"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044401"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42746275299/job/129599044446"
+      }
+    ]
+  },
+  {
     "commitSha": "9707c6b27ceadc9757806aec2515063dc83c106a",
     "commitTimestamp": "2026-11-09T10:37:47Z",
     "commitMessage": "fix(core): preserve test realm in process guard errors (#2064)",
