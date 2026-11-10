@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "c5190654489f56cd5e6bce73a3b15b1e4d0a134f",
+    "commitTimestamp": "2026-11-10T06:49:26Z",
+    "commitMessage": "fix(core): wrap IPv6 hosts in brackets for dev.assetPrefix true (#8866)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896378"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896433"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896503"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896523"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896638"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896643"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896670"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896682"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42773301672/job/129685896903"
+      }
+    ]
+  },
+  {
     "commitSha": "352632acfe3da8825a33a20f58f6537f73626714",
     "commitTimestamp": "2026-11-09T13:19:09Z",
     "commitMessage": "test(e2e): enable experimental Rspack build cache (#8865)",
