@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5f896800a6aa82d0215bb6002af18bb31999cfcc",
+    "commitTimestamp": "2026-11-10T09:10:36Z",
+    "commitMessage": "feat(theme/llmsUI): add View as Markdown option (#3842)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057/job/129735801462"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057/job/129735801499"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057/job/129735801504"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057/job/129735801546"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057/job/129735801644"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42788544057/job/129735801770"
+      }
+    ]
+  },
+  {
     "commitSha": "43c3e4bd99960b1c0aa2dcb2a6fff189363170c0",
     "commitTimestamp": "2026-11-10T07:26:54Z",
     "commitMessage": "chore(deps): update dependency @swc-next/parser to ^0.6.0 (#3845)",
