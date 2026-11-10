@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "194099f86cf9292de586796ffa74a0ab845537b3",
+    "commitTimestamp": "2026-11-10T06:19:22Z",
+    "commitMessage": "fix: apply JS banner and footer to `.jsx` output files (#2018)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578",
+    "overallStatus": "cancelled",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291292"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291316"
+      },
+      {
+        "name": "rspress",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291341"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291477"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291532"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291549"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291575"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42767793578/job/129668291682"
+      }
+    ]
+  },
+  {
     "commitSha": "6063171a2e7de1199137f23dedeab790c50571f6",
     "commitTimestamp": "2026-11-09T11:22:27Z",
     "commitMessage": "chore(ci): centralize path filters (#2012)",
