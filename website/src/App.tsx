@@ -4,30 +4,21 @@ import * as Tooltip from '@radix-ui/react-tooltip';
 import { useNavigate, useSearch } from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
-import { Badge } from '@/components/ui/badge';
+import loadHistory from '@/data/remote/history';
+import { STACKS, type StackId } from '@/data/stacks';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
-// @ts-expect-error dynamic data source alias
-import history from '@data';
 
-const DATA_SOURCE =
-  import.meta.env.RSBUILD_PUBLIC_DATA_SOURCE === 'mock' ? 'mock' : 'remote';
+type StackStatus =
+  EcosystemCommitRecord['overallStatus'] | 'missing' | 'loading' | 'error';
 
-/** Build timestamp injected at compile time */
-const BUILD_TIME = import.meta.env.RSBUILD_BUILD_TIME as string | undefined;
-
-const STACKS = [
-  { id: 'rspack', label: 'Rspack' },
-  { id: 'rsbuild', label: 'Rsbuild' },
-  { id: 'rslib', label: 'Rslib' },
-  { id: 'rstest', label: 'Rstest' },
-  { id: 'rsdoctor', label: 'Rsdoctor' },
-  { id: 'rspress', label: 'Rspress' },
-  { id: 'rslint', label: 'Rslint' },
-] as const;
-
-type StackId = (typeof STACKS)[number]['id'];
-type StackStatus = EcosystemCommitRecord['overallStatus'] | 'missing';
+type HistoryState =
+  | { status: 'loading' | 'error' }
+  | {
+      status: 'success';
+      history: Awaited<ReturnType<typeof loadHistory>>;
+      loadedAt: Date;
+    };
 
 const DEFAULT_STACK: StackId = 'rspack';
 
@@ -44,13 +35,31 @@ const RSTACK_REPOS = [
 ] as const;
 
 export default function App() {
-  const historySource = history as Record<StackId, EcosystemCommitHistory>;
+  const [historyState, setHistoryState] = useState<HistoryState>({
+    status: 'loading',
+  });
   const search = useSearch({ from: '/' });
   const navigate = useNavigate({ from: '/' });
 
+  useEffect(() => {
+    const controller = new AbortController();
+    void loadHistory(controller.signal).then(
+      (history) => {
+        if (!controller.signal.aborted) {
+          setHistoryState({ status: 'success', history, loadedAt: new Date() });
+        }
+      },
+      () => {
+        if (!controller.signal.aborted) {
+          setHistoryState({ status: 'error' });
+        }
+      },
+    );
+    return () => controller.abort();
+  }, []);
+
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
-  const [now, setNow] = useState<Date | null>(null);
 
   const selectedStackParam = search.stack as StackId | undefined;
   const hasValidStack =
@@ -65,7 +74,8 @@ export default function App() {
   const historyByStack = useMemo(() => {
     const map = {} as Record<StackId, EcosystemCommitHistory>;
     for (const { id } of STACKS) {
-      const list = historySource[id] ?? [];
+      const list =
+        historyState.status === 'success' ? historyState.history[id] : [];
       map[id] = [...list].sort(
         (a, b) =>
           new Date(b.commitTimestamp).getTime() -
@@ -73,7 +83,7 @@ export default function App() {
       );
     }
     return map;
-  }, [historySource]);
+  }, [historyState]);
 
   useEffect(() => {
     if (!hasValidStack) {
@@ -88,17 +98,6 @@ export default function App() {
       });
     }
   }, [hasValidStack, navigate]);
-
-  useEffect(() => {
-    setNow(new Date());
-    const interval = window.setInterval(() => {
-      setNow(new Date());
-    }, 30_000);
-
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, []);
 
   useEffect(() => {
     if (!isRepoMenuOpen) {
@@ -171,8 +170,8 @@ export default function App() {
 
   const stackEntries = historyByStack[selectedStack] ?? [];
   const stackStatusSummary = useMemo(
-    () => buildStackStatuses(historyByStack),
-    [historyByStack],
+    () => buildStackStatuses(historyByStack, historyState.status),
+    [historyByStack, historyState.status],
   );
   const stackOptions = useMemo(
     () =>
@@ -181,10 +180,6 @@ export default function App() {
         label: stack.label,
       })),
     [],
-  );
-  const schedule = useMemo(
-    () => (now ? buildUpdateSchedule(now) : null),
-    [now],
   );
 
   return (
@@ -210,25 +205,13 @@ export default function App() {
                 <h1 className="text-xl font-semibold tracking-tight sm:text-2xl">
                   Rstack Ecosystem CI
                 </h1>
-                {DATA_SOURCE === 'mock' ? (
-                  <Badge variant="warning">Mock data</Badge>
-                ) : null}
               </div>
               <p className="mt-0.5 text-sm text-muted-foreground">
                 Downstream test results for every Rstack project
               </p>
               <p className="mt-2 flex min-h-8 flex-col font-mono text-xs whitespace-nowrap text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5 md:min-h-4">
-                {schedule && (
-                  <>
-                    <span>Updated {schedule.lastUpdated ?? '—'}</span>
-                    <span aria-hidden className="hidden sm:inline">
-                      ·
-                    </span>
-                    <span>
-                      Next refresh{' '}
-                      {formatCountdown(schedule.countdownMinutes) ?? '—'}
-                    </span>
-                  </>
+                {historyState.status === 'success' && (
+                  <span>Loaded {formatTimestamp(historyState.loadedAt)}</span>
                 )}
               </p>
             </div>
@@ -304,14 +287,36 @@ export default function App() {
           onSelectRun={handleRunSelect}
         />
 
-        <Timeline
-          entries={stackEntries}
-          stacks={stackOptions}
-          selectedStack={selectedStack}
-          selectedSuite={selectedSuite}
-          onSuiteChange={handleSuiteChange}
-          focusRequest={focusRequest}
-        />
+        {historyState.status === 'success' ? (
+          <Timeline
+            entries={stackEntries}
+            stacks={stackOptions}
+            selectedStack={selectedStack}
+            selectedSuite={selectedSuite}
+            onSuiteChange={handleSuiteChange}
+            focusRequest={focusRequest}
+          />
+        ) : (
+          <div
+            role={historyState.status === 'error' ? 'alert' : 'status'}
+            className="rounded-xl border border-border px-4 py-16 text-center text-sm text-muted-foreground"
+          >
+            {historyState.status === 'error' ? (
+              <>
+                <p>Unable to load CI history. Please try again in a moment.</p>
+                <button
+                  type="button"
+                  className="mt-4 underline"
+                  onClick={() => window.location.reload()}
+                >
+                  Try again
+                </button>
+              </>
+            ) : (
+              'Loading CI history…'
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -330,6 +335,7 @@ interface StackStatusSummary {
 
 function buildStackStatuses(
   historyByStack: Record<StackId, EcosystemCommitHistory>,
+  loadStatus: HistoryState['status'],
 ) {
   return STACKS.map((stack) => {
     const records = historyByStack[stack.id] ?? [];
@@ -343,38 +349,14 @@ function buildStackStatuses(
     return {
       id: stack.id,
       label: stack.label,
-      status: latest?.overallStatus ?? 'missing',
+      status:
+        loadStatus === 'success'
+          ? (latest?.overallStatus ?? 'missing')
+          : loadStatus,
       recent,
       passRate: recent.length > 0 ? passed / recent.length : null,
     };
   });
-}
-
-interface UpdateSchedule {
-  lastUpdated: string | null;
-  countdownMinutes: number | null;
-}
-
-/** Schedule times in UTC hours: 01:00–18:00 (09:00–02:00+1 Beijing, hourly) */
-const SCHEDULE_HOURS_UTC = Array.from({ length: 18 }, (_, i) => i + 1);
-
-function buildUpdateSchedule(referenceTime: Date): UpdateSchedule {
-  const nextUpdate = getNextScheduledTime(referenceTime);
-
-  const countdownMinutes = Math.max(
-    0,
-    Math.floor((nextUpdate.getTime() - referenceTime.getTime()) / 60_000),
-  );
-
-  // Use actual build time if available, otherwise fall back to calculated previous schedule
-  const lastUpdated = BUILD_TIME
-    ? formatTimestamp(new Date(BUILD_TIME))
-    : formatTimestamp(getPrevScheduledTime(referenceTime));
-
-  return {
-    lastUpdated,
-    countdownMinutes,
-  };
 }
 
 function formatTimestamp(date: Date) {
@@ -388,55 +370,6 @@ function formatTimestamp(date: Date) {
   const offset = -date.getTimezoneOffset() / 60;
   const utcStr = `UTC${offset >= 0 ? '+' : ''}${offset}`;
   return `${dateStr} ${utcStr}`;
-}
-
-/** Build a Date for a specific UTC hour on a given day (offset in days from base). */
-function buildScheduleTime(base: Date, dayOffset: number, utcHour: number) {
-  const d = new Date(base);
-  d.setUTCHours(0, 0, 0, 0);
-  d.setUTCDate(d.getUTCDate() + dayOffset);
-  d.setUTCHours(utcHour);
-  return d;
-}
-
-/** Get candidates: yesterday's, today's, and tomorrow's scheduled times. */
-function getScheduleCandidates(base: Date) {
-  return [-1, 0, 1].flatMap((offset) =>
-    SCHEDULE_HOURS_UTC.map((hour) => buildScheduleTime(base, offset, hour)),
-  );
-}
-
-/** Returns the most recent scheduled time at or before `now`. */
-function getPrevScheduledTime(now: Date) {
-  const nowMs = now.getTime();
-  const candidates = getScheduleCandidates(now).filter(
-    (d) => d.getTime() <= nowMs,
-  );
-  return new Date(Math.max(...candidates.map((d) => d.getTime())));
-}
-
-/** Returns the next scheduled time strictly after `now`. */
-function getNextScheduledTime(now: Date) {
-  const nowMs = now.getTime();
-  const candidates = getScheduleCandidates(now).filter(
-    (d) => d.getTime() > nowMs,
-  );
-  return new Date(Math.min(...candidates.map((d) => d.getTime())));
-}
-
-function formatCountdown(minutes: number | null) {
-  if (minutes == null) {
-    return null;
-  }
-
-  const safeMinutes = Math.max(0, minutes);
-  const hours = Math.floor(safeMinutes / 60);
-  const mins = safeMinutes % 60;
-
-  if (hours > 0) {
-    return mins > 0 ? `in ${hours}h ${mins}min` : `in ${hours}h`;
-  }
-  return `in ${safeMinutes}min`;
 }
 
 const STATUS_STYLE: Record<
@@ -473,6 +406,20 @@ const STATUS_STYLE: Record<
   missing: {
     label: 'No data',
     runLabel: 'missing',
+    dot: 'bg-neutral-600',
+    text: 'text-muted-foreground',
+    segment: 'bg-white/[0.06]',
+  },
+  loading: {
+    label: 'Loading…',
+    runLabel: 'loading',
+    dot: 'bg-neutral-600',
+    text: 'text-muted-foreground',
+    segment: 'bg-white/[0.06]',
+  },
+  error: {
+    label: 'Unavailable',
+    runLabel: 'unavailable',
     dot: 'bg-neutral-600',
     text: 'text-muted-foreground',
     segment: 'bg-white/[0.06]',
@@ -538,7 +485,9 @@ function StackCards({
                 </span>
                 <span className="font-mono text-[11px] text-subtle-foreground">
                   {stack.passRate == null
-                    ? 'No runs'
+                    ? stack.status === 'missing'
+                      ? 'No runs'
+                      : '—'
                     : `${Math.round(stack.passRate * 100)}% pass`}
                 </span>
               </span>
