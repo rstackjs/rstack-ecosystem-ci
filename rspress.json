@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "90d6fbe36ad3781e584e8446bbe580acec9764c3",
+    "commitTimestamp": "2026-11-10T10:01:16Z",
+    "commitMessage": "fix(theme/Sidebar): refine nested item layout (#3841)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943/job/129760278652"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943/job/129760279053"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943/job/129760279086"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943/job/129760279142"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943/job/129760279324"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42795719943/job/129760279337"
+      }
+    ]
+  },
+  {
     "commitSha": "27ccb8be1f3443e40a4355501f99acdfcbe11b4d",
     "commitTimestamp": "2026-11-10T09:57:39Z",
     "commitMessage": "fix(theme/Search): ignore stale search results (#3850)",
