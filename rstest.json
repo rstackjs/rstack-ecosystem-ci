@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "742c990478f1db21920335a94647cb5eca66c0fa",
+    "commitTimestamp": "2026-11-10T07:14:22Z",
+    "commitMessage": "fix(core): relax happy-dom peer dependency to >=20.0.0 (#2072)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688558804"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688558916"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688558959"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688559024"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688559067"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688559136"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688559231"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42774132159/job/129688559354"
+      }
+    ]
+  },
+  {
     "commitSha": "93c5f926efea3a859f216549d81d35201d510654",
     "commitTimestamp": "2026-11-10T05:25:20Z",
     "commitMessage": "fix(core): print `null` for a null `$` value in `each` names (#2069)",
