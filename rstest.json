@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "93c5f926efea3a859f216549d81d35201d510654",
+    "commitTimestamp": "2026-11-10T05:25:20Z",
+    "commitMessage": "fix(core): print `null` for a null `$` value in `each` names (#2069)",
+    "author": {
+      "name": "Alexandre Kohler",
+      "email": "64209066+kwy404@users.noreply.github.com",
+      "login": "kwy404"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790421"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790447"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790454"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790579"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790580"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790603"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790661"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42762048870/job/129649790934"
+      }
+    ]
+  },
+  {
     "commitSha": "8270940b98ad60dcabe2864f6dbaa66a8d7cbebd",
     "commitTimestamp": "2026-11-10T05:24:46Z",
     "commitMessage": "fix(core): accept happy-dom 21 as a peer dependency (#2070)",
