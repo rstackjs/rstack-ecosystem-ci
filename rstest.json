@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "9cbae625ba13b315460f31c6d5feb5088b595152",
+    "commitTimestamp": "2026-11-10T05:24:02Z",
+    "commitMessage": "fix(core): align jsdom VM abort globals with Node fetch (#2066)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355179"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355389"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355501"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355515"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355554"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355558"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355638"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42761913091/job/129649355753"
+      }
+    ]
+  },
+  {
     "commitSha": "929d6ad9077a45731089cb5cda97e61610314683",
     "commitTimestamp": "2026-11-10T03:29:12Z",
     "commitMessage": "fix(core): return VM-local TextEncoder results (#2067)",
