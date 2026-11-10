@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
-import { useNavigate, useSearch } from '@tanstack/react-router';
+import { useHydrated, useNavigate, useSearch } from '@tanstack/react-router';
+import { useQuery } from '@tanstack/react-query';
 
 import { Timeline } from '@/components/timeline';
 import loadHistory from '@/data/remote/history';
@@ -11,14 +12,6 @@ import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 
 type StackStatus =
   EcosystemCommitRecord['overallStatus'] | 'missing' | 'loading' | 'error';
-
-type HistoryState =
-  | { status: 'loading' | 'error' }
-  | {
-      status: 'success';
-      history: Awaited<ReturnType<typeof loadHistory>>;
-      loadedAt: Date;
-    };
 
 const DEFAULT_STACK: StackId = 'rspack';
 
@@ -35,28 +28,22 @@ const RSTACK_REPOS = [
 ] as const;
 
 export default function App() {
-  const [historyState, setHistoryState] = useState<HistoryState>({
-    status: 'loading',
+  const hydrated = useHydrated();
+  const {
+    data: historySource,
+    dataUpdatedAt,
+    isError,
+    isFetching,
+    isPaused,
+    refetch,
+  } = useQuery({
+    queryKey: ['ci-history'],
+    queryFn: loadHistory,
+    enabled: hydrated,
   });
+  const loadStatus = historySource ? 'success' : isError ? 'error' : 'loading';
   const search = useSearch({ from: '/' });
   const navigate = useNavigate({ from: '/' });
-
-  useEffect(() => {
-    const controller = new AbortController();
-    void loadHistory(controller.signal).then(
-      (history) => {
-        if (!controller.signal.aborted) {
-          setHistoryState({ status: 'success', history, loadedAt: new Date() });
-        }
-      },
-      () => {
-        if (!controller.signal.aborted) {
-          setHistoryState({ status: 'error' });
-        }
-      },
-    );
-    return () => controller.abort();
-  }, []);
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
@@ -74,8 +61,7 @@ export default function App() {
   const historyByStack = useMemo(() => {
     const map = {} as Record<StackId, EcosystemCommitHistory>;
     for (const { id } of STACKS) {
-      const list =
-        historyState.status === 'success' ? historyState.history[id] : [];
+      const list = historySource?.[id] ?? [];
       map[id] = [...list].sort(
         (a, b) =>
           new Date(b.commitTimestamp).getTime() -
@@ -83,7 +69,7 @@ export default function App() {
       );
     }
     return map;
-  }, [historyState]);
+  }, [historySource]);
 
   useEffect(() => {
     if (!hasValidStack) {
@@ -170,8 +156,8 @@ export default function App() {
 
   const stackEntries = historyByStack[selectedStack] ?? [];
   const stackStatusSummary = useMemo(
-    () => buildStackStatuses(historyByStack, historyState.status),
-    [historyByStack, historyState.status],
+    () => buildStackStatuses(historyByStack, loadStatus),
+    [historyByStack, loadStatus],
   );
   const stackOptions = useMemo(
     () =>
@@ -210,8 +196,8 @@ export default function App() {
                 Downstream test results for every Rstack project
               </p>
               <p className="mt-2 flex min-h-8 flex-col font-mono text-xs whitespace-nowrap text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5 md:min-h-4">
-                {historyState.status === 'success' && (
-                  <span>Loaded {formatTimestamp(historyState.loadedAt)}</span>
+                {historySource && (
+                  <span>Loaded {formatTimestamp(new Date(dataUpdatedAt))}</span>
                 )}
               </p>
             </div>
@@ -287,7 +273,21 @@ export default function App() {
           onSelectRun={handleRunSelect}
         />
 
-        {historyState.status === 'success' ? (
+        {historySource && isError && (
+          <div role="alert" className="text-sm text-muted-foreground">
+            Unable to refresh CI history. Showing previously loaded data.{' '}
+            <button
+              type="button"
+              className="underline"
+              disabled={isFetching}
+              onClick={() => void refetch({ cancelRefetch: false })}
+            >
+              Try again
+            </button>
+          </div>
+        )}
+
+        {historySource ? (
           <Timeline
             entries={stackEntries}
             stacks={stackOptions}
@@ -298,20 +298,23 @@ export default function App() {
           />
         ) : (
           <div
-            role={historyState.status === 'error' ? 'alert' : 'status'}
+            role={isError ? 'alert' : 'status'}
             className="rounded-xl border border-border px-4 py-16 text-center text-sm text-muted-foreground"
           >
-            {historyState.status === 'error' ? (
+            {isError ? (
               <>
                 <p>Unable to load CI history. Please try again in a moment.</p>
                 <button
                   type="button"
                   className="mt-4 underline"
-                  onClick={() => window.location.reload()}
+                  disabled={isFetching}
+                  onClick={() => void refetch({ cancelRefetch: false })}
                 >
                   Try again
                 </button>
               </>
+            ) : isPaused ? (
+              'Waiting for a connection…'
             ) : (
               'Loading CI history…'
             )}
@@ -335,7 +338,7 @@ interface StackStatusSummary {
 
 function buildStackStatuses(
   historyByStack: Record<StackId, EcosystemCommitHistory>,
-  loadStatus: HistoryState['status'],
+  loadStatus: 'loading' | 'error' | 'success',
 ) {
   return STACKS.map((stack) => {
     const records = historyByStack[stack.id] ?? [];

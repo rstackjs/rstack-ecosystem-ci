@@ -7,6 +7,7 @@ import '@/index.css';
 
 import type { ReactNode } from 'react';
 import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router';
+import { HistoryQueryProvider } from '@/components/history-query-provider';
 
 export const Route = createRootRoute({
   head: () => ({
@@ -40,7 +41,7 @@ function RootDocument({ children }: { children: ReactNode }) {
         >
           Skip to content
         </a>
-        {children}
+        <HistoryQueryProvider>{children}</HistoryQueryProvider>
         <Scripts />
       </body>
     </html>

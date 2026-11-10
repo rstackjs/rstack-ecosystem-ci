@@ -5,8 +5,14 @@ The website uses TanStack Start SSR on Cloudflare Workers, built with Rsbuild an
 TanStack Start renders the page shell and loading state on the server. After
 hydration, the browser fetches the seven stack JSON files from
 `https://ecosystem-ci-data.rstack.rs`. History is not embedded in the HTML.
-Stack and suite changes reuse this snapshot; reload the page to fetch the latest
-history.
+TanStack Query shares in-flight requests and caches the latest successful
+snapshot in IndexedDB for up to 24 hours. Reloading restores the cached data
+after hydration, then refreshes it in the background. Failed refreshes keep the
+previous data visible and offer a retry. If browser storage is unavailable,
+the website continues with an in-memory cache.
+
+Stack and suite changes reuse the loaded snapshot. Window focus does not trigger
+a refresh; reload the page to fetch the latest history.
 
 - `pnpm dev`: start the development server; data is fetched by the browser.
 - `pnpm build`: build the Worker and static assets without fetching history.
