@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "628fdf10df6e53b8ac580c773bfb07e9372aba06",
+    "commitTimestamp": "2026-11-10T10:36:39Z",
+    "commitMessage": "fix(core): reuse jsdom environment modules in bundled tests (#2073)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776948639"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776948690"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776948851"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776948872"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776948899"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776948989"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776949008"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42800644396/job/129776949018"
+      }
+    ]
+  },
+  {
     "commitSha": "742c990478f1db21920335a94647cb5eca66c0fa",
     "commitTimestamp": "2026-11-10T07:14:22Z",
     "commitMessage": "fix(core): relax happy-dom peer dependency to >=20.0.0 (#2072)",
