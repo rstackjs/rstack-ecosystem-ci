@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "43c3e4bd99960b1c0aa2dcb2a6fff189363170c0",
+    "commitTimestamp": "2026-11-10T07:26:54Z",
+    "commitMessage": "chore(deps): update dependency @swc-next/parser to ^0.6.0 (#3845)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892/job/129697136155"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892/job/129697136166"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892/job/129697136372"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892/job/129697136392"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892/job/129697136564"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42776811892/job/129697136704"
+      }
+    ]
+  },
+  {
     "commitSha": "d2f0e521edba2a8547cf5405a197aa7a5d1b12ab",
     "commitTimestamp": "2026-11-10T07:10:19Z",
     "commitMessage": "refactor(theme): migrate `useStorageValue` to `useSyncExternalStore` 📦 (#3851)",
