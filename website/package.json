@@ -6,7 +6,8 @@
     "dev": "rs dev",
     "build": "rs build",
     "preview": "rs preview",
-    "deploy:prebuilt": "cf deploy --prebuilt"
+    "deploy:prebuilt": "cf deploy --prebuilt",
+    "deploy:preview": "cf previews deploy --prebuilt"
   },
   "dependencies": {
     "@fontsource/geist-mono": "^5.3.0",
