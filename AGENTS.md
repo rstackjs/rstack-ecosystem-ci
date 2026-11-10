@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-The CLI entry point lives in `ecosystem-ci.ts`, handling argument parsing, stack selection, and GitHub Actions plumbing. Shared helpers (`runInRepo`, git utilities, bootstrap logic) reside in `utils.ts`, while DTOs are defined in `types.d.ts`. Integration suites are colocated under `tests/<stack>/` (for example `tests/rsbuild/plugins.ts`) and export an async `test(options: RunOptions)` function. Runtime clones are created under `workspace/`; treat this directory as disposable and keep it untracked. The `website/` directory hosts the SSR dashboard, which loads history at request time from `https://ecosystem-ci-data.rstack.rs`. Cloudflare Pages automatically publishes the `data` branch separately from the website Worker.
+The CLI entry point lives in `ecosystem-ci.ts`, handling argument parsing, stack selection, and GitHub Actions plumbing. Shared helpers (`runInRepo`, git utilities, bootstrap logic) reside in `utils.ts`, while DTOs are defined in `types.d.ts`. Integration suites are colocated under `tests/<stack>/` (for example `tests/rsbuild/plugins.ts`) and export an async `test(options: RunOptions)` function. Runtime clones are created under `workspace/`; treat this directory as disposable and keep it untracked. The `website/` directory hosts the dashboard, whose page shell is rendered with SSR and whose history is fetched by the browser from `https://ecosystem-ci-data.rstack.rs`. Cloudflare Pages automatically publishes the `data` branch separately from the website Worker.
 
 ## Build, Test, and Development Commands
 

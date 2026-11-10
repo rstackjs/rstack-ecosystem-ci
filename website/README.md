@@ -2,12 +2,13 @@
 
 The website uses TanStack Start SSR on Cloudflare Workers, built with Rsbuild and
 `rsbuild-plugin-cloudflare` through `rstack.config.ts` and the `rs` commands.
-The route loader fetches history from `https://ecosystem-ci-data.rstack.rs` at
-request time. TanStack Start renders the dashboard on the server and hydrates it
-with the same data. Stack and suite changes reuse this snapshot; reload the page
-to fetch the latest history.
+TanStack Start renders the page shell and loading state on the server. After
+hydration, the browser fetches the seven stack JSON files from
+`https://ecosystem-ci-data.rstack.rs`. History is not embedded in the HTML.
+Stack and suite changes reuse this snapshot; reload the page to fetch the latest
+history.
 
-- `pnpm dev`: start the development server; data is fetched when a page is requested.
+- `pnpm dev`: start the development server; data is fetched by the browser.
 - `pnpm build`: build the Worker and static assets without fetching history.
 - `pnpm preview`: preview the production build in workerd.
 - `pnpm deploy:prebuilt`: deploy the existing `.cloudflare/output` build.

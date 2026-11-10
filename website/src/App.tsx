@@ -1,19 +1,24 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
-import {
-  useHydrated,
-  useLoaderData,
-  useNavigate,
-  useSearch,
-} from '@tanstack/react-router';
+import { useNavigate, useSearch } from '@tanstack/react-router';
 
 import { Timeline } from '@/components/timeline';
+import loadHistory from '@/data/remote/history';
 import { STACKS, type StackId } from '@/data/stacks';
 import { cn, formatCommitTime, shortSha } from '@/lib/utils';
 import type { EcosystemCommitHistory, EcosystemCommitRecord } from '@/types';
 
-type StackStatus = EcosystemCommitRecord['overallStatus'] | 'missing';
+type StackStatus =
+  EcosystemCommitRecord['overallStatus'] | 'missing' | 'loading' | 'error';
+
+type HistoryState =
+  | { status: 'loading' | 'error' }
+  | {
+      status: 'success';
+      history: Awaited<ReturnType<typeof loadHistory>>;
+      loadedAt: Date;
+    };
 
 const DEFAULT_STACK: StackId = 'rspack';
 
@@ -30,10 +35,28 @@ const RSTACK_REPOS = [
 ] as const;
 
 export default function App() {
-  const { history: historySource, loadedAt } = useLoaderData({ from: '/' });
-  const hydrated = useHydrated();
+  const [historyState, setHistoryState] = useState<HistoryState>({
+    status: 'loading',
+  });
   const search = useSearch({ from: '/' });
   const navigate = useNavigate({ from: '/' });
+
+  useEffect(() => {
+    const controller = new AbortController();
+    void loadHistory(controller.signal).then(
+      (history) => {
+        if (!controller.signal.aborted) {
+          setHistoryState({ status: 'success', history, loadedAt: new Date() });
+        }
+      },
+      () => {
+        if (!controller.signal.aborted) {
+          setHistoryState({ status: 'error' });
+        }
+      },
+    );
+    return () => controller.abort();
+  }, []);
 
   const [isRepoMenuOpen, setIsRepoMenuOpen] = useState(false);
   const repoMenuRef = useRef<HTMLDivElement | null>(null);
@@ -51,7 +74,8 @@ export default function App() {
   const historyByStack = useMemo(() => {
     const map = {} as Record<StackId, EcosystemCommitHistory>;
     for (const { id } of STACKS) {
-      const list = historySource[id] ?? [];
+      const list =
+        historyState.status === 'success' ? historyState.history[id] : [];
       map[id] = [...list].sort(
         (a, b) =>
           new Date(b.commitTimestamp).getTime() -
@@ -59,7 +83,7 @@ export default function App() {
       );
     }
     return map;
-  }, [historySource]);
+  }, [historyState]);
 
   useEffect(() => {
     if (!hasValidStack) {
@@ -146,8 +170,8 @@ export default function App() {
 
   const stackEntries = historyByStack[selectedStack] ?? [];
   const stackStatusSummary = useMemo(
-    () => buildStackStatuses(historyByStack),
-    [historyByStack],
+    () => buildStackStatuses(historyByStack, historyState.status),
+    [historyByStack, historyState.status],
   );
   const stackOptions = useMemo(
     () =>
@@ -186,8 +210,8 @@ export default function App() {
                 Downstream test results for every Rstack project
               </p>
               <p className="mt-2 flex min-h-8 flex-col font-mono text-xs whitespace-nowrap text-subtle-foreground sm:flex-row sm:flex-wrap sm:gap-x-1.5 md:min-h-4">
-                {hydrated && (
-                  <span>Loaded {formatTimestamp(new Date(loadedAt))}</span>
+                {historyState.status === 'success' && (
+                  <span>Loaded {formatTimestamp(historyState.loadedAt)}</span>
                 )}
               </p>
             </div>
@@ -263,14 +287,36 @@ export default function App() {
           onSelectRun={handleRunSelect}
         />
 
-        <Timeline
-          entries={stackEntries}
-          stacks={stackOptions}
-          selectedStack={selectedStack}
-          selectedSuite={selectedSuite}
-          onSuiteChange={handleSuiteChange}
-          focusRequest={focusRequest}
-        />
+        {historyState.status === 'success' ? (
+          <Timeline
+            entries={stackEntries}
+            stacks={stackOptions}
+            selectedStack={selectedStack}
+            selectedSuite={selectedSuite}
+            onSuiteChange={handleSuiteChange}
+            focusRequest={focusRequest}
+          />
+        ) : (
+          <div
+            role={historyState.status === 'error' ? 'alert' : 'status'}
+            className="rounded-xl border border-border px-4 py-16 text-center text-sm text-muted-foreground"
+          >
+            {historyState.status === 'error' ? (
+              <>
+                <p>Unable to load CI history. Please try again in a moment.</p>
+                <button
+                  type="button"
+                  className="mt-4 underline"
+                  onClick={() => window.location.reload()}
+                >
+                  Try again
+                </button>
+              </>
+            ) : (
+              'Loading CI history…'
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -289,6 +335,7 @@ interface StackStatusSummary {
 
 function buildStackStatuses(
   historyByStack: Record<StackId, EcosystemCommitHistory>,
+  loadStatus: HistoryState['status'],
 ) {
   return STACKS.map((stack) => {
     const records = historyByStack[stack.id] ?? [];
@@ -302,7 +349,10 @@ function buildStackStatuses(
     return {
       id: stack.id,
       label: stack.label,
-      status: latest?.overallStatus ?? 'missing',
+      status:
+        loadStatus === 'success'
+          ? (latest?.overallStatus ?? 'missing')
+          : loadStatus,
       recent,
       passRate: recent.length > 0 ? passed / recent.length : null,
     };
@@ -356,6 +406,20 @@ const STATUS_STYLE: Record<
   missing: {
     label: 'No data',
     runLabel: 'missing',
+    dot: 'bg-neutral-600',
+    text: 'text-muted-foreground',
+    segment: 'bg-white/[0.06]',
+  },
+  loading: {
+    label: 'Loading…',
+    runLabel: 'loading',
+    dot: 'bg-neutral-600',
+    text: 'text-muted-foreground',
+    segment: 'bg-white/[0.06]',
+  },
+  error: {
+    label: 'Unavailable',
+    runLabel: 'unavailable',
     dot: 'bg-neutral-600',
     text: 'text-muted-foreground',
     segment: 'bg-white/[0.06]',
@@ -421,7 +485,9 @@ function StackCards({
                 </span>
                 <span className="font-mono text-[11px] text-subtle-foreground">
                   {stack.passRate == null
-                    ? 'No runs'
+                    ? stack.status === 'missing'
+                      ? 'No runs'
+                      : '—'
                     : `${Math.round(stack.passRate * 100)}% pass`}
                 </span>
               </span>
