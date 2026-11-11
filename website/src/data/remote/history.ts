@@ -3,8 +3,9 @@ import type { EcosystemCommitHistory } from '@/types';
 
 const DATA_URL = 'https://ecosystem-ci-data.rstack.rs';
 
-export default async function loadHistory(signal: AbortSignal) {
-  const requestSignal = AbortSignal.any([signal, AbortSignal.timeout(15_000)]);
+export default async function loadHistory() {
+  // Keep shared requests alive across StrictMode remounts, with a timeout.
+  const requestSignal = AbortSignal.timeout(15_000);
   const entries = await Promise.all(
     STACKS.map(async ({ id }) => {
       const response = await fetch(`${DATA_URL}/${id}.json`, {
