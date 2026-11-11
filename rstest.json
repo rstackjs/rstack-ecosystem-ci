@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2ffecf2b2187b758274fd549e199366c1be0790b",
+    "commitTimestamp": "2026-11-11T07:50:16Z",
+    "commitMessage": "fix(core): reject Node loader hook registration in VM pools (#2079)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395729952"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395729986"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395730024"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395730089"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395730093"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395730124"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395730161"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42982434704/job/130395730214"
+      }
+    ]
+  },
+  {
     "commitSha": "ee3e7c7a20e7a2c414adc17fc3580122de4d2c92",
     "commitTimestamp": "2026-11-11T06:08:26Z",
     "commitMessage": "fix(playwright): prevent hangs during fixture cleanup (#2076)",
