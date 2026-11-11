@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a82d24bc08ad6621c583aede7ff37c887c6905a0",
+    "commitTimestamp": "2026-11-11T07:18:40Z",
+    "commitMessage": "fix(theme/Sidebar): shorten nested active indicator (#3855)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420/job/130383482757"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420/job/130383482830"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420/job/130383482857"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420/job/130383482902"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420/job/130383482911"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978615420/job/130383482928"
+      }
+    ]
+  },
+  {
     "commitSha": "d7c403dd6f6abe5d70a5404eddd5e6a05f3974d2",
     "commitTimestamp": "2026-11-11T06:43:29Z",
     "commitMessage": "fix(theme/Sidebar): restore spacing and keep active label width stable (#3854)",
