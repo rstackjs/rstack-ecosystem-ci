@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7a2fd91dcbc0f918a1c86a8640b3ea638b902d6e",
+    "commitTimestamp": "2026-11-11T05:45:06Z",
+    "commitMessage": "feat(deps): update @rsbuild/core to 2.3.2 (#2020)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048736"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048751"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048764"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048778"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048852"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048866"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048894"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42968135338/job/130350048935"
+      }
+    ]
+  },
+  {
     "commitSha": "194099f86cf9292de586796ffa74a0ab845537b3",
     "commitTimestamp": "2026-11-10T06:19:22Z",
     "commitMessage": "fix: apply JS banner and footer to `.jsx` output files (#2018)",
