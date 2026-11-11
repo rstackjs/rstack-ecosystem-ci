@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "80590b0c88f1855c824d99685336c3bbfd19cba9",
+    "commitTimestamp": "2026-11-11T08:45:29Z",
+    "commitMessage": "chore(release): bump version to 2.1.2 (#3857)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947/job/130421778124"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947/job/130421778178"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947/job/130421778265"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947/job/130421778323"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947/job/130421778410"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42990451947/job/130421779102"
+      }
+    ]
+  },
+  {
     "commitSha": "d63518994e634dec9590c26b719e47e00e780622",
     "commitTimestamp": "2026-11-11T07:21:40Z",
     "commitMessage": "fix(theme): Improve dropdown accessibility 🔊 (#3852)",
