@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dae6566f7a1c51216352a48a50f3356e536d7bf8",
+    "commitTimestamp": "2026-11-11T07:20:02Z",
+    "commitMessage": "test(e2e): stabilize API docgen translation updates (#3853)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592/job/130384018900"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592/job/130384018924"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592/job/130384018942"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592/job/130384018958"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592/job/130384018964"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42978783592/job/130384019009"
+      }
+    ]
+  },
+  {
     "commitSha": "a82d24bc08ad6621c583aede7ff37c887c6905a0",
     "commitTimestamp": "2026-11-11T07:18:40Z",
     "commitMessage": "fix(theme/Sidebar): shorten nested active indicator (#3855)",
