@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ee3e7c7a20e7a2c414adc17fc3580122de4d2c92",
+    "commitTimestamp": "2026-11-11T06:08:26Z",
+    "commitMessage": "fix(playwright): prevent hangs during fixture cleanup (#2076)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157236"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157249"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157368"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157392"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157525"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157626"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157658"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42970356178/job/130357157822"
+      }
+    ]
+  },
+  {
     "commitSha": "439398a2bff19aa583b89b704a7feb39dc4f8b8c",
     "commitTimestamp": "2026-11-10T11:27:21Z",
     "commitMessage": "fix(core): reuse happy-dom environment modules in bundled tests (#2075)",
