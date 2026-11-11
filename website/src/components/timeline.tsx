@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { createPortal } from 'react-dom';
 
+import { Avatar } from '@/components/avatar';
 import { Badge } from '@/components/ui/badge';
 import {
   Select,
@@ -407,12 +408,8 @@ export function Timeline({
             />
             <div className="flex items-start gap-3">
               {avatarUrl ? (
-                <img
+                <Avatar
                   src={avatarUrl}
-                  alt=""
-                  width="28"
-                  height="28"
-                  loading="lazy"
                   className={cn(
                     'size-7 flex-none bg-white/5 ring-1 ring-border',
                     isRenovateBot ? 'rounded-md' : 'rounded-full',
