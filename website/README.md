@@ -35,45 +35,20 @@ Cloudflare builds and deploys on changes to `main`.
 
 ### PR previews
 
-After merging this configuration, set the Preview command above and enable
-**Builds for Preview branches** under **Settings > Builds > Branch control**.
-Enable Preview URLs on the Worker's `workers.dev` domain if they are disabled.
-Workers Builds creates previews for non-production branches and posts their URLs
-to associated pull requests through its GitHub integration.
+After merging, set the Preview command above, enable **Builds for Preview branches**
+under **Settings > Builds > Branch control**, and enable Preview URLs on the
+Worker's `workers.dev` domain. Cloudflare posts preview URLs to associated PRs.
 
-The shared build command uses `WORKERS_CI_BRANCH` to set
-`CLOUDFLARE_PREVIEW_BUILD=true` on branches other than `main` in Workers Builds.
-This lets `rsbuild-plugin-cloudflare` generate the preview Build Output required
-by `cf previews deploy --prebuilt`. Builds for `main` produce production output.
-Keep the production branch setting and the comparison in `rstack.config.ts` in sync.
-The preview name defaults to the branch name, so subsequent pushes update that
-branch's preview. The pinned `cf` version supports reporting Preview URLs to
-Workers Builds; no GitHub Actions deployment workflow or new repository secret
-is needed.
-
-Before enabling preview branches, configure
+Before enabling previews, replace the default `*` in
 [Build watch paths](https://developers.cloudflare.com/workers/ci-cd/builds/build-watch-paths/)
-with these include paths (one per entry), replacing the default `*`:
+with these include paths to skip routine data-only and unrelated CI changes:
 
 ```text
-website/*
-package.json
-pnpm-lock.yaml
-pnpm-workspace.yaml
-.nvmrc
-patches/*
-rstack.config.ts
-tsconfig.json
+website/*, package.json, pnpm-lock.yaml, pnpm-workspace.yaml, .nvmrc, patches/*, rstack.config.ts, tsconfig.json
 ```
 
-This skips routine `data` branch JSON updates and unrelated CI suite changes.
-Cloudflare bypasses path filters for empty pushes, pushes with 3,000+ changed files,
-or 20+ commits; these filters are not a branch exclusion rule.
-
-Previews use the same public history endpoint as production. They need no extra
-runtime bindings or secrets. For a manual preview build, run
-`CLOUDFLARE_PREVIEW_BUILD=true pnpm build` from `website/`, then
-`pnpm deploy:preview` with Cloudflare authentication configured.
+Keep the production branch set to `main`, matching `rstack.config.ts`. Other
+branches generate preview output and use the same public history endpoint.
 
 ## Data deployment
 
