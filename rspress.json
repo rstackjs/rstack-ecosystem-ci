@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d63518994e634dec9590c26b719e47e00e780622",
+    "commitTimestamp": "2026-11-11T07:21:40Z",
+    "commitMessage": "fix(theme): Improve dropdown accessibility 🔊 (#3852)",
+    "author": {
+      "name": "Sanjaiyan Parthipan",
+      "email": "parthipankalayini@gmail.com",
+      "login": "sanjaiyan-dev"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537/job/130386452983"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537/job/130386452992"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537/job/130386452997"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537/job/130386453025"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537/job/130386453045"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/42979542537/job/130386453098"
+      }
+    ]
+  },
+  {
     "commitSha": "dae6566f7a1c51216352a48a50f3356e536d7bf8",
     "commitTimestamp": "2026-11-11T07:20:02Z",
     "commitMessage": "test(e2e): stabilize API docgen translation updates (#3853)",
