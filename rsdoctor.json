@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "a7d522dba1825ebd0a5baf1a929e4c986337700e",
+    "commitTimestamp": "2026-11-12T06:37:02Z",
+    "commitMessage": "fix(core): show loader hooks the original loaders on Rspack (#2162)",
+    "author": {
+      "name": "Henry Q. Dineen",
+      "email": "henryqdineen@users.noreply.github.com",
+      "login": "henryqdineen"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43169524678",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43169524678/job/131019195363"
+      }
+    ]
+  },
+  {
     "commitSha": "f050c0ffdff3dd94eaa4a8604d3a5ca432c59217",
     "commitTimestamp": "2026-11-12T04:37:42Z",
     "commitMessage": "fix(core): decycle the compiler config before reporting it (#2157)",
