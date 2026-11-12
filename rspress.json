@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb43872f96f5e5248208822770d36037600f9279",
+    "commitTimestamp": "2026-11-12T03:49:55Z",
+    "commitMessage": "fix(theme): guard storage subscriptions during Markdown rendering (#3859)",
+    "author": {
+      "name": "buyfakett",
+      "email": "buyfakett@vip.qq.com",
+      "login": "buyfakett"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333/job/130960815821"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333/job/130960815824"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333/job/130960815864"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333/job/130960815875"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333/job/130960815882"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43151299333/job/130960815907"
+      }
+    ]
+  },
+  {
     "commitSha": "80590b0c88f1855c824d99685336c3bbfd19cba9",
     "commitTimestamp": "2026-11-11T08:45:29Z",
     "commitMessage": "chore(release): bump version to 2.1.2 (#3857)",
