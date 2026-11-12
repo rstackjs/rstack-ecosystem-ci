@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a53d792480416c9c24417f4555b5f04ee87843b9",
+    "commitTimestamp": "2026-11-12T08:30:53Z",
+    "commitMessage": "Release v2.1.3 (#3861)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778/job/131065964592"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778/job/131065964613"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778/job/131065964676"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778/job/131065964691"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778/job/131065964995"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43183807778/job/131065965115"
+      }
+    ]
+  },
+  {
     "commitSha": "597383e964612b718149791117f5b0547dfbc2e4",
     "commitTimestamp": "2026-11-12T08:10:50Z",
     "commitMessage": "fix(theme/Prompt): improve Markdown output (#3862)",
