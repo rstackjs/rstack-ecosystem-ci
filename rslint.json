@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "542736a790fde36e815599df53c3cc9d9fcaf7e5",
+    "commitTimestamp": "2026-11-12T08:35:42Z",
+    "commitMessage": "feat(unicorn): add no-useless-undefined rule (#2572)",
+    "author": {
+      "name": "senze.fan",
+      "email": "151665030@qq.com",
+      "login": "fansenze"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234411"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234434"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234435"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234441"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234442"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234486"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234492"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234521"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234633"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43184334941/job/131083234648"
+      }
+    ]
+  },
+  {
     "commitSha": "cba1beff892b2bf6d458563d61c57a38e846015d",
     "commitTimestamp": "2026-11-12T08:04:48Z",
     "commitMessage": "refactor(test): migrate jsx-a11y tests to @rslint/rule-tester (#2570)",
