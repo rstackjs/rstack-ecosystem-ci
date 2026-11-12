@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d7f70f37480acc85716ffb298c2f81e3e05755d6",
+    "commitTimestamp": "2026-11-12T06:52:05Z",
+    "commitMessage": "fix(theme/PageTabs): keep the TOC in sync with the active tab (#3860)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244/job/131025499501"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244/job/131025499505"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244/job/131025499622"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244/job/131025499646"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244/job/131025499738"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43171459244/job/131025499786"
+      }
+    ]
+  },
+  {
     "commitSha": "eb43872f96f5e5248208822770d36037600f9279",
     "commitTimestamp": "2026-11-12T03:49:55Z",
     "commitMessage": "fix(theme): guard storage subscriptions during Markdown rendering (#3859)",
