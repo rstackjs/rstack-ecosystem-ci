@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "7b1f298b7f44815daf890f647900fc000dcdd303",
+    "commitTimestamp": "2026-11-12T11:07:46Z",
+    "commitMessage": "feat(unicorn): add no-array-sort-for-min-max rule (#2580)",
+    "author": {
+      "name": "senze.fan",
+      "email": "151665030@qq.com",
+      "login": "fansenze"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435582"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435591"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435599"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435610"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435693"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435732"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435738"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435739"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435766"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43206690723/job/131163435826"
+      }
+    ]
+  },
+  {
     "commitSha": "083fc4bd1d67a778c476d3c93c52a8acb71ae7f1",
     "commitTimestamp": "2026-11-12T10:25:57Z",
     "commitMessage": "fix(typescript): fix no-var-requires behavior gaps and port upstream test suite (#2578)",
