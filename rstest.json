@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "bf1fa076077ce5035465162555e7f0b3c1808d45",
+    "commitTimestamp": "2026-11-12T10:41:14Z",
+    "commitMessage": "perf(core): speed up mock call history reads (#2089)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129520924"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129520976"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129521033"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129521098"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129521122"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129521161"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129521162"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43202581763/job/131129521297"
+      }
+    ]
+  },
+  {
     "commitSha": "59ad9b841baf0591c9a6b545c91cb088edcdad81",
     "commitTimestamp": "2026-11-12T08:18:52Z",
     "commitMessage": "feat(browser): run multiple browsers per project with browser.instances (#2074)",
