@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "bc6b5e87c07f3ce398912408029ad6cc6ec50ae2",
+    "commitTimestamp": "2026-11-12T13:00:55Z",
+    "commitMessage": "perf(core): avoid empty Promise.all in reporter hooks (#2090)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916358"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916698"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916783"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916814"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916829"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916854"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199916936"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43223263864/job/131199917075"
+      }
+    ]
+  },
+  {
     "commitSha": "925ff97626f1a0ce9451c9b4731811d9e47aa65b",
     "commitTimestamp": "2026-11-12T11:09:29Z",
     "commitMessage": "fix(core): report file-level failures in the JUnit reporter (#2084)",
