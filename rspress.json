@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "597383e964612b718149791117f5b0547dfbc2e4",
+    "commitTimestamp": "2026-11-12T08:10:50Z",
+    "commitMessage": "fix(theme/Prompt): improve Markdown output (#3862)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166/job/131059142066"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166/job/131059142077"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166/job/131059142090"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166/job/131059142192"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166/job/131059142230"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43181746166/job/131059142409"
+      }
+    ]
+  },
+  {
     "commitSha": "d7f70f37480acc85716ffb298c2f81e3e05755d6",
     "commitTimestamp": "2026-11-12T06:52:05Z",
     "commitMessage": "fix(theme/PageTabs): keep the TOC in sync with the active tab (#3860)",
