@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "3ef130870defa6d79aebce3d70b8ddf2e7e7ba98",
+    "commitTimestamp": "2026-11-12T04:40:38Z",
+    "commitMessage": "feat(unicorn): add no-selector-as-dom-name rule (#2566)",
+    "author": {
+      "name": "yzh20060401",
+      "email": "1647272806@qq.com",
+      "login": "yzh20060401"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449570"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449587"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449609"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449632"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449638"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449662"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449670"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449706"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449810"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43156374014/job/130991449824"
+      }
+    ]
+  },
+  {
     "commitSha": "37d66576a4a3ed210adfca213f894bca1b2a6b64",
     "commitTimestamp": "2026-11-12T03:16:03Z",
     "commitMessage": "fix: fix no-constant-condition behavior gaps and port upstream test suites (#2563)",
