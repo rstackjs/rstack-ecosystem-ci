@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c82d333c5f90df1aab91433f80a9a0452e7b273d",
+    "commitTimestamp": "2026-11-13T03:29:10Z",
+    "commitMessage": "docs: enable ESM output for website (#3866)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811/job/131668808768"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811/job/131668808843"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811/job/131668808922"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811/job/131668808998"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811/job/131668809244"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43359316811/job/131668809387"
+      }
+    ]
+  },
+  {
     "commitSha": "0bf2a2044c4cd57f958e7e1f501ee6bb36676318",
     "commitTimestamp": "2026-11-12T10:35:01Z",
     "commitMessage": "chore(plugins): declare package side effects (#3863)",
