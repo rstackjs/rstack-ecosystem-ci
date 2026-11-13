@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b70bfe665e6fcbae85935f3fca45468e59932e9a",
+    "commitTimestamp": "2026-11-13T06:42:46Z",
+    "commitMessage": "fix(core): invalidate build cache when Rslib is upgraded (#2024)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387704"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387741"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387785"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387793"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387807"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387829"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387843"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43380652258/job/131737387873"
+      }
+    ]
+  },
+  {
     "commitSha": "126cf660521be418ad9d70ad75e4b2658ce4d086",
     "commitTimestamp": "2026-11-12T10:46:32Z",
     "commitMessage": "chore(deps): upgrade local Rslib to 1.0.7 (#2022)",
