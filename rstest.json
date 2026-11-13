@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8b8a9049dec4c5584f62e7fbd7c08a9c99e27953",
+    "commitTimestamp": "2026-11-13T08:49:32Z",
+    "commitMessage": "fix(core): observe mock promises once and record inspection errors (#2098)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032417"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032522"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032572"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032628"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032647"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032668"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032690"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43396932930/job/131790032721"
+      }
+    ]
+  },
+  {
     "commitSha": "1aa6bc9f034c8f42db6a0d9f107e8867146346e1",
     "commitTimestamp": "2026-11-13T08:23:26Z",
     "commitMessage": "fix(playwright): preserve errors across context cleanup stages (#2097)",
