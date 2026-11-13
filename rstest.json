@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8e7872442b5de3f08da7f31f8e491a715b6f2ce5",
+    "commitTimestamp": "2026-11-13T09:49:36Z",
+    "commitMessage": "fix(core): format objects for `%s`, `%o` and `%O` in `each` names (#2093)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430648"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430682"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430697"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430708"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430788"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430853"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815430873"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43404507782/job/131815431007"
+      }
+    ]
+  },
+  {
     "commitSha": "7107ef685a685a25fc265816369c20dd73513a40",
     "commitTimestamp": "2026-11-13T09:49:21Z",
     "commitMessage": "fix(core): clarify worker crash diagnostics (#2099)",
