@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ad2a0f6e87294158fd33d5b2d03e3c71f2e5954d",
+    "commitTimestamp": "2026-11-13T05:25:38Z",
+    "commitMessage": "fix(core): show test names literally in the GitHub Actions step summary (#2091)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579538"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579577"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579578"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579586"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579616"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579621"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579649"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43371973032/job/131709579659"
+      }
+    ]
+  },
+  {
     "commitSha": "bc6b5e87c07f3ce398912408029ad6cc6ec50ae2",
     "commitTimestamp": "2026-11-12T13:00:55Z",
     "commitMessage": "perf(core): avoid empty Promise.all in reporter hooks (#2090)",
