@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "24a2fa5d5d89202c241795e4721e8ac4214d2053",
+    "commitTimestamp": "2026-11-13T11:04:07Z",
+    "commitMessage": "fix(core): preserve each name values and handle circular collections (#2102)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399628"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399638"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399678"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399703"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399732"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399803"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399839"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43414052731/job/131847399984"
+      }
+    ]
+  },
+  {
     "commitSha": "8e7872442b5de3f08da7f31f8e491a715b6f2ce5",
     "commitTimestamp": "2026-11-13T09:49:36Z",
     "commitMessage": "fix(core): format objects for `%s`, `%o` and `%O` in `each` names (#2093)",
