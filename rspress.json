@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "d6c12dca298f8113be53161d65209d866c4c49f4",
+    "commitTimestamp": "2026-11-15T17:01:59Z",
+    "commitMessage": "fix(core): alias the React Compiler runtime (#3870)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802/job/132887244578"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802/job/132887244580"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802/job/132887244670"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802/job/132887244682"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802/job/132887244759"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43738810802/job/132887245099"
+      }
+    ]
+  },
+  {
     "commitSha": "c82d333c5f90df1aab91433f80a9a0452e7b273d",
     "commitTimestamp": "2026-11-13T03:29:10Z",
     "commitMessage": "docs: enable ESM output for website (#3866)",
