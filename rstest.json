@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "bbf2195695a31c90d7a0764b251f2d717ffd4385",
+    "commitTimestamp": "2026-11-16T09:32:09Z",
+    "commitMessage": "feat(browser): bound open browsers by pool.maxWorkers (#2088)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153681"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153704"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153716"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153738"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153800"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153877"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153887"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43840648605/job/133208153928"
+      }
+    ]
+  },
+  {
     "commitSha": "3e07a69ad264d112bfccf6d5a0d1bf61ab6c59d5",
     "commitTimestamp": "2026-11-16T08:10:01Z",
     "commitMessage": "fix(core): include environment preparation in the initial run duration (#2107)",
