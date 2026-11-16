@@ -166,6 +166,89 @@
     ]
   },
   {
+    "commitSha": "7f7994d97a2dc918c51ecdf8c0089e99291a9e07",
+    "commitTimestamp": "2026-11-16T02:03:32Z",
+    "commitMessage": "perf(core): avoid serializing hook register arrays (#16628)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612685"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612707"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612719"
+      },
+      {
+        "name": "rsbuild",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612720"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612732"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612738"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612740"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612761"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612777"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612781"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612893"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046612982"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790138606/job/133046613264"
+      }
+    ]
+  },
+  {
     "commitSha": "bb73327f04c0e4aa3af77240baab8ade7708a687",
     "commitTimestamp": "2026-11-14T17:14:27Z",
     "commitMessage": "fix(javascript): preserve outer ASI boundaries across nested statements (#16613)",
