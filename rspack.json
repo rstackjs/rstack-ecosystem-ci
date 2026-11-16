@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "0af9dc77862d81788c5e53d16ea0d3a3886df481",
+    "commitTimestamp": "2026-11-16T09:29:04Z",
+    "commitMessage": "fix(tree-shaking): resolve CommonJS default re-export to module.exports (#16639)",
+    "author": {
+      "name": "hai-x",
+      "email": "98948357+hai-x@users.noreply.github.com",
+      "login": "hai-x"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555827"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555884"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555941"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555947"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555956"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555960"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555970"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555984"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212555985"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212556038"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212556054"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212556072"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43841903794/job/133212557091"
+      }
+    ]
+  },
+  {
     "commitSha": "f9f7287caf29bd55c5fbf0555e6018ab6c4c51ff",
     "commitTimestamp": "2026-11-16T08:55:46Z",
     "commitMessage": "fix(cache): include loader configuration and versions in etags (#16591)",
