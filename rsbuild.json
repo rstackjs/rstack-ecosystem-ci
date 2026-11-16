@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "9a842ce179fc9264dfb3d98c8bcf1461e49cd157",
+    "commitTimestamp": "2026-11-16T02:13:39Z",
+    "commitMessage": "perf(core): avoid splitting environment override paths (#8880)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029436"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029512"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029519"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029581"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029584"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029594"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029715"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029739"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43792863517/job/133055029743"
+      }
+    ]
+  },
+  {
     "commitSha": "3957c2b31f6068fbba0475463be400907d976cf6",
     "commitTimestamp": "2026-11-16T02:12:58Z",
     "commitMessage": "perf(core): avoid splitting loader chains in diagnostics (#8879)",
