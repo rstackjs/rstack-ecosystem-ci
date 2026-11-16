@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "3e07a69ad264d112bfccf6d5a0d1bf61ab6c59d5",
+    "commitTimestamp": "2026-11-16T08:10:01Z",
+    "commitMessage": "fix(core): include environment preparation in the initial run duration (#2107)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786708"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786735"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786738"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786745"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786786"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786795"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786822"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43829089484/job/133169786842"
+      }
+    ]
+  },
+  {
     "commitSha": "24a2fa5d5d89202c241795e4721e8ac4214d2053",
     "commitTimestamp": "2026-11-13T11:04:07Z",
     "commitMessage": "fix(core): preserve each name values and handle circular collections (#2102)",
