@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "f3f4682262e2a198722461210cb5ec38ee247c8e",
+    "commitTimestamp": "2026-11-16T02:06:08Z",
+    "commitMessage": "test(cli): propagate watch startup errors (#16541)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048414905"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048414931"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048414936"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048414952"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048414979"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415014"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415037"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415041"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415052"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415057"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415098"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415107"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43790440391/job/133048415124"
+      }
+    ]
+  },
+  {
     "commitSha": "9f44246cf8569efaf1b40fbe473a8d653c6da1cb",
     "commitTimestamp": "2026-11-16T02:04:45Z",
     "commitMessage": "perf(stats): reuse split error details when truncating output (#16632)",
