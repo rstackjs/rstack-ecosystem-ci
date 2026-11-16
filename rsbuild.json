@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "daf9c3e5c0cadde732b63a92f8269de5dcdc75d1",
+    "commitTimestamp": "2026-11-16T09:49:00Z",
+    "commitMessage": "perf(core): interpolate Content-Range headers directly (#8901)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553668"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553785"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553819"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553858"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553861"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553903"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222553976"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222554108"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43844900720/job/133222555312"
+      }
+    ]
+  },
+  {
     "commitSha": "a89fe47349a8126d6ec4272f3b65d9c85f0a8785",
     "commitTimestamp": "2026-11-16T09:48:36Z",
     "commitMessage": "refactor(core): use isBuiltin for Node polyfill hints (#8902)",
