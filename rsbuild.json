@@ -63,6 +63,69 @@
     ]
   },
   {
+    "commitSha": "b75b7a11184a97be049d805ea7ec2c157d6bca78",
+    "commitTimestamp": "2026-11-16T08:55:48Z",
+    "commitMessage": "perf(core): serialize public environment variables once (#8897)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478023"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478148"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478161"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478170"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478205"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478239"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478260"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478329"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/43835349375/job/133190478363"
+      }
+    ]
+  },
+  {
     "commitSha": "224e0b6feaa8959fbfc71194ed14f40f52c22963",
     "commitTimestamp": "2026-11-16T08:52:38Z",
     "commitMessage": "perf(core): avoid spreading routes into concat (#8896)",
