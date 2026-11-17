@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "e7a748ec1f692a7bd827be71cbfe68e1c4e3daff",
+    "commitTimestamp": "2026-11-17T06:43:51Z",
+    "commitMessage": "perf(hmr): avoid cubic HMR loading chunk resolution (#16674)",
+    "author": {
+      "name": "Fy",
+      "email": "1114550440@qq.com",
+      "login": "JSerFeng"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372532"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372563"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372580"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372581"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372590"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372600"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372601"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372614"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372629"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372637"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372643"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372644"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44034572069/job/133874372690"
+      }
+    ]
+  },
+  {
     "commitSha": "f6dd50055531db1969850be0e8ed40c14fd1c5e1",
     "commitTimestamp": "2026-11-17T06:37:26Z",
     "commitMessage": "fix(core): clean up loader error stacks (#16641)",
