@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2869d12033bb8bfff8006b73492fe3eaa4fb4880",
+    "commitTimestamp": "2026-11-17T03:53:54Z",
+    "commitMessage": "fix(core): clear a test's snapshot state before each retry and repeat (#2106)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835144"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835174"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835197"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835290"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835338"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835351"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835357"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44013507416/job/133805835388"
+      }
+    ]
+  },
+  {
     "commitSha": "3fd96e81a570a1e260b35dca8b3989953c438406",
     "commitTimestamp": "2026-11-17T03:26:56Z",
     "commitMessage": "fix(core): report an unhandled rejection from a file's last test (#2110)",
