@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "4a01f63fafb0f63688fbe5e8f3cbc01d378ee8dd",
+    "commitTimestamp": "2026-11-17T09:38:51Z",
+    "commitMessage": "feat(deps): update @rspack/core to 2.3.3 (#8926)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944297"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944555"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944579"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944587"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944658"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944720"
+      },
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944843"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944879"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44058212176/job/133952944955"
+      }
+    ]
+  },
+  {
     "commitSha": "ac5ddeb271d08640cbdabe439e1e511413008aed",
     "commitTimestamp": "2026-11-17T05:30:26Z",
     "commitMessage": "perf(core): skip HTML path enumeration for disabled resource hints (#8925)",
