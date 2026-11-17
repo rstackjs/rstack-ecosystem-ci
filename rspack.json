@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "85e6c42c304a5f16616672640a87ec374316f1f0",
+    "commitTimestamp": "2026-11-17T08:45:34Z",
+    "commitMessage": "chore: upgrade Rust to nightly-2026-11-13 (take 2) (#16677)",
+    "author": {
+      "name": "quininer",
+      "email": "quininer@live.com",
+      "login": "quininer"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488186"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488216"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488257"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488262"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488270"
+      },
+      {
+        "name": "extension-js",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488321"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488355"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488357"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488359"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488361"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488366"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488420"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44050339483/job/133926488423"
+      }
+    ]
+  },
+  {
     "commitSha": "e7a748ec1f692a7bd827be71cbfe68e1c4e3daff",
     "commitTimestamp": "2026-11-17T06:43:51Z",
     "commitMessage": "perf(hmr): avoid cubic HMR loading chunk resolution (#16674)",
