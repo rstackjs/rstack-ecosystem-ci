@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "12a0098d773a3778a6b0c4a132bf6bce095d1754",
+    "commitTimestamp": "2026-11-17T04:56:36Z",
+    "commitMessage": "feat(unicorn): add no-duplicate-logical-operands rule (#2611)",
+    "author": {
+      "name": "Hashem Khalifa",
+      "email": "hashem.khalifa@gmail.com",
+      "login": "HashemKhalifa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586735"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586746"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586753"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586765"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586769"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586775"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586807"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586821"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586851"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44021423926/job/133844586874"
+      }
+    ]
+  },
+  {
     "commitSha": "39411f03ad4d1cc2ddd176bc9b0cbdc18d9b2c01",
     "commitTimestamp": "2026-11-17T04:52:58Z",
     "commitMessage": "feat(unicorn): add consistent-assert rule (#2363)",
