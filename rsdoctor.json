@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "af4ed3761c2a02fab60b267d0aa64c21005ecb3c",
+    "commitTimestamp": "2026-11-18T09:45:58Z",
+    "commitMessage": "perf(shared): index modules by id for chunk and asset lookups (#2168)",
+    "author": {
+      "name": "Matthew Costabile",
+      "email": "8616962+mattcosta7@users.noreply.github.com",
+      "login": "mattcosta7"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44280697553",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44280697553/job/134720289571"
+      }
+    ]
+  },
+  {
     "commitSha": "b81bf682834f48f8d8dc402d49bbe08cba626e92",
     "commitTimestamp": "2026-11-17T06:17:54Z",
     "commitMessage": "perf(shared): index loaders once in getLoaderCosts (#2167)",
