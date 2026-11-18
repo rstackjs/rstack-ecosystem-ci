@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6e47d2db84bf8d1cd7822a16ea5e4c735fe3a5a1",
+    "commitTimestamp": "2026-11-18T03:17:54Z",
+    "commitMessage": "fix(core): keep `expect.soft` failures when the test then throws (#2112)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583331"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583672"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583699"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583753"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583774"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583780"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550583811"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229441804/job/134550584004"
+      }
+    ]
+  },
+  {
     "commitSha": "2ea88d91b6d4b294233d687189176753ba2478f5",
     "commitTimestamp": "2026-11-18T03:17:06Z",
     "commitMessage": "fix(coverage-v8): exclude CSS sources from coverage (#2113)",
