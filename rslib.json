@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "d32cb1550dcc7187c3ce12a95eaa668f3b15349c",
+    "commitTimestamp": "2026-11-18T03:34:17Z",
+    "commitMessage": "feat(deps): upgrade Rsbuild to 2.3.3 (#2034)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330141"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330157"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330182"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330188"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330222"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330229"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330239"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44234214083/job/134566330281"
+      }
+    ]
+  },
+  {
     "commitSha": "76726f7957e5b9eca4251e5cc8a8eec9c0b80e73",
     "commitTimestamp": "2026-11-16T07:08:48Z",
     "commitMessage": "chore(deps): update all non-major dependencies (#2033)",
