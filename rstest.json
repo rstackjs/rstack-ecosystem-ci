@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "72712f6c0378ea38cdfe3ecaa636fafd3c594e4b",
+    "commitTimestamp": "2026-11-18T09:37:49Z",
+    "commitMessage": "fix(browser): collect listed tests per browser instance (#2119)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711859795"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711859911"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711860177"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711860181"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711860183"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711860211"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711860348"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44278256259/job/134711860355"
+      }
+    ]
+  },
+  {
     "commitSha": "4924b840a03408fe238a54afe4585ce26236574a",
     "commitTimestamp": "2026-11-18T09:08:30Z",
     "commitMessage": "fix(core): include the error cause in the JUnit report (#2117)",
