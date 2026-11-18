@@ -83,6 +83,89 @@
     ]
   },
   {
+    "commitSha": "796d7b0042d162472434229706a138d2962d1538",
+    "commitTimestamp": "2026-11-18T08:02:20Z",
+    "commitMessage": "test: clean up stale test filters (#16708)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523458"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523474"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523490"
+      },
+      {
+        "name": "rstest",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523505"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523534"
+      },
+      {
+        "name": "extension-js",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523539"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523550"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523567"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523573"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523575"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523603"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523737"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264749162/job/134666523800"
+      }
+    ]
+  },
+  {
     "commitSha": "648b40f3bbe4417e294e64b76c002779ea5c76c8",
     "commitTimestamp": "2026-11-18T06:41:45Z",
     "commitMessage": "test: allow cases to skip persistent cache checks (#16705)",
