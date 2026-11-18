@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "9aa1e7870f0725b6c1aaf706dfec7133cbeb9081",
+    "commitTimestamp": "2026-11-18T08:17:24Z",
+    "commitMessage": "feat(unicorn): add no-duplicate-set-values rule (#2610)",
+    "author": {
+      "name": "Hashem Khalifa",
+      "email": "hashem.khalifa@gmail.com",
+      "login": "HashemKhalifa"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419444"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419471"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419488"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419589"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419658"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419660"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419788"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685419816"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685422699"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44265733415/job/134685426719"
+      }
+    ]
+  },
+  {
     "commitSha": "12a0098d773a3778a6b0c4a132bf6bce095d1754",
     "commitTimestamp": "2026-11-17T04:56:36Z",
     "commitMessage": "feat(unicorn): add no-duplicate-logical-operands rule (#2611)",
