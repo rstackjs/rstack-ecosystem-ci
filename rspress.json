@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "f61de0e2f2442b4b003a64e7acea1bbde61f2fec",
+    "commitTimestamp": "2026-11-18T08:58:19Z",
+    "commitMessage": "fix(theme/HomeHero): improve homepage spacing on mobile (#3873)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470/job/134690185533"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470/job/134690185666"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470/job/134690185716"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470/job/134690185815"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470/job/134690185838"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44271850470/job/134690185879"
+      }
+    ]
+  },
+  {
     "commitSha": "d6c12dca298f8113be53161d65209d866c4c49f4",
     "commitTimestamp": "2026-11-15T17:01:59Z",
     "commitMessage": "fix(core): alias the React Compiler runtime (#3870)",
