@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c19b1ca013fa7cb18a507c8715188e00be9ed77f",
+    "commitTimestamp": "2026-11-18T09:28:43Z",
+    "commitMessage": "release: v1.1.0-beta.1 (#2037)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706779799"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706779843"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706779896"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706779944"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706779973"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706779993"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706780044"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44276764129/job/134706780199"
+      }
+    ]
+  },
+  {
     "commitSha": "a8b49ca87d0161c01664867f60ce31ea8b1757d8",
     "commitTimestamp": "2026-11-18T08:04:03Z",
     "commitMessage": "chore(deps): update @swc-next/parser and @swc-next/walker to 0.7.0 (#2036)",
