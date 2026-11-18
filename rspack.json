@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "648b40f3bbe4417e294e64b76c002779ea5c76c8",
+    "commitTimestamp": "2026-11-18T06:41:45Z",
+    "commitMessage": "test: allow cases to skip persistent cache checks (#16705)",
+    "author": {
+      "name": "Gengkun",
+      "email": "ahabhgk@gmail.com",
+      "login": "ahabhgk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630196967"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630196990"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630196991"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630196995"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630196999"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197037"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197042"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197043"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197047"
+      },
+      {
+        "name": "extension-js",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197086"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197095"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197136"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44253655050/job/134630197168"
+      }
+    ]
+  },
+  {
     "commitSha": "d4e69f589d2e99b42bfcb3d2d3cb85d26a6c193d",
     "commitTimestamp": "2026-11-18T06:33:47Z",
     "commitMessage": "fix(rsc): preserve client module order in RSC entries (#16704)",
