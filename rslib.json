@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "a8b49ca87d0161c01664867f60ce31ea8b1757d8",
+    "commitTimestamp": "2026-11-18T08:04:03Z",
+    "commitMessage": "chore(deps): update @swc-next/parser and @swc-next/walker to 0.7.0 (#2036)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665965882"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665965982"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665966020"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665966029"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665966064"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665966089"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665966098"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44264622685/job/134665966099"
+      }
+    ]
+  },
+  {
     "commitSha": "d32cb1550dcc7187c3ce12a95eaa668f3b15349c",
     "commitTimestamp": "2026-11-18T03:34:17Z",
     "commitMessage": "feat(deps): upgrade Rsbuild to 2.3.3 (#2034)",
