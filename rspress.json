@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "680a686857b600d0653b483388de66141f598e52",
+    "commitTimestamp": "2026-11-18T09:11:30Z",
+    "commitMessage": "chore(deps): update all patch dependencies (#3871)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812/job/134702659830"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812/job/134702660079"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812/job/134702660229"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812/job/134702660243"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812/job/134702660293"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44275560812/job/134702660351"
+      }
+    ]
+  },
+  {
     "commitSha": "f61de0e2f2442b4b003a64e7acea1bbde61f2fec",
     "commitTimestamp": "2026-11-18T08:58:19Z",
     "commitMessage": "fix(theme/HomeHero): improve homepage spacing on mobile (#3873)",
