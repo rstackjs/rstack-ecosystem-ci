@@ -194,7 +194,6 @@ export const execa = async (cmd: string, options?: ExecaOptions) => {
 };
 
 export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
-  // @ts-expect-error import.meta
   const root = dirnameFrom(import.meta.url);
   workspaceRoot = path.resolve(root, 'workspace');
   stackPath = path.resolve(workspaceRoot, STACK_WORKSPACE_DIR[stack]);
