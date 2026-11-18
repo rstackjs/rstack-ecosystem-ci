@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import actionsCore from '@actions/core';
+import * as actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
 import { AGENTS, detect, getCommand, serializeCommand } from '@antfu/ni';
 import { getPackages } from '@manypkg/get-packages';
@@ -194,7 +194,6 @@ export const execa = async (cmd: string, options?: ExecaOptions) => {
 };
 
 export async function setupEnvironment(stack: Stack): Promise<EnvironmentData> {
-  // @ts-expect-error import.meta
   const root = dirnameFrom(import.meta.url);
   workspaceRoot = path.resolve(root, 'workspace');
   stackPath = path.resolve(workspaceRoot, STACK_WORKSPACE_DIR[stack]);
