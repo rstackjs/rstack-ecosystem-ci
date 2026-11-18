@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "225fb0906a421a5264988fc2d1afd4826fca0edf",
+    "commitTimestamp": "2026-11-18T06:49:23Z",
+    "commitMessage": "feat(browser): add per-test viewport resizing (#2114)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631870958"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871037"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871041"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871049"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871092"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871114"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871162"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254205683/job/134631871179"
+      }
+    ]
+  },
+  {
     "commitSha": "6e47d2db84bf8d1cd7822a16ea5e4c735fe3a5a1",
     "commitTimestamp": "2026-11-18T03:17:54Z",
     "commitMessage": "fix(core): keep `expect.soft` failures when the test then throws (#2112)",
