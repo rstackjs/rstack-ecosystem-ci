@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "76ed47bfd66c65c22ca539b3cb1e40eddf8cfe5d",
+    "commitTimestamp": "2026-11-18T09:57:18Z",
+    "commitMessage": "chore(deps): upgrade local Rslib to 1.1.0-beta.1 (#2038)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729416734"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729416786"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729416800"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729416817"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729416875"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729416929"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729417051"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44283306056/job/134729417183"
+      }
+    ]
+  },
+  {
     "commitSha": "c19b1ca013fa7cb18a507c8715188e00be9ed77f",
     "commitTimestamp": "2026-11-18T09:28:43Z",
     "commitMessage": "release: v1.1.0-beta.1 (#2037)",
