@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "9592b2f4a4c23e5fccc0f344dc06eeb3239a2014",
+    "commitTimestamp": "2026-11-18T08:23:54Z",
+    "commitMessage": "feat(plugin-solid): support ESM and CommonJS JSX extensions by default (#8932)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546397"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546541"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546607"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546630"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546637"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546662"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546678"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675546704"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44267487855/job/134675547018"
+      }
+    ]
+  },
+  {
     "commitSha": "a9e02d59cd4f47709167264666ca2e20005f3cc7",
     "commitTimestamp": "2026-11-18T07:47:22Z",
     "commitMessage": "fix(plugin-solid): add the sourceNames option to SolidPresetOptions (#8933)",
