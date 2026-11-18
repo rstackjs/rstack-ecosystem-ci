@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import actionsCore from '@actions/core';
+import * as actionsCore from '@actions/core';
 //eslint-disable-next-line n/no-unpublished-import
 import { AGENTS, detect, getCommand, serializeCommand } from '@antfu/ni';
 import { getPackages } from '@manypkg/get-packages';
