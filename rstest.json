@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e1c5a2283d720d3e5058ec55e0a1d1fbd204eeb0",
+    "commitTimestamp": "2026-11-18T06:50:00Z",
+    "commitMessage": "fix(core): hide rstest runtime frames in error stacks (#2115)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117325"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117353"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117404"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117428"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117467"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117489"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117522"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44254282851/job/134632117545"
+      }
+    ]
+  },
+  {
     "commitSha": "225fb0906a421a5264988fc2d1afd4826fca0edf",
     "commitTimestamp": "2026-11-18T06:49:23Z",
     "commitMessage": "feat(browser): add per-test viewport resizing (#2114)",
