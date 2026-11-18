@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2ea88d91b6d4b294233d687189176753ba2478f5",
+    "commitTimestamp": "2026-11-18T03:17:06Z",
+    "commitMessage": "fix(coverage-v8): exclude CSS sources from coverage (#2113)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550262874"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550262880"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550262885"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550262945"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550262956"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550263048"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550263055"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44229343946/job/134550263120"
+      }
+    ]
+  },
+  {
     "commitSha": "2869d12033bb8bfff8006b73492fe3eaa4fb4880",
     "commitTimestamp": "2026-11-17T03:53:54Z",
     "commitMessage": "fix(core): clear a test's snapshot state before each retry and repeat (#2106)",
