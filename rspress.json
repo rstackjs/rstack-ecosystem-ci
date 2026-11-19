@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "916169cd27a984ee3fc92fda4e085dcda85bed9f",
+    "commitTimestamp": "2026-11-19T08:57:40Z",
+    "commitMessage": "chore: upgrade to Rslib 1.1 beta (#3877)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306/job/135459994967"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306/job/135459994971"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306/job/135459995005"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306/job/135459995118"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306/job/135459995123"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44495051306/job/135459995220"
+      }
+    ]
+  },
+  {
     "commitSha": "39bfb6a5be6de8028b5d2b2176148dc0e92b0240",
     "commitTimestamp": "2026-11-18T09:53:49Z",
     "commitMessage": "docs(website): add community showcase page (#3874)",
