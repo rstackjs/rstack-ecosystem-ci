@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8fd254c75ee257dcfc4b4ee04f00991da23c7293",
+    "commitTimestamp": "2026-11-19T09:22:45Z",
+    "commitMessage": "fix(theme/CodeBlock): omit internal copy ref from button props (#3878)",
+    "author": {
+      "name": "Guangyu Du",
+      "email": "23237626+Dugyu@users.noreply.github.com",
+      "login": "Dugyu"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402/job/135464834783"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402/job/135464834908"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402/job/135464835065"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402/job/135464835122"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402/job/135464835137"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496479402/job/135464835206"
+      }
+    ]
+  },
+  {
     "commitSha": "916169cd27a984ee3fc92fda4e085dcda85bed9f",
     "commitTimestamp": "2026-11-19T08:57:40Z",
     "commitMessage": "chore: upgrade to Rslib 1.1 beta (#3877)",
