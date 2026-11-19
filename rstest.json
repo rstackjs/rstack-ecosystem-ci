@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c1a6e3e1f5d074ac1b02031ea77043e02e13e94a",
+    "commitTimestamp": "2026-11-19T09:01:20Z",
+    "commitMessage": "perf(core): read assets in workers when writeToDisk is true (#2122)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973027"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973114"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973116"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973156"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973178"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973180"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973337"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44492670267/job/135451973375"
+      }
+    ]
+  },
+  {
     "commitSha": "9044d04de5544b5347d8a7456b2b1ee5211c621c",
     "commitTimestamp": "2026-11-19T08:07:39Z",
     "commitMessage": "perf(core): disable incremental builds by default for Node run and list (#2131)",
