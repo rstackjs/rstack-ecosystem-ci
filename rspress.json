@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "358c936599955fa290f9abdf94957b83eacde56c",
+    "commitTimestamp": "2026-11-19T12:10:52Z",
+    "commitMessage": "chore(deps): upgrade Rstack packages to latest releases (#3876)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891/job/135551224357"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891/job/135551224365"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891/job/135551224410"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891/job/135551224505"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891/job/135551224592"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44521565891/job/135551224607"
+      }
+    ]
+  },
+  {
     "commitSha": "a84b9a1cb6a9b061c822ead7c1119b460b67e680",
     "commitTimestamp": "2026-11-19T09:46:17Z",
     "commitMessage": "feat(core): upgrade Rspack and enable its runtime by default (#3875)",
