@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "03fe0998de4332629605f1487302df39c0370a9c",
+    "commitTimestamp": "2026-11-19T12:43:44Z",
+    "commitMessage": "docs(website): add moduix to showcase (#3880)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865/job/135568846063"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865/job/135568846160"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865/job/135568846196"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865/job/135568846270"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865/job/135568846451"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44526636865/job/135568846788"
+      }
+    ]
+  },
+  {
     "commitSha": "358c936599955fa290f9abdf94957b83eacde56c",
     "commitTimestamp": "2026-11-19T12:10:52Z",
     "commitMessage": "chore(deps): upgrade Rstack packages to latest releases (#3876)",
