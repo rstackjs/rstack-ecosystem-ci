@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "253a494966018ea13dadd7e3ae6997e6086cc5f9",
+    "commitTimestamp": "2026-11-19T12:58:59Z",
+    "commitMessage": "fix(e2e): verify mobile navigation state with DOM assertions (#3879)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432/job/135577150192"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432/job/135577150320"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432/job/135577150344"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432/job/135577150450"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432/job/135577150488"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44529025432/job/135577150574"
+      }
+    ]
+  },
+  {
     "commitSha": "03fe0998de4332629605f1487302df39c0370a9c",
     "commitTimestamp": "2026-11-19T12:43:44Z",
     "commitMessage": "docs(website): add moduix to showcase (#3880)",
