@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "827c37dee9875ec8fa431dfb7f1ca9616bec6e37",
+    "commitTimestamp": "2026-11-19T06:27:19Z",
+    "commitMessage": "fix(core): print `console.assert` failures the way Node does (#2120)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866123"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866139"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866173"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866198"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866242"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866273"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866281"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472419842/job/135384866353"
+      }
+    ]
+  },
+  {
     "commitSha": "24f0c504f0e3b8a67687a625c85c398dc0d289a3",
     "commitTimestamp": "2026-11-19T06:14:03Z",
     "commitMessage": "perf(core): slim down Node worker boot path and defer cold dependencies (#2126)",
