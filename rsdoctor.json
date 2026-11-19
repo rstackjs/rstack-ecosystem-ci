@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "4ecc2b91f1cf44a94d511fd1260a459857607cad",
+    "commitTimestamp": "2026-11-19T05:45:26Z",
+    "commitMessage": "fix(core): preserve native module access in loader hooks (#2163)",
+    "author": {
+      "name": "hai-x",
+      "email": "98948357+hai-x@users.noreply.github.com",
+      "login": "hai-x"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44467389309",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44467389309/job/135368348537"
+      }
+    ]
+  },
+  {
     "commitSha": "af4ed3761c2a02fab60b267d0aa64c21005ecb3c",
     "commitTimestamp": "2026-11-18T09:45:58Z",
     "commitMessage": "perf(shared): index modules by id for chunk and asset lookups (#2168)",
