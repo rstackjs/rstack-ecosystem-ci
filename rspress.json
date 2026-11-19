@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c1a486f62fad1849c59eb086103abf0227f48b74",
+    "commitTimestamp": "2026-11-19T17:01:52Z",
+    "commitMessage": "Release v2.1.4 (#3882)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561/job/135732016889"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561/job/135732016890"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561/job/135732016914"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561/job/135732016964"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561/job/135732016971"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44572755561/job/135732017940"
+      }
+    ]
+  },
+  {
     "commitSha": "dbba6aaff50092eaf2a630ca553e7b665e90136e",
     "commitTimestamp": "2026-11-19T16:40:09Z",
     "commitMessage": "fix(ssg-md): improve component output and page descriptions (#3864)",
