@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "75b848b384a9e47ac48e805ed239b1655a31e57c",
+    "commitTimestamp": "2026-11-19T14:07:33Z",
+    "commitMessage": "perf(core): run jsdom prebundle compatibility probe in prebundle worker (#2133)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918035"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918165"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918191"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918213"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918278"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918281"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918290"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44540413538/job/135616918292"
+      }
+    ]
+  },
+  {
     "commitSha": "ba4328a048c9993f27f49566de9f706587869f0c",
     "commitTimestamp": "2026-11-19T10:00:19Z",
     "commitMessage": "chore: upgrade to Rslib 1.1 beta (#2129)",
