@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "48565625bc87285cda7aba50bd7c6096f6a7be77",
+    "commitTimestamp": "2026-11-19T09:16:31Z",
+    "commitMessage": "feat(core): dispatch test groups as soon as their builds are ready (#2128)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488463"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488557"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488618"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488632"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488645"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488674"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488751"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44496080568/job/135463488851"
+      }
+    ]
+  },
+  {
     "commitSha": "cb3895168d5ec020d63a25cc2b761ffca864f413",
     "commitTimestamp": "2026-11-19T09:06:08Z",
     "commitMessage": "fix(core): indent grouped console output the way Node does (#2124)",
