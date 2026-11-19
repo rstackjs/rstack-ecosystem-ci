@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "cb3895168d5ec020d63a25cc2b761ffca864f413",
+    "commitTimestamp": "2026-11-19T09:06:08Z",
+    "commitMessage": "fix(core): indent grouped console output the way Node does (#2124)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253544"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253559"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253597"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253636"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253679"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253810"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454253952"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44493346828/job/135454254030"
+      }
+    ]
+  },
+  {
     "commitSha": "c1a6e3e1f5d074ac1b02031ea77043e02e13e94a",
     "commitTimestamp": "2026-11-19T09:01:20Z",
     "commitMessage": "perf(core): read assets in workers when writeToDisk is true (#2122)",
