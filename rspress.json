@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "dbba6aaff50092eaf2a630ca553e7b665e90136e",
+    "commitTimestamp": "2026-11-19T16:40:09Z",
+    "commitMessage": "fix(ssg-md): improve component output and page descriptions (#3864)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019/job/135717719845"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019/job/135717720078"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019/job/135717720084"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019/job/135717720098"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019/job/135717720132"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44568762019/job/135717720206"
+      }
+    ]
+  },
+  {
     "commitSha": "5e4b834fdcb07d4734413cbef4b6d7903d9eed27",
     "commitTimestamp": "2026-11-19T16:31:15Z",
     "commitMessage": "fix(plugin-playground): keep virtual imports available during dev updates (#3868)",
