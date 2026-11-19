@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "9044d04de5544b5347d8a7456b2b1ee5211c621c",
+    "commitTimestamp": "2026-11-19T08:07:39Z",
+    "commitMessage": "perf(core): disable incremental builds by default for Node run and list (#2131)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195176"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195296"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195373"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195390"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195434"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195439"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195551"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44485014519/job/135426195621"
+      }
+    ]
+  },
+  {
     "commitSha": "76214d4c9b5d92f4ff95662e5fcd218e8ad46a0a",
     "commitTimestamp": "2026-11-19T06:28:54Z",
     "commitMessage": "fix(core): print the call site of `console.table` and `console.trace` (#2125)",
