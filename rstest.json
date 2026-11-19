@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "24f0c504f0e3b8a67687a625c85c398dc0d289a3",
+    "commitTimestamp": "2026-11-19T06:14:03Z",
+    "commitMessage": "perf(core): slim down Node worker boot path and defer cold dependencies (#2126)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152536"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152548"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152550"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152551"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152620"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152695"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152724"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44470694196/job/135379152737"
+      }
+    ]
+  },
+  {
     "commitSha": "1a51a83d55704ad8d55eed634e4d0c288a4ee58c",
     "commitTimestamp": "2026-11-18T16:06:59Z",
     "commitMessage": "perf(browser): prewarm headless runner pages and load source maps on demand (#2123)",
