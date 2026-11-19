@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "5e4b834fdcb07d4734413cbef4b6d7903d9eed27",
+    "commitTimestamp": "2026-11-19T16:31:15Z",
+    "commitMessage": "fix(plugin-playground): keep virtual imports available during dev updates (#3868)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784/job/135711741923"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784/job/135711741999"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784/job/135711742196"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784/job/135711742287"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784/job/135711742305"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44567101784/job/135711742472"
+      }
+    ]
+  },
+  {
     "commitSha": "8e2dc1fcc537fbf9a459d4e22bdf8b005bb70377",
     "commitTimestamp": "2026-11-19T16:19:31Z",
     "commitMessage": "fix(core): use modulepreload for ESM route chunks (#3869)",
