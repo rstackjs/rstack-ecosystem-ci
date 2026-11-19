@@ -116,6 +116,64 @@
     ]
   },
   {
+    "commitSha": "fa91f9a0f24b309cf7789ff9f69e34a8ca63281b",
+    "commitTimestamp": "2026-11-19T06:26:23Z",
+    "commitMessage": "fix(core): filter bundler bootstrap and startup stack frames (#2127)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384576495"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384576531"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384576583"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384576675"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384576717"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384577501"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384577633"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44472332984/job/135384577721"
+      }
+    ]
+  },
+  {
     "commitSha": "24f0c504f0e3b8a67687a625c85c398dc0d289a3",
     "commitTimestamp": "2026-11-19T06:14:03Z",
     "commitMessage": "perf(core): slim down Node worker boot path and defer cold dependencies (#2126)",
