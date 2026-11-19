@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "35759204c07be7e784a144862e3ed058518e29a0",
+    "commitTimestamp": "2026-11-19T13:24:33Z",
+    "commitMessage": "docs(website): refresh showcase screenshots for Rspress 2 sites (#3881)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993/job/135591837634"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993/job/135591838067"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993/job/135591838193"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993/job/135591838198"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993/job/135591838240"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44533243993/job/135591838266"
+      }
+    ]
+  },
+  {
     "commitSha": "253a494966018ea13dadd7e3ae6997e6086cc5f9",
     "commitTimestamp": "2026-11-19T12:58:59Z",
     "commitMessage": "fix(e2e): verify mobile navigation state with DOM assertions (#3879)",
