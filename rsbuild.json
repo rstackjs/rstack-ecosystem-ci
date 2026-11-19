@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "2565b4b7d5910097bfc422acf8724335a2067db5",
+    "commitTimestamp": "2026-11-19T07:19:36Z",
+    "commitMessage": "refactor(plugin-solid): remove redundant include from the refresh rule (#8940)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411358783"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411358968"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411358980"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411359058"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411359074"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411359209"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411359245"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411359247"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44480522629/job/135411359626"
+      }
+    ]
+  },
+  {
     "commitSha": "dd26864848a64db66c378dbe363a692187acb73a",
     "commitTimestamp": "2026-11-19T05:58:57Z",
     "commitMessage": "feat(core): allow opting into HMR in none mode (#8941)",
