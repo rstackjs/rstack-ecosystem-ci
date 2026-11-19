@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "a84b9a1cb6a9b061c822ead7c1119b460b67e680",
+    "commitTimestamp": "2026-11-19T09:46:17Z",
+    "commitMessage": "feat(core): upgrade Rspack and enable its runtime by default (#3875)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557/job/135476463162"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557/job/135476463313"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557/job/135476463331"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557/job/135476463340"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557/job/135476463345"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44499857557/job/135476463379"
+      }
+    ]
+  },
+  {
     "commitSha": "8fd254c75ee257dcfc4b4ee04f00991da23c7293",
     "commitTimestamp": "2026-11-19T09:22:45Z",
     "commitMessage": "fix(theme/CodeBlock): omit internal copy ref from button props (#3878)",
