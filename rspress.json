@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "8e2dc1fcc537fbf9a459d4e22bdf8b005bb70377",
+    "commitTimestamp": "2026-11-19T16:19:31Z",
+    "commitMessage": "fix(core): use modulepreload for ESM route chunks (#3869)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542/job/135703795913"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542/job/135703795927"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542/job/135703795948"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542/job/135703796028"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542/job/135703796065"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44564876542/job/135703796091"
+      }
+    ]
+  },
+  {
     "commitSha": "94a32a1d184facc2a1fd565bbbfdf47d1230edbf",
     "commitTimestamp": "2026-11-19T13:30:32Z",
     "commitMessage": "docs(website): add theme presets with Minimal styling (#3865)",
