@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "ba4328a048c9993f27f49566de9f706587869f0c",
+    "commitTimestamp": "2026-11-19T10:00:19Z",
+    "commitMessage": "chore: upgrade to Rslib 1.1 beta (#2129)",
+    "author": {
+      "name": "Elecmonkey",
+      "email": "elecmonkey@hotmail.com",
+      "login": "elecmonkey"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485383846"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384173"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384178"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384206"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384244"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384288"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384331"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44502434220/job/135485384593"
+      }
+    ]
+  },
+  {
     "commitSha": "f7f2ac0ac19129af58864ddfe91e952e8bbbff53",
     "commitTimestamp": "2026-11-19T09:27:56Z",
     "commitMessage": "fix(core): include the error cause in the GitHub Actions reporter (#2121)",
