@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e3b5924c4073660348872e1863331257647398a0",
+    "commitTimestamp": "2026-11-20T08:34:37Z",
+    "commitMessage": "release: 1.0.0-beta.0",
+    "author": {
+      "name": "fi3ework",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574240"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574292"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574298"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574378"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574404"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574415"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574439"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44703888693/job/136178574493"
+      }
+    ]
+  },
+  {
     "commitSha": "75b848b384a9e47ac48e805ed239b1655a31e57c",
     "commitTimestamp": "2026-11-19T14:07:33Z",
     "commitMessage": "perf(core): run jsdom prebundle compatibility probe in prebundle worker (#2133)",
