@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "b25d37668aeda82b5922ce53609f4af80028e67a",
+    "commitTimestamp": "2026-11-20T07:43:57Z",
+    "commitMessage": "fix(core): fall back to an OS-assigned port when unavailable (#2181)",
+    "author": {
+      "name": "hai-x",
+      "email": "98948357+hai-x@users.noreply.github.com",
+      "login": "hai-x"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44697499242",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44697499242/job/136157663519"
+      }
+    ]
+  },
+  {
     "commitSha": "77637e0f66f10c7ce31540385fbf88a0e4c4fb12",
     "commitTimestamp": "2026-11-20T06:40:54Z",
     "commitMessage": "fix(core): stop port probing on bind errors (#2180)",
