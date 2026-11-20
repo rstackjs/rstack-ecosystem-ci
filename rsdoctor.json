@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "967de1629965be7b496a97d27c7dea1b3fcc02bd",
+    "commitTimestamp": "2026-11-20T09:16:43Z",
+    "commitMessage": "perf(client): avoid redundant asset summary requests on Overview (#2176)",
+    "author": {
+      "name": "hai-x",
+      "email": "98948357+hai-x@users.noreply.github.com",
+      "login": "hai-x"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44710404524",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44710404524/job/136200351322"
+      }
+    ]
+  },
+  {
     "commitSha": "3e409fa64c257475de1be8a2471fa8396fe3b779",
     "commitTimestamp": "2026-11-20T09:16:28Z",
     "commitMessage": "perf(client): reuse the brief data loader per report (#2178)",
