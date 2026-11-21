@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "b06af055a9116ce667a5ee87861a2b3a93916f57",
+    "commitTimestamp": "2026-11-21T09:08:22Z",
+    "commitMessage": "chore(deps): update dependency octane to ^0.22.0 (#8948)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933386"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933459"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933484"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933529"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933531"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933533"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933552"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933605"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44888170277/job/136797933654"
+      }
+    ]
+  },
+  {
     "commitSha": "a3fd5800040015592009c5310dc52c013fa045ee",
     "commitTimestamp": "2026-11-19T11:02:15Z",
     "commitMessage": "fix(core): preserve the filename hint for asset conflicts (#8945)",
