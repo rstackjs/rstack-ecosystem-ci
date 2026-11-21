@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "108edf88cc69904d1f4b37f666368fcea9f30e0b",
+    "commitTimestamp": "2026-11-21T09:41:03Z",
+    "commitMessage": "feat(create-rsbuild): use Solid 2 for the default Solid templates (#8952)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832803"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832807"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832824"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832837"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832855"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832874"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832876"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832920"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/44890758612/job/136805832988"
+      }
+    ]
+  },
+  {
     "commitSha": "1c4e76b9f0ca91db45e03515f6c43a565ce33872",
     "commitTimestamp": "2026-11-21T09:17:50Z",
     "commitMessage": "chore(deps): update dependency solid-loader to v1 (#8953)",
