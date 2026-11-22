@@ -83,6 +83,89 @@
     ]
   },
   {
+    "commitSha": "1bb6c8106df3abb4449ef7121955cbc023a12ea3",
+    "commitTimestamp": "2026-11-22T14:17:04Z",
+    "commitMessage": "chore(deps): update dependency cspell to ^10.5.2 (#16807)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620043"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620055"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620068"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620070"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620090"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620095"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620097"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620113"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620126"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620154"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620222"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620317"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45032340207/job/137239620348"
+      }
+    ]
+  },
+  {
     "commitSha": "d0fac73f43b8ba2f729bc7e7e110a6df4e2e65df",
     "commitTimestamp": "2026-11-22T14:16:42Z",
     "commitMessage": "chore(deps): update dependency ts-checker-rspack-plugin to ^1.8.0 (#16809)",
