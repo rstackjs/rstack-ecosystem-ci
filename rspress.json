@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "7a36d467b9c068a33cb11280f498b85f59d6b4b8",
+    "commitTimestamp": "2026-11-23T08:45:26Z",
+    "commitMessage": "chore(deps): upgrade solid-js to v2 (#3888)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283/job/137581404088"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283/job/137581404106"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283/job/137581404122"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283/job/137581404297"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283/job/137581404416"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45141811283/job/137581404432"
+      }
+    ]
+  },
+  {
     "commitSha": "67ff3bfffaeb8306d2c50b070d0ef82de78e8e0f",
     "commitTimestamp": "2026-11-23T07:16:39Z",
     "commitMessage": "chore(deps): update all patch dependencies (#3884)",
