@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "1b3c9ecce46274a44fd3f5901fe2a449a2c87846",
+    "commitTimestamp": "2026-11-23T06:52:28Z",
+    "commitMessage": "chore(deps): update dependency mdast-util-directive to ^3.2.1 (#3872)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449/job/137534012669"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449/job/137534012744"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449/job/137534012754"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449/job/137534012797"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449/job/137534012798"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45127150449/job/137534012821"
+      }
+    ]
+  },
+  {
     "commitSha": "52a8a42e8e62c56efae6ef2eb415d6923917311b",
     "commitTimestamp": "2026-11-20T08:02:09Z",
     "commitMessage": "fix(plugin-rss): avoid deprecated URL parsing (#3883)",
