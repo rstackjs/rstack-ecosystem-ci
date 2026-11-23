@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "94193883c701d612199c3f10b9e80e76b328bde5",
+    "commitTimestamp": "2026-11-23T10:50:40Z",
+    "commitMessage": "fix(cache): avoid producer dependencies on extracted CSS modules (#16825)",
+    "author": {
+      "name": "Gengkun",
+      "email": "ahabhgk@gmail.com",
+      "login": "ahabhgk"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282431"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282442"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282454"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282456"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282480"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282497"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282503"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282517"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282522"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282559"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282577"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282606"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45160704090/job/137645282841"
+      }
+    ]
+  },
+  {
     "commitSha": "0215d68b6da7216a21db09a640c5be700c1198ce",
     "commitTimestamp": "2026-11-23T10:47:34Z",
     "commitMessage": "fix(rsc): include client references returned by server actions (#16821)",
