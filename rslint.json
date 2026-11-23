@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "3b4daafc53335c1fecc515322bcf1943d11060b4",
+    "commitTimestamp": "2026-11-23T03:42:22Z",
+    "commitMessage": "feat(unicorn): add no-canvas-to-image rule (#2620)",
+    "author": {
+      "name": "yzh20060401",
+      "email": "1647272806@qq.com",
+      "login": "yzh20060401"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487890951"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487890970"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487890998"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891027"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891052"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891055"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891059"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891061"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891071"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45107584380/job/137487891073"
+      }
+    ]
+  },
+  {
     "commitSha": "9aa1e7870f0725b6c1aaf706dfec7133cbeb9081",
     "commitTimestamp": "2026-11-18T08:17:24Z",
     "commitMessage": "feat(unicorn): add no-duplicate-set-values rule (#2610)",
