@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c1123933621fadac7dc12938ce7587628ed3ae68",
+    "commitTimestamp": "2026-11-23T11:04:26Z",
+    "commitMessage": "fix(core): advance fake timers in rs.waitFor and rs.waitUntil (#2143)",
+    "author": {
+      "name": "Jyotheeswara Reddy Gottam",
+      "email": "gjreddy1@gmail.com",
+      "login": "gjreddy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648912751"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648912855"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648912866"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648912946"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648912993"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648913003"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648913042"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45161830909/job/137648913055"
+      }
+    ]
+  },
+  {
     "commitSha": "576d8da6efe7d00faf1ad2e734a2a9c89526d3aa",
     "commitTimestamp": "2026-11-23T08:23:45Z",
     "commitMessage": "perf(core): reuse VM workers across test environments (#2144)",
