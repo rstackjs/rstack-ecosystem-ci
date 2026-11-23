@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "576d8da6efe7d00faf1ad2e734a2a9c89526d3aa",
+    "commitTimestamp": "2026-11-23T08:23:45Z",
+    "commitMessage": "perf(core): reuse VM workers across test environments (#2144)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763157"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763223"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763249"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763251"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763279"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763281"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763371"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45138292154/job/137569763400"
+      }
+    ]
+  },
+  {
     "commitSha": "16af07de9e114ee4d224d45f806412a334494e07",
     "commitTimestamp": "2026-11-23T06:08:40Z",
     "commitMessage": "fix(core): keep the cause of unhandled errors in the JSON reporter (#2139)",
