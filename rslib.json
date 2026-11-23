@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "39a904a79079d7ddf9c480a6269d85de6d98b3ed",
+    "commitTimestamp": "2026-11-23T08:09:16Z",
+    "commitMessage": "chore(deps): update all non-major dependencies (#2040)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488327"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488455"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488490"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488579"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488584"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488591"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488666"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45136358741/job/137563488750"
+      }
+    ]
+  },
+  {
     "commitSha": "76ed47bfd66c65c22ca539b3cb1e40eddf8cfe5d",
     "commitTimestamp": "2026-11-18T09:57:18Z",
     "commitMessage": "chore(deps): upgrade local Rslib to 1.1.0-beta.1 (#2038)",
