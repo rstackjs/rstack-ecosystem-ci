@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "db119c37c1112c2eaebe0c86697e371a9fb01e27",
+    "commitTimestamp": "2026-11-24T09:31:34Z",
+    "commitMessage": "fix(ssg-md): execute MDX nested in Markdown (#3889)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093/job/138349115145"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093/job/138349115490"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093/job/138349115518"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093/job/138349115531"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093/job/138349115762"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45366391093/job/138349115996"
+      }
+    ]
+  },
+  {
     "commitSha": "7a36d467b9c068a33cb11280f498b85f59d6b4b8",
     "commitTimestamp": "2026-11-23T08:45:26Z",
     "commitMessage": "chore(deps): upgrade solid-js to v2 (#3888)",
