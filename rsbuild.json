@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "5f2d9b84ec73131b13e3a59c7996be6512654138",
+    "commitTimestamp": "2026-11-24T07:35:19Z",
+    "commitMessage": "refactor(core): remove legacy asset conflict message check (#8967)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "plugins",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378084"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378172"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378217"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378219"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378278"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378311"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378325"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378385"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45349278897/job/138291378489"
+      }
+    ]
+  },
+  {
     "commitSha": "723eac81b3491044a802a1c0351c05a3916fd2f8",
     "commitTimestamp": "2026-11-24T07:22:17Z",
     "commitMessage": "feat(deps): update @rspack/core to 2.3.4 (#8966)",
