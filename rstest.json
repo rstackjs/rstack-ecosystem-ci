@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "5a78eac9063b20933b1460cda8f4e48248486c3e",
+    "commitTimestamp": "2026-11-24T03:29:16Z",
+    "commitMessage": "fix(core): filter missing modules before Rsbuild reports build failures (#2146)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195550829"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195550913"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195550946"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195550990"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195551010"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195551075"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195551083"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45319864910/job/138195551094"
+      }
+    ]
+  },
+  {
     "commitSha": "c1123933621fadac7dc12938ce7587628ed3ae68",
     "commitTimestamp": "2026-11-23T11:04:26Z",
     "commitMessage": "fix(core): advance fake timers in rs.waitFor and rs.waitUntil (#2143)",
