@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "446e7efbe962d901eaaa7a66d71b8c407cbe8c4a",
+    "commitTimestamp": "2026-11-24T11:26:29Z",
+    "commitMessage": "docs(website): rename Themes to Presets and reorder sidebar (#3892)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301/job/138411224692"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301/job/138411224781"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301/job/138411224802"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301/job/138411224846"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301/job/138411224899"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45384330301/job/138411225458"
+      }
+    ]
+  },
+  {
     "commitSha": "db119c37c1112c2eaebe0c86697e371a9fb01e27",
     "commitTimestamp": "2026-11-24T09:31:34Z",
     "commitMessage": "fix(ssg-md): execute MDX nested in Markdown (#3889)",
