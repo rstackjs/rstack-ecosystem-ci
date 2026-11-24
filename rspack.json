@@ -1,5 +1,88 @@
 [
   {
+    "commitSha": "84a03cf37a4bb6f7afa8621f8fe103be32ee1ac3",
+    "commitTimestamp": "2026-11-24T06:19:24Z",
+    "commitMessage": "refactor(watcher): route context events through directory subscriptions (#16838)",
+    "author": {
+      "name": "pshu",
+      "email": "stormslowly@gmail.com",
+      "login": "stormslowly"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397242"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397260"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397267"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397272"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397279"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397300"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397304"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397310"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397313"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397333"
+      },
+      {
+        "name": "plugin",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397336"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397348"
+      },
+      {
+        "name": "extension-js",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45340359171/job/138262397357"
+      }
+    ]
+  },
+  {
     "commitSha": "5aafd66b4090f76569d3a42020cb5d371a3bd2df",
     "commitTimestamp": "2026-11-24T06:10:48Z",
     "commitMessage": "fix(config): allow array external item values when validating UMD externals (#16800)",
