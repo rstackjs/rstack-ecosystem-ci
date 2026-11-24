@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "37f1e3506b39dc14d2403408f9348a0a0b94ae1f",
+    "commitTimestamp": "2026-11-24T11:37:50Z",
+    "commitMessage": "fix(e2e): verify nested overview navigation with DOM assertions (#3890)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365/job/138417521508"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365/job/138417521564"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365/job/138417521632"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365/job/138417521634"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365/job/138417521636"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45386165365/job/138417521967"
+      }
+    ]
+  },
+  {
     "commitSha": "699824289269a60b9c07cfccf3d3ddf6243bcd53",
     "commitTimestamp": "2026-11-24T11:33:35Z",
     "commitMessage": "chore(deps): upgrade react-render-to-markdown to 19.2.0 (#3891)",
