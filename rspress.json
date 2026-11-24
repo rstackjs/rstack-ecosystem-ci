@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "699824289269a60b9c07cfccf3d3ddf6243bcd53",
+    "commitTimestamp": "2026-11-24T11:33:35Z",
+    "commitMessage": "chore(deps): upgrade react-render-to-markdown to 19.2.0 (#3891)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477/job/138415947785"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477/job/138415947903"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477/job/138415947958"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477/job/138415948025"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477/job/138415948076"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45385710477/job/138415948116"
+      }
+    ]
+  },
+  {
     "commitSha": "446e7efbe962d901eaaa7a66d71b8c407cbe8c4a",
     "commitTimestamp": "2026-11-24T11:26:29Z",
     "commitMessage": "docs(website): rename Themes to Presets and reorder sidebar (#3892)",
