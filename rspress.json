@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "999684503ff905acfcecc95e9af2cbdefafc6016",
+    "commitTimestamp": "2026-11-25T13:09:00Z",
+    "commitMessage": "fix(theme/Sidebar): keep nested guide lines continuous and reduce indentation (#3893)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617/job/139227791325"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617/job/139227791419"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617/job/139227791448"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617/job/139227791515"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617/job/139227791621"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45620709617/job/139227791800"
+      }
+    ]
+  },
+  {
     "commitSha": "1aa6d1a37d723a38faf46db71b636eb34e35966c",
     "commitTimestamp": "2026-11-25T13:06:23Z",
     "commitMessage": "docs(website): improve agent setup prompts and homepage copy actions (#3897)",
