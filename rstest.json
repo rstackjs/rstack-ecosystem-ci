@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c7f9caa41be90f7b13378219dad2da053cd2b699",
+    "commitTimestamp": "2026-11-25T07:42:25Z",
+    "commitMessage": "perf(core): skip creating compilers for empty projects in non-watch and related runs (#2147)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898641"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898693"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898715"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898815"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898843"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898849"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898862"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45570261981/job/139054898910"
+      }
+    ]
+  },
+  {
     "commitSha": "b10e1290a4cd31a9b59022c1a67b3d964f26912a",
     "commitTimestamp": "2026-11-25T05:40:11Z",
     "commitMessage": "fix(core): derive import.meta.url from __filename in lazy worker chunks (#2150)",
