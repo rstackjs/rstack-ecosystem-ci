@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b10e1290a4cd31a9b59022c1a67b3d964f26912a",
+    "commitTimestamp": "2026-11-25T05:40:11Z",
+    "commitMessage": "fix(core): derive import.meta.url from __filename in lazy worker chunks (#2150)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469057"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469106"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469111"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469114"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469171"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469176"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469218"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45555195699/job/139005469238"
+      }
+    ]
+  },
+  {
     "commitSha": "86161ca8b1f0b82ce963e7d922d538d1cda43b77",
     "commitTimestamp": "2026-11-24T10:38:02Z",
     "commitMessage": "chore(deps): update rsbuild and rspack (#2148)",
