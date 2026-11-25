@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "e93acab38573f27371d2b41e9c85b2a0db19f0b4",
+    "commitTimestamp": "2026-11-25T10:30:42Z",
+    "commitMessage": "fix(browser): match the selected test when rerunning from the UI (#2162)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141131946"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141132152"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141132363"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141132512"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141132579"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141132623"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141132664"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595721414/job/139141140317"
+      }
+    ]
+  },
+  {
     "commitSha": "4f7d178d48d68ac3e89e8166e323359cff1951c5",
     "commitTimestamp": "2026-11-25T09:37:54Z",
     "commitMessage": "perf(core): cap concurrent environment builds by available CPUs (#2153)",
