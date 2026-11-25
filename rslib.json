@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "22f8c93a4558636d75f519aa59b3703b6c6a13db",
+    "commitTimestamp": "2026-11-25T09:00:36Z",
+    "commitMessage": "feat(create-rslib): upgrade Solid support to v2 (#2045)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508627"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508708"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508759"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508782"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508810"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508901"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508930"
+      },
+      {
+        "name": "rsbuild",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45582711735/job/139096508990"
+      }
+    ]
+  },
+  {
     "commitSha": "6988b61e22adb97229b6b87e8b086f8d4e711895",
     "commitTimestamp": "2026-11-25T05:37:35Z",
     "commitMessage": "chore(deps): upgrade pnpm to 12.23.0 and enable v13 lockfile (#2044)",
