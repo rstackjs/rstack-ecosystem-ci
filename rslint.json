@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "160f54c1301d1e4440007510c547aa75a0ce1c0e",
+    "commitTimestamp": "2026-11-25T04:21:53Z",
+    "commitMessage": "fix(typescript): no-unnecessary-condition false positive on ?. after literal index access in optional chain (#2627)",
+    "author": {
+      "name": "Théo Poizat",
+      "email": "hello@zatteo.com",
+      "login": "zatteo"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117081"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117092"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117097"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117103"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117109"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117131"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117165"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117177"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117216"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45546289283/job/138991117401"
+      }
+    ]
+  },
+  {
     "commitSha": "3b4daafc53335c1fecc515322bcf1943d11060b4",
     "commitTimestamp": "2026-11-23T03:42:22Z",
     "commitMessage": "feat(unicorn): add no-canvas-to-image rule (#2620)",
