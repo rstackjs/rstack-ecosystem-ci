@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "c8c3dc8dddb984426cd89e5a5a4147c45fefe92c",
+    "commitTimestamp": "2026-11-25T11:53:23Z",
+    "commitMessage": "chore(ci): clarify new-project bundle report names (#3896)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828/job/139186076730"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828/job/139186076758"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828/job/139186076847"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828/job/139186076965"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828/job/139186076970"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45608648828/job/139186076990"
+      }
+    ]
+  },
+  {
     "commitSha": "4c2548ba829d72321dd950f021eed969c436d44c",
     "commitTimestamp": "2026-11-25T10:59:16Z",
     "commitMessage": "chore(deps): install Rstack agent skills with pnpm (#3899)",
