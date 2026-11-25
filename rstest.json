@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "5e7e487d87c5c08df2da1437be6e1f3ca2b60e63",
+    "commitTimestamp": "2026-11-25T09:23:37Z",
+    "commitMessage": "feat(browser): support options-only screenshot assertions (#2158)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106042938"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106042967"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106042983"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106042984"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106043011"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106043031"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106043206"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45585530461/job/139106043212"
+      }
+    ]
+  },
+  {
     "commitSha": "6026268e31ad96769c1bd1f8090eefa48b30dc66",
     "commitTimestamp": "2026-11-25T09:22:31Z",
     "commitMessage": "perf(browser): pass screenshot assertions on the first matching capture (#2156)",
