@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "2ea48a7dd92020d570273d74d5beff0b9c8fda6d",
+    "commitTimestamp": "2026-11-25T07:20:04Z",
+    "commitMessage": "chore: install Rstack agent skills with pnpm (#8972)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045362783"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363094"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363148"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363176"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363205"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363215"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363217"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363307"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45567374217/job/139045363404"
+      }
+    ]
+  },
+  {
     "commitSha": "087e85408b019cdeb0c1c9209e56b342d79c02fe",
     "commitTimestamp": "2026-11-25T03:01:35Z",
     "commitMessage": "fix(core): enable gzip for more asset types (#8969)",
