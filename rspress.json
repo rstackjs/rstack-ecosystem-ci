@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "4c2548ba829d72321dd950f021eed969c436d44c",
+    "commitTimestamp": "2026-11-25T10:59:16Z",
+    "commitMessage": "chore(deps): install Rstack agent skills with pnpm (#3899)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489/job/139158932022"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489/job/139158932252"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489/job/139158932340"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489/job/139158932417"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489/job/139158932438"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45600813489/job/139158932553"
+      }
+    ]
+  },
+  {
     "commitSha": "eb3d9ad9ac3fd196cc8c364eba4fa6783581bb01",
     "commitTimestamp": "2026-11-25T10:36:16Z",
     "commitMessage": "chore(deps): upgrade pnpm to 12.23.0 (#3895)",
