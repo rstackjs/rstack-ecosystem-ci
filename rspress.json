@@ -48,6 +48,54 @@
     ]
   },
   {
+    "commitSha": "268a2f4623f80d1f2d486f4cf9b0db9b13ee8d11",
+    "commitTimestamp": "2026-11-25T12:39:40Z",
+    "commitMessage": "docs(showcase): add Aora Bot to showcase (#3901)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723/job/139211344867"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723/job/139211344921"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723/job/139211345045"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723/job/139211345129"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723/job/139211345201"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45615971723/job/139211345207"
+      }
+    ]
+  },
+  {
     "commitSha": "c8c3dc8dddb984426cd89e5a5a4147c45fefe92c",
     "commitTimestamp": "2026-11-25T11:53:23Z",
     "commitMessage": "chore(ci): clarify new-project bundle report names (#3896)",
