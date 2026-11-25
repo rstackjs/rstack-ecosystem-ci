@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "2f0da76e72002d4bcde1aef6534c237ff9449fd8",
+    "commitTimestamp": "2026-11-25T12:43:24Z",
+    "commitMessage": "docs: add add-showcase skill (#3900)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560/job/139213386435"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560/job/139213386468"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560/job/139213386515"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560/job/139213386633"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560/job/139213386773"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45616566560/job/139213386811"
+      }
+    ]
+  },
+  {
     "commitSha": "c8c3dc8dddb984426cd89e5a5a4147c45fefe92c",
     "commitTimestamp": "2026-11-25T11:53:23Z",
     "commitMessage": "chore(ci): clarify new-project bundle report names (#3896)",
