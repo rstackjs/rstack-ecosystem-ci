@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "58dffaa2a0247f60fa1dd479ffc53460c4f14bfb",
+    "commitTimestamp": "2026-11-25T10:31:49Z",
+    "commitMessage": "chore: install Rstack agent skills with pnpm (#2046)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142081744"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142081758"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142081892"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142082111"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142082211"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142082258"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142082327"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45595995311/job/139142082370"
+      }
+    ]
+  },
+  {
     "commitSha": "6988b61e22adb97229b6b87e8b086f8d4e711895",
     "commitTimestamp": "2026-11-25T05:37:35Z",
     "commitMessage": "chore(deps): upgrade pnpm to 12.23.0 and enable v13 lockfile (#2044)",
