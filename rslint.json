@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "08b84fd0b38f30b84219292f9b589e3daa620dff",
+    "commitTimestamp": "2026-11-25T10:36:39Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 12.23.0 (#2632)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301218"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301256"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301283"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301304"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301376"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301389"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301406"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301414"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301416"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597108685/job/139168301525"
+      }
+    ]
+  },
+  {
     "commitSha": "616c51fed9bc3253901a0924c18a3fa788541617",
     "commitTimestamp": "2026-11-25T06:56:05Z",
     "commitMessage": "chore(deps): update module golang.org/x/sync to v0.25.0 (#2623)",
