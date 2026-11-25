@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4f7d178d48d68ac3e89e8166e323359cff1951c5",
+    "commitTimestamp": "2026-11-25T09:37:54Z",
+    "commitMessage": "perf(core): cap concurrent environment builds by available CPUs (#2153)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112557875"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112557907"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112558032"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112558088"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112558122"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112558248"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112558267"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45587442592/job/139112558373"
+      }
+    ]
+  },
+  {
     "commitSha": "5e7e487d87c5c08df2da1437be6e1f3ca2b60e63",
     "commitTimestamp": "2026-11-25T09:23:37Z",
     "commitMessage": "feat(browser): support options-only screenshot assertions (#2158)",
