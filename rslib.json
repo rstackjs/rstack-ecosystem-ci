@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "6988b61e22adb97229b6b87e8b086f8d4e711895",
+    "commitTimestamp": "2026-11-25T05:37:35Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 12.23.0 and enable v13 lockfile (#2044)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538034"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538087"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538155"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538156"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538224"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538259"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538330"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45554915366/job/139004538357"
+      }
+    ]
+  },
+  {
     "commitSha": "649c4f740ecce16389544ae2285488c4a9756aee",
     "commitTimestamp": "2026-11-24T11:28:59Z",
     "commitMessage": "feat(deps): upgrade Rsbuild to 2.3.4 (#2043)",
