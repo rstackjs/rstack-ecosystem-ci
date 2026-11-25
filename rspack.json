@@ -83,6 +83,89 @@
     ]
   },
   {
+    "commitSha": "e85a0e0446b3c8d463d504d7dbbc0f4fbb02df8c",
+    "commitTimestamp": "2026-11-25T03:25:47Z",
+    "commitMessage": "fix(core): strip single-line, multi-line, and empty error headers in cutOffMessage (#16801)",
+    "author": {
+      "name": "Ragib MRB",
+      "email": "ragib.mrb@gmail.com",
+      "login": "ragib-mrb"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspack",
+      "name": "rspack"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612017"
+      },
+      {
+        "name": "_selftest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612029"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612069"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612074"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612090"
+      },
+      {
+        "name": "devserver",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612100"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612119"
+      },
+      {
+        "name": "plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612127"
+      },
+      {
+        "name": "extension-js",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612148"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612151"
+      },
+      {
+        "name": "rsbuild-rsc-plugin",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612165"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612230"
+      },
+      {
+        "name": "rsbuild",
+        "status": "cancelled",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45540476514/job/138957612239"
+      }
+    ]
+  },
+  {
     "commitSha": "f6a2f876d14a7a5bb4f94353e1dfce7b9d31d1c3",
     "commitTimestamp": "2026-11-25T02:58:11Z",
     "commitMessage": "fix(binding): preserve JavaScript stacks for module graph errors (#16853)",
