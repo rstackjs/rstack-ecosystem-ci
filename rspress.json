@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "eb3d9ad9ac3fd196cc8c364eba4fa6783581bb01",
+    "commitTimestamp": "2026-11-25T10:36:16Z",
+    "commitMessage": "chore(deps): upgrade pnpm to 12.23.0 (#3895)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953/job/139148127024"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953/job/139148127430"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953/job/139148127443"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953/job/139148127573"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953/job/139148127606"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45597718953/job/139148127775"
+      }
+    ]
+  },
+  {
     "commitSha": "b241e95c5511b66179649ddb135dba76a70868dc",
     "commitTimestamp": "2026-11-25T09:45:18Z",
     "commitMessage": "fix(theme/HomeFeature): respect reduced motion (#3894)",
