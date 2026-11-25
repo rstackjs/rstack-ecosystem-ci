@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "b241e95c5511b66179649ddb135dba76a70868dc",
+    "commitTimestamp": "2026-11-25T09:45:18Z",
+    "commitMessage": "fix(theme/HomeFeature): respect reduced motion (#3894)",
+    "author": {
+      "name": "steve_cooks",
+      "email": "chauhanjatin0404@gmail.com",
+      "login": "jatinninety9"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465/job/139125161251"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465/job/139125161309"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465/job/139125161352"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465/job/139125161396"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465/job/139125161406"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45591081465/job/139125161455"
+      }
+    ]
+  },
+  {
     "commitSha": "37f1e3506b39dc14d2403408f9348a0a0b94ae1f",
     "commitTimestamp": "2026-11-24T11:37:50Z",
     "commitMessage": "fix(e2e): verify nested overview navigation with DOM assertions (#3890)",
