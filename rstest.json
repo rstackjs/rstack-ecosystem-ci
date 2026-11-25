@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "609a9eaaf85b98b33dcc00a8573a235182f6c024",
+    "commitTimestamp": "2026-11-25T08:52:36Z",
+    "commitMessage": "fix(browser): increase the default screenshot stability timeout (#2154)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088067912"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088067997"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088068001"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088068116"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088068200"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088068201"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088068202"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45580208818/job/139088068274"
+      }
+    ]
+  },
+  {
     "commitSha": "c7f9caa41be90f7b13378219dad2da053cd2b699",
     "commitTimestamp": "2026-11-25T07:42:25Z",
     "commitMessage": "perf(core): skip creating compilers for empty projects in non-watch and related runs (#2147)",
