@@ -52,7 +52,6 @@ for (const pkg of [...packages].reverse()) {
       '--access=public',
       '--tag=ecosystem-ci',
       `--registry=${registry}`,
-      `--@rslint:registry=${registry}`,
     ],
     { cwd: pkg.directory, stdio: 'inherit' },
   );
