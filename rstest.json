@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "642d91d52773de45babe0aaab75cefd355a61473",
+    "commitTimestamp": "2026-11-26T08:21:28Z",
+    "commitMessage": "perf(core): emit the ESM timers shim only when needed (#2173)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113319"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113379"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113440"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113459"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113472"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113543"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113598"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45782499405/job/139781113785"
+      }
+    ]
+  },
+  {
     "commitSha": "f3498ac27021e66b259aa6d100020ad611bdd569",
     "commitTimestamp": "2026-11-26T06:57:43Z",
     "commitMessage": "feat(browser): show test results in the headed UI (#2170)",
