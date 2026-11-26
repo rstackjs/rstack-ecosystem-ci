@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "df376ca1d948e56bcf578faae9d6583f261d9de2",
+    "commitTimestamp": "2026-11-26T06:05:54Z",
+    "commitMessage": "feat(browser): compare screenshot mismatches in the headed UI (#2168)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514619"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514679"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514681"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514694"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514726"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514764"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514775"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45765869580/job/139726514818"
+      }
+    ]
+  },
+  {
     "commitSha": "b602e0ef7b41252da10e5b441419b8e7ddd2ded6",
     "commitTimestamp": "2026-11-26T02:56:18Z",
     "commitMessage": "fix(browser): report missing read-only screenshot references before capture (#2160)",
