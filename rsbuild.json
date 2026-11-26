@@ -126,6 +126,69 @@
     ]
   },
   {
+    "commitSha": "ff029c5a1e9caf177f4fe2c8b13849ab0039fcf1",
+    "commitTimestamp": "2026-11-26T10:39:25Z",
+    "commitMessage": "chore(build): remove redundant Rspack runtime mode config (#8980)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214401"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214410"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214413"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214453"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214458"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214475"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214497"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214607"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803399401/job/139852214763"
+      }
+    ]
+  },
+  {
     "commitSha": "cf4b425b1285c2b852e07dc289a43856b99dc1fc",
     "commitTimestamp": "2026-11-26T09:05:27Z",
     "commitMessage": "chore(e2e): use block comment for rslint-disable directive (#8979)",
