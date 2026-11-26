@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c66c13838c8dcafe5463b0c4407c67d0279fb2dc",
+    "commitTimestamp": "2026-11-26T02:53:45Z",
+    "commitMessage": "feat(browser): allow combined screenshot pixel limits (#2166)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660226884"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227102"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227137"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227223"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227239"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227303"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227308"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745439950/job/139660227436"
+      }
+    ]
+  },
+  {
     "commitSha": "44f21c2395b7aa3a5900f216e2e2210741012106",
     "commitTimestamp": "2026-11-26T02:53:13Z",
     "commitMessage": "fix(browser): use screenshot tolerance for stability checks (#2159)",
