@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "f4c2c3282d0f2a0aa3871fe2e6fb79184feb0ae4",
+    "commitTimestamp": "2026-11-26T10:41:49Z",
+    "commitMessage": "fix(core): retain in-memory assets during rapid rebuilds (#8978)",
+    "author": {
+      "name": "Jiahan Chen",
+      "email": "chenjiahan.jait@bytedance.com",
+      "login": "chenjiahan"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524436"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524529"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524536"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524653"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524709"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524722"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524734"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524795"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803773604/job/139853524827"
+      }
+    ]
+  },
+  {
     "commitSha": "cf4b425b1285c2b852e07dc289a43856b99dc1fc",
     "commitTimestamp": "2026-11-26T09:05:27Z",
     "commitMessage": "chore(e2e): use block comment for rslint-disable directive (#8979)",
