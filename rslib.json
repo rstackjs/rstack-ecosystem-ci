@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c615f7225ca880d40a302b27da36f11e32e4a97e",
+    "commitTimestamp": "2026-11-26T09:46:43Z",
+    "commitMessage": "release: v1.1.0 (#2049)",
+    "author": {
+      "name": "Timeless0911",
+      "email": "daichenwei@bytedance.com",
+      "login": "Timeless0911"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281598"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281605"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281686"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281727"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281729"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281815"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281848"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45795881909/job/139826281929"
+      }
+    ]
+  },
+  {
     "commitSha": "a83c0ba76d2f73f2b1b9e9fee19d46c01b8e96be",
     "commitTimestamp": "2026-11-26T03:48:47Z",
     "commitMessage": "chore(deps): update dependency @testing-library/jest-dom to v8 (#2047)",
