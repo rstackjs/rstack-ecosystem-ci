@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "2e69ae2498b444199a6b67a5771c1b5dfa48c5e6",
+    "commitTimestamp": "2026-11-26T09:09:54Z",
+    "commitMessage": "perf(browser): skip decoding byte-identical screenshot frames (#2175)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516631"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516680"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516695"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516696"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516758"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516799"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516823"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45789461663/job/139804516867"
+      }
+    ]
+  },
+  {
     "commitSha": "642d91d52773de45babe0aaab75cefd355a61473",
     "commitTimestamp": "2026-11-26T08:21:28Z",
     "commitMessage": "perf(core): emit the ESM timers shim only when needed (#2173)",
