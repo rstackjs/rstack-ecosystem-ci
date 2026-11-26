@@ -68,6 +68,74 @@
     ]
   },
   {
+    "commitSha": "ba05fb09b95b596294ab73c8c460a6ab6ecccb91",
+    "commitTimestamp": "2026-11-26T01:51:24Z",
+    "commitMessage": "chore(deps): update module github.com/fxamacker/cbor/v2 to v2.10.0 (#2622)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317635"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317647"
+      },
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317666"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317669"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317670"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317677"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317685"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317694"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317701"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738566852/job/139655317741"
+      }
+    ]
+  },
+  {
     "commitSha": "901000b9a0f3fc3fa4fe216cc3e0e70ac78b7b2f",
     "commitTimestamp": "2026-11-26T01:50:33Z",
     "commitMessage": "fix(no-restricted-syntax): match TypeScript assertion expression selectors (#2629)",
