@@ -1,5 +1,53 @@
 [
   {
+    "commitSha": "21f16c8d08d1d79e30528c307a4a1201beb93914",
+    "commitTimestamp": "2026-11-26T09:14:50Z",
+    "commitMessage": "Release v2.1.5 (#3902)",
+    "author": {
+      "name": "Soon",
+      "email": "sooniter@gmail.com",
+      "login": "SoonIter"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rspress",
+      "name": "rspress"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060/job/139807152997"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060/job/139807153095"
+      },
+      {
+        "name": "rspress-plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060/job/139807153106"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060/job/139807153159"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060/job/139807153189"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45790245060/job/139807153261"
+      }
+    ]
+  },
+  {
     "commitSha": "999684503ff905acfcecc95e9af2cbdefafc6016",
     "commitTimestamp": "2026-11-25T13:09:00Z",
     "commitMessage": "fix(theme/Sidebar): keep nested guide lines continuous and reduce indentation (#3893)",
