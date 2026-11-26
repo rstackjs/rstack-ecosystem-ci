@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "973643f60ecf8502cff7eeadb8c5950820e4f8e8",
+    "commitTimestamp": "2026-11-26T09:40:19Z",
+    "commitMessage": "perf(core): emit Node federation runtime shims per project (#2176)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820414458"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820414820"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820414844"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820414914"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820414923"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820414938"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820415045"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45794160447/job/139820415116"
+      }
+    ]
+  },
+  {
     "commitSha": "2e69ae2498b444199a6b67a5771c1b5dfa48c5e6",
     "commitTimestamp": "2026-11-26T09:09:54Z",
     "commitMessage": "perf(browser): skip decoding byte-identical screenshot frames (#2175)",
