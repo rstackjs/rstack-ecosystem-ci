@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "a83c0ba76d2f73f2b1b9e9fee19d46c01b8e96be",
+    "commitTimestamp": "2026-11-26T03:48:47Z",
+    "commitMessage": "chore(deps): update dependency @testing-library/jest-dom to v8 (#2047)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslib",
+      "name": "rslib"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236588"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236615"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236647"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236648"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236688"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236741"
+      },
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680236851"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45751535542/job/139680237519"
+      }
+    ]
+  },
+  {
     "commitSha": "58dffaa2a0247f60fa1dd479ffc53460c4f14bfb",
     "commitTimestamp": "2026-11-25T10:31:49Z",
     "commitMessage": "chore: install Rstack agent skills with pnpm (#2046)",
