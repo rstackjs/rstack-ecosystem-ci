@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "fe4e6b84779d90f997fcc8984ecd3fdada57e04e",
+    "commitTimestamp": "2026-11-26T01:51:48Z",
+    "commitMessage": "chore(deps): update module golang.org/x/sys to v0.50.0 (#2624)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304849"
+      },
+      {
+        "name": "rstest",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304885"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304888"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304908"
+      },
+      {
+        "name": "rspress",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304912"
+      },
+      {
+        "name": "modernjs",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304927"
+      },
+      {
+        "name": "rspack",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304936"
+      },
+      {
+        "name": "rslib",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304950"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653304971"
+      },
+      {
+        "name": "examples",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45738607402/job/139653305095"
+      }
+    ]
+  },
+  {
     "commitSha": "3dff0846153d349e454fe908df425c39bf4187a9",
     "commitTimestamp": "2026-11-25T12:06:33Z",
     "commitMessage": "chore(deps): install Rstack agent skills with pnpm (#2633)",
