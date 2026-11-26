@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "981c3a342b219d965441459bc87b9aa7b873c555",
+    "commitTimestamp": "2026-11-26T10:41:23Z",
+    "commitMessage": "feat(browser): support multiple headed instances and mixed headed/headless watch (#2178)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853269836"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853269899"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853270077"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853270083"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853270127"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853270158"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853270183"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45803702628/job/139853270285"
+      }
+    ]
+  },
+  {
     "commitSha": "362c03af7c5505f605129243538d40e3adff5cc3",
     "commitTimestamp": "2026-11-26T09:55:35Z",
     "commitMessage": "perf(browser): reuse decoded read-only screenshot references (#2177)",
