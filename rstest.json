@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "b602e0ef7b41252da10e5b441419b8e7ddd2ded6",
+    "commitTimestamp": "2026-11-26T02:56:18Z",
+    "commitMessage": "fix(browser): report missing read-only screenshot references before capture (#2160)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101581"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101793"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101795"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101813"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101858"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101885"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101953"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45745702009/job/139661101958"
+      }
+    ]
+  },
+  {
     "commitSha": "c66c13838c8dcafe5463b0c4407c67d0279fb2dc",
     "commitTimestamp": "2026-11-26T02:53:45Z",
     "commitMessage": "feat(browser): allow combined screenshot pixel limits (#2166)",
