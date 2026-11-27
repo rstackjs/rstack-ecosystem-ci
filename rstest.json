@@ -58,6 +58,64 @@
     ]
   },
   {
+    "commitSha": "32b83172f33bc72d83c5f615b2d5f1dbc20e7fd9",
+    "commitTimestamp": "2026-11-27T09:06:04Z",
+    "commitMessage": "refactor(coverage): remove Rsbuild v1 rule fallback (#2191)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838108"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838240"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838262"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838264"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838273"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838279"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838287"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970908011/job/140410838349"
+      }
+    ]
+  },
+  {
     "commitSha": "7ad0c6720e73b96993f63e11a9b8850ea2af3a08",
     "commitTimestamp": "2026-11-27T07:51:06Z",
     "commitMessage": "feat(browser): allow preserving failure screenshots across runs (#2187)",
