@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "371ddb41bc31fb0a7219c6fe0549aca1fe54b6f0",
+    "commitTimestamp": "2026-11-27T03:48:06Z",
+    "commitMessage": "chore(deps): update dependency @rslib/core to ~1.1.0 (#2182)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120540"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120580"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120598"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120646"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120659"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120727"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120745"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936280061/job/140300120774"
+      }
+    ]
+  },
+  {
     "commitSha": "5cc370a0cda2c8d4c154d063921006faa0fe4316",
     "commitTimestamp": "2026-11-27T03:40:31Z",
     "commitMessage": "feat(browser): support t/p/a watch filter shortcuts in browser mode (#2180)",
