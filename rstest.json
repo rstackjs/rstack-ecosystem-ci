@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "4513f9f871ba22fc1c8379a076371fe81e30a8fd",
+    "commitTimestamp": "2026-11-27T06:19:23Z",
+    "commitMessage": "fix(adapters): support void return in modify*Config callbacks (#2183)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346993975"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994052"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994066"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994130"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994155"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994246"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994254"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45951125059/job/140346994390"
+      }
+    ]
+  },
+  {
     "commitSha": "371ddb41bc31fb0a7219c6fe0549aca1fe54b6f0",
     "commitTimestamp": "2026-11-27T03:48:06Z",
     "commitMessage": "chore(deps): update dependency @rslib/core to ~1.1.0 (#2182)",
