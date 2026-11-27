@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "01ce0f166360cc2b45bcdebc8fe1fc8157376c7f",
+    "commitTimestamp": "2026-11-27T09:49:13Z",
+    "commitMessage": "chore(ci): skip lint package build on docs-only PRs and enable coverage-v8 publish checks (#2193)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431308864"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431308902"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431308998"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431309013"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431309014"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431309023"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431309041"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45977055161/job/140431309155"
+      }
+    ]
+  },
+  {
     "commitSha": "9a68bd4581139434d0d4f40425b9c57773d8c97f",
     "commitTimestamp": "2026-11-27T09:06:24Z",
     "commitMessage": "feat(browser)!: add timestamps to failure screenshot filenames (#2188)",
