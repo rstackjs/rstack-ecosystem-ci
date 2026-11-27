@@ -1,5 +1,73 @@
 [
   {
+    "commitSha": "b72bb82c4a6825c12aec7e309d2f6ea96bcf469b",
+    "commitTimestamp": "2026-11-27T07:49:26Z",
+    "commitMessage": "perf(typescript/no-floating-promises): eliminate redundant type queries (#2640)",
+    "author": {
+      "name": "senze.fan",
+      "email": "151665030@qq.com",
+      "login": "fansenze"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415231"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415265"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415266"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415282"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415286"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415313"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415324"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415351"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415398"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45961142953/job/140392415529"
+      }
+    ]
+  },
+  {
     "commitSha": "c8ffd2b22bc02b2b66b8bcbce6050bfafce99ef2",
     "commitTimestamp": "2026-11-27T04:21:26Z",
     "commitMessage": "perf(no-unsafe-assignment): skip type queries for guaranteed safe senders (#2638)",
