@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "8b03b8dd407807b938d833af688e87a4c21395bb",
+    "commitTimestamp": "2026-11-27T10:22:52Z",
+    "commitMessage": "feat(cli): support --browser.screenshotFailures.clean (#2192)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368",
+    "overallStatus": "failure",
+    "suites": [
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384173"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384314"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "failure",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384374"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384411"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384429"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384453"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384463"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45981827368/job/140447384487"
+      }
+    ]
+  },
+  {
     "commitSha": "01ce0f166360cc2b45bcdebc8fe1fc8157376c7f",
     "commitTimestamp": "2026-11-27T09:49:13Z",
     "commitMessage": "chore(ci): skip lint package build on docs-only PRs and enable coverage-v8 publish checks (#2193)",
