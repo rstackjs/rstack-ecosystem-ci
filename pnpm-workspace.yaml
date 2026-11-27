@@ -8,3 +8,18 @@ allowBuilds:
   esbuild: true
   core-js: false
   workerd: true
+
+skills:
+  dirs:
+    - .agents/skills
+
+permissions:
+  rstack:
+    skills:
+      - rstack-cli-docs
+
+minimumReleaseAgeExclude:
+  - '@rslib/*'
+  - '@rstackjs/*'
+  - 'rsbuild-plugin-*'
+  - rstack
