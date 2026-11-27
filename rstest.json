@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "c2ab9e28949efc1ecd48dbf4ee1d096c503842c8",
+    "commitTimestamp": "2026-11-27T07:39:04Z",
+    "commitMessage": "feat(browser): align Locator and expect.element APIs with Playwright 1.52 (#2186)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375143631"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375143779"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375143832"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375143840"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375143890"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375143941"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375144028"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45959945234/job/140375144259"
+      }
+    ]
+  },
+  {
     "commitSha": "1e528f63c992a2a2cd91611f0a92ae24b89112a9",
     "commitTimestamp": "2026-11-27T07:15:30Z",
     "commitMessage": "fix(browser): keep failure screenshots across retries (#2185)",
