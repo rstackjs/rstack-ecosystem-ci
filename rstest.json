@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "1e528f63c992a2a2cd91611f0a92ae24b89112a9",
+    "commitTimestamp": "2026-11-27T07:15:30Z",
+    "commitMessage": "fix(browser): keep failure screenshots across retries (#2185)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435037"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435072"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435103"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435147"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435193"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435202"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435234"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45957238200/job/140366435238"
+      }
+    ]
+  },
+  {
     "commitSha": "4513f9f871ba22fc1c8379a076371fe81e30a8fd",
     "commitTimestamp": "2026-11-27T06:19:23Z",
     "commitMessage": "fix(adapters): support void return in modify*Config callbacks (#2183)",
