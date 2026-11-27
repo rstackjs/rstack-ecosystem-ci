@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "7fdddbf39828ce1299d0041773184b1695baa031",
+    "commitTimestamp": "2026-11-27T11:00:06Z",
+    "commitMessage": "perf(core): avoid scanning mock registries when installing browser chunks (#2194)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464500782"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464500863"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464500956"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464500993"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464501039"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464501069"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464501155"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45986810090/job/140464501188"
+      }
+    ]
+  },
+  {
     "commitSha": "8b03b8dd407807b938d833af688e87a4c21395bb",
     "commitTimestamp": "2026-11-27T10:22:52Z",
     "commitMessage": "feat(cli): support --browser.screenshotFailures.clean (#2192)",
