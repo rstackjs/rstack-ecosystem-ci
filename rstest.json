@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "9a68bd4581139434d0d4f40425b9c57773d8c97f",
+    "commitTimestamp": "2026-11-27T09:06:24Z",
+    "commitMessage": "feat(browser)!: add timestamps to failure screenshot filenames (#2188)",
+    "author": {
+      "name": "9aoy",
+      "email": "9aoyuao@gmail.com",
+      "login": "9aoy"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979090"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979208"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979217"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979277"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979284"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979322"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979443"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45970949875/job/140410979473"
+      }
+    ]
+  },
+  {
     "commitSha": "7ad0c6720e73b96993f63e11a9b8850ea2af3a08",
     "commitTimestamp": "2026-11-27T07:51:06Z",
     "commitMessage": "feat(browser): allow preserving failure screenshots across runs (#2187)",
