@@ -1,5 +1,28 @@
 [
   {
+    "commitSha": "46d94262594c5f453f9fb7c1a25b16cb030a0dcf",
+    "commitTimestamp": "2026-11-27T03:45:28Z",
+    "commitMessage": "chore(deps): update dependency tslib to v2.9.1 (#2174)",
+    "author": {
+      "name": "renovate[bot]",
+      "email": "29139614+renovate[bot]@users.noreply.github.com",
+      "login": "renovate[bot]"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsdoctor",
+      "name": "rsdoctor"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936049517",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45936049517/job/140299391335"
+      }
+    ]
+  },
+  {
     "commitSha": "85d2c4ce1d8aaca3527b12ee61253ac9ea7e2246",
     "commitTimestamp": "2026-11-26T07:00:44Z",
     "commitMessage": "fix(core): avoid E1009 false positives for resolved ESM entries (#2183)",
