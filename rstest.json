@@ -1,5 +1,63 @@
 [
   {
+    "commitSha": "5cc370a0cda2c8d4c154d063921006faa0fe4316",
+    "commitTimestamp": "2026-11-27T03:40:31Z",
+    "commitMessage": "feat(browser): support t/p/a watch filter shortcuts in browser mode (#2180)",
+    "author": {
+      "name": "Max",
+      "email": "fi3ework@gmail.com",
+      "login": "fi3ework"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rstest",
+      "name": "rstest"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297876936"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297876940"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297876962"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297876993"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297877022"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297877026"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297877030"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/45935568215/job/140297877046"
+      }
+    ]
+  },
+  {
     "commitSha": "981c3a342b219d965441459bc87b9aa7b873c555",
     "commitTimestamp": "2026-11-26T10:41:23Z",
     "commitMessage": "feat(browser): support multiple headed instances and mixed headed/headless watch (#2178)",
