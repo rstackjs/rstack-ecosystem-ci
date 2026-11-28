@@ -1,5 +1,68 @@
 [
   {
+    "commitSha": "f3bbc0c65678bff5563df2484f786560a7d5ee74",
+    "commitTimestamp": "2026-11-28T07:59:59Z",
+    "commitMessage": "fix(core): override server.cors.origin when merging config (#8997)",
+    "author": {
+      "name": "Gavin",
+      "email": "nbsawz@gmail.com",
+      "login": "yuxino"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rsbuild",
+      "name": "rsbuild"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "lynx-stack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701346"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701347"
+      },
+      {
+        "name": "rsbuild-plugin-cloudflare",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701358"
+      },
+      {
+        "name": "plugins",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701377"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701385"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701393"
+      },
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701409"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701452"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46123761423/job/140913701479"
+      }
+    ]
+  },
+  {
     "commitSha": "fbcd35c87339a69f796d7bce20d5493a77358031",
     "commitTimestamp": "2026-11-27T09:29:58Z",
     "commitMessage": "refactor(core): separate CSS transforms from css-loader setup (#8994)",
