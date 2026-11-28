@@ -68,6 +68,74 @@
     ]
   },
   {
+    "commitSha": "341132234532a03ab2cb61fe86c405663e9f091f",
+    "commitTimestamp": "2026-11-28T06:02:07Z",
+    "commitMessage": "perf(utils): cache TypeScriptProjectDiscovery ancestor chains and project references (#2644)",
+    "author": {
+      "name": "senze.fan",
+      "email": "151665030@qq.com",
+      "login": "fansenze"
+    },
+    "repository": {
+      "fullName": "web-infra-dev/rslint",
+      "name": "rslint"
+    },
+    "workflowRunUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961",
+    "overallStatus": "success",
+    "suites": [
+      {
+        "name": "rspress",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358300"
+      },
+      {
+        "name": "rsbuild",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358338"
+      },
+      {
+        "name": "rslib",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358339"
+      },
+      {
+        "name": "rstack-cli",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358343"
+      },
+      {
+        "name": "rstest",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358352"
+      },
+      {
+        "name": "rsdoctor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358362"
+      },
+      {
+        "name": "rstack-editor",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358393"
+      },
+      {
+        "name": "examples",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358409"
+      },
+      {
+        "name": "modernjs",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358419"
+      },
+      {
+        "name": "rspack",
+        "status": "success",
+        "logUrl": "https://github.com/rstackjs/rstack-ecosystem-ci/actions/runs/46114758961/job/140897358479"
+      }
+    ]
+  },
+  {
     "commitSha": "6de7a9f8b624e9e369b4558eb8c56bc875d9eaca",
     "commitTimestamp": "2026-11-28T01:06:28Z",
     "commitMessage": "perf(vfs): track source BOM during ReadFile and preserve BOMSource (#2641)",
